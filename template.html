@@ -314,7 +314,6 @@ a { color: var(--ink-fg); }
   <nav class="wrap tabs" aria-label="Sections">
     <a href="#week" data-view="week">This week</a>
     <a href="#calendar" data-view="calendar">Calendar</a>
-    <a href="#join" data-view="join">Join anytime</a>
     <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
   </nav>
 </header>
@@ -418,7 +417,7 @@ a { color: var(--ink-fg); }
   function sset(k, v) { try { localStorage.setItem('tsc.' + k, JSON.stringify(v)); } catch (err) { /* storage unavailable */ } }
   var marks = sget('marks', {}) || {};
 
-  var VIEWS = ['week', 'calendar', 'join', 'plan'];
+  var VIEWS = ['week', 'calendar', 'plan'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
   var state = { city: sget('city', 'durham'), view: 'week', span: 7, f: blankFilters(), calSel: TODAY, calMonth: null };
   if (!CITY[state.city]) state.city = 'durham';
@@ -543,12 +542,9 @@ a { color: var(--ink-fg); }
 
   function renderIntro() {
     var city = CITY[state.city], t;
-    if (state.view === 'join') t = ['Join anytime', 'Programs, classes and clubs that need a sign-up first.'];
-    else if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
+    if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
     else t = ['What\u2019s on in ' + city, 'Recurring things to do with people, checked every week.'];
-    var cta = (state.view === 'week' || state.view === 'calendar')
-      ? '<div class="cta"><button type="button" class="btn sm primary" data-wiz="1">' + I.spark + 'Help me choose</button><button type="button" class="quiet" data-sub="1">' + I.cal + 'Sync to my calendar</button></div>'
-      : '';
+    var cta = '';
     $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1><p>' + esc(t[1]) + '</p></div>' + cta;
   }
 
@@ -557,21 +553,11 @@ a { color: var(--ink-fg); }
     var el = $('filters');
     el.hidden = !show;
     if (!show) { el.innerHTML = ''; return; }
-    function q(key, label) { return '<button type="button" class="fchip" data-q="' + key + '" aria-pressed="' + !!f[key] + '">' + esc(label) + '</button>'; }
-    var hiddenOn = (f.solo ? 1 : 0) + (f.weeknight ? 1 : 0) + (f.weekend ? 1 : 0) +
-      Object.keys(f.cats).filter(function (c) { return c !== 'volunteer'; }).length;
-    var h = q('show', 'Just show up') + q('free', 'Free') +
-      '<button type="button" class="fchip give" data-cat="volunteer" aria-pressed="' + !!f.cats.volunteer + '">' + I.heart + 'Volunteer</button>' +
-      '<button type="button" class="fchip more" data-more="1" aria-expanded="' + !!state.more + '">' +
-      (state.more ? 'Fewer filters' : 'More filters' + (hiddenOn ? ' (' + hiddenOn + ')' : '')) + '</button>';
-    if (anyFilter()) h += '<button type="button" class="fclear" data-clear="1">Clear</button>';
-    if (state.more) {
-      h += '<span class="fbreak" aria-hidden="true"></span>' + q('solo', 'Good to go alone') + q('weeknight', 'Weeknights') + q('weekend', 'Weekends');
-      GROUPS.forEach(function (g) {
-        if (g[0] === 'volunteer') return;
-        h += '<button type="button" class="fchip" data-cat="' + g[0] + '" aria-pressed="' + !!f.cats[g[0]] + '">' + esc(g[1]) + '</button>';
-      });
-    }
+    var h = '<button type="button" class="fchip" data-cat="" aria-pressed="' + !catCount() + '">Everything</button>';
+    GROUPS.forEach(function (g) {
+      h += '<button type="button" class="fchip' + (g[0] === 'volunteer' ? ' give' : '') + '" data-cat="' + g[0] + '" aria-pressed="' + !!f.cats[g[0]] + '">' +
+        (g[0] === 'volunteer' ? I.heart : '') + esc(g[1]) + '</button>';
+    });
     el.innerHTML = h;
   }
 
@@ -707,7 +693,6 @@ a { color: var(--ink-fg); }
   function renderView() {
     var v = $('view');
     if (state.view === 'calendar') v.innerHTML = renderCalendar();
-    else if (state.view === 'join') v.innerHTML = renderJoin();
     else if (state.view === 'plan') v.innerHTML = renderPlan();
     else v.innerHTML = renderWeek();
   }
@@ -997,8 +982,9 @@ a { color: var(--ink-fg); }
     if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
     if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-cat]'))) {
-      var c = b.dataset.cat;
-      if (state.f.cats[c]) delete state.f.cats[c]; else state.f.cats[c] = true;
+      var c = b.dataset.cat, wasOn = !!state.f.cats[c];
+      state.f.cats = {};
+      if (c && !wasOn) state.f.cats[c] = true;
       renderFilters(); renderView(); return;
     }
     if ((b = t.closest('[data-clear]'))) { state.f = blankFilters(); renderFilters(); renderView(); return; }

@@ -331,6 +331,8 @@ def main():
     for e in events:
         occ = occurrences(e, today, hol)
         e["_occ"] = occ
+        if e["kind"] == "program":
+            continue  # join-first programs stay in the data but are not shown
         free, short_cost = cost_info(e.get("cost"))
         c = {k: v for k, v in e.items() if not k.startswith("_") and k not in
              ("recurrence", "dates", "except", "schedule", "tier", "hold", "holdReason", "holdSince", "evidence")}
