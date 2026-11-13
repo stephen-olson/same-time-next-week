@@ -549,7 +549,7 @@ a { color: var(--ink-fg); }
   function renderIntro() {
     var city = CITY[state.city], t;
     if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
-    else t = ['What\u2019s on in ' + city, 'Recurring things to do with people, checked every week.'];
+    else t = ['Things to do in ' + city, 'Recurring things to do with people, checked every week.'];
     var cta = '';
     $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1><p>' + esc(t[1]) + '</p></div>' + cta;
   }
