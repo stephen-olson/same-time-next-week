@@ -213,14 +213,14 @@ def listing_urls(e):
 CTX = ssl.create_default_context()
 
 
-def fetch(url):
+def fetch(url, tries=2):
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
     })
     try:
-        with urllib.request.urlopen(req, timeout=30, context=CTX) as r:
+        with urllib.request.urlopen(req, timeout=40, context=CTX) as r:
             raw = r.read(MAX_BYTES)
             charset = r.headers.get_content_charset() or "utf-8"
             return {"status": r.status, "finalUrl": r.geturl(),
@@ -228,7 +228,9 @@ def fetch(url):
                     "body": raw.decode(charset, "replace")}
     except urllib.error.HTTPError as err:
         return {"status": err.code, "error": f"HTTP {err.code}"}
-    except Exception as err:  # network errors, timeouts, bad TLS
+    except Exception as err:  # network errors, timeouts, bad TLS: try once more
+        if tries > 1:
+            return fetch(url, tries - 1)
         return {"status": None, "error": f"{type(err).__name__}: {str(err)[:150]}"}
 
 
