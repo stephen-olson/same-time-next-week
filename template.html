@@ -111,10 +111,26 @@ a { color: var(--ink-fg); }
 .linkish:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Filters */
-.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 12px 2px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 10px 2px; }
 .intro.compact { padding-block: 22px 0; }
 .intro.compact h1 { font-size: 20px; line-height: 1.2; margin: 0; letter-spacing: -.005em; }
 .fbreak { flex-basis: 100%; height: 0; }
+.vhead { margin: 22px 0 10px; font-size: 13px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.rules { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
+.footlink { color: var(--ink-fg); text-decoration: underline; text-underline-offset: 3px; }
+.searchbar { padding-top: 14px; }
+.searchbar input {
+  width: 100%; max-width: 560px; height: 44px; padding: 0 14px 0 40px; border-radius: 12px;
+  border: 1px solid var(--line); color: var(--fg); font-size: 15px;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='7' cy='7' r='4.6' fill='none' stroke='%237b867d' stroke-width='1.6'/%3E%3Cpath d='m10.4 10.4 3.4 3.4' stroke='%237b867d' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 13px center / 17px 17px;
+}
+.searchbar input::placeholder { color: var(--muted); }
+.searchbar input:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
+.searchhead { margin-top: 22px; align-items: center; }
+.row.dated { grid-template-columns: 100px minmax(0, 1fr) auto; }
+.row .time .d { display: block; color: var(--muted); font-weight: 600; font-size: 12.5px; }
+.thinhint { margin-top: 8px; border: 0; background: none; padding: 6px 0; color: var(--ink-fg); font-size: 14px; font-weight: 600; cursor: pointer; }
+.thinhint:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fchip.more { border-style: dashed; }
 .fchip {
   flex: none; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600;
@@ -326,11 +342,13 @@ a { color: var(--ink-fg); }
   <nav class="wrap tabs" aria-label="Sections">
     <a href="#week" data-view="week">This week</a>
     <a href="#calendar" data-view="calendar">Calendar</a>
+    <a href="#volunteer" data-view="volunteer">Volunteer</a>
     <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
   </nav>
 </header>
 <main class="wrap" id="main">
   <section class="intro" id="intro"></section>
+  <div class="searchbar" id="searchbar"><input type="search" id="q" placeholder="Search: pottery, salsa, trivia, a venue…" aria-label="Search events" autocomplete="off" enterkeyhint="search"></div>
   <div class="filters" id="filters" role="group" aria-label="Filters"></div>
   <div id="view"></div>
 </main>
@@ -354,8 +372,8 @@ a { color: var(--ink-fg); }
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   var CITY = { durham: 'Durham', raleigh: 'Raleigh', both: 'Durham and Raleigh' };
   var GROUPS = [
-    ['music', 'Music'], ['dance', 'Dance'], ['art', 'Art & making'], ['fitness', 'Active'],
-    ['games', 'Games & trivia'], ['learning', 'Classes & talks'], ['social', 'Social'], ['volunteer', 'Volunteer']
+    ['music', 'Music'], ['dance', 'Dance'], ['art', 'Art & making'], ['classes', 'Classes'], ['fitness', 'Active'],
+    ['trivia', 'Trivia'], ['games', 'Games'], ['comedy', 'Comedy & improv'], ['books', 'Books & talks'], ['volunteer', 'Volunteer']
   ];
   var GL = {};
   GROUPS.forEach(function (g) { GL[g[0]] = g[1]; });
@@ -406,7 +424,8 @@ a { color: var(--ink-fg); }
   function shortDate(k) { var x = parse(k); return DOW[x.getDay()] + ', ' + MON[x.getMonth()] + ' ' + x.getDate(); }
   function longDate(k) { var x = parse(k); return DOW_LONG[x.getDay()] + ', ' + MONTHS[x.getMonth()] + ' ' + x.getDate(); }
   function fullDate(k) { var x = parse(k); return MONTHS[x.getMonth()] + ' ' + x.getDate() + ', ' + x.getFullYear(); }
-  function group(e) { return e.philanthropy ? 'volunteer' : (GL[e.category] ? e.category : 'social'); }
+  function group(e) { return e.philanthropy ? 'volunteer' : (GL[e.category] && e.category !== 'classes' ? e.category : 'books'); }
+  function inCats(e) { var c = state.f.cats; return !!(c[group(e)] || (c.classes && e.isClass)); }
   function byTime(a, b) {
     var x = a.start || '99', y = b.start || '99';
     if (x !== y) return x < y ? -1 : 1;
@@ -429,18 +448,37 @@ a { color: var(--ink-fg); }
   function sset(k, v) { try { localStorage.setItem('tsc.' + k, JSON.stringify(v)); } catch (err) { /* storage unavailable */ } }
   var marks = sget('marks', {}) || {};
 
-  var VIEWS = ['week', 'calendar', 'plan'];
+  var VIEWS = ['week', 'calendar', 'volunteer', 'plan'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
   var state = { city: sget('city', 'durham'), view: 'week', span: 7, f: blankFilters(), calSel: TODAY, calMonth: null };
   if (!CITY[state.city]) state.city = 'durham';
 
   function inCity(e) { return state.city === 'both' || e.city === state.city; }
   function catCount() { return Object.keys(state.f.cats).length; }
-  function anyFilter() { var f = state.f; return catCount() || f.free || f.solo || f.show || f.weeknight || f.weekend; }
-  function passes(e, k) {
-    if (!inCity(e)) return false;
+  function anyFilter() { var f = state.f; return catCount() || f.free || f.solo || f.show || f.weeknight || f.weekend || !!state.q; }
+  function matchesQuery(e) {
+    if (!state.q) return true;
+    var hay = [e.title, e.short, e.venue, e.area, e.address, e.description, GL[group(e)], e.isClass ? 'class classes workshop' : ''].join(' ').toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).every(function (w) { return wordMatch(hay, w); });
+  }
+  var SYN = {
+    pottery: ['potter', 'clay', 'ceramic', 'wheel'], ceramics: ['ceramic', 'clay', 'potter'], clay: ['clay', 'potter', 'ceramic'],
+    run: ['run'], running: ['run'], runs: ['run'], dance: ['danc', 'contra', 'swing', 'salsa'], dancing: ['danc', 'contra', 'swing', 'salsa'],
+    quiz: ['trivia'], volunteering: ['volunteer'], volunteer: ['volunteer'], hike: ['hike', 'walk', 'trail'], hiking: ['hike', 'walk', 'trail'],
+    knitting: ['knit', 'crochet', 'fiber'], painting: ['paint', 'watercolor', 'acrylic'], drawing: ['draw', 'figure', 'sketch'],
+    music: ['music', 'jam', 'open mic', 'band', 'choir'], jam: ['jam'], games: ['game', 'trivia', 'd&d', 'magic', 'chess'],
+    animals: ['animal', 'spca', 'dog walk'], animal: ['animal', 'spca', 'dog walk'], dogs: ['animal', 'spca', 'dog walk'],
+    dog: ['animal', 'spca', 'dog walk'], cats: ['animal', 'spca'], comedy: ['comedy', 'improv', 'taskmaster']
+  };
+  function wordMatch(hay, w) {
+    var alts = (SYN[w] || []).concat([w]);
+    return alts.some(function (a) { return hay.indexOf(a) > -1; }) || (w.length > 5 && hay.indexOf(w.slice(0, -1)) > -1);
+  }
+  function passes(e, k) { return inCity(e) && passesFilters(e, k); }
+  function passesFilters(e, k) {
     var f = state.f;
-    if (catCount() && !f.cats[group(e)]) return false;
+    if (catCount() && !inCats(e)) return false;
+    if (!matchesQuery(e)) return false;
     if (f.free && !e.free) return false;
     if (f.solo && !e.solo) return false;
     if (f.show && e.entry !== 'show') return false;
@@ -514,7 +552,8 @@ a { color: var(--ink-fg); }
   function costShort(e) { return e.costShort || ''; }
   function metaLine(e) {
     var bits = [];
-    if (state.city === 'both') bits.push(CITY[e.city]);
+    if (state.city === 'both' && !e.area) bits.push(CITY[e.city]);
+    if (e.area && (!e.venue || e.venue.indexOf(e.area) < 0)) bits.push(e.area);
     if (e.venue) bits.push(e.venue);
     if (costShort(e)) bits.push(costShort(e));
     return bits.join(' · ');
@@ -535,9 +574,9 @@ a { color: var(--ink-fg); }
     return '<button type="button" class="gobtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '" title="' + esc(goTitle(k, marked)) +
       '" aria-label="' + esc(goTitle(k, marked) + ': ' + e.title + ', ' + shortDate(k)) + '">' + (marked ? I.check : I.plus) + '</button>';
   }
-  function rowHtml(e, k) {
-    return '<div class="row' + (e.philanthropy ? ' give' : '') + '" data-open="' + e.id + '" data-date="' + k + '">' +
-      '<span class="time">' + esc(startText(e)) + '</span>' +
+  function rowHtml(e, k, withDate) {
+    return '<div class="row' + (e.philanthropy ? ' give' : '') + (withDate ? ' dated' : '') + '" data-open="' + e.id + '" data-date="' + k + '">' +
+      '<span class="time">' + (withDate ? '<span class="d">' + esc(shortDate(k)) + '</span>' : '') + esc(startText(e)) + '</span>' +
       '<button type="button" class="main" data-open="' + e.id + '" data-date="' + k + '">' +
       '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + esc(e.title) + '</span>' +
       '<span class="meta">' + esc(metaLine(e)) + (e.entry === 'signup' ? ' · <span class="flag">Sign up first</span>' : '') + '</span></button>' +
@@ -554,10 +593,11 @@ a { color: var(--ink-fg); }
 
   function renderIntro() {
     var city = CITY[state.city], t;
-    if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
+    if (state.view === 'volunteer') t = ['Volunteer', 'Working side by side on a shared task is one of the easiest ways to meet people. Every listing is checked against the organization\u2019s own page.'];
+    else if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
     else t = ['Things to do in ' + city, 'Recurring things to do with people, checked every week.'];
     var cta = '';
-    var compact = state.view !== 'plan';
+    var compact = state.view === 'week' || state.view === 'calendar';
     $('intro').hidden = false;
     $('intro').classList.toggle('compact', compact);
     $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1>' + (compact ? '' : '<p>' + esc(t[1]) + '</p>') + '</div>' + cta;
@@ -567,6 +607,7 @@ a { color: var(--ink-fg); }
     var f = state.f, show = state.view === 'week' || state.view === 'calendar';
     var el = $('filters');
     el.hidden = !show;
+    $('searchbar').hidden = !show;
     if (!show) { el.innerHTML = ''; return; }
     var h = '<button type="button" class="fchip" data-cat="" aria-pressed="' + !catCount() + '">Everything</button>';
     GROUPS.forEach(function (g) {
@@ -576,7 +617,32 @@ a { color: var(--ink-fg); }
     el.innerHTML = h;
   }
 
+  function renderSearch() {
+    var out = [];
+    EVENTS.forEach(function (e) {
+      if (e.kind === 'program' || !inCity(e)) return;
+      var occ = e.occ || [];
+      for (var i = 0; i < occ.length; i++) { if (occ[i] >= TODAY && passesFilters(e, occ[i])) { out.push({ e: e, k: occ[i] }); break; } }
+    });
+    out.sort(function (a, b) { return a.k < b.k ? -1 : a.k > b.k ? 1 : byTime(a.e, b.e); });
+    var nRoles = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e) && matchesQuery(e); }).length, total = out.length + nRoles;
+    var h = '<div class="dayhead searchhead"><h2>' + total + (total === 1 ? ' match' : ' matches') + '</h2><span class="sub">for \u201c' + esc(state.q) +
+      '\u201d, showing each one\u2019s next date</span><button type="button" class="fclear" data-clearq="1">Clear search</button></div>';
+    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e) && matchesQuery(e); });
+    if (!out.length && !roles.length) return h + '<p class="none">Nothing matches. Try a different word' + (state.city === 'both' ? '' : ', or switch to Both cities') + '.</p>';
+    if (out.length) h += '<div class="items">' + out.map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>';
+    if (roles.length) h += '<h3 class="vhead">Ongoing volunteer roles</h3><div class="cards">' + roles.map(cardHtml).join('') + '</div>';
+    return h;
+  }
+  function thinHint(k, shown) {
+    if (state.city === 'both' || shown > 2) return '';
+    var other = state.city === 'durham' ? 'raleigh' : 'durham';
+    var n = (BYDATE[k] || []).filter(function (e) { return e.city === other && passesFilters(e, k); }).length;
+    if (!n) return '';
+    return '<button type="button" class="thinhint" data-city="both">+ ' + n + ' more in ' + CITY[other] + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show both cities</button>';
+  }
   function renderWeek() {
+    if (state.q) return renderSearch();
     var h = '', total = 0;
     for (var i = 0; i < state.span; i++) {
       var k = addDays(TODAY, i), list = on(k), x = parse(k);
@@ -587,6 +653,7 @@ a { color: var(--ink-fg); }
         (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') + '</div>';
       h += list.length ? '<div class="items">' + list.map(function (e) { return rowHtml(e, k); }).join('') + '</div>'
         : '<p class="none">' + (anyFilter() ? 'Nothing matches your filters.' : 'Nothing listed.') + '</p>';
+      h += thinHint(k, list.length);
       h += '</section>';
     }
     if (!total && anyFilter()) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
@@ -709,16 +776,52 @@ a { color: var(--ink-fg); }
     return h;
   }
 
+  var VTYPES = [['animals', 'Animals'], ['food', 'Food and meals'], ['outdoors', 'Outdoors'], ['building', 'Building and fixing'], ['kids', 'Books and kids'], ['other', 'Other ways to help']];
+  function renderVolunteer() {
+    var end = addDays(TODAY, 28), shifts = [];
+    EVENTS.forEach(function (e) {
+      if (e.kind === 'program' || !e.philanthropy || !inCity(e)) return;
+      (e.occ || []).forEach(function (k) { if (k >= TODAY && k <= end) shifts.push({ e: e, k: k }); });
+    });
+    shifts.sort(function (a, b) { return a.k < b.k ? -1 : a.k > b.k ? 1 : byTime(a.e, b.e); });
+    var h = '<section class="plansec"><div class="secthead"><h2>Upcoming shifts</h2></div><p class="jsub">Sign up for a single date. Most take a few minutes to register.</p>';
+    h += shifts.length ? '<div class="items">' + shifts.slice(0, 40).map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>'
+      : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'both' ? '' : ' here. Try Both cities') + '.</p>';
+    h += '</section>';
+    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && e.pgroup === 'volunteer' && inCity(e); });
+    h += '<section class="plansec"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
+    VTYPES.forEach(function (t) {
+      var items = roles.filter(function (e) { return (e.vtype || 'other') === t[0]; });
+      if (items.length) h += '<h3 class="vhead">' + esc(t[1]) + '</h3><div class="cards">' + items.map(cardHtml).join('') + '</div>';
+    });
+    h += '</section>';
+    if (safeUrl(D.volunteerUrl)) {
+      h += '<div class="suggest"><div><h2>Run a volunteer program?</h2><p>Tell us about a role or shift newcomers can join. We check every submission against your organization\u2019s own website before it\u2019s listed.</p></div>' +
+        '<a class="btn primary" href="' + esc(D.volunteerUrl) + '" target="_blank" rel="noopener noreferrer">Post a volunteer opportunity</a></div>';
+    }
+    return h;
+  }
   function renderView() {
     var v = $('view');
     if (state.view === 'calendar') v.innerHTML = renderCalendar();
     else if (state.view === 'plan') v.innerHTML = renderPlan();
+    else if (state.view === 'volunteer') v.innerHTML = renderVolunteer();
     else v.innerHTML = renderWeek();
   }
   function renderFoot() {
     $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
-      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device.' +
+      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device. <button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>.' +
       (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer">Suggest something we’re missing</a>.' : '') + '</p>';
+  }
+  function openRules() {
+    openModal('<h2 tabindex="-1">How we pick listings</h2><p class="lede">This isn\u2019t a site where anyone can post. It\u2019s a short, checked list of places where regulars already gather.</p>' +
+      '<ul class="rules">' +
+      '<li><b>Established hosts only.</b> Venues, nonprofits, libraries, shops and city programs with a public website.</li>' +
+      '<li><b>Things that repeat,</b> so you keep seeing the same people. One-off dates only when they\u2019re built for meeting people, like cleanups and workshops.</li>' +
+      '<li><b>Proof it\u2019s happening.</b> Every listing links to the organizer\u2019s own page, and we check it there every week. If it stops showing up, it comes off.</li>' +
+      '<li><b>Public places only.</b> Never private homes, and no upfront payments beyond normal class or ticket prices.</li>' +
+      '<li><b>Suggestions are welcome, but nothing goes up until it\u2019s verified.</b></li>' +
+      '</ul><p class="fine">Spot something wrong? Open the listing and tap \u201cSomething wrong with this listing?\u201d</p>', 'How we pick listings');
   }
   function render() { renderTabs(); renderIntro(); renderFilters(); renderView(); renderFoot(); updatePlanCount(); }
 
@@ -857,7 +960,7 @@ a { color: var(--ink-fg); }
         }).join('') + '</div></div>';
       }
     }
-    h += '<p class="checked">Last checked ' + esc(fullDate(e.lastChecked || D.generated)) + '.' +
+    h += '<p class="checked">Checked ' + esc(fullDate(e.lastChecked || D.generated)) + ' against the organizer\u2019s own page.' +
       (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl + '&title=' + encodeURIComponent('Problem: ' + e.title)) + '" target="_blank" rel="noopener noreferrer">Something wrong with this listing?</a>' : '') + '</p>';
     return h;
   }
@@ -1000,6 +1103,8 @@ a { color: var(--ink-fg); }
     }
     if ((b = t.closest('[data-open]'))) { openEvent(b.dataset.open, b.dataset.date || null, true); return; }
     if ((b = t.closest('[data-city]'))) { setCity(b.dataset.city); return; }
+    if ((b = t.closest('[data-rules]'))) { openRules(); return; }
+    if ((b = t.closest('[data-clearq]'))) { state.q = ''; $('q').value = ''; renderView(); $('q').focus(); return; }
     if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
     if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-cat]'))) {
@@ -1035,6 +1140,9 @@ a { color: var(--ink-fg); }
       if (wiz.cats[w]) delete wiz.cats[w]; else wiz.cats[w] = true;
       b.setAttribute('aria-pressed', String(!!wiz.cats[w])); $('wizOut').innerHTML = wizOutHtml(); return;
     }
+  });
+  document.addEventListener('input', function (ev) {
+    if (ev.target && ev.target.id === 'q') { state.q = ev.target.value.trim(); renderView(); }
   });
   document.addEventListener('change', function (ev) {
     if (ev.target && ev.target.id === 'wizSolo') { wiz.solo = ev.target.checked; $('wizOut').innerHTML = wizOutHtml(); }

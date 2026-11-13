@@ -1,0 +1,98 @@
+name: Post a volunteer opportunity (for organizations)
+description: List a volunteer role or shift that newcomers in Durham or Raleigh can join.
+title: "Volunteer: "
+labels: ["volunteer-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping people get involved! **Nothing is listed until it's verified.** We check every submission against your organization's own website, and we re-check listings every week.
+
+        To be listed, the opportunity must:
+        - be run by an established organization with a public website,
+        - be posted on your own website or volunteer sign-up page (we link there),
+        - take place at a public location or your organization's facility (never a private home), and
+        - be open to newcomers.
+  - type: input
+    id: org
+    attributes:
+      label: Organization name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Organization website
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: listing
+    attributes:
+      label: Link to this opportunity on your website or sign-up page
+      description: We only list opportunities we can see on your own site.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of opportunity is it?
+      options:
+        - A shift on a specific date (people sign up for that date)
+        - An ongoing role (people apply or attend an orientation, then pick shifts)
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: What do volunteers do?
+      placeholder: e.g. Walk shelter dogs, sort food donations, repair bikes
+    validations:
+      required: true
+  - type: dropdown
+    id: city
+    attributes:
+      label: Where?
+      options:
+        - Durham
+        - Raleigh
+        - Chapel Hill or Carrboro
+        - Somewhere else nearby
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Location address
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When? (date and time, or how often shifts happen)
+      placeholder: e.g. Sat Dec 5, 9am to noon / Shifts daily, about 2 hours
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      placeholder: Minimum age, orientation, background check, time commitment, anything to bring
+  - type: input
+    id: contact
+    attributes:
+      label: Public contact listed on your website
+      description: We use it only to confirm the listing if something is unclear.
+      placeholder: e.g. volunteer@example.org or the phone number on your contact page
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This takes place at a public location or our organization's facility, not a private home.
+          required: true
+        - label: Volunteers aren't asked to pay to participate (other than any background-check fee stated above).
+          required: true

@@ -31,7 +31,7 @@ PAST_DAYS = 31
 DAYS = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-CATEGORIES = {"music", "dance", "art", "fitness", "games", "learning", "social", "volunteer"}
+CATEGORIES = {"music", "dance", "art", "fitness", "trivia", "games", "comedy", "books", "learning", "social", "volunteer"}
 FEEDS = {
     "durham": ("Same Time Next Week: Durham", lambda e: e["city"] == "durham"),
     "raleigh": ("Same Time Next Week: Raleigh", lambda e: e["city"] == "raleigh"),
@@ -339,12 +339,15 @@ def main():
     for e in events:
         occ = occurrences(e, today, hol)
         e["_occ"] = occ
-        if e["kind"] == "program":
-            continue  # join-first programs stay in the data but are not shown
+        if e["kind"] == "program" and e.get("pgroup") != "volunteer":
+            continue  # join-first programs other than volunteer roles stay in the data but are not shown
         free, short_cost = cost_info(e.get("cost"))
         c = {k: v for k, v in e.items() if not k.startswith("_") and k not in
              ("recurrence", "dates", "except", "schedule", "tier", "hold", "holdReason", "holdSince", "evidence")}
         c.update(occ=[x.isoformat() for x in occ], rtext=rtext(e, occ, today), free=free, costShort=short_cost)
+        town = re.search(r",\s*([A-Za-z .'-]+?),\s*NC\b", e.get("address") or "")
+        if town and town.group(1).strip() not in ("Durham", "Raleigh"):
+            c["area"] = town.group(1).strip()
         if e["kind"] == "event" and not occ:
             continue  # nothing to show right now
         client.append(c)
@@ -357,6 +360,7 @@ def main():
         "siteUrl": site_url,
         "reportUrl": report_url,
         "suggestUrl": suggest_url,
+        "volunteerUrl": cfg.get("volunteerUrl", ""),
         "preview": False,
         "holidays": hol_labels,
         "events": client,

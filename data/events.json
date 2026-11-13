@@ -6,7 +6,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Irish Music Jam at Moon Dog Meadery",
+   "title": "Irish music jam · Moon Dog Meadery",
    "short": "Irish jam",
    "category": "music",
    "solo": true,
@@ -38,7 +38,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Moon Dog Sunday Open Mic",
+   "title": "Open mic · Moon Dog Meadery",
    "short": "Open mic",
    "category": "music",
    "recurrence": {
@@ -88,7 +88,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Contra Dance at Reality Ministries (Durham)",
+   "title": "Contra dance · Reality Ministries",
    "short": "Contra dance",
    "category": "dance",
    "solo": true,
@@ -116,7 +116,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Contra Dance in Carrboro (2nd Fridays + New Year's Eve)",
+   "title": "Contra dance · Carrboro Century Center",
    "short": "Contra (Carrboro)",
    "category": "dance",
    "solo": true,
@@ -145,7 +145,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "First Saturday Contra (Carrboro)",
+   "title": "Contra dance, Saturday · Carrboro Century Center",
    "short": "Contra (Carrboro)",
    "category": "dance",
    "solo": true,
@@ -171,7 +171,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Triangle Swing Dance Society Dance Party",
+   "title": "Swing dance party · Carrboro Century Center",
    "short": "Swing dance",
    "category": "dance",
    "solo": true,
@@ -197,7 +197,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "ADF Adult Class: Modern Dance - Back to Basics",
+   "title": "Modern dance, back to basics · ADF Studios",
    "short": "Modern dance class",
    "category": "dance",
    "solo": true,
@@ -217,7 +217,8 @@
    "firstTime": "Drop in, no sign-up needed. It's an open-level class for adults, so you don't need to be experienced. Wear clothes you can move in.",
    "url": "https://americandancefestival.org/adult-classes/",
    "verifyNote": "Check for the Winter/Spring 2027 term (typically starts early January).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "d-line-dancing-class",
@@ -225,7 +226,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Line Dancing with Nykki (Down South Shuffle)",
+   "title": "Line dancing class · Southwest Regional Library",
    "short": "Line dancing class",
    "category": "dance",
    "solo": true,
@@ -245,7 +246,8 @@
    "firstTime": "Just show up, no registration needed. It's a free beginner class that teaches the basic steps. Comfortable shoes help.",
    "url": "https://durhamcountylibrary.libcal.com/event/16884725",
    "verifyNote": "Only November and December dates are posted. About 4 miles from downtown.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "d-third-friday-art-walk",
@@ -253,7 +255,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Third Friday Durham Art Walk",
+   "title": "Third Friday art walk · Downtown Durham",
    "short": "Third Friday art walk",
    "category": "art",
    "pick": true,
@@ -288,7 +290,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "Draw Y'all 'Go Figure' Community Figure Drawing",
+   "title": "Figure drawing (Draw Y'all) · The Fruit",
    "short": "Figure drawing (Draw Y'all)",
    "category": "art",
    "recurrence": {
@@ -317,7 +319,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "DAC Open Figure Drawing (Sundays)",
+   "title": "Open figure drawing · Durham Arts Council",
    "short": "Figure drawing (DAC)",
    "category": "art",
    "dates": [
@@ -347,7 +349,7 @@
    "city": "durham",
    "kind": "event",
    "entry": "signup",
-   "title": "Beginning/Intermediate Wheel – Wednesday evenings (10 weeks)",
+   "title": "Wheel, Wednesday · Durham Arts Council (10 weeks)",
    "short": "Wheel class (Wed)",
    "category": "art",
    "pick": true,
@@ -369,7 +371,8 @@
    ],
    "multi": true,
    "solo": true,
-   "firstTime": "If you've never used a wheel, the class teaches you from the start. Wear clothes that can get muddy."
+   "firstTime": "If you've never used a wheel, the class teaches you from the start. Wear clothes that can get muddy.",
+   "isClass": true
   },
   {
    "id": "d-intro-to-pottery-wheel",
@@ -377,7 +380,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Claymakers One-Day Intro to Wheel",
+   "title": "Intro to wheel, one day · Claymakers",
    "short": "Intro to pottery wheel",
    "category": "art",
    "solo": true,
@@ -395,7 +398,8 @@
    "firstTime": "Register first at claymakers.org/classes. It's a one-day sampler, so you don't need to know anything beforehand. Clothes you don't mind getting messy are a good idea.",
    "url": "https://www.claymakers.org/classes",
    "verifyNote": "Dec 5 had 4 spots and Dec 6 had 2 at last check; Nov 20 is sold out. Winter 2027 session dates aren't announced yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "d-craft-night",
@@ -403,7 +407,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Scrap Exchange Community Craft Nite",
+   "title": "Community craft night · The Scrap Exchange",
    "short": "Craft night",
    "category": "art",
    "solo": true,
@@ -436,7 +440,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Craft & Draft at Crank Arm Durham",
+   "title": "Craft & Draft · Crank Arm Brewing",
    "short": "Craft & Draft",
    "category": "art",
    "solo": true,
@@ -465,7 +469,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Bull City Run Club (Wednesday)",
+   "title": "Bull City Run Club · Bull City Running Co.",
    "short": "Bull City Run Club",
    "category": "fitness",
    "solo": true,
@@ -494,7 +498,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Bull City Running Saturday Morning Run Club",
+   "title": "Saturday morning run club · Bull City Running Co.",
    "short": "Saturday group run",
    "category": "fitness",
    "solo": true,
@@ -521,7 +525,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "cRUNk Run Club at Crank Arm",
+   "title": "cRUNk Run Club · Crank Arm Brewing",
    "short": "cRUNk Run Club",
    "category": "fitness",
    "solo": true,
@@ -549,7 +553,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "PRIDE Night at The Boulder Garden",
+   "title": "PRIDE night · The Boulder Garden",
    "short": "Pride climbing night",
    "category": "fitness",
    "solo": true,
@@ -579,9 +583,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Trivia with Arturo at Fullsteam (American Tobacco Campus)",
+   "title": "Trivia · Fullsteam (American Tobacco Campus)",
    "short": "Trivia (Fullsteam)",
-   "category": "games",
+   "category": "trivia",
    "start": "19:30",
    "end": "21:30",
    "timeNote": "Four rounds",
@@ -609,9 +613,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Wednesday Trivia at Bull McCabe's",
+   "title": "Trivia · Bull McCabe's",
    "short": "Trivia (Bull McCabe's)",
-   "category": "games",
+   "category": "trivia",
    "recurrence": {
     "type": "weekly",
     "days": [
@@ -637,7 +641,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Community Board Game Night at Moon Dog",
+   "title": "Board game night · Moon Dog Meadery",
    "short": "Board game night",
    "category": "games",
    "solo": true,
@@ -671,7 +675,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Atomic Empire Board Game Night",
+   "title": "Board game night · Atomic Empire",
    "short": "Board games (Atomic)",
    "category": "games",
    "solo": true,
@@ -700,7 +704,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Downtown Durham Chess Club",
+   "title": "Chess club · Durham Main Library",
    "short": "Chess club",
    "category": "games",
    "solo": true,
@@ -728,7 +732,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "Food Bank Durham Branch volunteer shifts",
+   "title": "Food Bank sort · Durham branch",
    "short": "Food Bank sort",
    "category": "volunteer",
    "philanthropy": true,
@@ -783,7 +787,8 @@
    "howToJoin": "Sign up at scrapexchange.org/volunteer (no walk-ins); 18+",
    "url": "https://www.scrapexchange.org/volunteer",
    "verifyNote": "Check the sign-up portal for current shift slots.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "other"
   },
   {
    "id": "d-habitat-orientation",
@@ -804,7 +809,8 @@
    "howToJoin": "Register for orientation at vhub.at/individualorientation, then book shifts at durhamhabitat.volunteerhub.com",
    "url": "https://durhamhabitat.org/volunteer/",
    "verifyNote": "Orientation time, location and build days are listed on VolunteerHub.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "building"
   },
   {
    "id": "d-urban-ministries-shift",
@@ -825,7 +831,8 @@
    "howToJoin": "Apply via the form at umdurham.org/volunteer (COVID-19 vaccination attestation required); group dinner service via vbaker@umdurham.org",
    "url": "https://umdurham.org/volunteer/",
    "verifyNote": "Exact shift times are set after you apply and finish training.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "food"
   },
   {
    "id": "d-book-harvest",
@@ -846,7 +853,8 @@
    "howToJoin": "Sign up on VOMO: book-harvest.vomo.org/opportunity/book-processor (16+, younger with a parent)",
    "url": "https://book-harvest.vomo.org/org/book-harvest",
    "verifyNote": "Times and other session dates aren't posted here; check the sign-up page. The Dream Big drive is in RTP.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "kids"
   },
   {
    "id": "d-toastmasters",
@@ -876,9 +884,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Mettlesome Free Improv Jam",
+   "title": "Free improv jam · Mettlesome",
    "short": "Improv jam",
-   "category": "learning",
+   "category": "comedy",
    "solo": true,
    "pick": true,
    "start": "20:30",
@@ -904,9 +912,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Durham Community Improv Jam at Moon Dog",
+   "title": "Improv jam · Moon Dog Meadery",
    "short": "Improv games",
-   "category": "social",
+   "category": "comedy",
    "solo": true,
    "recurrence": {
     "type": "monthly",
@@ -935,9 +943,9 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Shut Up and Write! (Main Library)",
+   "title": "Shut Up and Write! · Durham Main Library",
    "short": "Writing group",
-   "category": "learning",
+   "category": "books",
    "solo": true,
    "dates": [
     "2027-01-06",
@@ -968,9 +976,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "New Hope Bird Alliance bird outings",
+   "title": "Bird walk · Mason Farm Preserve",
    "short": "Bird walk",
-   "category": "learning",
+   "category": "fitness",
    "solo": true,
    "dates": [
     "2026-11-14",
@@ -995,9 +1003,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Durham Spanish Conversation Cafe",
+   "title": "Spanish conversation · Dulce Cafe",
    "short": "Spanish conversation",
-   "category": "learning",
+   "category": "books",
    "solo": true,
    "recurrence": {
     "type": "weekly",
@@ -1046,7 +1054,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Eno River Association invasive plant workday",
+   "title": "Invasive plant workday · Rocky Branch",
    "short": "Eno River workday",
    "category": "volunteer",
    "philanthropy": true,
@@ -1073,7 +1081,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Mountains-to-Sea Trail crew on the Eno",
+   "title": "Trail crew · Eno River (Mountains-to-Sea Trail)",
    "short": "Trail crew",
    "category": "volunteer",
    "philanthropy": true,
@@ -1100,7 +1108,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Keep Durham Beautiful: MLK Jr Parkway cleanup",
+   "title": "MLK Jr Parkway cleanup · Board of Elections lot",
    "short": "Litter cleanup",
    "category": "volunteer",
    "philanthropy": true,
@@ -1127,7 +1135,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Keep Durham Beautiful: MLK Jr Parkway cleanup",
+   "title": "MLK Jr Parkway cleanup · Lowe's parking lot",
    "short": "Litter cleanup",
    "category": "volunteer",
    "philanthropy": true,
@@ -1154,7 +1162,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Stitch N Bitch fiber-arts meetup",
+   "title": "Stitch N Bitch · The Scrap Exchange",
    "short": "Fiber-arts meetup",
    "category": "art",
    "solo": true,
@@ -1183,7 +1191,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Scrap Exchange Sewing Circle",
+   "title": "Sewing circle · The Scrap Exchange",
    "short": "Sewing circle",
    "category": "art",
    "solo": true,
@@ -1213,7 +1221,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Intro to Bouldering Clinic",
+   "title": "Intro to bouldering clinic · The Boulder Garden",
    "short": "Intro to bouldering",
    "category": "fitness",
    "solo": true,
@@ -1229,7 +1237,8 @@
    "howToJoin": "Book on The Boulder Garden's online class schedule",
    "firstTime": "Book a spot on the gym's class schedule first. It's a beginner clinic, so you don't need any experience. Comfortable clothes you can move in are a good idea.",
    "verifyNote": "Only the Nov 16 clinic is posted so far. Check the gym's schedule for later dates.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "d-quiet-volunteer-night",
@@ -1237,7 +1246,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Low Distraction Volunteer Night",
+   "title": "Low distraction volunteer night · The Scrap Exchange",
    "short": "Quiet volunteer night",
    "category": "volunteer",
    "philanthropy": true,
@@ -1263,9 +1272,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "New Hope Bird Alliance monthly meeting",
+   "title": "Bird club meeting · NC Botanical Garden",
    "short": "Bird club meeting",
-   "category": "learning",
+   "category": "books",
    "solo": true,
    "recurrence": {
     "type": "monthly",
@@ -1292,9 +1301,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Bird walk at Brumley Forest (north entrance)",
+   "title": "Bird walk · Brumley Forest",
    "short": "Bird walk",
-   "category": "learning",
+   "category": "fitness",
    "solo": true,
    "dates": [
     "2026-11-18"
@@ -1317,7 +1326,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "PineCone Old-Time Jam",
+   "title": "PineCone old-time jam · Riparian Provision Company",
    "short": "Old-time jam",
    "category": "music",
    "solo": true,
@@ -1351,7 +1360,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "PineCone Beginner Bluegrass Jam",
+   "title": "PineCone beginner bluegrass jam · Harry's Guitar Shop",
    "short": "Beginner bluegrass jam",
    "category": "music",
    "solo": true,
@@ -1382,7 +1391,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "PineCone Open Bluegrass Jam",
+   "title": "PineCone open bluegrass jam · Raleigh Brewing",
    "short": "Open bluegrass jam",
    "category": "music",
    "solo": true,
@@ -1411,7 +1420,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Beer and Banjos (weekly roots music night)",
+   "title": "Beer and Banjos · Bowstring Pizza and Brewyard",
    "short": "Beer & Banjos",
    "category": "music",
    "recurrence": {
@@ -1439,7 +1448,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Open Mic with a Live Band at Slim's",
+   "title": "Open mic with live band · Slim's Downtown",
    "short": "Open mic (Slim's)",
    "category": "music",
    "recurrence": {
@@ -1467,7 +1476,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Rebus Works Open Mic Night",
+   "title": "Open mic · Rebus Works",
    "short": "Open mic (Rebus Works)",
    "category": "music",
    "dates": [
@@ -1492,7 +1501,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Wernick Method Holiday Bluegrass Jam Class",
+   "title": "Holiday bluegrass jam class · St. Paul's Church",
    "short": "Bluegrass jam class",
    "category": "music",
    "solo": true,
@@ -1510,7 +1519,8 @@
    "firstTime": "Register online at wernickmethod.org first, and the songbook is sent after you sign up. Bring your own lunch. You'll want to be comfortable tuning and changing between G, C, D and A.",
    "url": "https://wernickmethod.org/event/ld-sw-2026-12-raleigh",
    "verifyNote": "This is the only Raleigh Wernick class posted for now.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "r-line-dancing-transfer-co",
@@ -1518,7 +1528,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Ballroom Line Dancing with Lexi",
+   "title": "Ballroom line dancing · Transfer Co. Ballroom",
    "short": "Line dancing (Transfer Co.)",
    "category": "dance",
    "solo": true,
@@ -1548,7 +1558,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Carolina Dance Club Sunday Night Swing",
+   "title": "Sunday night swing · Raleigh Elks Lodge",
    "short": "Swing dance",
    "category": "dance",
    "solo": true,
@@ -1578,7 +1588,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "First Friday Raleigh art walk",
+   "title": "First Friday art walk · Downtown Raleigh",
    "short": "First Friday art walk",
    "category": "art",
    "pick": true,
@@ -1608,7 +1618,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Bring Your Own Craft Night at Raleigh Brewing",
+   "title": "BYO craft night · Raleigh Brewing",
    "short": "BYO craft night",
    "category": "art",
    "solo": true,
@@ -1637,7 +1647,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Crank Arm Run Club",
+   "title": "Crank Arm Run Club · Crank Arm Brewing",
    "short": "Crank Arm Run Club",
    "category": "fitness",
    "solo": true,
@@ -1667,7 +1677,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Stonewall Run Club",
+   "title": "Stonewall Run Club · Wolfe & Porter",
    "category": "fitness",
    "solo": true,
    "recurrence": {
@@ -1697,7 +1707,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Raleigh Brewing Run/Walk Club",
+   "title": "Run/walk club · Raleigh Brewing",
    "short": "Run/walk club",
    "category": "fitness",
    "solo": true,
@@ -1725,7 +1735,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Raleigh Brewing Taco Tuesday Bike Ride",
+   "title": "Taco Tuesday bike ride · Raleigh Brewing",
    "short": "Taco Tuesday ride",
    "category": "fitness",
    "solo": true,
@@ -1753,7 +1763,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Pony Run at Ponysaurus Brewing",
+   "title": "Pony Run · Ponysaurus Brewing",
    "short": "Pony Run",
    "category": "fitness",
    "solo": true,
@@ -1781,7 +1791,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Latinos Run Raleigh",
+   "title": "Latinos Run Raleigh · Fleet Feet Ridgewood",
    "category": "fitness",
    "recurrence": {
     "type": "weekly",
@@ -1806,7 +1816,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Breakfast Club Runners Saturday long run",
+   "title": "Breakfast Club long run · Jubala Coffee",
    "short": "Breakfast Club run",
    "category": "fitness",
    "solo": true,
@@ -1834,7 +1844,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Raleigh Rock Climbing Meetup (Friday climb)",
+   "title": "Climbing meetup · Triangle Rock Club (Salvage Yard)",
    "short": "Climbing meetup",
    "category": "fitness",
    "solo": true,
@@ -1860,9 +1870,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Tuesday Night Trivia at Wolfe & Porter",
+   "title": "Trivia · Wolfe & Porter",
    "short": "Trivia (Wolfe & Porter)",
-   "category": "games",
+   "category": "trivia",
    "recurrence": {
     "type": "weekly",
     "days": [
@@ -1888,9 +1898,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Weekly Trivia at Raleigh Beer Garden",
+   "title": "Trivia · Raleigh Beer Garden",
    "short": "Trivia (Beer Garden)",
-   "category": "games",
+   "category": "trivia",
    "recurrence": {
     "type": "weekly",
     "days": [
@@ -1916,9 +1926,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Trivia Night at Raleigh Brewing",
+   "title": "Trivia · Raleigh Brewing",
    "short": "Trivia (Raleigh Brewing)",
-   "category": "games",
+   "category": "trivia",
    "recurrence": {
     "type": "weekly",
     "days": [
@@ -1943,7 +1953,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Triangle Taps and Tables (board game night)",
+   "title": "Taps and Tables board games · Trophy Brewing",
    "short": "Board game night",
    "category": "games",
    "solo": true,
@@ -1972,7 +1982,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "Food Bank warehouse sort (Wednesday evening)",
+   "title": "Food Bank sort, Wednesday evening · Raleigh branch",
    "short": "Food Bank sort",
    "category": "volunteer",
    "philanthropy": true,
@@ -2003,7 +2013,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "Food Bank warehouse sort (Saturday morning)",
+   "title": "Food Bank sort, Saturday morning · Raleigh branch",
    "short": "Food Bank sort",
    "category": "volunteer",
    "philanthropy": true,
@@ -2048,7 +2058,8 @@
    "howToJoin": "Create an account and pick a shift on the Food Shuttle's Bloomerang volunteer portal, linked from foodshuttle.org/volunteer",
    "url": "https://foodshuttle.org/volunteer/",
    "verifyNote": "Wednesday and Friday mornings are the most reliable days. Tuesday or Monday shifts may also be offered; check the portal.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "food"
   },
   {
    "id": "r-holiday-meal-packing",
@@ -2056,7 +2067,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Raleigh Rescue Mission holiday meal packing & delivery",
+   "title": "Holiday meal packing · Christ the King Presbyterian",
    "short": "Holiday meal packing",
    "category": "volunteer",
    "philanthropy": true,
@@ -2101,7 +2112,8 @@
    "howToJoin": "Register at vhub.at/newrestorevolunteer and choose a shift",
    "url": "https://www.trianglerestores.org/volunteer",
    "verifyNote": "Exact shift slots are only visible in VolunteerHub. Ages 16+. Habitat Wake is now named Habitat for Humanity of Greater Raleigh.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "building"
   },
   {
    "id": "r-set-building-rlt",
@@ -2125,7 +2137,8 @@
    "howToJoin": "Join RLT's volunteer email list and reply to the crew chiefs' emails. Ushers sign up through the Front-of-House sign-up page.",
    "url": "https://raleighlittletheatre.org/get-involved/volunteers/",
    "verifyNote": "Confirm shop hours around holidays and between productions.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "building"
   },
   {
    "id": "r-oak-city-cares-meals",
@@ -2146,7 +2159,8 @@
    "howToJoin": "Create an account and complete the qualifications at oakcitycares.galaxydigital.com (Weekend Meals agency page)",
    "url": "https://oakcitycares.org/volunteer/",
    "verifyNote": "Exact shift times aren't posted publicly. Ages 18+, or 9-17 as host volunteers with an adult.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "food"
   },
   {
    "id": "r-a-place-at-the-table",
@@ -2167,7 +2181,8 @@
    "howToJoin": "Book a shift on the Activate Good portal (volunteer.activategood.org/opportunities/IkDghRVmT1). Ages 15+.",
    "url": "https://tableraleigh.org/volunteer/",
    "verifyNote": "Shift slot times are only visible in the portal.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "vtype": "food"
   },
   {
    "id": "r-toastmasters",
@@ -2196,9 +2211,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Science Cafe at the NC Museum of Natural Sciences",
+   "title": "Science Cafe · NC Museum of Natural Sciences",
    "short": "Science Cafe",
-   "category": "learning",
+   "category": "books",
    "recurrence": {
     "type": "monthly",
     "nth": [
@@ -2225,9 +2240,9 @@
    "kind": "event",
    "entry": "signup",
    "tier": "regular",
-   "title": "Silent Book Club at Oberlin Regional Library",
+   "title": "Silent Book Club · Oberlin Regional Library",
    "short": "Silent Book Club",
-   "category": "learning",
+   "category": "books",
    "solo": true,
    "recurrence": {
     "type": "monthly",
@@ -2254,9 +2269,9 @@
    "city": "raleigh",
    "kind": "event",
    "entry": "signup",
-   "title": "ComedyWorx Intro to Improv (multi-week class)",
+   "title": "Intro to improv class · ComedyWorx",
    "short": "Improv class starts",
-   "category": "learning",
+   "category": "comedy",
    "schedule": "Two sections: a Saturday class starting Jan 9 and a Monday class starting Jan 11. Times and length are on the ComedyWorx site.",
    "timeNote": "Two sections: a Saturday class starting Jan 9 and a Monday class starting Jan 11. Each meets weekly after that, but the time and number of weeks aren't shown.",
    "venue": "ComedyWorx",
@@ -2274,7 +2289,8 @@
    ],
    "multi": true,
    "solo": true,
-   "firstTime": "No experience needed. The same small group meets every week, which makes it easy to get comfortable."
+   "firstTime": "No experience needed. The same small group meets every week, which makes it easy to get comfortable.",
+   "isClass": true
   },
   {
    "id": "r-skip-the-small-talk",
@@ -2282,9 +2298,9 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Skip the Small Talk Raleigh",
+   "title": "Skip the Small Talk · Crank Arm Brewing",
    "short": "Skip the Small Talk",
-   "category": "social",
+   "category": "books",
    "solo": true,
    "pick": true,
    "dates": [
@@ -2308,7 +2324,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Intro to Cross Stitch workshop",
+   "title": "Intro to cross stitch · Pullen Arts Center",
    "short": "Cross-stitch workshop",
    "category": "art",
    "solo": true,
@@ -2325,7 +2341,8 @@
    "firstTime": "Register first through the City's WebTrac link, or call 919-996-6126. You'll learn alongside other beginners in a small group, so no experience is needed.",
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "r-screen-printing-workshop",
@@ -2333,7 +2350,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "DIY Screen Printing workshop",
+   "title": "Screen printing workshop · Pullen Arts Center",
    "short": "Screen printing workshop",
    "category": "art",
    "solo": true,
@@ -2351,7 +2368,8 @@
    "firstTime": "Register first through the City's WebTrac link, or call 919-996-6126. You'll use paper stencils, so you don't need drawing skills. Clothes you don't mind getting messy are a good idea.",
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "isClass": true
   },
   {
    "id": "r-tri-sports-leagues",
@@ -2379,7 +2397,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Bull City Running Co. Trail Run Sundays",
+   "title": "Trail run · Bull City Running Co.",
    "short": "Trail run",
    "category": "fitness",
    "solo": true,
@@ -2428,7 +2446,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "D&D Adventurers League at Atomic Empire",
+   "title": "D&D Adventurers League · Atomic Empire",
    "short": "D&D night",
    "category": "games",
    "solo": true,
@@ -2458,7 +2476,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Magic at Atomic Empire",
+   "title": "Friday Night Magic · Atomic Empire",
    "short": "Friday Night Magic",
    "category": "games",
    "solo": true,
@@ -2487,7 +2505,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Durham Bike Co-op Saturday Beginner volunteer session",
+   "title": "Beginner volunteer session · Durham Bike Co-op",
    "short": "Bike Co-op volunteering",
    "category": "volunteer",
    "philanthropy": true,
@@ -2514,7 +2532,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Pop-up bike repair clinic at the Durham Farmers' Market",
+   "title": "Pop-up bike repair clinic · Durham Farmers' Market",
    "short": "Bike repair clinic",
    "category": "volunteer",
    "philanthropy": true,
@@ -2575,7 +2593,8 @@
    "howToJoin": "Complete the APS Volunteer Profile (Better Impact link on the volunteer page). A welcome packet with an orientation link follows, then training (usually 2-5 hours) before you volunteer on your own. Ages 16+ can volunteer unsupervised; ages 10-16 need an adult with them.",
    "url": "https://www.apsofdurham.org/volunteer",
    "verifyNote": "Volunteers work at least 8 hours a month and commit to at least six months. Shift length, dog-walking shift times and orientation dates aren't listed. The Nov 13 date is just a reminder to apply.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "vtype": "animals"
   },
   {
    "id": "d-mettlesome-improv-101",
@@ -2603,7 +2622,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Raleigh Rock Climbing Meetup: Friday climb at Triangle Rock Club Durham",
+   "title": "Climbing meetup · Triangle Rock Club Durham",
    "short": "Climbing meetup",
    "category": "fitness",
    "solo": true,
@@ -2685,7 +2704,8 @@
    "howToJoin": "Ages 18+. Complete the online orientation, the New Volunteer Application (spcaofwakecounty.my.site.com/volunteer/s/apply) and the waiver, then the training for your task. Questions go to volunteer@spcawake.org (no phone calls).",
    "url": "https://spcawake.org/get-involved/volunteer",
    "verifyNote": "Shift length and times aren't stated. The adoption center is being renovated, so follow signs to a temporary entrance. You may be asked to sign a waiver through DocuSign.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "vtype": "animals"
   },
   {
    "id": "r-animal-center-volunteering",
@@ -2707,7 +2727,8 @@
    "howToJoin": "Ages 18+, no exceptions. Apply online through Better Impact (link on the county volunteer page). The Volunteer Coordinator emails a welcome packet when new volunteers are being onboarded. Contact wcac.volunteer@wake.gov or 919-250-3793.",
    "url": "https://www.wake.gov/departments-government/animal-services/how-help/volunteer-program",
    "verifyNote": "No orientation dates are published; onboarding happens when the coordinator brings on new volunteers. Short-term or one-day volunteering isn't accepted.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "vtype": "animals"
   },
   {
    "id": "d-clay-cozy-winter-critters",
@@ -2715,7 +2736,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "One Day Clay: Cozy Winter Critters",
+   "title": "One-day clay: cozy winter critters · Claymakers",
    "short": "Clay: Cozy Winter Critters",
    "category": "art",
    "solo": true,
@@ -2733,7 +2754,8 @@
    "firstTime": "You don't need any clay experience, and tools are provided. Your piece is fired in about 3 weeks, and Claymakers emails you when it's ready to pick up.",
    "url": "https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw",
    "verifyNote": "The page doesn't show the year, but the weekday matches 2026. Nearly sold out.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-clay-winter-candleholders",
@@ -2741,7 +2763,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "One Day Clay: Winter Candleholders",
+   "title": "One-day clay: winter candleholders · Claymakers",
    "short": "Clay: Winter Candleholders",
    "category": "art",
    "solo": true,
@@ -2759,7 +2781,8 @@
    "firstTime": "All levels are welcome, and you don't need any clay experience. Pieces are ready about 3 weeks later, and Claymakers emails you when to pick yours up.",
    "url": "https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholders-saturday-november-21",
    "verifyNote": "The class list shows it open but gives no spot count, and the class page also has a waitlist form. Confirm availability.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-intermediate-wheel",
@@ -2767,7 +2790,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning/Intermediate Wheel – Monday evenings (9 weeks)",
+   "title": "Wheel, Monday · Durham Arts Council (9 weeks)",
    "short": "Beginning/Intermediate Wheel",
    "category": "art",
    "solo": true,
@@ -2786,7 +2809,8 @@
    "firstTime": "If you've never used a wheel, the class teaches you from the start. Check the tool supply list in DAC's registration system, and wear clothes that can get muddy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-intermediate-wheel-2",
@@ -2794,7 +2818,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning/Intermediate Wheel – Tuesday evenings (10 weeks)",
+   "title": "Wheel, Tuesday · Durham Arts Council (10 weeks)",
    "short": "Beginning/Intermediate Wheel",
    "category": "art",
    "solo": true,
@@ -2813,7 +2837,8 @@
    "firstTime": "If you've never used a wheel, the class teaches you from the start. Check the tool supply list in DAC's registration system, and wear clothes that can get muddy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-intermediate-wheel-3",
@@ -2821,7 +2846,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning/Intermediate Wheel – Thursday mornings (10 weeks)",
+   "title": "Wheel, Thursday AM · Durham Arts Council (10 weeks)",
    "short": "Beginning/Intermediate Wheel",
    "category": "art",
    "solo": true,
@@ -2840,7 +2865,8 @@
    "firstTime": "Beginners learn the basics from the start. Check the tool supply list in DAC's registration system, and wear clothes that can get muddy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-intermediate-wheel-4",
@@ -2848,7 +2874,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning/Intermediate Wheel – Thursday evenings (10 weeks)",
+   "title": "Wheel, Thursday PM · Durham Arts Council (10 weeks)",
    "short": "Beginning/Intermediate Wheel",
    "category": "art",
    "solo": true,
@@ -2867,7 +2893,8 @@
    "firstTime": "If you've never used a wheel, the class teaches you from the start. Check the tool supply list in DAC's registration system, and wear clothes that can get muddy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-hand-building-101",
@@ -2875,7 +2902,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Hand-building 101 – Tuesday mornings (10 weeks)",
+   "title": "Hand-building, Tue AM · Durham Arts Council (10 weeks)",
    "short": "Hand-building 101",
    "category": "art",
    "solo": true,
@@ -2894,7 +2921,8 @@
    "firstTime": "It's made for people who haven't touched clay since kindergarten. Check the supply list in DAC's registration system, and wear clothes that can get messy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-hand-building-101-2",
@@ -2902,7 +2930,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Hand-building 101 – Wednesday evenings (10 weeks)",
+   "title": "Hand-building, Wed PM · Durham Arts Council (10 weeks)",
    "short": "Hand-building 101",
    "category": "art",
    "solo": true,
@@ -2921,7 +2949,8 @@
    "firstTime": "It's made for people who haven't touched clay since kindergarten. Check the supply list in DAC's registration system, and wear clothes that can get messy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The supply list is only in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-sculptural-hand-building",
@@ -2929,7 +2958,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Sculptural Hand-building (10 weeks)",
+   "title": "Sculptural clay · Durham Arts Council (10 weeks)",
    "short": "Sculptural Hand-building",
    "category": "art",
    "solo": true,
@@ -2948,7 +2977,8 @@
    "firstTime": "The class covers basic sculptural hand-building techniques. It doesn't teach the wheel, though people who already throw are welcome to combine the two.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog doesn't give a skill level. Ask DAC if you're brand new to clay.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-wheel-throwing-crash-course",
@@ -2956,7 +2986,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Wheel Throwing Crash Course (one-night workshop)",
+   "title": "Wheel throwing crash course · Durham Arts Council",
    "short": "Wheel Throwing Crash Course",
    "category": "art",
    "solo": true,
@@ -2975,7 +3005,8 @@
    "firstTime": "No experience is required. Your piece is ready for pickup 2–4 weeks later, so wear clothes that can get muddy.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog doesn't say separately that clay is included.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-ceramic-planters",
@@ -2983,7 +3014,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Ceramic Planters",
+   "title": "Ceramic planters · Durham Arts Council",
    "short": "Ceramic Planters",
    "category": "art",
    "solo": true,
@@ -3001,7 +3032,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "All supplies are included, so just come ready to get messy. Your piece is ready for pickup 2–4 weeks later.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-ceramic-face-mugs",
@@ -3009,7 +3041,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Ceramic Face Mugs",
+   "title": "Ceramic face mugs · Durham Arts Council",
    "short": "Ceramic Face Mugs",
    "category": "art",
    "solo": true,
@@ -3027,7 +3059,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "All supplies are included, so just come ready to get messy. Your mug is ready for pickup 2–4 weeks later.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-drawing-fundamentals",
@@ -3035,7 +3068,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Drawing Fundamentals (10 weeks)",
+   "title": "Drawing fundamentals · Durham Arts Council (10 weeks)",
    "short": "Drawing Fundamentals",
    "category": "art",
    "solo": true,
@@ -3054,7 +3087,8 @@
    "firstTime": "It's recommended for beginners. Get the supply list from DAC's online catalog before the first class.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-loose-watercolor-techniques",
@@ -3062,7 +3096,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Loose Watercolor: Techniques & Practice (6 weeks)",
+   "title": "Loose watercolor · Durham Arts Council (6 weeks)",
    "short": "Loose Watercolor: Techniques…",
    "category": "art",
    "solo": true,
@@ -3081,7 +3115,8 @@
    "firstTime": "Beginners are welcome. Check the supply list in DAC's registration system before the first class.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-watercolor",
@@ -3089,7 +3124,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning Watercolor – Tuesday mornings (6 weeks)",
+   "title": "Beginning watercolor · Durham Arts Council (6 weeks)",
    "short": "Beginning Watercolor",
    "category": "art",
    "solo": true,
@@ -3108,7 +3143,8 @@
    "firstTime": "It's designed for beginners, though all are welcome. Check the supply list in DAC's online catalog.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted. With supplies, it may land near the $50/session limit.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-intro-to-acrylic-painting",
@@ -3116,7 +3152,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Intro to Acrylic Painting (4 weeks)",
+   "title": "Intro to acrylics · Durham Arts Council (4 weeks)",
    "short": "Intro to Acrylic Painting",
    "category": "art",
    "solo": true,
@@ -3135,7 +3171,8 @@
    "firstTime": "Complete beginners are welcome. Check DAC's registration system for any supply list before the first class.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "I didn't confirm supplies. If they're extra, the total could pass $50/session.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-winter-watercolor-botanicals",
@@ -3143,7 +3180,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Winter Watercolor Botanicals",
+   "title": "Winter watercolor botanicals · Durham Arts Council",
    "short": "Winter Watercolor Botanicals",
    "category": "art",
    "solo": true,
@@ -3160,7 +3197,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "It's beginner-friendly, and the $6 fee covers everything you'll use.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-pet-portraits-in-acrylic",
@@ -3168,7 +3206,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Pet Portraits in Acrylic",
+   "title": "Pet portraits in acrylic · Durham Arts Council",
    "short": "Pet Portraits in Acrylic",
    "category": "art",
    "solo": true,
@@ -3187,7 +3225,8 @@
    "firstTime": "Supplies are available to borrow, so you don't have to buy anything to try it.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Check DAC's registration system for what reference photo to bring.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-linocut-i-intro-to-printmak",
@@ -3195,7 +3234,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Linocut I: Intro to Printmaking (6 weeks)",
+   "title": "Linocut I printmaking · Durham Arts Council (6 weeks)",
    "short": "Linocut I: Intro to Printmak…",
    "category": "art",
    "solo": true,
@@ -3214,7 +3253,8 @@
    "firstTime": "It's the introductory level, and the follow-on Linocut II requires it. Bring the $40 materials fee to the first class.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog mentions possible additional materials. Check the supply list in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-tree-of-life-copper-wrapped",
@@ -3222,7 +3262,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Tree of Life Copper-Wrapped Pendant",
+   "title": "Tree of life copper pendant · Durham Arts Council",
    "short": "Tree of Life Copper-Wrapped…",
    "category": "art",
    "solo": true,
@@ -3239,7 +3279,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "All materials are covered by the $15 fee, so just bring that and yourself.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginner-garment-sewing-int",
@@ -3247,7 +3288,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginner Garment Sewing: Intro to Sewing Pants (6 weeks)",
+   "title": "Beginner garment sewing · Durham Arts Council (6 weeks)",
    "short": "Beginner Garment Sewing: Int…",
    "category": "art",
    "solo": true,
@@ -3266,7 +3307,8 @@
    "firstTime": "It's beginner friendly and needs no previous sewing experience.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog mentions something to prepare in advance. Check the class details in DAC's registration system.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginner-crochet",
@@ -3274,7 +3316,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginner Crochet (8 weeks)",
+   "title": "Beginner crochet · Durham Arts Council (8 weeks)",
    "short": "Beginner Crochet",
    "category": "art",
    "solo": true,
@@ -3293,7 +3335,8 @@
    "firstTime": "It's a beginner class. Check DAC's registration system for any yarn or hook list before the first session.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "I didn't confirm whether supplies are included.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-macrame-wall-hanging",
@@ -3301,7 +3344,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Macrame Wall Hanging",
+   "title": "Macrame wall hanging · Durham Arts Council",
    "short": "Macrame Wall Hanging",
    "category": "art",
    "solo": true,
@@ -3318,7 +3361,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "All materials are provided, so there's nothing to buy beforehand.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-silk-scarf-batik",
@@ -3326,7 +3370,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Silk Scarf Batik",
+   "title": "Silk scarf batik · Durham Arts Council",
    "short": "Silk Scarf Batik",
    "category": "art",
    "solo": true,
@@ -3343,7 +3387,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "Everything except the $15 scarf fee is included. Wear clothes you don't mind getting dye or wax on.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-sashiko-101",
@@ -3351,7 +3396,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Sashiko 101 (Japanese embroidery)",
+   "title": "Sashiko 101 · Durham Arts Council",
    "short": "Sashiko 101",
    "category": "art",
    "solo": true,
@@ -3368,7 +3413,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "It's an intro-level (101) workshop, and the supply fee covers materials.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-embroidery-basics",
@@ -3376,7 +3422,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Friday Night Makes: Embroidery Basics",
+   "title": "Embroidery basics · Durham Arts Council",
    "short": "Embroidery Basics",
    "category": "art",
    "solo": true,
@@ -3393,7 +3439,8 @@
    "howToJoin": "Register online starting Dec 4 at 10am at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
    "firstTime": "It's made for beginners, and the $10 fee covers all materials.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-beginning-knitting-workshop",
@@ -3401,7 +3448,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Beginning Knitting workshop",
+   "title": "Beginning knitting · The Scrap Exchange",
    "short": "Beginning Knitting workshop",
    "category": "art",
    "solo": true,
@@ -3419,7 +3466,8 @@
    "firstTime": "All materials are included. Arrive a few minutes early to settle in.",
    "url": "https://thescrapexchange.as.me/KnittingIntro",
    "verifyNote": "The workshops page doesn't show the street address, so confirm it. No refunds within 48 hours of the start.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-faux-leather-long-stitch-jou",
@@ -3427,7 +3475,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Faux Leather Long Stitch Journal workshop",
+   "title": "Faux leather journal workshop · The Scrap Exchange",
    "short": "Faux Leather Long Stitch Jou…",
    "category": "art",
    "solo": true,
@@ -3445,7 +3493,8 @@
    "firstTime": "Materials are provided, so you just need to show up.",
    "url": "https://thescrapexchange.as.me/LongStitchJournal",
    "verifyNote": "The workshops page doesn't show the street address, so confirm it. No refunds within 48 hours of the start.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-sewing-machine-basics-workshop",
@@ -3453,7 +3502,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Sewing Machine Basics workshop",
+   "title": "Sewing machine basics · The Scrap Exchange",
    "short": "Sewing Machine Basics workshop",
    "category": "art",
    "solo": true,
@@ -3472,7 +3521,8 @@
    "firstTime": "It's a basics class. Arrive a few minutes early to settle in.",
    "url": "https://thescrapexchange.as.me/SewingMachineBasics",
    "verifyNote": "Materials aren't specified. The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-intro-to-reduction-printmaking",
@@ -3480,7 +3530,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Intro to Reduction Printmaking (Animals)",
+   "title": "Intro to reduction printmaking · The Scrap Exchange",
    "short": "Intro to Reduction Printmaking",
    "category": "art",
    "solo": true,
@@ -3498,7 +3548,8 @@
    "firstTime": "It's an intro-level workshop. Arrive a few minutes early to settle in.",
    "url": "https://thescrapexchange.as.me/Reduction",
    "verifyNote": "Materials aren't specified on the listing. The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-intro-to-hand-embroidery-wor",
@@ -3506,7 +3557,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Intro to Hand Embroidery workshop",
+   "title": "Intro to hand embroidery · The Scrap Exchange",
    "short": "Intro to Hand Embroidery wor…",
    "category": "art",
    "solo": true,
@@ -3524,7 +3575,8 @@
    "firstTime": "It's an intro workshop, and all supplies are provided.",
    "url": "https://thescrapexchange.as.me/Embroidery",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-scraps-to-sheets-handmade-p",
@@ -3532,7 +3584,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Scraps to Sheets: Handmade Papermaking",
+   "title": "Handmade papermaking · The Scrap Exchange",
    "short": "Scraps to Sheets: Handmade P…",
    "category": "art",
    "solo": true,
@@ -3550,7 +3602,8 @@
    "firstTime": "Wear clothes that can get damp. Arrive a few minutes early.",
    "url": "https://thescrapexchange.as.me/Papermaking",
    "verifyNote": "Materials aren't specified on the listing. The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-yay-you-re-gonna-crochet",
@@ -3558,7 +3611,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Yay! You're Gonna Crochet (Intro to Crochet)",
+   "title": "Intro to crochet · The Scrap Exchange",
    "short": "Yay! You're Gonna Crochet",
    "category": "art",
    "solo": true,
@@ -3576,7 +3629,8 @@
    "firstTime": "It's an intro workshop, and yarn and hooks are provided.",
    "url": "https://thescrapexchange.as.me/IntroToCrochet",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-make-your-own-linocut-stamp",
@@ -3584,7 +3638,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Make Your Own Linocut Stamp (Holiday Edition)",
+   "title": "Linocut stamp making · The Scrap Exchange",
    "short": "Make Your Own Linocut Stamp",
    "category": "art",
    "solo": true,
@@ -3602,7 +3656,8 @@
    "firstTime": "The stamp and the item to print on are included. Arrive a few minutes early.",
    "url": "https://thescrapexchange.as.me/Stamp",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-sips-and-scribbles-adult-jour",
@@ -3610,7 +3665,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Sips & Scribbles: Adult Journaling Party",
+   "title": "Adult journaling party · The Scrap Exchange",
    "short": "Sips & Scribbles: Adult Jour…",
    "category": "art",
    "solo": true,
@@ -3628,7 +3683,8 @@
    "firstTime": "All supplies are provided. Bring a drink if you'd like.",
    "url": "https://thescrapexchange.as.me/Party",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-snowman-hat-workshop",
@@ -3636,7 +3692,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Pottery: Snowman Hat Workshop (2 sessions)",
+   "title": "Snowman hat pottery · Pullen Arts Center (2 sessions)",
    "short": "Snowman Hat Workshop",
    "category": "art",
    "solo": true,
@@ -3654,7 +3710,8 @@
    "howToJoin": "Register online in Raleigh RecLink (Pullen Arts Center, activity # PUARPOTTERH57-001), or call 919-996-6126.",
    "firstTime": "No experience is required, and it's planned with beginners in mind. Projects are ready for pickup about 2 weeks after the workshop.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-drawing-discovery",
@@ -3662,7 +3719,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Drawing Discovery (3 sessions)",
+   "title": "Drawing discovery · Pullen Arts Center (3 sessions)",
    "short": "Drawing Discovery",
    "category": "art",
    "solo": true,
@@ -3680,7 +3737,8 @@
    "howToJoin": "Register online in Raleigh RecLink (Pullen Arts Center, activity # PUARDRAW28-003), or call 919-996-6126.",
    "firstTime": "It's open to all levels of drawing experience, and all supplies are included.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-screen-printing-with-waterco",
@@ -3688,7 +3746,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Printmaking: Screen Printing with Watercolors (one day)",
+   "title": "Screen printing with watercolors · Pullen Arts Center",
    "short": "Screen Printing with Waterco…",
    "category": "art",
    "solo": true,
@@ -3706,7 +3764,8 @@
    "firstTime": "Beginning, intermediate and advanced students are all welcome. Check the supply list on your receipt.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Supply cost isn't posted. This is a different workshop from the Dec 6 screen printing class already on the site.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-chunky-knit-scarves",
@@ -3714,7 +3773,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Fibers: Chunky Knit Scarves (Saturday)",
+   "title": "Chunky knit scarves, Saturday · Pullen Arts Center",
    "short": "Chunky Knit Scarves",
    "category": "art",
    "solo": true,
@@ -3732,7 +3791,8 @@
    "firstTime": "No knitting experience is needed. Bring the yarn on the supply list.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Yarn cost isn't posted.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-chunky-knit-scarves-2",
@@ -3740,7 +3800,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Fibers: Chunky Knit Scarves (Tuesday evening)",
+   "title": "Chunky knit scarves, Tuesday · Pullen Arts Center",
    "short": "Chunky Knit Scarves",
    "category": "art",
    "solo": true,
@@ -3758,7 +3818,8 @@
    "firstTime": "No knitting experience is needed. Bring the yarn on the supply list.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Yarn cost isn't posted.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-introduction-to-japanese-shi",
@@ -3766,7 +3827,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Fibers: Introduction to Japanese Shibori",
+   "title": "Japanese shibori · Pullen Arts Center",
    "short": "Introduction to Japanese Shi…",
    "category": "art",
    "solo": true,
@@ -3783,7 +3844,8 @@
    "howToJoin": "Register online in Raleigh RecLink (Pullen Arts Center, activity # PUARFIBER25-001), or call 919-996-6126.",
    "firstTime": "No prior experience is necessary. Remember the 2 yards of pre-washed white cotton.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "r-drawer-box-with-partitions",
@@ -3791,7 +3853,7 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Bookmaking: Drawer Box with Partitions (3 sessions)",
+   "title": "Bookmaking box · Pullen Arts Center (3 sessions)",
    "short": "Drawer Box with Partitions",
    "category": "art",
    "solo": true,
@@ -3809,7 +3871,8 @@
    "howToJoin": "Register online in Raleigh RecLink (Pullen Arts Center, activity # PUARBOOK41-001), or call 919-996-6126.",
    "firstTime": "Bring the $25 supply fee and, if you like, tiny objects (under 1/2 inch) to put inside.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "isClass": true
   },
   {
    "id": "d-fiction-book-club",
@@ -3817,9 +3880,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Fiction Book Club at South Regional Library",
+   "title": "Fiction book club · South Regional Library",
    "short": "Fiction Book Club",
-   "category": "learning",
+   "category": "books",
    "philanthropy": false,
    "solo": true,
    "recurrence": {
@@ -3851,7 +3914,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Morning Knitting and Other Handiwork",
+   "title": "Morning knitting · North Regional Library",
    "short": "Morning Knitting",
    "category": "art",
    "philanthropy": false,
@@ -3889,9 +3952,9 @@
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
-   "title": "Library Taskmaster! (adults 21+)",
+   "title": "Library Taskmaster (21+) · Durham Main Library",
    "short": "Library Taskmaster",
-   "category": "games",
+   "category": "comedy",
    "philanthropy": false,
    "solo": true,
    "dates": [
@@ -3916,7 +3979,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Java Jog Sunday Group Run at The Bike Library",
+   "title": "Java Jog Sunday run · The Bike Library",
    "short": "Java Jog Sunday run",
    "category": "fitness",
    "philanthropy": false,
@@ -3951,7 +4014,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Open Mic Night at The Bike Library",
+   "title": "Open mic · The Bike Library",
    "short": "Bike Library open mic",
    "category": "music",
    "philanthropy": false,
@@ -3985,9 +4048,9 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Spanish Night at The Bike Library",
+   "title": "Spanish night · The Bike Library",
    "short": "Spanish Night",
-   "category": "learning",
+   "category": "books",
    "philanthropy": false,
    "solo": true,
    "dates": [
@@ -4011,7 +4074,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Espresso Express Morning Bike Ride",
+   "title": "Espresso Express morning ride · The Bike Library",
    "short": "Espresso Express ride",
    "category": "fitness",
    "philanthropy": false,
@@ -4045,7 +4108,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
-   "title": "Craft Night at The Bike Library",
+   "title": "Craft night · The Bike Library",
    "short": "Craft Night",
    "category": "art",
    "philanthropy": false,
@@ -4071,7 +4134,7 @@
    "kind": "event",
    "entry": "show",
    "tier": "regular",
-   "title": "Pickleball at First Presbyterian Church",
+   "title": "Pickleball · First Presbyterian Church",
    "short": "FPC pickleball",
    "category": "fitness",
    "philanthropy": false,
@@ -4100,6 +4163,56 @@
    "url": "https://fpcraleigh.org/events/",
    "verifyNote": "The listing doesn't say where in the building play happens or whether paddles are provided. Call (919) 821-5750 to confirm visitors are welcome and where to enter.",
    "evidence": "https://fpcraleigh.org/events/: the church's own events calendar lists Pickleball (1–3 PM, no experience required) on Mon Nov 16, Wed Nov 18, Mon Nov 23 and Wed Nov 25, 2026. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "d-dac-registration-opens",
+   "city": "durham",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Winter class registration opens · Durham Arts Council",
+   "short": "Class sign-ups open",
+   "category": "art",
+   "isClass": true,
+   "solo": true,
+   "dates": [
+    "2026-12-04"
+   ],
+   "start": "10:00",
+   "venue": "Durham Arts Council (online)",
+   "address": "120 Morris St, Durham, NC 27701",
+   "cost": "Free to register; classes vary",
+   "description": "Registration opens for the winter pottery, drawing, painting and craft classes. Pottery sections fill fast, so have your choice picked out ahead of time.",
+   "howToJoin": "Register online at secure.rec1.com/NC/durham-arts-council-nc/catalog, or call (919) 560-2726.",
+   "firstTime": "Pick a first and second choice before 10am in case your favorite section fills.",
+   "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
+   "evidence": "durhamarts.org winter 2027 catalog post (Nov 12, 2026): class registration opens Fri Dec 4 at 10am",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-pullen-registration-opens",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Winter class registration opens · Pullen Arts Center",
+   "short": "Class sign-ups open",
+   "category": "art",
+   "isClass": true,
+   "solo": true,
+   "dates": [
+    "2026-12-01"
+   ],
+   "start": "05:30",
+   "venue": "Pullen Arts Center (online)",
+   "address": "105 Pullen Rd, Raleigh, NC 27607",
+   "cost": "Free to register; classes vary",
+   "description": "Online registration opens for Pullen Arts Center's January to April classes, including pottery, printmaking and jewelry. Popular classes can fill quickly.",
+   "howToJoin": "Register online through Raleigh RecLink, or call 919-996-6126 once the center opens.",
+   "firstTime": "Look through the class guide the night before so you can register right away.",
+   "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
+   "evidence": "City of Raleigh Jan-Apr 2027 program guide: online registration starts Dec 1, 2026 at 5:30am",
    "lastChecked": "2026-11-13"
   }
  ]
