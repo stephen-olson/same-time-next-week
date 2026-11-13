@@ -1,0 +1,595 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Same Time Next Week//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Same Time Next Week: Durham volunteering
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Social events in Durham and Raleigh\, NC. Every listing is re-
+ checked weekly.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261106@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261106T090000
+DTEND;TZID=America/New_York:20261106T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261107@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261107T090000
+DTEND;TZID=America/New_York:20261107T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261111@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261111T090000
+DTEND;TZID=America/New_York:20261111T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T090000
+DTEND;TZID=America/New_York:20261112T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261113@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261113T090000
+DTEND;TZID=America/New_York:20261113T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261114@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261114T090000
+DTEND;TZID=America/New_York:20261114T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261118@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261118T090000
+DTEND;TZID=America/New_York:20261118T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T090000
+DTEND;TZID=America/New_York:20261119T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261120@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261120T090000
+DTEND;TZID=America/New_York:20261120T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T090000
+DTEND;TZID=America/New_York:20261121T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T090000
+DTEND;TZID=America/New_York:20261125T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261128@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261128T090000
+DTEND;TZID=America/New_York:20261128T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T090000
+DTEND;TZID=America/New_York:20261202T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T090000
+DTEND;TZID=America/New_York:20261203T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261204@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261204T090000
+DTEND;TZID=America/New_York:20261204T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261205@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261209@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261209T090000
+DTEND;TZID=America/New_York:20261209T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T090000
+DTEND;TZID=America/New_York:20261210T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261211@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261211T090000
+DTEND;TZID=America/New_York:20261211T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261212@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261216@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261216T090000
+DTEND;TZID=America/New_York:20261216T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T090000
+DTEND;TZID=America/New_York:20261217T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261218@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261218T090000
+DTEND;TZID=America/New_York:20261218T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261219@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261219T090000
+DTEND;TZID=America/New_York:20261219T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-food-bank-sort-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261223T090000
+DTEND;TZID=America/New_York:20261223T113000
+SUMMARY:Food Bank Durham Branch volunteer shifts
+LOCATION:Food Bank of Central & Eastern NC - Durham Branch (new facility)\,
+  1607 Hamlin Rd\, Building F\, Durham\, NC 27704
+DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
+  a standing shift puts you alongside the same volunteers.\n\nMorning shift
+  shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed No
+ v 26–27\, Dec 24–25 and Jan 1.\n\nHow to join: Register online and boo
+ k via the Durham branch calendar at foodbankcenc.org/durham (requests appr
+ oved first)\n\nBefore you go: ~4 mi north of downtown\; old Angier Ave sit
+ e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
+ t Week.
+URL:https://foodbankcenc.org/durham
+END:VEVENT
+BEGIN:VEVENT
+UID:d-eno-river-workday-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T090000
+DTEND;TZID=America/New_York:20261121T120000
+SUMMARY:Eno River Association invasive plant workday
+LOCATION:Rocky Branch Conservation Area\, 4708 Seterra Bend\, Durham\, NC 2
+ 7712
+DESCRIPTION:Pull invasive privet with an Eno River Association crew. Workda
+ ys come around about monthly\, so the same volunteers keep showing up.\n\n
+ Privet removal at Rocky Branch\n\nHow to join: Register on the Eno River A
+ ssociation's Eventbrite\, and join their volunteer email list for future d
+ ates\n\nBefore you go: January and February workdays aren't posted yet.\n\
+ nhttps://www.enoriver.org/events-on-the-eno/\n\nListed on Same Time Next W
+ eek.
+URL:https://www.enoriver.org/events-on-the-eno/
+END:VEVENT
+BEGIN:VEVENT
+UID:d-trail-crew-20261205@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T140000
+SUMMARY:Mountains-to-Sea Trail crew on the Eno
+LOCATION:Eno section of the Mountains-to-Sea Trail\, 317 Omega Rd\, Durham\
+ , NC
+DESCRIPTION:Repair trail and clear invasives with the Friends of the Mounta
+ ins-to-Sea Trail Eno crew\, a regular group that works this section throug
+ h the year.\n\nTrail repair and invasive plant removal\n\nHow to join: Con
+ tact the crew leader listed on the Eno River Association events page to si
+ gn up\n\nBefore you go: Confirm the meeting spot with the crew leader befo
+ re you go.\n\nhttps://www.enoriver.org/events-on-the-eno/\n\nListed on Sam
+ e Time Next Week.
+URL:https://www.enoriver.org/events-on-the-eno/
+END:VEVENT
+BEGIN:VEVENT
+UID:d-litter-cleanup-20261122@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261122T090000
+DTEND;TZID=America/New_York:20261122T110000
+SUMMARY:Keep Durham Beautiful: MLK Jr Parkway cleanup
+LOCATION:Durham Board of Elections lot\, 3825 S Roxboro St\, Durham\, NC 27
+ 713
+DESCRIPTION:A two-hour litter cleanup along MLK Jr Parkway with Keep Durham
+  Beautiful. A good way to meet civic-minded neighbors.\n\nMeet in the Durh
+ am Board of Elections parking lot\n\nHow to join: Sign up through the form
+  on the event page at keepdurhambeautiful.org/events\n\nBefore you go: Dat
+ es are posted only through Dec 13. January and February aren't posted yet.
+ \n\nhttps://keepdurhambeautiful.squarespace.com/events\n\nListed on Same T
+ ime Next Week.
+URL:https://keepdurhambeautiful.squarespace.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:d-litter-cleanup-2-20261213@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261213T090000
+DTEND;TZID=America/New_York:20261213T110000
+SUMMARY:Keep Durham Beautiful: MLK Jr Parkway cleanup
+LOCATION:Lowe's parking lot\, 4402 Fayetteville St\, Durham\, NC
+DESCRIPTION:A two-hour litter cleanup along MLK Jr Parkway with Keep Durham
+  Beautiful. A good way to meet civic-minded neighbors.\n\nStarts at the Lo
+ we's parking lot\n\nHow to join: Sign up through the form on the event pag
+ e at keepdurhambeautiful.org/events\n\nBefore you go: Dates are posted onl
+ y through Dec 13. January and February aren't posted yet.\n\nhttps://keepd
+ urhambeautiful.squarespace.com/events\n\nListed on Same Time Next Week.
+URL:https://keepdurhambeautiful.squarespace.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:d-quiet-volunteer-night-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T180000
+DTEND;TZID=America/New_York:20261125T200000
+SUMMARY:Low Distraction Volunteer Night
+LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
+DESCRIPTION:An evening volunteer shift sorting donated craft materials\, se
+ t up as a calmer\, lower-distraction room.\n\nHow to join: Sign up at scra
+ pexchange.org/volunteer (no walk-ins). Ages 18+.\n\nBefore you go: One-tim
+ e special shift. Sign-up is required.\n\nhttps://www.scrapexchange.org/vol
+ unteer\n\nListed on Same Time Next Week.
+URL:https://www.scrapexchange.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bike-co-op-volunteering-20261114@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261114T090000
+DTEND;TZID=America/New_York:20261114T120000
+SUMMARY:Durham Bike Co-op Saturday Beginner volunteer session
+LOCATION:Durham Bike Co-op\, 1612 Acadia St\, Durham\, NC 27701
+DESCRIPTION:A beginner-level volunteer shift at the community bike shop. Wo
+ rking side by side on bikes makes it easy to talk with other volunteers.\n
+ \nNov 14 is the only Saturday Beginner session posted in the window (statu
+ s: Waiting List). None are posted for Dec 2026-Feb 2027.\n\nHow to join: S
+ ign up or join the waitlist on durhambikecoop.corsizio.com\, and check bac
+ k there for new Saturday Beginner dates.\n\nBefore you go: The Nov 14 sess
+ ion is waitlisted. Watch corsizio for Dec-Feb dates\, which aren't posted 
+ yet. No cost is shown.\n\nhttps://durhambikecoop.corsizio.com/\n\nListed o
+ n Same Time Next Week.
+URL:https://durhambikecoop.corsizio.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bike-repair-clinic-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T090000
+DTEND;TZID=America/New_York:20261121T120000
+SUMMARY:Pop-up bike repair clinic at the Durham Farmers' Market
+LOCATION:Durham Farmers' Market\, Durham Central Park\, 501 Foster St\, Dur
+ ham\, NC 27701
+DESCRIPTION:A volunteer shift helping run a pop-up bike repair clinic at th
+ e farmers' market. Working as a team in public is a natural way to meet pe
+ ople.\n\nSat Nov 21\, 9am-12pm\, limited spots. A second clinic the same d
+ ay at Crank Arm Durham (12-4pm) is full.\n\nHow to join: Sign up on durham
+ bikecoop.corsizio.com\; spots are limited.\n\nBefore you go: The sign-up p
+ age doesn't give a meeting spot\, so confirm where to find the co-op's ten
+ t. It also doesn't say whether beginners can sign up.\n\nhttps://durhambik
+ ecoop.corsizio.com/\n\nListed on Same Time Next Week.
+URL:https://durhambikecoop.corsizio.com/
+END:VEVENT
+END:VCALENDAR

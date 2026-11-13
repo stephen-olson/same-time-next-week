@@ -1,0 +1,2466 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Same Time Next Week//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Same Time Next Week: Raleigh
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Social events in Durham and Raleigh\, NC. Every listing is re-
+ checked weekly.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:r-old-time-jam-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:PineCone Old-Time Jam
+LOCATION:Riparian Provision Company\, 1408 S Saunders St\, Raleigh\, NC 276
+ 03
+DESCRIPTION:Circle jam of old-time fiddle tunes led by strong players who l
+ eave room for newer ones. Listeners are welcome too. The same regulars com
+ e every month.\n\nUp-to-speed jam (not a slow or learning jam)\; tunes are
+  called by key (D\, A\, G)\n\nHow to join: Just show up with an instrument
+ \, or come to listen\n\nBefore you go: Next dates are Dec 10\, Jan 14 and 
+ Feb 11\, though only Dec 10 is on PineCone's calendar so far. Parking at t
+ he plaza is very limited.\n\nhttps://pinecone.org/event/pinecone-old-time-
+ jam-at-riparian-6/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-old-time-jam-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T210000
+SUMMARY:PineCone Old-Time Jam
+LOCATION:Riparian Provision Company\, 1408 S Saunders St\, Raleigh\, NC 276
+ 03
+DESCRIPTION:Circle jam of old-time fiddle tunes led by strong players who l
+ eave room for newer ones. Listeners are welcome too. The same regulars com
+ e every month.\n\nUp-to-speed jam (not a slow or learning jam)\; tunes are
+  called by key (D\, A\, G)\n\nHow to join: Just show up with an instrument
+ \, or come to listen\n\nBefore you go: Next dates are Dec 10\, Jan 14 and 
+ Feb 11\, though only Dec 10 is on PineCone's calendar so far. Parking at t
+ he plaza is very limited.\n\nhttps://pinecone.org/event/pinecone-old-time-
+ jam-at-riparian-6/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beginner-bluegrass-jam-20261116@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261116T190000
+DTEND;TZID=America/New_York:20261116T210000
+SUMMARY:PineCone Beginner Bluegrass Jam
+LOCATION:Harry's Guitar Shop\, 556 Pylon Dr\, Raleigh\, NC 27606
+DESCRIPTION:Coached jam for people with little or no experience playing wit
+ h others\, facilitated by Jef Walter. Each month has first-timers alongsid
+ e people who have come for years.\n\nFirst hour is one big group that stop
+ s to talk through songs\; second hour splits into two smaller groups\n\nHo
+ w to join: Just show up with your instrument\n\nBefore you go: The 3rd-Mon
+ day beginner jam is still at Harry's\; the separate 4th-Monday open jam mo
+ ved to Raleigh Brewing. Nov 16 and Dec 21 are posted. Jan 18 (MLK Day) and
+  Feb 15 aren't posted yet.\n\nhttps://pinecone.org/event/pinecone-beginner
+ s-bluegrass-jam-6/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beginner-bluegrass-jam-20261221@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261221T190000
+DTEND;TZID=America/New_York:20261221T210000
+SUMMARY:PineCone Beginner Bluegrass Jam
+LOCATION:Harry's Guitar Shop\, 556 Pylon Dr\, Raleigh\, NC 27606
+DESCRIPTION:Coached jam for people with little or no experience playing wit
+ h others\, facilitated by Jef Walter. Each month has first-timers alongsid
+ e people who have come for years.\n\nFirst hour is one big group that stop
+ s to talk through songs\; second hour splits into two smaller groups\n\nHo
+ w to join: Just show up with your instrument\n\nBefore you go: The 3rd-Mon
+ day beginner jam is still at Harry's\; the separate 4th-Monday open jam mo
+ ved to Raleigh Brewing. Nov 16 and Dec 21 are posted. Jan 18 (MLK Day) and
+  Feb 15 aren't posted yet.\n\nhttps://pinecone.org/event/pinecone-beginner
+ s-bluegrass-jam-6/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-bluegrass-jam-20261123@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261123T190000
+DTEND;TZID=America/New_York:20261123T210000
+SUMMARY:PineCone Open Bluegrass Jam
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Up-to-speed open circle jam on standard bluegrass songs for mus
+ icians of all levels. It moved to Raleigh Brewing in September 2026.\n\nHo
+ w to join: Just show up with your instrument\n\nBefore you go: Posted date
+ s: Nov 23\, Dec 28\, Jan 25\, Feb 22.\n\nhttps://pinecone.org/event/pineco
+ ne-open-bluegrass-jam-9/2026-11-23/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T183000
+DTEND;TZID=America/New_York:20261117T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T183000
+DTEND;TZID=America/New_York:20261124T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T183000
+DTEND;TZID=America/New_York:20261201T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-beer-and-banjos-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T183000
+DTEND;TZID=America/New_York:20261222T210000
+SUMMARY:Beer and Banjos (weekly roots music night)
+LOCATION:Bowstring Pizza and Brewyard\, 1930 Wake Forest Rd\, Raleigh\, NC 
+ 27608
+DESCRIPTION:Free family-friendly bluegrass and roots night every Tuesday\, 
+ hosted by the Beer & Banjos All-Stars with a different guest each week. It
+  draws a steady crowd of local pickers and fans. It is a concert\, not an 
+ open jam.\n\nOn the patio in good weather\, inside by the bar in cold or r
+ ain\n\nHow to join: Just show up\n\nBefore you go: Nov 17 and Nov 24 are l
+ isted. Check the holiday weeks (Dec 22 and 29).\n\nhttps://pinecone.org/ev
+ ent/beer-and-banjos-emily-burdette/\n\nListed on Same Time Next Week.
+URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T210000
+DTEND;TZID=America/New_York:20261111T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T210000
+DTEND;TZID=America/New_York:20261118T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T210000
+DTEND;TZID=America/New_York:20261125T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T210000
+DTEND;TZID=America/New_York:20261202T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T210000
+DTEND;TZID=America/New_York:20261209T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T210000
+DTEND;TZID=America/New_York:20261216T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-slim-s-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T210000
+DTEND;TZID=America/New_York:20261223T000000
+SUMMARY:Open Mic with a Live Band at Slim's
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the ven
+ ue. No sign-up time is posted.\n\nhttps://slimsdivebar.com/\n\nListed on S
+ ame Time Next Week.
+URL:https://slimsdivebar.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-open-mic-rebus-works-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T173000
+DTEND;TZID=America/New_York:20261203T200000
+SUMMARY:Rebus Works Open Mic Night
+LOCATION:Rebus Works\, 301-2 Kinsey St\, Raleigh\, NC 27603
+DESCRIPTION:First-Thursday open mic for music\, poetry and comedy in a smal
+ l Boylan Heights gallery and community space. The crowd is friendly and th
+ e regulars return each month.\n\nSign-up starts at 5pm\; the house backing
+  band is available if you want it\n\nHow to join: Sign up in person from 5
+ pm\n\nBefore you go: Rebus Works skips January (closed Jan 5–9). Februar
+ y's date isn't posted yet.\n\nhttps://www.rebusworks.us/calendar\n\nListed
+  on Same Time Next Week.
+URL:https://www.rebusworks.us/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:r-bluegrass-jam-class-20261205@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261205T100000
+DTEND;TZID=America/New_York:20261205T160000
+SUMMARY:Wernick Method Holiday Bluegrass Jam Class
+LOCATION:St. Paul's Christian Church\, 3331 Blue Ridge Rd\, Raleigh\, NC 27
+ 612
+DESCRIPTION:One-day bluegrass jamming class taught by Leslie Dare and Susan
+  West. No jam experience is needed if you can tune and change smoothly bet
+ ween G\, C\, D and A. It's a good way into the PineCone jams.\n\nTimes are
+  listed as either 10am-4pm or 11am-2pm\; check before you go. Bring your o
+ wn lunch\; there's an ugly sweater contest.\n\nHow to join: Register onlin
+ e at wernickmethod.org (create an account)\; the songbook is sent after yo
+ u register\n\nBefore you go: This is the only Raleigh Wernick class posted
+  for now.\n\nhttps://wernickmethod.org/event/ld-sw-2026-12-raleigh\n\nList
+ ed on Same Time Next Week.
+URL:https://wernickmethod.org/event/ld-sw-2026-12-raleigh
+END:VEVENT
+BEGIN:VEVENT
+UID:r-line-dancing-transfer-co-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T220000
+SUMMARY:Ballroom Line Dancing with Lexi
+LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
+ e St\, Ste 160\, Raleigh\, NC 27601
+DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
+  dancing\, for all ages and skill levels. Icebreakers and games make it ea
+ sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
+ join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
+ Nov 26 is Thanksgiving\, and December through February isn't posted yet. T
+ he $5 price was last confirmed in September 2026.\n\nhttps://www.transferc
+ ofoodhall.com/upcoming-events\n\nListed on Same Time Next Week.
+URL:https://www.transfercofoodhall.com/upcoming-events
+END:VEVENT
+BEGIN:VEVENT
+UID:r-line-dancing-transfer-co-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T190000
+DTEND;TZID=America/New_York:20261119T220000
+SUMMARY:Ballroom Line Dancing with Lexi
+LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
+ e St\, Ste 160\, Raleigh\, NC 27601
+DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
+  dancing\, for all ages and skill levels. Icebreakers and games make it ea
+ sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
+ join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
+ Nov 26 is Thanksgiving\, and December through February isn't posted yet. T
+ he $5 price was last confirmed in September 2026.\n\nhttps://www.transferc
+ ofoodhall.com/upcoming-events\n\nListed on Same Time Next Week.
+URL:https://www.transfercofoodhall.com/upcoming-events
+END:VEVENT
+BEGIN:VEVENT
+UID:r-line-dancing-transfer-co-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T190000
+DTEND;TZID=America/New_York:20261203T220000
+SUMMARY:Ballroom Line Dancing with Lexi
+LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
+ e St\, Ste 160\, Raleigh\, NC 27601
+DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
+  dancing\, for all ages and skill levels. Icebreakers and games make it ea
+ sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
+ join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
+ Nov 26 is Thanksgiving\, and December through February isn't posted yet. T
+ he $5 price was last confirmed in September 2026.\n\nhttps://www.transferc
+ ofoodhall.com/upcoming-events\n\nListed on Same Time Next Week.
+URL:https://www.transfercofoodhall.com/upcoming-events
+END:VEVENT
+BEGIN:VEVENT
+UID:r-line-dancing-transfer-co-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T220000
+SUMMARY:Ballroom Line Dancing with Lexi
+LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
+ e St\, Ste 160\, Raleigh\, NC 27601
+DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
+  dancing\, for all ages and skill levels. Icebreakers and games make it ea
+ sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
+ join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
+ Nov 26 is Thanksgiving\, and December through February isn't posted yet. T
+ he $5 price was last confirmed in September 2026.\n\nhttps://www.transferc
+ ofoodhall.com/upcoming-events\n\nListed on Same Time Next Week.
+URL:https://www.transfercofoodhall.com/upcoming-events
+END:VEVENT
+BEGIN:VEVENT
+UID:r-line-dancing-transfer-co-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T220000
+SUMMARY:Ballroom Line Dancing with Lexi
+LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
+ e St\, Ste 160\, Raleigh\, NC 27601
+DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
+  dancing\, for all ages and skill levels. Icebreakers and games make it ea
+ sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
+ join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
+ Nov 26 is Thanksgiving\, and December through February isn't posted yet. T
+ he $5 price was last confirmed in September 2026.\n\nhttps://www.transferc
+ ofoodhall.com/upcoming-events\n\nListed on Same Time Next Week.
+URL:https://www.transfercofoodhall.com/upcoming-events
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261108@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261108T180000
+DTEND;TZID=America/New_York:20261108T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261115@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261115T180000
+DTEND;TZID=America/New_York:20261115T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261122@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261122T180000
+DTEND;TZID=America/New_York:20261122T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261129@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261129T180000
+DTEND;TZID=America/New_York:20261129T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261206@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261206T180000
+DTEND;TZID=America/New_York:20261206T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261213@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261213T180000
+DTEND;TZID=America/New_York:20261213T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-swing-dance-20261220@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261220T180000
+DTEND;TZID=America/New_York:20261220T220000
+SUMMARY:Carolina Dance Club Sunday Night Swing
+LOCATION:Raleigh Elks Lodge No. 735\, 5538 Lead Mine Rd\, Raleigh\, NC
+DESCRIPTION:Large weekly swing dance with a free lesson\; over 100 dancers 
+ have been reported on a typical Sunday. Some Sundays add afternoon session
+ s: ballroom on the 1st Sunday\, country on the 2nd.\n\nFree East Coast Swi
+ ng lesson at 6pm\; Lindy/ECS/Blues 7-8:45\; West Coast Swing and Hustle 8:
+ 45-10\n\nHow to join: Just show up\n\nBefore you go: North Raleigh\, about
+  15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January
+ -February aren't listed. Check the site.\n\nhttps://www.carolinadanceclub.
+ com/\n\nListed on Same Time Next Week.
+URL:https://www.carolinadanceclub.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-first-friday-art-walk-20261106@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261106T180000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:First Friday Raleigh art walk
+LOCATION:Artspace and downtown galleries\, 201 E Davie St\, Raleigh\, NC 27
+ 601
+DESCRIPTION:Free self-guided monthly walk through galleries\, studios and a
+ lternative art spaces downtown\, with openings\, music and food.\n\nDozens
+  of downtown galleries and studios take part\, each with its own hours. Ar
+ tspace is open 4–10pm\, with a sensory-friendly hour from 4–6pm.\n\nHo
+ w to join: Just show up\; the venue list is on the Downtown Raleigh Allian
+ ce First Friday page\n\nBefore you go: The January 2027 First Friday falls
+  on New Year's Day. Confirm whether it runs.\n\nhttps://triangleonthecheap
+ .com/first-friday-raleigh\n\nListed on Same Time Next Week.
+URL:https://triangleonthecheap.com/first-friday-raleigh
+END:VEVENT
+BEGIN:VEVENT
+UID:r-first-friday-art-walk-20261204@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261204T180000
+DTEND;TZID=America/New_York:20261204T210000
+SUMMARY:First Friday Raleigh art walk
+LOCATION:Artspace and downtown galleries\, 201 E Davie St\, Raleigh\, NC 27
+ 601
+DESCRIPTION:Free self-guided monthly walk through galleries\, studios and a
+ lternative art spaces downtown\, with openings\, music and food.\n\nDozens
+  of downtown galleries and studios take part\, each with its own hours. Ar
+ tspace is open 4–10pm\, with a sensory-friendly hour from 4–6pm.\n\nHo
+ w to join: Just show up\; the venue list is on the Downtown Raleigh Allian
+ ce First Friday page\n\nBefore you go: The January 2027 First Friday falls
+  on New Year's Day. Confirm whether it runs.\n\nhttps://triangleonthecheap
+ .com/first-friday-raleigh\n\nListed on Same Time Next Week.
+URL:https://triangleonthecheap.com/first-friday-raleigh
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261111@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261111T183000
+DTEND;TZID=America/New_York:20261111T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261118@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261118T183000
+DTEND;TZID=America/New_York:20261118T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T183000
+DTEND;TZID=America/New_York:20261125T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T183000
+DTEND;TZID=America/New_York:20261202T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261209@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261209T183000
+DTEND;TZID=America/New_York:20261209T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261216@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-byo-craft-night-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261223T183000
+DTEND;TZID=America/New_York:20261223T213000
+SUMMARY:Bring Your Own Craft Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Bring any project (stitching\, sketching\, scrapbooking) and me
+ et other makers over a beer. Hosted by The Anna Effect.\n\nHow to join: Ju
+ st show up\n\nBefore you go: Dates are posted through Dec 30\, 2026\, and 
+ it may end around 8:30. Check that it continues in 2027.\n\nhttps://www.vi
+ sitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
+ h-brewing/103060/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T183000
+DTEND;TZID=America/New_York:20261117T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T183000
+DTEND;TZID=America/New_York:20261124T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T183000
+DTEND;TZID=America/New_York:20261201T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-crank-arm-run-club-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T183000
+DTEND;TZID=America/New_York:20261222T203000
+SUMMARY:Crank Arm Run Club
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2\, 3 or 5-mile routes\, then hang
+  out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates a
+ re posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-arm-
+ run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T183000
+DTEND;TZID=America/New_York:20261117T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T183000
+DTEND;TZID=America/New_York:20261119T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T183000
+DTEND;TZID=America/New_York:20261124T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T183000
+DTEND;TZID=America/New_York:20261201T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T183000
+DTEND;TZID=America/New_York:20261203T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T183000
+DTEND;TZID=America/New_York:20261210T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T183000
+DTEND;TZID=America/New_York:20261217T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-stonewall-run-club-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T183000
+DTEND;TZID=America/New_York:20261222T213000
+SUMMARY:Stonewall Run Club
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Inclusive social run club for all levels\, explicitly pitched a
+ s a way to exercise and meet people. The bar's Tuesday trivia starts right
+  after.\n\n1-5 mile routes\, then drinks and socializing\n\nHow to join: A
+ rrive 5-10 minutes early to sign a waiver on your phone\; ask for the dire
+ ctors\, Aaron or Tyler\n\nBefore you go: Dates are posted through Dec 31\,
+  2026. The club meets at Wolfe & Porter\; some older coverage lists other 
+ bars.\n\nhttps://www.visitraleigh.com/event/stonewall-run-club-meet-up/104
+ 057/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261111@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261111T183000
+DTEND;TZID=America/New_York:20261111T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261118@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261118T183000
+DTEND;TZID=America/New_York:20261118T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T183000
+DTEND;TZID=America/New_York:20261125T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T183000
+DTEND;TZID=America/New_York:20261202T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261209@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261209T183000
+DTEND;TZID=America/New_York:20261209T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261216@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-run-walk-club-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261223T183000
+DTEND;TZID=America/New_York:20261223T203000
+SUMMARY:Raleigh Brewing Run/Walk Club
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly all-paces run/walk with a social pint afterward\, plus o
+ ccasional themed runs such as the zombie run and ugly sweater run.\n\n3-4 
+ mile greenway route (Meredith campus to the NC Museum of Art and back)\, t
+ hen a pint\n\nHow to join: Just show up\; RSVP on Meetup is optional\n\nBe
+ fore you go: The next one is listed on Meetup for Nov 18.\n\nhttps://www.m
+ eetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T180000
+DTEND;TZID=America/New_York:20261117T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T180000
+DTEND;TZID=America/New_York:20261124T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T180000
+DTEND;TZID=America/New_York:20261201T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T180000
+DTEND;TZID=America/New_York:20261208T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T180000
+DTEND;TZID=America/New_York:20261215T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T180000
+DTEND;TZID=America/New_York:20261222T200000
+SUMMARY:Raleigh Brewing Taco Tuesday Bike Ride
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: The next ride
+  is listed for Nov 17. Confirm it continues in winter darkness and whether
+  lights are required.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle
+ -run-trivia-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-pony-run-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T193000
+SUMMARY:Pony Run at Ponysaurus Brewing
+LOCATION:Ponysaurus Brewing (Raleigh Iron Works)\, 2221 Iron Works Dr\, Ste
+  100\, Raleigh\, NC
+DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
+ et Raleigh's run-club lineup\, with a post-run drink.\n\nHow to join: Just
+  show up\n\nBefore you go: Check Thanksgiving week (Nov 26).\n\nhttps://fl
+ eetfeet.com/s/raleigh/events/pub-runs-run-clubs\n\nListed on Same Time Nex
+ t Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-pony-run-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T180000
+DTEND;TZID=America/New_York:20261119T193000
+SUMMARY:Pony Run at Ponysaurus Brewing
+LOCATION:Ponysaurus Brewing (Raleigh Iron Works)\, 2221 Iron Works Dr\, Ste
+  100\, Raleigh\, NC
+DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
+ et Raleigh's run-club lineup\, with a post-run drink.\n\nHow to join: Just
+  show up\n\nBefore you go: Check Thanksgiving week (Nov 26).\n\nhttps://fl
+ eetfeet.com/s/raleigh/events/pub-runs-run-clubs\n\nListed on Same Time Nex
+ t Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-pony-run-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T180000
+DTEND;TZID=America/New_York:20261203T193000
+SUMMARY:Pony Run at Ponysaurus Brewing
+LOCATION:Ponysaurus Brewing (Raleigh Iron Works)\, 2221 Iron Works Dr\, Ste
+  100\, Raleigh\, NC
+DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
+ et Raleigh's run-club lineup\, with a post-run drink.\n\nHow to join: Just
+  show up\n\nBefore you go: Check Thanksgiving week (Nov 26).\n\nhttps://fl
+ eetfeet.com/s/raleigh/events/pub-runs-run-clubs\n\nListed on Same Time Nex
+ t Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-pony-run-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T193000
+SUMMARY:Pony Run at Ponysaurus Brewing
+LOCATION:Ponysaurus Brewing (Raleigh Iron Works)\, 2221 Iron Works Dr\, Ste
+  100\, Raleigh\, NC
+DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
+ et Raleigh's run-club lineup\, with a post-run drink.\n\nHow to join: Just
+  show up\n\nBefore you go: Check Thanksgiving week (Nov 26).\n\nhttps://fl
+ eetfeet.com/s/raleigh/events/pub-runs-run-clubs\n\nListed on Same Time Nex
+ t Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-pony-run-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T180000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Pony Run at Ponysaurus Brewing
+LOCATION:Ponysaurus Brewing (Raleigh Iron Works)\, 2221 Iron Works Dr\, Ste
+  100\, Raleigh\, NC
+DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
+ et Raleigh's run-club lineup\, with a post-run drink.\n\nHow to join: Just
+  show up\n\nBefore you go: Check Thanksgiving week (Nov 26).\n\nhttps://fl
+ eetfeet.com/s/raleigh/events/pub-runs-run-clubs\n\nListed on Same Time Nex
+ t Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261109@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261109T183000
+DTEND;TZID=America/New_York:20261109T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261116@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261116T183000
+DTEND;TZID=America/New_York:20261116T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261123@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261123T183000
+DTEND;TZID=America/New_York:20261123T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261130@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261130T183000
+DTEND;TZID=America/New_York:20261130T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261207@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261207T183000
+DTEND;TZID=America/New_York:20261207T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261214@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261214T183000
+DTEND;TZID=America/New_York:20261214T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-latinos-run-raleigh-20261221@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261221T183000
+DTEND;TZID=America/New_York:20261221T203000
+SUMMARY:Latinos Run Raleigh
+LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
+DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
+ od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
+ show up\n\nBefore you go: Confirm the route\, pace and who it's open to wi
+ th the group.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+ \n\nListed on Same Time Next Week.
+URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261107@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261107T063000
+DTEND;TZID=America/New_York:20261107T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261114@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261114T063000
+DTEND;TZID=America/New_York:20261114T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T063000
+DTEND;TZID=America/New_York:20261121T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261128@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261128T063000
+DTEND;TZID=America/New_York:20261128T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261205@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261205T063000
+DTEND;TZID=America/New_York:20261205T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261212@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261212T063000
+DTEND;TZID=America/New_York:20261212T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-breakfast-club-run-20261219@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261219T063000
+DTEND;TZID=America/New_York:20261219T083000
+SUMMARY:Breakfast Club Runners Saturday long run
+LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
+DESCRIPTION:Very active downtown running group (900+ members\, rated 5.0) w
+ hose Saturday long run ends with a group breakfast.\n\n6-10+ miles with pa
+ ce groups from sub-7 to 10+ min/mile\, then coffee or breakfast. The club 
+ also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).\n
+ \nHow to join: RSVP on Meetup and show up\n\nBefore you go: Early start\; 
+ check Meetup for holiday weekends.\n\nhttps://meetup.com/the-breakfast-clu
+ b-runners\n\nListed on Same Time Next Week.
+URL:https://meetup.com/the-breakfast-club-runners
+END:VEVENT
+BEGIN:VEVENT
+UID:r-climbing-meetup-20261113@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T203000
+SUMMARY:Raleigh Rock Climbing Meetup (Friday climb)
+LOCATION:Triangle Rock Club - Salvage Yard (location rotates)\, 2330 Salvag
+ e Yard Dr\, Raleigh\, NC 27604
+DESCRIPTION:Climbing group running since 2006 with 2\,000+ members. Beginne
+ rs and people who can't belay yet are welcome\, and dinner afterward is pa
+ rt of the routine.\n\nThe group rotates between Triangle Rock Club gyms ea
+ ch Friday: Nov 13 here at Salvage Yard\, Nov 20 at the Durham gym. Optiona
+ l group dinner around 8:45pm.\n\nHow to join: RSVP on Meetup\n\nBefore you
+  go: Later Raleigh Fridays aren't visible yet. Check the Meetup page each 
+ week.\n\nhttps://www.meetup.com/raleighrockclimbing/\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.meetup.com/raleighrockclimbing/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T190000
+DTEND;TZID=America/New_York:20261110T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T190000
+DTEND;TZID=America/New_York:20261117T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T190000
+DTEND;TZID=America/New_York:20261124T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T190000
+DTEND;TZID=America/New_York:20261201T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T190000
+DTEND;TZID=America/New_York:20261208T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-wolfe-and-porter-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T190000
+DTEND;TZID=America/New_York:20261222T220000
+SUMMARY:Tuesday Night Trivia at Wolfe & Porter
+LOCATION:Wolfe & Porter\, 905 W Morgan St\, Raleigh\, NC 27603
+DESCRIPTION:Free weekly team trivia with gift-certificate prizes. It follow
+ s the Stonewall Run Club at the same bar\, so you can do both.\n\nHow to j
+ oin: Just show up (join a team or start one)\n\nBefore you go: Dates are p
+ osted through Dec 29\, 2026. Check that it continues in 2027.\n\nhttps://w
+ ww.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/
+ \n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
+ rter/103071/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261111@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261118@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261118T190000
+DTEND;TZID=America/New_York:20261118T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T190000
+DTEND;TZID=America/New_York:20261202T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261209@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261209T190000
+DTEND;TZID=America/New_York:20261209T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261216@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261216T190000
+DTEND;TZID=America/New_York:20261216T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-beer-garden-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261223T190000
+DTEND;TZID=America/New_York:20261223T210000
+SUMMARY:Weekly Trivia at Raleigh Beer Garden
+LOCATION:Raleigh Beer Garden\, 614 Glenwood Ave\, Ste B\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Free team pub trivia (pop culture\, history\, sports\, wildcard
+  rounds) for house prizes in Glenwood South.\n\nHow to join: Just show up\
+ n\nBefore you go: Dates are posted through Dec 30\, 2026. Check that it co
+ ntinues in 2027.\n\nhttps://www.visitraleigh.com/event/weekly-trivia-night
+ -at-raleigh-beer-garden/106093/\n\nListed on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
+ garden/106093/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-raleigh-brewing-20261112@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261112T190000
+DTEND;TZID=America/New_York:20261112T210000
+SUMMARY:Trivia Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly Thursday team trivia at a brewery near NC State. The sam
+ e brewery hosts the run club\, bike ride\, craft night and bluegrass jam\,
+  so regulars overlap.\n\nHow to join: Just show up\n\nBefore you go: Check
+  Thanksgiving (Nov 26) and Christmas Eve (Dec 24).\n\nhttps://www.raleighb
+ rewing.com/neil-street\n\nListed on Same Time Next Week.
+URL:https://www.raleighbrewing.com/neil-street
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-raleigh-brewing-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T190000
+DTEND;TZID=America/New_York:20261119T210000
+SUMMARY:Trivia Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly Thursday team trivia at a brewery near NC State. The sam
+ e brewery hosts the run club\, bike ride\, craft night and bluegrass jam\,
+  so regulars overlap.\n\nHow to join: Just show up\n\nBefore you go: Check
+  Thanksgiving (Nov 26) and Christmas Eve (Dec 24).\n\nhttps://www.raleighb
+ rewing.com/neil-street\n\nListed on Same Time Next Week.
+URL:https://www.raleighbrewing.com/neil-street
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-raleigh-brewing-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T190000
+DTEND;TZID=America/New_York:20261203T210000
+SUMMARY:Trivia Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly Thursday team trivia at a brewery near NC State. The sam
+ e brewery hosts the run club\, bike ride\, craft night and bluegrass jam\,
+  so regulars overlap.\n\nHow to join: Just show up\n\nBefore you go: Check
+  Thanksgiving (Nov 26) and Christmas Eve (Dec 24).\n\nhttps://www.raleighb
+ rewing.com/neil-street\n\nListed on Same Time Next Week.
+URL:https://www.raleighbrewing.com/neil-street
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-raleigh-brewing-20261210@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261210T190000
+DTEND;TZID=America/New_York:20261210T210000
+SUMMARY:Trivia Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly Thursday team trivia at a brewery near NC State. The sam
+ e brewery hosts the run club\, bike ride\, craft night and bluegrass jam\,
+  so regulars overlap.\n\nHow to join: Just show up\n\nBefore you go: Check
+  Thanksgiving (Nov 26) and Christmas Eve (Dec 24).\n\nhttps://www.raleighb
+ rewing.com/neil-street\n\nListed on Same Time Next Week.
+URL:https://www.raleighbrewing.com/neil-street
+END:VEVENT
+BEGIN:VEVENT
+UID:r-trivia-raleigh-brewing-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Trivia Night at Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly Thursday team trivia at a brewery near NC State. The sam
+ e brewery hosts the run club\, bike ride\, craft night and bluegrass jam\,
+  so regulars overlap.\n\nHow to join: Just show up\n\nBefore you go: Check
+  Thanksgiving (Nov 26) and Christmas Eve (Dec 24).\n\nhttps://www.raleighb
+ rewing.com/neil-street\n\nListed on Same Time Next Week.
+URL:https://www.raleighbrewing.com/neil-street
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261110@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261110T183000
+DTEND;TZID=America/New_York:20261110T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261117@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261117T183000
+DTEND;TZID=America/New_York:20261117T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261124T183000
+DTEND;TZID=America/New_York:20261124T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261201@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261201T183000
+DTEND;TZID=America/New_York:20261201T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261208@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261215@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261215T183000
+DTEND;TZID=America/New_York:20261215T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-board-game-night-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261222T183000
+DTEND;TZID=America/New_York:20261222T220000
+SUMMARY:Triangle Taps and Tables (board game night)
+LOCATION:Trophy Brewing Co. + Taproom\, 656 Maywood Ave\, Raleigh\, NC 2760
+ 3
+DESCRIPTION:Weekly light board game night with a new set of games each week
+ . Whoever wins the most takes home a free 4-pack.\n\nHow to join: Just sho
+ w up\; questions to Triangletapsandtables@gmail.com\n\nBefore you go: Date
+ s are posted through Dec 29\, 2026. Check that it continues in 2027.\n\nht
+ tps://www.visitraleigh.com/event/triangle-taps-and-tables/107076/\n\nListe
+ d on Same Time Next Week.
+URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261111@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261111T180000
+DTEND;TZID=America/New_York:20261111T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261118@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261118T180000
+DTEND;TZID=America/New_York:20261118T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261125T180000
+DTEND;TZID=America/New_York:20261125T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T180000
+DTEND;TZID=America/New_York:20261202T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261209@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261209T180000
+DTEND;TZID=America/New_York:20261209T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261216@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261223T180000
+DTEND;TZID=America/New_York:20261223T200000
+SUMMARY:Food Bank warehouse sort (Wednesday evening)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Check and repack donated food into family-sized boxes alongside
+  other volunteers. This is the only after-work session at the Raleigh ware
+ house.\n\nWednesday also has 9-11:30am and 1-3:30pm sessions\n\nHow to joi
+ n: Online registration is required: use the volunteer calendar on the Rale
+ igh location page\n\nBefore you go: Check the holiday weeks (Nov 25\, Dec 
+ 23\, Dec 30). Ages 12+\, under 16 with an adult.\n\nhttps://foodbankcenc.o
+ rg/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261107@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261107T090000
+DTEND;TZID=America/New_York:20261107T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261114@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261114T090000
+DTEND;TZID=America/New_York:20261114T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T090000
+DTEND;TZID=America/New_York:20261121T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261128@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261128T090000
+DTEND;TZID=America/New_York:20261128T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261205@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261205T090000
+DTEND;TZID=America/New_York:20261205T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261212@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-2-20261219@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261219T090000
+DTEND;TZID=America/New_York:20261219T113000
+SUMMARY:Food Bank warehouse sort (Saturday morning)
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
+ ng beside the same crews is an easy way to talk to people.\n\nThere's also
+  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
+ ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
+ go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
+ s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261122@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261123@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261124@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261125@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261126@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261221@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261222@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-meal-packing-20261223@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
+LOCATION:Christ the King Presbyterian Church (packing and distribution site
+ )\, 1417 Clifton St\, Raleigh\, NC 27604
+DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
+ t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
+ 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
+ ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
+ s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
+  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
+ ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
+ requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
+ /volunteer\n\nListed on Same Time Next Week.
+URL:https://www.raleighrescue.org/volunteer
+END:VEVENT
+BEGIN:VEVENT
+UID:r-science-cafe-20261119@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261119T190000
+DTEND;TZID=America/New_York:20261119T200000
+SUMMARY:Science Cafe at the NC Museum of Natural Sciences
+LOCATION:NC Museum of Natural Sciences - Daily Planet Cafe\, 11 W Jones St\
+ , Raleigh\, NC 27601
+DESCRIPTION:Monthly casual science talk and conversation with host Chris Sm
+ ith and a guest expert\, held in the museum cafe after hours. The Nov 19 t
+ opic is Sri Lanka's elephants.\n\nThe Daily Planet Cafe serves food 5-8pm\
+ n\nHow to join: Just show up\n\nBefore you go: Topics for December through
+  February aren't posted. Confirm the Dec 17 session runs.\n\nhttps://natur
+ alsciences.org/calendar/events/category/audience/adults/\n\nListed on Same
+  Time Next Week.
+URL:https://naturalsciences.org/calendar/events/category/audience/adults/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-science-cafe-20261217@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T200000
+SUMMARY:Science Cafe at the NC Museum of Natural Sciences
+LOCATION:NC Museum of Natural Sciences - Daily Planet Cafe\, 11 W Jones St\
+ , Raleigh\, NC 27601
+DESCRIPTION:Monthly casual science talk and conversation with host Chris Sm
+ ith and a guest expert\, held in the museum cafe after hours. The Nov 19 t
+ opic is Sri Lanka's elephants.\n\nThe Daily Planet Cafe serves food 5-8pm\
+ n\nHow to join: Just show up\n\nBefore you go: Topics for December through
+  February aren't posted. Confirm the Dec 17 session runs.\n\nhttps://natur
+ alsciences.org/calendar/events/category/audience/adults/\n\nListed on Same
+  Time Next Week.
+URL:https://naturalsciences.org/calendar/events/category/audience/adults/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-silent-book-club-20261203@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261203T183000
+DTEND;TZID=America/New_York:20261203T200000
+SUMMARY:Silent Book Club at Oberlin Regional Library
+LOCATION:Oberlin Regional Library (Wake County Public Libraries)\, 1930 Cla
+ rk Ave\, Raleigh\, NC 27605
+DESCRIPTION:Official Silent Book Club chapter: bring any book. The intro ro
+ und gives a low-pressure way to meet other readers.\n\nOptional round of i
+ ntroductions sharing what you're reading\, then quiet reading\n\nHow to jo
+ in: Register through the Eventbrite link on the Wake County event page\n\n
+ Before you go: Dec 3 is confirmed. The club may skip Jan 7 and restart in 
+ February.\n\nhttps://www.wake.gov/events/silent-book-club-oberlin-regional
+ -library-19\n\nListed on Same Time Next Week.
+URL:https://www.wake.gov/events/silent-book-club-oberlin-regional-library-1
+ 9
+END:VEVENT
+BEGIN:VEVENT
+UID:r-skip-the-small-talk-20261202@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261202T190000
+DTEND;TZID=America/New_York:20261202T210000
+SUMMARY:Skip the Small Talk Raleigh
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Structured 'big talk' night using conversation prompts based on
+  psychology research. Usually 30-40 people\, and it's designed for coming 
+ alone.\n\nCheck-in around 6:45pm\n\nHow to join: Buy a ticket in advance o
+ n the Skip the Small Talk site. An RSVP on Meetup isn't enough\, and event
+ s often sell out with no tickets at the door.\n\nBefore you go: Only Dec 2
+  is posted for Raleigh\; the group's other nights are in Durham. Watch for
+  January and February dates.\n\nhttps://www.meetup.com/skip-the-small-talk
+ -raleigh/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/skip-the-small-talk-raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-cross-stitch-workshop-20261121@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261121T130000
+DTEND;TZID=America/New_York:20261121T160000
+SUMMARY:Intro to Cross Stitch workshop
+LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
+DESCRIPTION:A small one-afternoon workshop at the city's arts center where 
+ you learn cross stitch alongside other beginners.\n\nHow to join: Register
+  through the City's WebTrac link on Pullen's Take a Class page\, or call 9
+ 19-996-6126\n\nBefore you go: Winter 2027 multi-week classes aren't posted
+  yet. Registration for last year's winter classes opened in late November.
+ \n\nhttps://raleighnc.gov/arts/take-class-pullen-arts-center\n\nListed on 
+ Same Time Next Week.
+URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
+END:VEVENT
+BEGIN:VEVENT
+UID:r-screen-printing-workshop-20261206@same-time-next-week
+DTSTAMP:20261113T185859Z
+DTSTART;TZID=America/New_York:20261206T100000
+DTEND;TZID=America/New_York:20261206T160000
+SUMMARY:DIY Screen Printing workshop
+LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
+DESCRIPTION:A one-day studio workshop where you print your own designs with
+  paper stencils\, working alongside a small group.\n\nUses paper stencils\
+ , so no drawing skills needed\n\nHow to join: Register through the City's 
+ WebTrac link on Pullen's Take a Class page\, or call 919-996-6126\n\nBefor
+ e you go: Winter 2027 multi-week classes aren't posted yet. Registration f
+ or last year's winter classes opened in late November.\n\nhttps://raleighn
+ c.gov/arts/take-class-pullen-arts-center\n\nListed on Same Time Next Week.
+URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1085 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#F4F6F1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101411" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-title" content="Same Time Next Week">
+<meta property="og:title" content="Same Time Next Week">
+<meta property="og:description" content="Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run clubs, game nights and volunteer shifts. Re-checked weekly.">
+<title>Same Time Next Week</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Jams, dances, classes, run clubs, game nights and volunteer shifts in Durham and Raleigh, NC. Every listing is re-checked weekly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: sticky header (brand, city switch, section tabs); one main column per section; event details open in a sheet, a centered dialog on desktop and a bottom sheet on phones. */
+:root {
+  --bg: #F4F6F1;
+  --surface: #FFFFFF;
+  --surface-2: #ECEFE8;
+  --hover: #EFF2EB;
+  --fg: #1A1F1B;
+  --muted: #5B665D;
+  --line: #DAE0D6;
+  --ink: #2C4C9C;
+  --ink-tint: #E4EAF8;
+  --ink-fg: #1D3777;
+  --give: #1B7246;
+  --give-tint: #DCF0E3;
+  --give-fg: #12512F;
+  --today: #C2410C;
+  --today-fg: #FFFFFF;
+  --pick: #A86A12;
+  --scrim: rgba(16, 20, 17, .5);
+  --shadow: 0 1px 2px rgba(26, 31, 27, .06), 0 8px 24px rgba(26, 31, 27, .08);
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Instrument Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101411; --surface: #181D19; --surface-2: #1F2520; --hover: #212822;
+    --fg: #E5EAE3; --muted: #9AA59B; --line: #2B332C;
+    --ink: #93ACF0; --ink-tint: #1E2946; --ink-fg: #CAD7FA;
+    --give: #6CCF98; --give-tint: #15331F; --give-fg: #B3EAC9;
+    --today: #FB8C4F; --today-fg: #1A1F1B; --pick: #E5B24C;
+    --scrim: rgba(0, 0, 0, .62);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .3);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101411; --surface: #181D19; --surface-2: #1F2520; --hover: #212822;
+  --fg: #E5EAE3; --muted: #9AA59B; --line: #2B332C;
+  --ink: #93ACF0; --ink-tint: #1E2946; --ink-fg: #CAD7FA;
+  --give: #6CCF98; --give-tint: #15331F; --give-fg: #B3EAC9;
+  --today: #FB8C4F; --today-fg: #1A1F1B; --pick: #E5B24C;
+  --scrim: rgba(0, 0, 0, .62);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .3);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+body.noscroll { overflow: hidden; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 40; background: var(--bg); }
+button, input { font: inherit; color: inherit; }
+a { color: var(--ink-fg); }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.ic { width: 1em; height: 1em; flex: none; vertical-align: -0.125em; }
+.wrap {
+  max-width: 1180px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.lg-bg { fill: var(--ink); } .lg-dot { fill: var(--bg); } .lg-hi { fill: var(--give); }
+
+/* Header */
+.site { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); border-bottom: 1px solid var(--line); }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px 4px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--fg); text-decoration: none; min-width: 0; }
+.brand svg { width: 32px; height: 32px; flex: none; }
+.brand b { display: block; font-family: var(--f-display); font-weight: 800; font-size: 19px; letter-spacing: -.01em; line-height: 1.1; white-space: nowrap; }
+.brand small { display: block; color: var(--muted); font-size: 12px; font-weight: 500; white-space: nowrap; }
+.cityswitch { display: inline-flex; gap: 3px; padding: 3px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); flex: none; }
+.cityswitch button { border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 14px; font-weight: 600; padding: 7px 14px; border-radius: 999px; }
+.cityswitch button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: var(--shadow); }
+.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin-bottom: -1px; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs a {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 10px 12px;
+  color: var(--muted); text-decoration: none; font-weight: 600; font-size: 14px; border-bottom: 2px solid transparent;
+}
+.tabs a:hover { color: var(--fg); }
+.tabs a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--fg); }
+.pill { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--fg); color: var(--bg); font-size: 11px; font-weight: 700; display: inline-grid; place-items: center; }
+
+/* Intro */
+.intro { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding-block: 24px 0; }
+.intro > div:first-child { min-width: 0; }
+.intro h1 { font-family: var(--f-display); font-weight: 800; font-size: clamp(26px, 3.6vw, 36px); line-height: 1.1; letter-spacing: -.015em; margin: 0 0 4px; text-wrap: balance; }
+.intro p { margin: 0; color: var(--muted); max-width: 62ch; }
+.cta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.quiet { border: 0; background: none; padding: 8px 2px; color: var(--ink-fg); font-weight: 600; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.quiet:hover { text-decoration: underline; text-underline-offset: 3px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 10px 15px; border-radius: 10px;
+  font-size: 14px; font-weight: 600; text-decoration: none; border: 1px solid var(--line);
+  background: var(--surface); color: var(--fg); cursor: pointer; white-space: nowrap;
+}
+.btn:hover { background: var(--hover); }
+.btn.primary { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.btn.primary:hover { opacity: .9; }
+.btn.sm { padding: 7px 11px; font-size: 13px; border-radius: 9px; }
+.btn:disabled { cursor: default; opacity: .7; }
+.textbtn { height: 36px; padding: 0 13px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; font-size: 14px; font-weight: 600; }
+.linkish { border: 0; background: none; padding: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.linkish:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 16px 2px; }
+.fbreak { flex-basis: 100%; height: 0; }
+.fchip.more { border-style: dashed; }
+.fchip {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600;
+  padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface);
+  color: var(--muted); cursor: pointer; white-space: nowrap;
+}
+.fchip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.fchip.give { color: var(--give-fg); border-color: var(--give); }
+.fchip.give[aria-pressed="true"] { background: var(--give); color: var(--surface); }
+.fsep { flex: none; width: 1px; margin: 4px 3px; background: var(--line); }
+.fclear { flex: none; border: 0; background: none; color: var(--ink-fg); font-weight: 600; font-size: 13px; cursor: pointer; padding: 7px 6px; }
+
+/* Lists */
+.day { margin-top: 26px; }
+.dayhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.dayhead h2 { font-family: var(--f-display); font-weight: 800; font-size: 20px; letter-spacing: -.01em; margin: 0; }
+.dayhead .sub { color: var(--muted); font-size: 14px; }
+.dayhead .hol, .hol { color: var(--today); font-weight: 600; font-size: 13px; }
+.none { color: var(--muted); padding: 12px 0; margin: 0; }
+.items { display: flex; flex-direction: column; }
+.row { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.row .time { font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; padding-top: 1px; }
+.row.give .time { color: var(--give-fg); }
+.row .main { display: block; min-width: 0; border: 0; background: none; padding: 0; text-align: left; cursor: pointer; }
+.row .title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
+.row .main:hover .title { text-decoration: underline; text-underline-offset: 3px; }
+.row .meta { display: block; color: var(--muted); font-size: 14px; margin-top: 2px; }
+.row .tags { margin-top: 7px; }
+.gobtn {
+  width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; padding: 0;
+  border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; font-size: 16px;
+}
+.gobtn:hover { background: var(--hover); border-color: var(--muted); }
+.gobtn[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.gheart { color: var(--give); margin-right: 6px; font-size: 14px; }
+.flag { color: var(--fg); font-weight: 600; }
+.more-wrap { margin-top: 20px; }
+@media (max-width: 560px) {
+  .row { grid-template-columns: minmax(0, 1fr) auto; }
+  .row .time { grid-column: 1 / -1; font-size: 13px; }
+}
+.tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 999px;
+  font-size: 12px; font-weight: 700; background: var(--ink-tint); color: var(--ink-fg); white-space: nowrap;
+}
+.tag.give { background: var(--give-tint); color: var(--give-fg); }
+.tag.solo { background: var(--surface-2); color: var(--fg); }
+.tag.signup { background: transparent; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); }
+.tag.pick { background: transparent; color: var(--pick); box-shadow: inset 0 0 0 1px var(--pick); }
+.tag.city { background: var(--surface-2); color: var(--muted); }
+
+/* Calendar */
+.monthnav { display: flex; align-items: center; gap: 8px; margin: 22px 0 12px; }
+.monthnav h2 { font-family: var(--f-display); font-weight: 600; font-size: 24px; margin: 0 6px; min-width: 9.6ch; }
+.iconbtn { width: 36px; height: 36px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; display: grid; place-items: center; font-size: 17px; }
+.iconbtn:disabled { opacity: .35; cursor: default; }
+.callayout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 20px; align-items: start; }
+.cal { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; min-width: 0; }
+.dow { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); background: var(--surface-2); border-bottom: 1px solid var(--line); }
+.dow div { padding: 8px 10px; font-size: 12px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.cell { min-width: 0; min-height: 118px; padding: 6px; display: flex; flex-direction: column; gap: 3px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); cursor: pointer; }
+.cell:nth-child(7n) { border-right: 0; }
+.cell.lastrow { border-bottom: 0; }
+.cell:hover { background: var(--hover); }
+.cell.out { background: var(--surface-2); cursor: default; }
+.cell.out .num { opacity: .4; }
+.cell.past .chip, .cell.past .more, .cell.past .dots { opacity: .5; }
+.cell.past .num { color: var(--muted); }
+.cell.sel { box-shadow: inset 0 0 0 2px var(--ink); }
+.cellhead { display: flex; align-items: center; gap: 4px; min-width: 0; }
+.num { width: 28px; height: 28px; flex: none; display: grid; place-items: center; border-radius: 50%; border: 0; background: transparent; color: var(--fg); padding: 0; cursor: pointer; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.cell.today .num { background: var(--today); color: var(--today-fg); }
+.cell .hol { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.chip { display: flex; align-items: center; gap: 4px; width: 100%; min-width: 0; text-align: left; cursor: pointer; border: 0; border-radius: 6px; padding: 3px 6px; font-size: 12px; font-weight: 500; line-height: 1.3; background: var(--ink-tint); color: var(--ink-fg); }
+.chip:hover { box-shadow: inset 0 0 0 1px var(--ink); }
+.chip.give { background: var(--give-tint); color: var(--give-fg); }
+.chip.give:hover { box-shadow: inset 0 0 0 1px var(--give); }
+.chip.going { box-shadow: inset 0 0 0 1.5px currentColor; }
+.chip .t { flex: none; font-weight: 700; font-variant-numeric: tabular-nums; }
+.chip .n { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.chip .star, .tag .star { color: var(--pick); }
+.more { border: 0; background: none; padding: 1px 6px; text-align: left; cursor: pointer; font-size: 12px; font-weight: 600; color: var(--muted); }
+.dots { display: none; }
+.daypanel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 4px 18px 8px; min-width: 0; }
+.dp-head { padding: 14px 0 10px; border-bottom: 2px solid var(--fg); }
+.dp-head h3 { font-family: var(--f-display); font-weight: 800; font-size: 26px; margin: 2px 0 0; line-height: 1.1; }
+.eyebrow { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.daypanel .row { grid-template-columns: minmax(0, 1fr) auto; }
+.daypanel .row .time { grid-column: 1 / -1; font-size: 13px; }
+.daypanel .row:last-child { border-bottom: 0; }
+.horizon { color: var(--muted); font-size: 13.5px; margin: 14px 0 0; }
+.holnote { margin: 10px 0 0; font-size: 13.5px; padding: 8px 11px; border-radius: 9px; background: var(--surface-2); }
+@media (max-width: 980px) { .callayout { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) {
+  .monthnav h2 { font-size: 21px; min-width: 0; }
+  .dow div { padding: 6px 0; text-align: center; font-size: 11px; letter-spacing: .04em; }
+  .cell { min-height: 58px; padding: 5px 2px; align-items: center; gap: 5px; }
+  .cellhead { justify-content: center; }
+  .chip, .more, .cell .hol { display: none; }
+  .dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 3px; max-width: 40px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ink); }
+  .dot.give { background: var(--give); }
+  .cell.hasHol .num { box-shadow: 0 0 0 1.5px var(--today); }
+  .cell.today.hasHol .num { box-shadow: none; }
+  .daypanel { padding: 4px 14px 8px; }
+}
+
+/* Join anytime + plan cards */
+.jgroup { margin-top: 30px; }
+.jgroup > h2, .secthead h2 { font-family: var(--f-display); font-weight: 800; font-size: 24px; letter-spacing: -.01em; margin: 0; }
+.jsub { color: var(--muted); margin: 4px 0 14px; max-width: 70ch; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card h3 { margin: 0; font-size: 17px; line-height: 1.3; }
+.card .sched { margin: 0; font-weight: 600; font-size: 14px; }
+.card .cdesc { margin: 0; color: var(--muted); font-size: 14px; }
+.card .cactions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+.secthead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.plansec { margin-top: 30px; }
+.dots6 { display: inline-flex; gap: 5px; }
+.dots6 i { width: 11px; height: 11px; border-radius: 50%; background: var(--line); }
+.dots6 i.on { background: var(--give); }
+.empty-state { margin-top: 30px; padding: 26px; border: 1px dashed var(--line); border-radius: 16px; background: var(--surface); }
+.empty-state h2 { margin: 0 0 6px; font-family: var(--f-display); font-size: 24px; }
+.empty-state p { margin: 0 0 16px; color: var(--muted); max-width: 60ch; }
+
+/* Sheet */
+.modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: var(--scrim); padding: 24px; }
+.sheet { position: relative; background: var(--surface); color: var(--fg); width: min(580px, 100%); max-height: 100%; overflow: auto; border-radius: 18px; box-shadow: var(--shadow); padding: 22px 24px 26px; }
+.sheet:focus { outline: none; }
+.close { position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; display: grid; place-items: center; font-size: 16px; }
+.sheet h2 { font-family: var(--f-display); font-weight: 800; font-size: 28px; letter-spacing: -.015em; line-height: 1.08; margin: 10px 44px 6px 0; text-wrap: balance; }
+.sheet h2:focus { outline: none; }
+.sheet .lede { color: var(--muted); margin: 0 0 16px; }
+.when { margin: 0; font-weight: 600; }
+.goingrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 16px 0 4px; }
+.bigbtn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; border-radius: 12px; border: 1px solid var(--fg); background: var(--surface); color: var(--fg); font-size: 15px; font-weight: 700; cursor: pointer; }
+.bigbtn[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.visits { color: var(--muted); font-size: 14px; }
+.desc { margin: 14px 0 0; }
+.goodtoknow { margin: 12px 0 0; font-size: 14.5px; }
+.facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 16px; margin: 18px 0; }
+.facts dt { font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
+.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.addr { color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.addcal { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+.addcal .lbl { font-size: 13px; font-weight: 700; color: var(--muted); margin-right: 2px; }
+.note { margin-top: 16px; padding: 11px 13px; border-radius: 10px; background: var(--surface-2); font-size: 14px; }
+.upcoming { margin-top: 18px; }
+.upcoming h3, .wh { margin: 0 0 8px; font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.datechips { display: flex; flex-wrap: wrap; gap: 6px; }
+.datechip { border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; padding: 5px 10px; border-radius: 8px; font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.datechip[aria-current="true"] { background: var(--ink-tint); border-color: var(--ink); color: var(--ink-fg); }
+.datechip.marked::after { content: " ✓"; }
+.checked { margin: 18px 0 0; color: var(--muted); font-size: 12.5px; }
+.feedpick { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.feedpick button { text-align: left; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 600; font-size: 14px; }
+.feedpick button[aria-checked="true"] { border-color: var(--fg); box-shadow: inset 0 0 0 1px var(--fg); }
+.subbtns { display: flex; flex-wrap: wrap; gap: 8px; }
+.wf { border: 0; padding: 0; margin: 0 0 16px; min-width: 0; }
+.wf legend { font-weight: 700; margin-bottom: 8px; padding: 0; }
+.wf .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.check { display: flex; align-items: center; gap: 8px; font-size: 14.5px; margin-bottom: 18px; cursor: pointer; }
+.check input { width: 18px; height: 18px; accent-color: var(--fg); }
+.sugg { border-top: 1px solid var(--line); padding: 14px 0 4px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.sugg h4 { margin: 0; font-size: 17px; line-height: 1.3; }
+.sugg p { margin: 0; color: var(--muted); font-size: 14px; }
+@media (max-width: 640px) {
+  .modal { place-items: end stretch; padding: env(safe-area-inset-top, 0px) 0 0; }
+  .sheet { width: 100%; max-height: 92vh; border-radius: 18px 18px 0 0; padding: 20px max(18px, env(safe-area-inset-right, 0px)) calc(26px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px)); }
+  .sheet h2 { font-size: 25px; }
+}
+
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 60; background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: 14px; font-weight: 600; box-shadow: var(--shadow); max-width: calc(100% - 32px); overflow-wrap: anywhere; }
+.foot { margin-top: 44px; padding-block: 22px calc(30px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); color: var(--muted); font-size: 13.5px; }
+.foot p { margin: 0 0 6px; max-width: 78ch; }
+@media (max-width: 420px) { .brand .bt { display: none; } }
+@media (max-width: 520px) { .brand small { display: none; } .cityswitch button { padding: 7px 11px; font-size: 13px; } }
+@media (prefers-reduced-motion: no-preference) {
+  .chip, .row, .btn, .fchip, .gobtn { transition: background-color .12s ease, box-shadow .12s ease; }
+}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="#week" aria-label="Same Time Next Week home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="lg-bg" width="32" height="32" rx="8"/><circle class="lg-dot" cx="9" cy="9" r="2.6"/><circle class="lg-dot" cx="16" cy="9" r="2.6"/><circle class="lg-dot" cx="23" cy="9" r="2.6"/><circle class="lg-dot" cx="9" cy="16" r="2.6"/><circle class="lg-hi" cx="16" cy="16" r="2.6"/><circle class="lg-dot" cx="23" cy="16" r="2.6"/><circle class="lg-dot" cx="9" cy="23" r="2.6"/><circle class="lg-dot" cx="16" cy="23" r="2.6"/><circle class="lg-dot" cx="23" cy="23" r="2.6"/></svg>
+      <span class="bt"><b>Same Time Next Week</b><small>Durham &amp; Raleigh</small></span>
+    </a>
+    <div class="cityswitch" role="group" aria-label="Choose a city">
+      <button type="button" data-city="durham" aria-pressed="true">Durham</button>
+      <button type="button" data-city="raleigh" aria-pressed="false">Raleigh</button>
+      <button type="button" data-city="both" aria-pressed="false">Both</button>
+    </div>
+  </div>
+  <nav class="wrap tabs" aria-label="Sections">
+    <a href="#week" data-view="week">This week</a>
+    <a href="#calendar" data-view="calendar">Calendar</a>
+    <a href="#join" data-view="join">Join anytime</a>
+    <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
+  </nav>
+</header>
+<main class="wrap" id="main">
+  <section class="intro" id="intro"></section>
+  <div class="filters" id="filters" role="group" aria-label="Filters"></div>
+  <div id="view"></div>
+</main>
+<footer class="wrap foot" id="foot"></footer>
+<div class="modal" id="modal" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true" tabindex="-1"></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script type="application/json" id="site-data">{"generated":"2026-11-13","horizonEnd":"2026-12-25","siteUrl":"https://stephen-olson.github.io/same-time-next-week/","reportUrl":"","preview":false,"holidays":{"2026-11-26":"Thanksgiving","2026-11-27":"Day after Thanksgiving","2026-12-24":"Christmas Eve","2026-12-25":"Christmas Day","2026-12-31":"New Year's Eve","2027-01-01":"New Year's Day","2027-01-18":"MLK Day","2027-02-15":"Presidents' Day"},"events":[{"id":"d-irish-jam","city":"durham","kind":"event","entry":"show","title":"Irish Music Jam at Moon Dog Meadery","short":"Irish jam","category":"music","solo":true,"pick":true,"start":"15:00","end":"17:00","timeNote":"1st and 3rd Saturdays","venue":"Moon Dog Meadery & Bottle Shop (basement under Joe Van Gogh)","address":"1104 Broad St, Suite C, Durham, NC 27705","cost":"Free","description":"Open Irish/Celtic tune jam twice a month at a community-minded meadery; players and listeners welcome. Twice-monthly rhythm means you see the same musicians quickly.","howToJoin":"Just show up with an instrument (or to listen)","url":"https://www.moondogmeadery.com/events","verifyNote":"Check around holidays, especially Jan 2.","lastChecked":"2026-11-12","occ":["2026-10-17","2026-11-07","2026-11-21","2026-12-05","2026-12-19"],"rtext":"1st and 3rd Saturday of each month","free":true,"costShort":"Free"},{"id":"d-open-mic","city":"durham","kind":"event","entry":"show","title":"Moon Dog Sunday Open Mic","short":"Open mic","category":"music","start":"18:30","end":"21:00","timeNote":"Sign-up 6:30pm, performances start 7pm","venue":"Moon Dog Meadery & Bottle Shop","address":"1104 Broad St, Suite C, Durham, NC 27705","cost":"Free","description":"Weekly open mic hosted by Deb Aronin: music, comedy, poetry, anything goes in a judgment-free, dog-friendly room. Perform or just come listen; lots of repeat regulars.","howToJoin":"Just show up; register at 6:30pm to perform","url":"https://www.moondogmeadery.com/events","verifyNote":"Confirm holiday Sundays (Dec 27).","lastChecked":"2026-11-12","occ":["2026-10-18","2026-10-25","2026-11-01","2026-11-08","2026-11-15","2026-11-22","2026-11-29","2026-12-06","2026-12-13","2026-12-20"],"rtext":"Every Sunday","free":true,"costShort":"Free"},{"id":"d-community-band","city":"durham","kind":"program","entry":"join","title":"Durham Community Concert Band rehearsals","short":"Community band","category":"music","pgroup":"groups","start":"19:15","end":"21:15","timeNote":"Fall ends Dec 10 (Winter Concert Dec 16 at Durham Armory); spring starts Jan 7","venue":"Westminster Presbyterian Church","address":"3639 Old Chapel Hill Rd, Durham, NC 27707","cost":"Free","description":"One of NC's largest community bands (100+ players); rehearsals are open to all with no audition. Weekly rehearsals with the same section-mates.","howToJoin":"Email info@durhamband.org with your name and instrument, then bring instrument + music stand to a Thursday rehearsal","url":"https://www.durhamband.org/","verifyNote":"No rehearsal is listed for Nov 26 (Thanksgiving); check before you go. You'll need a band instrument.","lastChecked":"2026-11-12","occ":[],"rtext":"Thursdays 7:15–9:15pm. Fall rehearsals end Dec 10 and spring rehearsals start Jan 7.","free":true,"costShort":"Free"},{"id":"d-contra-dance","city":"durham","kind":"event","entry":"show","title":"Contra Dance at Reality Ministries (Durham)","short":"Contra dance","category":"dance","solo":true,"pick":true,"start":"19:30","end":"23:00","timeNote":"Beginner lesson at 7:30. Nov 27 is the Fourth Friday dance (Big Celtic Fun, caller Katie Zanders). Dec 18 is the Triangle Movement Collective Open Contra, with dancing 8–11pm ($10–25).","venue":"Reality Ministries","address":"916 Lamond Ave, Durham, NC 27701","cost":"$10-30 sliding scale","description":"Live-band contra with a beginner lesson; no partner or experience needed and you dance with everyone in the room, which makes it one of the fastest ways to meet people. Same community month to month.","howToJoin":"Just show up for the 7:30 lesson; pay at the door","url":"https://www.tcdancers.org/new-events","verifyNote":"January and February dates aren't posted yet. They'll show up here once Triangle Country Dancers posts them.","lastChecked":"2026-11-12","occ":["2026-11-27","2026-12-18"],"rtext":"Nov 27 and Dec 18","free":false,"costShort":"$10-30 sliding scale"},{"id":"d-contra-carrboro","city":"durham","kind":"event","entry":"show","title":"Contra Dance in Carrboro (2nd Fridays + New Year's Eve)","short":"Contra (Carrboro)","category":"dance","solo":true,"pick":true,"start":"19:30","end":"23:00","timeNote":"Beginner lesson at 7:30. Nov 13: Dead Sea Squirrels with caller Hal Schnee. The New Year's Eve dance (Contrazz!, caller Barbara Groh) runs 8pm to midnight, $18–40.","venue":"Carrboro Century Center","address":"100 N Greensboro St, Carrboro, NC 27510","cost":"$10-30 sliding ($18-40 on NYE)","description":"Triangle Country Dancers' flagship monthly contra with live music and a beginner lesson; friendly, all-ages crowd that welcomes newcomers.","howToJoin":"Just show up; pay at the door","url":"https://www.tcdancers.org/new-events","verifyNote":"January and February dates aren't posted yet. The hall is about 12 miles from downtown Durham.","lastChecked":"2026-11-12","occ":["2026-11-13","2026-12-11","2026-12-31"],"rtext":"Nov 13, Dec 11 and Dec 31","free":false,"costShort":"$10-30 sliding"},{"id":"d-contra-carrboro-2","city":"durham","kind":"event","entry":"show","title":"First Saturday Contra (Carrboro)","short":"Contra (Carrboro)","category":"dance","solo":true,"start":"19:00","end":"22:30","timeNote":"Beginner lesson 7:00","venue":"Carrboro Century Center","address":"100 N Greensboro St, Carrboro, NC 27510","cost":"$10-20 sliding","description":"Monthly first-Saturday contra (occasionally a big-band 'Rushfest!'), lesson included; no partner needed.","howToJoin":"Just show up; pay at the door","url":"https://www.tcdancers.org/new-events","verifyNote":"Only Dec 5 is posted so far.","lastChecked":"2026-11-12","occ":["2026-12-05"],"rtext":"One date: Dec 5","free":false,"costShort":"$10-20 sliding"},{"id":"d-swing-dance","city":"durham","kind":"event","entry":"show","title":"Triangle Swing Dance Society Dance Party","short":"Swing dance","category":"dance","solo":true,"start":"19:00","end":"23:00","timeNote":"Included beginner lesson 7pm; live band (TBA) 8-11; optional $5 'Beyond the Basics' lesson 6:45 at Carrboro Civic Club","venue":"Carrboro Century Center","address":"100 N Greensboro St, Carrboro, NC 27510","cost":"$20 ($16 members) advance; +$5 at door (card only)","description":"TSDS's monthly live-band swing dance with a free beginner lesson; no partner needed.","howToJoin":"Buy tickets on the TSDS site (open ~2 weeks before) or at the door","url":"https://triangleswingdancesociety.squarespace.com/events","verifyNote":"Only Nov 21 is posted so far. Dances are roughly monthly, often on the 3rd Saturday, so check for December through February dates.","lastChecked":"2026-11-12","occ":["2026-11-21"],"rtext":"One date: Nov 21","free":false,"costShort":"$20"},{"id":"d-modern-dance-class","city":"durham","kind":"event","entry":"show","title":"ADF Adult Class: Modern Dance - Back to Basics","short":"Modern dance class","category":"dance","solo":true,"start":"18:00","end":"19:30","timeNote":"Open level. Fall term ends Dec 13 (no classes Nov 23-29); Winter/Spring 2027 schedule not yet posted","venue":"American Dance Festival - Samuel H. Scripps Studios (2nd floor)","address":"721 Broad St, Durham, NC 27705","cost":"$15 drop-in; $120 10-class card","description":"Open-level drop-in modern dance class (ages 16+) at ADF's studios; same weekly group of adult movers.","howToJoin":"Drop in; see ADF's adult class page","url":"https://americandancefestival.org/adult-classes/","verifyNote":"Check for the Winter/Spring 2027 term (typically starts early January).","lastChecked":"2026-11-12","occ":["2026-11-18","2026-12-02","2026-12-09"],"rtext":"Nov 18, Dec 2 and Dec 9","free":false,"costShort":"$15 drop-in"},{"id":"d-line-dancing-class","city":"durham","kind":"event","entry":"show","title":"Line Dancing with Nykki (Down South Shuffle)","short":"Line dancing class","category":"dance","solo":true,"start":"18:00","end":"19:30","timeNote":"Beginner-friendly; no registration","venue":"Southwest Regional Library (Durham County Library)","address":"3605 Shannon Rd, Durham, NC 27707","cost":"Free","description":"Free beginner line-dancing class teaching basic steps and choreography; fun, low-pressure group setting.","howToJoin":"Just show up; questions 919-560-8593","url":"https://durhamcountylibrary.libcal.com/event/16884725","verifyNote":"Only November and December dates are posted. About 4 miles from downtown.","lastChecked":"2026-11-12","occ":["2026-11-16","2026-12-07","2026-12-21"],"rtext":"Nov 16, Dec 7 and Dec 21","free":true,"costShort":"Free"},{"id":"d-third-friday-art-walk","city":"durham","kind":"event","entry":"show","title":"Third Friday Durham Art Walk","short":"Third Friday art walk","category":"art","pick":true,"start":"18:00","end":"21:00","timeNote":"Nov 20 includes the Weird Windows holiday event; DAC gallery openings Dec 18, Jan 15 & Feb 19 (6-8pm)","venue":"~20 downtown galleries and studios (Durham Arts Council, 21c, Golden Belt studios, etc.)","address":"Downtown Durham (e.g., Durham Arts Council, 120 Morris St, Durham, NC 27701)","cost":"Free","description":"Monthly gallery crawl with openings, receptions and open studios; the same art crowd turns up each month and receptions are easy places to chat.","howToJoin":"Just show up; venue map at downtowndurham.com/thirdfriday","url":"https://downtowndurham.com/thirdfriday/","verifyNote":"Individual venue hours vary.","lastChecked":"2026-11-12","occ":["2026-10-16","2026-11-20","2026-12-18","2027-01-15","2027-02-19"],"rtext":"3rd Friday of each month","free":true,"costShort":"Free"},{"id":"d-figure-drawing-draw-y-all","city":"durham","kind":"event","entry":"signup","title":"Draw Y'all 'Go Figure' Community Figure Drawing","short":"Figure drawing (Draw Y'all)","category":"art","start":"19:00","end":"21:00","timeNote":"Doors 6:30","venue":"The Fruit","address":"305 S Dillard St, Durham, NC 27701","cost":"$10","description":"Monthly uninstructed live-model drawing session from the Draw Y'all group (2,800+ members), built to make figure drawing accessible; beginners and returning artists welcome.","howToJoin":"Get a $10 ticket via the Draw Y'all Meetup; bring your own supplies (no messy media); 18+","url":"https://www.meetup.com/drawyall/events/316966625/","verifyNote":"Meets the first Monday of the month. Dec 7, Jan 4 and Feb 1 aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-11-02","2026-12-07"],"rtext":"1st Monday of each month","free":false,"costShort":"$10"},{"id":"d-figure-drawing-dac","city":"durham","kind":"event","entry":"signup","title":"DAC Open Figure Drawing (Sundays)","short":"Figure drawing (DAC)","category":"art","start":"13:15","end":"15:15","timeNote":"Winter session Jan 10-Mar 7; no class Feb 21","venue":"Durham Arts Council","address":"120 Morris St, Durham, NC 27701","cost":"$15/session pre-registered or $109 for 8","description":"Weekly moderated, uninstructed figure drawing; a steady group of regulars each Sunday.","howToJoin":"Pre-register online (DAC registration opens Dec 4, 10am); no drop-ins; 16+","url":"https://durhamarts.org/2026/11/12/winter-2027-catalog/","verifyNote":"DAC also offers free Sunday Studio Sessions (Jan 10, Jan 31, Feb 28, 1-4pm, registration required) and a Friday Long-Pose Figure Group ($40).","lastChecked":"2026-11-12","occ":["2027-01-10","2027-01-17","2027-01-24","2027-01-31","2027-02-07","2027-02-14","2027-02-28"],"rtext":"Jan 10, Jan 17, Jan 24, Jan 31 and 3 more","free":false,"costShort":"$15/session pre-registered…"},{"id":"d-pottery-class","city":"durham","kind":"program","entry":"join","title":"DAC Beginning/Intermediate Wheel (winter session)","short":"Pottery class","category":"art","pick":true,"pgroup":"classes","start":"18:30","end":"21:00","timeNote":"Wed section runs Jan 6-Mar 10 (10 weeks); same class also Mon (Jan 4-Mar 8, $349), Tue (Jan 5-Mar 9) and Thu (Jan 7-Mar 11) evenings","venue":"Durham Arts Council Clay Studio","address":"120 Morris St, Durham, NC 27701","cost":"$384.50 for 10 weeks (incl. 25 lb clay, glazes, firing, open studio)","description":"Beginner-friendly 10-week wheel-throwing class; a small cohort you see weekly plus open-studio time.","howToJoin":"Register online starting Fri Dec 4 at 10am (secure.rec1.com/NC/durham-arts-council-nc/catalog); no drop-ins","url":"https://durhamarts.org/2026/11/12/winter-2027-catalog/","verifyNote":"Clay Studio is temporarily in the main DAC building; classes fill fast.","lastChecked":"2026-11-12","occ":[],"rtext":"10-week evening classes start the week of Jan 4, Monday to Thursday sections. Registration opens Fri, Dec 4 at 10am.","free":false,"costShort":"$384.50 for 10 weeks"},{"id":"d-intro-to-pottery-wheel","city":"durham","kind":"event","entry":"signup","title":"Claymakers One-Day Intro to Wheel","short":"Intro to pottery wheel","category":"art","solo":true,"pick":true,"timeNote":"Class times aren't listed yet.","venue":"Claymakers","address":"470 Salem St, Durham, NC 27703","cost":"$75","description":"One-day wheel sampler at Durham's long-running community clay studio (still open, Tue-Sat 1-6pm); its ~7-week classes include open-studio access.","howToJoin":"Register at claymakers.org/classes; join the newsletter to hear when the next session opens","url":"https://www.claymakers.org/classes","verifyNote":"Dec 5 had 4 spots and Dec 6 had 2 at last check; Nov 20 is sold out. Winter 2027 session dates aren't announced yet.","lastChecked":"2026-11-12","occ":["2026-12-05","2026-12-06"],"rtext":"Dec 5 and Dec 6","free":false,"costShort":"$75"},{"id":"d-craft-night","city":"durham","kind":"event","entry":"show","title":"Scrap Exchange Community Craft Nite","short":"Craft night","category":"art","solo":true,"start":"17:00","end":"19:00","timeNote":"Different reuse craft each month (Dec: Trinket Trees) or bring your own project","venue":"The Scrap Exchange","address":"2050 Chapel Hill Rd, Durham, NC 27707","cost":"$5-10 suggested donation","description":"Monthly drop-in craft night at the nonprofit creative reuse center; no registration.","howToJoin":"Just show up","url":"https://www.scrapexchange.org/workshops","verifyNote":"Dec 10 and Jan 14 are posted on the Scrap Exchange workshops page.","lastChecked":"2026-11-12","occ":["2026-11-12","2026-12-10","2027-01-14"],"rtext":"2nd Thursday of each month","free":false,"costShort":"$5-10 suggested donation"},{"id":"d-craft-and-draft","city":"durham","kind":"event","entry":"show","title":"Craft & Draft at Crank Arm Durham","short":"Craft & Draft","category":"art","solo":true,"start":"18:30","end":"20:30","timeNote":"Bring a work in progress","venue":"Crank Arm Brewing - Durham (Beckon Building)","address":"620 Fernway Ave, Durham, NC 27701","cost":"Free (drinks extra)","description":"Weekly social crafting night for knitters, crocheters, cross-stitchers and paper crafters at a downtown brewery.","howToJoin":"Just show up","url":"https://www.discoverdurham.com/events/craft-draft/","verifyNote":"Meets every Tuesday (next Nov 17). Check holiday weeks.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday","free":true,"costShort":"Free"},{"id":"d-bull-city-run-club","city":"durham","kind":"event","entry":"show","title":"Bull City Run Club (Wednesday)","short":"Bull City Run Club","category":"fitness","solo":true,"pick":true,"start":"18:00","timeNote":"Check-in 5:30-6:30pm; rain or shine; cup-free (bring a bottle)","venue":"Bull City Running Co. - Downtown","address":"501 Washington St, Suite D, Durham, NC 27701","cost":"Free ($2 optional lifetime barcode)","description":"Durham's big weekly social run (Season 16) from the downtown running store; all paces and lots of regulars.","howToJoin":"Just show up and check in","url":"https://bullcityrunning.com/events/runclub/","verifyNote":"The club's attendance-tracking season runs March to November. Ask at check-in whether the winter runs keep the same time.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday","free":true,"costShort":"Free"},{"id":"d-saturday-group-run","city":"durham","kind":"event","entry":"show","title":"Bull City Running Saturday Morning Run Club","short":"Saturday group run","category":"fitness","solo":true,"start":"08:00","venue":"Bull City Running Co. - Downtown","address":"501 Washington St, Suite D, Durham, NC 27701","cost":"Free","description":"Weekly Saturday morning group run from the downtown shop; good weekend complement to the Wednesday club.","howToJoin":"Just show up","url":"https://bullcityrunning.com/events/runclub/","verifyNote":"Bull City Running also hosts Trail Run Sundays at 8am on rotating local trails.","lastChecked":"2026-11-12","occ":["2026-10-17","2026-10-24","2026-10-31","2026-11-07","2026-11-14","2026-11-21","2026-11-28","2026-12-05","2026-12-12","2026-12-19"],"rtext":"Every Saturday","free":true,"costShort":"Free"},{"id":"d-crunk-run-club","city":"durham","kind":"event","entry":"show","title":"cRUNk Run Club at Crank Arm","short":"cRUNk Run Club","category":"fitness","solo":true,"start":"18:30","timeNote":"2-, 3- or 5-mile routes, then beer/social at the brewery","venue":"Crank Arm Brewing - Durham","address":"620 Fernway Ave, Durham, NC 27701","cost":"Free","description":"Free weekly downtown group run for all paces that ends back at the brewery for social time.","howToJoin":"Just show up","url":"https://www.discoverdurham.com/events/crunk-run-club/","verifyNote":"Runs on Mondays, though some info says Tuesdays. Check the brewery before you go.","lastChecked":"2026-11-12","occ":["2026-10-19","2026-10-26","2026-11-02","2026-11-09","2026-11-16","2026-11-23","2026-11-30","2026-12-07","2026-12-14","2026-12-21"],"rtext":"Every Monday","free":true,"costShort":"Free"},{"id":"d-pride-climbing-night","city":"durham","kind":"event","entry":"signup","title":"PRIDE Night at The Boulder Garden","short":"Pride climbing night","category":"fitness","solo":true,"start":"19:00","end":"21:00","timeNote":"All climbing levels","venue":"The Boulder Garden","address":"328 Roney St, Durham, NC 27701","cost":"Free for members; $10 non-members","description":"Monthly discounted bouldering + community night at the downtown bouldering gym, centered on LGBTQ+ climbers and community-building.","howToJoin":"Book on The Boulder Garden's Capitan schedule","url":"https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-details/2722/","verifyNote":"Dec 10 is posted. Jan 14 and Feb 11 are expected but not posted yet. The gym also runs an Intro to Bouldering Clinic (e.g., Mon Nov 16, 7:30-9pm, $20 non-members).","lastChecked":"2026-11-12","occ":["2026-11-12","2026-12-10"],"rtext":"2nd Thursday of each month","free":false,"costShort":"Free for members"},{"id":"d-trivia-fullsteam","city":"durham","kind":"event","entry":"show","title":"Trivia with Arturo at Fullsteam","short":"Trivia (Fullsteam)","category":"games","start":"19:30","end":"21:30","timeNote":"Four rounds","venue":"Fullsteam Brewery","address":"726 Rigsbee Ave, Durham, NC 27701","cost":"Free","description":"Long-running brewery trivia (500+ editions); join or form a team and become regulars.","howToJoin":"Just show up","url":"https://www.fullsteam.ag/events/","verifyNote":"Fullsteam's calendar lists these Thursdays, but the host says every other Thursday. Check Fullsteam's events page the week you go.","lastChecked":"2026-11-12","occ":["2026-11-19","2026-11-26","2026-12-03"],"rtext":"Nov 19, Nov 26 and Dec 3","free":true,"costShort":"Free"},{"id":"d-trivia-bull-mccabe-s","city":"durham","kind":"event","entry":"show","title":"Wednesday Trivia at Bull McCabe's","short":"Trivia (Bull McCabe's)","category":"games","start":"20:00","end":"22:00","timeNote":"Three rounds; also livestreamed","venue":"Bull McCabe's Irish Pub","address":"427 W Main St, Durham, NC 27701","cost":"Free","description":"Weekly downtown pub trivia run by Arturo Sanchez (Quiz From Home); classic way to build a regular team.","howToJoin":"Just show up","url":"https://quizfromhome.com/","verifyNote":"Meets Wednesdays. The 8pm start time hasn't been recently confirmed; check quizfromhome.com.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday","free":true,"costShort":"Free"},{"id":"d-board-game-night","city":"durham","kind":"event","entry":"show","title":"Community Board Game Night at Moon Dog","short":"Board game night","category":"games","solo":true,"pick":true,"start":"19:00","end":"23:00","timeNote":"Hosted by the Durham Geeks Meetup","venue":"Moon Dog Meadery & Bottle Shop","address":"1104 Broad St, Suite C, Durham, NC 27705","cost":"Free (game-rental table fee waived Mon/Thu)","description":"Twice-weekly open board game night with 350+ games; hosts seat newcomers into games, so it's built for meeting people.","howToJoin":"Just show up; Durham Geeks Meetup / Facebook group / Discord","url":"https://www.meetup.com/durham-geeks","verifyNote":"Skipped Thanksgiving (Nov 26); check other holidays. Same venue: Blood on the Clocktower social-deduction game 2nd Sundays 1-3pm.","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-19","2026-10-22","2026-10-26","2026-10-29","2026-11-02","2026-11-05","2026-11-09","2026-11-12","2026-11-16","2026-11-19","2026-11-23","2026-11-30","2026-12-03","2026-12-07","2026-12-10","2026-12-14","2026-12-17","2026-12-21"],"rtext":"Every Monday and Thursday","free":true,"costShort":"Free"},{"id":"d-board-games-atomic","city":"durham","kind":"event","entry":"show","title":"Atomic Empire Board Game Night","short":"Board games (Atomic)","category":"games","solo":true,"start":"18:00","end":"22:30","timeNote":"Bring a game or borrow from the demo shelf","venue":"Atomic Empire","address":"3400 Westgate Dr #14B, Durham, NC 27707","cost":"Free (no fee listed)","description":"Weekly open board gaming at Durham's big game store. Also: Friday Night Magic (incl. Commander Mixer), D&D Adventurers League Thursdays, and a Wednesday Commander Nights league (Nov 11-Jan 27).","howToJoin":"Just show up; check the store Discord #weekly-events-digest","url":"https://www.atomicempire.com/Store/Event/2664","verifyNote":"Space can be limited by other events; ~4 mi SW of downtown.","lastChecked":"2026-11-12","occ":["2026-10-19","2026-10-26","2026-11-02","2026-11-09","2026-11-16","2026-11-23","2026-11-30","2026-12-07","2026-12-14","2026-12-21"],"rtext":"Every Monday","free":true,"costShort":"Free"},{"id":"d-chess-club","city":"durham","kind":"event","entry":"show","title":"Downtown Durham Chess Club","short":"Chess club","category":"games","solo":true,"start":"13:30","end":"17:30","timeNote":"Instruction for beginners; boards provided","venue":"Durham County Main Library, Meeting Room #4347","address":"300 N Roxboro St, Durham, NC 27701","cost":"Free","description":"Library chess club on selected Saturdays, all ages and skill levels.","howToJoin":"Just show up; questions wynnedavis@dconc.gov","url":"https://durhamcountylibrary.libcal.com/event/17022971","verifyNote":"Jan-Feb dates aren't posted yet. It tends to meet on the 1st and 3rd Saturdays.","lastChecked":"2026-11-12","occ":["2026-11-21","2026-12-05","2026-12-19"],"rtext":"Nov 21, Dec 5 and Dec 19","free":true,"costShort":"Free"},{"id":"d-food-bank-sort","city":"durham","kind":"event","entry":"signup","title":"Food Bank Durham Branch volunteer shifts","short":"Food Bank sort","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"11:30","timeNote":"Morning shift shown (9–11:30am). Afternoon shifts run 1–3:30pm Tue–Sat. Closed Nov 26–27, Dec 24–25 and Jan 1.","venue":"Food Bank of Central & Eastern NC - Durham Branch (new facility)","address":"1607 Hamlin Rd, Building F, Durham, NC 27704","cost":"Free","description":"Group sort/repack shifts at the Food Bank's new Durham branch; a standing shift puts you alongside the same volunteers.","howToJoin":"Register online and book via the Durham branch calendar at foodbankcenc.org/durham (requests approved first)","url":"https://foodbankcenc.org/durham","verifyNote":"~4 mi north of downtown; old Angier Ave site is closed.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-15","2026-10-16","2026-10-17","2026-10-21","2026-10-22","2026-10-23","2026-10-24","2026-10-28","2026-10-29","2026-10-30","2026-10-31","2026-11-04","2026-11-05","2026-11-06","2026-11-07","2026-11-11","2026-11-12","2026-11-13","2026-11-14","2026-11-18","2026-11-19","2026-11-20","2026-11-21","2026-11-25","2026-11-28","2026-12-02","2026-12-03","2026-12-04","2026-12-05","2026-12-09","2026-12-10","2026-12-11","2026-12-12","2026-12-16","2026-12-17","2026-12-18","2026-12-19","2026-12-23"],"rtext":"Every Wednesday, Thursday, Friday and Saturday","free":true,"costShort":"Free"},{"id":"d-scrap-exchange-shift","city":"durham","kind":"program","entry":"join","title":"Scrap Exchange volunteer shifts","short":"Scrap Exchange shift","category":"volunteer","philanthropy":true,"pgroup":"volunteer","start":"11:00","end":"14:00","timeNote":"Shifts Tue-Sat 11am-2pm or 2-5pm (closed Mon); special Low Distraction Volunteer Night Wed Nov 25, 6-8pm","venue":"The Scrap Exchange","address":"2050 Chapel Hill Rd, Durham, NC 27707","cost":"Free","description":"Sort and process donated materials at the nonprofit creative reuse center; recurring shifts put you with the same crew.","howToJoin":"Sign up at scrapexchange.org/volunteer (no walk-ins); 18+","url":"https://www.scrapexchange.org/volunteer","verifyNote":"Check the sign-up portal for current shift slots.","lastChecked":"2026-11-12","occ":[],"rtext":"Tuesday to Saturday, 11am–2pm or 2–5pm","free":true,"costShort":"Free"},{"id":"d-habitat-orientation","city":"durham","kind":"program","entry":"join","title":"Habitat for Humanity of Durham - orientation & builds","short":"Habitat orientation","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"New-volunteer orientation is the 1st Thursday monthly (Dec 3, Jan 7, Feb 4); then sign up for build shifts","venue":"Habitat for Humanity of Durham","address":"1823 Chapel Hill Rd, Durham, NC 27707","cost":"Free","description":"Build-site volunteering (painting, framing, landscaping, cleanup); regulars form crews.","howToJoin":"Register for orientation at vhub.at/individualorientation, then book shifts at durhamhabitat.volunteerhub.com","url":"https://durhamhabitat.org/volunteer/","verifyNote":"Orientation time, location and build days are listed on VolunteerHub.","lastChecked":"2026-11-12","occ":[],"rtext":"New-volunteer orientation on the 1st Thursday of each month (Dec 3, Jan 7, Feb 4)","free":true,"costShort":"Free"},{"id":"d-urban-ministries-shift","city":"durham","kind":"program","entry":"join","title":"Urban Ministries of Durham pantry & clothing shifts","short":"Urban Ministries shift","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"Shifts are mornings, mid-afternoons or early evenings depending on weekday; commit weekly or twice monthly after training","venue":"Urban Ministries of Durham","address":"410 Liberty St, Durham, NC 27701","cost":"Free","description":"Client-facing shifts in UMD's food pantry and clothing closet at the downtown shelter, plus flexible clothing sorting; a standing shift means the same team.","howToJoin":"Apply via the form at umdurham.org/volunteer (COVID-19 vaccination attestation required); group dinner service via vbaker@umdurham.org","url":"https://umdurham.org/volunteer/","verifyNote":"Exact shift times are set after you apply and finish training.","lastChecked":"2026-11-12","occ":[],"rtext":"Weekly or twice-monthly shifts after training","free":true,"costShort":"Free"},{"id":"d-book-harvest","city":"durham","kind":"program","entry":"join","title":"Book Harvest volunteer sessions","short":"Book Harvest","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"Nov 25: Book Processing Session (count, sticker, sort, box books); two more dates are listed on the sign-up page. Jan 18 (MLK Day): Dream Big 2027 book drive in RTP","venue":"Book Harvest","address":"2501 University Dr, Durham, NC 27707","cost":"Free","description":"Help get books to Durham kids; family-friendly processing sessions, no experience needed.","howToJoin":"Sign up on VOMO: book-harvest.vomo.org/opportunity/book-processor (16+, younger with a parent)","url":"https://book-harvest.vomo.org/org/book-harvest","verifyNote":"Times and other session dates aren't posted here; check the sign-up page. The Dream Big drive is in RTP.","lastChecked":"2026-11-12","occ":[],"rtext":"Book processing sessions most months; the next is Nov 25","free":true,"costShort":"Free"},{"id":"d-toastmasters","city":"durham","kind":"program","entry":"join","title":"Durham Toastmasters Club","short":"Toastmasters","category":"learning","pgroup":"groups","start":"18:30","end":"20:15","timeNote":"Meet & greet 6:30, meeting 6:45-8:15; Zoom option","venue":"Harris Beverages","address":"3505 Hillsborough Rd, Durham, NC 27705","cost":"Free for guests (dues if you join)","description":"Durham's oldest Toastmasters club (est. 1953): friendly public-speaking practice with the same members twice a month.","howToJoin":"Visit as a guest (turn between Hot Dog House and Wendy's); contact via durhamtoastmasters.org","url":"http://www.durhamtoastmasters.org/","verifyNote":"Upcoming meetings: Nov 17, Dec 1, Dec 15; check Jan 5. Another option is Bull City Toastmasters: 2nd and 4th Thursdays at 6:30pm, 245 NC-54 Ste 101 (hybrid).","lastChecked":"2026-11-12","occ":[],"rtext":"1st and 3rd Tuesdays, 6:30–8:15pm","free":true,"costShort":"Free"},{"id":"d-improv-jam","city":"durham","kind":"event","entry":"show","title":"Mettlesome Free Improv Jam","short":"Improv jam","category":"learning","solo":true,"pick":true,"start":"20:30","end":"21:30","timeNote":"Harold Night show ($8) at 7:30 just before","venue":"Mettlesome (Golden Belt)","address":"800 Taylor St, Suite 9-156, Durham, NC 27701","cost":"Free","description":"Free weekly improv jam: names go in a bucket and everyone gets on stage; beginner-friendly on-ramp to Mettlesome's community.","howToJoin":"Just show up. Improv 101 classes start early Jan 2027 (registration ~early Dec)","url":"https://www.thisismettlesome.com/live","verifyNote":"Only Nov 5, 12 and 19 are posted, with none on Nov 26. Dec through Feb dates aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-22","2026-10-29","2026-11-05","2026-11-12","2026-11-19","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Every Thursday","free":true,"costShort":"Free"},{"id":"d-improv-games","city":"durham","kind":"event","entry":"show","title":"Durham Community Improv Jam at Moon Dog","short":"Improv games","category":"social","solo":true,"start":"13:00","end":"15:00","timeNote":"2nd and 4th Saturdays","venue":"Moon Dog Meadery & Bottle Shop","address":"1104 Broad St, Suite C, Durham, NC 27705","cost":"Free","description":"Casual improv-games meetup twice a month; all welcome to play or watch.","howToJoin":"Just show up; meetup.com/durham-community-improv-jam","url":"https://www.meetup.com/durham-community-improv-jam/","verifyNote":"4th Saturdays fall on Nov 28 and Dec 26 (holiday weekends); check before you go.","lastChecked":"2026-11-12","occ":["2026-10-24","2026-11-14","2026-11-28","2026-12-12"],"rtext":"2nd and 4th Saturday of each month","free":true,"costShort":"Free"},{"id":"d-writing-group","city":"durham","kind":"event","entry":"signup","title":"Shut Up and Write! (Main Library)","short":"Writing group","category":"learning","solo":true,"start":"17:30","end":"19:30","timeNote":"Weekly Jan 6-Apr 21, 2027","venue":"Durham County Main Library, Meeting Room #4347","address":"300 N Roxboro St, Durham, NC 27701","cost":"Free","description":"Weekly writing meetup: write together in focused sessions with the same group of writers.","howToJoin":"Register on the library calendar (15 seats)","url":"https://durhamcountylibrary.libcal.com/event/17789775","verifyNote":"The event lists a room but also says 'online event'. Check whether it's in person or on Zoom.","lastChecked":"2026-11-12","occ":["2027-01-06","2027-01-13","2027-01-20","2027-01-27","2027-02-03","2027-02-10","2027-02-17","2027-02-24"],"rtext":"Jan 6, Jan 13, Jan 20, Jan 27 and 4 more","free":true,"costShort":"Free"},{"id":"d-bird-walk","city":"durham","kind":"event","entry":"show","title":"New Hope Bird Alliance bird outings","short":"Bird walk","category":"learning","solo":true,"start":"08:00","end":"11:00","timeNote":"These walks meet at Mason Farm Biological Preserve. The Bird Alliance posts each walk's location a day or two ahead.","venue":"Mason Farm Biological Preserve (most outings)","address":"500 Finley Golf Course Rd, Chapel Hill, NC 27517","cost":"Free","description":"Free guided bird walks (formerly New Hope Audubon); no reservations, all skill levels, about twice a week in season.","howToJoin":"Just show up; locations posted on newhopebirdalliance.org 1-2 days ahead","url":"https://newhopebirdalliance.org/","verifyNote":"December to February walks aren't posted yet (it's Christmas Bird Count season).","lastChecked":"2026-11-12","occ":["2026-11-14","2026-11-25"],"rtext":"Nov 14 and Nov 25","free":true,"costShort":"Free"},{"id":"d-spanish-conversation","city":"durham","kind":"event","entry":"show","title":"Durham Spanish Conversation Cafe","short":"Spanish conversation","category":"learning","solo":true,"start":"17:30","end":"18:30","timeNote":"Drop-in; all levels from advanced beginner to native","venue":"Dulce Cafe","address":"5826 Fayetteville Rd, Ste 106, Durham, NC 27713","cost":"Free (buy a drink/food)","description":"Weekly drop-in Spanish conversation group; same faces every Thursday.","howToJoin":"RSVP on Meetup (Durham Spanish Conversation Cafe) and drop in","url":"https://www.meetup.com/durham-spanish-conversation-cafe/","verifyNote":"Dates are posted only through Nov 26; check that it continues Dec-Feb. About 7 miles south of downtown.","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-22","2026-10-29","2026-11-05","2026-11-12","2026-11-19","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Every Thursday","free":true,"costShort":"Free"},{"id":"d-bike-co-op-repair-nights","city":"durham","kind":"program","entry":"join","title":"Durham Bike Co-op Thursday DIY Night","short":"Bike Co-op repair nights","category":"learning","pgroup":"groups","start":"18:30","end":"20:30","timeNote":"Walk-in, no sign-up","venue":"Durham Bike Co-op (Duke Park)","address":"1612 Acadia St, Durham, NC 27701","cost":"Co-op membership ($30/yr or 3 volunteer hours)","description":"Walk-in DIY bike-repair nights at the volunteer-run community bike shop; regulars help each other.","howToJoin":"Walk in; to volunteer, book a Saturday Beginner Session (9am-noon) at durhambikecoop.corsizio.com","url":"https://durhambikecoop.corsizio.com/","verifyNote":"Dec 3 and Dec 10 were full at last check. Feb dates aren't posted yet.","lastChecked":"2026-11-12","occ":[],"rtext":"Thursdays 6:30–8:30pm; walk in once you're a member","free":false,"costShort":"Co-op membership"},{"id":"d-eno-river-workday","city":"durham","kind":"event","entry":"signup","title":"Eno River Association invasive plant workday","short":"Eno River workday","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"12:00","timeNote":"Privet removal at Rocky Branch","venue":"Rocky Branch Conservation Area","address":"4708 Seterra Bend, Durham, NC 27712","cost":"Free","description":"Pull invasive privet with an Eno River Association crew. Workdays come around about monthly, so the same volunteers keep showing up.","howToJoin":"Register on the Eno River Association's Eventbrite, and join their volunteer email list for future dates","url":"https://www.enoriver.org/events-on-the-eno/","verifyNote":"January and February workdays aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-11-21"],"rtext":"One date: Nov 21","free":true,"costShort":"Free"},{"id":"d-trail-crew","city":"durham","kind":"event","entry":"signup","title":"Mountains-to-Sea Trail crew on the Eno","short":"Trail crew","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"14:00","timeNote":"Trail repair and invasive plant removal","venue":"Eno section of the Mountains-to-Sea Trail","address":"317 Omega Rd, Durham, NC","cost":"Free","description":"Repair trail and clear invasives with the Friends of the Mountains-to-Sea Trail Eno crew, a regular group that works this section through the year.","howToJoin":"Contact the crew leader listed on the Eno River Association events page to sign up","url":"https://www.enoriver.org/events-on-the-eno/","verifyNote":"Confirm the meeting spot with the crew leader before you go.","lastChecked":"2026-11-12","occ":["2026-12-05"],"rtext":"One date: Dec 5","free":true,"costShort":"Free"},{"id":"d-litter-cleanup","city":"durham","kind":"event","entry":"signup","title":"Keep Durham Beautiful: MLK Jr Parkway cleanup","short":"Litter cleanup","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"11:00","timeNote":"Meet in the Durham Board of Elections parking lot","venue":"Durham Board of Elections lot","address":"3825 S Roxboro St, Durham, NC 27713","cost":"Free","description":"A two-hour litter cleanup along MLK Jr Parkway with Keep Durham Beautiful. A good way to meet civic-minded neighbors.","howToJoin":"Sign up through the form on the event page at keepdurhambeautiful.org/events","url":"https://keepdurhambeautiful.squarespace.com/events","verifyNote":"Dates are posted only through Dec 13. January and February aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-11-22"],"rtext":"One date: Nov 22","free":true,"costShort":"Free"},{"id":"d-litter-cleanup-2","city":"durham","kind":"event","entry":"signup","title":"Keep Durham Beautiful: MLK Jr Parkway cleanup","short":"Litter cleanup","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"11:00","timeNote":"Starts at the Lowe's parking lot","venue":"Lowe's parking lot","address":"4402 Fayetteville St, Durham, NC","cost":"Free","description":"A two-hour litter cleanup along MLK Jr Parkway with Keep Durham Beautiful. A good way to meet civic-minded neighbors.","howToJoin":"Sign up through the form on the event page at keepdurhambeautiful.org/events","url":"https://keepdurhambeautiful.squarespace.com/events","verifyNote":"Dates are posted only through Dec 13. January and February aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-12-13"],"rtext":"One date: Dec 13","free":true,"costShort":"Free"},{"id":"d-fiber-arts-meetup","city":"durham","kind":"event","entry":"show","title":"Stitch N Bitch fiber-arts meetup","short":"Fiber-arts meetup","category":"art","solo":true,"start":"18:00","end":"20:00","venue":"The Scrap Exchange","address":"2050 Chapel Hill Rd, Durham, NC 27707","cost":"Free","description":"Free monthly meetup for knitters, crocheters and embroiderers at the nonprofit creative reuse center. Bring a project and work alongside other makers.","howToJoin":"Just show up","url":"https://www.scrapexchange.org/workshops","verifyNote":"Check the December date before going.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-11-11","2026-12-09"],"rtext":"2nd Wednesday of each month","free":true,"costShort":"Free"},{"id":"d-sewing-circle","city":"durham","kind":"event","entry":"show","title":"Scrap Exchange Sewing Circle","short":"Sewing circle","category":"art","solo":true,"start":"17:00","end":"19:00","venue":"The Scrap Exchange","address":"2050 Chapel Hill Rd, Durham, NC 27707","cost":"Check the website","description":"Twice-monthly sewing meetup at the creative reuse center. Work on your own project with other sewists around.","howToJoin":"Just show up","url":"https://www.scrapexchange.org/workshops","verifyNote":"Check holiday weeks.","lastChecked":"2026-11-12","occ":["2026-10-21","2026-11-04","2026-11-18","2026-12-02","2026-12-16"],"rtext":"1st and 3rd Wednesday of each month","free":false,"costShort":""},{"id":"d-intro-to-bouldering","city":"durham","kind":"event","entry":"signup","title":"Intro to Bouldering Clinic","short":"Intro to bouldering","category":"fitness","solo":true,"start":"19:30","end":"21:00","venue":"The Boulder Garden","address":"328 Roney St, Durham, NC 27701","cost":"$20 non-members","description":"A beginner clinic at the downtown bouldering gym. A good first step before going to climbing nights on your own.","howToJoin":"Book on The Boulder Garden's online class schedule","verifyNote":"Only the Nov 16 clinic is posted so far. Check the gym's schedule for later dates.","lastChecked":"2026-11-12","occ":["2026-11-16"],"rtext":"One date: Nov 16","free":false,"costShort":"$20 non-members"},{"id":"d-quiet-volunteer-night","city":"durham","kind":"event","entry":"signup","title":"Low Distraction Volunteer Night","short":"Quiet volunteer night","category":"volunteer","philanthropy":true,"solo":true,"start":"18:00","end":"20:00","venue":"The Scrap Exchange","address":"2050 Chapel Hill Rd, Durham, NC 27707","cost":"Free","description":"An evening volunteer shift sorting donated craft materials, set up as a calmer, lower-distraction room.","howToJoin":"Sign up at scrapexchange.org/volunteer (no walk-ins). Ages 18+.","url":"https://www.scrapexchange.org/volunteer","verifyNote":"One-time special shift. Sign-up is required.","lastChecked":"2026-11-12","occ":["2026-11-25"],"rtext":"One date: Nov 25","free":true,"costShort":"Free"},{"id":"d-bird-club-meeting","city":"durham","kind":"event","entry":"show","title":"New Hope Bird Alliance monthly meeting","short":"Bird club meeting","category":"learning","solo":true,"start":"19:00","venue":"NC Botanical Garden","address":"100 Old Mason Farm Rd, Chapel Hill, NC 27517","cost":"Free","description":"Monthly chapter meeting with a speaker program. It's where you meet the people who lead the bird walks.","howToJoin":"Just show up","url":"https://newhopebirdalliance.org/","verifyNote":"Confirm the meeting is open to non-members and held in person.","lastChecked":"2026-11-12","occ":["2026-12-03"],"rtext":"1st Thursday of each month","free":true,"costShort":"Free"},{"id":"d-bird-walk-2","city":"durham","kind":"event","entry":"show","title":"Bird walk at Brumley Forest (north entrance)","short":"Bird walk","category":"learning","solo":true,"start":"08:00","end":"11:00","venue":"Brumley Forest Nature Preserve, north","address":"3620 Old State Hwy 10, NC","cost":"Free","description":"A free guided bird walk with the New Hope Bird Alliance (formerly New Hope Audubon). All skill levels are welcome, and the walk leaders are glad to help beginners.","howToJoin":"Just show up; no reservation needed","url":"https://newhopebirdalliance.org/","verifyNote":"The Bird Alliance posts each walk's location a day or two ahead; check the morning of.","lastChecked":"2026-11-13","occ":["2026-11-18"],"rtext":"One date: Nov 18","free":true,"costShort":"Free"},{"id":"r-old-time-jam","city":"raleigh","kind":"event","entry":"show","title":"PineCone Old-Time Jam","short":"Old-time jam","category":"music","solo":true,"pick":true,"start":"19:00","end":"21:00","timeNote":"Up-to-speed jam (not a slow or learning jam); tunes are called by key (D, A, G)","venue":"Riparian Provision Company","address":"1408 S Saunders St, Raleigh, NC 27603","cost":"Free (no fee listed; PineCone asks players to buy something at venues that sell food or drink)","description":"Circle jam of old-time fiddle tunes led by strong players who leave room for newer ones. Listeners are welcome too. The same regulars come every month.","howToJoin":"Just show up with an instrument, or come to listen","url":"https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/","verifyNote":"Next dates are Dec 10, Jan 14 and Feb 11, though only Dec 10 is on PineCone's calendar so far. Parking at the plaza is very limited.","lastChecked":"2026-11-12","occ":["2026-11-12","2026-12-10"],"rtext":"2nd Thursday of each month","free":true,"costShort":"Free"},{"id":"r-beginner-bluegrass-jam","city":"raleigh","kind":"event","entry":"show","title":"PineCone Beginner Bluegrass Jam","short":"Beginner bluegrass jam","category":"music","solo":true,"pick":true,"start":"19:00","end":"21:00","timeNote":"First hour is one big group that stops to talk through songs; second hour splits into two smaller groups","venue":"Harry's Guitar Shop","address":"556 Pylon Dr, Raleigh, NC 27606","cost":"Free (no fee listed)","description":"Coached jam for people with little or no experience playing with others, facilitated by Jef Walter. Each month has first-timers alongside people who have come for years.","howToJoin":"Just show up with your instrument","url":"https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/","verifyNote":"The 3rd-Monday beginner jam is still at Harry's; the separate 4th-Monday open jam moved to Raleigh Brewing. Nov 16 and Dec 21 are posted. Jan 18 (MLK Day) and Feb 15 aren't posted yet.","lastChecked":"2026-11-12","occ":["2026-10-19","2026-11-16","2026-12-21"],"rtext":"3rd Monday of each month","free":true,"costShort":"Free"},{"id":"r-open-bluegrass-jam","city":"raleigh","kind":"event","entry":"show","title":"PineCone Open Bluegrass Jam","short":"Open bluegrass jam","category":"music","solo":true,"start":"19:00","end":"21:00","venue":"Raleigh Brewing Company","address":"3709 Neil St, Raleigh, NC 27607","cost":"Free (no fee listed; buy a drink)","description":"Up-to-speed open circle jam on standard bluegrass songs for musicians of all levels. It moved to Raleigh Brewing in September 2026.","howToJoin":"Just show up with your instrument","url":"https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/","verifyNote":"Posted dates: Nov 23, Dec 28, Jan 25, Feb 22.","lastChecked":"2026-11-12","occ":["2026-10-26","2026-11-23"],"rtext":"4th Monday of each month","free":true,"costShort":"Free"},{"id":"r-beer-and-banjos","city":"raleigh","kind":"event","entry":"show","title":"Beer and Banjos (weekly roots music night)","short":"Beer & Banjos","category":"music","start":"18:30","end":"21:00","timeNote":"On the patio in good weather, inside by the bar in cold or rain","venue":"Bowstring Pizza and Brewyard","address":"1930 Wake Forest Rd, Raleigh, NC 27608","cost":"Free (tips for the band welcome)","description":"Free family-friendly bluegrass and roots night every Tuesday, hosted by the Beer & Banjos All-Stars with a different guest each week. It draws a steady crowd of local pickers and fans. It is a concert, not an open jam.","howToJoin":"Just show up","url":"https://pinecone.org/event/beer-and-banjos-emily-burdette/","verifyNote":"Nov 17 and Nov 24 are listed. Check the holiday weeks (Dec 22 and 29).","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday","free":true,"costShort":"Free"},{"id":"r-open-mic-slim-s","city":"raleigh","kind":"event","entry":"show","title":"Open Mic with a Live Band at Slim's","short":"Open mic (Slim's)","category":"music","start":"21:00","end":"00:00","timeNote":"Ends at midnight","venue":"Slim's Downtown (Slim's Dive Bar)","address":"227 S Wilmington St, Raleigh, NC 27601","cost":"Free (no cover listed)","description":"Singers, players, poets and emcees take turns backed by a house band. It's a long-running downtown open mic with a regular crowd.","howToJoin":"Sign up at the bar on the night","url":"https://slimsdivebar.com/","verifyNote":"Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the venue. No sign-up time is posted.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday","free":true,"costShort":"Free"},{"id":"r-open-mic-rebus-works","city":"raleigh","kind":"event","entry":"show","title":"Rebus Works Open Mic Night","short":"Open mic (Rebus Works)","category":"music","start":"17:30","end":"20:00","timeNote":"Sign-up starts at 5pm; the house backing band is available if you want it","venue":"Rebus Works","address":"301-2 Kinsey St, Raleigh, NC 27603","cost":"Free","description":"First-Thursday open mic for music, poetry and comedy in a small Boylan Heights gallery and community space. The crowd is friendly and the regulars return each month.","howToJoin":"Sign up in person from 5pm","url":"https://www.rebusworks.us/calendar","verifyNote":"Rebus Works skips January (closed Jan 5–9). February's date isn't posted yet.","lastChecked":"2026-11-12","occ":["2026-12-03"],"rtext":"One date: Dec 3","free":true,"costShort":"Free"},{"id":"r-bluegrass-jam-class","city":"raleigh","kind":"event","entry":"signup","title":"Wernick Method Holiday Bluegrass Jam Class","short":"Bluegrass jam class","category":"music","solo":true,"start":"10:00","end":"16:00","timeNote":"Times are listed as either 10am-4pm or 11am-2pm; check before you go. Bring your own lunch; there's an ugly sweater contest.","venue":"St. Paul's Christian Church","address":"3331 Blue Ridge Rd, Raleigh, NC 27612","cost":"$80 ($40 deposit)","description":"One-day bluegrass jamming class taught by Leslie Dare and Susan West. No jam experience is needed if you can tune and change smoothly between G, C, D and A. It's a good way into the PineCone jams.","howToJoin":"Register online at wernickmethod.org (create an account); the songbook is sent after you register","url":"https://wernickmethod.org/event/ld-sw-2026-12-raleigh","verifyNote":"This is the only Raleigh Wernick class posted for now.","lastChecked":"2026-11-12","occ":["2026-12-05"],"rtext":"One date: Dec 5","free":false,"costShort":"$80"},{"id":"r-line-dancing-transfer-co","city":"raleigh","kind":"event","entry":"show","title":"Ballroom Line Dancing with Lexi","short":"Line dancing (Transfer Co.)","category":"dance","solo":true,"pick":true,"start":"19:00","end":"22:00","timeNote":"Beginner lesson first, then open dancing","venue":"Transfer Co. Ballroom (inside Transfer Co. Food Hall)","address":"500 E Davie St, Ste 160, Raleigh, NC 27601","cost":"$5","description":"Weekly line dance class taught by Lexi Lloyd, followed by open dancing, for all ages and skill levels. Icebreakers and games make it easy to meet people.","howToJoin":"Just show up","url":"https://www.transfercofoodhall.com/upcoming-events","verifyNote":"Thursdays are posted through Nov 19. Nov 26 is Thanksgiving, and December through February isn't posted yet. The $5 price was last confirmed in September 2026.","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-22","2026-10-29","2026-11-05","2026-11-12","2026-11-19","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Every Thursday","free":false,"costShort":"$5"},{"id":"r-swing-dance","city":"raleigh","kind":"event","entry":"show","title":"Carolina Dance Club Sunday Night Swing","short":"Swing dance","category":"dance","solo":true,"pick":true,"start":"18:00","end":"22:00","timeNote":"Free East Coast Swing lesson at 6pm; Lindy/ECS/Blues 7-8:45; West Coast Swing and Hustle 8:45-10","venue":"Raleigh Elks Lodge No. 735","address":"5538 Lead Mine Rd, Raleigh, NC","cost":"$15 ($12 members, $10 students, $8 after 8:30pm)","description":"Large weekly swing dance with a free lesson; over 100 dancers have been reported on a typical Sunday. Some Sundays add afternoon sessions: ballroom on the 1st Sunday, country on the 2nd.","howToJoin":"Just show up","url":"https://www.carolinadanceclub.com/","verifyNote":"North Raleigh, about 15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January-February aren't listed. Check the site.","lastChecked":"2026-11-12","occ":["2026-10-18","2026-10-25","2026-11-01","2026-11-08","2026-11-15","2026-11-22","2026-11-29","2026-12-06","2026-12-13","2026-12-20"],"rtext":"Every Sunday","free":false,"costShort":"$15"},{"id":"r-first-friday-art-walk","city":"raleigh","kind":"event","entry":"show","title":"First Friday Raleigh art walk","short":"First Friday art walk","category":"art","pick":true,"start":"18:00","end":"21:00","timeNote":"Dozens of downtown galleries and studios take part, each with its own hours. Artspace is open 4–10pm, with a sensory-friendly hour from 4–6pm.","venue":"Artspace and downtown galleries","address":"201 E Davie St, Raleigh, NC 27601","cost":"Free","description":"Free self-guided monthly walk through galleries, studios and alternative art spaces downtown, with openings, music and food.","howToJoin":"Just show up; the venue list is on the Downtown Raleigh Alliance First Friday page","url":"https://triangleonthecheap.com/first-friday-raleigh","verifyNote":"The January 2027 First Friday falls on New Year's Day. Confirm whether it runs.","lastChecked":"2026-11-12","occ":["2026-11-06","2026-12-04"],"rtext":"1st Friday of each month","free":true,"costShort":"Free"},{"id":"r-byo-craft-night","city":"raleigh","kind":"event","entry":"show","title":"Bring Your Own Craft Night at Raleigh Brewing","short":"BYO craft night","category":"art","solo":true,"start":"18:30","end":"21:30","venue":"Raleigh Brewing Company","address":"3709 Neil St, Raleigh, NC 27607","cost":"Free","description":"Bring any project (stitching, sketching, scrapbooking) and meet other makers over a beer. Hosted by The Anna Effect.","howToJoin":"Just show up","url":"https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/","verifyNote":"Dates are posted through Dec 30, 2026, and it may end around 8:30. Check that it continues in 2027.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday, through Dec 30","free":true,"costShort":"Free"},{"id":"r-crank-arm-run-club","city":"raleigh","kind":"event","entry":"show","title":"Crank Arm Run Club","short":"Crank Arm Run Club","category":"fitness","solo":true,"pick":true,"start":"18:30","end":"20:30","timeNote":"Arrive about 15 minutes early; 2, 3 or 5-mile routes, then hang out at the brewery","venue":"Crank Arm Brewing","address":"319 W Davie St, Raleigh, NC 27601","cost":"Free","description":"Weekly all-paces downtown run with beers and socializing afterward.","howToJoin":"Just show up","url":"https://downtownraleigh.org/do/crank-arm-run-club","verifyNote":"Dates are posted from Nov 17 onward.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday","free":true,"costShort":"Free"},{"id":"r-stonewall-run-club","city":"raleigh","kind":"event","entry":"show","title":"Stonewall Run Club","category":"fitness","solo":true,"start":"18:30","end":"21:30","timeNote":"1-5 mile routes, then drinks and socializing","venue":"Wolfe & Porter","address":"905 W Morgan St, Raleigh, NC 27603","cost":"Free","description":"Inclusive social run club for all levels, explicitly pitched as a way to exercise and meet people. The bar's Tuesday trivia starts right after.","howToJoin":"Arrive 5-10 minutes early to sign a waiver on your phone; ask for the directors, Aaron or Tyler","url":"https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/","verifyNote":"Dates are posted through Dec 31, 2026. The club meets at Wolfe & Porter; some older coverage lists other bars.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-15","2026-10-20","2026-10-22","2026-10-27","2026-10-29","2026-11-03","2026-11-05","2026-11-10","2026-11-12","2026-11-17","2026-11-19","2026-11-24","2026-12-01","2026-12-03","2026-12-08","2026-12-10","2026-12-15","2026-12-17","2026-12-22"],"rtext":"Every Tuesday and Thursday, through Dec 31","free":true,"costShort":"Free"},{"id":"r-run-walk-club","city":"raleigh","kind":"event","entry":"show","title":"Raleigh Brewing Run/Walk Club","short":"Run/walk club","category":"fitness","solo":true,"start":"18:30","timeNote":"3-4 mile greenway route (Meredith campus to the NC Museum of Art and back), then a pint","venue":"Raleigh Brewing Company","address":"3709 Neil St, Raleigh, NC 27607","cost":"Free","description":"Weekly all-paces run/walk with a social pint afterward, plus occasional themed runs such as the zombie run and ugly sweater run.","howToJoin":"Just show up; RSVP on Meetup is optional","url":"https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/","verifyNote":"The next one is listed on Meetup for Nov 18.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday","free":true,"costShort":"Free"},{"id":"r-taco-tuesday-ride","city":"raleigh","kind":"event","entry":"show","title":"Raleigh Brewing Taco Tuesday Bike Ride","short":"Taco Tuesday ride","category":"fitness","solo":true,"start":"18:00","timeNote":"Check-in and rollout at 6pm. Pace groups: A about 20 mph, B social 13-15 mph, C beginner-friendly 12-13 mph.","venue":"Raleigh Brewing Company","address":"3709 Neil St, Raleigh, NC 27607","cost":"Free","description":"Weekly group road ride in three pace groups, then tacos and beer at the brewery.","howToJoin":"Just show up; RSVP on Meetup is optional","url":"https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/","verifyNote":"The next ride is listed for Nov 17. Confirm it continues in winter darkness and whether lights are required.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday","free":true,"costShort":"Free"},{"id":"r-pony-run","city":"raleigh","kind":"event","entry":"show","title":"Pony Run at Ponysaurus Brewing","short":"Pony Run","category":"fitness","solo":true,"start":"18:00","end":"19:30","venue":"Ponysaurus Brewing (Raleigh Iron Works)","address":"2221 Iron Works Dr, Ste 100, Raleigh, NC","cost":"Free","description":"Weekly group run from the Ponysaurus taproom, part of Fleet Feet Raleigh's run-club lineup, with a post-run drink.","howToJoin":"Just show up","url":"https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs","verifyNote":"Check Thanksgiving week (Nov 26).","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-22","2026-10-29","2026-11-05","2026-11-12","2026-11-19","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Every Thursday","free":true,"costShort":"Free"},{"id":"r-latinos-run-raleigh","city":"raleigh","kind":"event","entry":"show","title":"Latinos Run Raleigh","category":"fitness","start":"18:30","venue":"Fleet Feet Ridgewood","address":"3524 Wade Ave, Raleigh, NC","cost":"Free","description":"Weekly community run club that starts from Fleet Feet's Ridgewood store on Wade Ave. One of the few Monday options.","howToJoin":"Just show up","url":"https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs","verifyNote":"Confirm the route, pace and who it's open to with the group.","lastChecked":"2026-11-12","occ":["2026-10-19","2026-10-26","2026-11-02","2026-11-09","2026-11-16","2026-11-23","2026-11-30","2026-12-07","2026-12-14","2026-12-21"],"rtext":"Every Monday","free":true,"costShort":"Free"},{"id":"r-breakfast-club-run","city":"raleigh","kind":"event","entry":"show","title":"Breakfast Club Runners Saturday long run","short":"Breakfast Club run","category":"fitness","solo":true,"start":"06:30","timeNote":"6-10+ miles with pace groups from sub-7 to 10+ min/mile, then coffee or breakfast. The club also runs Tuesdays at 6am from Yellow Dog Bread Co. (219 E Franklin St).","venue":"Jubala Coffee","address":"301 Hillsborough St, Ste 120, Raleigh, NC","cost":"Free","description":"Very active downtown running group (900+ members, rated 5.0) whose Saturday long run ends with a group breakfast.","howToJoin":"RSVP on Meetup and show up","url":"https://meetup.com/the-breakfast-club-runners","verifyNote":"Early start; check Meetup for holiday weekends.","lastChecked":"2026-11-12","occ":["2026-10-17","2026-10-24","2026-10-31","2026-11-07","2026-11-14","2026-11-21","2026-11-28","2026-12-05","2026-12-12","2026-12-19"],"rtext":"Every Saturday","free":true,"costShort":"Free"},{"id":"r-climbing-meetup","city":"raleigh","kind":"event","entry":"signup","title":"Raleigh Rock Climbing Meetup (Friday climb)","short":"Climbing meetup","category":"fitness","solo":true,"pick":true,"start":"18:30","timeNote":"The group rotates between Triangle Rock Club gyms each Friday: Nov 13 here at Salvage Yard, Nov 20 at the Durham gym. Optional group dinner around 8:45pm.","venue":"Triangle Rock Club - Salvage Yard (location rotates)","address":"2330 Salvage Yard Dr, Raleigh, NC 27604","cost":"$15 for a first TRC visit including rental gear; $22 after","description":"Climbing group running since 2006 with 2,000+ members. Beginners and people who can't belay yet are welcome, and dinner afterward is part of the routine.","howToJoin":"RSVP on Meetup","url":"https://www.meetup.com/raleighrockclimbing/","verifyNote":"Later Raleigh Fridays aren't visible yet. Check the Meetup page each week.","lastChecked":"2026-11-12","occ":["2026-11-13"],"rtext":"One date: Nov 13","free":false,"costShort":"$15 for a first TRC visit…"},{"id":"r-trivia-wolfe-and-porter","city":"raleigh","kind":"event","entry":"show","title":"Tuesday Night Trivia at Wolfe & Porter","short":"Trivia (Wolfe & Porter)","category":"games","start":"19:00","end":"22:00","venue":"Wolfe & Porter","address":"905 W Morgan St, Raleigh, NC 27603","cost":"Free","description":"Free weekly team trivia with gift-certificate prizes. It follows the Stonewall Run Club at the same bar, so you can do both.","howToJoin":"Just show up (join a team or start one)","url":"https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/","verifyNote":"Dates are posted through Dec 29, 2026. Check that it continues in 2027.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday, through Dec 29","free":true,"costShort":"Free"},{"id":"r-trivia-beer-garden","city":"raleigh","kind":"event","entry":"show","title":"Weekly Trivia at Raleigh Beer Garden","short":"Trivia (Beer Garden)","category":"games","start":"19:00","end":"21:00","venue":"Raleigh Beer Garden","address":"614 Glenwood Ave, Ste B, Raleigh, NC 27603","cost":"Free","description":"Free team pub trivia (pop culture, history, sports, wildcard rounds) for house prizes in Glenwood South.","howToJoin":"Just show up","url":"https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-garden/106093/","verifyNote":"Dates are posted through Dec 30, 2026. Check that it continues in 2027.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday, through Dec 30","free":true,"costShort":"Free"},{"id":"r-trivia-raleigh-brewing","city":"raleigh","kind":"event","entry":"show","title":"Trivia Night at Raleigh Brewing","short":"Trivia (Raleigh Brewing)","category":"games","start":"19:00","end":"21:00","venue":"Raleigh Brewing Company","address":"3709 Neil St, Raleigh, NC 27607","cost":"Free (no fee listed)","description":"Weekly Thursday team trivia at a brewery near NC State. The same brewery hosts the run club, bike ride, craft night and bluegrass jam, so regulars overlap.","howToJoin":"Just show up","url":"https://www.raleighbrewing.com/neil-street","verifyNote":"Check Thanksgiving (Nov 26) and Christmas Eve (Dec 24).","lastChecked":"2026-11-12","occ":["2026-10-15","2026-10-22","2026-10-29","2026-11-05","2026-11-12","2026-11-19","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Every Thursday","free":true,"costShort":"Free"},{"id":"r-board-game-night","city":"raleigh","kind":"event","entry":"show","title":"Triangle Taps and Tables (board game night)","short":"Board game night","category":"games","solo":true,"start":"18:30","end":"22:00","venue":"Trophy Brewing Co. + Taproom","address":"656 Maywood Ave, Raleigh, NC 27603","cost":"Free","description":"Weekly light board game night with a new set of games each week. Whoever wins the most takes home a free 4-pack.","howToJoin":"Just show up; questions to Triangletapsandtables@gmail.com","url":"https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/","verifyNote":"Dates are posted through Dec 29, 2026. Check that it continues in 2027.","lastChecked":"2026-11-12","occ":["2026-10-13","2026-10-20","2026-10-27","2026-11-03","2026-11-10","2026-11-17","2026-11-24","2026-12-01","2026-12-08","2026-12-15","2026-12-22"],"rtext":"Every Tuesday, through Dec 29","free":true,"costShort":"Free"},{"id":"r-food-bank-sort","city":"raleigh","kind":"event","entry":"signup","title":"Food Bank warehouse sort (Wednesday evening)","short":"Food Bank sort","category":"volunteer","philanthropy":true,"solo":true,"pick":true,"start":"18:00","end":"20:00","timeNote":"Wednesday also has 9-11:30am and 1-3:30pm sessions","venue":"Food Bank of Central & Eastern NC - Raleigh Branch","address":"1924 Capital Blvd, Raleigh, NC 27604 (volunteer entrance currently at 2439 Crabtree Blvd)","cost":"Free","description":"Check and repack donated food into family-sized boxes alongside other volunteers. This is the only after-work session at the Raleigh warehouse.","howToJoin":"Online registration is required: use the volunteer calendar on the Raleigh location page","url":"https://foodbankcenc.org/locations/raleigh/","verifyNote":"Check the holiday weeks (Nov 25, Dec 23, Dec 30). Ages 12+, under 16 with an adult.","lastChecked":"2026-11-12","occ":["2026-10-14","2026-10-21","2026-10-28","2026-11-04","2026-11-11","2026-11-18","2026-11-25","2026-12-02","2026-12-09","2026-12-16","2026-12-23"],"rtext":"Every Wednesday","free":true,"costShort":"Free"},{"id":"r-food-bank-sort-2","city":"raleigh","kind":"event","entry":"signup","title":"Food Bank warehouse sort (Saturday morning)","short":"Food Bank sort","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"11:30","timeNote":"There's also a Saturday 1-3:30pm session","venue":"Food Bank of Central & Eastern NC - Raleigh Branch","address":"1924 Capital Blvd, Raleigh, NC 27604 (volunteer entrance currently at 2439 Crabtree Blvd)","cost":"Free","description":"Weekend food-sorting shift at the main Raleigh warehouse. Working beside the same crews is an easy way to talk to people.","howToJoin":"Online registration is required: use the volunteer calendar on the Raleigh location page","url":"https://foodbankcenc.org/locations/raleigh/","verifyNote":"Spots fill up; book ahead, especially in the holiday season.","lastChecked":"2026-11-12","occ":["2026-10-17","2026-10-24","2026-10-31","2026-11-07","2026-11-14","2026-11-21","2026-11-28","2026-12-05","2026-12-12","2026-12-19"],"rtext":"Every Saturday","free":true,"costShort":"Free"},{"id":"r-food-shuttle-farm","city":"raleigh","kind":"program","entry":"join","title":"Inter-Faith Food Shuttle Farm volunteer shift","short":"Food Shuttle farm","category":"volunteer","philanthropy":true,"pgroup":"volunteer","start":"09:00","end":"12:00","timeNote":"Weekday mornings only","venue":"Food Shuttle Farm","address":"2300 Dover Farm Rd, Raleigh, NC 27606","cost":"Free","description":"Outdoor planting, weeding and harvesting with small crews on the Food Shuttle's 16-acre hunger-relief farm. The work is medium to heavy.","howToJoin":"Create an account and pick a shift on the Food Shuttle's Bloomerang volunteer portal, linked from foodshuttle.org/volunteer","url":"https://foodshuttle.org/volunteer/","verifyNote":"Wednesday and Friday mornings are the most reliable days. Tuesday or Monday shifts may also be offered; check the portal.","lastChecked":"2026-11-12","occ":[],"rtext":"Weekday mornings, 9am–noon","free":true,"costShort":"Free"},{"id":"r-holiday-meal-packing","city":"raleigh","kind":"event","entry":"signup","title":"Raleigh Rescue Mission holiday meal packing & delivery","short":"Holiday meal packing","category":"volunteer","philanthropy":true,"solo":true,"timeNote":"Thanksgiving: packing Sun Nov 22 and Nov 23-25, delivery Thu Nov 26. Christmas: packing Dec 21-22, delivery Dec 23. Shift times are on SignUpGenius.","venue":"Christ the King Presbyterian Church (packing and distribution site)","address":"1417 Clifton St, Raleigh, NC 27604","cost":"Free","description":"Pack and deliver holiday meals in teams. Unlike onsite shifts at the Mission, no training is required.","howToJoin":"SignUpGenius: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving, signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas","url":"https://www.raleighrescue.org/volunteer","verifyNote":"Regular onsite volunteering at the Mission (314 E Hargett St) requires orientation and is for ages 16+.","lastChecked":"2026-11-12","occ":["2026-11-22","2026-11-23","2026-11-24","2026-11-25","2026-11-26","2026-12-21","2026-12-22","2026-12-23"],"rtext":"Nov 22, Nov 23, Nov 24, Nov 25 and 4 more","free":true,"costShort":"Free"},{"id":"r-habitat-restore","city":"raleigh","kind":"program","entry":"join","title":"Habitat ReStore volunteer shift (Raleigh Blvd)","short":"Habitat ReStore","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"Shifts fall within store hours, 10am-6pm Monday to Saturday; pick slots in VolunteerHub","venue":"Habitat ReStore - Raleigh (Habitat for Humanity of Greater Raleigh)","address":"2420 N Raleigh Blvd, Raleigh, NC 27604","cost":"Free","description":"Sort donated furniture and building materials and help shoppers. Construction build days (8am-3:30pm, ages 16+) can be booked on the same VolunteerHub.","howToJoin":"Register at vhub.at/newrestorevolunteer and choose a shift","url":"https://www.trianglerestores.org/volunteer","verifyNote":"Exact shift slots are only visible in VolunteerHub. Ages 16+. Habitat Wake is now named Habitat for Humanity of Greater Raleigh.","lastChecked":"2026-11-12","occ":[],"rtext":"During store hours, Monday to Saturday 10am–6pm","free":true,"costShort":"Free"},{"id":"r-set-building-rlt","city":"raleigh","kind":"program","entry":"join","title":"Raleigh Little Theatre scene shop volunteer night","short":"Set building (RLT)","category":"volunteer","philanthropy":true,"pick":true,"pgroup":"volunteer","start":"18:30","end":"21:00","timeNote":"The shop is also open Thu 1-5pm and Sat 10am-1pm and 2-5pm. Ushers are needed for every performance; Cinderella runs Dec 4-20.","venue":"Raleigh Little Theatre","address":"301 Pogue St, Raleigh, NC 27607","cost":"Free","description":"Build and paint sets with the volunteer crew of Raleigh's community theatre (woodwork, metalwork, painting). It's a classic way to make friends.","howToJoin":"Join RLT's volunteer email list and reply to the crew chiefs' emails. Ushers sign up through the Front-of-House sign-up page.","url":"https://raleighlittletheatre.org/get-involved/volunteers/","verifyNote":"Confirm shop hours around holidays and between productions.","lastChecked":"2026-11-12","occ":[],"rtext":"Scene shop: Wednesdays 6:30–9pm, Thursdays 1–5pm, Saturdays 10am–5pm","free":true,"costShort":"Free"},{"id":"r-oak-city-cares-meals","city":"raleigh","kind":"program","entry":"join","title":"Oak City Cares weekend meals","short":"Oak City Cares meals","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"The building is open 9am-6pm on weekends, with meals served around 9am, 12:30pm and 3pm. Pick a shift on Galaxy Digital.","venue":"Oak City Cares","address":"1430 S Wilmington St, Raleigh, NC 27603","cost":"Free","description":"Help serve weekend meals to neighbors experiencing homelessness at the services center just south of downtown. The weekend crews recur.","howToJoin":"Create an account and complete the qualifications at oakcitycares.galaxydigital.com (Weekend Meals agency page)","url":"https://oakcitycares.org/volunteer/","verifyNote":"Exact shift times aren't posted publicly. Ages 18+, or 9-17 as host volunteers with an adult.","lastChecked":"2026-11-12","occ":[],"rtext":"Weekend meal shifts between 9am and 6pm","free":true,"costShort":"Free"},{"id":"r-a-place-at-the-table","city":"raleigh","kind":"program","entry":"join","title":"A Place at the Table cafe volunteer shift","short":"A Place at the Table","category":"volunteer","philanthropy":true,"pgroup":"volunteer","timeNote":"The cafe is open Tue-Sun 8am-2pm, so weekday shifts exist too. Maximum 3 hours per week.","venue":"A Place at the Table","address":"300 W Hargett St, Ste 50, Raleigh, NC 27601","cost":"Free","description":"Work a shift under a team lead at downtown's pay-what-you-can cafe, mixing with staff, other volunteers and guests.","howToJoin":"Book a shift on the Activate Good portal (volunteer.activategood.org/opportunities/IkDghRVmT1). Ages 15+.","url":"https://tableraleigh.org/volunteer/","verifyNote":"Shift slot times are only visible in the portal.","lastChecked":"2026-11-12","occ":[],"rtext":"Tuesday to Sunday, 8am–2pm; up to 3 hours a week","free":true,"costShort":"Free"},{"id":"r-toastmasters","city":"raleigh","kind":"program","entry":"join","title":"Toastmasters - Raleigh Club","short":"Toastmasters","category":"learning","pgroup":"groups","start":"19:00","timeNote":"Look for the sign by the stairs past the church's traffic circle","venue":"Highland United Methodist Church","address":"1901 Ridge Rd, Raleigh, NC 27607","cost":"Free to visit (member dues apply if you join)","description":"Weekly public-speaking club. Guests can just watch, with no pressure to speak until they're ready, and you see the same members every week.","howToJoin":"Just show up as a guest","url":"http://843.toastmastersclubs.org/","verifyNote":"No meeting is listed for Nov 30. Check holiday weeks.","lastChecked":"2026-11-12","occ":[],"rtext":"Mondays at 7pm","free":true,"costShort":"Free"},{"id":"r-science-cafe","city":"raleigh","kind":"event","entry":"show","title":"Science Cafe at the NC Museum of Natural Sciences","short":"Science Cafe","category":"learning","start":"19:00","end":"20:00","timeNote":"The Daily Planet Cafe serves food 5-8pm","venue":"NC Museum of Natural Sciences - Daily Planet Cafe","address":"11 W Jones St, Raleigh, NC 27601","cost":"Free (no fee listed; food and drink for purchase)","description":"Monthly casual science talk and conversation with host Chris Smith and a guest expert, held in the museum cafe after hours. The Nov 19 topic is Sri Lanka's elephants.","howToJoin":"Just show up","url":"https://naturalsciences.org/calendar/events/category/audience/adults/","verifyNote":"Topics for December through February aren't posted. Confirm the Dec 17 session runs.","lastChecked":"2026-11-12","occ":["2026-10-15","2026-11-19","2026-12-17"],"rtext":"3rd Thursday of each month","free":true,"costShort":"Free"},{"id":"r-silent-book-club","city":"raleigh","kind":"event","entry":"signup","title":"Silent Book Club at Oberlin Regional Library","short":"Silent Book Club","category":"learning","solo":true,"start":"18:30","end":"20:00","timeNote":"Optional round of introductions sharing what you're reading, then quiet reading","venue":"Oberlin Regional Library (Wake County Public Libraries)","address":"1930 Clark Ave, Raleigh, NC 27605","cost":"Free","description":"Official Silent Book Club chapter: bring any book. The intro round gives a low-pressure way to meet other readers.","howToJoin":"Register through the Eventbrite link on the Wake County event page","url":"https://www.wake.gov/events/silent-book-club-oberlin-regional-library-19","verifyNote":"Dec 3 is confirmed. The club may skip Jan 7 and restart in February.","lastChecked":"2026-11-12","occ":["2026-11-05","2026-12-03"],"rtext":"1st Thursday of each month","free":true,"costShort":"Free"},{"id":"r-comedyworx-intro-to-improv","city":"raleigh","kind":"program","entry":"join","title":"ComedyWorx Intro to Improv (beginner class)","short":"ComedyWorx Intro to Improv","category":"learning","pgroup":"classes","timeNote":"Two sections: a Saturday class starting Jan 9 and a Monday class starting Jan 11. Each meets weekly after that, but the time and number of weeks aren't shown.","venue":"ComedyWorx","address":"3801 Hillsborough St, Raleigh, NC 27607","cost":"$230","description":"Multi-week beginner improv class where the same small group meets every week. The theater also runs public shows Friday and Saturday nights.","howToJoin":"Register online at comedyworx.com/classes","url":"https://www.comedyworx.com/classes","verifyNote":"Class times, length and end dates aren't listed; contact info@comedyworx.com. The first-Thursday Improv Jam isn't currently listed.","lastChecked":"2026-11-12","occ":[],"rtext":"Saturday section starts Jan 9; Monday section starts Jan 11","free":false,"costShort":"$230"},{"id":"r-skip-the-small-talk","city":"raleigh","kind":"event","entry":"signup","title":"Skip the Small Talk Raleigh","short":"Skip the Small Talk","category":"social","solo":true,"pick":true,"start":"19:00","timeNote":"Check-in around 6:45pm","venue":"Crank Arm Brewing","address":"319 W Davie St, Raleigh, NC 27601","cost":"Ticketed (price not listed; buy on the organizer's site)","description":"Structured 'big talk' night using conversation prompts based on psychology research. Usually 30-40 people, and it's designed for coming alone.","howToJoin":"Buy a ticket in advance on the Skip the Small Talk site. An RSVP on Meetup isn't enough, and events often sell out with no tickets at the door.","url":"https://www.meetup.com/skip-the-small-talk-raleigh/","verifyNote":"Only Dec 2 is posted for Raleigh; the group's other nights are in Durham. Watch for January and February dates.","lastChecked":"2026-11-12","occ":["2026-12-02"],"rtext":"One date: Dec 2","free":false,"costShort":"Ticketed"},{"id":"r-cross-stitch-workshop","city":"raleigh","kind":"event","entry":"signup","title":"Intro to Cross Stitch workshop","short":"Cross-stitch workshop","category":"art","solo":true,"start":"13:00","end":"16:00","venue":"Pullen Arts Center","address":"105 Pullen Rd, Raleigh, NC 27607","cost":"$37 Raleigh residents / $53 non-residents, plus $5 materials","description":"A small one-afternoon workshop at the city's arts center where you learn cross stitch alongside other beginners.","howToJoin":"Register through the City's WebTrac link on Pullen's Take a Class page, or call 919-996-6126","url":"https://raleighnc.gov/arts/take-class-pullen-arts-center","verifyNote":"Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.","lastChecked":"2026-11-12","occ":["2026-11-21"],"rtext":"One date: Nov 21","free":false,"costShort":"$37 Raleigh residents / $5…"},{"id":"r-screen-printing-workshop","city":"raleigh","kind":"event","entry":"signup","title":"DIY Screen Printing workshop","short":"Screen printing workshop","category":"art","solo":true,"start":"10:00","end":"16:00","timeNote":"Uses paper stencils, so no drawing skills needed","venue":"Pullen Arts Center","address":"105 Pullen Rd, Raleigh, NC 27607","cost":"$65 Raleigh residents / $80 non-residents","description":"A one-day studio workshop where you print your own designs with paper stencils, working alongside a small group.","howToJoin":"Register through the City's WebTrac link on Pullen's Take a Class page, or call 919-996-6126","url":"https://raleighnc.gov/arts/take-class-pullen-arts-center","verifyNote":"Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.","lastChecked":"2026-11-12","occ":["2026-12-06"],"rtext":"One date: Dec 6","free":false,"costShort":"$65 Raleigh residents / $8…"},{"id":"r-tri-sports-leagues","city":"raleigh","kind":"program","entry":"join","title":"TRI Sports co-ed social leagues","short":"TRI Sports leagues","category":"fitness","solo":true,"pgroup":"sports","venue":"Parks around Raleigh (sign up online)","noMap":true,"cost":"$60–103 per player for the season","description":"Recreational co-ed kickball, soccer and cornhole leagues. You can sign up alone and they put you on a team, so you play with the same group all season. Winter seasons run into January and February.","howToJoin":"Register as an individual at trisportsnc.leaguelab.com","url":"https://trisportsnc.leaguelab.com/leagues","verifyNote":"Game times and each week's park are on the league schedule.","lastChecked":"2026-11-13","occ":[],"rtext":"Tuesday kickball: sign up by Nov 20. Monday 7v7 soccer and Monday cornhole (21+): sign up by Nov 23.","free":false,"costShort":"$60–103 per player for the…"},{"id":"d-trail-run","city":"durham","kind":"event","entry":"show","title":"Bull City Running Co. Trail Run Sundays","short":"Trail run","category":"fitness","solo":true,"start":"08:00","timeNote":"Every Sunday at 8:00am on a different local trail.","venue":"A different local trail each week","noMap":true,"cost":"Not listed","description":"An all-paces group trail run that explores a new local trail each week. A standing weekly run is an easy way to become a familiar face.","howToJoin":"Find the week's trail on Bull City Running's Facebook, Instagram, X/Twitter or Strava club.","url":"https://bullcityrunning.com/events/runclub/","verifyNote":"Check BCR's Instagram, Facebook or Strava, or ask in the store, for each week's trail. Cost isn't stated.","lastChecked":"2026-11-13","occ":["2026-10-18","2026-10-25","2026-11-01","2026-11-08","2026-11-15","2026-11-22","2026-11-29","2026-12-06","2026-12-13","2026-12-20"],"rtext":"Every Sunday","free":false,"costShort":""},{"id":"d-bull-city-toastmasters","city":"durham","kind":"program","entry":"join","title":"Bull City Toastmasters meeting","short":"Bull City Toastmasters","category":"learning","solo":true,"pgroup":"groups","start":"18:30","timeNote":"2nd and 4th Thursdays at 6:30pm. The 4th-Thursday meetings fall on Nov 26 (Thanksgiving) and Dec 24 (Christmas Eve) and may be cancelled.","venue":"Keller Williams Elite SouthPoint Professional Center","address":"245 NC-54, Suite 101, Durham, NC 27713","description":"A Toastmasters club meeting with prepared and impromptu speaking practice and feedback. The structured format makes it easy for a newcomer to take part.","howToJoin":"Visit as a guest, in person or online. Contact the club through its Toastmasters.org listing or http://www.bullcitytoastmasters.org/.","url":"https://www.toastmasters.org/Find-a-Club/00009891-bull-city-club","verifyNote":"End time and any guest fee or dues aren't listed. Check whether the Nov 26 and Dec 24 meetings happen.","lastChecked":"2026-11-13","occ":[],"rtext":"2nd and 4th Thursdays, 6:30pm","free":false,"costShort":""},{"id":"d-d-and-d-night","city":"durham","kind":"event","entry":"signup","title":"D&D Adventurers League at Atomic Empire","short":"D&D night","category":"games","solo":true,"start":"18:30","end":"22:30","timeNote":"6:30–10:30pm. Bring dice (sold in the store), a pencil and paper, and a miniature or marker.","venue":"Atomic Empire","address":"3400 Westgate Dr, Durham, NC 27707","cost":"$7 per session, or $17/month for unlimited play. New players' first session is free.","description":"Organized-play D&D tables run by a DM. You reserve a seat and play with whoever else signs up, so the table is a ready-made social group, and no experience is needed.","howToJoin":"Reserve a seat on the store's Warhorn portal (look for DDEX games), checking for open seats there before registering and paying on atomicempire.com. Bring dice (sold in store), a pencil and paper, and a miniature or marker. A pre-made character sheet is optional.","url":"https://www.atomicempire.com/Store/Event/313","verifyNote":"Jan-Feb 2027 dates aren't posted yet. Check whether the Nov 26 (Thanksgiving) game runs; Dec 24 and Dec 31 aren't listed.","lastChecked":"2026-11-13","occ":["2026-11-19","2026-11-26","2026-12-03","2026-12-10","2026-12-17"],"rtext":"Nov 19, Nov 26, Dec 3, Dec 10 and 1 more","free":false,"costShort":"$7 per session, or $17/mon…"},{"id":"d-friday-night-magic","city":"durham","kind":"event","entry":"signup","title":"Friday Night Magic at Atomic Empire","short":"Friday Night Magic","category":"games","solo":true,"timeNote":"Each night has three formats: Star Trek draft, Pauper and a Commander Mixer. The store doesn't list the start time, so call (919) 490-7900.","venue":"Atomic Empire","address":"3400 Westgate Dr, Durham, NC 27707","cost":"Not listed","description":"A weekly in-store Magic: The Gathering night with several formats, including a 'Commander Mixer'. Structured games make it easy to meet other players.","howToJoin":"Register through the event listings at atomicempire.com/Events, or call the store at (919) 490-7900 to ask the start time and fee.","url":"https://www.atomicempire.com/Events","verifyNote":"The start time and entry fee aren't posted. Jan-Feb 2027 dates aren't posted yet.","lastChecked":"2026-11-13","occ":["2026-11-13","2026-11-20","2026-11-27","2026-12-04","2026-12-11","2026-12-18"],"rtext":"Nov 13, Nov 20, Nov 27, Dec 4 and 2 more","free":false,"costShort":""},{"id":"d-bike-co-op-volunteering","city":"durham","kind":"event","entry":"signup","title":"Durham Bike Co-op Saturday Beginner volunteer session","short":"Bike Co-op volunteering","category":"volunteer","philanthropy":true,"solo":true,"start":"09:00","end":"12:00","timeNote":"Nov 14 is the only Saturday Beginner session posted in the window (status: Waiting List). None are posted for Dec 2026-Feb 2027.","venue":"Durham Bike Co-op","address":"1612 Acadia St, Durham, NC 27701","cost":"Free","description":"A beginner-level volunteer shift at the community bike shop. Working side by side on bikes makes it easy to talk with other volunteers.","howToJoin":"Sign up or join the waitlist on durhambikecoop.corsizio.com, and check back there for new Saturday Beginner dates.","url":"https://durhambikecoop.corsizio.com/","verifyNote":"The Nov 14 session is waitlisted. Watch corsizio for Dec-Feb dates, which aren't posted yet. No cost is shown.","lastChecked":"2026-11-13","occ":["2026-11-14"],"rtext":"One date: Nov 14","free":true,"costShort":"Free"},{"id":"d-bike-repair-clinic","city":"durham","kind":"event","entry":"signup","title":"Pop-up bike repair clinic at the Durham Farmers' Market","short":"Bike repair clinic","category":"volunteer","philanthropy":true,"start":"09:00","end":"12:00","timeNote":"Sat Nov 21, 9am-12pm, limited spots. A second clinic the same day at Crank Arm Durham (12-4pm) is full.","venue":"Durham Farmers' Market, Durham Central Park","address":"501 Foster St, Durham, NC 27701","cost":"Free","description":"A volunteer shift helping run a pop-up bike repair clinic at the farmers' market. Working as a team in public is a natural way to meet people.","howToJoin":"Sign up on durhambikecoop.corsizio.com; spots are limited.","url":"https://durhambikecoop.corsizio.com/","verifyNote":"The sign-up page doesn't give a meeting spot, so confirm where to find the co-op's tent. It also doesn't say whether beginners can sign up.","lastChecked":"2026-11-13","occ":["2026-11-21"],"rtext":"One date: Nov 21","free":true,"costShort":"Free"},{"id":"d-eno-river-singers","city":"durham","kind":"program","entry":"join","title":"Eno River Singers (community chorus, no audition)","short":"Eno River Singers","category":"music","solo":true,"pgroup":"groups","start":"19:00","end":"20:30","timeNote":"Thursdays 7:00-8:30pm in the ERUUF Sanctuary. The spring 2027 start date isn't posted; a rehearsal on Thu Apr 15, 2027 is listed.","venue":"Eno River Unitarian Universalist Fellowship (Sanctuary)","address":"4907 Garrett Rd, Durham, NC 27707","description":"ERUUF's community chorus, open to adults and teens (grade 9+) with no audition ('Community chorus open to all'). Rehearsing with the same group every week builds friendships.","howToJoin":"Contact Music Director Wendy Looker through ERUUF (office 919-489-2575) to confirm the spring start date and join.","url":"https://www.eruuf.org/calendar/calendar-view/print/16439-eno-river-singers-rehearsal.html","verifyNote":"Confirm the spring 2027 start date, whether rehearsals run in Dec-Jan, holiday breaks, and any fees or dues.","lastChecked":"2026-11-13","occ":[],"rtext":"Thursdays 7–8:30pm; spring start date to be announced","free":false,"costShort":""},{"id":"d-aps-dog-walking","city":"durham","kind":"program","entry":"join","title":"Dog walking at the Animal Protection Society of Durham","short":"APS dog walking","category":"volunteer","philanthropy":true,"solo":true,"pgroup":"volunteer","timeNote":"Applications are rolling. After orientation and training, volunteers book their own shifts in the VicNet portal during shelter hours: Mon-Tue 11am-5pm, Wed 11am-6pm, Thu-Fri 11am-5pm, Sat 10am-4pm, closed Sun. All animal visits must finish within 30 minutes of closing.","venue":"Animal Protection Society of Durham","address":"2117 E Club Blvd, Durham, NC 27704","description":"Walk shelter dogs on shifts you schedule yourself, alongside other volunteers and staff. It's a steady way to meet other animal lovers.","howToJoin":"Complete the APS Volunteer Profile (Better Impact link on the volunteer page). A welcome packet with an orientation link follows, then training (usually 2-5 hours) before you volunteer on your own. Ages 16+ can volunteer unsupervised; ages 10-16 need an adult with them.","url":"https://www.apsofdurham.org/volunteer","verifyNote":"Volunteers work at least 8 hours a month and commit to at least six months. Shift length, dog-walking shift times and orientation dates aren't listed. The Nov 13 date is just a reminder to apply.","lastChecked":"2026-11-13","occ":[],"rtext":"Pick your own shifts after training; about 8 hours a month","free":false,"costShort":""},{"id":"d-mettlesome-improv-101","city":"durham","kind":"program","entry":"join","title":"Mettlesome Improv 101","short":"Mettlesome Improv 101","category":"learning","solo":true,"pgroup":"classes","timeNote":"Class registration opens by early December 2026, and new improv and sketch classes start in early January 2027. No exact date is posted yet; the Dec 1 date here is a placeholder reminder.","venue":"Mettlesome Theater","address":"800 Taylor St, Ste 9-156, Durham, NC 27701","description":"Mettlesome's beginner improv classes start in early January 2027. A class cohort that plays scenes together is a fast way to make friends, and class students get into Mettlesome shows free.","howToJoin":"Watch thisismettlesome.com/lab (Upcoming Classes) for Improv 101 and register there. Questions: ops@thisismettlesome.com.","url":"https://www.thisismettlesome.com/lab","verifyNote":"Improv 101's day, time, number of weeks, cost and exact start date aren't posted yet. The address shown is the theater's; check when you register that classes meet there.","lastChecked":"2026-11-13","occ":[],"rtext":"Classes start early January; registration opens by early December","free":false,"costShort":""},{"id":"d-climbing-meetup","city":"durham","kind":"event","entry":"signup","title":"Raleigh Rock Climbing Meetup: Friday climb at Triangle Rock Club Durham","short":"Climbing meetup","category":"fitness","solo":true,"pick":true,"start":"18:30","timeNote":"Fri Nov 20 at 6:30pm. The group climbs on Fridays and rotates among TRC gyms: Nov 13 Salvage Yard (Raleigh), Nov 20 Durham, Nov 27 North Raleigh, Dec 4 Morrisville. Later Durham dates aren't visible yet.","venue":"Triangle Rock Club - Durham","address":"1010 Martin Luther King Jr Pkwy, Suite 400, Durham, NC","cost":"Your first meetup visit to any TRC location is $15, rental harness and shoes included. After that the listing gives the usual meetup rate as $22 'with rental gear if requested'.","description":"An all-levels climbing group, running since 2006, that meets in the gym's roped area, with optional dinner afterward. Roped climbing pairs you with a partner, which makes meeting people easy.","howToJoin":"RSVP on Meetup. Check in at the TRC front desk, then go to the roped area at the back of the gym. Dinner afterward is optional (venue TBD).","url":"https://www.meetup.com/raleighrockclimbing/","verifyNote":"Only some of the group's events are posted, so check Meetup for later Durham Fridays. The four-gym rotation suggests roughly every fourth Friday, but that isn't confirmed.","lastChecked":"2026-11-13","occ":["2026-11-20"],"rtext":"One date: Nov 20","free":false,"costShort":"Your first meetup visit to…"},{"id":"r-pickleball-open-play","city":"raleigh","kind":"program","entry":"join","title":"Drop-in pickleball at John Chavis Community Center","short":"Pickleball open play","category":"fitness","solo":true,"pgroup":"sports","timeNote":"The City posts indoor open-play sessions on this center's WebTrac 'Schedule' link (from raleighnc.gov/pickleball). Community centers are closed Nov 26–27.","venue":"John Chavis Memorial Park Community Center","address":"505 Martin Luther King Jr. Blvd, Raleigh, NC 27601","cost":"$3 single session or $15 four-month pass (good at any City indoor open-play session); nets and balls provided, a few loaner paddles","description":"City-run drop-in pickleball at the community center closest to downtown. You don't need a partner, so it's an easy way to play with the regulars and get to know them.","howToJoin":"Check the John Chavis 'Schedule' link on raleighnc.gov/pickleball, then show up. Buy a pass on site (exact change or credit card) and fill out the registration form and waiver, which you can do ahead of time. Other near-downtown centers with open play: Lions Park (516 Dennis Ave, 27604) and Tarboro Road (121 N Tarboro Rd, 27610).","url":"https://raleighnc.gov/pickleball","verifyNote":"Check the City's schedule for days and times. Fees are from the City's page as of 11/05/2026; older prices of $2/$10 may still show elsewhere.","lastChecked":"2026-11-13","occ":[],"rtext":"Indoor open play; times are on the City's schedule page","free":false,"costShort":"$3 single session or $15 f…"},{"id":"r-french-language-exchange","city":"raleigh","kind":"program","entry":"join","title":"French Speed Language Exchange (French/English)","short":"French language exchange","category":"learning","solo":true,"pgroup":"groups","start":"19:00","timeNote":"Recent sessions (Sept 30–Nov 4, 2026) were Wednesdays at 7 p.m. The group doesn't say how often it meets, and no upcoming events are posted yet. Some sessions are held at Motorco Music Hall, 723 Rigsbee Ave, Durham.","venue":"Wolfe and Porter","address":"905 W Morgan St, Raleigh, NC 27603","description":"A speed-style exchange in French and English: you switch partners about every 10 minutes, so you meet many people in one evening.","howToJoin":"Join the Meetup group (1,200+ members) and RSVP when the next event posts. You should be able to hold a one-on-one conversation in French about everyday topics.","url":"https://www.meetup.com/french-speed-language-exchange/","verifyNote":"Frequency, cost and next date aren't posted yet. Check whether each event is at the Raleigh or the Durham venue.","lastChecked":"2026-11-13","occ":[],"rtext":"Recent sessions were Wednesday evenings; new dates post on Meetup","free":false,"costShort":""},{"id":"r-spca-volunteering","city":"raleigh","kind":"program","entry":"join","title":"Volunteer at SPCA of Wake County","short":"SPCA volunteering","category":"volunteer","philanthropy":true,"solo":true,"pgroup":"volunteer","timeNote":"You pick your own shifts after onboarding; shifts are offered AM and PM. There are no fixed orientation dates because onboarding is online. Minimum 48 hours a year, including at least one shift every 6 months.","venue":"SPCA of Wake County","address":"200 Petfinder Lane, Raleigh, NC 27603","cost":"No fee mentioned","description":"Join a volunteer team and work alongside regular volunteers: Butlers (dog, cat or small-pet care), Matchmakers (helping with adoptions), General Cleaning, or Events such as pop-up wellness clinics.","howToJoin":"Ages 18+. Complete the online orientation, the New Volunteer Application (spcaofwakecounty.my.site.com/volunteer/s/apply) and the waiver, then the training for your task. Questions go to volunteer@spcawake.org (no phone calls).","url":"https://spcawake.org/get-involved/volunteer","verifyNote":"Shift length and times aren't stated. The adoption center is being renovated, so follow signs to a temporary entrance. You may be asked to sign a waiver through DocuSign.","lastChecked":"2026-11-13","occ":[],"rtext":"Pick your own shifts after online onboarding; 48 hours a year","free":false,"costShort":"No fee mentioned"},{"id":"r-animal-center-volunteering","city":"raleigh","kind":"program","entry":"join","title":"Volunteer at Wake County Animal Center","short":"Animal Center volunteering","category":"volunteer","philanthropy":true,"solo":true,"pgroup":"volunteer","timeNote":"Shifts usually run about 2 hours, any time from 7 a.m. to 7 p.m., 7 days a week. Commitment: at least 6 hours a month for 6 months. Orientation is online (videos and a virtual tour emailed during onboarding); no dates are posted.","venue":"Wake County Animal Center","address":"820 Beacon Lake Dr, Raleigh, NC 27610","cost":"No fee mentioned","description":"Volunteering at the county shelter in regular shifts of about 2 hours, working alongside staff and other volunteers.","howToJoin":"Ages 18+, no exceptions. Apply online through Better Impact (link on the county volunteer page). The Volunteer Coordinator emails a welcome packet when new volunteers are being onboarded. Contact wcac.volunteer@wake.gov or 919-250-3793.","url":"https://www.wake.gov/departments-government/animal-services/how-help/volunteer-program","verifyNote":"No orientation dates are published; onboarding happens when the coordinator brings on new volunteers. Short-term or one-day volunteering isn't accepted.","lastChecked":"2026-11-13","occ":[],"rtext":"About 2-hour shifts, 7 days a week; 6 hours a month for 6 months","free":false,"costShort":"No fee mentioned"}]}</script>
+<script>
+(function () {
+  'use strict';
+
+  var D = JSON.parse(document.getElementById('site-data').textContent);
+  var EVENTS = D.events;
+  var EV = {};
+  EVENTS.forEach(function (e) { EV[e.id] = e; });
+
+  var DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var DOW_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var CITY = { durham: 'Durham', raleigh: 'Raleigh', both: 'Durham and Raleigh' };
+  var GROUPS = [
+    ['music', 'Music'], ['dance', 'Dance'], ['art', 'Art & making'], ['fitness', 'Active'],
+    ['games', 'Games & trivia'], ['learning', 'Classes & talks'], ['social', 'Social'], ['volunteer', 'Volunteer']
+  ];
+  var GL = {};
+  GROUPS.forEach(function (g) { GL[g[0]] = g[1]; });
+  var PGROUPS = [
+    ['volunteer', 'Volunteer programs', 'Apply or attend an orientation once, then pick shifts. Regular shifts put you with the same crew.'],
+    ['classes', 'Classes', 'Multi-week classes where the same small group meets every week.'],
+    ['groups', 'Clubs and groups', 'Groups you join once, then meet with every week or two.'],
+    ['sports', 'Leagues and sports', 'Sign up on your own and get placed on a team.']
+  ];
+  var HOL = D.holidays || {};
+  var I = {
+    star: '<svg class="ic star" viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1.4 1.95 4.1 4.45.55-3.3 3.05.88 4.4L8 11.3l-3.98 2.2.88-4.4L1.6 6.05l4.45-.55z" fill="currentColor"/></svg>',
+    heart: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 14s-5.5-3.4-5.5-7.3A3 3 0 0 1 8 4.6a3 3 0 0 1 5.5 2.1C13.5 10.6 8 14 8 14z" fill="currentColor"/></svg>',
+    chevL: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    chevR: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    check: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    plus: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    close: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    cal: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
+    spark: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 9.4 6.6 14.5 8 9.4 9.4 8 14.5 6.6 9.4 1.5 8l5.1-1.4z" fill="currentColor"/></svg>'
+  };
+
+  /* ---------- helpers ---------- */
+  function $(id) { return document.getElementById(id); }
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function ymd(x) { return x.getFullYear() + '-' + pad(x.getMonth() + 1) + '-' + pad(x.getDate()); }
+  function parse(s) { var p = s.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); }
+  function addDays(k, n) { var x = parse(k); x.setDate(x.getDate() + n); return ymd(x); }
+  function compact(k) { return k.replace(/-/g, ''); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : null; }
+  function hm(t) { var p = t.split(':').map(Number); return { h: p[0], m: p[1] || 0 }; }
+  function ap(t) { return hm(t).h < 12 ? 'am' : 'pm'; }
+  function clock(t) { var x = hm(t); return (x.h % 12 || 12) + (x.m ? ':' + pad(x.m) : ''); }
+  function startText(e) { return e.start ? clock(e.start) + ' ' + ap(e.start) : 'See times'; }
+  function rangeText(e) {
+    if (!e.start) return 'Times vary';
+    if (!e.end) return 'Starts ' + clock(e.start) + ' ' + ap(e.start);
+    if (ap(e.start) === ap(e.end)) return clock(e.start) + '–' + clock(e.end) + ' ' + ap(e.end);
+    return clock(e.start) + ' ' + ap(e.start) + ' – ' + clock(e.end) + ' ' + ap(e.end);
+  }
+  function chipTime(e) { if (!e.start) return ''; var x = hm(e.start); return (x.h % 12 || 12) + (x.m ? ':' + pad(x.m) : '') + (x.h < 12 ? 'a' : 'p'); }
+  function dayName(k) { return DOW_LONG[parse(k).getDay()]; }
+  function shortDate(k) { var x = parse(k); return DOW[x.getDay()] + ', ' + MON[x.getMonth()] + ' ' + x.getDate(); }
+  function longDate(k) { var x = parse(k); return DOW_LONG[x.getDay()] + ', ' + MONTHS[x.getMonth()] + ' ' + x.getDate(); }
+  function fullDate(k) { var x = parse(k); return MONTHS[x.getMonth()] + ' ' + x.getDate() + ', ' + x.getFullYear(); }
+  function group(e) { return e.philanthropy ? 'volunteer' : (GL[e.category] ? e.category : 'social'); }
+  function byTime(a, b) {
+    var x = a.start || '99', y = b.start || '99';
+    if (x !== y) return x < y ? -1 : 1;
+    return a.title < b.title ? -1 : 1;
+  }
+  function monthOf(k) { var x = parse(k); return new Date(x.getFullYear(), x.getMonth(), 1); }
+  var isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
+  var isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+  /* ---------- data ---------- */
+  var TODAY = ymd(new Date());
+  var BYDATE = {};
+  EVENTS.forEach(function (e) { (e.occ || []).forEach(function (k) { (BYDATE[k] = BYDATE[k] || []).push(e); }); });
+  Object.keys(BYDATE).forEach(function (k) { BYDATE[k].sort(byTime); });
+  var DATES = Object.keys(BYDATE).sort();
+  var LAST = DATES.length && DATES[DATES.length - 1] > TODAY ? DATES[DATES.length - 1] : TODAY;
+  var MIN_MONTH = monthOf(TODAY), MAX_MONTH = monthOf(LAST);
+
+  function sget(k, dflt) { try { var v = localStorage.getItem('tsc.' + k); return v == null ? dflt : JSON.parse(v); } catch (err) { return dflt; } }
+  function sset(k, v) { try { localStorage.setItem('tsc.' + k, JSON.stringify(v)); } catch (err) { /* storage unavailable */ } }
+  var marks = sget('marks', {}) || {};
+
+  var VIEWS = ['week', 'calendar', 'join', 'plan'];
+  function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
+  var state = { city: sget('city', 'durham'), view: 'week', span: 7, f: blankFilters(), calSel: TODAY, calMonth: null };
+  if (!CITY[state.city]) state.city = 'durham';
+
+  function inCity(e) { return state.city === 'both' || e.city === state.city; }
+  function catCount() { return Object.keys(state.f.cats).length; }
+  function anyFilter() { var f = state.f; return catCount() || f.free || f.solo || f.show || f.weeknight || f.weekend; }
+  function passes(e, k) {
+    if (!inCity(e)) return false;
+    var f = state.f;
+    if (catCount() && !f.cats[group(e)]) return false;
+    if (f.free && !e.free) return false;
+    if (f.solo && !e.solo) return false;
+    if (f.show && e.entry !== 'show') return false;
+    if (f.weeknight || f.weekend) {
+      var dow = parse(k).getDay();
+      var wn = dow >= 1 && dow <= 5 && !!e.start && e.start >= '17:00';
+      var we = dow === 0 || dow === 6;
+      if (!((f.weeknight && wn) || (f.weekend && we))) return false;
+    }
+    return true;
+  }
+  function on(k) { return (BYDATE[k] || []).filter(function (e) { return passes(e, k); }); }
+  function nextDate(e) {
+    var occ = e.occ || [];
+    for (var i = 0; i < occ.length; i++) if (occ[i] >= TODAY) return occ[i];
+    return occ.length ? occ[occ.length - 1] : null;
+  }
+
+  /* ---------- plan ---------- */
+  function mk(id, k) { return id + '@' + k; }
+  function isMarked(id, k) { return !!marks[mk(id, k)]; }
+  function toggleMark(id, k) {
+    var key = mk(id, k);
+    if (marks[key]) delete marks[key]; else marks[key] = 1;
+    sset('marks', marks);
+    updatePlanCount();
+  }
+  function planEntries() {
+    return Object.keys(marks).map(function (key) {
+      var i = key.lastIndexOf('@');
+      return { id: key.slice(0, i), d: key.slice(i + 1) };
+    }).filter(function (x) { return EV[x.id]; });
+  }
+  function visitCount(id) { return planEntries().filter(function (x) { return x.id === id && x.d < TODAY; }).length; }
+  function updatePlanCount() {
+    var n = planEntries().filter(function (x) { return x.d >= TODAY; }).length;
+    var pill = $('planCount');
+    pill.textContent = n ? String(n) : '';
+    pill.hidden = !n;
+  }
+  function markLabel(k, marked, big) {
+    var past = k < TODAY;
+    if (big) return past ? (marked ? 'You went' : 'I went') : (marked ? "You're going" : "I'm going");
+    return past ? (marked ? 'Went' : 'I went') : (marked ? 'Going' : "I'm going");
+  }
+  function refreshMarks(id, k) {
+    var marked = isMarked(id, k);
+    document.querySelectorAll('[data-mark="' + id + '"][data-date="' + k + '"]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(marked));
+      if (b.classList.contains('bigbtn')) {
+        b.innerHTML = (marked ? I.check : I.plus) + '<span>' + markLabel(k, marked, true) + '</span>';
+      } else {
+        b.innerHTML = marked ? I.check : I.plus;
+        b.title = goTitle(k, marked);
+        b.setAttribute('aria-label', goTitle(k, marked) + ': ' + EV[id].title + ', ' + shortDate(k));
+      }
+    });
+    if (marked && !document.querySelector('.bigbtn[data-mark="' + id + '"]')) toast(k < TODAY ? 'Counted as a visit' : 'Saved to My plan');
+    document.querySelectorAll('.chip[data-open="' + id + '"][data-date="' + k + '"]').forEach(function (c) { c.classList.toggle('going', marked); });
+    document.querySelectorAll('.datechip[data-open="' + id + '"][data-date="' + k + '"]').forEach(function (c) { c.classList.toggle('marked', marked); });
+    var v = document.querySelector('.visits[data-for="' + id + '"]');
+    if (v) v.textContent = visitsText(id);
+    if (state.view === 'plan') renderView();
+  }
+  function visitsText(id) {
+    var n = visitCount(id);
+    return n ? 'You\u2019ve been ' + n + (n === 1 ? ' time' : ' times') + '.' : '';
+  }
+
+  /* ---------- pieces ---------- */
+  function costShort(e) { return e.costShort || ''; }
+  function metaLine(e) {
+    var bits = [];
+    if (state.city === 'both') bits.push(CITY[e.city]);
+    if (e.venue) bits.push(e.venue);
+    if (costShort(e)) bits.push(costShort(e));
+    return bits.join(' · ');
+  }
+  function tagHtml(e, inCards) {
+    var h = e.philanthropy
+      ? '<span class="tag give">' + I.heart + 'Volunteer</span>'
+      : '<span class="tag">' + esc(GL[group(e)]) + '</span>';
+    if (e.entry === 'signup') h += '<span class="tag signup">Sign up first</span>';
+    if (e.entry === 'join' && !inCards) h += '<span class="tag signup">Join first</span>';
+    if (e.solo) h += '<span class="tag solo">Good to go alone</span>';
+    if (e.pick) h += '<span class="tag pick">' + I.star + 'Top pick</span>';
+    return h;
+  }
+  function goTitle(k, marked) { return k < TODAY ? (marked ? 'You went (tap to undo)' : 'I went') : (marked ? 'Saved to My plan (tap to remove)' : 'Save to My plan'); }
+  function goBtn(e, k) {
+    var marked = isMarked(e.id, k);
+    return '<button type="button" class="gobtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '" title="' + esc(goTitle(k, marked)) +
+      '" aria-label="' + esc(goTitle(k, marked) + ': ' + e.title + ', ' + shortDate(k)) + '">' + (marked ? I.check : I.plus) + '</button>';
+  }
+  function rowHtml(e, k) {
+    return '<div class="row' + (e.philanthropy ? ' give' : '') + '">' +
+      '<span class="time">' + esc(startText(e)) + '</span>' +
+      '<button type="button" class="main" data-open="' + e.id + '" data-date="' + k + '">' +
+      '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + esc(e.title) + '</span>' +
+      '<span class="meta">' + esc(metaLine(e)) + (e.entry === 'signup' ? ' · <span class="flag">Sign up first</span>' : '') + '</span></button>' +
+      goBtn(e, k) + '</div>';
+  }
+
+  /* ---------- views ---------- */
+  function renderTabs() {
+    document.querySelectorAll('.tabs a').forEach(function (a) {
+      if (a.dataset.view === state.view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+    document.querySelectorAll('.cityswitch button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.city === state.city)); });
+  }
+
+  function renderIntro() {
+    var city = CITY[state.city], t;
+    if (state.view === 'join') t = ['Join anytime', 'Programs, classes and clubs that need a sign-up first.'];
+    else if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
+    else t = ['What\u2019s on in ' + city, 'Recurring things to do with people, checked every week.'];
+    var cta = (state.view === 'week' || state.view === 'calendar')
+      ? '<div class="cta"><button type="button" class="btn sm primary" data-wiz="1">' + I.spark + 'Help me choose</button><button type="button" class="quiet" data-sub="1">' + I.cal + 'Sync to my calendar</button></div>'
+      : '';
+    $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1><p>' + esc(t[1]) + '</p></div>' + cta;
+  }
+
+  function renderFilters() {
+    var f = state.f, show = state.view === 'week' || state.view === 'calendar';
+    var el = $('filters');
+    el.hidden = !show;
+    if (!show) { el.innerHTML = ''; return; }
+    function q(key, label) { return '<button type="button" class="fchip" data-q="' + key + '" aria-pressed="' + !!f[key] + '">' + esc(label) + '</button>'; }
+    var hiddenOn = (f.solo ? 1 : 0) + (f.weeknight ? 1 : 0) + (f.weekend ? 1 : 0) +
+      Object.keys(f.cats).filter(function (c) { return c !== 'volunteer'; }).length;
+    var h = q('show', 'Just show up') + q('free', 'Free') +
+      '<button type="button" class="fchip give" data-cat="volunteer" aria-pressed="' + !!f.cats.volunteer + '">' + I.heart + 'Volunteer</button>' +
+      '<button type="button" class="fchip more" data-more="1" aria-expanded="' + !!state.more + '">' +
+      (state.more ? 'Fewer filters' : 'More filters' + (hiddenOn ? ' (' + hiddenOn + ')' : '')) + '</button>';
+    if (anyFilter()) h += '<button type="button" class="fclear" data-clear="1">Clear</button>';
+    if (state.more) {
+      h += '<span class="fbreak" aria-hidden="true"></span>' + q('solo', 'Good to go alone') + q('weeknight', 'Weeknights') + q('weekend', 'Weekends');
+      GROUPS.forEach(function (g) {
+        if (g[0] === 'volunteer') return;
+        h += '<button type="button" class="fchip" data-cat="' + g[0] + '" aria-pressed="' + !!f.cats[g[0]] + '">' + esc(g[1]) + '</button>';
+      });
+    }
+    el.innerHTML = h;
+  }
+
+  function renderWeek() {
+    var h = '', total = 0;
+    for (var i = 0; i < state.span; i++) {
+      var k = addDays(TODAY, i), list = on(k), x = parse(k);
+      total += list.length;
+      var label = i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : DOW_LONG[x.getDay()];
+      h += '<section class="day" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
+        (i <= 1 ? DOW_LONG[x.getDay()] + ', ' : '') + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</span>' +
+        (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') + '</div>';
+      h += list.length ? '<div class="items">' + list.map(function (e) { return rowHtml(e, k); }).join('') + '</div>'
+        : '<p class="none">' + (anyFilter() ? 'Nothing matches your filters.' : 'Nothing listed.') + '</p>';
+      h += '</section>';
+    }
+    if (!total && anyFilter()) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
+    h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
+      (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
+    return h;
+  }
+
+  function renderCalendar() {
+    if (!state.calMonth) state.calMonth = monthOf(state.calSel);
+    var y = state.calMonth.getFullYear(), m = state.calMonth.getMonth();
+    var lead = new Date(y, m, 1).getDay(), dim = new Date(y, m + 1, 0).getDate();
+    var total = Math.ceil((lead + dim) / 7) * 7, rows = total / 7, cells = '';
+    for (var i = 0; i < total; i++) {
+      var x = new Date(y, m, 1 - lead + i), k = ymd(x), cls = ['cell'];
+      if (Math.floor(i / 7) === rows - 1) cls.push('lastrow');
+      if (x.getMonth() !== m) {
+        cls.push('out');
+        cells += '<div class="' + cls.join(' ') + '" aria-hidden="true"><div class="cellhead"><span class="num">' + x.getDate() + '</span></div></div>';
+        continue;
+      }
+      var list = on(k), hol = HOL[k];
+      if (k < TODAY) cls.push('past');
+      if (k === TODAY) cls.push('today');
+      if (k === state.calSel) cls.push('sel');
+      if (hol) cls.push('hasHol');
+      var label = longDate(k) + ': ' + (list.length ? list.length + (list.length > 1 ? ' things' : ' thing') : 'nothing listed') + (hol ? ', ' + hol : '');
+      var inner = '<div class="cellhead"><button type="button" class="num" data-day="' + k + '" aria-label="' + esc(label) + '"' +
+        (k === TODAY ? ' aria-current="date"' : '') + '>' + x.getDate() + '</button>' + (hol ? '<span class="hol">' + esc(hol) + '</span>' : '') + '</div>';
+      list.slice(0, 3).forEach(function (e) {
+        inner += '<button type="button" class="chip' + (e.philanthropy ? ' give' : '') + (isMarked(e.id, k) ? ' going' : '') + '" data-open="' + e.id + '" data-date="' + k +
+          '" title="' + esc(e.title + ' · ' + rangeText(e)) + '">' + (e.pick ? I.star : '') + '<span class="t">' + chipTime(e) + '</span><span class="n">' + esc(e.short || e.title) + '</span></button>';
+      });
+      if (list.length > 3) inner += '<button type="button" class="more" data-day="' + k + '">+' + (list.length - 3) + ' more</button>';
+      if (list.length) inner += '<span class="dots" aria-hidden="true">' + list.slice(0, 8).map(function (e) { return '<i class="dot' + (e.philanthropy ? ' give' : '') + '"></i>'; }).join('') + '</span>';
+      cells += '<div class="' + cls.join(' ') + '" data-day="' + k + '">' + inner + '</div>';
+    }
+    var prevOk = state.calMonth > MIN_MONTH, nextOk = state.calMonth < MAX_MONTH;
+    return '<div class="monthnav"><button type="button" class="iconbtn" data-month="-1" aria-label="Previous month"' + (prevOk ? '' : ' disabled') + '>' + I.chevL + '</button>' +
+      '<h2>' + MONTHS[m] + ' ' + y + '</h2><button type="button" class="iconbtn" data-month="1" aria-label="Next month"' + (nextOk ? '' : ' disabled') + '>' + I.chevR + '</button>' +
+      '<button type="button" class="textbtn" data-today="1">Today</button></div>' +
+      '<div class="callayout"><section class="cal" aria-label="' + MONTHS[m] + ' ' + y + '"><div class="dow" aria-hidden="true"><div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div></div>' +
+      '<div class="grid">' + cells + '</div></section><aside class="daypanel" id="daypanel" aria-live="polite">' + dayPanelHtml(state.calSel) + '</aside></div>' +
+      '<p class="horizon">Weekly and monthly events are listed about six weeks ahead. Later dates appear as organizers confirm them.</p>';
+  }
+  function dayPanelHtml(k) {
+    var list = on(k), x = parse(k);
+    var h = '<div class="dp-head"><p class="eyebrow">' + DOW_LONG[x.getDay()] + (k === TODAY ? ' · Today' : '') + '</p><h3>' + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</h3>' +
+      (HOL[k] ? '<p class="holnote"><b>' + esc(HOL[k]) + '.</b> Groups sometimes change plans on holidays, so check first.</p>' : '') + '</div>';
+    h += list.length ? '<div class="items">' + list.map(function (e) { return rowHtml(e, k); }).join('') + '</div>'
+      : '<p class="none">' + (anyFilter() ? 'Nothing matches your filters on this day.' : 'Nothing listed on this day.') + '</p>';
+    return h;
+  }
+
+  function cardHtml(e) {
+    var url = safeUrl(e.url);
+    return '<article class="card"><div class="tags">' + tagHtml(e, true) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>' +
+      '<h3>' + esc(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p><p class="cdesc">' + esc(e.description || '') + '</p>' +
+      '<div class="cactions"><button type="button" class="btn sm primary" data-open="' + e.id + '">How to join</button>' +
+      (url ? '<a class="btn sm" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') + '</div></article>';
+  }
+  function renderJoin() {
+    var list = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e); });
+    var h = '';
+    PGROUPS.forEach(function (g) {
+      var items = list.filter(function (e) { return e.pgroup === g[0]; });
+      if (!items.length) return;
+      h += '<section class="jgroup"><h2>' + esc(g[1]) + '</h2><p class="jsub">' + esc(g[2]) + '</p><div class="cards">' + items.map(cardHtml).join('') + '</div></section>';
+    });
+    return h || '<p class="none">Nothing listed here yet.</p>';
+  }
+
+  function renderPlan() {
+    var all = planEntries();
+    if (!all.length) {
+      return '<div class="empty-state"><h2>Nothing saved yet</h2><p>Tap \u201cI\u2019m going\u201d on anything that looks good and it shows up here, ready to add to your calendar.</p>' +
+        '<div class="cta"><button type="button" class="btn primary" data-wiz="1">' + I.spark + 'Help me choose</button><a class="btn" href="#week">Browse this week</a></div></div>';
+    }
+    function sortFn(a, b) { return a.d < b.d ? -1 : a.d > b.d ? 1 : byTime(EV[a.id], EV[b.id]); }
+    var up = all.filter(function (x) { return x.d >= TODAY; }).sort(sortFn);
+    var recent = all.filter(function (x) { return x.d < TODAY && x.d >= addDays(TODAY, -30); }).sort(sortFn).reverse();
+    var h = '<section class="plansec"><div class="secthead"><h2>Coming up</h2>' +
+      (up.length ? '<button type="button" class="btn sm" data-ics-plan="1">' + I.cal + 'Add all to my calendar</button>' : '') + '</div>';
+    if (!up.length) h += '<p class="none">Nothing coming up. Pick something from This week.</p>';
+    var lastDay = null;
+    up.forEach(function (x) {
+      if (x.d !== lastDay) {
+        if (lastDay) h += '</div>';
+        h += '<div class="dayhead" style="margin-top:18px"><h2>' + (x.d === TODAY ? 'Today' : esc(dayName(x.d))) + '</h2><span class="sub">' + esc(fullDate(x.d)) + '</span></div><div class="items">';
+        lastDay = x.d;
+      }
+      h += rowHtml(EV[x.id], x.d);
+    });
+    if (lastDay) h += '</div>';
+    h += '</section>';
+    if (recent.length) {
+      h += '<section class="plansec"><div class="secthead"><h2>Recently</h2></div><p class="jsub">Saved dates that have passed count as visits. Didn\u2019t make it? Tap \u201cWent\u201d to take it off.</p><div class="items">' +
+        recent.map(function (x) { return rowHtml(EV[x.id], x.d); }).join('') + '</div></section>';
+    }
+    var series = {};
+    all.forEach(function (x) {
+      var s = series[x.id] || (series[x.id] = { e: EV[x.id], went: 0, last: null, next: null });
+      if (x.d < TODAY) { s.went++; if (!s.last || x.d > s.last) s.last = x.d; }
+      else if (!s.next || x.d < s.next) s.next = x.d;
+    });
+    var ss = Object.keys(series).map(function (k) { return series[k]; }).sort(function (a, b) { return b.went - a.went || String(a.next || 'z').localeCompare(String(b.next || 'z')); });
+    h += '<section class="plansec"><div class="secthead"><h2>Becoming a regular</h2></div><p class="jsub">Show up to the same thing about six times and people start to know your name.</p><div class="cards">' +
+      ss.map(function (s) {
+        var n = Math.min(s.went, 6), dots = '';
+        for (var i = 0; i < 6; i++) dots += '<i class="' + (i < n ? 'on' : '') + '"></i>';
+        var status = s.went >= 6 ? 'You\u2019re a regular here' : s.went + ' of 6 visits';
+        return '<article class="card"><h3><button type="button" class="linkish" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '>' + esc(s.e.title) + '</button></h3>' +
+          '<div class="dots6" role="img" aria-label="' + esc(status) + '">' + dots + '</div><p class="sched">' + esc(status) + '</p>' +
+          '<p class="cdesc">' + (s.last ? 'Last went ' + esc(shortDate(s.last)) : 'Not yet') + (s.next ? ' · Next: ' + esc(shortDate(s.next)) : '') + '</p></article>';
+      }).join('') + '</div></section>';
+    return h;
+  }
+
+  function renderView() {
+    var v = $('view');
+    if (state.view === 'calendar') v.innerHTML = renderCalendar();
+    else if (state.view === 'join') v.innerHTML = renderJoin();
+    else if (state.view === 'plan') v.innerHTML = renderPlan();
+    else v.innerHTML = renderWeek();
+  }
+  function renderFoot() {
+    $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
+      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device.' +
+      (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl) + '" target="_blank" rel="noopener noreferrer">Suggest a listing or report a problem</a>.' : '') + '</p>';
+  }
+  function render() { renderTabs(); renderIntro(); renderFilters(); renderView(); renderFoot(); updatePlanCount(); }
+
+  /* ---------- calendar files ---------- */
+  var VTZ = ['BEGIN:VTIMEZONE', 'TZID:America/New_York', 'BEGIN:DAYLIGHT', 'TZOFFSETFROM:-0500', 'TZOFFSETTO:-0400', 'TZNAME:EDT',
+    'DTSTART:19700308T020000', 'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU', 'END:DAYLIGHT', 'BEGIN:STANDARD', 'TZOFFSETFROM:-0400',
+    'TZOFFSETTO:-0500', 'TZNAME:EST', 'DTSTART:19701101T020000', 'RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU', 'END:STANDARD', 'END:VTIMEZONE'];
+  function icsEsc(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n'); }
+  function fold(line) { var out = []; while (line.length > 73) { out.push(line.slice(0, 73)); line = ' ' + line.slice(73); } out.push(line); return out.join('\r\n'); }
+  function endOf(e) { if (e.end) return e.end; var x = hm(e.start); return pad(Math.min(x.h + 2, 23)) + ':' + pad(x.m); }
+  function descText(e) {
+    return [e.description, e.timeNote, e.howToJoin ? 'How to join: ' + e.howToJoin : '', e.verifyNote ? 'Before you go: ' + e.verifyNote : '', safeUrl(e.url) || '']
+      .filter(Boolean).join('\n\n');
+  }
+  function vevent(e, k) {
+    var ds = compact(k), now = new Date();
+    var stamp = now.getUTCFullYear() + pad(now.getUTCMonth() + 1) + pad(now.getUTCDate()) + 'T' + pad(now.getUTCHours()) + pad(now.getUTCMinutes()) + '00Z';
+    var L = ['BEGIN:VEVENT', 'UID:' + e.id + '-' + ds + '@same-time-next-week', 'DTSTAMP:' + stamp];
+    if (e.start) {
+      var en = endOf(e), endDay = en <= e.start ? compact(addDays(k, 1)) : ds;
+      L.push('DTSTART;TZID=America/New_York:' + ds + 'T' + e.start.replace(':', '') + '00', 'DTEND;TZID=America/New_York:' + endDay + 'T' + en.replace(':', '') + '00');
+    } else {
+      L.push('DTSTART;VALUE=DATE:' + ds, 'DTEND;VALUE=DATE:' + compact(addDays(k, 1)));
+    }
+    L.push('SUMMARY:' + icsEsc(e.title), 'LOCATION:' + icsEsc([e.venue, e.address].filter(Boolean).join(', ')), 'DESCRIPTION:' + icsEsc(descText(e)));
+    if (safeUrl(e.url)) L.push('URL:' + e.url);
+    L.push('END:VEVENT');
+    return L;
+  }
+  function icsDoc(items) {
+    var L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Same Time Next Week//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH'].concat(VTZ);
+    items.forEach(function (x) { L = L.concat(vevent(x.e, x.d)); });
+    L.push('END:VCALENDAR');
+    return L.map(fold).join('\r\n') + '\r\n';
+  }
+  function downloadIcs(text, name) {
+    if (D.preview) { toast('Calendar files download on the live site.'); return; }
+    var file = name.replace(/[^\w\- ]+/g, '').trim().replace(/\s+/g, '-').toLowerCase() + '.ics';
+    if (isIOS) { location.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(text); return; }
+    try {
+      var url = URL.createObjectURL(new Blob([text], { type: 'text/calendar;charset=utf-8' }));
+      var a = document.createElement('a');
+      a.href = url; a.download = file;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 5000);
+      toast('Calendar file downloaded. Open it to add to your calendar.');
+    } catch (err) { toast('Your browser blocked the download.'); }
+  }
+  function gcalUrl(e, k) {
+    var ds = compact(k), dates;
+    if (e.start) {
+      var en = endOf(e), endDay = en <= e.start ? compact(addDays(k, 1)) : ds;
+      dates = ds + 'T' + e.start.replace(':', '') + '00/' + endDay + 'T' + en.replace(':', '') + '00';
+    } else dates = ds + '/' + compact(addDays(k, 1));
+    var q = new URLSearchParams({ action: 'TEMPLATE', text: e.title, dates: dates, ctz: 'America/New_York', details: descText(e), location: [e.venue, e.address].filter(Boolean).join(', ') });
+    return 'https://calendar.google.com/calendar/render?' + q.toString();
+  }
+  function outlookUrl(e, k) {
+    var q = new URLSearchParams({ path: '/calendar/action/compose', rru: 'addevent', subject: e.title, body: descText(e), location: [e.venue, e.address].filter(Boolean).join(', ') });
+    if (e.start) {
+      var en = endOf(e), endDay = en <= e.start ? addDays(k, 1) : k;
+      q.set('startdt', k + 'T' + e.start + ':00'); q.set('enddt', endDay + 'T' + en + ':00');
+    } else { q.set('startdt', k); q.set('enddt', addDays(k, 1)); q.set('allday', 'true'); }
+    return 'https://outlook.live.com/calendar/0/deeplink/compose?' + q.toString();
+  }
+  function mapsUrl(e) {
+    var q = encodeURIComponent([e.venue, e.address].filter(Boolean).join(', '));
+    return isApple ? 'https://maps.apple.com/?q=' + q : 'https://www.google.com/maps/search/?api=1&query=' + q;
+  }
+
+  /* ---------- sheet ---------- */
+  var modal = $('modal'), sheet = $('sheet'), lastFocus = null, pushed = false, modalOpen = false;
+  function openModal(html, label) {
+    if (!modalOpen) lastFocus = document.activeElement;
+    sheet.innerHTML = '<button type="button" class="close" data-close="1" aria-label="Close">' + I.close + '</button>' + html;
+    sheet.setAttribute('aria-label', label);
+    modal.hidden = false;
+    modalOpen = true;
+    document.body.classList.add('noscroll');
+    sheet.scrollTop = 0;
+    var h = sheet.querySelector('h2');
+    (h || sheet).focus({ preventScroll: true });
+  }
+  function hideModal() {
+    if (!modalOpen) return;
+    modal.hidden = true;
+    modalOpen = false;
+    document.body.classList.remove('noscroll');
+    if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+  }
+  function closeModal() {
+    if (pushed) { pushed = false; try { history.back(); return; } catch (err) { /* fall through */ } }
+    hideModal();
+    var h = (location.hash || '').slice(1);
+    if (/^ev-/.test(h)) { try { history.replaceState(null, '', '#' + state.view); } catch (err) { /* ignore */ } }
+  }
+  function pushHash(h) {
+    try { history.pushState({ sheet: 1 }, '', '#' + h); pushed = true; } catch (err) { pushed = false; }
+  }
+
+  function detailHtml(e, k) {
+    var url = safeUrl(e.url), h = '<div class="tags">' + tagHtml(e) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>';
+    h += '<h2 tabindex="-1">' + esc(e.title) + '</h2>';
+    if (k) h += '<p class="when">' + esc(longDate(k)) + ' · ' + esc(rangeText(e)) + '</p>';
+    else h += '<p class="when">' + esc(e.rtext || 'Join any time') + '</p>';
+    if (k && HOL[k]) h += '<p class="holnote"><b>' + esc(HOL[k]) + '.</b> Groups sometimes change plans on holidays, so check the website first.</p>';
+    if (k) {
+      var marked = isMarked(e.id, k);
+      h += '<div class="goingrow"><button type="button" class="bigbtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '">' +
+        (marked ? I.check : I.plus) + '<span>' + markLabel(k, marked, true) + '</span></button><span class="visits" data-for="' + e.id + '">' + esc(visitsText(e.id)) + '</span></div>';
+    }
+    if (e.description) h += '<p class="desc">' + esc(e.description) + '</p>';
+    if (e.timeNote) h += '<p class="goodtoknow"><b>Good to know:</b> ' + esc(e.timeNote) + '</p>';
+    h += '<dl class="facts">';
+    if (e.venue || e.address) h += '<dt>Where</dt><dd><b>' + esc(e.venue || '') + '</b>' + (e.address ? '<br><span class="addr">' + esc(e.address) + '</span>' : '') + '</dd>';
+    h += '<dt>Cost</dt><dd>' + esc(e.cost || 'Not listed') + '</dd>';
+    h += '<dt>' + (e.kind === 'program' ? 'Schedule' : 'Repeats') + '</dt><dd>' + esc(e.rtext || '') + '</dd>';
+    h += '<dt>' + (e.entry === 'show' ? 'How it works' : 'How to join') + '</dt><dd>' + esc(e.howToJoin || 'Check the website') + '</dd></dl>';
+    h += '<div class="actions">' +
+      (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer">Directions</a>' : '') +
+      (url ? '<a class="btn" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') +
+      '<button type="button" class="btn" data-share="' + e.id + '" data-date="' + (k || '') + '">Share</button></div>';
+    if (k) {
+      h += '<div class="addcal"><span class="lbl">Add to calendar</span>' +
+        '<button type="button" class="btn sm" data-ics="' + e.id + '" data-date="' + k + '">Apple</button>' +
+        '<a class="btn sm" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer">Google</a>' +
+        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer">Outlook</a></div>';
+    }
+    if (e.verifyNote) h += '<div class="note"><b>Before you go:</b> ' + esc(e.verifyNote) + '</div>';
+    if (k) {
+      var next = (e.occ || []).filter(function (x) { return x >= TODAY; }).slice(0, 8);
+      if (next.length > 1 || (next.length === 1 && next[0] !== k)) {
+        h += '<div class="upcoming"><h3>Upcoming dates</h3><div class="datechips">' + next.map(function (x) {
+          return '<button type="button" class="datechip' + (isMarked(e.id, x) ? ' marked' : '') + '" data-open="' + e.id + '" data-date="' + x + '"' + (x === k ? ' aria-current="true"' : '') + '>' + esc(shortDate(x)) + '</button>';
+        }).join('') + '</div></div>';
+      }
+    }
+    h += '<p class="checked">Last checked ' + esc(fullDate(e.lastChecked || D.generated)) + '.</p>';
+    return h;
+  }
+  function openEvent(id, k, push) {
+    var e = EV[id];
+    if (!e) return;
+    if (!k && e.kind !== 'program') k = nextDate(e);
+    var already = modalOpen;
+    openModal(detailHtml(e, k), e.title);
+    if (push && !already) pushHash('ev-' + id + (k ? '-' + compact(k) : ''));
+    else if (push && already) { try { history.replaceState(history.state, '', '#ev-' + id + (k ? '-' + compact(k) : '')); } catch (err) { /* ignore */ } }
+  }
+
+  var subFeed = null;
+  var FEEDS = [['durham', 'Durham: everything'], ['raleigh', 'Raleigh: everything'], ['all', 'Durham and Raleigh: everything'], ['durham-volunteer', 'Durham: volunteering only'], ['raleigh-volunteer', 'Raleigh: volunteering only']];
+  function feedUrl(name) {
+    var base = D.siteUrl || (!D.preview && /^https?:$/.test(location.protocol) ? location.href.split('#')[0] : '');
+    return base ? new URL('cal/' + name + '.ics', base).href : null;
+  }
+  function subscribeHtml() {
+    if (!subFeed) subFeed = state.city === 'both' ? 'all' : state.city;
+    var label = FEEDS.filter(function (f) { return f[0] === subFeed; })[0][1];
+    var h = '<h2 tabindex="-1">Sync to your calendar</h2><p class="lede">This puts every listing into the calendar app on your phone or computer, and keeps it up to date. If an event changes or is cancelled, your calendar changes too. You can remove it any time.</p>' +
+      '<div class="feedpick" role="radiogroup" aria-label="Which listings">' + FEEDS.map(function (f) {
+        return '<button type="button" role="radio" aria-checked="' + (f[0] === subFeed) + '" data-feed="' + f[0] + '">' + esc(f[1]) + '</button>';
+      }).join('') + '</div>';
+    var url = feedUrl(subFeed);
+    if (!url) return h + '<p class="note">Subscriptions start working once the site is live on the web.</p>';
+    var webcal = url.replace(/^https?:/, 'webcal:');
+    return h + '<div class="subbtns"><a class="btn primary" href="' + esc(webcal) + '">Apple Calendar</a>' +
+      '<a class="btn" href="' + esc('https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcal)) + '" target="_blank" rel="noopener noreferrer">Google Calendar</a>' +
+      '<a class="btn" href="' + esc('https://outlook.live.com/calendar/0/addfromweb?url=' + encodeURIComponent(url) + '&name=' + encodeURIComponent('Same Time Next Week: ' + label)) + '" target="_blank" rel="noopener noreferrer">Outlook</a>' +
+      '<button type="button" class="btn" data-copy="' + esc(url) + '">Copy link</button></div>' +
+      '<p class="fine">On iPhone or Mac, tap Apple Calendar, then Subscribe. Google Calendar adds it to your Google account, so it shows up on Android too. Changes reach your calendar within about a day.</p>';
+  }
+  function openSubscribe() { subFeed = null; openModal(subscribeHtml(), 'Sync to your calendar'); }
+
+  var wiz = { days: {}, cats: {}, solo: true }, lastSugg = {};
+  function suggestions() {
+    var end = addDays(TODAY, 42), out = [], used = {}, scored = [];
+    var dayKeys = Object.keys(wiz.days), catKeys = Object.keys(wiz.cats);
+    EVENTS.forEach(function (e) {
+      if (e.kind === 'program' || !inCity(e)) return;
+      if (wiz.solo && !e.solo) return;
+      if (catKeys.length && !wiz.cats[group(e)]) return;
+      var occ = (e.occ || []).filter(function (k) { return k >= TODAY && k <= end && (!dayKeys.length || wiz.days[parse(k).getDay()]); });
+      if (occ.length < 2) return;
+      scored.push({ e: e, occ: occ, score: Math.min(occ.length, 6) + (e.pick ? 3 : 0) + (e.entry === 'show' ? 2 : 0) + (e.free ? 1 : 0) });
+    });
+    scored.sort(function (a, b) { return b.score - a.score || (a.e.title < b.e.title ? -1 : 1); });
+    scored.forEach(function (s) { if (out.length < 3 && !used[group(s.e)]) { out.push(s); used[group(s.e)] = 1; } });
+    scored.forEach(function (s) { if (out.length < 3 && out.indexOf(s) < 0) out.push(s); });
+    return out;
+  }
+  function wizOutHtml() {
+    var s = suggestions();
+    lastSugg = {};
+    if (!s.length) return '<p class="none">Nothing matches yet. Try more days or interests.</p>';
+    return '<h3 class="wh">Try these</h3>' + s.map(function (x) {
+      var next = x.occ.slice(0, 4);
+      lastSugg[x.e.id] = next;
+      var done = next.every(function (k) { return isMarked(x.e.id, k); });
+      return '<article class="sugg"><div class="tags">' + tagHtml(x.e) + '</div><h4>' + esc(x.e.title) + '</h4><p>' + esc(x.e.rtext || '') + (x.e.start ? ' · ' + esc(rangeText(x.e)) : '') +
+        '</p><p>' + esc(metaLine(x.e)) + '</p><p>Next: ' + next.map(shortDate).join(', ') + '</p>' +
+        '<button type="button" class="btn sm' + (done ? '' : ' primary') + '" data-addseries="' + x.e.id + '"' + (done ? ' disabled' : '') + '>' +
+        (done ? I.check + 'Added to My plan' : I.plus + 'Add the next ' + next.length + ' dates to My plan') + '</button></article>';
+    }).join('');
+  }
+  function openWizard() {
+    wiz = { days: {}, cats: {}, solo: true };
+    var h = '<h2 tabindex="-1">Help me choose</h2><p class="lede">Pick what works for you and get three regular things to try in ' + esc(CITY[state.city]) + '. Going back to the same thing is how strangers turn into friends.</p>' +
+      '<fieldset class="wf"><legend>Which days usually work?</legend><div class="chips">' + [1, 2, 3, 4, 5, 6, 0].map(function (i) {
+        return '<button type="button" class="fchip" data-wday="' + i + '" aria-pressed="false">' + DOW[i] + '</button>';
+      }).join('') + '</div></fieldset>' +
+      '<fieldset class="wf"><legend>What sounds good?</legend><div class="chips">' + GROUPS.map(function (g) {
+        return '<button type="button" class="fchip' + (g[0] === 'volunteer' ? ' give' : '') + '" data-wcat="' + g[0] + '" aria-pressed="false">' + esc(g[1]) + '</button>';
+      }).join('') + '</div></fieldset>' +
+      '<label class="check"><input type="checkbox" id="wizSolo" checked> Only things that are easy to go to alone</label><div id="wizOut" aria-live="polite">' + wizOutHtml() + '</div>';
+    openModal(h, 'Help me choose');
+  }
+
+  /* ---------- small helpers ---------- */
+  var toastTimer = null;
+  function toast(msg) {
+    var t = $('toast');
+    t.textContent = msg; t.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.hidden = true; }, 3200);
+  }
+  function copyText(text, msg) {
+    function fallback() { toast('Copy this link: ' + text); }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { toast(msg || 'Link copied'); }, fallback);
+      else fallback();
+    } catch (err) { fallback(); }
+  }
+  function shareEvent(id, k) {
+    var e = EV[id], url = location.href.split('#')[0] + '#ev-' + id + (k ? '-' + compact(k) : '');
+    if (navigator.share && !D.preview) {
+      navigator.share({ title: e.title, text: e.title + (k ? ' · ' + shortDate(k) : ''), url: url }).catch(function (err) {
+        if (!err || err.name !== 'AbortError') copyText(url);
+      });
+      return;
+    }
+    copyText(url);
+  }
+  function setCity(c) {
+    if (!CITY[c] || c === state.city) return;
+    state.city = c;
+    sset('city', c);
+    render();
+  }
+  function shiftMonth(n) {
+    var m = new Date(state.calMonth.getFullYear(), state.calMonth.getMonth() + n, 1);
+    if (m < MIN_MONTH || m > MAX_MONTH) return;
+    state.calMonth = m;
+    var t = parse(TODAY);
+    state.calSel = (t.getFullYear() === m.getFullYear() && t.getMonth() === m.getMonth()) ? TODAY : ymd(m);
+    renderView();
+  }
+  function revealDayPanel() {
+    if (!window.matchMedia('(max-width: 980px)').matches) return;
+    var p = $('daypanel');
+    if (!p) return;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    p.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  }
+
+  /* ---------- events ---------- */
+  document.addEventListener('click', function (ev) {
+    var t = ev.target, b;
+    if (t === modal) { closeModal(); return; }
+    if ((b = t.closest('[data-close]'))) { closeModal(); return; }
+    if ((b = t.closest('[data-mark]'))) { toggleMark(b.dataset.mark, b.dataset.date); refreshMarks(b.dataset.mark, b.dataset.date); return; }
+    if ((b = t.closest('[data-addseries]'))) {
+      (lastSugg[b.dataset.addseries] || []).forEach(function (k) { if (!isMarked(b.dataset.addseries, k)) toggleMark(b.dataset.addseries, k); });
+      b.disabled = true; b.classList.remove('primary'); b.innerHTML = I.check + 'Added to My plan';
+      toast('Added to My plan');
+      return;
+    }
+    if ((b = t.closest('[data-open]'))) { openEvent(b.dataset.open, b.dataset.date || null, true); return; }
+    if ((b = t.closest('[data-city]'))) { setCity(b.dataset.city); return; }
+    if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
+    if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
+    if ((b = t.closest('[data-cat]'))) {
+      var c = b.dataset.cat;
+      if (state.f.cats[c]) delete state.f.cats[c]; else state.f.cats[c] = true;
+      renderFilters(); renderView(); return;
+    }
+    if ((b = t.closest('[data-clear]'))) { state.f = blankFilters(); renderFilters(); renderView(); return; }
+    if ((b = t.closest('[data-span]'))) { state.span = +b.dataset.span; renderView(); return; }
+    if ((b = t.closest('[data-month]'))) { shiftMonth(+b.dataset.month); return; }
+    if ((b = t.closest('[data-today]'))) { state.calSel = TODAY; state.calMonth = monthOf(TODAY); renderView(); return; }
+    if ((b = t.closest('[data-day]'))) { state.calSel = b.dataset.day; renderView(); revealDayPanel(); return; }
+    if ((b = t.closest('[data-share]'))) { shareEvent(b.dataset.share, b.dataset.date || null); return; }
+    if ((b = t.closest('[data-ics]'))) { var e = EV[b.dataset.ics]; downloadIcs(icsDoc([{ e: e, d: b.dataset.date }]), e.short || e.title); return; }
+    if ((b = t.closest('[data-ics-plan]'))) {
+      var items = planEntries().filter(function (x) { return x.d >= TODAY; }).map(function (x) { return { e: EV[x.id], d: x.d }; });
+      if (items.length) downloadIcs(icsDoc(items), 'my-plan');
+      return;
+    }
+    if ((b = t.closest('[data-sub]'))) { openSubscribe(); return; }
+    if ((b = t.closest('[data-feed]'))) { subFeed = b.dataset.feed; sheet.innerHTML = '<button type="button" class="close" data-close="1" aria-label="Close">' + I.close + '</button>' + subscribeHtml(); var fb = sheet.querySelector('[data-feed="' + subFeed + '"]'); if (fb) fb.focus(); return; }
+    if ((b = t.closest('[data-copy]'))) { copyText(b.dataset.copy, 'Calendar link copied'); return; }
+    if ((b = t.closest('[data-wiz]'))) { openWizard(); return; }
+    if ((b = t.closest('[data-wday]'))) {
+      var d = b.dataset.wday;
+      if (wiz.days[d]) delete wiz.days[d]; else wiz.days[d] = true;
+      b.setAttribute('aria-pressed', String(!!wiz.days[d])); $('wizOut').innerHTML = wizOutHtml(); return;
+    }
+    if ((b = t.closest('[data-wcat]'))) {
+      var w = b.dataset.wcat;
+      if (wiz.cats[w]) delete wiz.cats[w]; else wiz.cats[w] = true;
+      b.setAttribute('aria-pressed', String(!!wiz.cats[w])); $('wizOut').innerHTML = wizOutHtml(); return;
+    }
+  });
+  document.addEventListener('change', function (ev) {
+    if (ev.target && ev.target.id === 'wizSolo') { wiz.solo = ev.target.checked; $('wizOut').innerHTML = wizOutHtml(); }
+  });
+  document.addEventListener('keydown', function (ev) {
+    if (!modalOpen) return;
+    if (ev.key === 'Escape') { ev.preventDefault(); closeModal(); return; }
+    if (ev.key === 'Tab') {
+      var f = Array.prototype.filter.call(sheet.querySelectorAll('a[href], button:not([disabled]), input, [tabindex]:not([tabindex="-1"])'), function (x) { return x.offsetParent !== null; });
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (ev.shiftKey && (document.activeElement === first || document.activeElement === sheet || !sheet.contains(document.activeElement))) { ev.preventDefault(); last.focus(); }
+      else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+    }
+  });
+
+  function route() {
+    var h = (location.hash || '').replace(/^#/, '');
+    var m = /^ev-(.+?)(?:-(\d{8}))?$/.exec(h);
+    if (m && EV[m[1]]) {
+      if (!document.getElementById('view').innerHTML) render();
+      var k = m[2] ? m[2].slice(0, 4) + '-' + m[2].slice(4, 6) + '-' + m[2].slice(6) : null;
+      openEvent(m[1], k, false);
+      return;
+    }
+    pushed = false;
+    hideModal();
+    var view = VIEWS.indexOf(h) > -1 ? h : 'week';
+    if (view !== state.view || !document.getElementById('view').innerHTML) {
+      state.view = view;
+      render();
+      if (h) window.scrollTo(0, 0);
+    }
+  }
+  window.addEventListener('hashchange', route);
+  window.addEventListener('popstate', route);
+  route();
+})();
+</script>
+</body>
+</html>
