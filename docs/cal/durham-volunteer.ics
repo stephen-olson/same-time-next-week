@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261106T090000
 DTEND;TZID=America/New_York:20261106T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -46,7 +46,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -64,7 +64,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T090000
 DTEND;TZID=America/New_York:20261111T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -82,7 +82,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T090000
 DTEND;TZID=America/New_York:20261112T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -100,7 +100,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261113T090000
 DTEND;TZID=America/New_York:20261113T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -118,7 +118,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -136,7 +136,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T090000
 DTEND;TZID=America/New_York:20261118T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -154,7 +154,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T090000
 DTEND;TZID=America/New_York:20261119T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -172,7 +172,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -190,7 +190,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -208,7 +208,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -226,7 +226,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -244,7 +244,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -262,7 +262,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -280,7 +280,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261204@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261204T090000
 DTEND;TZID=America/New_York:20261204T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -298,7 +298,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -316,7 +316,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T090000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -334,7 +334,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T090000
 DTEND;TZID=America/New_York:20261210T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -352,7 +352,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261211@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261211T090000
 DTEND;TZID=America/New_York:20261211T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -370,7 +370,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -388,7 +388,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T090000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -406,7 +406,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T090000
 DTEND;TZID=America/New_York:20261217T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -424,7 +424,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261218T090000
 DTEND;TZID=America/New_York:20261218T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -442,7 +442,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -460,7 +460,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -478,7 +478,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-eno-river-workday-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Invasive plant workday · Rocky Branch
@@ -495,7 +495,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-crew-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T140000
 SUMMARY:Trail crew · Eno River (Mountains-to-Sea Trail)
@@ -512,7 +512,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T110000
 SUMMARY:MLK Jr Parkway cleanup · Board of Elections lot
@@ -529,7 +529,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-2-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T110000
 SUMMARY:MLK Jr Parkway cleanup · Lowe's parking lot
@@ -544,7 +544,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-quiet-volunteer-night-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Low distraction volunteer night · The Scrap Exchange
@@ -558,7 +558,7 @@ URL:https://www.scrapexchange.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-co-op-volunteering-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T120000
 SUMMARY:Beginner volunteer session · Durham Bike Co-op
@@ -576,7 +576,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-repair-clinic-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Pop-up bike repair clinic · Durham Farmers' Market
@@ -594,7 +594,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 SUMMARY:Tree planting training · Trees for the Triangle
@@ -610,7 +610,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-diaper-wrapping-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Diaper wrapping · Diaper Bank of NC
@@ -627,7 +627,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-east-durham-food-help-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Food distribution · Communities in Partnership

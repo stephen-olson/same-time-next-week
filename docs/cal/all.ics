@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-irish-jam-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T150000
 DTEND;TZID=America/New_York:20261107T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -44,7 +44,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T150000
 DTEND;TZID=America/New_York:20261121T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -60,7 +60,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T150000
 DTEND;TZID=America/New_York:20261205T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -76,7 +76,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T150000
 DTEND;TZID=America/New_York:20261219T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -92,7 +92,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261108@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261108T183000
 DTEND;TZID=America/New_York:20261108T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -108,7 +108,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T183000
 DTEND;TZID=America/New_York:20261115T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -124,7 +124,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T183000
 DTEND;TZID=America/New_York:20261122T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -140,7 +140,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261129T183000
 DTEND;TZID=America/New_York:20261129T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -156,7 +156,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261206T183000
 DTEND;TZID=America/New_York:20261206T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -172,7 +172,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T183000
 DTEND;TZID=America/New_York:20261213T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -188,7 +188,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261220@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261220T183000
 DTEND;TZID=America/New_York:20261220T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -204,7 +204,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-dance-20261127@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261127T193000
 DTEND;TZID=America/New_York:20261127T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -223,7 +223,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-dance-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261218T193000
 DTEND;TZID=America/New_York:20261218T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -242,7 +242,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261113T193000
 DTEND;TZID=America/New_York:20261113T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -260,7 +260,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261211@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261211T193000
 DTEND;TZID=America/New_York:20261211T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -278,7 +278,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261231@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261231T193000
 DTEND;TZID=America/New_York:20261231T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -296,7 +296,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-2-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T190000
 DTEND;TZID=America/New_York:20261205T223000
 SUMMARY:Contra dance\, Saturday · Carrboro Century Center
@@ -311,7 +311,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-swing-dance-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T190000
 DTEND;TZID=America/New_York:20261121T230000
 SUMMARY:Swing dance party · Carrboro Century Center
@@ -329,7 +329,7 @@ URL:https://triangleswingdancesociety.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -346,7 +346,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -363,7 +363,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -380,7 +380,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -396,7 +396,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -412,7 +412,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -428,7 +428,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -446,7 +446,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261218T180000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -464,7 +464,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270115T180000
 DTEND;TZID=America/New_York:20270115T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -482,7 +482,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -500,7 +500,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-draw-y-all-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:Figure drawing (Draw Y'all) · The Fruit
@@ -516,7 +516,7 @@ URL:https://www.meetup.com/drawyall/events/316966625/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270110T131500
 DTEND;TZID=America/New_York:20270110T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -532,7 +532,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270117T131500
 DTEND;TZID=America/New_York:20270117T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -548,7 +548,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270124T131500
 DTEND;TZID=America/New_York:20270124T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -564,7 +564,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270131@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270131T131500
 DTEND;TZID=America/New_York:20270131T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -580,7 +580,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270207T131500
 DTEND;TZID=America/New_York:20270207T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -596,7 +596,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270214T131500
 DTEND;TZID=America/New_York:20270214T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -612,7 +612,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270228@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270228T131500
 DTEND;TZID=America/New_York:20270228T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -628,7 +628,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pottery-class-20270106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Wheel\, Wednesday · Durham Arts Council (10 weeks)
@@ -646,7 +646,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Intro to wheel\, one day · Claymakers
@@ -662,7 +662,7 @@ URL:https://www.claymakers.org/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Intro to wheel\, one day · Claymakers
@@ -678,7 +678,7 @@ URL:https://www.claymakers.org/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T170000
 DTEND;TZID=America/New_York:20261112T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -692,7 +692,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T170000
 DTEND;TZID=America/New_York:20261210T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -706,7 +706,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20270114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270114T170000
 DTEND;TZID=America/New_York:20270114T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -720,7 +720,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -735,7 +735,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -750,7 +750,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -765,7 +765,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -780,7 +780,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -795,7 +795,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -810,7 +810,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -825,7 +825,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -842,7 +842,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -859,7 +859,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -876,7 +876,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -893,7 +893,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -910,7 +910,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -927,7 +927,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -944,7 +944,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -959,7 +959,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T080000
 DTEND;TZID=America/New_York:20261114T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -974,7 +974,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T080000
 DTEND;TZID=America/New_York:20261121T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -989,7 +989,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T080000
 DTEND;TZID=America/New_York:20261128T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1004,7 +1004,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T080000
 DTEND;TZID=America/New_York:20261205T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1019,7 +1019,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1034,7 +1034,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T080000
 DTEND;TZID=America/New_York:20261219T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1049,7 +1049,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T183000
 DTEND;TZID=America/New_York:20261109T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1064,7 +1064,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T183000
 DTEND;TZID=America/New_York:20261116T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1079,7 +1079,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1094,7 +1094,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1109,7 +1109,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1124,7 +1124,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1139,7 +1139,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1154,7 +1154,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pride-climbing-night-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T210000
 SUMMARY:PRIDE night · The Boulder Garden
@@ -1172,7 +1172,7 @@ URL:https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-d
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pride-climbing-night-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:PRIDE night · The Boulder Garden
@@ -1190,7 +1190,7 @@ URL:https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-d
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T193000
 DTEND;TZID=America/New_York:20261112T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1208,7 +1208,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T193000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1226,7 +1226,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T193000
 DTEND;TZID=America/New_York:20261203T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1244,7 +1244,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T193000
 DTEND;TZID=America/New_York:20261210T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1262,7 +1262,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T193000
 DTEND;TZID=America/New_York:20261217T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1280,7 +1280,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T200000
 DTEND;TZID=America/New_York:20261111T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1294,7 +1294,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T200000
 DTEND;TZID=America/New_York:20261118T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1308,7 +1308,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T200000
 DTEND;TZID=America/New_York:20261125T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1322,7 +1322,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T200000
 DTEND;TZID=America/New_York:20261202T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1336,7 +1336,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T200000
 DTEND;TZID=America/New_York:20261209T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1350,7 +1350,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T200000
 DTEND;TZID=America/New_York:20261216T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1364,7 +1364,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T200000
 DTEND;TZID=America/New_York:20261223T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1378,7 +1378,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T190000
 DTEND;TZID=America/New_York:20261109T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1395,7 +1395,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1412,7 +1412,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T190000
 DTEND;TZID=America/New_York:20261116T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1429,7 +1429,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1446,7 +1446,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1463,7 +1463,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T190000
 DTEND;TZID=America/New_York:20261130T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1480,7 +1480,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1497,7 +1497,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1514,7 +1514,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1531,7 +1531,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T190000
 DTEND;TZID=America/New_York:20261214T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1548,7 +1548,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1565,7 +1565,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1582,7 +1582,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T180000
 DTEND;TZID=America/New_York:20261109T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1598,7 +1598,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1614,7 +1614,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1630,7 +1630,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1646,7 +1646,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1662,7 +1662,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1678,7 +1678,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1694,7 +1694,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T133000
 DTEND;TZID=America/New_York:20261121T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1710,7 +1710,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T133000
 DTEND;TZID=America/New_York:20261205T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1726,7 +1726,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T133000
 DTEND;TZID=America/New_York:20261219T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1742,7 +1742,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261106T090000
 DTEND;TZID=America/New_York:20261106T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1760,7 +1760,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1778,7 +1778,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T090000
 DTEND;TZID=America/New_York:20261111T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1796,7 +1796,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T090000
 DTEND;TZID=America/New_York:20261112T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1814,7 +1814,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261113T090000
 DTEND;TZID=America/New_York:20261113T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1832,7 +1832,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1850,7 +1850,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T090000
 DTEND;TZID=America/New_York:20261118T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1868,7 +1868,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T090000
 DTEND;TZID=America/New_York:20261119T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1886,7 +1886,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1904,7 +1904,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1922,7 +1922,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1940,7 +1940,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1958,7 +1958,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1976,7 +1976,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1994,7 +1994,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261204@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261204T090000
 DTEND;TZID=America/New_York:20261204T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2012,7 +2012,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2030,7 +2030,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T090000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2048,7 +2048,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T090000
 DTEND;TZID=America/New_York:20261210T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2066,7 +2066,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261211@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261211T090000
 DTEND;TZID=America/New_York:20261211T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2084,7 +2084,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2102,7 +2102,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T090000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2120,7 +2120,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T090000
 DTEND;TZID=America/New_York:20261217T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2138,7 +2138,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261218T090000
 DTEND;TZID=America/New_York:20261218T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2156,7 +2156,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2174,7 +2174,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2192,7 +2192,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-jam-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T203000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Free improv jam · Mettlesome
@@ -2209,7 +2209,7 @@ URL:https://thisismettlesome.com
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T130000
 DTEND;TZID=America/New_York:20261114T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2224,7 +2224,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T130000
 DTEND;TZID=America/New_York:20261128T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2239,7 +2239,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2254,7 +2254,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2270,7 +2270,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270113T173000
 DTEND;TZID=America/New_York:20270113T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2286,7 +2286,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2302,7 +2302,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270127@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270127T173000
 DTEND;TZID=America/New_York:20270127T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2318,7 +2318,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270203T173000
 DTEND;TZID=America/New_York:20270203T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2334,7 +2334,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270210T173000
 DTEND;TZID=America/New_York:20270210T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2350,7 +2350,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270217T173000
 DTEND;TZID=America/New_York:20270217T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2366,7 +2366,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270224@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270224T173000
 DTEND;TZID=America/New_York:20270224T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2382,7 +2382,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T080000
 DTEND;TZID=America/New_York:20261114T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -2399,7 +2399,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -2416,7 +2416,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T173000
 DTEND;TZID=America/New_York:20261112T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2431,7 +2431,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2446,7 +2446,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2461,7 +2461,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T173000
 DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2476,7 +2476,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2491,7 +2491,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-eno-river-workday-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Invasive plant workday · Rocky Branch
@@ -2508,7 +2508,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-crew-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T140000
 SUMMARY:Trail crew · Eno River (Mountains-to-Sea Trail)
@@ -2525,7 +2525,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T110000
 SUMMARY:MLK Jr Parkway cleanup · Board of Elections lot
@@ -2542,7 +2542,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-2-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T110000
 SUMMARY:MLK Jr Parkway cleanup · Lowe's parking lot
@@ -2557,7 +2557,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiber-arts-meetup-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Stitch N Bitch · The Scrap Exchange
@@ -2571,7 +2571,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiber-arts-meetup-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Stitch N Bitch · The Scrap Exchange
@@ -2585,7 +2585,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T170000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2598,7 +2598,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T170000
 DTEND;TZID=America/New_York:20261202T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2611,7 +2611,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T170000
 DTEND;TZID=America/New_York:20261216T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2624,7 +2624,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-bouldering-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T193000
 DTEND;TZID=America/New_York:20261116T210000
 SUMMARY:Intro to bouldering clinic · The Boulder Garden
@@ -2637,7 +2637,7 @@ DESCRIPTION:A beginner clinic at the downtown bouldering gym. A good first
 END:VEVENT
 BEGIN:VEVENT
 UID:d-quiet-volunteer-night-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Low distraction volunteer night · The Scrap Exchange
@@ -2651,7 +2651,7 @@ URL:https://www.scrapexchange.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-club-meeting-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Bird club meeting · NC Botanical Garden
@@ -2665,7 +2665,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-2-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T080000
 DTEND;TZID=America/New_York:20261118T110000
 SUMMARY:Bird walk · Brumley Forest
@@ -2681,7 +2681,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-old-time-jam-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T210000
 SUMMARY:PineCone old-time jam · Riparian Provision Company
@@ -2699,7 +2699,7 @@ URL:https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-old-time-jam-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:PineCone old-time jam · Riparian Provision Company
@@ -2717,7 +2717,7 @@ URL:https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beginner-bluegrass-jam-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T190000
 DTEND;TZID=America/New_York:20261116T210000
 SUMMARY:PineCone beginner bluegrass jam · Harry's Guitar Shop
@@ -2735,7 +2735,7 @@ URL:https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beginner-bluegrass-jam-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
 SUMMARY:PineCone beginner bluegrass jam · Harry's Guitar Shop
@@ -2753,7 +2753,7 @@ URL:https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-bluegrass-jam-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T210000
 SUMMARY:PineCone open bluegrass jam · Raleigh Brewing
@@ -2767,7 +2767,7 @@ URL:https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2784,7 +2784,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2801,7 +2801,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2818,7 +2818,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2835,7 +2835,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2852,7 +2852,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2869,7 +2869,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-beer-and-banjos-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T210000
 SUMMARY:Beer and Banjos · Bowstring Pizza and Brewyard
@@ -2886,7 +2886,7 @@ URL:https://pinecone.org/event/beer-and-banjos-emily-burdette/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T210000
 DTEND;TZID=America/New_York:20261111T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2902,7 +2902,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T210000
 DTEND;TZID=America/New_York:20261118T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2918,7 +2918,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T210000
 DTEND;TZID=America/New_York:20261125T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2934,7 +2934,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T210000
 DTEND;TZID=America/New_York:20261202T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2950,7 +2950,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T210000
 DTEND;TZID=America/New_York:20261209T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2966,7 +2966,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T210000
 DTEND;TZID=America/New_York:20261216T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2982,7 +2982,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T210000
 DTEND;TZID=America/New_York:20261223T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -2998,7 +2998,7 @@ URL:https://slimsdivebar.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-rebus-works-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T200000
 SUMMARY:Open mic · Rebus Works
@@ -3014,7 +3014,7 @@ URL:https://www.rebusworks.us/calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bluegrass-jam-class-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261205T160000
 SUMMARY:Holiday bluegrass jam class · St. Paul's Church
@@ -3033,7 +3033,7 @@ URL:https://wernickmethod.org/event/ld-sw-2026-12-raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-line-dancing-transfer-co-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T220000
 SUMMARY:Ballroom line dancing · Transfer Co. Ballroom
@@ -3050,7 +3050,7 @@ URL:https://www.transfercofoodhall.com/upcoming-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-line-dancing-transfer-co-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T220000
 SUMMARY:Ballroom line dancing · Transfer Co. Ballroom
@@ -3067,7 +3067,7 @@ URL:https://www.transfercofoodhall.com/upcoming-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-line-dancing-transfer-co-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T220000
 SUMMARY:Ballroom line dancing · Transfer Co. Ballroom
@@ -3084,7 +3084,7 @@ URL:https://www.transfercofoodhall.com/upcoming-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-line-dancing-transfer-co-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T220000
 SUMMARY:Ballroom line dancing · Transfer Co. Ballroom
@@ -3101,7 +3101,7 @@ URL:https://www.transfercofoodhall.com/upcoming-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-line-dancing-transfer-co-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T220000
 SUMMARY:Ballroom line dancing · Transfer Co. Ballroom
@@ -3118,7 +3118,7 @@ URL:https://www.transfercofoodhall.com/upcoming-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261108@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261108T180000
 DTEND;TZID=America/New_York:20261108T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3135,7 +3135,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T180000
 DTEND;TZID=America/New_York:20261115T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3152,7 +3152,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T180000
 DTEND;TZID=America/New_York:20261122T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3169,7 +3169,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261129T180000
 DTEND;TZID=America/New_York:20261129T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3186,7 +3186,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261206T180000
 DTEND;TZID=America/New_York:20261206T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3203,7 +3203,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T180000
 DTEND;TZID=America/New_York:20261213T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3220,7 +3220,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261220@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261220T180000
 DTEND;TZID=America/New_York:20261220T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -3237,7 +3237,7 @@ URL:https://www.carolinadanceclub.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-first-friday-art-walk-20261106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261106T180000
 DTEND;TZID=America/New_York:20261106T210000
 SUMMARY:First Friday art walk · Downtown Raleigh
@@ -3255,7 +3255,7 @@ URL:https://triangleonthecheap.com/first-friday-raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-first-friday-art-walk-20261204@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261204T180000
 DTEND;TZID=America/New_York:20261204T210000
 SUMMARY:First Friday art walk · Downtown Raleigh
@@ -3273,7 +3273,7 @@ URL:https://triangleonthecheap.com/first-friday-raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T183000
 DTEND;TZID=America/New_York:20261111T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3289,7 +3289,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T183000
 DTEND;TZID=America/New_York:20261118T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3305,7 +3305,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T183000
 DTEND;TZID=America/New_York:20261125T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3321,7 +3321,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T183000
 DTEND;TZID=America/New_York:20261202T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3337,7 +3337,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T183000
 DTEND;TZID=America/New_York:20261209T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3353,7 +3353,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T183000
 DTEND;TZID=America/New_York:20261216T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3369,7 +3369,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -3385,7 +3385,7 @@ URL:https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3399,7 +3399,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3413,7 +3413,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3427,7 +3427,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3441,7 +3441,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3455,7 +3455,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3469,7 +3469,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -3483,7 +3483,7 @@ URL:https://downtownraleigh.org/do/crank-arm-run-club
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3500,7 +3500,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T183000
 DTEND;TZID=America/New_York:20261112T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3517,7 +3517,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3534,7 +3534,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3551,7 +3551,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3568,7 +3568,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3585,7 +3585,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3602,7 +3602,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3619,7 +3619,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3636,7 +3636,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3653,7 +3653,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3670,7 +3670,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -3687,7 +3687,7 @@ URL:https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T183000
 DTEND;TZID=America/New_York:20261111T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3703,7 +3703,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T183000
 DTEND;TZID=America/New_York:20261118T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3719,7 +3719,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T183000
 DTEND;TZID=America/New_York:20261125T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3735,7 +3735,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T183000
 DTEND;TZID=America/New_York:20261202T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3751,7 +3751,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T183000
 DTEND;TZID=America/New_York:20261209T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3767,7 +3767,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T183000
 DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3783,7 +3783,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -3799,7 +3799,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T180000
 DTEND;TZID=America/New_York:20261110T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3815,7 +3815,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T180000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3831,7 +3831,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3847,7 +3847,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T180000
 DTEND;TZID=America/New_York:20261201T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3863,7 +3863,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3879,7 +3879,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3895,7 +3895,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T180000
 DTEND;TZID=America/New_York:20261222T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -3911,7 +3911,7 @@ URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T180000
 DTEND;TZID=America/New_York:20261112T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -3926,7 +3926,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T180000
 DTEND;TZID=America/New_York:20261119T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -3941,7 +3941,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T180000
 DTEND;TZID=America/New_York:20261203T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -3956,7 +3956,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T180000
 DTEND;TZID=America/New_York:20261210T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -3971,7 +3971,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -3986,7 +3986,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T183000
 DTEND;TZID=America/New_York:20261109T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4000,7 +4000,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T183000
 DTEND;TZID=America/New_York:20261116T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4014,7 +4014,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4028,7 +4028,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4042,7 +4042,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4056,7 +4056,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4070,7 +4070,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -4084,7 +4084,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T063000
 DTEND;TZID=America/New_York:20261107T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4100,7 +4100,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T063000
 DTEND;TZID=America/New_York:20261114T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4116,7 +4116,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T063000
 DTEND;TZID=America/New_York:20261121T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4132,7 +4132,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T063000
 DTEND;TZID=America/New_York:20261128T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4148,7 +4148,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T063000
 DTEND;TZID=America/New_York:20261205T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4164,7 +4164,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T063000
 DTEND;TZID=America/New_York:20261212T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4180,7 +4180,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-breakfast-club-run-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T063000
 DTEND;TZID=America/New_York:20261219T083000
 SUMMARY:Breakfast Club long run · Jubala Coffee
@@ -4196,7 +4196,7 @@ URL:https://meetup.com/the-breakfast-club-runners
 END:VEVENT
 BEGIN:VEVENT
 UID:r-climbing-meetup-20261113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261113T183000
 DTEND;TZID=America/New_York:20261113T203000
 SUMMARY:Climbing meetup · Triangle Rock Club (Salvage Yard)
@@ -4214,7 +4214,7 @@ URL:https://www.meetup.com/raleighrockclimbing/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T190000
 DTEND;TZID=America/New_York:20261110T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4230,7 +4230,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T190000
 DTEND;TZID=America/New_York:20261117T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4246,7 +4246,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T190000
 DTEND;TZID=America/New_York:20261124T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4262,7 +4262,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T190000
 DTEND;TZID=America/New_York:20261201T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4278,7 +4278,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T190000
 DTEND;TZID=America/New_York:20261208T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4294,7 +4294,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4310,7 +4310,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-wolfe-and-porter-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T220000
 SUMMARY:Trivia · Wolfe & Porter
@@ -4326,7 +4326,7 @@ URL:https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-po
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4342,7 +4342,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4358,7 +4358,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4374,7 +4374,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4390,7 +4390,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4406,7 +4406,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4422,7 +4422,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T190000
 DTEND;TZID=America/New_York:20261223T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -4438,7 +4438,7 @@ URL:https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261112@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -4452,7 +4452,7 @@ URL:https://www.raleighbrewing.com/neil-street
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -4466,7 +4466,7 @@ URL:https://www.raleighbrewing.com/neil-street
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -4480,7 +4480,7 @@ URL:https://www.raleighbrewing.com/neil-street
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -4494,7 +4494,7 @@ URL:https://www.raleighbrewing.com/neil-street
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -4508,7 +4508,7 @@ URL:https://www.raleighbrewing.com/neil-street
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4524,7 +4524,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4540,7 +4540,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4556,7 +4556,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4572,7 +4572,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4588,7 +4588,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4604,7 +4604,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -4620,7 +4620,7 @@ URL:https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4638,7 +4638,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4656,7 +4656,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4674,7 +4674,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4692,7 +4692,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4710,7 +4710,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4728,7 +4728,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -4746,7 +4746,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4763,7 +4763,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4780,7 +4780,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4797,7 +4797,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4814,7 +4814,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4831,7 +4831,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4848,7 +4848,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -4865,7 +4865,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4884,7 +4884,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4903,7 +4903,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4922,7 +4922,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4941,7 +4941,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4960,7 +4960,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4979,7 +4979,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -4998,7 +4998,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -5017,7 +5017,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-science-cafe-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T200000
 SUMMARY:Science Cafe · NC Museum of Natural Sciences
@@ -5034,7 +5034,7 @@ URL:https://naturalsciences.org/calendar/events/category/audience/adults/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-science-cafe-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T200000
 SUMMARY:Science Cafe · NC Museum of Natural Sciences
@@ -5051,7 +5051,7 @@ URL:https://naturalsciences.org/calendar/events/category/audience/adults/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-silent-book-club-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T200000
 SUMMARY:Silent Book Club · Oberlin Regional Library
@@ -5069,7 +5069,7 @@ URL:https://www.wake.gov/events/silent-book-club-oberlin-regional-library-1
 END:VEVENT
 BEGIN:VEVENT
 UID:r-comedyworx-intro-to-improv-20270109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Intro to improv class · ComedyWorx
@@ -5087,7 +5087,7 @@ URL:https://www.comedyworx.com/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:r-comedyworx-intro-to-improv-20270111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Intro to improv class · ComedyWorx
@@ -5105,7 +5105,7 @@ URL:https://www.comedyworx.com/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:r-skip-the-small-talk-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Skip the Small Talk · Crank Arm Brewing
@@ -5122,7 +5122,7 @@ URL:https://www.meetup.com/skip-the-small-talk-raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cross-stitch-workshop-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T130000
 DTEND;TZID=America/New_York:20261121T160000
 SUMMARY:Intro to cross stitch · Pullen Arts Center
@@ -5138,7 +5138,7 @@ URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
 END:VEVENT
 BEGIN:VEVENT
 UID:r-screen-printing-workshop-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261206T100000
 DTEND;TZID=America/New_York:20261206T160000
 SUMMARY:Screen printing workshop · Pullen Arts Center
@@ -5154,7 +5154,7 @@ URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261108@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261108T080000
 DTEND;TZID=America/New_York:20261108T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5170,7 +5170,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T080000
 DTEND;TZID=America/New_York:20261115T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5186,7 +5186,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T080000
 DTEND;TZID=America/New_York:20261122T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5202,7 +5202,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261129T080000
 DTEND;TZID=America/New_York:20261129T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5218,7 +5218,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261206T080000
 DTEND;TZID=America/New_York:20261206T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5234,7 +5234,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T080000
 DTEND;TZID=America/New_York:20261213T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5250,7 +5250,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261220@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261220T080000
 DTEND;TZID=America/New_York:20261220T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -5266,7 +5266,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -5286,7 +5286,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261126@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261126T183000
 DTEND;TZID=America/New_York:20261126T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -5306,7 +5306,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -5326,7 +5326,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261210@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -5346,7 +5346,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -5366,7 +5366,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5384,7 +5384,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5402,7 +5402,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261127@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5420,7 +5420,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261204@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5438,7 +5438,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261211@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5456,7 +5456,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -5474,7 +5474,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-co-op-volunteering-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T120000
 SUMMARY:Beginner volunteer session · Durham Bike Co-op
@@ -5492,7 +5492,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-repair-clinic-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Pop-up bike repair clinic · Durham Farmers' Market
@@ -5510,7 +5510,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-climbing-meetup-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:Climbing meetup · Triangle Rock Club Durham
@@ -5532,7 +5532,7 @@ URL:https://www.meetup.com/raleighrockclimbing/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-clay-cozy-winter-critters-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:One-day clay: cozy winter critters · Claymakers
@@ -5550,7 +5550,7 @@ URL:https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw
 END:VEVENT
 BEGIN:VEVENT
 UID:d-clay-winter-candleholders-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T183000
 DTEND;TZID=America/New_York:20261121T203000
 SUMMARY:One-day clay: winter candleholders · Claymakers
@@ -5570,7 +5570,7 @@ URL:https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholder
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-20270104@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Wheel\, Monday · Durham Arts Council (9 weeks)
@@ -5588,7 +5588,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-2-20270105@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Wheel\, Tuesday · Durham Arts Council (10 weeks)
@@ -5606,7 +5606,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-3-20270107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270107T100000
 DTEND;TZID=America/New_York:20270107T123000
 SUMMARY:Wheel\, Thursday AM · Durham Arts Council (10 weeks)
@@ -5623,7 +5623,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-4-20270107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:Wheel\, Thursday PM · Durham Arts Council (10 weeks)
@@ -5641,7 +5641,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-20270105@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270105T100000
 DTEND;TZID=America/New_York:20270105T123000
 SUMMARY:Hand-building\, Tue AM · Durham Arts Council (10 weeks)
@@ -5658,7 +5658,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-2-20270106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Hand-building\, Wed PM · Durham Arts Council (10 weeks)
@@ -5676,7 +5676,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sculptural-hand-building-20270105@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Sculptural clay · Durham Arts Council (10 weeks)
@@ -5694,7 +5694,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -5713,7 +5713,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -5732,7 +5732,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270115T183000
 DTEND;TZID=America/New_York:20270115T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -5749,7 +5749,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -5766,7 +5766,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270205T183000
 DTEND;TZID=America/New_York:20270205T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -5784,7 +5784,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270219T183000
 DTEND;TZID=America/New_York:20270219T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -5802,7 +5802,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-drawing-fundamentals-20270107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Drawing fundamentals · Durham Arts Council (10 weeks)
@@ -5817,7 +5817,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-loose-watercolor-techniques-20270107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T203000
 SUMMARY:Loose watercolor · Durham Arts Council (6 weeks)
@@ -5833,7 +5833,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-watercolor-20270105@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270105T090000
 DTEND;TZID=America/New_York:20270105T120000
 SUMMARY:Beginning watercolor · Durham Arts Council (6 weeks)
@@ -5849,7 +5849,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-acrylic-painting-20270217@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270217T180000
 DTEND;TZID=America/New_York:20270217T210000
 SUMMARY:Intro to acrylics · Durham Arts Council (4 weeks)
@@ -5865,7 +5865,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-winter-watercolor-botanicals-20270129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Winter watercolor botanicals · Durham Arts Council
@@ -5881,7 +5881,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -5898,7 +5898,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -5915,7 +5915,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-linocut-i-intro-to-printmak-20270106@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T203000
 SUMMARY:Linocut I printmaking · Durham Arts Council (6 weeks)
@@ -5931,7 +5931,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-of-life-copper-wrapped-20270122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Tree of life copper pendant · Durham Arts Council
@@ -5947,7 +5947,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-garment-sewing-int-20270113@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
 SUMMARY:Beginner garment sewing · Durham Arts Council (6 weeks)
@@ -5963,7 +5963,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-crochet-20270107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Beginner crochet · Durham Arts Council (8 weeks)
@@ -5978,7 +5978,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-macrame-wall-hanging-20270129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Macrame wall hanging · Durham Arts Council
@@ -5994,7 +5994,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-silk-scarf-batik-20270108@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270108T180000
 DTEND;TZID=America/New_York:20270108T210000
 SUMMARY:Silk scarf batik · Durham Arts Council
@@ -6009,7 +6009,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sashiko-101-20270205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270205T180000
 DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Sashiko 101 · Durham Arts Council
@@ -6025,7 +6025,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-embroidery-basics-20270219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T200000
 SUMMARY:Embroidery basics · Durham Arts Council
@@ -6041,7 +6041,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-knitting-workshop-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T180000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Beginning knitting · The Scrap Exchange
@@ -6057,7 +6057,7 @@ URL:https://thescrapexchange.as.me/KnittingIntro
 END:VEVENT
 BEGIN:VEVENT
 UID:d-faux-leather-long-stitch-jou-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T200000
 SUMMARY:Faux leather journal workshop · The Scrap Exchange
@@ -6073,7 +6073,7 @@ URL:https://thescrapexchange.as.me/LongStitchJournal
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T110000
 DTEND;TZID=America/New_York:20261121T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -6090,7 +6090,7 @@ URL:https://thescrapexchange.as.me/SewingMachineBasics
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -6107,7 +6107,7 @@ URL:https://thescrapexchange.as.me/SewingMachineBasics
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-reduction-printmaking-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T140000
 DTEND;TZID=America/New_York:20261122T170000
 SUMMARY:Intro to reduction printmaking · The Scrap Exchange
@@ -6123,7 +6123,7 @@ URL:https://thescrapexchange.as.me/Reduction
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-hand-embroidery-wor-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Intro to hand embroidery · The Scrap Exchange
@@ -6138,7 +6138,7 @@ URL:https://thescrapexchange.as.me/Embroidery
 END:VEVENT
 BEGIN:VEVENT
 UID:d-scraps-to-sheets-handmade-p-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Handmade papermaking · The Scrap Exchange
@@ -6154,7 +6154,7 @@ URL:https://thescrapexchange.as.me/Papermaking
 END:VEVENT
 BEGIN:VEVENT
 UID:d-yay-you-re-gonna-crochet-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Intro to crochet · The Scrap Exchange
@@ -6169,7 +6169,7 @@ URL:https://thescrapexchange.as.me/IntroToCrochet
 END:VEVENT
 BEGIN:VEVENT
 UID:d-make-your-own-linocut-stamp-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T110000
 DTEND;TZID=America/New_York:20261219T130000
 SUMMARY:Linocut stamp making · The Scrap Exchange
@@ -6184,7 +6184,7 @@ URL:https://thescrapexchange.as.me/Stamp
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sips-and-scribbles-adult-jour-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T140000
 DTEND;TZID=America/New_York:20261219T160000
 SUMMARY:Adult journaling party · The Scrap Exchange
@@ -6198,7 +6198,7 @@ URL:https://thescrapexchange.as.me/Party
 END:VEVENT
 BEGIN:VEVENT
 UID:r-snowman-hat-workshop-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T130000
 DTEND;TZID=America/New_York:20261205T160000
 SUMMARY:Snowman hat pottery · Pullen Arts Center (2 sessions)
@@ -6217,7 +6217,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drawing-discovery-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T100000
 DTEND;TZID=America/New_York:20261201T113000
 SUMMARY:Drawing discovery · Pullen Arts Center (3 sessions)
@@ -6236,7 +6236,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-screen-printing-with-waterco-20261129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261129T100000
 DTEND;TZID=America/New_York:20261129T160000
 SUMMARY:Screen printing with watercolors · Pullen Arts Center
@@ -6258,7 +6258,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-chunky-knit-scarves-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T130000
 DTEND;TZID=America/New_York:20261205T150000
 SUMMARY:Chunky knit scarves\, Saturday · Pullen Arts Center
@@ -6278,7 +6278,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-chunky-knit-scarves-2-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Chunky knit scarves\, Tuesday · Pullen Arts Center
@@ -6298,7 +6298,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-introduction-to-japanese-shi-20261203@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261203T130000
 DTEND;TZID=America/New_York:20261203T160000
 SUMMARY:Japanese shibori · Pullen Arts Center
@@ -6317,7 +6317,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drawer-box-with-partitions-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T100000
 DTEND;TZID=America/New_York:20261202T130000
 SUMMARY:Bookmaking box · Pullen Arts Center (3 sessions)
@@ -6336,7 +6336,7 @@ URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiction-book-club-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -6354,7 +6354,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15961444
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiction-book-club-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -6372,7 +6372,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15961444
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T093000
 DTEND;TZID=America/New_York:20261109T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6389,7 +6389,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6406,7 +6406,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T093000
 DTEND;TZID=America/New_York:20261123T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6423,7 +6423,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T093000
 DTEND;TZID=America/New_York:20261130T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6440,7 +6440,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T093000
 DTEND;TZID=America/New_York:20261207T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6457,7 +6457,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T093000
 DTEND;TZID=America/New_York:20261214T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6474,7 +6474,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T093000
 DTEND;TZID=America/New_York:20261221T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -6491,7 +6491,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-library-taskmaster-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T193000
 SUMMARY:Library Taskmaster (21+) · Durham Main Library
@@ -6510,7 +6510,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17285805
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261108@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261108T090000
 DTEND;TZID=America/New_York:20261108T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6528,7 +6528,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T090000
 DTEND;TZID=America/New_York:20261115T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6546,7 +6546,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6564,7 +6564,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261129@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261129T090000
 DTEND;TZID=America/New_York:20261129T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6582,7 +6582,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261206@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261206T090000
 DTEND;TZID=America/New_York:20261206T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6600,7 +6600,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261213@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6618,7 +6618,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261220@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261220T090000
 DTEND;TZID=America/New_York:20261220T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -6636,7 +6636,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bike-library-open-mic-20261120@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261120T190000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Open mic · The Bike Library
@@ -6652,7 +6652,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bike-library-open-mic-20261218@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261218T190000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Open mic · The Bike Library
@@ -6668,7 +6668,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-spanish-night-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T180000
 DTEND;TZID=America/New_York:20261121T210000
 SUMMARY:Spanish night · The Bike Library
@@ -6681,7 +6681,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261110@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261110T070000
 DTEND;TZID=America/New_York:20261110T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6699,7 +6699,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261117@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261117T070000
 DTEND;TZID=America/New_York:20261117T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6717,7 +6717,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261124T070000
 DTEND;TZID=America/New_York:20261124T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6735,7 +6735,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T070000
 DTEND;TZID=America/New_York:20261201T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6753,7 +6753,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261208@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261208T070000
 DTEND;TZID=America/New_York:20261208T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6771,7 +6771,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261215@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261215T070000
 DTEND;TZID=America/New_York:20261215T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6789,7 +6789,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261222T070000
 DTEND;TZID=America/New_York:20261222T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -6807,7 +6807,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-craft-night-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Craft night · The Bike Library
@@ -6820,7 +6820,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261109@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261109T130000
 DTEND;TZID=America/New_York:20261109T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6838,7 +6838,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T130000
 DTEND;TZID=America/New_York:20261111T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6856,7 +6856,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T130000
 DTEND;TZID=America/New_York:20261116T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6874,7 +6874,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T130000
 DTEND;TZID=America/New_York:20261118T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6892,7 +6892,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261123T130000
 DTEND;TZID=America/New_York:20261123T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6910,7 +6910,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T130000
 DTEND;TZID=America/New_York:20261125T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6928,7 +6928,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261130@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261130T130000
 DTEND;TZID=America/New_York:20261130T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6946,7 +6946,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T130000
 DTEND;TZID=America/New_York:20261202T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6964,7 +6964,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261207@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261207T130000
 DTEND;TZID=America/New_York:20261207T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -6982,7 +6982,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T130000
 DTEND;TZID=America/New_York:20261209T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -7000,7 +7000,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261214@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261214T130000
 DTEND;TZID=America/New_York:20261214T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -7018,7 +7018,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T130000
 DTEND;TZID=America/New_York:20261216T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -7036,7 +7036,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261221T130000
 DTEND;TZID=America/New_York:20261221T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -7054,7 +7054,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T130000
 DTEND;TZID=America/New_York:20261223T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -7072,7 +7072,7 @@ URL:https://fpcraleigh.org/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-dac-registration-opens-20261204@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261204T100000
 DTEND;TZID=America/New_York:20261204T120000
 SUMMARY:Winter class registration opens · Durham Arts Council
@@ -7086,7 +7086,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pullen-registration-opens-20261201@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261201T053000
 DTEND;TZID=America/New_York:20261201T073000
 SUMMARY:Winter class registration opens · Pullen Arts Center
@@ -7100,7 +7100,7 @@ URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
 END:VEVENT
 BEGIN:VEVENT
 UID:r-family-volunteer-day-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T100000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Family volunteer day · Activate Good
@@ -7120,7 +7120,7 @@ URL:https://activategood.org/family-volunteer-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 SUMMARY:Tree planting training · Trees for the Triangle
@@ -7136,7 +7136,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-diaper-wrapping-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Diaper wrapping · Diaper Bank of NC
@@ -7153,7 +7153,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-east-durham-food-help-20261119@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Food distribution · Communities in Partnership
@@ -7171,7 +7171,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T131500
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -7188,7 +7188,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-dog-treat-baking-coach-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T090000
 DTEND;TZID=America/New_York:20261116T120000
 SUMMARY:Dog treat baking coach · Ella & Bella
@@ -7204,20 +7204,607 @@ DESCRIPTION:Coach adults with disabilities as they bake dog treats. It's a
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:r-adaptive-bowling-coach-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
-DTSTART;TZID=America/New_York:20261114T101500
-DTEND;TZID=America/New_York:20261114T130000
-SUMMARY:Adaptive bowling coach · Endless Sports
-LOCATION:Endless Sports Inc.\, Cary\, NC (exact location on the sign-up lis
- ting)
-DESCRIPTION:Coach and cheer on bowlers of all abilities with an inclusive s
- ports nonprofit. It's an upbeat\, social way to spend a Saturday morning.\
- n\nHow to join: Sign up for 'Bowling Coaches Needed for People of All-Abil
- ities' on volunteer.activategood.org (search for the title).\n\nBefore you
-  go: Two more dates are posted on the same listing. Confirm the location a
- fter you sign up.\n\nhttps://volunteer.activategood.org/\n\nListed on Same
-  Time Next Week.
-URL:https://volunteer.activategood.org/
+UID:r-friday-night-magic-20261113@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T223000
+SUMMARY:Friday Night Magic · Game Theory
+LOCATION:Game Theory (Duraleigh Corners)\, 5910 Duraleigh Rd #125\, Raleigh
+ \, NC 27612
+DESCRIPTION:Weekly casual Magic: The Gathering tournament night with three 
+ formats: a booster draft\, Standard and Modern. Each round pairs you with 
+ a new opponent.\n\nThree events run side by side: a Star Trek booster draf
+ t\, Standard and Modern. No Friday Night Magic on Nov 27 (Black Friday sal
+ e).\n\nHow to join: Show up a little early to register and pay in the stor
+ e\n\nhttps://gametheorystore.com/calendar/\n\nListed on Same Time Next Wee
+ k.
+URL:https://gametheorystore.com/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-night-magic-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T183000
+DTEND;TZID=America/New_York:20261120T223000
+SUMMARY:Friday Night Magic · Game Theory
+LOCATION:Game Theory (Duraleigh Corners)\, 5910 Duraleigh Rd #125\, Raleigh
+ \, NC 27612
+DESCRIPTION:Weekly casual Magic: The Gathering tournament night with three 
+ formats: a booster draft\, Standard and Modern. Each round pairs you with 
+ a new opponent.\n\nThree events run side by side: a Star Trek booster draf
+ t\, Standard and Modern. No Friday Night Magic on Nov 27 (Black Friday sal
+ e).\n\nHow to join: Show up a little early to register and pay in the stor
+ e\n\nhttps://gametheorystore.com/calendar/\n\nListed on Same Time Next Wee
+ k.
+URL:https://gametheorystore.com/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-night-magic-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T183000
+DTEND;TZID=America/New_York:20261204T223000
+SUMMARY:Friday Night Magic · Game Theory
+LOCATION:Game Theory (Duraleigh Corners)\, 5910 Duraleigh Rd #125\, Raleigh
+ \, NC 27612
+DESCRIPTION:Weekly casual Magic: The Gathering tournament night with three 
+ formats: a booster draft\, Standard and Modern. Each round pairs you with 
+ a new opponent.\n\nThree events run side by side: a Star Trek booster draf
+ t\, Standard and Modern. No Friday Night Magic on Nov 27 (Black Friday sal
+ e).\n\nHow to join: Show up a little early to register and pay in the stor
+ e\n\nhttps://gametheorystore.com/calendar/\n\nListed on Same Time Next Wee
+ k.
+URL:https://gametheorystore.com/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-night-magic-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T223000
+SUMMARY:Friday Night Magic · Game Theory
+LOCATION:Game Theory (Duraleigh Corners)\, 5910 Duraleigh Rd #125\, Raleigh
+ \, NC 27612
+DESCRIPTION:Weekly casual Magic: The Gathering tournament night with three 
+ formats: a booster draft\, Standard and Modern. Each round pairs you with 
+ a new opponent.\n\nThree events run side by side: a Star Trek booster draf
+ t\, Standard and Modern. No Friday Night Magic on Nov 27 (Black Friday sal
+ e).\n\nHow to join: Show up a little early to register and pay in the stor
+ e\n\nhttps://gametheorystore.com/calendar/\n\nListed on Same Time Next Wee
+ k.
+URL:https://gametheorystore.com/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-night-magic-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T183000
+DTEND;TZID=America/New_York:20261218T223000
+SUMMARY:Friday Night Magic · Game Theory
+LOCATION:Game Theory (Duraleigh Corners)\, 5910 Duraleigh Rd #125\, Raleigh
+ \, NC 27612
+DESCRIPTION:Weekly casual Magic: The Gathering tournament night with three 
+ formats: a booster draft\, Standard and Modern. Each round pairs you with 
+ a new opponent.\n\nThree events run side by side: a Star Trek booster draf
+ t\, Standard and Modern. No Friday Night Magic on Nov 27 (Black Friday sal
+ e).\n\nHow to join: Show up a little early to register and pay in the stor
+ e\n\nhttps://gametheorystore.com/calendar/\n\nListed on Same Time Next Wee
+ k.
+URL:https://gametheorystore.com/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-game-night-lgbt-center-20261113@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261113T180000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Game night · LGBT Center of Raleigh
+LOCATION:LGBT Center of Raleigh\, 128 E Cabarrus St\, Raleigh\, NC 27601
+DESCRIPTION:Monthly board game night for LGBTQ+ people and allies to hang o
+ ut and play tabletop games together downtown.\n\nMasks (KN95 or better) ar
+ e required\; the Center provides them.\n\nHow to join: Just show up\n\nhtt
+ ps://www.lgbtcenterofraleigh.com/calendar\n\nListed on Same Time Next Week
+ .
+URL:https://www.lgbtcenterofraleigh.com/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:r-game-night-lgbt-center-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T180000
+DTEND;TZID=America/New_York:20261211T210000
+SUMMARY:Game night · LGBT Center of Raleigh
+LOCATION:LGBT Center of Raleigh\, 128 E Cabarrus St\, Raleigh\, NC 27601
+DESCRIPTION:Monthly board game night for LGBTQ+ people and allies to hang o
+ ut and play tabletop games together downtown.\n\nMasks (KN95 or better) ar
+ e required\; the Center provides them.\n\nHow to join: Just show up\n\nhtt
+ ps://www.lgbtcenterofraleigh.com/calendar\n\nListed on Same Time Next Week
+ .
+URL:https://www.lgbtcenterofraleigh.com/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:r-folky-friday-song-circle-20261113@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261113T190000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:Folky Friday song circle · UU Fellowship of Raleigh
+LOCATION:Unitarian Universalist Fellowship of Raleigh (Peace Hall\, Room 20
+ 1)\, 3313 Wade Ave\, Raleigh\, NC 27607
+DESCRIPTION:A low-key acoustic song circle. Everyone sits in a circle with 
+ a shared folk songbook and takes turns choosing a song to sing or play.\n\
+ nRoom 201 in Peace Hall\; park in the upper lot.\n\nHow to join: Just show
+  up\n\nhttps://uufr.org/connect/music-at-uufr/\n\nListed on Same Time Next
+  Week.
+URL:https://uufr.org/connect/music-at-uufr/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-folky-friday-song-circle-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T190000
+DTEND;TZID=America/New_York:20261211T210000
+SUMMARY:Folky Friday song circle · UU Fellowship of Raleigh
+LOCATION:Unitarian Universalist Fellowship of Raleigh (Peace Hall\, Room 20
+ 1)\, 3313 Wade Ave\, Raleigh\, NC 27607
+DESCRIPTION:A low-key acoustic song circle. Everyone sits in a circle with 
+ a shared folk songbook and takes turns choosing a song to sing or play.\n\
+ nRoom 201 in Peace Hall\; park in the upper lot.\n\nHow to join: Just show
+  up\n\nhttps://uufr.org/connect/music-at-uufr/\n\nListed on Same Time Next
+  Week.
+URL:https://uufr.org/connect/music-at-uufr/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-coffee-house-open-mic-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T193000
+DTEND;TZID=America/New_York:20261120T213000
+SUMMARY:Coffee House open mic · UU Fellowship of Raleigh
+LOCATION:Unitarian Universalist Fellowship of Raleigh (Founders Hall)\, 331
+ 3 Wade Ave\, Raleigh\, NC 27607
+DESCRIPTION:A monthly open mic for music\, poetry and stories in the hall u
+ nder the sanctuary. Each performer gets one 10-minute set\, and you're wel
+ come to just listen.\n\nPerformers sign up on a limited list starting arou
+ nd 7pm.\n\nHow to join: Just show up\; to perform\, add your name to the l
+ ist when you arrive\n\nhttps://uufr.org/connect/music-at-uufr/\n\nListed o
+ n Same Time Next Week.
+URL:https://uufr.org/connect/music-at-uufr/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-coffee-house-open-mic-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T193000
+DTEND;TZID=America/New_York:20261218T213000
+SUMMARY:Coffee House open mic · UU Fellowship of Raleigh
+LOCATION:Unitarian Universalist Fellowship of Raleigh (Founders Hall)\, 331
+ 3 Wade Ave\, Raleigh\, NC 27607
+DESCRIPTION:A monthly open mic for music\, poetry and stories in the hall u
+ nder the sanctuary. Each performer gets one 10-minute set\, and you're wel
+ come to just listen.\n\nPerformers sign up on a limited list starting arou
+ nd 7pm.\n\nHow to join: Just show up\; to perform\, add your name to the l
+ ist when you arrive\n\nhttps://uufr.org/connect/music-at-uufr/\n\nListed o
+ n Same Time Next Week.
+URL:https://uufr.org/connect/music-at-uufr/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-improv-jam-20261106@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261106T190000
+DTEND;TZID=America/New_York:20261106T210000
+SUMMARY:Community improv jam · Leela Improv Theatre
+LOCATION:Leela Improv Theatre\, 309 N Boylan Ave\, Raleigh\, NC 27603
+DESCRIPTION:A free monthly improv jam: a Leela host leads a warm-up\, then 
+ games and scenes anyone can jump into. First-timers and experienced improv
+ isers play together.\n\nAlcohol-free and for adults (18+).\n\nHow to join:
+  Register free on Eventbrite through leela-nc.com/jams\n\nhttps://leela-nc
+ .com/jams/\n\nListed on Same Time Next Week.
+URL:https://leela-nc.com/jams/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-improv-jam-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T190000
+DTEND;TZID=America/New_York:20261204T210000
+SUMMARY:Community improv jam · Leela Improv Theatre
+LOCATION:Leela Improv Theatre\, 309 N Boylan Ave\, Raleigh\, NC 27603
+DESCRIPTION:A free monthly improv jam: a Leela host leads a warm-up\, then 
+ games and scenes anyone can jump into. First-timers and experienced improv
+ isers play together.\n\nAlcohol-free and for adults (18+).\n\nHow to join:
+  Register free on Eventbrite through leela-nc.com/jams\n\nhttps://leela-nc
+ .com/jams/\n\nListed on Same Time Next Week.
+URL:https://leela-nc.com/jams/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-coffee-outside-ride-20261106@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261106T073000
+DTEND;TZID=America/New_York:20261106T100000
+SUMMARY:Coffee Outside ride · Oak City Cycling
+LOCATION:Oak City Cycling (ride ends at Dix Park)\, 707 N Person St\, Ralei
+ gh\, NC 27604
+DESCRIPTION:A short\, social first-Friday ride from Oak City Cycling to Dix
+  Park\, where riders brew or pour coffee outdoors and hang out.\n\nRolls o
+ ut at 7:30am. Rain can move it to another morning\, so check the Oaks & Sp
+ okes calendar.\n\nHow to join: Just show up with a bike\n\nhttps://oaksand
+ spokes.org/events/\n\nListed on Same Time Next Week.
+URL:https://oaksandspokes.org/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-coffee-outside-ride-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T073000
+DTEND;TZID=America/New_York:20261204T100000
+SUMMARY:Coffee Outside ride · Oak City Cycling
+LOCATION:Oak City Cycling (ride ends at Dix Park)\, 707 N Person St\, Ralei
+ gh\, NC 27604
+DESCRIPTION:A short\, social first-Friday ride from Oak City Cycling to Dix
+  Park\, where riders brew or pour coffee outdoors and hang out.\n\nRolls o
+ ut at 7:30am. Rain can move it to another morning\, so check the Oaks & Sp
+ okes calendar.\n\nHow to join: Just show up with a bike\n\nhttps://oaksand
+ spokes.org/events/\n\nListed on Same Time Next Week.
+URL:https://oaksandspokes.org/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-critical-mass-ride-20261127@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261127T190000
+DTEND;TZID=America/New_York:20261127T203000
+SUMMARY:Critical Mass group ride · NC State Memorial Belltower
+LOCATION:Memorial Belltower\, NC State\, 2011 Hillsborough St\, Raleigh\, N
+ C 27607
+DESCRIPTION:Raleigh's big monthly evening group ride. Any human-powered whe
+ els are welcome: bikes\, scooters\, skateboards and skates.\n\nRolls at 7p
+ m. It's dark by then\, so bring front and rear lights.\n\nHow to join: Jus
+ t show up\n\nhttps://oaksandspokes.org/events/\n\nListed on Same Time Next
+  Week.
+URL:https://oaksandspokes.org/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-game-night-quest-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T180000
+DTEND;TZID=America/New_York:20261120T200000
+SUMMARY:Friday game night · Quest (Garner)
+LOCATION:Quest Fellowship Church\, 5120 Raynor Rd\, Garner\, NC 27529
+DESCRIPTION:A big board game night\, usually 50 to 80 people\, with a libra
+ ry of 200+ games and volunteers who teach them. Ages 16+\, or younger with
+  a parent.\n\nDrop in any time after 6pm\; it runs until about midnight. I
+ t meets about twice a month on Fridays\, and the next date after Nov 20 is
+ n't posted yet.\n\nHow to join: Just show up (RSVP on Meetup if you like)\
+ n\nhttps://www.meetup.com/game-nights-at-quest/\n\nListed on Same Time Nex
+ t Week.
+URL:https://www.meetup.com/game-nights-at-quest/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261106@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261106T183000
+DTEND;TZID=America/New_York:20261106T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261113@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T183000
+DTEND;TZID=America/New_York:20261120T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T183000
+DTEND;TZID=America/New_York:20261204T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-international-folk-dancing-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T183000
+DTEND;TZID=America/New_York:20261218T220000
+SUMMARY:International folk dancing · Glen Eden Pilot Park
+LOCATION:Glen Eden Pilot Park Community Center\, 1500 Glen Eden Dr\, Raleig
+ h\, NC 27612
+DESCRIPTION:Circle and line dances from cultures around the world\, with no
+  partner needed. The Raleigh International Folk Dancers have met on Friday
+ s since 1968\, and the early part of the night is for teaching easier danc
+ es.\n\nEasier dances are taught early in the evening. From December the ci
+ ty lists it as 6:30-9pm. On holiday weekends (like Nov 27)\, check with th
+ e group first.\n\nHow to join: Just show up\n\nhttps://www.trianglefolkdan
+ cers.org/home/rifd\n\nListed on Same Time Next Week.
+URL:https://www.trianglefolkdancers.org/home/rifd
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-3-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T130000
+DTEND;TZID=America/New_York:20261120T153000
+SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Sort and repack donated food into family-size bags and boxes wi
+ th a big crew of other volunteers at the Food Bank's Raleigh warehouse.\n\
+ nOnly these two Friday afternoons have open spots right now\; Friday morni
+ ngs are waitlisted. The Food Bank is closed Nov 27 and Dec 25.\n\nHow to j
+ oin: Register online and pick the Friday 1–3:30pm Warehouse Project slot
+  on the volunteer calendar on the Raleigh location page. Spots are limited
+ \, so book early.\n\nhttps://foodbankcenc.org/locations/raleigh/\n\nListed
+  on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-3-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T130000
+DTEND;TZID=America/New_York:20261211T153000
+SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Sort and repack donated food into family-size bags and boxes wi
+ th a big crew of other volunteers at the Food Bank's Raleigh warehouse.\n\
+ nOnly these two Friday afternoons have open spots right now\; Friday morni
+ ngs are waitlisted. The Food Bank is closed Nov 27 and Dec 25.\n\nHow to j
+ oin: Register online and pick the Friday 1–3:30pm Warehouse Project slot
+  on the volunteer calendar on the Raleigh location page. Spots are limited
+ \, so book early.\n\nhttps://foodbankcenc.org/locations/raleigh/\n\nListed
+  on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T130000
+DTEND;TZID=America/New_York:20261120T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T130000
+DTEND;TZID=America/New_York:20261211T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T130000
+DTEND;TZID=America/New_York:20261218T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-express-volunteer-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T160000
+DTEND;TZID=America/New_York:20261218T214500
+SUMMARY:Holiday Express volunteer · Pullen Park
+LOCATION:Pullen Park\, 520 Ashe Ave\, Raleigh\, NC 27606
+DESCRIPTION:Help run games\, crafts\, s'mores and photo stations at Holiday
+  Express\, Pullen Park's December lights-and-Santa festival for families. 
+ You're assigned a zone when you arrive.\n\nThe earlier Friday nights (Dec 
+ 4 and Dec 11) are already full.\n\nHow to join: Create a free account in R
+ aleigh Parks' CERVIS volunteer system and register for 'Night 18' (Fri\, D
+ ec 18) of 2026 Holiday Express Event Volunteers.\n\nhttps://www.cervistech
+ .com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105\n\nListed on Sa
+ me Time Next Week.
+URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&or
+ g_id=0105
+END:VEVENT
+BEGIN:VEVENT
+UID:r-winterfaire-volunteer-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T153000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Winterfaire volunteer · Moore Square
+LOCATION:Moore Square\, 226 E Martin St\, Raleigh\, NC 27601
+DESCRIPTION:Help set up and run crafts\, lawn games and Santa activities on
+  opening night of Moore Square Winterfaire\, a free downtown holiday festi
+ val with local vendors.\n\nThree Friday shifts: noon–4pm (setup)\, 3:30
+ –7pm (setup and activities) and 6:30–10:30pm (activities and breakdown
+ ). Weekend shifts are posted too.\n\nHow to join: Create a free account in
+  Raleigh Parks' CERVIS volunteer system and pick a Friday shift under '202
+ 6 Moore Square Winterfaire Event Support'.\n\nhttps://www.cervistech.com/a
+ cts/webreg/eventdetail.php?event_id=3397&org_id=0105\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&or
+ g_id=0105
+END:VEVENT
+BEGIN:VEVENT
+UID:r-christmas-store-volunteer-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T164500
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
+LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
+DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
+  parents buy donated gifts for their kids at reduced prices. Volunteers gr
+ eet shoppers\, restock\, help in the store and wrap gifts.\n\nThere's also
+  a 2:45–5pm shift both Fridays\, plus a Saturday morning shift on Dec 12
+ .\n\nHow to join: Sign up for a shift on the store's Activate Good listing
+  (free account).\n\nhttps://volunteer.activategood.org/opportunities/SP05i
+ s1u7q\n\nListed on Same Time Next Week.
+URL:https://volunteer.activategood.org/opportunities/SP05is1u7q
+END:VEVENT
+BEGIN:VEVENT
+UID:r-christmas-store-volunteer-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T164500
+DTEND;TZID=America/New_York:20261218T190000
+SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
+LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
+DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
+  parents buy donated gifts for their kids at reduced prices. Volunteers gr
+ eet shoppers\, restock\, help in the store and wrap gifts.\n\nThere's also
+  a 2:45–5pm shift both Fridays\, plus a Saturday morning shift on Dec 12
+ .\n\nHow to join: Sign up for a shift on the store's Activate Good listing
+  (free account).\n\nhttps://volunteer.activategood.org/opportunities/SP05i
+ s1u7q\n\nListed on Same Time Next Week.
+URL:https://volunteer.activategood.org/opportunities/SP05is1u7q
+END:VEVENT
+BEGIN:VEVENT
+UID:r-feet-friendly-fridays-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T183000
+DTEND;TZID=America/New_York:20261120T203000
+SUMMARY:Beginner line dancing · John Chavis Community Center
+LOCATION:John Chavis Community Center\, 505 Martin Luther King Jr Blvd\, Ra
+ leigh\, NC 27601
+DESCRIPTION:Feet Friendly Fridays teaches the basic steps of hip-hop and so
+ ul line dancing and how to follow called cues\, so new dances come easier.
+  Expect a good workout.\n\nThe center is closed Nov 27\, and this fall ses
+ sion ends Dec 4.\n\nHow to join: Register for the date you want in Raleigh
+  RecLink (search 'Feet Friendly Fridays') by the day before\, or call the 
+ center at 919-996-6590.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/
+ iteminfo.html?Module=AR&FMID=516873199\n\nListed on Same Time Next Week.
+URL:https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&
+ FMID=516873199
+END:VEVENT
+BEGIN:VEVENT
+UID:r-feet-friendly-fridays-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T183000
+DTEND;TZID=America/New_York:20261204T203000
+SUMMARY:Beginner line dancing · John Chavis Community Center
+LOCATION:John Chavis Community Center\, 505 Martin Luther King Jr Blvd\, Ra
+ leigh\, NC 27601
+DESCRIPTION:Feet Friendly Fridays teaches the basic steps of hip-hop and so
+ ul line dancing and how to follow called cues\, so new dances come easier.
+  Expect a good workout.\n\nThe center is closed Nov 27\, and this fall ses
+ sion ends Dec 4.\n\nHow to join: Register for the date you want in Raleigh
+  RecLink (search 'Feet Friendly Fridays') by the day before\, or call the 
+ center at 919-996-6590.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/
+ iteminfo.html?Module=AR&FMID=516873199\n\nListed on Same Time Next Week.
+URL:https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&
+ FMID=516873199
+END:VEVENT
+BEGIN:VEVENT
+UID:r-candle-making-night-20261204@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261204T183000
+DTEND;TZID=America/New_York:20261204T200000
+SUMMARY:Candle making night · Brier Creek Community Center
+LOCATION:Brier Creek Community Center\, 10810 Globe Rd\, Raleigh\, NC 27617
+DESCRIPTION:A Gals & Pals Night Out craft evening from Raleigh Parks: make 
+ candles\, sip a mocktail and meet other adults. The series is meant for ma
+ king new friends as much as crafts.\n\nHow to join: Register in Raleigh Re
+ cLink (activity CCGALSPALS-001) by Dec 3\, or call the center at 919-996-3
+ 301.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Modul
+ e=AR&FMID=517706770\n\nListed on Same Time Next Week.
+URL:https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&
+ FMID=517706770
+END:VEVENT
+BEGIN:VEVENT
+UID:r-ornament-making-night-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T200000
+SUMMARY:Ornament making night · Kiwanis Community Center
+LOCATION:Kiwanis Community Center\, 2525 Noble Rd\, Raleigh\, NC 27608
+DESCRIPTION:A Gals & Pals Night Out craft evening from Raleigh Parks: make 
+ handmade holiday ornaments\, sip a mocktail and meet other adults.\n\nHow 
+ to join: Register in Raleigh RecLink (activity CCGALSPALS-028) by Dec 10\,
+  or call the center at 919-996-3135.\n\nhttps://ncraleighweb.myvscloud.com
+ /webtrac/web/iteminfo.html?Module=AR&FMID=517607774\n\nListed on Same Time
+  Next Week.
+URL:https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&
+ FMID=517607774
+END:VEVENT
+BEGIN:VEVENT
+UID:r-wheel-throwing-class-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T180000
+DTEND;TZID=America/New_York:20261211T193000
+SUMMARY:Beginner wheel throwing · Klaystation
+LOCATION:Klaystation\, 3516 Spring Forest Rd\, Raleigh\, NC 27616
+DESCRIPTION:A one-time\, 90-minute intro to the pottery wheel. Your clay co
+ mes centered\, and an instructor walks the group through throwing a basic 
+ cup and bowl.\n\nSaturday classes are also posted for Nov 28\, Dec 5 and D
+ ec 12.\n\nHow to join: Book the Friday\, Dec 11\, 6pm 'Beginners Wheel Thr
+ owing Class' on Klaystation's booking page.\n\nhttps://app.getoccasion.com
+ /p/n/5cjnvvSL\n\nListed on Same Time Next Week.
+URL:https://app.getoccasion.com/p/n/5cjnvvSL
 END:VEVENT
 END:VCALENDAR

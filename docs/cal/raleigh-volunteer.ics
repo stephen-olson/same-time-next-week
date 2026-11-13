@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -46,7 +46,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -64,7 +64,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -82,7 +82,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -100,7 +100,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -118,7 +118,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -136,7 +136,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -154,7 +154,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261107@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -171,7 +171,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -188,7 +188,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -205,7 +205,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -222,7 +222,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -239,7 +239,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -256,7 +256,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -273,7 +273,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -292,7 +292,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -311,7 +311,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -330,7 +330,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -349,7 +349,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -368,7 +368,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -387,7 +387,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -406,7 +406,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -425,7 +425,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-family-volunteer-day-20261121@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261121T100000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Family volunteer day · Activate Good
@@ -445,7 +445,7 @@ URL:https://activategood.org/family-volunteer-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261122@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261122T131500
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -462,7 +462,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-dog-treat-baking-coach-20261116@same-time-next-week
-DTSTAMP:20261113T201106Z
+DTSTAMP:20261113T222019Z
 DTSTART;TZID=America/New_York:20261116T090000
 DTEND;TZID=America/New_York:20261116T120000
 SUMMARY:Dog treat baking coach · Ella & Bella
@@ -478,20 +478,158 @@ DESCRIPTION:Coach adults with disabilities as they bake dog treats. It's a
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:r-adaptive-bowling-coach-20261114@same-time-next-week
-DTSTAMP:20261113T201106Z
-DTSTART;TZID=America/New_York:20261114T101500
-DTEND;TZID=America/New_York:20261114T130000
-SUMMARY:Adaptive bowling coach · Endless Sports
-LOCATION:Endless Sports Inc.\, Cary\, NC (exact location on the sign-up lis
- ting)
-DESCRIPTION:Coach and cheer on bowlers of all abilities with an inclusive s
- ports nonprofit. It's an upbeat\, social way to spend a Saturday morning.\
- n\nHow to join: Sign up for 'Bowling Coaches Needed for People of All-Abil
- ities' on volunteer.activategood.org (search for the title).\n\nBefore you
-  go: Two more dates are posted on the same listing. Confirm the location a
- fter you sign up.\n\nhttps://volunteer.activategood.org/\n\nListed on Same
-  Time Next Week.
-URL:https://volunteer.activategood.org/
+UID:r-food-bank-sort-3-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T130000
+DTEND;TZID=America/New_York:20261120T153000
+SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Sort and repack donated food into family-size bags and boxes wi
+ th a big crew of other volunteers at the Food Bank's Raleigh warehouse.\n\
+ nOnly these two Friday afternoons have open spots right now\; Friday morni
+ ngs are waitlisted. The Food Bank is closed Nov 27 and Dec 25.\n\nHow to j
+ oin: Register online and pick the Friday 1–3:30pm Warehouse Project slot
+  on the volunteer calendar on the Raleigh location page. Spots are limited
+ \, so book early.\n\nhttps://foodbankcenc.org/locations/raleigh/\n\nListed
+  on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-food-bank-sort-3-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T130000
+DTEND;TZID=America/New_York:20261211T153000
+SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
+LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
+ Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
+ lvd)
+DESCRIPTION:Sort and repack donated food into family-size bags and boxes wi
+ th a big crew of other volunteers at the Food Bank's Raleigh warehouse.\n\
+ nOnly these two Friday afternoons have open spots right now\; Friday morni
+ ngs are waitlisted. The Food Bank is closed Nov 27 and Dec 25.\n\nHow to j
+ oin: Register online and pick the Friday 1–3:30pm Warehouse Project slot
+  on the volunteer calendar on the Raleigh location page. Spots are limited
+ \, so book early.\n\nhttps://foodbankcenc.org/locations/raleigh/\n\nListed
+  on Same Time Next Week.
+URL:https://foodbankcenc.org/locations/raleigh/
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261120@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261120T130000
+DTEND;TZID=America/New_York:20261120T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T130000
+DTEND;TZID=America/New_York:20261211T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-clothing-prep-shift-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T130000
+DTEND;TZID=America/New_York:20261218T160000
+SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
+LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
+ \, Raleigh\, NC 27616
+DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
+ and families who need it\, working alongside other volunteers.\n\nHow to j
+ oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
+ Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
+ teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
+ e Next Week.
+URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
+END:VEVENT
+BEGIN:VEVENT
+UID:r-holiday-express-volunteer-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T160000
+DTEND;TZID=America/New_York:20261218T214500
+SUMMARY:Holiday Express volunteer · Pullen Park
+LOCATION:Pullen Park\, 520 Ashe Ave\, Raleigh\, NC 27606
+DESCRIPTION:Help run games\, crafts\, s'mores and photo stations at Holiday
+  Express\, Pullen Park's December lights-and-Santa festival for families. 
+ You're assigned a zone when you arrive.\n\nThe earlier Friday nights (Dec 
+ 4 and Dec 11) are already full.\n\nHow to join: Create a free account in R
+ aleigh Parks' CERVIS volunteer system and register for 'Night 18' (Fri\, D
+ ec 18) of 2026 Holiday Express Event Volunteers.\n\nhttps://www.cervistech
+ .com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105\n\nListed on Sa
+ me Time Next Week.
+URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&or
+ g_id=0105
+END:VEVENT
+BEGIN:VEVENT
+UID:r-winterfaire-volunteer-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T153000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Winterfaire volunteer · Moore Square
+LOCATION:Moore Square\, 226 E Martin St\, Raleigh\, NC 27601
+DESCRIPTION:Help set up and run crafts\, lawn games and Santa activities on
+  opening night of Moore Square Winterfaire\, a free downtown holiday festi
+ val with local vendors.\n\nThree Friday shifts: noon–4pm (setup)\, 3:30
+ –7pm (setup and activities) and 6:30–10:30pm (activities and breakdown
+ ). Weekend shifts are posted too.\n\nHow to join: Create a free account in
+  Raleigh Parks' CERVIS volunteer system and pick a Friday shift under '202
+ 6 Moore Square Winterfaire Event Support'.\n\nhttps://www.cervistech.com/a
+ cts/webreg/eventdetail.php?event_id=3397&org_id=0105\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&or
+ g_id=0105
+END:VEVENT
+BEGIN:VEVENT
+UID:r-christmas-store-volunteer-20261211@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261211T164500
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
+LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
+DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
+  parents buy donated gifts for their kids at reduced prices. Volunteers gr
+ eet shoppers\, restock\, help in the store and wrap gifts.\n\nThere's also
+  a 2:45–5pm shift both Fridays\, plus a Saturday morning shift on Dec 12
+ .\n\nHow to join: Sign up for a shift on the store's Activate Good listing
+  (free account).\n\nhttps://volunteer.activategood.org/opportunities/SP05i
+ s1u7q\n\nListed on Same Time Next Week.
+URL:https://volunteer.activategood.org/opportunities/SP05is1u7q
+END:VEVENT
+BEGIN:VEVENT
+UID:r-christmas-store-volunteer-20261218@same-time-next-week
+DTSTAMP:20261113T222019Z
+DTSTART;TZID=America/New_York:20261218T164500
+DTEND;TZID=America/New_York:20261218T190000
+SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
+LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
+DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
+  parents buy donated gifts for their kids at reduced prices. Volunteers gr
+ eet shoppers\, restock\, help in the store and wrap gifts.\n\nThere's also
+  a 2:45–5pm shift both Fridays\, plus a Saturday morning shift on Dec 12
+ .\n\nHow to join: Sign up for a shift on the store's Activate Good listing
+  (free account).\n\nhttps://volunteer.activategood.org/opportunities/SP05i
+ s1u7q\n\nListed on Same Time Next Week.
+URL:https://volunteer.activategood.org/opportunities/SP05is1u7q
 END:VEVENT
 END:VCALENDAR
