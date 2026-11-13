@@ -345,8 +345,8 @@ def main():
         c = {k: v for k, v in e.items() if not k.startswith("_") and k not in
              ("recurrence", "dates", "except", "schedule", "tier", "hold", "holdReason", "holdSince", "evidence")}
         c.update(occ=[x.isoformat() for x in occ], rtext=rtext(e, occ, today), free=free, costShort=short_cost)
-        town = re.search(r",\s*([A-Za-z .'-]+?),\s*NC\b", e.get("address") or "")
-        if town and town.group(1).strip() not in ("Durham", "Raleigh"):
+        town = re.search(r"(?:^|,)\s*([A-Za-z .'-]+?),\s*NC\b", e.get("address") or "")
+        if town and not re.search(r"durham|raleigh", town.group(1), re.I):
             c["area"] = town.group(1).strip()
         if e["kind"] == "event" and not occ:
             continue  # nothing to show right now
