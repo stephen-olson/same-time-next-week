@@ -1,0 +1,24 @@
+name: Something's wrong with a listing
+description: A listing is out of date, cancelled, or has the wrong time or place.
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: input
+    id: listing
+    attributes:
+      label: Which listing?
+      placeholder: e.g. Contra Dance in Carrboro
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      placeholder: e.g. It moved to Thursdays, or it didn't happen last week.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where did you see the correct info? (optional)
+      placeholder: Link or "I was there"

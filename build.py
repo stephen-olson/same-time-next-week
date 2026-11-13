@@ -315,11 +315,17 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "docs"))
     ap.add_argument("--site-url", default="")
     ap.add_argument("--report-url", default="")
+    ap.add_argument("--suggest-url", default="")
     ap.add_argument("--preview", default="")
     args = ap.parse_args()
 
     today = d(args.today)
     out = Path(args.out)
+    cfg_path = ROOT / "config.json"
+    cfg = json.loads(cfg_path.read_text()) if cfg_path.exists() else {}
+    site_url = args.site_url or cfg.get("siteUrl", "")
+    report_url = args.report_url or cfg.get("reportUrl", "")
+    suggest_url = args.suggest_url or cfg.get("suggestUrl", "")
     events = json.loads((ROOT / "data" / "events.json").read_text())["events"]
     validate(events)
     hol = holidays(range(today.year - 1, today.year + 2))
@@ -346,8 +352,9 @@ def main():
     data = {
         "generated": today.isoformat(),
         "horizonEnd": (today + dt.timedelta(days=HORIZON_DAYS)).isoformat(),
-        "siteUrl": args.site_url,
-        "reportUrl": args.report_url,
+        "siteUrl": site_url,
+        "reportUrl": report_url,
+        "suggestUrl": suggest_url,
         "preview": False,
         "holidays": hol_labels,
         "events": client,
@@ -367,9 +374,16 @@ def main():
         '<meta name="theme-color" content="#F4F6F1" media="(prefers-color-scheme: light)">\n'
         '<meta name="theme-color" content="#101411" media="(prefers-color-scheme: dark)">\n'
         '<meta name="apple-mobile-web-app-title" content="Same Time Next Week">\n'
-        '<meta property="og:title" content="Same Time Next Week">\n'
-        '<meta property="og:description" content="Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run clubs, game nights and volunteer shifts. Re-checked weekly.">\n'
+        '<meta property="og:type" content="website">\n<meta property="og:site_name" content="Same Time Next Week">\n'
+        '<meta property="og:title" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n'
+        '<meta property="og:description" content="Jams, dances, run clubs, game nights and volunteer shifts that happen every week or month. Just show up, and keep coming back. Checked weekly.">\n'
+        '<meta name="twitter:card" content="summary_large_image">\n'
     )
+    if site_url:
+        extra_head += (f'<meta property="og:url" content="{site_url}">\n'
+                       f'<meta property="og:image" content="{site_url}og-card.png">\n'
+                       '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+                       '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n')
     out.mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(f'<!doctype html>\n<html lang="en">\n<head>\n{extra_head}{head}</head>\n<body>\n{page(False)}</body>\n</html>\n')
     write_feeds(events, out, today, stamp)
@@ -386,6 +400,8 @@ def main():
         if not p.exists():
             p.write_bytes(png(size))
     (out / ".nojekyll").write_text("")
+    for asset in sorted((ROOT / "assets").glob("*")) if (ROOT / "assets").is_dir() else []:
+        (out / asset.name).write_bytes(asset.read_bytes())
     if args.preview:
         Path(args.preview).write_text(head + page(True))
 

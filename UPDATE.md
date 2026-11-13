@@ -42,8 +42,9 @@ Anything that needs joining first (memberships like Toastmasters, applications, 
    - Two weekly misses in a row, or the organizer says it ended: set `hold: true`, `holdReason`, `holdSince`.
    - Held for 8+ weeks with no sign of life: delete the listing.
    - A held listing that shows new activity: remove `hold` and set `lastChecked`.
-4. **Don't add new listings automatically.** If you find a strong candidate that meets every rule, add it to `data/candidates.json` (same fields, plus a `whyItQualifies` note) for the owner to review.
-5. Keep text written for visitors: plain, short, no mention of how the information was found.
-6. Rebuild: `python3 -I build.py --site-url "<site url>"`. It must print a `built ...` line with no error. Always rebuild weekly, even if nothing changed, because the six-week window moves with the build date.
-7. Publish: commit `data/` and `docs/` with the message `Weekly listing check YYYY-MM-DD` and push.
-8. Write a short summary: listings updated, put on hold, removed, new dates added, and candidates suggested.
+4. **Read visitor reports.** List open GitHub issues (`gh issue list --repo stephen-olson/same-time-next-week --state open`). For each issue labeled `problem`, check the organizer's page and fix the listing if the report is right. For each issue labeled `suggestion`, check it against the rules above. Don't comment on, label or close issues: the owner does that.
+5. **Don't add new listings automatically.** If you find a strong candidate that meets every rule, add it to `data/candidates.json` (same fields, plus a `whyItQualifies` note) for the owner to review.
+6. Keep text written for visitors: plain, short, no mention of how the information was found.
+7. Rebuild: `python3 -I build.py` (the site address and form links come from `config.json`). It must print a `built ...` line with no error. Always rebuild weekly, even if nothing changed, because the six-week window moves with the build date.
+8. Publish: commit `data/` and `docs/` with the message `Weekly listing check YYYY-MM-DD` and push.
+9. Write a short summary: listings updated, put on hold, removed, new dates added, and candidates suggested.

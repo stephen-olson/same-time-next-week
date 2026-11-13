@@ -256,6 +256,12 @@ a { color: var(--ink-fg); }
 .visits { color: var(--muted); font-size: 14px; }
 .desc { margin: 14px 0 0; }
 .goodtoknow { margin: 12px 0 0; font-size: 14.5px; }
+.firsttime { margin: 16px 0 0; padding: 12px 14px; border-radius: 12px; background: var(--ink-tint); font-size: 14.5px; }
+.firsttime b { color: var(--ink-fg); }
+.suggest { margin-top: 34px; padding: 20px 22px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; }
+.suggest > div { min-width: 0; flex: 1 1 320px; }
+.suggest h2 { font-family: var(--f-display); font-weight: 800; font-size: 21px; margin: 0 0 4px; }
+.suggest p { margin: 0; color: var(--muted); font-size: 14.5px; max-width: 60ch; }
 .facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 16px; margin: 18px 0; }
 .facts dt { font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
 .facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
@@ -577,6 +583,10 @@ a { color: var(--ink-fg); }
     if (!total && anyFilter()) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
     h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
       (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
+    if (safeUrl(D.suggestUrl)) {
+      h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham or Raleigh: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
+        '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer">Suggest something</a></div>';
+    }
     return h;
   }
 
@@ -699,7 +709,7 @@ a { color: var(--ink-fg); }
   function renderFoot() {
     $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
       '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device.' +
-      (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl) + '" target="_blank" rel="noopener noreferrer">Suggest a listing or report a problem</a>.' : '') + '</p>';
+      (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer">Suggest something we’re missing</a>.' : '') + '</p>';
   }
   function render() { renderTabs(); renderIntro(); renderFilters(); renderView(); renderFoot(); updatePlanCount(); }
 
@@ -812,7 +822,8 @@ a { color: var(--ink-fg); }
         (marked ? I.check : I.plus) + '<span>' + markLabel(k, marked, true) + '</span></button><span class="visits" data-for="' + e.id + '">' + esc(visitsText(e.id)) + '</span></div>';
     }
     if (e.description) h += '<p class="desc">' + esc(e.description) + '</p>';
-    if (e.timeNote) h += '<p class="goodtoknow"><b>Good to know:</b> ' + esc(e.timeNote) + '</p>';
+    if (e.firstTime) h += '<div class="firsttime"><b>First time?</b> ' + esc(e.firstTime) + '</div>';
+    else if (e.timeNote) h += '<p class="goodtoknow"><b>Good to know:</b> ' + esc(e.timeNote) + '</p>';
     h += '<dl class="facts">';
     if (e.venue || e.address) h += '<dt>Where</dt><dd><b>' + esc(e.venue || '') + '</b>' + (e.address ? '<br><span class="addr">' + esc(e.address) + '</span>' : '') + '</dd>';
     h += '<dt>Cost</dt><dd>' + esc(e.cost || 'Not listed') + '</dd>';
@@ -837,7 +848,8 @@ a { color: var(--ink-fg); }
         }).join('') + '</div></div>';
       }
     }
-    h += '<p class="checked">Last checked ' + esc(fullDate(e.lastChecked || D.generated)) + '.</p>';
+    h += '<p class="checked">Last checked ' + esc(fullDate(e.lastChecked || D.generated)) + '.' +
+      (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl + '&title=' + encodeURIComponent('Problem: ' + e.title)) + '" target="_blank" rel="noopener noreferrer">Something wrong with this listing?</a>' : '') + '</p>';
     return h;
   }
   function openEvent(id, k, push) {

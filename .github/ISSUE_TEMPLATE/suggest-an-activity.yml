@@ -1,0 +1,57 @@
+name: Suggest an activity
+description: Tell us about a regular, newcomer-friendly thing in Durham or Raleigh.
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! We list things that **repeat** (weekly or monthly), are **easy for newcomers**, and that you can **show up to on a date**. Every suggestion is checked against the organizer's own page before it's added.
+  - type: input
+    id: what
+    attributes:
+      label: What is it?
+      placeholder: e.g. Tuesday night swing dance with a beginner lesson
+    validations:
+      required: true
+  - type: dropdown
+    id: city
+    attributes:
+      label: Where in the Triangle?
+      options:
+        - Durham
+        - Raleigh
+        - Chapel Hill or Carrboro
+        - Somewhere else nearby
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When does it happen?
+      placeholder: e.g. Every Tuesday, 7 to 9pm
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Venue and address
+      placeholder: e.g. The Pinhook, 117 W Main St, Durham
+  - type: input
+    id: link
+    attributes:
+      label: Link to the organizer's page or calendar
+      placeholder: https://
+  - type: textarea
+    id: why
+    attributes:
+      label: What makes it easy to join as a newcomer?
+      placeholder: e.g. There's a beginner lesson, people rotate partners, the host introduces new people...
+  - type: dropdown
+    id: entry
+    attributes:
+      label: Can you just show up?
+      options:
+        - Yes, just show up
+        - You sign up for each date (free or a ticket)
+        - Not sure

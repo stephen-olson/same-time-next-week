@@ -27,6 +27,7 @@
    "cost": "Free",
    "description": "Open Irish/Celtic tune jam twice a month at a community-minded meadery; players and listeners welcome. Twice-monthly rhythm means you see the same musicians quickly.",
    "howToJoin": "Just show up with an instrument (or to listen)",
+   "firstTime": "Just show up, no sign-up needed. Bring an instrument, or come to listen. Players and listeners are both welcome.",
    "url": "https://www.moondogmeadery.com/events",
    "verifyNote": "Check around holidays, especially Jan 2.",
    "lastChecked": "2026-11-12"
@@ -54,6 +55,7 @@
    "cost": "Free",
    "description": "Weekly open mic hosted by Deb Aronin: music, comedy, poetry, anything goes in a judgment-free, dog-friendly room. Perform or just come listen; lots of repeat regulars.",
    "howToJoin": "Just show up; register at 6:30pm to perform",
+   "firstTime": "Come at 6:30 if you want to perform: that's when you register. If you'd rather just listen, arrive any time before the 7pm start and grab a seat.",
    "url": "https://www.moondogmeadery.com/events",
    "verifyNote": "Confirm holiday Sundays (Dec 27).",
    "lastChecked": "2026-11-12"
@@ -103,6 +105,7 @@
    "cost": "$10-30 sliding scale",
    "description": "Live-band contra with a beginner lesson; no partner or experience needed and you dance with everyone in the room, which makes it one of the fastest ways to meet people. Same community month to month.",
    "howToJoin": "Just show up for the 7:30 lesson; pay at the door",
+   "firstTime": "Come for the 7:30 lesson. You don't need a partner, and you'll dance with everyone in the room. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "January and February dates aren't posted yet. They'll show up here once Triangle Country Dancers posts them.",
    "lastChecked": "2026-11-12"
@@ -131,6 +134,7 @@
    "cost": "$10-30 sliding ($18-40 on NYE)",
    "description": "Triangle Country Dancers' flagship monthly contra with live music and a beginner lesson; friendly, all-ages crowd that welcomes newcomers.",
    "howToJoin": "Just show up; pay at the door",
+   "firstTime": "Come for the 7:30 beginner lesson. You don't need a partner or experience, and you pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "January and February dates aren't posted yet. The hall is about 12 miles from downtown Durham.",
    "lastChecked": "2026-11-12"
@@ -156,6 +160,7 @@
    "cost": "$10-20 sliding",
    "description": "Monthly first-Saturday contra (occasionally a big-band 'Rushfest!'), lesson included; no partner needed.",
    "howToJoin": "Just show up; pay at the door",
+   "firstTime": "Come for the 7:00 lesson. You don't need a partner, and you pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "Only Dec 5 is posted so far.",
    "lastChecked": "2026-11-12"
@@ -181,6 +186,7 @@
    "cost": "$20 ($16 members) advance; +$5 at door (card only)",
    "description": "TSDS's monthly live-band swing dance with a free beginner lesson; no partner needed.",
    "howToJoin": "Buy tickets on the TSDS site (open ~2 weeks before) or at the door",
+   "firstTime": "Come for the 7pm beginner lesson, which is included. You don't need a partner. Buy a ticket ahead on the TSDS site or pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://triangleswingdancesociety.squarespace.com/events",
    "verifyNote": "Only Nov 21 is posted so far. Dances are roughly monthly, often on the 3rd Saturday, so check for December through February dates.",
    "lastChecked": "2026-11-12"
@@ -208,6 +214,7 @@
    "cost": "$15 drop-in; $120 10-class card",
    "description": "Open-level drop-in modern dance class (ages 16+) at ADF's studios; same weekly group of adult movers.",
    "howToJoin": "Drop in; see ADF's adult class page",
+   "firstTime": "Drop in, no sign-up needed. It's an open-level class for adults, so you don't need to be experienced. Wear clothes you can move in.",
    "url": "https://americandancefestival.org/adult-classes/",
    "verifyNote": "Check for the Winter/Spring 2027 term (typically starts early January).",
    "lastChecked": "2026-11-12"
@@ -235,6 +242,7 @@
    "cost": "Free",
    "description": "Free beginner line-dancing class teaching basic steps and choreography; fun, low-pressure group setting.",
    "howToJoin": "Just show up; questions 919-560-8593",
+   "firstTime": "Just show up, no registration needed. It's a free beginner class that teaches the basic steps. Comfortable shoes help.",
    "url": "https://durhamcountylibrary.libcal.com/event/16884725",
    "verifyNote": "Only November and December dates are posted. About 4 miles from downtown.",
    "lastChecked": "2026-11-12"
@@ -269,6 +277,7 @@
    "cost": "Free",
    "description": "Monthly gallery crawl with openings, receptions and open studios; the same art crowd turns up each month and receptions are easy places to chat.",
    "howToJoin": "Just show up; venue map at downtowndurham.com/thirdfriday",
+   "firstTime": "Just show up any time between 6 and 9 and wander at your own pace. Receptions are easy places to chat. Comfortable walking shoes are a good idea.",
    "url": "https://downtowndurham.com/thirdfriday/",
    "verifyNote": "Individual venue hours vary.",
    "lastChecked": "2026-11-12"
@@ -297,6 +306,7 @@
    "cost": "$10",
    "description": "Monthly uninstructed live-model drawing session from the Draw Y'all group (2,800+ members), built to make figure drawing accessible; beginners and returning artists welcome.",
    "howToJoin": "Get a $10 ticket via the Draw Y'all Meetup; bring your own supplies (no messy media); 18+",
+   "firstTime": "Get your $10 ticket through the Draw Y'all Meetup first. Doors open at 6:30, and beginners are welcome. Bring your own supplies.",
    "url": "https://www.meetup.com/drawyall/events/316966625/",
    "verifyNote": "Meets the first Monday of the month. Dec 7, Jan 4 and Feb 1 aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -327,6 +337,7 @@
    "cost": "$15/session pre-registered or $109 for 8",
    "description": "Weekly moderated, uninstructed figure drawing; a steady group of regulars each Sunday.",
    "howToJoin": "Pre-register online (DAC registration opens Dec 4, 10am); no drop-ins; 16+",
+   "firstTime": "Pre-register online first, since there are no drop-ins. Beginners and returning artists can join a steady group of regulars. Bring drawing supplies.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "DAC also offers free Sunday Studio Sessions (Jan 10, Jan 31, Feb 28, 1-4pm, registration required) and a Friday Long-Pose Figure Group ($40).",
    "lastChecked": "2026-11-12"
@@ -375,6 +386,7 @@
    "cost": "$75",
    "description": "One-day wheel sampler at Durham's long-running community clay studio (still open, Tue-Sat 1-6pm); its ~7-week classes include open-studio access.",
    "howToJoin": "Register at claymakers.org/classes; join the newsletter to hear when the next session opens",
+   "firstTime": "Register first at claymakers.org/classes. It's a one-day sampler, so you don't need to know anything beforehand. Clothes you don't mind getting messy are a good idea.",
    "url": "https://www.claymakers.org/classes",
    "verifyNote": "Dec 5 had 4 spots and Dec 6 had 2 at last check; Nov 20 is sold out. Winter 2027 session dates aren't announced yet.",
    "lastChecked": "2026-11-12"
@@ -407,6 +419,7 @@
    "cost": "$5-10 suggested donation",
    "description": "Monthly drop-in craft night at the nonprofit creative reuse center; no registration.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up, no registration needed. Bring your own project, or join the month's featured craft. The suggested donation is $5-10.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Dec 10 and Jan 14 are posted on the Scrap Exchange workshops page.",
    "lastChecked": "2026-11-12"
@@ -435,6 +448,7 @@
    "cost": "Free (drinks extra)",
    "description": "Weekly social crafting night for knitters, crocheters, cross-stitchers and paper crafters at a downtown brewery.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and bring a work in progress, like knitting or cross-stitch. It's a relaxed social night, so you can chat as much or as little as you like.",
    "url": "https://www.discoverdurham.com/events/craft-draft/",
    "verifyNote": "Meets every Tuesday (next Nov 17). Check holiday weeks.",
    "lastChecked": "2026-11-12"
@@ -463,6 +477,7 @@
    "cost": "Free ($2 optional lifetime barcode)",
    "description": "Durham's big weekly social run (Season 16) from the downtown running store; all paces and lots of regulars.",
    "howToJoin": "Just show up and check in",
+   "firstTime": "Arrive between 5:30 and 6:30 and check in at the store. It's for all paces, so join whichever pace feels right. Bring a water bottle, since it's cup-free.",
    "url": "https://bullcityrunning.com/events/runclub/",
    "verifyNote": "The club's attendance-tracking season runs March to November. Ask at check-in whether the winter runs keep the same time.",
    "lastChecked": "2026-11-12"
@@ -489,6 +504,7 @@
    "cost": "Free",
    "description": "Weekly Saturday morning group run from the downtown shop; good weekend complement to the Wednesday club.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up at 8am at the downtown shop. Bring water, and wear shoes you're comfortable running in.",
    "url": "https://bullcityrunning.com/events/runclub/",
    "verifyNote": "Bull City Running also hosts Trail Run Sundays at 8am on rotating local trails.",
    "lastChecked": "2026-11-12"
@@ -516,6 +532,7 @@
    "cost": "Free",
    "description": "Free weekly downtown group run for all paces that ends back at the brewery for social time.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up. Pick the 2-, 3- or 5-mile route, then head back to the brewery to hang out. Bring water.",
    "url": "https://www.discoverdurham.com/events/crunk-run-club/",
    "verifyNote": "Runs on Mondays, though some info says Tuesdays. Check the brewery before you go.",
    "lastChecked": "2026-11-12"
@@ -545,6 +562,7 @@
    "cost": "Free for members; $10 non-members",
    "description": "Monthly discounted bouldering + community night at the downtown bouldering gym, centered on LGBTQ+ climbers and community-building.",
    "howToJoin": "Book on The Boulder Garden's Capitan schedule",
+   "firstTime": "Book a spot on the gym's schedule first. All climbing levels are welcome. Comfortable clothes you can move in are a good idea.",
    "url": "https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-details/2722/",
    "verifyNote": "Dec 10 is posted. Jan 14 and Feb 11 are expected but not posted yet. The gym also runs an Intro to Bouldering Clinic (e.g., Mon Nov 16, 7:30-9pm, $20 non-members).",
    "lastChecked": "2026-11-12"
@@ -571,6 +589,7 @@
    "cost": "Free",
    "description": "Long-running brewery trivia (500+ editions); join or form a team and become regulars.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and join a team or start one. There are four rounds, and no one needs to be an expert. Arrive a little early to find a table.",
    "url": "https://www.fullsteam.ag/events/",
    "verifyNote": "Fullsteam's calendar lists these Thursdays, but the host says every other Thursday. Check Fullsteam's events page the week you go.",
    "lastChecked": "2026-11-12"
@@ -598,6 +617,7 @@
    "cost": "Free",
    "description": "Weekly downtown pub trivia run by Arturo Sanchez (Quiz From Home); classic way to build a regular team.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and join a team or start one. There are three rounds, so it's an easy way to settle in. Arrive a little early to find a seat.",
    "url": "https://quizfromhome.com/",
    "verifyNote": "Meets Wednesdays. The 8pm start time hasn't been recently confirmed; check quizfromhome.com.",
    "lastChecked": "2026-11-12"
@@ -631,6 +651,7 @@
    "cost": "Free (game-rental table fee waived Mon/Thu)",
    "description": "Twice-weekly open board game night with 350+ games; hosts seat newcomers into games, so it's built for meeting people.",
    "howToJoin": "Just show up; Durham Geeks Meetup / Facebook group / Discord",
+   "firstTime": "Just show up. Hosts seat newcomers into games, so you don't need to bring a group or know the rules.",
    "url": "https://www.meetup.com/durham-geeks",
    "verifyNote": "Skipped Thanksgiving (Nov 26); check other holidays. Same venue: Blood on the Clocktower social-deduction game 2nd Sundays 1-3pm.",
    "lastChecked": "2026-11-12"
@@ -659,6 +680,7 @@
    "cost": "Free (no fee listed)",
    "description": "Weekly open board gaming at Durham's big game store. Also: Friday Night Magic (incl. Commander Mixer), D&D Adventurers League Thursdays, and a Wednesday Commander Nights league (Nov 11-Jan 27).",
    "howToJoin": "Just show up; check the store Discord #weekly-events-digest",
+   "firstTime": "Just show up. You can bring a game or borrow one from the demo shelf, so you don't need to bring anything.",
    "url": "https://www.atomicempire.com/Store/Event/2664",
    "verifyNote": "Space can be limited by other events; ~4 mi SW of downtown.",
    "lastChecked": "2026-11-12"
@@ -686,6 +708,7 @@
    "cost": "Free",
    "description": "Library chess club on selected Saturdays, all ages and skill levels.",
    "howToJoin": "Just show up; questions wynnedavis@dconc.gov",
+   "firstTime": "Just show up. Boards are provided, and beginners get instruction. All ages and skill levels are welcome.",
    "url": "https://durhamcountylibrary.libcal.com/event/17022971",
    "verifyNote": "Jan-Feb dates aren't posted yet. It tends to meet on the 1st and 3rd Saturdays.",
    "lastChecked": "2026-11-12"
@@ -725,6 +748,7 @@
    "cost": "Free",
    "description": "Group sort/repack shifts at the Food Bank's new Durham branch; a standing shift puts you alongside the same volunteers.",
    "howToJoin": "Register online and book via the Durham branch calendar at foodbankcenc.org/durham (requests approved first)",
+   "firstTime": "Register online first, and wait for your request to be approved. You'll work a group shift alongside other volunteers. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/durham",
    "verifyNote": "~4 mi north of downtown; old Angier Ave site is closed.",
    "lastChecked": "2026-11-12"
@@ -865,6 +889,7 @@
    "cost": "Free",
    "description": "Free weekly improv jam: names go in a bucket and everyone gets on stage; beginner-friendly on-ramp to Mettlesome's community.",
    "howToJoin": "Just show up. Improv 101 classes start early Jan 2027 (registration ~early Dec)",
+   "firstTime": "Just show up. Names go in a bucket and everyone gets on stage, so you can join in. Stay as a watcher if you'd rather start that way.",
    "url": "https://www.thisismettlesome.com/live",
    "verifyNote": "Only Nov 5, 12 and 19 are posted, with none on Nov 26. Dec through Feb dates aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -895,6 +920,7 @@
    "cost": "Free",
    "description": "Casual improv-games meetup twice a month; all welcome to play or watch.",
    "howToJoin": "Just show up; meetup.com/durham-community-improv-jam",
+   "firstTime": "Just show up, no sign-up needed. You can play or just watch, so start with whichever feels easier.",
    "url": "https://www.meetup.com/durham-community-improv-jam/",
    "verifyNote": "4th Saturdays fall on Nov 28 and Dec 26 (holiday weekends); check before you go.",
    "lastChecked": "2026-11-12"
@@ -927,6 +953,7 @@
    "cost": "Free",
    "description": "Weekly writing meetup: write together in focused sessions with the same group of writers.",
    "howToJoin": "Register on the library calendar (15 seats)",
+   "firstTime": "Register on the library calendar first, since there are only 15 seats. Bring something to write with, or a laptop. You'll write together in focused sessions.",
    "url": "https://durhamcountylibrary.libcal.com/event/17789775",
    "verifyNote": "The event lists a room but also says 'online event'. Check whether it's in person or on Zoom.",
    "lastChecked": "2026-11-12"
@@ -953,6 +980,7 @@
    "cost": "Free",
    "description": "Free guided bird walks (formerly New Hope Audubon); no reservations, all skill levels, about twice a week in season.",
    "howToJoin": "Just show up; locations posted on newhopebirdalliance.org 1-2 days ahead",
+   "firstTime": "Just show up, no reservation needed. Check the Bird Alliance site a day or two ahead for the meeting spot. All skill levels are welcome. Bring water and comfortable walking shoes.",
    "url": "https://newhopebirdalliance.org/",
    "verifyNote": "December to February walks aren't posted yet (it's Christmas Bird Count season).",
    "lastChecked": "2026-11-12"
@@ -981,6 +1009,7 @@
    "cost": "Free (buy a drink/food)",
    "description": "Weekly drop-in Spanish conversation group; same faces every Thursday.",
    "howToJoin": "RSVP on Meetup (Durham Spanish Conversation Cafe) and drop in",
+   "firstTime": "Drop in, and RSVP on Meetup if you like. Everyone from advanced beginner to native speakers comes, so go at your own level. Buy a drink or food while you're there.",
    "url": "https://www.meetup.com/durham-spanish-conversation-cafe/",
    "verifyNote": "Dates are posted only through Nov 26; check that it continues Dec-Feb. About 7 miles south of downtown.",
    "lastChecked": "2026-11-12"
@@ -1029,6 +1058,7 @@
    "cost": "Free",
    "description": "Pull invasive privet with an Eno River Association crew. Workdays come around about monthly, so the same volunteers keep showing up.",
    "howToJoin": "Register on the Eno River Association's Eventbrite, and join their volunteer email list for future dates",
+   "firstTime": "Register on the Eno River Association's Eventbrite first. It's a morning of pulling privet with a crew. Closed-toe shoes and gloves are a good idea.",
    "url": "https://www.enoriver.org/events-on-the-eno/",
    "verifyNote": "January and February workdays aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -1055,6 +1085,7 @@
    "cost": "Free",
    "description": "Repair trail and clear invasives with the Friends of the Mountains-to-Sea Trail Eno crew, a regular group that works this section through the year.",
    "howToJoin": "Contact the crew leader listed on the Eno River Association events page to sign up",
+   "firstTime": "Contact the crew leader listed on the events page to sign up first. It's a regular group, so you'll work alongside people who know the routine. Closed-toe shoes are a good idea. Bring water.",
    "url": "https://www.enoriver.org/events-on-the-eno/",
    "verifyNote": "Confirm the meeting spot with the crew leader before you go.",
    "lastChecked": "2026-11-12"
@@ -1081,6 +1112,7 @@
    "cost": "Free",
    "description": "A two-hour litter cleanup along MLK Jr Parkway with Keep Durham Beautiful. A good way to meet civic-minded neighbors.",
    "howToJoin": "Sign up through the form on the event page at keepdurhambeautiful.org/events",
+   "firstTime": "Sign up through the event page form first, then meet in the Board of Elections parking lot. It's two hours with other neighbors. Closed-toe shoes are a good idea.",
    "url": "https://keepdurhambeautiful.squarespace.com/events",
    "verifyNote": "Dates are posted only through Dec 13. January and February aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -1107,6 +1139,7 @@
    "cost": "Free",
    "description": "A two-hour litter cleanup along MLK Jr Parkway with Keep Durham Beautiful. A good way to meet civic-minded neighbors.",
    "howToJoin": "Sign up through the form on the event page at keepdurhambeautiful.org/events",
+   "firstTime": "Sign up through the event page form first, then meet in the Lowe's parking lot. It's two hours with other neighbors. Closed-toe shoes are a good idea.",
    "url": "https://keepdurhambeautiful.squarespace.com/events",
    "verifyNote": "Dates are posted only through Dec 13. January and February aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -1135,6 +1168,7 @@
    "cost": "Free",
    "description": "Free monthly meetup for knitters, crocheters and embroiderers at the nonprofit creative reuse center. Bring a project and work alongside other makers.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up with a project, like knitting, crochet or embroidery. You'll work alongside other makers, so chatting is optional.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Check the December date before going.",
    "lastChecked": "2026-11-12"
@@ -1164,6 +1198,7 @@
    "cost": "Check the website",
    "description": "Twice-monthly sewing meetup at the creative reuse center. Work on your own project with other sewists around.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up with your own sewing project. Everyone works on their own thing, so there's no pressure to chat.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Check holiday weeks.",
    "lastChecked": "2026-11-12"
@@ -1188,6 +1223,7 @@
    "cost": "$20 non-members",
    "description": "A beginner clinic at the downtown bouldering gym. A good first step before going to climbing nights on your own.",
    "howToJoin": "Book on The Boulder Garden's online class schedule",
+   "firstTime": "Book a spot on the gym's class schedule first. It's a beginner clinic, so you don't need any experience. Comfortable clothes you can move in are a good idea.",
    "verifyNote": "Only the Nov 16 clinic is posted so far. Check the gym's schedule for later dates.",
    "lastChecked": "2026-11-12"
   },
@@ -1212,6 +1248,7 @@
    "cost": "Free",
    "description": "An evening volunteer shift sorting donated craft materials, set up as a calmer, lower-distraction room.",
    "howToJoin": "Sign up at scrapexchange.org/volunteer (no walk-ins). Ages 18+.",
+   "firstTime": "Sign up online first, since there are no walk-ins. The room is set up to be calmer and lower-distraction. Closed-toe shoes are a good idea.",
    "url": "https://www.scrapexchange.org/volunteer",
    "verifyNote": "One-time special shift. Sign-up is required.",
    "lastChecked": "2026-11-12"
@@ -1240,6 +1277,7 @@
    "cost": "Free",
    "description": "Monthly chapter meeting with a speaker program. It's where you meet the people who lead the bird walks.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up, no sign-up needed. The evening is built around a speaker, so you can listen first. It's also a chance to meet the people who lead the bird walks.",
    "url": "https://newhopebirdalliance.org/",
    "verifyNote": "Confirm the meeting is open to non-members and held in person.",
    "lastChecked": "2026-11-12"
@@ -1264,6 +1302,7 @@
    "cost": "Free",
    "description": "A free guided bird walk with the New Hope Bird Alliance (formerly New Hope Audubon). All skill levels are welcome, and the walk leaders are glad to help beginners.",
    "howToJoin": "Just show up; no reservation needed",
+   "firstTime": "Just show up, no reservation needed. The walk leaders are glad to help beginners. Bring water and comfortable walking shoes.",
    "url": "https://newhopebirdalliance.org/",
    "verifyNote": "The Bird Alliance posts each walk's location a day or two ahead; check the morning of.",
    "lastChecked": "2026-11-13"
@@ -1297,6 +1336,7 @@
    "cost": "Free (no fee listed; PineCone asks players to buy something at venues that sell food or drink)",
    "description": "Circle jam of old-time fiddle tunes led by strong players who leave room for newer ones. Listeners are welcome too. The same regulars come every month.",
    "howToJoin": "Just show up with an instrument, or come to listen",
+   "firstTime": "Just show up with an instrument, or come to listen. This is an up-to-speed jam, and tunes are called by key, so listening first is a fine way to start.",
    "url": "https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/",
    "verifyNote": "Next dates are Dec 10, Jan 14 and Feb 11, though only Dec 10 is on PineCone's calendar so far. Parking at the plaza is very limited.",
    "lastChecked": "2026-11-12"
@@ -1327,6 +1367,7 @@
    "cost": "Free (no fee listed)",
    "description": "Coached jam for people with little or no experience playing with others, facilitated by Jef Walter. Each month has first-timers alongside people who have come for years.",
    "howToJoin": "Just show up with your instrument",
+   "firstTime": "Just show up with your instrument. The first hour is one big group that stops to talk through songs. Every month has first-timers there too.",
    "url": "https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/",
    "verifyNote": "The 3rd-Monday beginner jam is still at Harry's; the separate 4th-Monday open jam moved to Raleigh Brewing. Nov 16 and Dec 21 are posted. Jan 18 (MLK Day) and Feb 15 aren't posted yet.",
    "lastChecked": "2026-11-12"
@@ -1355,6 +1396,7 @@
    "cost": "Free (no fee listed; buy a drink)",
    "description": "Up-to-speed open circle jam on standard bluegrass songs for musicians of all levels. It moved to Raleigh Brewing in September 2026.",
    "howToJoin": "Just show up with your instrument",
+   "firstTime": "Just show up with your instrument, or come to listen. It's an open circle for musicians of all levels. Buy a drink while you're there.",
    "url": "https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/",
    "verifyNote": "Posted dates: Nov 23, Dec 28, Jan 25, Feb 22.",
    "lastChecked": "2026-11-12"
@@ -1382,6 +1424,7 @@
    "cost": "Free (tips for the band welcome)",
    "description": "Free family-friendly bluegrass and roots night every Tuesday, hosted by the Beer & Banjos All-Stars with a different guest each week. It draws a steady crowd of local pickers and fans. It is a concert, not an open jam.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and find a spot. It's a concert, not a jam, so you can simply listen. Sit on the patio in good weather, or inside by the bar when it's cold.",
    "url": "https://pinecone.org/event/beer-and-banjos-emily-burdette/",
    "verifyNote": "Nov 17 and Nov 24 are listed. Check the holiday weeks (Dec 22 and 29).",
    "lastChecked": "2026-11-12"
@@ -1409,6 +1452,7 @@
    "cost": "Free (no cover listed)",
    "description": "Singers, players, poets and emcees take turns backed by a house band. It's a long-running downtown open mic with a regular crowd.",
    "howToJoin": "Sign up at the bar on the night",
+   "firstTime": "Sign up at the bar when you arrive if you want to perform. Listening is fine too. It runs until midnight, so you can come and go.",
    "url": "https://slimsdivebar.com/",
    "verifyNote": "Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the venue. No sign-up time is posted.",
    "lastChecked": "2026-11-12"
@@ -1433,6 +1477,7 @@
    "cost": "Free",
    "description": "First-Thursday open mic for music, poetry and comedy in a small Boylan Heights gallery and community space. The crowd is friendly and the regulars return each month.",
    "howToJoin": "Sign up in person from 5pm",
+   "firstTime": "Sign up in person from 5pm if you want to perform. Or just come to listen, since the crowd is friendly. A house backing band is available.",
    "url": "https://www.rebusworks.us/calendar",
    "verifyNote": "Rebus Works skips January (closed Jan 5–9). February's date isn't posted yet.",
    "lastChecked": "2026-11-12"
@@ -1458,6 +1503,7 @@
    "cost": "$80 ($40 deposit)",
    "description": "One-day bluegrass jamming class taught by Leslie Dare and Susan West. No jam experience is needed if you can tune and change smoothly between G, C, D and A. It's a good way into the PineCone jams.",
    "howToJoin": "Register online at wernickmethod.org (create an account); the songbook is sent after you register",
+   "firstTime": "Register online at wernickmethod.org first, and the songbook is sent after you sign up. Bring your own lunch. You'll want to be comfortable tuning and changing between G, C, D and A.",
    "url": "https://wernickmethod.org/event/ld-sw-2026-12-raleigh",
    "verifyNote": "This is the only Raleigh Wernick class posted for now.",
    "lastChecked": "2026-11-12"
@@ -1487,6 +1533,7 @@
    "cost": "$5",
    "description": "Weekly line dance class taught by Lexi Lloyd, followed by open dancing, for all ages and skill levels. Icebreakers and games make it easy to meet people.",
    "howToJoin": "Just show up",
+   "firstTime": "Come for the beginner lesson, then stay for the open dancing. All ages and skill levels are welcome, and icebreakers help you meet people. Comfortable shoes help.",
    "url": "https://www.transfercofoodhall.com/upcoming-events",
    "verifyNote": "Thursdays are posted through Nov 19. Nov 26 is Thanksgiving, and December through February isn't posted yet. The $5 price was last confirmed in September 2026.",
    "lastChecked": "2026-11-12"
@@ -1516,6 +1563,7 @@
    "cost": "$15 ($12 members, $10 students, $8 after 8:30pm)",
    "description": "Large weekly swing dance with a free lesson; over 100 dancers have been reported on a typical Sunday. Some Sundays add afternoon sessions: ballroom on the 1st Sunday, country on the 2nd.",
    "howToJoin": "Just show up",
+   "firstTime": "Come for the free 6pm East Coast Swing lesson. You can then stay for the later lessons and open dancing. Comfortable shoes with smooth soles help.",
    "url": "https://www.carolinadanceclub.com/",
    "verifyNote": "North Raleigh, about 15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January-February aren't listed. Check the site.",
    "lastChecked": "2026-11-12"
@@ -1545,6 +1593,7 @@
    "cost": "Free",
    "description": "Free self-guided monthly walk through galleries, studios and alternative art spaces downtown, with openings, music and food.",
    "howToJoin": "Just show up; the venue list is on the Downtown Raleigh Alliance First Friday page",
+   "firstTime": "Just show up any time between 6 and 9 and wander at your own pace. Pick a few galleries rather than trying to see them all. Comfortable walking shoes are a good idea.",
    "url": "https://triangleonthecheap.com/first-friday-raleigh",
    "verifyNote": "The January 2027 First Friday falls on New Year's Day. Confirm whether it runs.",
    "lastChecked": "2026-11-12"
@@ -1573,6 +1622,7 @@
    "cost": "Free",
    "description": "Bring any project (stitching, sketching, scrapbooking) and meet other makers over a beer. Hosted by The Anna Effect.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up with any project, like stitching, sketching or scrapbooking. You can work quietly or chat with other makers.",
    "url": "https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/",
    "verifyNote": "Dates are posted through Dec 30, 2026, and it may end around 8:30. Check that it continues in 2027.",
    "lastChecked": "2026-11-12"
@@ -1602,6 +1652,7 @@
    "cost": "Free",
    "description": "Weekly all-paces downtown run with beers and socializing afterward.",
    "howToJoin": "Just show up",
+   "firstTime": "Arrive about 15 minutes early. Pick a 2-, 3- or 5-mile route at your own pace, then hang out at the brewery afterward. Bring water.",
    "url": "https://downtownraleigh.org/do/crank-arm-run-club",
    "verifyNote": "Dates are posted from Nov 17 onward.",
    "lastChecked": "2026-11-12"
@@ -1631,6 +1682,7 @@
    "cost": "Free",
    "description": "Inclusive social run club for all levels, explicitly pitched as a way to exercise and meet people. The bar's Tuesday trivia starts right after.",
    "howToJoin": "Arrive 5-10 minutes early to sign a waiver on your phone; ask for the directors, Aaron or Tyler",
+   "firstTime": "Arrive 5-10 minutes early to sign a waiver on your phone, and ask for the directors, Aaron or Tyler. Routes are 1-5 miles, so pick what suits you. Bring water.",
    "url": "https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/",
    "verifyNote": "Dates are posted through Dec 31, 2026. The club meets at Wolfe & Porter; some older coverage lists other bars.",
    "lastChecked": "2026-11-12"
@@ -1658,6 +1710,7 @@
    "cost": "Free",
    "description": "Weekly all-paces run/walk with a social pint afterward, plus occasional themed runs such as the zombie run and ugly sweater run.",
    "howToJoin": "Just show up; RSVP on Meetup is optional",
+   "firstTime": "Just show up. You can run or walk the 3-4 mile greenway route, then join the group for a pint. Bring water.",
    "url": "https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/",
    "verifyNote": "The next one is listed on Meetup for Nov 18.",
    "lastChecked": "2026-11-12"
@@ -1685,6 +1738,7 @@
    "cost": "Free",
    "description": "Weekly group road ride in three pace groups, then tacos and beer at the brewery.",
    "howToJoin": "Just show up; RSVP on Meetup is optional",
+   "firstTime": "Arrive by 6pm for check-in and rollout. Group C is beginner-friendly at about 12-13 mph. Bring a bike, a helmet and water.",
    "url": "https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/",
    "verifyNote": "The next ride is listed for Nov 17. Confirm it continues in winter darkness and whether lights are required.",
    "lastChecked": "2026-11-12"
@@ -1712,6 +1766,7 @@
    "cost": "Free",
    "description": "Weekly group run from the Ponysaurus taproom, part of Fleet Feet Raleigh's run-club lineup, with a post-run drink.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up at the taproom. It's a group run followed by a drink. Bring water, and wear shoes you're comfortable running in.",
    "url": "https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs",
    "verifyNote": "Check Thanksgiving week (Nov 26).",
    "lastChecked": "2026-11-12"
@@ -1736,6 +1791,7 @@
    "cost": "Free",
    "description": "Weekly community run club that starts from Fleet Feet's Ridgewood store on Wade Ave. One of the few Monday options.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up at the Fleet Feet Ridgewood store. It's a community run club, so you can meet people along the way. Bring water.",
    "url": "https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs",
    "verifyNote": "Confirm the route, pace and who it's open to with the group.",
    "lastChecked": "2026-11-12"
@@ -1763,6 +1819,7 @@
    "cost": "Free",
    "description": "Very active downtown running group (900+ members, rated 5.0) whose Saturday long run ends with a group breakfast.",
    "howToJoin": "RSVP on Meetup and show up",
+   "firstTime": "RSVP on Meetup and show up at Jubala Coffee. Pace groups range from sub-7 to 10+ min per mile, so you can find your pace. Coffee or breakfast with the group follows.",
    "url": "https://meetup.com/the-breakfast-club-runners",
    "verifyNote": "Early start; check Meetup for holiday weekends.",
    "lastChecked": "2026-11-12"
@@ -1788,6 +1845,7 @@
    "cost": "$15 for a first TRC visit including rental gear; $22 after",
    "description": "Climbing group running since 2006 with 2,000+ members. Beginners and people who can't belay yet are welcome, and dinner afterward is part of the routine.",
    "howToJoin": "RSVP on Meetup",
+   "firstTime": "RSVP on Meetup first. Beginners and people who can't belay yet are welcome, and your first visit includes rental gear. Dinner afterward is part of the routine.",
    "url": "https://www.meetup.com/raleighrockclimbing/",
    "verifyNote": "Later Raleigh Fridays aren't visible yet. Check the Meetup page each week.",
    "lastChecked": "2026-11-12"
@@ -1815,6 +1873,7 @@
    "cost": "Free",
    "description": "Free weekly team trivia with gift-certificate prizes. It follows the Stonewall Run Club at the same bar, so you can do both.",
    "howToJoin": "Just show up (join a team or start one)",
+   "firstTime": "Just show up and join a team or start one. It's free, so you can try it once and see. Arrive a little early to find a table.",
    "url": "https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/",
    "verifyNote": "Dates are posted through Dec 29, 2026. Check that it continues in 2027.",
    "lastChecked": "2026-11-12"
@@ -1842,6 +1901,7 @@
    "cost": "Free",
    "description": "Free team pub trivia (pop culture, history, sports, wildcard rounds) for house prizes in Glenwood South.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and join a team or start one. It's free, with a mix of pop culture, history and sports rounds. Arrive a little early to find a table.",
    "url": "https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-garden/106093/",
    "verifyNote": "Dates are posted through Dec 30, 2026. Check that it continues in 2027.",
    "lastChecked": "2026-11-12"
@@ -1868,6 +1928,7 @@
    "cost": "Free (no fee listed)",
    "description": "Weekly Thursday team trivia at a brewery near NC State. The same brewery hosts the run club, bike ride, craft night and bluegrass jam, so regulars overlap.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up and join a team or start one. It's free, and the same brewery hosts several other regular groups. Arrive a little early to find a table.",
    "url": "https://www.raleighbrewing.com/neil-street",
    "verifyNote": "Check Thanksgiving (Nov 26) and Christmas Eve (Dec 24).",
    "lastChecked": "2026-11-12"
@@ -1896,6 +1957,7 @@
    "cost": "Free",
    "description": "Weekly light board game night with a new set of games each week. Whoever wins the most takes home a free 4-pack.",
    "howToJoin": "Just show up; questions to Triangletapsandtables@gmail.com",
+   "firstTime": "Just show up. Each week has a new set of games, so you can jump in alongside everyone else. Questions go to Triangletapsandtables@gmail.com.",
    "url": "https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/",
    "verifyNote": "Dates are posted through Dec 29, 2026. Check that it continues in 2027.",
    "lastChecked": "2026-11-12"
@@ -1926,6 +1988,7 @@
    "cost": "Free",
    "description": "Check and repack donated food into family-sized boxes alongside other volunteers. This is the only after-work session at the Raleigh warehouse.",
    "howToJoin": "Online registration is required: use the volunteer calendar on the Raleigh location page",
+   "firstTime": "Register online first using the volunteer calendar on the Raleigh location page. You'll work alongside other volunteers boxing food. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/locations/raleigh/",
    "verifyNote": "Check the holiday weeks (Nov 25, Dec 23, Dec 30). Ages 12+, under 16 with an adult.",
    "lastChecked": "2026-11-12"
@@ -1955,6 +2018,7 @@
    "cost": "Free",
    "description": "Weekend food-sorting shift at the main Raleigh warehouse. Working beside the same crews is an easy way to talk to people.",
    "howToJoin": "Online registration is required: use the volunteer calendar on the Raleigh location page",
+   "firstTime": "Register online first using the volunteer calendar on the Raleigh location page. You'll work beside the same crews, which makes it easy to talk. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/locations/raleigh/",
    "verifyNote": "Spots fill up; book ahead, especially in the holiday season.",
    "lastChecked": "2026-11-12"
@@ -2009,6 +2073,7 @@
    "cost": "Free",
    "description": "Pack and deliver holiday meals in teams. Unlike onsite shifts at the Mission, no training is required.",
    "howToJoin": "SignUpGenius: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving, signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas",
+   "firstTime": "Sign up first on SignUpGenius and pick a shift time there. No training is required, and you'll work in a team. Closed-toe shoes are a good idea.",
    "url": "https://www.raleighrescue.org/volunteer",
    "verifyNote": "Regular onsite volunteering at the Mission (314 E Hargett St) requires orientation and is for ages 16+.",
    "lastChecked": "2026-11-12"
@@ -2145,6 +2210,7 @@
    "cost": "Free (no fee listed; food and drink for purchase)",
    "description": "Monthly casual science talk and conversation with host Chris Smith and a guest expert, held in the museum cafe after hours. The Nov 19 topic is Sri Lanka's elephants.",
    "howToJoin": "Just show up",
+   "firstTime": "Just show up, no sign-up needed. It's a casual talk with conversation, so you can listen first. The cafe serves food from 5 to 8pm.",
    "url": "https://naturalsciences.org/calendar/events/category/audience/adults/",
    "verifyNote": "Topics for December through February aren't posted. Confirm the Dec 17 session runs.",
    "lastChecked": "2026-11-12"
@@ -2174,6 +2240,7 @@
    "cost": "Free",
    "description": "Official Silent Book Club chapter: bring any book. The intro round gives a low-pressure way to meet other readers.",
    "howToJoin": "Register through the Eventbrite link on the Wake County event page",
+   "firstTime": "Register through the Eventbrite link first, and bring any book. You can share what you're reading in a short introductions round, then settle into quiet reading.",
    "url": "https://www.wake.gov/events/silent-book-club-oberlin-regional-library-19",
    "verifyNote": "Dec 3 is confirmed. The club may skip Jan 7 and restart in February.",
    "lastChecked": "2026-11-12"
@@ -2219,6 +2286,7 @@
    "cost": "Ticketed (price not listed; buy on the organizer's site)",
    "description": "Structured 'big talk' night using conversation prompts based on psychology research. Usually 30-40 people, and it's designed for coming alone.",
    "howToJoin": "Buy a ticket in advance on the Skip the Small Talk site. An RSVP on Meetup isn't enough, and events often sell out with no tickets at the door.",
+   "firstTime": "Buy a ticket in advance on the organizer's site, since a Meetup RSVP isn't enough. Check in around 6:45pm. It's designed for coming alone, with prompts to start conversations.",
    "url": "https://www.meetup.com/skip-the-small-talk-raleigh/",
    "verifyNote": "Only Dec 2 is posted for Raleigh; the group's other nights are in Durham. Watch for January and February dates.",
    "lastChecked": "2026-11-12"
@@ -2243,6 +2311,7 @@
    "cost": "$37 Raleigh residents / $53 non-residents, plus $5 materials",
    "description": "A small one-afternoon workshop at the city's arts center where you learn cross stitch alongside other beginners.",
    "howToJoin": "Register through the City's WebTrac link on Pullen's Take a Class page, or call 919-996-6126",
+   "firstTime": "Register first through the City's WebTrac link, or call 919-996-6126. You'll learn alongside other beginners in a small group, so no experience is needed.",
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
    "lastChecked": "2026-11-12"
@@ -2268,6 +2337,7 @@
    "cost": "$65 Raleigh residents / $80 non-residents",
    "description": "A one-day studio workshop where you print your own designs with paper stencils, working alongside a small group.",
    "howToJoin": "Register through the City's WebTrac link on Pullen's Take a Class page, or call 919-996-6126",
+   "firstTime": "Register first through the City's WebTrac link, or call 919-996-6126. You'll use paper stencils, so you don't need drawing skills. Clothes you don't mind getting messy are a good idea.",
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
    "lastChecked": "2026-11-12"
@@ -2315,6 +2385,7 @@
    "cost": "Not listed",
    "description": "An all-paces group trail run that explores a new local trail each week. A standing weekly run is an easy way to become a familiar face.",
    "howToJoin": "Find the week's trail on Bull City Running's Facebook, Instagram, X/Twitter or Strava club.",
+   "firstTime": "Check Bull City Running's Facebook, Instagram, X/Twitter or Strava club for the week's trail, then arrive for the 8am start. It's for all paces. Bring water.",
    "url": "https://bullcityrunning.com/events/runclub/",
    "verifyNote": "Check BCR's Instagram, Facebook or Strava, or ask in the store, for each week's trail. Cost isn't stated.",
    "lastChecked": "2026-11-13"
@@ -2365,6 +2436,7 @@
    "cost": "$7 per session, or $17/month for unlimited play. New players' first session is free.",
    "description": "Organized-play D&D tables run by a DM. You reserve a seat and play with whoever else signs up, so the table is a ready-made social group, and no experience is needed.",
    "howToJoin": "Reserve a seat on the store's Warhorn portal (look for DDEX games), checking for open seats there before registering and paying on atomicempire.com. Bring dice (sold in store), a pencil and paper, and a miniature or marker. A pre-made character sheet is optional.",
+   "firstTime": "Reserve a seat on the store's Warhorn portal first. No experience is needed, and your first session is free. Bring dice, a pencil and paper, and a miniature or marker.",
    "url": "https://www.atomicempire.com/Store/Event/313",
    "verifyNote": "Jan-Feb 2027 dates aren't posted yet. Check whether the Nov 26 (Thanksgiving) game runs; Dec 24 and Dec 31 aren't listed.",
    "lastChecked": "2026-11-13"
@@ -2393,6 +2465,7 @@
    "cost": "Not listed",
    "description": "A weekly in-store Magic: The Gathering night with several formats, including a 'Commander Mixer'. Structured games make it easy to meet other players.",
    "howToJoin": "Register through the event listings at atomicempire.com/Events, or call the store at (919) 490-7900 to ask the start time and fee.",
+   "firstTime": "Register through the store's event listings, or call (919) 490-7900 to ask the start time and fee. There's a Commander Mixer format, and structured games make it easy to meet players.",
    "url": "https://www.atomicempire.com/Events",
    "verifyNote": "The start time and entry fee aren't posted. Jan-Feb 2027 dates aren't posted yet.",
    "lastChecked": "2026-11-13"
@@ -2419,6 +2492,7 @@
    "cost": "Free",
    "description": "A beginner-level volunteer shift at the community bike shop. Working side by side on bikes makes it easy to talk with other volunteers.",
    "howToJoin": "Sign up or join the waitlist on durhambikecoop.corsizio.com, and check back there for new Saturday Beginner dates.",
+   "firstTime": "Sign up, or join the waitlist, at durhambikecoop.corsizio.com first. It's a beginner-level shift, so you don't need experience. Closed-toe shoes are a good idea.",
    "url": "https://durhambikecoop.corsizio.com/",
    "verifyNote": "The Nov 14 session is waitlisted. Watch corsizio for Dec-Feb dates, which aren't posted yet. No cost is shown.",
    "lastChecked": "2026-11-13"
@@ -2444,6 +2518,7 @@
    "cost": "Free",
    "description": "A volunteer shift helping run a pop-up bike repair clinic at the farmers' market. Working as a team in public is a natural way to meet people.",
    "howToJoin": "Sign up on durhambikecoop.corsizio.com; spots are limited.",
+   "firstTime": "Sign up first at durhambikecoop.corsizio.com, since spots are limited. You'll work as a team helping run the clinic. Closed-toe shoes are a good idea.",
    "url": "https://durhambikecoop.corsizio.com/",
    "verifyNote": "The sign-up page doesn't give a meeting spot, so confirm where to find the co-op's tent. It also doesn't say whether beginners can sign up.",
    "lastChecked": "2026-11-13"
@@ -2532,6 +2607,7 @@
    "cost": "Your first meetup visit to any TRC location is $15, rental harness and shoes included. After that the listing gives the usual meetup rate as $22 'with rental gear if requested'.",
    "description": "An all-levels climbing group, running since 2006, that meets in the gym's roped area, with optional dinner afterward. Roped climbing pairs you with a partner, which makes meeting people easy.",
    "howToJoin": "RSVP on Meetup. Check in at the TRC front desk, then go to the roped area at the back of the gym. Dinner afterward is optional (venue TBD).",
+   "firstTime": "RSVP on Meetup first. Check in at the front desk, then head to the roped area at the back. Your first visit is $15 with rental harness and shoes. Dinner afterward is optional.",
    "url": "https://www.meetup.com/raleighrockclimbing/",
    "verifyNote": "Only some of the group's events are posted, so check Meetup for later Durham Fridays. The four-gym rotation suggests roughly every fourth Friday, but that isn't confirmed.",
    "lastChecked": "2026-11-13"
