@@ -578,27 +578,30 @@
    "city": "durham",
    "kind": "event",
    "entry": "show",
-   "tier": "confirmed",
-   "title": "Trivia with Arturo at Fullsteam",
+   "tier": "regular",
+   "title": "Trivia with Arturo at Fullsteam (American Tobacco Campus)",
    "short": "Trivia (Fullsteam)",
    "category": "games",
-   "dates": [
-    "2026-11-19",
-    "2026-11-26",
-    "2026-12-03"
-   ],
    "start": "19:30",
    "end": "21:30",
    "timeNote": "Four rounds",
-   "venue": "Fullsteam Brewery",
-   "address": "726 Rigsbee Ave, Durham, NC 27701",
+   "venue": "Fullsteam Public House, American Tobacco Campus",
+   "address": "320 Blackwell St, Suite 100, Durham, NC 27701",
    "cost": "Free",
-   "description": "Long-running brewery trivia (500+ editions); join or form a team and become regulars.",
-   "howToJoin": "Just show up",
-   "firstTime": "Just show up and join a team or start one. There are four rounds, and no one needs to be an expert. Arrive a little early to find a table.",
-   "url": "https://www.fullsteam.ag/events/",
-   "verifyNote": "Fullsteam's calendar lists these Thursdays, but the host says every other Thursday. Check Fullsteam's events page the week you go.",
-   "lastChecked": "2026-11-12"
+   "description": "Pub trivia every Thursday, hosted by Arturo, in the Public House at Fullsteam's American Tobacco Campus location downtown. New and returning players are both welcome, and a quiz gives a table plenty to talk about.",
+   "howToJoin": "Show up before 7:30pm and get a table in the Public House. Extra seating opens when there's room.",
+   "firstTime": "Bring a friend or two, or ask the host whether any team could use another player. Arrive a little early to get a table.",
+   "url": "https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19",
+   "verifyNote": "Nov 26 is Thanksgiving. Check Fullsteam's calendar to confirm that week's trivia.",
+   "lastChecked": "2026-11-13",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "evidence": "fullsteam.ag/event/trivia-with-arturo/2026-11-19: Fullsteam's own calendar lists Thu Nov 19, 2026, 7:30–9:30pm, says it 'occurs Weekly on Thursday, starting from Oct 8, 2026', and shows dated sessions Nov 5, 12, 19 and 26 and Dec 3, 2026 (checked Nov 13, 2026)",
+   "solo": false
   },
   {
    "id": "d-trivia-bull-mccabe-s",
@@ -872,21 +875,12 @@
    "city": "durham",
    "kind": "event",
    "entry": "show",
-   "tier": "regular",
+   "tier": "confirmed",
    "title": "Mettlesome Free Improv Jam",
    "short": "Improv jam",
    "category": "learning",
    "solo": true,
    "pick": true,
-   "recurrence": {
-    "type": "weekly",
-    "days": [
-     "Thu"
-    ]
-   },
-   "except": [
-    "2026-11-26"
-   ],
    "start": "20:30",
    "end": "21:30",
    "timeNote": "Harold Night show ($8) at 7:30 just before",
@@ -896,9 +890,13 @@
    "description": "Free weekly improv jam: names go in a bucket and everyone gets on stage; beginner-friendly on-ramp to Mettlesome's community.",
    "howToJoin": "Just show up. Improv 101 classes start early Jan 2027 (registration ~early Dec)",
    "firstTime": "Just show up. Names go in a bucket and everyone gets on stage, so you can join in. Stay as a watcher if you'd rather start that way.",
-   "url": "https://www.thisismettlesome.com/live",
-   "verifyNote": "Only Nov 5, 12 and 19 are posted, with none on Nov 26. Dec through Feb dates aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "url": "https://thisismettlesome.com",
+   "verifyNote": "Only Nov 19 is posted right now. Later dates show up on Mettlesome's calendar as they're announced.",
+   "lastChecked": "2026-11-13",
+   "dates": [
+    "2026-11-19"
+   ],
+   "evidence": "thisismettlesome.com: Mettlesome's own live calendar lists 'Free Improv Jam' on Thu Nov 19, 2026, 8:30–9:30pm, 'Free to attend and participate'. Earlier jams are posted on the same site for Sep 3 and Sep 17, 2026 (thisismettlesome.com/live/2026/9/17/the-improv-jam) (checked Nov 13, 2026)"
   },
   {
    "id": "d-improv-games",
@@ -3811,6 +3809,297 @@
    "howToJoin": "Register online in Raleigh RecLink (Pullen Arts Center, activity # PUARBOOK41-001), or call 919-996-6126.",
    "firstTime": "Bring the $25 supply fee and, if you like, tiny objects (under 1/2 inch) to put inside.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "d-fiction-book-club",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Fiction Book Club at South Regional Library",
+   "short": "Fiction Book Club",
+   "category": "learning",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     3
+    ],
+    "day": "Tue"
+   },
+   "dates": [
+    "2026-11-17"
+   ],
+   "start": "18:30",
+   "end": "19:30",
+   "venue": "Durham County Library – South Regional Library (Adult Programming Room)",
+   "address": "4505 S. Alston Ave, Durham, NC 27713",
+   "cost": "No fee listed",
+   "description": "Adults meet on the third Tuesday of every month to talk about a work of fiction. It's at South Regional Library in south Durham, about 15 minutes from downtown, and everyone has read the same book, so there's always something to talk about.",
+   "howToJoin": "Come to the Adult Programming Room at 6:30pm. Check the library's event page for this month's book.",
+   "firstTime": "Read what you can of the month's book. It's fine to mostly listen at your first meeting. Arrive a few minutes early to get a seat and say hello.",
+   "url": "https://durhamcountylibrary.libcal.com/event/15961444",
+   "verifyNote": "Check the event page for this month's book and whether you need to register.",
+   "evidence": "durhamcountylibrary.libcal.com/event/15961444: the library's own calendar says the club meets 'on the third Tuesday of every month' and lists Tue Nov 17, 2026, 6:30–7:30pm as a scheduled session (checked Nov 13, 2026)",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "d-morning-knitting",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Morning Knitting and Other Handiwork",
+   "short": "Morning Knitting",
+   "category": "art",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "dates": [
+    "2026-11-16",
+    "2026-11-23",
+    "2026-11-30",
+    "2026-12-07",
+    "2026-12-14",
+    "2026-12-21"
+   ],
+   "start": "09:30",
+   "end": "11:30",
+   "venue": "Durham County Library – North Regional Library (North Meeting Room)",
+   "address": "221 Milton Rd, Durham, NC 27712",
+   "cost": "No fee listed",
+   "description": "A Monday-morning group, mostly for socializing, open to knitters, crocheters and anyone doing other handwork. It's at North Regional Library in north Durham. Bring a project and chat while you work. Beginners can get tips from experienced crafters.",
+   "howToJoin": "Drop in with whatever project you're working on.",
+   "firstTime": "Bring any project, even a simple one, and a question to ask. Regulars come to show off their work and help people who are stuck.",
+   "url": "https://durhamcountylibrary.libcal.com/event/15792181",
+   "verifyNote": "On holiday weeks, check the library calendar to confirm it's meeting.",
+   "evidence": "durhamcountylibrary.libcal.com/event/15792181: the library's own calendar lists the weekly Monday 9:30–11:30am series with sessions Nov 16, 23 and 30 and Dec 7, 14 and 21, 2026 (checked Nov 13, 2026)",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "d-library-taskmaster",
+   "city": "durham",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Library Taskmaster! (adults 21+)",
+   "short": "Library Taskmaster",
+   "category": "games",
+   "philanthropy": false,
+   "solo": true,
+   "dates": [
+    "2026-11-16"
+   ],
+   "start": "18:00",
+   "end": "19:30",
+   "venue": "Durham County Library – Main Library (Main Auditorium)",
+   "address": "300 N. Roxboro St, Durham, NC 27701",
+   "cost": "No fee listed",
+   "description": "An adults-only library version of the comedy show Taskmaster. Numbers are drawn to pick contestants for five silly, low-stakes games of wit and creativity, and the game winners meet in a live final. Because players are drawn at random, people who've never met end up playing together.",
+   "howToJoin": "Register on the library's event page, then arrive early. Seats are first come, first served.",
+   "firstTime": "You'll get a number at the door and might be picked to play. Most people watch and cheer, so you can just enjoy the show if you're not picked. It's meant to be silly, and nobody expects you to be good at it.",
+   "url": "https://durhamcountylibrary.libcal.com/event/17285805",
+   "verifyNote": "Ages 21+. Registration is required but doesn't hold a seat, so arrive early.",
+   "evidence": "durhamcountylibrary.libcal.com/event/17285805: library event page for Mon Nov 16, 2026, 6:00–7:30pm, registration open with 66 seats left (checked Nov 13, 2026)",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-java-jog-sunday-run",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Java Jog Sunday Group Run at The Bike Library",
+   "short": "Java Jog Sunday run",
+   "category": "fitness",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Sun"
+    ]
+   },
+   "dates": [
+    "2026-11-15",
+    "2026-11-22",
+    "2026-11-29"
+   ],
+   "start": "09:00",
+   "end": "10:00",
+   "venue": "The Bike Library (TBL Cafe)",
+   "address": "600 W Cabarrus St #113, Raleigh, NC 27603",
+   "cost": "No price posted",
+   "description": "A casual, entry-level Sunday morning group run from The Bike Library's cafe in the Platform Raleigh courtyard. Pace varies by group, and everyone gets coffee afterward, which makes it easy to get to know the regulars.",
+   "howToJoin": "Just show up at the TBL Cafe by 9:00 AM. The run heads out at 9:05 AM.",
+   "firstTime": "Arrive a few minutes early and tell the run leader it's your first time so they can point you to a group at your pace. Coffee afterward is a relaxed time to talk.",
+   "url": "https://thebikelibrary.com/events",
+   "verifyNote": "The start time moved from 8 AM in October to 9 AM in November. Check the events page for the current time and route length.",
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Java Jog on Nov 15, 22 and 29, 2026 (meet 9:00 AM, run 9:05 AM). Its ma.to venue page also shows runs held Oct 18 and Oct 25, 2026. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-bike-library-open-mic",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Open Mic Night at The Bike Library",
+   "short": "Bike Library open mic",
+   "category": "music",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     3
+    ],
+    "day": "Fri"
+   },
+   "dates": [
+    "2026-11-20"
+   ],
+   "start": "19:00",
+   "end": "21:00",
+   "venue": "The Bike Library",
+   "address": "600 W Cabarrus St #113, Raleigh, NC 27603",
+   "cost": "No price posted",
+   "description": "A third-Friday open mic at a downtown bike shop and cafe, open to musicians, poets, storytellers and people who just want to listen. Talking with performers between sets is an easy way to meet people.",
+   "howToJoin": "Show up on the third Friday. If you want to perform, arrive early and ask about a slot.",
+   "firstTime": "You don't have to perform, and listeners are welcome. If you'd like to play or read, arrive early and ask the host how the sign-up list works.",
+   "url": "https://thebikelibrary.com/events",
+   "verifyNote": "Some older listings show 6–8:30 PM. The venue's own calendar shows 7–9 PM.",
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Open Mic Night (third Friday, 7–9 PM) with the next date Nov 20, 2026. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-spanish-night",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Spanish Night at The Bike Library",
+   "short": "Spanish Night",
+   "category": "learning",
+   "philanthropy": false,
+   "solo": true,
+   "dates": [
+    "2026-11-21"
+   ],
+   "start": "18:00",
+   "end": "21:00",
+   "venue": "The Bike Library",
+   "address": "600 W Cabarrus St #113, Raleigh, NC 27603",
+   "cost": "No price posted",
+   "description": "An evening of Spanish conversation and music, with Spanish-inspired drinks from the cafe. You don't need to speak Spanish to join in.",
+   "howToJoin": "Just show up any time between 6 and 9 PM.",
+   "firstTime": "No Spanish is needed. It's fine to say you're a beginner and practice a few phrases. Sitting at a shared table is the easiest way into a conversation.",
+   "url": "https://thebikelibrary.com/events",
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Spanish Night on Sat Nov 21, 2026, 6–9 PM. Its ma.to venue page shows a Spanish Language Cafe Night held Oct 30, 2026. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-espresso-express-ride",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Espresso Express Morning Bike Ride",
+   "short": "Espresso Express ride",
+   "category": "fitness",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "dates": [
+    "2026-11-17",
+    "2026-11-24"
+   ],
+   "start": "07:00",
+   "end": "08:30",
+   "venue": "DuPont Circle, Platform Raleigh Apartments (The Bike Library)",
+   "address": "600 W Cabarrus St, Raleigh, NC 27603",
+   "cost": "No price posted",
+   "description": "A casual, no-drop ride of 5–8 miles with a coffee stop, hosted by The Bike Library and billed as good for beginners. The coffee stop gives the group time to talk.",
+   "howToJoin": "Bring a bike and a helmet and meet at DuPont Circle at Platform Raleigh Apartments by 7:00 AM.",
+   "firstTime": "No-drop means the group waits for everyone, so you won't be left behind. Tell the ride leader it's your first time.",
+   "url": "https://thebikelibrary.com/events",
+   "verifyNote": "The ride starts and ends at DuPont Circle in the Platform Raleigh apartments, where The Bike Library is. Check the events page if the weather looks doubtful.",
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Espresso Express on Tuesdays Nov 17 and Nov 24, 2026, 7:00–8:30 AM. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-craft-night",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Craft Night at The Bike Library",
+   "short": "Craft Night",
+   "category": "art",
+   "philanthropy": false,
+   "solo": true,
+   "dates": [
+    "2026-11-30"
+   ],
+   "start": "18:30",
+   "end": "20:30",
+   "venue": "The Bike Library",
+   "address": "600 W Cabarrus St #113, Raleigh, NC 27603",
+   "cost": "No price posted",
+   "description": "A bring-your-own-project craft night at a downtown bike shop and cafe. Working side by side makes it easy to start a conversation.",
+   "howToJoin": "Just show up with whatever project you're working on.",
+   "firstTime": "Bring something portable and low-mess. Asking someone what they're making is an easy opener. The cafe runs a slow bar that night, with no espresso or steamed-milk drinks.",
+   "url": "https://thebikelibrary.com/events",
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Craft Night on Mon Nov 30, 2026, 6:30–8:30 PM. Checked Nov 13, 2026.",
+   "lastChecked": "2026-11-13"
+  },
+  {
+   "id": "r-fpc-pickleball",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Pickleball at First Presbyterian Church",
+   "short": "FPC pickleball",
+   "category": "fitness",
+   "philanthropy": false,
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon",
+     "Wed"
+    ]
+   },
+   "dates": [
+    "2026-11-16",
+    "2026-11-18",
+    "2026-11-23",
+    "2026-11-25"
+   ],
+   "start": "13:00",
+   "end": "15:00",
+   "venue": "First Presbyterian Church",
+   "address": "112 S Salisbury St, Raleigh, NC 27601",
+   "cost": "No price posted",
+   "description": "Weekday-afternoon pickleball hosted by a downtown church, listed as no experience required. It's a low-pressure way to meet people while learning the game.",
+   "howToJoin": "Show up at 1 PM on a Monday or Wednesday. To confirm where to go first, call the church office at (919) 821-5750.",
+   "firstTime": "No experience is required. Wear court shoes, and ask when you arrive whether loaner paddles are available.",
+   "url": "https://fpcraleigh.org/events/",
+   "verifyNote": "The listing doesn't say where in the building play happens or whether paddles are provided. Call (919) 821-5750 to confirm visitors are welcome and where to enter.",
+   "evidence": "https://fpcraleigh.org/events/: the church's own events calendar lists Pickleball (1–3 PM, no experience required) on Mon Nov 16, Wed Nov 18, Mon Nov 23 and Wed Nov 25, 2026. Checked Nov 13, 2026.",
    "lastChecked": "2026-11-13"
   }
  ]

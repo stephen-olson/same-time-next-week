@@ -174,7 +174,7 @@ def cost_info(c):
     free = low.startswith("free") and "non-member" not in low
     if free:
         return True, "Free"
-    if not c or low in ("not listed", "check the website"):
+    if not c or low in ("not listed", "check the website") or low.startswith(("no price", "no fee", "not posted", "not listed")):
         return False, ""
     s = re.split(r"\s*[\(;]", c)[0].strip()
     return False, s if len(s) <= 28 else s[:26].rstrip() + "…"
