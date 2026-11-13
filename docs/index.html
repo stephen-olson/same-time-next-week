@@ -132,7 +132,9 @@ a { color: var(--ink-fg); }
 .linkish:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Filters */
-.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 16px 2px; }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 12px 2px; }
+.intro.compact { padding-block: 22px 0; }
+.intro.compact h1 { font-size: 20px; line-height: 1.2; margin: 0; letter-spacing: -.005em; }
 .fbreak { flex-basis: 100%; height: 0; }
 .fchip.more { border-style: dashed; }
 .fchip {
@@ -141,8 +143,9 @@ a { color: var(--ink-fg); }
   color: var(--muted); cursor: pointer; white-space: nowrap;
 }
 .fchip[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
-.fchip.give { color: var(--give-fg); border-color: var(--give); }
-.fchip.give[aria-pressed="true"] { background: var(--give); color: var(--surface); }
+.fchip.give .ic { color: var(--give); }
+.fchip.give[aria-pressed="true"] { background: var(--give); border-color: var(--give); color: var(--surface); }
+.fchip.give[aria-pressed="true"] .ic { color: inherit; }
 .fsep { flex: none; width: 1px; margin: 4px 3px; background: var(--line); }
 .fclear { flex: none; border: 0; background: none; color: var(--ink-fg); font-weight: 600; font-size: 13px; cursor: pointer; padding: 7px 6px; }
 
@@ -154,12 +157,13 @@ a { color: var(--ink-fg); }
 .dayhead .hol, .hol { color: var(--today); font-weight: 600; font-size: 13px; }
 .none { color: var(--muted); padding: 12px 0; margin: 0; }
 .items { display: flex; flex-direction: column; }
-.row { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.row { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: start; padding: 14px 10px; margin-inline: -10px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.row:hover { background: var(--hover); }
 .row .time { font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; padding-top: 1px; }
 .row.give .time { color: var(--give-fg); }
 .row .main { display: block; min-width: 0; border: 0; background: none; padding: 0; text-align: left; cursor: pointer; }
 .row .title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; }
-.row .main:hover .title { text-decoration: underline; text-underline-offset: 3px; }
+
 .row .meta { display: block; color: var(--muted); font-size: 14px; margin-top: 2px; }
 .row .tags { margin-top: 7px; }
 .gobtn {
@@ -252,6 +256,8 @@ a { color: var(--ink-fg); }
 .card h3 { margin: 0; font-size: 17px; line-height: 1.3; }
 .card .sched { margin: 0; font-weight: 600; font-size: 14px; }
 .card .cdesc { margin: 0; color: var(--muted); font-size: 14px; }
+.card.clickable { cursor: pointer; }
+.card.clickable:hover { border-color: var(--muted); }
 .card .cactions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
 .secthead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
 .plansec { margin-top: 30px; }
@@ -332,7 +338,7 @@ a { color: var(--ink-fg); }
   <div class="wrap bar">
     <a class="brand" href="#week" aria-label="Same Time Next Week home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="lg-bg" width="32" height="32" rx="8"/><circle class="lg-dot" cx="9" cy="9" r="2.6"/><circle class="lg-dot" cx="16" cy="9" r="2.6"/><circle class="lg-dot" cx="23" cy="9" r="2.6"/><circle class="lg-dot" cx="9" cy="16" r="2.6"/><circle class="lg-hi" cx="16" cy="16" r="2.6"/><circle class="lg-dot" cx="23" cy="16" r="2.6"/><circle class="lg-dot" cx="9" cy="23" r="2.6"/><circle class="lg-dot" cx="16" cy="23" r="2.6"/><circle class="lg-dot" cx="23" cy="23" r="2.6"/></svg>
-      <span class="bt"><b>Same Time Next Week</b><small>Durham &amp; Raleigh</small></span>
+      <span class="bt"><b>Same Time Next Week</b><small>Recurring things to do with people in Durham &amp; Raleigh</small></span>
     </a>
     <div class="cityswitch" role="group" aria-label="Choose a city">
       <button type="button" data-city="durham" aria-pressed="true">Durham</button>
@@ -553,7 +559,7 @@ a { color: var(--ink-fg); }
       '" aria-label="' + esc(goTitle(k, marked) + ': ' + e.title + ', ' + shortDate(k)) + '">' + (marked ? I.check : I.plus) + '</button>';
   }
   function rowHtml(e, k) {
-    return '<div class="row' + (e.philanthropy ? ' give' : '') + '">' +
+    return '<div class="row' + (e.philanthropy ? ' give' : '') + '" data-open="' + e.id + '" data-date="' + k + '">' +
       '<span class="time">' + esc(startText(e)) + '</span>' +
       '<button type="button" class="main" data-open="' + e.id + '" data-date="' + k + '">' +
       '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + esc(e.title) + '</span>' +
@@ -574,7 +580,10 @@ a { color: var(--ink-fg); }
     if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
     else t = ['Things to do in ' + city, 'Recurring things to do with people, checked every week.'];
     var cta = '';
-    $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1><p>' + esc(t[1]) + '</p></div>' + cta;
+    var compact = state.view !== 'plan';
+    $('intro').hidden = false;
+    $('intro').classList.toggle('compact', compact);
+    $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1>' + (compact ? '' : '<p>' + esc(t[1]) + '</p>') + '</div>' + cta;
   }
 
   function renderFilters() {
@@ -716,7 +725,7 @@ a { color: var(--ink-fg); }
         var n = Math.min(s.went, 6), dots = '';
         for (var i = 0; i < 6; i++) dots += '<i class="' + (i < n ? 'on' : '') + '"></i>';
         var status = s.went >= 6 ? 'You\u2019re a regular here' : s.went + ' of 6 visits';
-        return '<article class="card"><h3><button type="button" class="linkish" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '>' + esc(s.e.title) + '</button></h3>' +
+        return '<article class="card clickable" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '><h3><button type="button" class="linkish" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '>' + esc(s.e.title) + '</button></h3>' +
           '<div class="dots6" role="img" aria-label="' + esc(status) + '">' + dots + '</div><p class="sched">' + esc(status) + '</p>' +
           '<p class="cdesc">' + (s.last ? 'Last went ' + esc(shortDate(s.last)) : 'Not yet') + (s.next ? ' · Next: ' + esc(shortDate(s.next)) : '') + '</p></article>';
       }).join('') + '</div></section>';
@@ -1017,9 +1026,10 @@ a { color: var(--ink-fg); }
     if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
     if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-cat]'))) {
-      var c = b.dataset.cat, wasOn = !!state.f.cats[c];
-      state.f.cats = {};
-      if (c && !wasOn) state.f.cats[c] = true;
+      var c = b.dataset.cat;
+      if (!c) state.f.cats = {};
+      else if (state.f.cats[c]) delete state.f.cats[c];
+      else state.f.cats[c] = true;
       renderFilters(); renderView(); return;
     }
     if ((b = t.closest('[data-clear]'))) { state.f = blankFilters(); renderFilters(); renderView(); return; }

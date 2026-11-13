@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -46,7 +46,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -64,7 +64,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -82,7 +82,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -100,7 +100,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -118,7 +118,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -136,7 +136,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank warehouse sort (Wednesday evening)
@@ -154,7 +154,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261107@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -171,7 +171,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261114@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -188,7 +188,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -205,7 +205,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -222,7 +222,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -239,7 +239,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -256,7 +256,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank warehouse sort (Saturday morning)
@@ -273,7 +273,7 @@ URL:https://foodbankcenc.org/locations/raleigh/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -292,7 +292,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -311,7 +311,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -330,7 +330,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -349,7 +349,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -368,7 +368,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -387,7 +387,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
@@ -406,7 +406,7 @@ URL:https://www.raleighrescue.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261113T191001Z
+DTSTAMP:20261113T191446Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Raleigh Rescue Mission holiday meal packing & delivery
