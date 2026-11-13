@@ -17,7 +17,13 @@ Calendar listings must be things you can **show up to on a date**:
 - `"entry": "show"`: just show up, no paperwork.
 - `"entry": "signup"`: a quick sign-up or ticket for that date (most volunteer shifts, one-day workshops).
 
-Anything that needs joining first (memberships like Toastmasters, applications, orientations, multi-week classes, leagues) is a **program** (`"kind": "program"`) and appears in "Join anytime" instead of the calendar.
+Anything that needs joining first (memberships like Toastmasters, applications, orientations, leagues) is a **program** (`"kind": "program"`). Programs stay in the data but are not shown on the site.
+
+**Classes and workshops** (pottery, drawing, painting, printmaking, sewing, improv) are listed as `"entry": "signup"` events:
+- Price cap: about $50 per session on average with materials included, or up to about $100 for a one-day workshop.
+- One-day workshops show on their dates. Multi-week classes show only on their **first session date**, with `"multi": true` and the full schedule in `"schedule"` (days, times, number of weeks, end date, when registration opens).
+- Remove a class once it's sold out with no waitlist, or once its first session has passed.
+- Beginner-friendly only. Leave out advanced-only sessions.
 
 ## Fields that matter
 

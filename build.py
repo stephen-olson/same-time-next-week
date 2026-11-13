@@ -144,6 +144,8 @@ def fmt_date(x):
 def rtext(e, occ, today):
     if e.get("kind") == "program":
         return e.get("schedule") or "Join any time"
+    if e.get("schedule"):
+        return e["schedule"]
     rec = e.get("recurrence")
     if e.get("tier") == "regular" and rec:
         if rec["type"] == "weekly":

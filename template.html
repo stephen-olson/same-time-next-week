@@ -836,7 +836,7 @@ a { color: var(--ink-fg); }
     h += '<dl class="facts">';
     if (e.venue || e.address) h += '<dt>Where</dt><dd><b>' + esc(e.venue || '') + '</b>' + (e.address ? '<br><span class="addr">' + esc(e.address) + '</span>' : '') + '</dd>';
     h += '<dt>Cost</dt><dd>' + esc(e.cost || 'Not listed') + '</dd>';
-    h += '<dt>' + (e.kind === 'program' ? 'Schedule' : 'Repeats') + '</dt><dd>' + esc(e.rtext || '') + '</dd>';
+    h += '<dt>' + (e.kind === 'program' || e.multi ? 'Schedule' : 'Repeats') + '</dt><dd>' + esc(e.rtext || '') + '</dd>';
     h += '<dt>' + (e.entry === 'show' ? 'How it works' : 'How to join') + '</dt><dd>' + esc(e.howToJoin || 'Check the website') + '</dd></dl>';
     h += '<div class="actions">' +
       (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer">Directions</a>' : '') +
