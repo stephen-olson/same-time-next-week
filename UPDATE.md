@@ -36,6 +36,7 @@ Anything that needs joining first (memberships like Toastmasters, applications, 
 
 ## Steps
 
+0. **Make sure you can open web pages first.** Fetch two listing URLs from `data/events.json`. If both fail with a network error (for example `403`, `host_not_allowed`, `ENOTFOUND` or a timeout), that's a problem with the run's setup, not with the listings. In that case, don't put anything on hold and don't change any `lastChecked`. Skip to step 7, rebuild and publish, and put "Couldn't open web pages this week" at the top of your summary.
 1. Read `data/events.json`.
 2. For each listing (events and programs), open its `url` and the organizer's own calendar or social page, and check:
    - Is it still running? Same day, time, place and cost?
@@ -43,15 +44,15 @@ Anything that needs joining first (memberships like Toastmasters, applications, 
    - Cancellations or holiday skips? Add them to `except`.
    - Changes to time, venue, cost or how to join? Update the fields.
    - If it's verified, set `lastChecked` to today.
-3. If a listing **can't be verified**:
-   - First miss: leave it, but if its next date is within 7 days and there's real doubt, set `hold: true` with a reason.
-   - Two weekly misses in a row, or the organizer says it ended: set `hold: true`, `holdReason`, `holdSince`.
+3. If a listing **can't be verified** (a miss). Its `lastChecked` date tells you whether last week was a miss too:
+   - First miss (`lastChecked` is 10 days old or less): leave it, but if its next date is within 7 days and there's real doubt, set `hold: true` with a reason.
+   - Two weekly misses in a row (`lastChecked` is more than 10 days old), or the organizer says it ended: set `hold: true`, `holdReason`, `holdSince`.
    - Held for 8+ weeks with no sign of life: delete the listing.
    - A held listing that shows new activity: remove `hold` and set `lastChecked`.
-4. **Read visitor reports.** List open GitHub issues (`gh issue list --repo stephen-olson/same-time-next-week --state open`). For each issue labeled `problem`, check the organizer's page and fix the listing if the report is right. For each issue labeled `suggestion`, check it against the rules above. Don't comment on, label or close issues: the owner does that.
+4. **Read visitor reports.** List open GitHub issues with the REST API: `gh api "repos/stephen-olson/same-time-next-week/issues?state=open&per_page=100"` (skip items that have a `pull_request` field; `gh issue` commands don't work in cloud runs). For each issue labeled `problem`, check the organizer's page and fix the listing if the report is right. For each issue labeled `suggestion`, check it against the rules above. Don't comment on, label or close issues: the owner does that.
    For each issue labeled `volunteer-submission` (posted by organizations), verify before suggesting it: the organization has a public website; the opportunity appears on that website or its own sign-up page; nonprofits show up in the IRS Tax Exempt Organization Search (apps.irs.gov/app/eos); the location is public or the organization's facility; nothing asks volunteers to pay beyond a stated background-check fee. If any check fails, don't suggest it. Never contact anyone yourself.
 5. **Don't add new listings automatically.** If you find a strong candidate that meets every rule, add it to `data/candidates.json` (same fields, plus a `whyItQualifies` note) for the owner to review.
 6. Keep text written for visitors: plain, short, no mention of how the information was found.
 7. Rebuild: `python3 -I build.py` (the site address and form links come from `config.json`). It must print a `built ...` line with no error. Always rebuild weekly, even if nothing changed, because the six-week window moves with the build date.
-8. Publish: commit `data/` and `docs/` with the message `Weekly listing check YYYY-MM-DD` and push.
+8. Publish: first set the commit identity so the owner's email stays private: `git config user.name "Stephen Olson"` and `git config user.email "stephen-olson@users.noreply.github.com"`. Then commit `data/` and `docs/` on `main` with the message `Weekly listing check YYYY-MM-DD` and push to `main`.
 9. Write a short summary: listings updated, put on hold, removed, new dates added, and candidates suggested.
