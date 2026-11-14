@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-irish-jam-20261107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261107T150000
 DTEND;TZID=America/New_York:20261107T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -44,7 +44,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T150000
 DTEND;TZID=America/New_York:20261121T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -60,7 +60,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T150000
 DTEND;TZID=America/New_York:20261205T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -76,7 +76,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-irish-jam-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T150000
 DTEND;TZID=America/New_York:20261219T170000
 SUMMARY:Irish music jam · Moon Dog Meadery
@@ -92,7 +92,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261108@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261108T183000
 DTEND;TZID=America/New_York:20261108T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -108,7 +108,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261115@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261115T183000
 DTEND;TZID=America/New_York:20261115T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -124,7 +124,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261122T183000
 DTEND;TZID=America/New_York:20261122T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -140,7 +140,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261129T183000
 DTEND;TZID=America/New_York:20261129T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -156,7 +156,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261206@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261206T183000
 DTEND;TZID=America/New_York:20261206T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -172,7 +172,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261213@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261213T183000
 DTEND;TZID=America/New_York:20261213T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -188,7 +188,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-open-mic-20261220@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261220T183000
 DTEND;TZID=America/New_York:20261220T210000
 SUMMARY:Open mic · Moon Dog Meadery
@@ -204,7 +204,7 @@ URL:https://www.moondogmeadery.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-dance-20261127@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261127T193000
 DTEND;TZID=America/New_York:20261127T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -223,7 +223,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-dance-20261218@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261218T193000
 DTEND;TZID=America/New_York:20261218T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -242,7 +242,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261113@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261113T193000
 DTEND;TZID=America/New_York:20261113T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -260,7 +260,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261211@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261211T193000
 DTEND;TZID=America/New_York:20261211T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -278,7 +278,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261231@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261231T193000
 DTEND;TZID=America/New_York:20261231T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -296,7 +296,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-2-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T190000
 DTEND;TZID=America/New_York:20261205T223000
 SUMMARY:Contra dance\, Saturday · Carrboro Century Center
@@ -311,7 +311,7 @@ URL:https://www.tcdancers.org/new-events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-swing-dance-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T190000
 DTEND;TZID=America/New_York:20261121T230000
 SUMMARY:Swing dance party · Carrboro Century Center
@@ -329,7 +329,7 @@ URL:https://triangleswingdancesociety.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -346,7 +346,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261202@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -363,7 +363,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261209@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -380,7 +380,7 @@ URL:https://americandancefestival.org/adult-classes/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -396,7 +396,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -412,7 +412,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-line-dancing-class-20261221@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T193000
 SUMMARY:Line dancing class · Southwest Regional Library
@@ -428,7 +428,7 @@ URL:https://durhamcountylibrary.libcal.com/event/16884725
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -446,7 +446,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261218@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261218T180000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -464,7 +464,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270115@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270115T180000
 DTEND;TZID=America/New_York:20270115T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -482,7 +482,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -500,7 +500,7 @@ URL:https://downtowndurham.com/thirdfriday/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-draw-y-all-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:Figure drawing (Draw Y'all) · The Fruit
@@ -516,7 +516,7 @@ URL:https://www.meetup.com/drawyall/events/316966625/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270110@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270110T131500
 DTEND;TZID=America/New_York:20270110T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -532,7 +532,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270117@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270117T131500
 DTEND;TZID=America/New_York:20270117T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -548,7 +548,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270124@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270124T131500
 DTEND;TZID=America/New_York:20270124T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -564,7 +564,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270131@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270131T131500
 DTEND;TZID=America/New_York:20270131T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -580,7 +580,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270207T131500
 DTEND;TZID=America/New_York:20270207T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -596,7 +596,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270214@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270214T131500
 DTEND;TZID=America/New_York:20270214T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -612,7 +612,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270228@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270228T131500
 DTEND;TZID=America/New_York:20270228T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -628,7 +628,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pottery-class-20270106@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Wheel\, Wednesday · Durham Arts Council (10 weeks)
@@ -646,7 +646,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Intro to wheel\, one day · Claymakers
@@ -662,7 +662,7 @@ URL:https://www.claymakers.org/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261206@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Intro to wheel\, one day · Claymakers
@@ -678,7 +678,7 @@ URL:https://www.claymakers.org/classes
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T170000
 DTEND;TZID=America/New_York:20261112T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -692,7 +692,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T170000
 DTEND;TZID=America/New_York:20261210T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -706,7 +706,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20270114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270114T170000
 DTEND;TZID=America/New_York:20270114T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -720,7 +720,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261110@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261110T183000
 DTEND;TZID=America/New_York:20261110T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -735,7 +735,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261117@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -750,7 +750,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261124@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -765,7 +765,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261201@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -780,7 +780,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261208@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -795,7 +795,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261215@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -810,7 +810,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261222@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -825,7 +825,7 @@ URL:https://www.discoverdurham.com/events/craft-draft/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261111@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -842,7 +842,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -859,7 +859,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261125@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -876,7 +876,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261202@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -893,7 +893,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261209@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -910,7 +910,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261216@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -927,7 +927,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261223@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -944,7 +944,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -959,7 +959,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261114T080000
 DTEND;TZID=America/New_York:20261114T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -974,7 +974,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T080000
 DTEND;TZID=America/New_York:20261121T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -989,7 +989,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261128@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261128T080000
 DTEND;TZID=America/New_York:20261128T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1004,7 +1004,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T080000
 DTEND;TZID=America/New_York:20261205T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1019,7 +1019,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1034,7 +1034,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T080000
 DTEND;TZID=America/New_York:20261219T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1049,7 +1049,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261109@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261109T183000
 DTEND;TZID=America/New_York:20261109T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1064,7 +1064,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T183000
 DTEND;TZID=America/New_York:20261116T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1079,7 +1079,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261123@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1094,7 +1094,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261130@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1109,7 +1109,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1124,7 +1124,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261214@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1139,7 +1139,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261221@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1154,7 +1154,7 @@ URL:https://www.discoverdurham.com/events/crunk-run-club/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pride-climbing-night-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T210000
 SUMMARY:PRIDE night · The Boulder Garden
@@ -1172,7 +1172,7 @@ URL:https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-d
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pride-climbing-night-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:PRIDE night · The Boulder Garden
@@ -1190,7 +1190,7 @@ URL:https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-d
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T193000
 DTEND;TZID=America/New_York:20261112T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1208,7 +1208,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T193000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1226,7 +1226,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T193000
 DTEND;TZID=America/New_York:20261203T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1244,7 +1244,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T193000
 DTEND;TZID=America/New_York:20261210T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1262,7 +1262,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-fullsteam-20261217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261217T193000
 DTEND;TZID=America/New_York:20261217T213000
 SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
@@ -1280,7 +1280,7 @@ URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261111@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261111T200000
 DTEND;TZID=America/New_York:20261111T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1294,7 +1294,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T200000
 DTEND;TZID=America/New_York:20261118T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1308,7 +1308,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261125@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261125T200000
 DTEND;TZID=America/New_York:20261125T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1322,7 +1322,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261202@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261202T200000
 DTEND;TZID=America/New_York:20261202T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1336,7 +1336,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261209@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261209T200000
 DTEND;TZID=America/New_York:20261209T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1350,7 +1350,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261216@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261216T200000
 DTEND;TZID=America/New_York:20261216T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1364,7 +1364,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261223@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261223T200000
 DTEND;TZID=America/New_York:20261223T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1378,7 +1378,7 @@ URL:https://quizfromhome.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261109@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261109T190000
 DTEND;TZID=America/New_York:20261109T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1395,7 +1395,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1412,7 +1412,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T190000
 DTEND;TZID=America/New_York:20261116T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1429,7 +1429,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1446,7 +1446,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261123@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1463,7 +1463,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261130@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261130T190000
 DTEND;TZID=America/New_York:20261130T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1480,7 +1480,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1497,7 +1497,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1514,7 +1514,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1531,7 +1531,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261214@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261214T190000
 DTEND;TZID=America/New_York:20261214T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1548,7 +1548,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1565,7 +1565,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261221@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1582,7 +1582,7 @@ URL:https://www.meetup.com/durham-geeks
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261109@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261109T180000
 DTEND;TZID=America/New_York:20261109T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1598,7 +1598,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1614,7 +1614,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261123@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1630,7 +1630,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261130@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1646,7 +1646,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1662,7 +1662,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261214@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1678,7 +1678,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261221@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1694,7 +1694,7 @@ URL:https://www.atomicempire.com/Store/Event/2664
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T133000
 DTEND;TZID=America/New_York:20261121T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1710,7 +1710,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T133000
 DTEND;TZID=America/New_York:20261205T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1726,7 +1726,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T133000
 DTEND;TZID=America/New_York:20261219T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1742,7 +1742,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17022971
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261106@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261106T090000
 DTEND;TZID=America/New_York:20261106T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1760,7 +1760,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261107T090000
 DTEND;TZID=America/New_York:20261107T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1778,7 +1778,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261111T090000
 DTEND;TZID=America/New_York:20261111T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1796,7 +1796,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T090000
 DTEND;TZID=America/New_York:20261112T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1814,7 +1814,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261113@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261113T090000
 DTEND;TZID=America/New_York:20261113T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1832,7 +1832,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1850,7 +1850,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T090000
 DTEND;TZID=America/New_York:20261118T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1868,7 +1868,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T090000
 DTEND;TZID=America/New_York:20261119T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1886,7 +1886,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1904,7 +1904,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1922,7 +1922,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1940,7 +1940,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261128@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1958,7 +1958,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1976,7 +1976,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1994,7 +1994,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261204@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261204T090000
 DTEND;TZID=America/New_York:20261204T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2012,7 +2012,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2030,7 +2030,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261209T090000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2048,7 +2048,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T090000
 DTEND;TZID=America/New_York:20261210T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2066,7 +2066,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261211@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261211T090000
 DTEND;TZID=America/New_York:20261211T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2084,7 +2084,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2102,7 +2102,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261216T090000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2120,7 +2120,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261217T090000
 DTEND;TZID=America/New_York:20261217T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2138,7 +2138,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261218@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261218T090000
 DTEND;TZID=America/New_York:20261218T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2156,7 +2156,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2174,7 +2174,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2192,7 +2192,7 @@ URL:https://foodbankcenc.org/durham
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-jam-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T203000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Free improv jam · Mettlesome
@@ -2209,7 +2209,7 @@ URL:https://thisismettlesome.com
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261114T130000
 DTEND;TZID=America/New_York:20261114T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2224,7 +2224,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261128@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261128T130000
 DTEND;TZID=America/New_York:20261128T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2239,7 +2239,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2254,7 +2254,7 @@ URL:https://www.meetup.com/durham-community-improv-jam/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270106@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2270,7 +2270,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270113@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270113T173000
 DTEND;TZID=America/New_York:20270113T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2286,7 +2286,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2302,7 +2302,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270127@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270127T173000
 DTEND;TZID=America/New_York:20270127T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2318,7 +2318,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270203T173000
 DTEND;TZID=America/New_York:20270203T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2334,7 +2334,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270210T173000
 DTEND;TZID=America/New_York:20270210T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2350,7 +2350,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270217T173000
 DTEND;TZID=America/New_York:20270217T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2366,7 +2366,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270224@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270224T173000
 DTEND;TZID=America/New_York:20270224T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2382,7 +2382,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17789775
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261114T080000
 DTEND;TZID=America/New_York:20261114T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -2399,7 +2399,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261125@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -2416,7 +2416,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261112@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261112T173000
 DTEND;TZID=America/New_York:20261112T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2431,7 +2431,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2446,7 +2446,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2461,7 +2461,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T173000
 DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2476,7 +2476,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2491,7 +2491,7 @@ URL:https://www.meetup.com/durham-spanish-conversation-cafe/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-eno-river-workday-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Invasive plant workday · Rocky Branch
@@ -2508,7 +2508,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-crew-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T140000
 SUMMARY:Trail crew · Eno River (Mountains-to-Sea Trail)
@@ -2525,7 +2525,7 @@ URL:https://www.enoriver.org/events-on-the-eno/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-20261122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T110000
 SUMMARY:MLK Jr Parkway cleanup · Board of Elections lot
@@ -2542,7 +2542,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-2-20261213@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T110000
 SUMMARY:MLK Jr Parkway cleanup · Lowe's parking lot
@@ -2557,7 +2557,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiber-arts-meetup-20261111@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Stitch N Bitch · The Scrap Exchange
@@ -2571,7 +2571,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiber-arts-meetup-20261209@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Stitch N Bitch · The Scrap Exchange
@@ -2585,7 +2585,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T170000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2598,7 +2598,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261202@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261202T170000
 DTEND;TZID=America/New_York:20261202T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2611,7 +2611,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261216@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261216T170000
 DTEND;TZID=America/New_York:20261216T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2624,7 +2624,7 @@ URL:https://www.scrapexchange.org/workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-bouldering-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T193000
 DTEND;TZID=America/New_York:20261116T210000
 SUMMARY:Intro to bouldering clinic · The Boulder Garden
@@ -2637,7 +2637,7 @@ DESCRIPTION:A beginner clinic at the downtown bouldering gym. A good first
 END:VEVENT
 BEGIN:VEVENT
 UID:d-quiet-volunteer-night-20261125@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Low distraction volunteer night · The Scrap Exchange
@@ -2651,7 +2651,7 @@ URL:https://www.scrapexchange.org/volunteer
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-club-meeting-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Bird club meeting · NC Botanical Garden
@@ -2665,7 +2665,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-2-20261118@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261118T080000
 DTEND;TZID=America/New_York:20261118T110000
 SUMMARY:Bird walk · Brumley Forest
@@ -2681,7 +2681,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261108@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261108T080000
 DTEND;TZID=America/New_York:20261108T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2697,7 +2697,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261115@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261115T080000
 DTEND;TZID=America/New_York:20261115T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2713,7 +2713,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261122T080000
 DTEND;TZID=America/New_York:20261122T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2729,7 +2729,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261129T080000
 DTEND;TZID=America/New_York:20261129T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2745,7 +2745,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261206@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261206T080000
 DTEND;TZID=America/New_York:20261206T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2761,7 +2761,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261213@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261213T080000
 DTEND;TZID=America/New_York:20261213T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2777,7 +2777,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261220@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261220T080000
 DTEND;TZID=America/New_York:20261220T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2793,7 +2793,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2813,7 +2813,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261126@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261126T183000
 DTEND;TZID=America/New_York:20261126T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2833,7 +2833,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261203@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2853,7 +2853,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261210@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2873,7 +2873,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2893,7 +2893,7 @@ URL:https://www.atomicempire.com/Store/Event/313
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261113@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -2911,7 +2911,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -2929,7 +2929,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261127@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -2947,7 +2947,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261204@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -2965,7 +2965,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261211@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -2983,7 +2983,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261218@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3001,7 +3001,7 @@ URL:https://www.atomicempire.com/Events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-co-op-volunteering-20261114@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T120000
 SUMMARY:Beginner volunteer session · Durham Bike Co-op
@@ -3019,7 +3019,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-repair-clinic-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Pop-up bike repair clinic · Durham Farmers' Market
@@ -3037,7 +3037,7 @@ URL:https://durhambikecoop.corsizio.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-climbing-meetup-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:Climbing meetup · Triangle Rock Club Durham
@@ -3059,7 +3059,7 @@ URL:https://www.meetup.com/raleighrockclimbing/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-clay-cozy-winter-critters-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:One-day clay: cozy winter critters · Claymakers
@@ -3077,7 +3077,7 @@ URL:https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw
 END:VEVENT
 BEGIN:VEVENT
 UID:d-clay-winter-candleholders-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T183000
 DTEND;TZID=America/New_York:20261121T203000
 SUMMARY:One-day clay: winter candleholders · Claymakers
@@ -3097,7 +3097,7 @@ URL:https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholder
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-20270104@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Wheel\, Monday · Durham Arts Council (9 weeks)
@@ -3115,7 +3115,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-2-20270105@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Wheel\, Tuesday · Durham Arts Council (10 weeks)
@@ -3133,7 +3133,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-3-20270107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270107T100000
 DTEND;TZID=America/New_York:20270107T123000
 SUMMARY:Wheel\, Thursday AM · Durham Arts Council (10 weeks)
@@ -3150,7 +3150,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-4-20270107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:Wheel\, Thursday PM · Durham Arts Council (10 weeks)
@@ -3168,7 +3168,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-20270105@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270105T100000
 DTEND;TZID=America/New_York:20270105T123000
 SUMMARY:Hand-building\, Tue AM · Durham Arts Council (10 weeks)
@@ -3185,7 +3185,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-2-20270106@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Hand-building\, Wed PM · Durham Arts Council (10 weeks)
@@ -3203,7 +3203,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sculptural-hand-building-20270105@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Sculptural clay · Durham Arts Council (10 weeks)
@@ -3221,7 +3221,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -3240,7 +3240,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -3259,7 +3259,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270115@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270115T183000
 DTEND;TZID=America/New_York:20270115T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -3276,7 +3276,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -3293,7 +3293,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270205T183000
 DTEND;TZID=America/New_York:20270205T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -3311,7 +3311,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270219T183000
 DTEND;TZID=America/New_York:20270219T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -3329,7 +3329,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-drawing-fundamentals-20270107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Drawing fundamentals · Durham Arts Council (10 weeks)
@@ -3344,7 +3344,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-loose-watercolor-techniques-20270107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T203000
 SUMMARY:Loose watercolor · Durham Arts Council (6 weeks)
@@ -3360,7 +3360,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-watercolor-20270105@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270105T090000
 DTEND;TZID=America/New_York:20270105T120000
 SUMMARY:Beginning watercolor · Durham Arts Council (6 weeks)
@@ -3376,7 +3376,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-acrylic-painting-20270217@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270217T180000
 DTEND;TZID=America/New_York:20270217T210000
 SUMMARY:Intro to acrylics · Durham Arts Council (4 weeks)
@@ -3392,7 +3392,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-winter-watercolor-botanicals-20270129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Winter watercolor botanicals · Durham Arts Council
@@ -3408,7 +3408,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -3425,7 +3425,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -3442,7 +3442,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-linocut-i-intro-to-printmak-20270106@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T203000
 SUMMARY:Linocut I printmaking · Durham Arts Council (6 weeks)
@@ -3458,7 +3458,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-of-life-copper-wrapped-20270122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Tree of life copper pendant · Durham Arts Council
@@ -3474,7 +3474,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-garment-sewing-int-20270113@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
 SUMMARY:Beginner garment sewing · Durham Arts Council (6 weeks)
@@ -3490,7 +3490,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-crochet-20270107@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Beginner crochet · Durham Arts Council (8 weeks)
@@ -3505,7 +3505,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-macrame-wall-hanging-20270129@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Macrame wall hanging · Durham Arts Council
@@ -3521,7 +3521,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-silk-scarf-batik-20270108@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270108T180000
 DTEND;TZID=America/New_York:20270108T210000
 SUMMARY:Silk scarf batik · Durham Arts Council
@@ -3536,7 +3536,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sashiko-101-20270205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270205T180000
 DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Sashiko 101 · Durham Arts Council
@@ -3552,7 +3552,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-embroidery-basics-20270219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T200000
 SUMMARY:Embroidery basics · Durham Arts Council
@@ -3568,7 +3568,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-knitting-workshop-20261117@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261117T180000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Beginning knitting · The Scrap Exchange
@@ -3584,7 +3584,7 @@ URL:https://thescrapexchange.as.me/KnittingIntro
 END:VEVENT
 BEGIN:VEVENT
 UID:d-faux-leather-long-stitch-jou-20261120@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T200000
 SUMMARY:Faux leather journal workshop · The Scrap Exchange
@@ -3600,7 +3600,7 @@ URL:https://thescrapexchange.as.me/LongStitchJournal
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261121@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261121T110000
 DTEND;TZID=America/New_York:20261121T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -3617,7 +3617,7 @@ URL:https://thescrapexchange.as.me/SewingMachineBasics
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261212@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -3634,7 +3634,7 @@ URL:https://thescrapexchange.as.me/SewingMachineBasics
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-reduction-printmaking-20261122@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261122T140000
 DTEND;TZID=America/New_York:20261122T170000
 SUMMARY:Intro to reduction printmaking · The Scrap Exchange
@@ -3650,7 +3650,7 @@ URL:https://thescrapexchange.as.me/Reduction
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-hand-embroidery-wor-20261124@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Intro to hand embroidery · The Scrap Exchange
@@ -3665,7 +3665,7 @@ URL:https://thescrapexchange.as.me/Embroidery
 END:VEVENT
 BEGIN:VEVENT
 UID:d-scraps-to-sheets-handmade-p-20261205@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Handmade papermaking · The Scrap Exchange
@@ -3681,7 +3681,7 @@ URL:https://thescrapexchange.as.me/Papermaking
 END:VEVENT
 BEGIN:VEVENT
 UID:d-yay-you-re-gonna-crochet-20261208@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Intro to crochet · The Scrap Exchange
@@ -3696,7 +3696,7 @@ URL:https://thescrapexchange.as.me/IntroToCrochet
 END:VEVENT
 BEGIN:VEVENT
 UID:d-make-your-own-linocut-stamp-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T110000
 DTEND;TZID=America/New_York:20261219T130000
 SUMMARY:Linocut stamp making · The Scrap Exchange
@@ -3711,7 +3711,7 @@ URL:https://thescrapexchange.as.me/Stamp
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sips-and-scribbles-adult-jour-20261219@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261219T140000
 DTEND;TZID=America/New_York:20261219T160000
 SUMMARY:Adult journaling party · The Scrap Exchange
@@ -3725,7 +3725,7 @@ URL:https://thescrapexchange.as.me/Party
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiction-book-club-20261117@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -3743,7 +3743,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15961444
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiction-book-club-20261215@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -3761,7 +3761,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15961444
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261109@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261109T093000
 DTEND;TZID=America/New_York:20261109T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3778,7 +3778,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3795,7 +3795,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261123@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261123T093000
 DTEND;TZID=America/New_York:20261123T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3812,7 +3812,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261130@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261130T093000
 DTEND;TZID=America/New_York:20261130T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3829,7 +3829,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261207@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261207T093000
 DTEND;TZID=America/New_York:20261207T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3846,7 +3846,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261214@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261214T093000
 DTEND;TZID=America/New_York:20261214T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3863,7 +3863,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261221@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261221T093000
 DTEND;TZID=America/New_York:20261221T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -3880,7 +3880,7 @@ URL:https://durhamcountylibrary.libcal.com/event/15792181
 END:VEVENT
 BEGIN:VEVENT
 UID:d-library-taskmaster-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T193000
 SUMMARY:Library Taskmaster (21+) · Durham Main Library
@@ -3899,7 +3899,7 @@ URL:https://durhamcountylibrary.libcal.com/event/17285805
 END:VEVENT
 BEGIN:VEVENT
 UID:d-dac-registration-opens-20261204@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261204T100000
 DTEND;TZID=America/New_York:20261204T120000
 SUMMARY:Winter class registration opens · Durham Arts Council
@@ -3913,7 +3913,7 @@ URL:https://durhamarts.org/2026/11/12/winter-2027-catalog/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 SUMMARY:Tree planting training · Trees for the Triangle
@@ -3929,7 +3929,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-diaper-wrapping-20261116@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Diaper wrapping · Diaper Bank of NC
@@ -3946,7 +3946,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-east-durham-food-help-20261119@same-time-next-week
-DTSTAMP:20261113T224349Z
+DTSTAMP:20261114T044441Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Food distribution · Communities in Partnership
