@@ -7,7 +7,7 @@ Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run c
 | Path | What it is |
 | --- | --- |
 | `data/events.json` | Every listing. This is the only file you edit by hand. |
-| `config.json` | The site address and the links to the suggestion, problem-report and volunteer forms. |
+| `config.json` | The site address, the links to the suggestion, problem-report and volunteer forms, and `goatcounter`: the site code from goatcounter.com for anonymous, cookie-free visit counts (leave it empty to turn counting off). |
 | `template.html` | The page design and app code. |
 | `build.py` | Builds the site into `docs/`. |
 | `docs/` | The published website (GitHub Pages serves this folder). |

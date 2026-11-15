@@ -328,6 +328,10 @@ def main():
     site_url = args.site_url or cfg.get("siteUrl", "")
     report_url = args.report_url or cfg.get("reportUrl", "")
     suggest_url = args.suggest_url or cfg.get("suggestUrl", "")
+    # Optional visit counter: the site code from goatcounter.com (cookie-free, anonymous counts).
+    counter = str(cfg.get("goatcounter") or "").strip().lower()
+    if counter and not re.fullmatch(r"[a-z0-9-]+", counter):
+        raise SystemExit(f"config.json: goatcounter should be just the site code (letters, numbers, dashes), not {counter!r}")
     events = json.loads((ROOT / "data" / "events.json").read_text())["events"]
     validate(events)
     hol = holidays(range(today.year - 1, today.year + 2))
@@ -361,6 +365,7 @@ def main():
         "reportUrl": report_url,
         "suggestUrl": suggest_url,
         "volunteerUrl": cfg.get("volunteerUrl", ""),
+        "counter": bool(counter),
         "preview": False,
         "holidays": hol_labels,
         "events": client,
@@ -390,6 +395,9 @@ def main():
                        f'<meta property="og:image" content="{site_url}og-card.png">\n'
                        '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
                        '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n')
+    if counter:
+        extra_head += (f'<script data-goatcounter="https://{counter}.goatcounter.com/count" '
+                       'async src="https://gc.zgo.at/count.js"></script>\n')
     out.mkdir(parents=True, exist_ok=True)
     (out / "index.html").write_text(f'<!doctype html>\n<html lang="en">\n<head>\n{extra_head}{head}</head>\n<body>\n{page(False)}</body>\n</html>\n')
     write_feeds(events, out, today, stamp)

@@ -661,7 +661,7 @@ a { color: var(--ink-fg); }
       (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
     if (safeUrl(D.suggestUrl)) {
       h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham or Raleigh: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
-        '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer">Suggest something</a></div>';
+        '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something</a></div>';
     }
     return h;
   }
@@ -797,7 +797,7 @@ a { color: var(--ink-fg); }
     h += '</section>';
     if (safeUrl(D.volunteerUrl)) {
       h += '<div class="suggest"><div><h2>Run a volunteer program?</h2><p>Tell us about a role or shift newcomers can join. We check every submission against your organization\u2019s own website before it\u2019s listed.</p></div>' +
-        '<a class="btn primary" href="' + esc(D.volunteerUrl) + '" target="_blank" rel="noopener noreferrer">Post a volunteer opportunity</a></div>';
+        '<a class="btn primary" href="' + esc(D.volunteerUrl) + '" target="_blank" rel="noopener noreferrer" data-track="post-volunteer-opportunity">Post a volunteer opportunity</a></div>';
     }
     return h;
   }
@@ -810,8 +810,10 @@ a { color: var(--ink-fg); }
   }
   function renderFoot() {
     $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
-      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device. <button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>.' +
-      (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer">Suggest something we’re missing</a>.' : '') + '</p>';
+      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device.' +
+      (D.counter ? ' Visits are counted anonymously, without cookies.' : '') +
+      ' <button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>.' +
+      (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something we’re missing</a>.' : '') + '</p>';
   }
   function openRules() {
     openModal('<h2 tabindex="-1">How we pick listings</h2><p class="lede">This isn\u2019t a site where anyone can post. It\u2019s a short, checked list of places where regulars already gather.</p>' +
@@ -941,15 +943,16 @@ a { color: var(--ink-fg); }
     h += '<dt>Cost</dt><dd>' + esc(e.cost || 'Not listed') + '</dd>';
     h += '<dt>' + (e.kind === 'program' || e.multi ? 'Schedule' : 'Repeats') + '</dt><dd>' + esc(e.rtext || '') + '</dd>';
     h += '<dt>' + (e.entry === 'show' ? 'How it works' : 'How to join') + '</dt><dd>' + esc(e.howToJoin || 'Check the website') + '</dd></dl>';
+    var tt = ' data-track-title="' + esc(e.short || e.title) + '"';
     h += '<div class="actions">' +
-      (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer">Directions</a>' : '') +
-      (url ? '<a class="btn" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') +
+      (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer" data-track="directions"' + tt + '>Directions</a>' : '') +
+      (url ? '<a class="btn" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" data-track="organizer-website"' + tt + '>Website</a>' : '') +
       '<button type="button" class="btn" data-share="' + e.id + '" data-date="' + (k || '') + '">Share</button></div>';
     if (k) {
       h += '<div class="addcal"><span class="lbl">Add to calendar</span>' +
         '<button type="button" class="btn sm" data-ics="' + e.id + '" data-date="' + k + '">Apple</button>' +
-        '<a class="btn sm" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer">Google</a>' +
-        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer">Outlook</a></div>';
+        '<a class="btn sm" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/google"' + tt + '>Google</a>' +
+        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a></div>';
     }
     if (e.verifyNote) h += '<div class="note"><b>Before you go:</b> ' + esc(e.verifyNote) + '</div>';
     if (k) {
@@ -961,7 +964,7 @@ a { color: var(--ink-fg); }
       }
     }
     h += '<p class="checked">Checked ' + esc(fullDate(e.lastChecked || D.generated)) + ' against the organizer\u2019s own page.' +
-      (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl + '&title=' + encodeURIComponent('Problem: ' + e.title)) + '" target="_blank" rel="noopener noreferrer">Something wrong with this listing?</a>' : '') + '</p>';
+      (safeUrl(D.reportUrl) ? ' <a href="' + esc(D.reportUrl + '&title=' + encodeURIComponent('Problem: ' + e.title)) + '" target="_blank" rel="noopener noreferrer" data-track="report-problem"' + tt + '>Something wrong with this listing?</a>' : '') + '</p>';
     return h;
   }
   function openEvent(id, k, push) {
@@ -1089,16 +1092,30 @@ a { color: var(--ink-fg); }
     p.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
   }
 
+  /* ---------- visit counts (GoatCounter: anonymous, no cookies; off unless config.json has a code) ---------- */
+  function track(name, title) {
+    try {
+      if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: title || name, event: true });
+    } catch (err) { /* counting must never get in the way */ }
+  }
+  function evName(id) { var e = EV[id]; return e ? (e.short || e.title) : ''; }
+
   /* ---------- events ---------- */
   document.addEventListener('click', function (ev) {
     var t = ev.target, b;
     if (t === modal) { closeModal(); return; }
+    if ((b = t.closest('a[data-track]'))) { track(b.dataset.track, b.dataset.trackTitle); return; }
     if ((b = t.closest('[data-close]'))) { closeModal(); return; }
-    if ((b = t.closest('[data-mark]'))) { toggleMark(b.dataset.mark, b.dataset.date); refreshMarks(b.dataset.mark, b.dataset.date); return; }
+    if ((b = t.closest('[data-mark]'))) {
+      toggleMark(b.dataset.mark, b.dataset.date); refreshMarks(b.dataset.mark, b.dataset.date);
+      if (isMarked(b.dataset.mark, b.dataset.date)) track('im-going', evName(b.dataset.mark));
+      return;
+    }
     if ((b = t.closest('[data-addseries]'))) {
       (lastSugg[b.dataset.addseries] || []).forEach(function (k) { if (!isMarked(b.dataset.addseries, k)) toggleMark(b.dataset.addseries, k); });
       b.disabled = true; b.classList.remove('primary'); b.innerHTML = I.check + 'Added to My plan';
       toast('Added to My plan');
+      track('im-going/all-dates', evName(b.dataset.addseries));
       return;
     }
     if ((b = t.closest('[data-open]'))) { openEvent(b.dataset.open, b.dataset.date || null, true); return; }
@@ -1119,11 +1136,14 @@ a { color: var(--ink-fg); }
     if ((b = t.closest('[data-month]'))) { shiftMonth(+b.dataset.month); return; }
     if ((b = t.closest('[data-today]'))) { state.calSel = TODAY; state.calMonth = monthOf(TODAY); renderView(); return; }
     if ((b = t.closest('[data-day]'))) { state.calSel = b.dataset.day; renderView(); revealDayPanel(); return; }
-    if ((b = t.closest('[data-share]'))) { shareEvent(b.dataset.share, b.dataset.date || null); return; }
-    if ((b = t.closest('[data-ics]'))) { var e = EV[b.dataset.ics]; downloadIcs(icsDoc([{ e: e, d: b.dataset.date }]), e.short || e.title); return; }
+    if ((b = t.closest('[data-share]'))) { shareEvent(b.dataset.share, b.dataset.date || null); track('share', evName(b.dataset.share)); return; }
+    if ((b = t.closest('[data-ics]'))) {
+      var e = EV[b.dataset.ics]; downloadIcs(icsDoc([{ e: e, d: b.dataset.date }]), e.short || e.title);
+      track('add-to-calendar/apple', evName(b.dataset.ics)); return;
+    }
     if ((b = t.closest('[data-ics-plan]'))) {
       var items = planEntries().filter(function (x) { return x.d >= TODAY; }).map(function (x) { return { e: EV[x.id], d: x.d }; });
-      if (items.length) downloadIcs(icsDoc(items), 'my-plan');
+      if (items.length) { downloadIcs(icsDoc(items), 'my-plan'); track('add-to-calendar/my-plan', 'My plan'); }
       return;
     }
     if ((b = t.closest('[data-sub]'))) { openSubscribe(); return; }
