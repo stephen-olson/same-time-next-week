@@ -422,8 +422,8 @@ def main():
         '<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
         '<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icon.svg" type="image/svg+xml">\n'
         '<link rel="apple-touch-icon" href="icon-180.png">\n'
-        '<meta name="theme-color" content="#F4F6F1" media="(prefers-color-scheme: light)">\n'
-        '<meta name="theme-color" content="#101411" media="(prefers-color-scheme: dark)">\n'
+        '<meta name="theme-color" content="#D5B68B" media="(prefers-color-scheme: light)">\n'
+        '<meta name="theme-color" content="#1D2723" media="(prefers-color-scheme: dark)">\n'
         '<meta name="apple-mobile-web-app-title" content="Same Time Next Week">\n'
         '<meta property="og:type" content="website">\n<meta property="og:site_name" content="Same Time Next Week">\n'
         '<meta property="og:title" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n'
@@ -443,7 +443,7 @@ def main():
     write_feeds(events, out, today, stamp)
     (out / "manifest.webmanifest").write_text(json.dumps({
         "name": "Same Time Next Week", "short_name": "Same Time", "start_url": "./", "display": "standalone",
-        "background_color": "#F4F6F1", "theme_color": "#F4F6F1",
+        "background_color": "#D5B68B", "theme_color": "#D5B68B",
         "icons": [{"src": "icon-180.png", "sizes": "180x180", "type": "image/png"},
                   {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
                   {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}],
