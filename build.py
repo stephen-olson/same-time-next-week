@@ -358,6 +358,7 @@ def main():
     ap.add_argument("--report-url", default="")
     ap.add_argument("--suggest-url", default="")
     ap.add_argument("--preview", default="")
+    ap.add_argument("--template", default=str(ROOT / "template.html"), help="page design to build from (for trying alternate designs)")
     args = ap.parse_args()
 
     today = d(args.today)
@@ -410,7 +411,7 @@ def main():
         "events": client,
     }
 
-    template = (ROOT / "template.html").read_text()
+    template = Path(args.template).read_text()
     head, body = template.split("<!--BODY-->", 1)
 
     def page(preview):
