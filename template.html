@@ -1,5 +1,4 @@
-<title>Same Time Next Week</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<title>Same Time Next Week · Find community in Durham &amp; Raleigh, NC</title>
 <meta name="description" content="Jams, dances, classes, run clubs, game nights and volunteer shifts in Durham and Raleigh, NC. Every listing is re-checked weekly.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,7 +61,8 @@ a { color: var(--ink-fg); }
 .bar { display: flex; align-items: center; gap: 12px; padding-block: 18px 0; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; min-width: 0; }
 .brand svg { width: 34px; height: 34px; flex: none; }
-.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 8.2vw, 34px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(32px, 10vw, 40px); line-height: .86; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.brand b span { display: block; } /* stacked wordmark on phones, one line on wide screens */
 .motto { margin-block: 0; padding-top: 12px; }
 .motto span {
   display: inline-block; max-width: 100%; padding: 4px 14px 2px; background: var(--tape); color: var(--fg);
@@ -74,7 +74,7 @@ a { color: var(--ink-fg); }
   .bar { padding-top: 28px; }
   .brand { gap: 14px; }
   .brand svg { width: 46px; height: 46px; }
-  .brand b { font-size: 50px; }
+  .brand b { font-size: 50px; } .brand b span { display: inline; }
   .motto { padding-top: 14px; }
   .motto span { font-size: 18px; padding: 5px 16px 3px; }
 }
@@ -92,7 +92,7 @@ a { color: var(--ink-fg); }
 .tabs a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--pin); }
 .tabs a:focus-visible { outline-offset: -3px; border-radius: 6px; }
 .cityswitch { order: -1; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--seg); box-shadow: inset 0 0 0 1px var(--seg-line); }
-.cityswitch button { flex: 1 1 0; min-height: 30px; border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 3px 12px; border-radius: 999px; white-space: nowrap; }
+.cityswitch button { flex: 1 1 0; min-height: 40px; border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 3px 12px; border-radius: 999px; white-space: nowrap; }
 .cityswitch button:hover { color: var(--fg); }
 .cityswitch button[aria-pressed="true"] { background: var(--fg); color: var(--on-ink); box-shadow: 0 1px 2px rgba(30, 20, 10, .25); }
 .pill { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--pin); color: var(--on-pin); font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; }
@@ -102,6 +102,11 @@ a { color: var(--ink-fg); }
   .tabs a { flex: none; min-height: 50px; padding: 3px 12px 0; font-size: 15px; }
   .cityswitch { order: 0; flex: none; }
   .cityswitch button { flex: none; padding: 3px 14px; font-size: 14px; }
+}
+/* Small phones: all four tabs (and the My plan count) fit without the row scrolling sideways. */
+@media (max-width: 399.98px) {
+  .tabs a { gap: 4px; padding: 3px 4px 0; font-size: 13.5px; }
+  .tabs .pill { min-width: 17px; height: 17px; padding: 0 4px; font-size: 10.5px; }
 }
 
 /* Intro */
@@ -131,6 +136,14 @@ a { color: var(--ink-fg); }
 
 /* Search and category stickers */
 .filters { display: flex; flex-wrap: wrap; gap: 8px 6px; padding-block: 12px 2px; }
+/* Phones: the stickers sit in one row that scrolls sideways inside itself, bleeding to the screen edges like the day strip. */
+@media (max-width: 699.98px) {
+  .filters {
+    flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+    margin: 0 -16px; padding: 12px 16px 10px;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+}
 .fbreak { flex-basis: 100%; height: 0; }
 .vhead { margin: 26px 0 12px; font-family: var(--f-display); font-size: 21px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--fg); }
 .rules { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
@@ -144,6 +157,8 @@ a { color: var(--ink-fg); }
 .searchbar input::placeholder { color: var(--muted); }
 .searchbar input:focus { outline: 3px solid var(--ink); outline-offset: 1px; }
 .searchhead { margin-top: 24px; align-items: center; }
+/* The count and the Clear search pill share the heading line; the "for ..." line sits under them. */
+.searchhead .sub { order: 1; flex-basis: 100%; margin-top: 4px; }
 .thinhint { margin-top: 10px; border: 0; background: none; padding: 6px 0; color: var(--ink-fg); font-size: 14.5px; font-weight: 700; cursor: pointer; }
 .thinhint:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fchip {
@@ -178,7 +193,7 @@ a { color: var(--ink-fg); }
 .row {
   --stub-w: 58px;
   position: relative; isolation: isolate; min-width: 0; cursor: pointer; color: var(--fg);
-  display: grid; grid-template-columns: minmax(0, 1fr) var(--stub-w); grid-template-areas: "time go" "main go"; align-items: start;
+  display: grid; grid-template-columns: minmax(0, 1fr) var(--stub-w); grid-template-areas: "time go" "main go"; align-items: start; align-content: start;
 }
 .row::before {
   content: ""; position: absolute; inset: 0; z-index: -1; border-radius: 4px;
@@ -207,7 +222,7 @@ a { color: var(--ink-fg); }
   .row:has(> .main:focus-visible)::before { box-shadow: 0 0 0 3px var(--ink), var(--lift); }
 }
 .gobtn {
-  width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; padding: 0; font-size: 17px;
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; padding: 0; font-size: 17px;
   border: 1.5px solid var(--btn-line); background: var(--paper); color: var(--fg); cursor: pointer; box-shadow: 0 1px 2px rgba(60, 40, 20, .14);
 }
 .gobtn:hover { border-color: var(--fg); }
@@ -217,7 +232,7 @@ a { color: var(--ink-fg); }
   box-shadow: 0 2px 3px rgba(90, 20, 10, .35), 0 5px 8px -3px rgba(90, 20, 10, .35);
 }
 .gheart { color: var(--give); margin-right: 5px; font-size: 14px; }
-.flag { color: var(--fg); font-weight: 700; }
+.flag { color: var(--fg); font-weight: 700; white-space: nowrap; }
 .more-wrap { margin-top: 28px; }
 .more-wrap .btn { box-shadow: var(--lift); }
 /* Wider screens: the week becomes a board of day columns; other ticket lists become a grid. */
@@ -228,6 +243,15 @@ a { color: var(--ink-fg); }
   #view > .day { min-width: 0; margin: 0; padding-top: 26px; }
   #view > .empty-state, #view > .more-wrap, #view > .suggest { grid-column: 1 / -1; }
   .dayhead h2 { font-size: 34px; }
+  /* One day page picked: that day takes the whole board, and its tickets use the same grid as search results. */
+  #view.oneday > .day { grid-column: 1 / -1; }
+  #view.oneday .day .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 12px 18px; }
+}
+/* Phones, one day picked: the "See the whole week" pill stays on the heading line; the date moves under it.
+   (Under 360px a long day name and the pill can't share a line, so the original order stays.) */
+@media (min-width: 360px) and (max-width: 719.98px) {
+  #view.oneday .dayhead .sub, #view.oneday .dayhead .hol { order: 1; }
+  #view.oneday .dayhead .sub { flex-basis: 100%; }
 }
 
 /* Stickers (category and status labels) */
@@ -265,6 +289,14 @@ a { color: var(--ink-fg); }
 .cellhead { display: flex; align-items: center; gap: 4px; min-width: 0; }
 .num { width: 28px; height: 28px; flex: none; display: grid; place-items: center; border-radius: 50%; border: 0; background: transparent; color: var(--fg); padding: 0; cursor: pointer; font-size: 13.5px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .cell.today .num { background: var(--today); color: var(--today-fg); }
+/* Holidays get a dashed ring in the holiday red, so they never look like a second "today". */
+.cell.hasHol .num { border: 1.5px dashed var(--hol); }
+.cell.today.hasHol .num { border: 0; }
+.calkey { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; padding: 8px 12px; border-top: 1px solid var(--line); background: var(--stub); color: var(--muted); font-size: 12.5px; font-weight: 700; line-height: 1.3; }
+.calkey span { display: inline-flex; align-items: center; gap: 6px; }
+.calkey i { flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); }
+.calkey i.give { background: var(--give); }
+.calkey i.hol { width: 15px; height: 15px; background: none; border: 1.5px dashed var(--hol); }
 .cell .hol { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .chip { display: flex; align-items: center; gap: 4px; width: 100%; min-width: 0; text-align: left; cursor: pointer; border: 0; border-radius: 4px; padding: 3px 6px; font-size: 12px; font-weight: 500; line-height: 1.3; background: var(--ink-tint); color: var(--ink-fg); }
 .chip:hover { box-shadow: inset 0 0 0 1px var(--ink); }
@@ -282,9 +314,11 @@ a { color: var(--ink-fg); }
 .eyebrow { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--board-muted); }
 .horizon { color: var(--board-muted); font-size: 14px; margin: 16px 0 0; }
 .holnote { margin: 10px 0 0; font-size: 14px; padding: 8px 11px; border-radius: 3px; background: var(--note); color: var(--fg); }
-@media (max-width: 980px) { .callayout { grid-template-columns: minmax(0, 1fr); } #daypanel { scroll-margin-top: 100px; } }
+@media (max-width: 980px) { .callayout { grid-template-columns: minmax(0, 1fr); } #daypanel { scroll-margin-top: 72px; } }
+@media (max-width: 699.98px) { #daypanel { scroll-margin-top: calc(108px + env(safe-area-inset-top, 0px)); } }
 @media (max-width: 640px) {
-  .monthnav h2 { font-size: 27px; min-width: 0; }
+  .monthnav { gap: 6px; }
+  .monthnav h2 { font-size: 27px; min-width: 0; margin: 0 4px; }
   .dow div { padding: 6px 0; text-align: center; font-size: 12px; letter-spacing: .04em; }
   .cell { min-height: 58px; padding: 5px 2px; align-items: center; gap: 5px; }
   .cellhead { justify-content: center; }
@@ -292,8 +326,6 @@ a { color: var(--ink-fg); }
   .dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 3px; max-width: 40px; }
   .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ink); }
   .dot.give { background: var(--give); }
-  .cell.hasHol .num { box-shadow: 0 0 0 1.5px var(--today); }
-  .cell.today.hasHol .num { box-shadow: none; }
 }
 
 /* Flyers: role cards, empty states, the suggestion note */
@@ -335,16 +367,22 @@ a { color: var(--ink-fg); }
 
 /* Detail sheet: a flyer taped to the board */
 .modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: var(--scrim); padding: 24px; }
-.sheet { position: relative; background: var(--paper); color: var(--fg); width: min(600px, 100%); max-height: 100%; overflow: auto; border-radius: 4px; box-shadow: var(--shadow); padding: 36px 26px 28px; }
+.sheet { position: relative; background: var(--paper); color: var(--fg); width: min(600px, 100%); max-height: 100%; overflow: auto; overflow-wrap: break-word; border-radius: 4px; box-shadow: var(--shadow); padding: 36px 26px 28px; }
 .sheet::before { top: 0; width: 132px; height: 24px; margin-left: -66px; }
 .sheet:focus { outline: none; }
-.close { position: absolute; top: 12px; right: 12px; z-index: 1; width: 38px; height: 38px; border-radius: 50%; border: 1.5px solid var(--btn-line); background: var(--paper); color: var(--fg); cursor: pointer; display: grid; place-items: center; font-size: 16px; }
+/* The sticker row stops short of the close button. */
+.sheet > .tags { margin-right: 48px; }
+.close { position: absolute; top: 12px; right: 12px; z-index: 1; width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--btn-line); background: var(--paper); color: var(--fg); cursor: pointer; display: grid; place-items: center; font-size: 16px; }
 .close:hover { border-color: var(--fg); }
 .sheet h2 { font-family: var(--f-display); font-weight: 800; font-size: 37px; letter-spacing: .005em; line-height: 1; margin: 14px 44px 8px 0; text-wrap: balance; }
 .sheet h2:focus { outline: none; }
 .sheet .lede { color: var(--muted); margin: 0 0 16px; }
 .when { margin: 0; font-weight: 700; }
+/* Listings you register for: the organizer's sign-up page is the main next step, above "I'm going". */
+.joinrow { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 4px; }
+.joinrow .btn { min-height: 46px; padding-inline: 20px; font-size: 15px; box-shadow: var(--lift); }
 .goingrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 18px 0 4px; }
+.joinrow + .goingrow { margin-top: 12px; }
 .bigbtn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; border: 2px solid var(--fg); background: var(--paper); color: var(--fg); font-size: 15.5px; font-weight: 800; cursor: pointer; }
 .bigbtn:hover { background: var(--hover); }
 .bigbtn[aria-pressed="true"] { background: var(--pin); border-color: var(--pin); color: var(--on-pin); }
@@ -355,7 +393,7 @@ a { color: var(--ink-fg); }
 .firsttime b { color: var(--fg); }
 .facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 10px 16px; margin: 20px 0; padding-top: 16px; border-top: 2px dashed var(--line); }
 .facts dt { font-family: var(--f-display); font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
-.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.facts dd { margin: 0; min-width: 0; overflow-wrap: break-word; }
 .addr { color: var(--muted); }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .addcal { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
@@ -384,19 +422,23 @@ a { color: var(--ink-fg); }
 .sugg p { margin: 0; color: var(--muted); font-size: 14px; }
 @media (max-width: 640px) {
   .modal { place-items: end stretch; padding: env(safe-area-inset-top, 0px) 0 0; }
-  .sheet { width: 100%; max-height: 92vh; border-radius: 10px 10px 0 0; padding: 34px max(18px, env(safe-area-inset-right, 0px)) calc(26px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px)); }
+  .sheet { width: 100%; max-height: 92vh; max-height: 92dvh; border-radius: 10px 10px 0 0; padding: 34px max(18px, env(safe-area-inset-right, 0px)) calc(26px + env(safe-area-inset-bottom, 0px)) max(18px, env(safe-area-inset-left, 0px)); }
   .sheet h2 { font-size: 32px; }
 }
 
 .toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 60; background: var(--fg); color: var(--on-ink); padding: 10px 16px; border-radius: 8px; font-size: 14.5px; font-weight: 700; box-shadow: var(--shadow); max-width: calc(100% - 32px); overflow-wrap: anywhere; }
 .foot { margin-top: 52px; padding-block: 22px calc(30px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--board-line); color: var(--board-muted); font-size: 14px; }
 .foot p { margin: 0 0 6px; max-width: 78ch; }
+/* Bigger tap areas for the small text links; the button's negative margin keeps the line spacing as it was. */
+.foot a, .foot .footlink, .checked a { padding-block: 8px; }
+.foot button.footlink { margin-block: -8px; }
+.noscript { margin: 24px 0 0; padding: 14px 16px; border-radius: 3px; background: var(--note); font-weight: 700; box-shadow: var(--lift); }
 
 /* Day pages: the next 7 days as tear-off calendar pages with a count of what's on. Tap one to see just that day.
    The row scrolls sideways inside itself only when seven pages don't fit; its padding leaves room for the pin and focus ring. */
 .weektop { display: grid; padding-top: 10px; min-width: 0; }
-#view, #weektop { scroll-margin-top: calc(96px + env(safe-area-inset-top, 0px)); }
-@media (min-width: 700px) { #view, #weektop { scroll-margin-top: calc(62px + env(safe-area-inset-top, 0px)); } }
+#view, #weektop, #ongoing-roles { scroll-margin-top: calc(108px + env(safe-area-inset-top, 0px)); }
+@media (min-width: 700px) { #view, #weektop, #ongoing-roles { scroll-margin-top: calc(62px + env(safe-area-inset-top, 0px)); } }
 .strip {
   display: grid; grid-auto-flow: column; grid-auto-columns: minmax(44px, 1fr); gap: 6px; min-width: 0;
   overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
@@ -429,17 +471,23 @@ a { color: var(--ink-fg); }
   background: radial-gradient(circle at 34% 30%, var(--pin-hi) 0, var(--pin) 45%, var(--pin-lo) 100%);
   box-shadow: 0 2px 2px rgba(90, 20, 10, .35);
 }
-.dayhead .fclear[data-wkday] {
+.dayhead .fclear[data-wkday], .dayhead .fclear[data-clearq], .secthead .jumplink {
   margin-left: auto; align-self: center; padding: 6px 13px; border: 0; border-radius: 999px; background: var(--paper); color: var(--ink-fg);
-  font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; box-shadow: var(--lift);
+  font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; box-shadow: var(--lift); text-decoration: none; white-space: nowrap;
 }
-.dayhead .fclear[data-wkday]:hover { background: var(--hover); }
+.dayhead .fclear[data-wkday]:hover, .dayhead .fclear[data-clearq]:hover, .secthead .jumplink:hover { background: var(--hover); }
 @media (min-width: 900px) {
   .weektop { padding-top: 14px; }
   .strip { grid-auto-columns: minmax(44px, 116px); gap: 12px; justify-content: start; }
   .sday { padding-bottom: 9px; }
   .sday .sd-w { font-size: 13.5px; padding: 6px 0 4px; }
   .sday .sd-n { font-size: 32px; margin-top: 7px; }
+}
+
+/* Touch screens: small controls get at least a 40px tap height. */
+@media (pointer: coarse) {
+  .fchip, .btn.sm, .datechip, .iconbtn, .textbtn, .thinhint { min-height: 40px; }
+  .iconbtn { min-width: 40px; }
 }
 
 /* Static tilts: paper only, never the text. Off when reduced motion is requested. */
@@ -468,13 +516,12 @@ a { color: var(--ink-fg); }
 <header class="site">
   <div class="wrap bar">
     <a class="brand" href="#week" aria-label="Same Time Next Week home">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="lg-bg" width="32" height="32" rx="8"/><circle class="lg-dot" cx="9" cy="9" r="2.6"/><circle class="lg-dot" cx="16" cy="9" r="2.6"/><circle class="lg-dot" cx="23" cy="9" r="2.6"/><circle class="lg-dot" cx="9" cy="16" r="2.6"/><circle class="lg-hi" cx="16" cy="16" r="2.6"/><circle class="lg-dot" cx="23" cy="16" r="2.6"/><circle class="lg-dot" cx="9" cy="23" r="2.6"/><circle class="lg-dot" cx="16" cy="23" r="2.6"/><circle class="lg-dot" cx="23" cy="23" r="2.6"/></svg>
-      <span class="bt"><b>Same Time Next Week</b></span>
+      <span class="bt"><b><span>Same Time</span> <span>Next Week</span></b></span>
     </a>
   </div>
   <p class="wrap motto"><span>Find community in Durham &amp; Raleigh</span></p>
 </header>
-<div class="tabsbar">
+<div class="tabsbar" role="region" aria-label="Sections and city">
   <div class="wrap navrow">
     <nav class="tabs" aria-label="Sections">
       <a href="#week" data-view="week">This week</a>
@@ -490,6 +537,7 @@ a { color: var(--ink-fg); }
   </div>
 </div>
 <main class="wrap" id="main">
+  <noscript><p class="noscript">This site needs JavaScript to show listings.</p></noscript>
   <section class="intro" id="intro"></section>
   <div class="weektop" id="weektop" hidden></div>
   <div class="searchbar" id="searchbar"><input type="search" id="q" placeholder="Search: pottery, salsa, trivia, a venue…" aria-label="Search events" autocomplete="off" enterkeyhint="search"></div>
@@ -537,7 +585,8 @@ a { color: var(--ink-fg); }
     plus: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     close: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
     cal: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
-    spark: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 9.4 6.6 14.5 8 9.4 9.4 8 14.5 6.6 9.4 1.5 8l5.1-1.4z" fill="currentColor"/></svg>'
+    spark: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 9.4 6.6 14.5 8 9.4 9.4 8 14.5 6.6 9.4 1.5 8l5.1-1.4z" fill="currentColor"/></svg>',
+    ext: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 3.5h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3M9.5 2.5h4v4M13.5 2.5 7.5 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
   };
 
   /* ---------- helpers ---------- */
@@ -552,6 +601,8 @@ a { color: var(--ink-fg); }
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
+  // Titles read "Name · Venue". A no-break space before the dot means a wrapped line never starts with it.
+  function titleHtml(s) { return esc(s).replace(/ · /g, ' · '); }
   function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : null; }
   function hm(t) { var p = t.split(':').map(Number); return { h: p[0], m: p[1] || 0 }; }
   function ap(t) { return hm(t).h < 12 ? 'am' : 'pm'; }
@@ -722,7 +773,7 @@ a { color: var(--ink-fg); }
     return '<div class="row' + (e.philanthropy ? ' give' : '') + (withDate ? ' dated' : '') + '" data-open="' + e.id + '" data-date="' + k + '">' +
       '<span class="time">' + (withDate ? '<span class="d">' + esc(shortDate(k)) + '</span>' : '') + esc(startText(e)) + '</span>' +
       '<button type="button" class="main" data-open="' + e.id + '" data-date="' + k + '">' +
-      '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + esc(e.title) + '</span>' +
+      '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + titleHtml(e.title) + '</span>' +
       '<span class="meta">' + esc(metaLine(e)) + (e.entry === 'signup' ? ' · <span class="flag">Sign up first</span>' : '') + '</span></button>' +
       goBtn(e, k) + '</div>';
   }
@@ -758,7 +809,9 @@ a { color: var(--ink-fg); }
       h += '<button type="button" class="fchip' + (g[0] === 'volunteer' ? ' give' : '') + '" data-cat="' + g[0] + '" aria-pressed="' + !!f.cats[g[0]] + '">' +
         (g[0] === 'volunteer' ? I.heart : '') + esc(g[1]) + '</button>';
     });
+    var sl = el.scrollLeft;
     el.innerHTML = h;
+    el.scrollLeft = sl; // phones: keep the sticker row where it was scrolled to
   }
 
   function renderSearch() {
@@ -769,11 +822,22 @@ a { color: var(--ink-fg); }
       for (var i = 0; i < occ.length; i++) { if (occ[i] >= TODAY && passesFilters(e, occ[i])) { out.push({ e: e, k: occ[i] }); break; } }
     });
     out.sort(function (a, b) { return a.k < b.k ? -1 : a.k > b.k ? 1 : byTime(a.e, b.e); });
-    var nRoles = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e) && matchesQuery(e); }).length, total = out.length + nRoles;
-    var h = '<div class="dayhead searchhead"><h2>' + total + (total === 1 ? ' match' : ' matches') + '</h2><span class="sub">for \u201c' + esc(state.q) +
-      '\u201d, showing each one\u2019s next date</span><button type="button" class="fclear" data-clearq="1">Clear search</button></div>';
-    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e) && matchesQuery(e); });
-    if (!out.length && !roles.length) return h + '<p class="none">Nothing matches. Try a different word' + (state.city === 'both' ? '' : ', or switch to Both cities') + '.</p>';
+    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && inCity(e) && matchesQuery(e); }), total = out.length + roles.length;
+    var h = '<div class="dayhead searchhead"><h2>' + total + (total === 1 ? ' match' : ' matches') + '</h2>' +
+      (total ? '<span class="sub">for \u201c' + esc(state.q) + '\u201d, showing each one\u2019s next date</span>' : '') +
+      '<button type="button" class="fclear" data-clearq="1">Clear search</button></div>';
+    if (!total) {
+      // Nothing found: say so kindly and offer the next steps that might help.
+      var tries = ['another word'], acts = [];
+      if (catCount()) { tries.push('fewer filters'); acts.push('<button type="button" class="btn" data-clear="1">Clear filters</button>'); }
+      if (state.city !== 'both') { tries.push('both cities'); acts.unshift('<button type="button" class="btn" data-city="both">Show both cities</button>'); }
+      if (safeUrl(D.suggestUrl)) acts.push('<a class="btn" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest it</a>');
+      if (acts.length) acts[0] = acts[0].replace('class="btn"', 'class="btn primary"');
+      var tryText = tries.length > 2 ? tries.slice(0, -1).join(', ') + ' or ' + tries[tries.length - 1] : tries.join(' or ');
+      return h + '<div class="empty-state"><h2>Nothing for \u201c' + esc(state.q) + '\u201d yet</h2><p>Try ' + tryText + '.' +
+        (safeUrl(D.suggestUrl) ? ' Know a regular, newcomer-friendly thing that belongs here? Suggest it and we\u2019ll check it out.' : '') + '</p>' +
+        (acts.length ? '<div class="cta">' + acts.join('') + '</div>' : '') + '</div>';
+    }
     if (out.length) h += '<div class="items">' + out.map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>';
     if (roles.length) h += '<h3 class="vhead">Ongoing volunteer roles</h3><div class="cards">' + roles.map(cardHtml).join('') + '</div>';
     return h;
@@ -797,7 +861,8 @@ a { color: var(--ink-fg); }
     return h + '</div>';
   }
   function renderWeekTop() {
-    var el = $('weektop'), show = state.view === 'week';
+    // Hidden while search results show: the pages count only this week, but results run for months.
+    var el = $('weektop'), show = state.view === 'week' && !(state.q && !state.wday);
     el.hidden = !show;
     el.innerHTML = show ? stripHtml() : '';
   }
@@ -810,6 +875,7 @@ a { color: var(--ink-fg); }
     days.forEach(function (k) {
       var list = on(k), x = parse(k), i = Math.round((x - parse(TODAY)) / 864e5);
       total += list.length;
+      if (!list.length && anyFilter() && !state.wday) return; // with filters on, days with nothing are left out
       var label = i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : DOW_LONG[x.getDay()];
       h += '<section class="day" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
         (i <= 1 ? DOW_LONG[x.getDay()] + ', ' : '') + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</span>' +
@@ -864,7 +930,9 @@ a { color: var(--ink-fg); }
       '<h2>' + MONTHS[m] + ' ' + y + '</h2><button type="button" class="iconbtn" data-month="1" aria-label="Next month"' + (nextOk ? '' : ' disabled') + '>' + I.chevR + '</button>' +
       '<button type="button" class="textbtn" data-today="1">Today</button></div>' +
       '<div class="callayout"><section class="cal" aria-label="' + MONTHS[m] + ' ' + y + '"><div class="dow" aria-hidden="true"><div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div></div>' +
-      '<div class="grid">' + cells + '</div></section><aside class="daypanel" id="daypanel" aria-live="polite">' + dayPanelHtml(state.calSel) + '</aside></div>' +
+      '<div class="grid">' + cells + '</div>' +
+      '<div class="calkey" aria-hidden="true"><span><i></i>Event</span><span><i class="give"></i>Volunteer</span><span><i class="hol"></i>Holiday</span></div>' +
+      '</section><aside class="daypanel" id="daypanel" aria-live="polite">' + dayPanelHtml(state.calSel) + '</aside></div>' +
       '<p class="horizon">Weekly and monthly events are listed about six weeks ahead. Later dates appear as organizers confirm them.</p>';
   }
   function dayPanelHtml(k) {
@@ -879,7 +947,7 @@ a { color: var(--ink-fg); }
   function cardHtml(e) {
     var url = safeUrl(e.url);
     return '<article class="card"><div class="tags">' + tagHtml(e, true) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>' +
-      '<h3>' + esc(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p><p class="cdesc">' + esc(e.description || '') + '</p>' +
+      '<h3>' + titleHtml(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p><p class="cdesc">' + esc(e.description || '') + '</p>' +
       '<div class="cactions"><button type="button" class="btn sm primary" data-open="' + e.id + '">How to join</button>' +
       (url ? '<a class="btn sm" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') + '</div></article>';
   }
@@ -897,7 +965,7 @@ a { color: var(--ink-fg); }
   function renderPlan() {
     var all = planEntries();
     if (!all.length) {
-      return '<div class="empty-state"><h2>Nothing saved yet</h2><p>Tap \u201cI\u2019m going\u201d on anything that looks good and it shows up here, ready to add to your calendar.</p>' +
+      return '<div class="empty-state"><h2>Nothing saved yet</h2><p>Tap the + on any listing, or \u201cI\u2019m going\u201d inside it, and it shows up here, ready to add to your calendar.</p>' +
         '<div class="cta"><button type="button" class="btn primary" data-wiz="1">' + I.spark + 'Help me choose</button><a class="btn" href="#week">Browse this week</a></div></div>';
     }
     function sortFn(a, b) { return a.d < b.d ? -1 : a.d > b.d ? 1 : byTime(EV[a.id], EV[b.id]); }
@@ -918,7 +986,7 @@ a { color: var(--ink-fg); }
     if (lastDay) h += '</div>';
     h += '</section>';
     if (recent.length) {
-      h += '<section class="plansec"><div class="secthead"><h2>Recently</h2></div><p class="jsub">Saved dates that have passed count as visits. Didn\u2019t make it? Tap \u201cWent\u201d to take it off.</p><div class="items">' +
+      h += '<section class="plansec"><div class="secthead"><h2>Recently</h2></div><p class="jsub">Saved dates that have passed count as visits. Didn\u2019t make it? Tap the \u2713 on it to take it off.</p><div class="items">' +
         recent.map(function (x) { return rowHtml(EV[x.id], x.d); }).join('') + '</div></section>';
     }
     var series = {};
@@ -933,7 +1001,7 @@ a { color: var(--ink-fg); }
         var n = Math.min(s.went, 6), dots = '';
         for (var i = 0; i < 6; i++) dots += '<i class="' + (i < n ? 'on' : '') + '"></i>';
         var status = s.went >= 6 ? 'You\u2019re a regular here' : s.went + ' of 6 visits';
-        return '<article class="card clickable" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '><h3><button type="button" class="linkish" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '>' + esc(s.e.title) + '</button></h3>' +
+        return '<article class="card clickable" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '><h3><button type="button" class="linkish" data-open="' + s.e.id + '"' + (s.next ? ' data-date="' + s.next + '"' : '') + '>' + titleHtml(s.e.title) + '</button></h3>' +
           '<div class="dots6" role="img" aria-label="' + esc(status) + '">' + dots + '</div><p class="sched">' + esc(status) + '</p>' +
           '<p class="cdesc">' + (s.last ? 'Last went ' + esc(shortDate(s.last)) : 'Not yet') + (s.next ? ' · Next: ' + esc(shortDate(s.next)) : '') + '</p></article>';
       }).join('') + '</div></section>';
@@ -945,15 +1013,19 @@ a { color: var(--ink-fg); }
     var end = addDays(TODAY, 28), shifts = [];
     EVENTS.forEach(function (e) {
       if (e.kind === 'program' || !e.philanthropy || !inCity(e)) return;
-      (e.occ || []).forEach(function (k) { if (k >= TODAY && k <= end) shifts.push({ e: e, k: k }); });
+      // A recurring shift is listed once, at its next date; its sheet lists the other dates.
+      var next = (e.occ || []).filter(function (k) { return k >= TODAY && k <= end; }).sort()[0];
+      if (next) shifts.push({ e: e, k: next });
     });
     shifts.sort(function (a, b) { return a.k < b.k ? -1 : a.k > b.k ? 1 : byTime(a.e, b.e); });
-    var h = '<section class="plansec"><div class="secthead"><h2>Upcoming shifts</h2></div><p class="jsub">Sign up for a single date. Most take a few minutes to register.</p>';
+    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && e.pgroup === 'volunteer' && inCity(e); });
+    var h = '<section class="plansec"><div class="secthead"><h2>Upcoming shifts</h2>' +
+      (roles.length ? '<button type="button" class="jumplink" data-jump="ongoing-roles">Jump to ongoing roles ↓</button>' : '') + '</div>' +
+      '<p class="jsub">Sign up for a single date. Most take a few minutes to register. Each shift is listed at its next date; open it to see the others.</p>';
     h += shifts.length ? '<div class="items">' + shifts.slice(0, 40).map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>'
       : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'both' ? '' : ' here. Try Both cities') + '.</p>';
     h += '</section>';
-    var roles = EVENTS.filter(function (e) { return e.kind === 'program' && e.pgroup === 'volunteer' && inCity(e); });
-    h += '<section class="plansec"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
+    h += '<section class="plansec" id="ongoing-roles"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
     VTYPES.forEach(function (t) {
       var items = roles.filter(function (e) { return (e.vtype || 'other') === t[0]; });
       if (items.length) h += '<h3 class="vhead">' + esc(t[1]) + '</h3><div class="cards">' + items.map(cardHtml).join('') + '</div>';
@@ -968,6 +1040,7 @@ a { color: var(--ink-fg); }
   function renderView() {
     renderWeekTop();
     var v = $('view');
+    v.classList.toggle('oneday', state.view === 'week' && !!state.wday);
     if (state.view === 'calendar') v.innerHTML = renderCalendar();
     else if (state.view === 'plan') v.innerHTML = renderPlan();
     else if (state.view === 'volunteer') v.innerHTML = renderVolunteer();
@@ -1104,10 +1177,16 @@ a { color: var(--ink-fg); }
 
   function detailHtml(e, k) {
     var url = safeUrl(e.url), h = '<div class="tags">' + tagHtml(e) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>';
-    h += '<h2 tabindex="-1">' + esc(e.title) + '</h2>';
-    if (k) h += '<p class="when">' + esc(longDate(k)) + ' · ' + esc(rangeText(e)) + '</p>';
-    else h += '<p class="when">' + esc(e.rtext || 'Join any time') + '</p>';
+    var tt = ' data-track-title="' + esc(e.short || e.title) + '"';
+    var whenText = k ? longDate(k) + ' · ' + rangeText(e) : (e.rtext || 'Join any time');
+    h += '<h2 tabindex="-1">' + titleHtml(e.title) + '</h2>';
+    h += '<p class="when">' + esc(whenText) + '</p>';
     if (k && HOL[k]) h += '<p class="holnote"><b>' + esc(HOL[k]) + '.</b> Groups sometimes change plans on holidays, so check the website first.</p>';
+    // Sign-up listings and volunteer roles: the organizer's own page is the real next step, so it's the main button.
+    if (url && (e.kind === 'program' || e.entry === 'signup')) {
+      h += '<div class="joinrow"><a class="btn primary" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" data-track="sign-up"' + tt + '>' +
+        (e.kind === 'program' ? 'How to join' : 'Sign up on their site') + I.ext + '</a></div>';
+    }
     if (k) {
       var marked = isMarked(e.id, k);
       h += '<div class="goingrow"><button type="button" class="bigbtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '">' +
@@ -1118,10 +1197,15 @@ a { color: var(--ink-fg); }
     else if (e.timeNote) h += '<p class="goodtoknow"><b>Good to know:</b> ' + esc(e.timeNote) + '</p>';
     h += '<dl class="facts">';
     if (e.venue || e.address) h += '<dt>Where</dt><dd><b>' + esc(e.venue || '') + '</b>' + (e.address ? '<br><span class="addr">' + esc(e.address) + '</span>' : '') + '</dd>';
-    h += '<dt>Cost</dt><dd>' + esc(e.cost || 'Not listed') + '</dd>';
-    h += '<dt>' + (e.kind === 'program' || e.multi ? 'Schedule' : 'Repeats') + '</dt><dd>' + esc(e.rtext || '') + '</dd>';
+    var cost = e.cost;
+    if (e.philanthropy && (!cost || /^\s*not listed\.?\s*$/i.test(cost))) cost = 'Free to volunteer';
+    h += '<dt>Cost</dt><dd>' + esc(cost || 'Not listed') + '</dd>';
+    // One-off dates say "Date", not "Repeats" (a monthly event with one date in range still repeats).
+    var rt = e.rtext || '', single = (e.occ || []).length === 1 && !e.multi && e.kind !== 'program' && !/\b(each|every)\b/i.test(rt);
+    if (rt && rt !== whenText) {
+      h += '<dt>' + (e.kind === 'program' || e.multi ? 'Schedule' : single ? 'Date' : 'Repeats') + '</dt><dd>' + esc(single ? rt.replace(/^one date:\s*/i, '') : rt) + '</dd>';
+    }
     h += '<dt>' + (e.entry === 'show' ? 'How it works' : 'How to join') + '</dt><dd>' + esc(e.howToJoin || 'Check the website') + '</dd></dl>';
-    var tt = ' data-track-title="' + esc(e.short || e.title) + '"';
     h += '<div class="actions">' +
       (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer" data-track="directions"' + tt + '>Directions</a>' : '') +
       (url ? '<a class="btn" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" data-track="organizer-website"' + tt + '>Website</a>' : '') +
@@ -1205,7 +1289,7 @@ a { color: var(--ink-fg); }
       var next = x.occ.slice(0, 4);
       lastSugg[x.e.id] = next;
       var done = next.every(function (k) { return isMarked(x.e.id, k); });
-      return '<article class="sugg"><div class="tags">' + tagHtml(x.e) + '</div><h4>' + esc(x.e.title) + '</h4><p>' + esc(x.e.rtext || '') + (x.e.start ? ' · ' + esc(rangeText(x.e)) : '') +
+      return '<article class="sugg"><div class="tags">' + tagHtml(x.e) + '</div><h4>' + titleHtml(x.e.title) + '</h4><p>' + esc(x.e.rtext || '') + (x.e.start ? ' · ' + esc(rangeText(x.e)) : '') +
         '</p><p>' + esc(metaLine(x.e)) + '</p><p>Next: ' + next.map(shortDate).join(', ') + '</p>' +
         '<button type="button" class="btn sm' + (done ? '' : ' primary') + '" data-addseries="' + x.e.id + '"' + (done ? ' disabled' : '') + '>' +
         (done ? I.check + 'Added to My plan' : I.plus + 'Add the next ' + next.length + ' dates to My plan') + '</button></article>';
@@ -1297,6 +1381,16 @@ a { color: var(--ink-fg); }
       track('im-going/all-dates', evName(b.dataset.addseries));
       return;
     }
+    if ((b = t.closest('[data-jump]'))) {
+      // In-page jump (a #hash link would switch views through the router).
+      var jt = $(b.dataset.jump);
+      if (jt) {
+        jt.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+        var jh = jt.querySelector('h2');
+        if (jh) { jh.setAttribute('tabindex', '-1'); jh.focus({ preventScroll: true }); }
+      }
+      return;
+    }
     if ((b = t.closest('[data-open]'))) { openEvent(b.dataset.open, b.dataset.date || null, true); return; }
     if ((b = t.closest('[data-city]'))) { setCity(b.dataset.city); return; }
     if ((b = t.closest('[data-rules]'))) { openRules(); return; }
@@ -1304,11 +1398,14 @@ a { color: var(--ink-fg); }
     if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
     if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-cat]'))) {
-      var c = b.dataset.cat;
+      var c = b.dataset.cat, hadC = document.activeElement === b;
       if (!c) state.f.cats = {};
       else if (state.f.cats[c]) delete state.f.cats[c];
       else state.f.cats[c] = true;
-      renderFilters(); renderView(); return;
+      renderFilters(); renderView();
+      var nc = $('filters').querySelector('[data-cat="' + c + '"]');
+      if (hadC && nc) nc.focus({ preventScroll: true }); // keyboard focus stays on the sticker
+      return;
     }
     if ((b = t.closest('[data-clear]'))) { state.f = blankFilters(); renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-span]'))) { state.span = +b.dataset.span; renderView(); return; }
@@ -1346,8 +1443,9 @@ a { color: var(--ink-fg); }
       renderView();
       var nw = document.querySelector('.sday[data-wkday="' + (wk || state.wday) + '"]');
       if (hadW && nw) nw.focus({ preventScroll: true });
+      // Bring the day's list up when its top sits below about 40% of the screen (or has scrolled off the top).
       var vt = $('view').getBoundingClientRect().top;
-      if (!wk || (state.wday && (vt < 0 || vt > window.innerHeight - 140))) {
+      if (!wk || (state.wday && (vt < 0 || vt > window.innerHeight * 0.4))) {
         var reduceW = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         (wk ? $('view') : $('weektop')).scrollIntoView({ behavior: reduceW ? 'auto' : 'smooth', block: 'start' });
       }

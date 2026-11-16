@@ -13,6 +13,7 @@ A listing stays on the site only if all of these are true:
 3. **Proof it's happening.** The organizer's own page, calendar or social account shows either the specific date, or a stated weekly/monthly schedule with activity in the last 30 days. Listings that only appear on aggregators (Eventbrite search pages, tourism calendars, magazine roundups) don't count on their own.
 4. **Built for newcomers.** A lesson, rotating partners, a host who seats new people, or a shared task.
 5. **Volunteering means working alongside other volunteers.** List group shifts anyone can sign up for: sorting, packing, cleanups, trail work, helping run a public event. Leave out one-on-one support or coaching roles (for example, coaching people with disabilities), roles that need special skills or training, roles that take only one or two volunteers in total, short set-up jobs for an organization's private party, and events meant for families with kids.
+   Ongoing roles on the Volunteer tab (programs, such as animal shelter volunteering) may need an application or orientation first; keep those when the work is hands-on alongside staff or other volunteers. Leave out one-on-one support roles and transport- or admin-only roles.
 
 Calendar listings must be things you can **show up to on a date**:
 - `"entry": "show"`: just show up, no paperwork.

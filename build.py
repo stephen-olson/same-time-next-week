@@ -178,7 +178,11 @@ def cost_info(c):
     if not c or low in ("not listed", "check the website") or low.startswith(("no price", "no fee", "not posted", "not listed")):
         return False, ""
     s = re.split(r"\s*[\(;]", c)[0].strip()
-    return False, s if len(s) <= 28 else s[:26].rstrip() + "…"
+    if len(s) > 28:  # keep the first clause ("$349 for 9 weeks") rather than cutting mid-word
+        s = re.split(r"\.\s|,\s|\s/\s|\sor\s", s)[0].strip().rstrip(".,")
+    if len(s) > 28:
+        s = s[:28].rsplit(" ", 1)[0].rstrip(",.;") + "…"
+    return False, s
 
 
 def validate(events):
@@ -315,28 +319,35 @@ def write_feeds(events, out, today, stamp):
 # ---------- icons ----------
 
 def png(size):
-    def mix(a, b, t):
-        return tuple(round(a[i] + (b[i] - a[i]) * t) for i in range(4))
-    ink, dot, hi, clear = (44, 76, 156, 255), (244, 246, 241, 255), (108, 207, 152, 255), (0, 0, 0, 0)
+    """App icon: a red pushpin holding a paper ticket on cork (drawn with anti-aliased shapes)."""
     s = size / 32.0
-    radius = 8 * s
-    centers = [(cx * s, cy * s) for cy in (9, 16, 23) for cx in (9, 16, 23)]
-    r = 2.6 * s
+    cork, paper, blue, tan, pin, hi = (213, 182, 139), (255, 253, 247), (32, 65, 154), (201, 188, 166), (210, 58, 44), (245, 154, 141)
+    # (kind, x, y, w-or-radius, h, corner radius, colour) in a 32-unit box
+    shapes = [("rect", 0, 0, 32, 32, 8, cork), ("rect", 8, 10, 16, 16, 1.5, paper), ("rect", 11, 16, 10, 2, 1, blue),
+              ("rect", 11, 20, 7, 2, 1, tan), ("circle", 16, 10, 3.6, 0, 0, pin), ("circle", 14.9, 8.9, 1.2, 0, 0, hi)]
+
+    def cover(sh, px, py):
+        kind, x, y, w, h, r, _ = sh
+        if kind == "circle":
+            d = ((px - x * s) ** 2 + (py - y * s) ** 2) ** 0.5 - w * s
+        else:
+            cx, cy, bx, by, rr = (x + w / 2) * s, (y + h / 2) * s, w / 2 * s, h / 2 * s, r * s
+            qx, qy = abs(px - cx) - bx + rr, abs(py - cy) - by + rr
+            d = (max(qx, 0) ** 2 + max(qy, 0) ** 2) ** 0.5 + min(max(qx, qy), 0) - rr
+        return max(0.0, min(1.0, 0.5 - d))
+
     rows = []
-    for y in range(size):
+    for yy in range(size):
         row = bytearray([0])
-        for x in range(size):
-            px, py = x + 0.5, y + 0.5
-            dx = max(radius - px, 0, px - (size - radius))
-            dy = max(radius - py, 0, py - (size - radius))
-            edge = radius - (dx * dx + dy * dy) ** 0.5 if (dx or dy) else min(px, py, size - px, size - py) + radius
-            a = max(0.0, min(1.0, edge + 0.5))
-            col = mix(clear, ink, a)
-            for i, (cx, cy) in enumerate(centers):
-                t = max(0.0, min(1.0, r - ((px - cx) ** 2 + (py - cy) ** 2) ** 0.5 + 0.5))
-                if t > 0:
-                    col = mix(col, hi if i == 4 else dot, t)
-            row += bytes(col)
+        for xx in range(size):
+            px, py = xx + 0.5, yy + 0.5
+            a0 = cover(shapes[0], px, py)
+            col = list(shapes[0][6])
+            for sh in shapes[1:]:
+                c = cover(sh, px, py)
+                if c:
+                    col = [round(col[i] + (sh[6][i] - col[i]) * c) for i in range(3)]
+            row += bytes(col + [round(255 * a0)])
         rows.append(bytes(row))
     raw = zlib.compress(b"".join(rows), 9)
 
@@ -346,10 +357,10 @@ def png(size):
             + chunk(b"IDAT", raw) + chunk(b"IEND", b""))
 
 
-ICON_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#2C4C9C"/>'
-            + "".join(f'<circle cx="{cx}" cy="{cy}" r="2.6" fill="{"#6CCF98" if (cx, cy) == (16, 16) else "#F4F6F1"}"/>'
-                      for cy in (9, 16, 23) for cx in (9, 16, 23)) + "</svg>")
-
+ICON_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#D5B68B"/>'
+            '<rect x="8" y="10" width="16" height="16" rx="1.5" fill="#FFFDF7"/><rect x="11" y="16" width="10" height="2" rx="1" fill="#20419A"/>'
+            '<rect x="11" y="20" width="7" height="2" rx="1" fill="#C9BCA6"/><circle cx="16" cy="10" r="3.6" fill="#D23A2C"/>'
+            '<circle cx="14.9" cy="8.9" r="1.2" fill="#F59A8D"/></svg>')
 
 def main():
     ap = argparse.ArgumentParser()
@@ -434,7 +445,8 @@ def main():
     card = ROOT / "assets" / "og-card.png"
     card_version = hashlib.sha1(card.read_bytes()).hexdigest()[:8] if card.exists() else "1"  # new image, new link, so shared previews refresh
     if site_url:
-        extra_head += (f'<meta property="og:url" content="{site_url}">\n'
+        extra_head += (f'<link rel="canonical" href="{site_url}">\n'
+                       f'<meta property="og:url" content="{site_url}">\n'
                        f'<meta property="og:image" content="{site_url}og-card.png?v={card_version}">\n'
                        '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
                        '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n')
@@ -454,8 +466,7 @@ def main():
     (out / "icon.svg").write_text(ICON_SVG)
     for size in (180, 512):
         p = out / f"icon-{size}.png"
-        if not p.exists():
-            p.write_bytes(png(size))
+        p.write_bytes(png(size))  # always redraw, so icon color changes reach the site
     (out / ".nojekyll").write_text("")
     for asset in sorted((ROOT / "assets").glob("*")) if (ROOT / "assets").is_dir() else []:
         (out / asset.name).write_bytes(asset.read_bytes())

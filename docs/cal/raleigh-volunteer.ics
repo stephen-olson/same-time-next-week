@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261111T180000
 DTEND;TZID=America/New_York:20261111T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -50,7 +50,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -72,7 +72,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -94,7 +94,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -116,7 +116,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -138,7 +138,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -160,7 +160,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -182,7 +182,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261114@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -203,7 +203,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -224,7 +224,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -245,7 +245,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -266,7 +266,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -287,7 +287,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -308,7 +308,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261226@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261226T090000
 DTEND;TZID=America/New_York:20261226T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -329,21 +329,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -351,21 +351,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -373,21 +373,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -395,21 +395,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -417,21 +417,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -439,21 +439,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -461,21 +461,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -483,21 +483,21 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
 LOCATION:Christ the King Presbyterian Church (packing and distribution site
  )\, 1417 Clifton St\, Raleigh\, NC 27604
-DESCRIPTION:Pack and deliver holiday meals in teams. Unlike onsite shifts a
- t the Mission\, no training is required.\n\nThanksgiving: packing Sun Nov 
- 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: packing Dec 21-22\, del
- ivery Dec 23. Shift times are on SignUpGenius.\n\nHow to join: SignUpGeniu
- s: signupgenius.com/go/20F0E4FAEA829A0FF2-65730604-2026 for Thanksgiving\,
-  signupgenius.com/go/20F0E4FAEA829A0FF2-65731134-2026 for Christmas\n\nBef
- ore you go: Regular onsite volunteering at the Mission (314 E Hargett St) 
- requires orientation and is for ages 16+.\n\nhttps://www.raleighrescue.org
- /volunteer\n\nListed on Same Time Next Week.
+DESCRIPTION:Pack and deliver holiday meals in teams with the Raleigh Rescue
+  Mission. Unlike its onsite shifts\, no training is required.\n\nThanksgiv
+ ing: packing Sun Nov 22 and Nov 23-25\, delivery Thu Nov 26. Christmas: pa
+ cking Dec 21-22\, delivery Dec 23. Shift times are on SignUpGenius.\n\nHow
+  to join: Sign up on SignUpGenius: there's one sign-up for Thanksgiving an
+ d another for Christmas.\n\nBefore you go: Regular onsite volunteering at 
+ the Mission (314 E Hargett St) requires orientation and is for ages 16+.\n
+ \nhttps://www.raleighrescue.org/volunteer\n\nListed on Same Time Next Week
+ .
 URL:https://www.raleighrescue.org/volunteer
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh, 
  NC 27604";X-APPLE-RADIUS=70;X-TITLE="Christ the King Presbyterian Church (
@@ -505,92 +505,92 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261122@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261122T131500
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Food sorting · Food 4 Thought
-LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address on the sign-u
- p listing)
+LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address given when yo
+ u sign up)
 DESCRIPTION:Help sort food for a Raleigh hunger-relief nonprofit during Hun
  ger & Homelessness Awareness Week. A 'Share it!' shift follows from 4:30 t
- o 6:30 PM the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4
-  Thought Raleigh on volunteer.activategood.org (search for the title). Spo
- ts are limited.\n\nBefore you go: Each shift has only a few spots\; more d
- ates are posted on the same listing.\n\nhttps://volunteer.activategood.org
- /\n\nListed on Same Time Next Week.
+ o 6:30pm the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4 
+ Thought Raleigh on Activate Good's volunteer portal (search for the title)
+ . Spots are limited.\n\nBefore you go: Each shift has only a few spots\; m
+ ore dates are posted on the same Activate Good sign-up.\n\nhttps://volunte
+ er.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261129@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261129T131500
 DTEND;TZID=America/New_York:20261129T163000
 SUMMARY:Food sorting · Food 4 Thought
-LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address on the sign-u
- p listing)
+LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address given when yo
+ u sign up)
 DESCRIPTION:Help sort food for a Raleigh hunger-relief nonprofit during Hun
  ger & Homelessness Awareness Week. A 'Share it!' shift follows from 4:30 t
- o 6:30 PM the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4
-  Thought Raleigh on volunteer.activategood.org (search for the title). Spo
- ts are limited.\n\nBefore you go: Each shift has only a few spots\; more d
- ates are posted on the same listing.\n\nhttps://volunteer.activategood.org
- /\n\nListed on Same Time Next Week.
+ o 6:30pm the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4 
+ Thought Raleigh on Activate Good's volunteer portal (search for the title)
+ . Spots are limited.\n\nBefore you go: Each shift has only a few spots\; m
+ ore dates are posted on the same Activate Good sign-up.\n\nhttps://volunte
+ er.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261206@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261206T131500
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Food sorting · Food 4 Thought
-LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address on the sign-u
- p listing)
+LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address given when yo
+ u sign up)
 DESCRIPTION:Help sort food for a Raleigh hunger-relief nonprofit during Hun
  ger & Homelessness Awareness Week. A 'Share it!' shift follows from 4:30 t
- o 6:30 PM the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4
-  Thought Raleigh on volunteer.activategood.org (search for the title). Spo
- ts are limited.\n\nBefore you go: Each shift has only a few spots\; more d
- ates are posted on the same listing.\n\nhttps://volunteer.activategood.org
- /\n\nListed on Same Time Next Week.
+ o 6:30pm the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4 
+ Thought Raleigh on Activate Good's volunteer portal (search for the title)
+ . Spots are limited.\n\nBefore you go: Each shift has only a few spots\; m
+ ore dates are posted on the same Activate Good sign-up.\n\nhttps://volunte
+ er.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T131500
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Food sorting · Food 4 Thought
-LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address on the sign-u
- p listing)
+LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address given when yo
+ u sign up)
 DESCRIPTION:Help sort food for a Raleigh hunger-relief nonprofit during Hun
  ger & Homelessness Awareness Week. A 'Share it!' shift follows from 4:30 t
- o 6:30 PM the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4
-  Thought Raleigh on volunteer.activategood.org (search for the title). Spo
- ts are limited.\n\nBefore you go: Each shift has only a few spots\; more d
- ates are posted on the same listing.\n\nhttps://volunteer.activategood.org
- /\n\nListed on Same Time Next Week.
+ o 6:30pm the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4 
+ Thought Raleigh on Activate Good's volunteer portal (search for the title)
+ . Spots are limited.\n\nBefore you go: Each shift has only a few spots\; m
+ ore dates are posted on the same Activate Good sign-up.\n\nhttps://volunte
+ er.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261220@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261220T131500
 DTEND;TZID=America/New_York:20261220T163000
 SUMMARY:Food sorting · Food 4 Thought
-LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address on the sign-u
- p listing)
+LOCATION:Food 4 Thought Raleigh\, Raleigh\, NC (exact address given when yo
+ u sign up)
 DESCRIPTION:Help sort food for a Raleigh hunger-relief nonprofit during Hun
  ger & Homelessness Awareness Week. A 'Share it!' shift follows from 4:30 t
- o 6:30 PM the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4
-  Thought Raleigh on volunteer.activategood.org (search for the title). Spo
- ts are limited.\n\nBefore you go: Each shift has only a few spots\; more d
- ates are posted on the same listing.\n\nhttps://volunteer.activategood.org
- /\n\nListed on Same Time Next Week.
+ o 6:30pm the same day.\n\nHow to join: Sign up for 'Sort it!' from Food 4 
+ Thought Raleigh on Activate Good's volunteer portal (search for the title)
+ . Spots are limited.\n\nBefore you go: Each shift has only a few spots\; m
+ ore dates are posted on the same Activate Good sign-up.\n\nhttps://volunte
+ er.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261120@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -613,7 +613,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261211@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -636,7 +636,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261120@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -644,10 +644,10 @@ LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
  \, Raleigh\, NC 27616
 DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
  and families who need it\, working alongside other volunteers.\n\nHow to j
- oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
- Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
- teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
- e Next Week.
+ oin: Create an account on Note in the Pocket's volunteer portal and sign u
+ p for a Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps
+ ://volunteer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on 
+ Same Time Next Week.
 URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
   NC 27616";X-APPLE-RADIUS=70;X-TITLE="Note in the Pocket – Raleigh Volun
@@ -655,7 +655,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261211@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -663,10 +663,10 @@ LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
  \, Raleigh\, NC 27616
 DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
  and families who need it\, working alongside other volunteers.\n\nHow to j
- oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
- Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
- teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
- e Next Week.
+ oin: Create an account on Note in the Pocket's volunteer portal and sign u
+ p for a Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps
+ ://volunteer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on 
+ Same Time Next Week.
 URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
   NC 27616";X-APPLE-RADIUS=70;X-TITLE="Note in the Pocket – Raleigh Volun
@@ -674,7 +674,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261218@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261218T130000
 DTEND;TZID=America/New_York:20261218T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -682,10 +682,10 @@ LOCATION:Note in the Pocket – Raleigh Volunteer Center\, 4730 Hargrove Rd
  \, Raleigh\, NC 27616
 DESCRIPTION:Sort and quality-check donated clothing so it's ready for kids 
  and families who need it\, working alongside other volunteers.\n\nHow to j
- oin: Create an account at volunteer.noteinthepocket.org and sign up for a 
- Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps://volun
- teer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on Same Tim
- e Next Week.
+ oin: Create an account on Note in the Pocket's volunteer portal and sign u
+ p for a Friday slot of 'Prep Clothing Donations in Raleigh - PM'.\n\nhttps
+ ://volunteer.noteinthepocket.org/need/detail/?need_id=637509\n\nListed on 
+ Same Time Next Week.
 URL:https://volunteer.noteinthepocket.org/need/detail/?need_id=637509
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
   NC 27616";X-APPLE-RADIUS=70;X-TITLE="Note in the Pocket – Raleigh Volun
@@ -693,7 +693,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-20261218@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261218T160000
 DTEND;TZID=America/New_York:20261218T214500
 SUMMARY:Holiday Express volunteer · Pullen Park
@@ -713,7 +713,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-20261211@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261211T153000
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Winterfaire volunteer · Moore Square
@@ -735,7 +735,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261211@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261211T164500
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -754,7 +754,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261218@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261218T164500
 DTEND;TZID=America/New_York:20261218T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -773,7 +773,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-invasives-music-20261114@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T120000
 SUMMARY:Invasive plant removal with live music · Walnut Creek Trail
@@ -782,9 +782,9 @@ DESCRIPTION:Help park staff cut and haul invasive plants along the Walnut C
  reek Trail while small musical groups from Fuller Forests play along the g
  reenway. Everyone gathers at the end for a final performance.\n\nHow to jo
  in: Create a free account in Raleigh Parks' CERVIS volunteer system and si
- gn up for 'Fuller Forests Greenway Invasive Removal'. Only a few spots wer
- e left on Nov 13.\n\nhttps://www.cervistech.com/acts/webreg/eventdetail.ph
- p?event_id=3314&org_id=0105\n\nListed on Same Time Next Week.
+ gn up for 'Fuller Forests Greenway Invasive Removal'. Spots are limited.\n
+ \nhttps://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&org
+ _id=0105\n\nListed on Same Time Next Week.
 URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&or
  g_id=0105
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="950 Peterson St, Raleigh, 
@@ -793,7 +793,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="950 Peterson St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-mural-painting-20261205@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Mural painting volunteer · Brentwood Park
@@ -810,7 +810,7 @@ URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3380&or
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261206@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261206T160000
 DTEND;TZID=America/New_York:20261206T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -818,11 +818,10 @@ LOCATION:Pullen Park\, 520 Ashe Ave\, Raleigh\, NC 27606
 DESCRIPTION:Help families enjoy Pullen Park's Holiday Express: run carnival
   games\, crafts\, letters to Santa\, photo spots and the s'mores station a
  mong the holiday lights.\n\nWeekend nights with open spots: Sun Dec 6\, Sa
- t Dec 12 (only 2 left) and Sun Dec 13.\n\nHow to join: Create a free accou
- nt in Raleigh Parks' CERVIS volunteer system and pick a weekend night unde
- r '2026 Holiday Express Event Volunteers'.\n\nhttps://www.cervistech.com/a
- cts/webreg/eventdetail.php?event_id=3352&org_id=0105\n\nListed on Same Tim
- e Next Week.
+ t Dec 12 and Sun Dec 13.\n\nHow to join: Create a free account in Raleigh 
+ Parks' CERVIS volunteer system and pick a weekend night under '2026 Holida
+ y Express Event Volunteers'.\n\nhttps://www.cervistech.com/acts/webreg/eve
+ ntdetail.php?event_id=3352&org_id=0105\n\nListed on Same Time Next Week.
 URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&or
  g_id=0105
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC 
@@ -830,7 +829,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T160000
 DTEND;TZID=America/New_York:20261212T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -838,11 +837,10 @@ LOCATION:Pullen Park\, 520 Ashe Ave\, Raleigh\, NC 27606
 DESCRIPTION:Help families enjoy Pullen Park's Holiday Express: run carnival
   games\, crafts\, letters to Santa\, photo spots and the s'mores station a
  mong the holiday lights.\n\nWeekend nights with open spots: Sun Dec 6\, Sa
- t Dec 12 (only 2 left) and Sun Dec 13.\n\nHow to join: Create a free accou
- nt in Raleigh Parks' CERVIS volunteer system and pick a weekend night unde
- r '2026 Holiday Express Event Volunteers'.\n\nhttps://www.cervistech.com/a
- cts/webreg/eventdetail.php?event_id=3352&org_id=0105\n\nListed on Same Tim
- e Next Week.
+ t Dec 12 and Sun Dec 13.\n\nHow to join: Create a free account in Raleigh 
+ Parks' CERVIS volunteer system and pick a weekend night under '2026 Holida
+ y Express Event Volunteers'.\n\nhttps://www.cervistech.com/acts/webreg/eve
+ ntdetail.php?event_id=3352&org_id=0105\n\nListed on Same Time Next Week.
 URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&or
  g_id=0105
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC 
@@ -850,7 +848,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T160000
 DTEND;TZID=America/New_York:20261213T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -858,11 +856,10 @@ LOCATION:Pullen Park\, 520 Ashe Ave\, Raleigh\, NC 27606
 DESCRIPTION:Help families enjoy Pullen Park's Holiday Express: run carnival
   games\, crafts\, letters to Santa\, photo spots and the s'mores station a
  mong the holiday lights.\n\nWeekend nights with open spots: Sun Dec 6\, Sa
- t Dec 12 (only 2 left) and Sun Dec 13.\n\nHow to join: Create a free accou
- nt in Raleigh Parks' CERVIS volunteer system and pick a weekend night unde
- r '2026 Holiday Express Event Volunteers'.\n\nhttps://www.cervistech.com/a
- cts/webreg/eventdetail.php?event_id=3352&org_id=0105\n\nListed on Same Tim
- e Next Week.
+ t Dec 12 and Sun Dec 13.\n\nHow to join: Create a free account in Raleigh 
+ Parks' CERVIS volunteer system and pick a weekend night under '2026 Holida
+ y Express Event Volunteers'.\n\nhttps://www.cervistech.com/acts/webreg/eve
+ ntdetail.php?event_id=3352&org_id=0105\n\nListed on Same Time Next Week.
 URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&or
  g_id=0105
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC 
@@ -870,7 +867,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261206@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261206T123000
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -889,7 +886,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T123000
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -908,7 +905,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-invasive-plant-removal-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Invasive plant removal · Fallon Park
@@ -926,7 +923,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2601 Oxford Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-open-house-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T093000
 DTEND;TZID=America/New_York:20261212T123000
 SUMMARY:Holiday Open House volunteer · Mordecai Historic Park
@@ -947,7 +944,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1 Mimosa St, Raleigh, NC 2
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T140000
 DTEND;TZID=America/New_York:20261212T180000
 SUMMARY:Winterfaire volunteer\, Saturday · Moore Square
@@ -968,10 +965,10 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T084500
 DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Christmas store volunteer\, Saturday · Loaves & Fishes Ministry
+SUMMARY:Christmas store\, Saturday · Loaves & Fishes Ministry
 LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
 DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
   parents buy donated gifts for their kids at reduced prices. Volunteers gr
@@ -986,7 +983,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trail-work-20261212@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261212T133000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Trail work · Annie Louise Wilkerson Nature Preserve
@@ -1006,7 +1003,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5229 Awls Haven Dr, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-3-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T130000
 DTEND;TZID=America/New_York:20261213T170000
 SUMMARY:Winterfaire volunteer\, Sunday · Moore Square
@@ -1026,29 +1023,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
  5
 END:VEVENT
 BEGIN:VEVENT
-UID:r-nature-play-clean-up-20261219@same-time-next-week
-DTSTAMP:20261116T055116Z
-DTSTART;TZID=America/New_York:20261219T133000
-DTEND;TZID=America/New_York:20261219T150000
-SUMMARY:Woodland Village clean-up · Annie Louise Wilkerson Nature Preserve
-LOCATION:Annie Louise Wilkerson Nature Preserve\, 5229 Awls Haven Dr\, Rale
- igh\, NC 27614
-DESCRIPTION:Rake leaves\, arrange logs and sort building materials to refre
- sh the preserve's Woodland Village nature play area. Afterward\, staff pro
- vide materials and help for building a fairy house to add to the village.\
- n\nHow to join: Create a free account in Raleigh Parks' CERVIS volunteer s
- ystem and sign up for 'Wilkerson Woodland Village Clean-up'.\n\nhttps://ww
- w.cervistech.com/acts/webreg/eventdetail.php?event_id=3396&org_id=0105\n\n
- Listed on Same Time Next Week.
-URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3396&or
- g_id=0105
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5229 Awls Haven Dr, Raleig
- h, NC 27614";X-APPLE-RADIUS=70;X-TITLE="Annie Louise Wilkerson Nature Pres
- erve":geo:35.920299,-78.599009
-END:VEVENT
-BEGIN:VEVENT
 UID:r-holiday-party-volunteer-20261220@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261220T150000
 DTEND;TZID=America/New_York:20261220T180000
 SUMMARY:Holiday party volunteer · Worthdale Community Center
@@ -1067,10 +1043,10 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1001 Cooper Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261122@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261122T163000
 DTEND;TZID=America/New_York:20261122T183000
-SUMMARY:Share It! produce giveaway · Food 4 Thought\, Moore Square
+SUMMARY:Share It! produce giveaway · Moore Square
 LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
 DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
  ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
@@ -1083,10 +1059,10 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261129@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261129T163000
 DTEND;TZID=America/New_York:20261129T183000
-SUMMARY:Share It! produce giveaway · Food 4 Thought\, Moore Square
+SUMMARY:Share It! produce giveaway · Moore Square
 LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
 DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
  ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
@@ -1099,10 +1075,10 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261206@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261206T163000
 DTEND;TZID=America/New_York:20261206T183000
-SUMMARY:Share It! produce giveaway · Food 4 Thought\, Moore Square
+SUMMARY:Share It! produce giveaway · Moore Square
 LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
 DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
  ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
@@ -1115,10 +1091,10 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T163000
 DTEND;TZID=America/New_York:20261213T183000
-SUMMARY:Share It! produce giveaway · Food 4 Thought\, Moore Square
+SUMMARY:Share It! produce giveaway · Moore Square
 LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
 DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
  ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
@@ -1131,10 +1107,10 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261220@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261220T163000
 DTEND;TZID=America/New_York:20261220T183000
-SUMMARY:Share It! produce giveaway · Food 4 Thought\, Moore Square
+SUMMARY:Share It! produce giveaway · Moore Square
 LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
 DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
  ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
@@ -1147,7 +1123,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261206@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261206T110000
 DTEND;TZID=America/New_York:20261206T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
@@ -1166,7 +1142,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261213@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261213T110000
 DTEND;TZID=America/New_York:20261213T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
@@ -1185,7 +1161,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261220@same-time-next-week
-DTSTAMP:20261116T055116Z
+DTSTAMP:20261116T072545Z
 DTSTART;TZID=America/New_York:20261220T110000
 DTEND;TZID=America/New_York:20261220T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
