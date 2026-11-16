@@ -1,0 +1,1503 @@
+{
+ "fetchedAt": "2026-11-16T20:25:05Z",
+ "pages": {
+  "http://843.toastmastersclubs.org/": {
+   "error": "URLError: <urlopen error timed out>",
+   "listings": [
+    "r-toastmasters"
+   ],
+   "status": null
+  },
+  "http://www.durhamtoastmasters.org/": {
+   "error": "URLError: <urlopen error timed out>",
+   "listings": [
+    "d-toastmasters"
+   ],
+   "status": null
+  },
+  "https://americandancefestival.org/adult-classes/": {
+   "excerptChars": 4103,
+   "file": "pages/72e3f43da57c.txt",
+   "listings": [
+    "d-modern-dance-class"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://app.getoccasion.com/p/n/5cjnvvSL": {
+   "excerptChars": 3394,
+   "file": "pages/a76776fb0635.txt",
+   "finalUrl": "https://app.getoccasion.com/p/n/5cjnvvSL/v5",
+   "listings": [
+    "r-wheel-throwing-class",
+    "r-wheel-throwing-class-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://book-harvest.vomo.org/org/book-harvest": {
+   "excerptChars": 396,
+   "file": "pages/82f16b209edf.txt",
+   "listings": [
+    "d-book-harvest"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://bullcityrunning.com/events/runclub/": {
+   "excerptChars": 4440,
+   "file": "pages/21969b756c44.txt",
+   "listings": [
+    "d-bull-city-run-club",
+    "d-saturday-group-run",
+    "d-trail-run"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://cervistech.com": {
+   "excerptChars": 3919,
+   "file": "pages/0cd7a3f594c4.txt",
+   "finalUrl": "https://www.cervistech.info/",
+   "listings": [
+    "r-mural-painting"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://cervistech.com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105": {
+   "excerptChars": 3301,
+   "file": "pages/1461ad7f83b7.txt",
+   "listings": [
+    "r-holiday-express-volunteer"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105": {
+   "excerptChars": 2310,
+   "file": "pages/5e88debb34f0.txt",
+   "listings": [
+    "r-winterfaire-volunteer"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholders-saturday-november-21": {
+   "excerptChars": 1912,
+   "file": "pages/7866c04c44e8.txt",
+   "finalUrl": "https://www.claymakers.org/classes/p/one-day-clay-winter-scene-candleholders-saturday-november-21",
+   "listings": [
+    "d-clay-winter-candleholders"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw": {
+   "excerptChars": 1921,
+   "file": "pages/89d226a9ccd4.txt",
+   "finalUrl": "https://www.claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw",
+   "listings": [
+    "d-clay-cozy-winter-critters"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-details/2722/": {
+   "excerptChars": 638,
+   "file": "pages/4b8f5d9d4341.txt",
+   "listings": [
+    "d-pride-climbing-night"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://downtowndurham.com/thirdfriday/": {
+   "excerptChars": 3355,
+   "file": "pages/ed5d72aa163c.txt",
+   "finalUrl": "https://downtowndurham.com/thirdfriday-2/",
+   "listings": [
+    "d-third-friday-art-walk"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://downtownraleigh.org/do/crank-arm-run-club": {
+   "excerptChars": 757,
+   "file": "pages/383592ce3b7d.txt",
+   "listings": [
+    "r-crank-arm-run-club"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://durhamarts.org": {
+   "excerptChars": 1820,
+   "file": "pages/39a843b4585f.txt",
+   "listings": [
+    "d-dac-registration-opens"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://durhamarts.org/2026/11/12/winter-2027-catalog/": {
+   "excerptChars": 973,
+   "file": "pages/17add4f8112c.txt",
+   "listings": [
+    "d-figure-drawing-dac",
+    "d-pottery-class",
+    "d-beginning-intermediate-wheel",
+    "d-beginning-intermediate-wheel-2",
+    "d-beginning-intermediate-wheel-3",
+    "d-beginning-intermediate-wheel-4",
+    "d-hand-building-101",
+    "d-hand-building-101-2",
+    "d-sculptural-hand-building",
+    "d-wheel-throwing-crash-course",
+    "d-ceramic-planters",
+    "d-ceramic-face-mugs",
+    "d-drawing-fundamentals",
+    "d-loose-watercolor-techniques",
+    "d-beginning-watercolor",
+    "d-intro-to-acrylic-painting",
+    "d-winter-watercolor-botanicals",
+    "d-pet-portraits-in-acrylic",
+    "d-linocut-i-intro-to-printmak",
+    "d-tree-of-life-copper-wrapped",
+    "d-beginner-garment-sewing-int",
+    "d-beginner-crochet",
+    "d-macrame-wall-hanging",
+    "d-silk-scarf-batik",
+    "d-sashiko-101",
+    "d-embroidery-basics",
+    "d-dac-registration-opens"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://durhambikecoop.corsizio.com/": {
+   "excerptChars": 4673,
+   "file": "pages/c081a6ae0df3.txt",
+   "listings": [
+    "d-bike-co-op-repair-nights",
+    "d-bike-co-op-volunteering",
+    "d-bike-repair-clinic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://durhamcountylibrary.libcal.com/event/15792181": {
+   "excerptChars": 1462,
+   "file": "pages/6defc4efafe5.txt",
+   "listings": [
+    "d-morning-knitting"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamcountylibrary.libcal.com/event/15961444": {
+   "excerptChars": 1169,
+   "file": "pages/35db1abbac20.txt",
+   "listings": [
+    "d-fiction-book-club"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamcountylibrary.libcal.com/event/16884725": {
+   "excerptChars": 886,
+   "file": "pages/1939aa784c35.txt",
+   "listings": [
+    "d-line-dancing-class"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamcountylibrary.libcal.com/event/17022971": {
+   "excerptChars": 990,
+   "file": "pages/e65f10461e1a.txt",
+   "listings": [
+    "d-chess-club"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamcountylibrary.libcal.com/event/17285805": {
+   "excerptChars": 1773,
+   "file": "pages/6d439983699a.txt",
+   "listings": [
+    "d-library-taskmaster"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamcountylibrary.libcal.com/event/17789775": {
+   "excerptChars": 1300,
+   "file": "pages/f8f05e4cd886.txt",
+   "listings": [
+    "d-writing-group"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://durhamhabitat.org/volunteer/": {
+   "excerptChars": 1784,
+   "file": "pages/49ea45b423fe.txt",
+   "finalUrl": "https://www.durhamhabitat.org/volunteer/",
+   "listings": [
+    "d-habitat-orientation"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs": {
+   "excerptChars": 2000,
+   "file": "pages/fa242ff65b0e.txt",
+   "finalUrl": "https://www.fleetfeet.com:443/s/raleigh/events/pub-runs-run-clubs",
+   "listings": [
+    "r-pony-run",
+    "r-latinos-run-raleigh"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://foodbankcenc.org/durham": {
+   "excerptChars": 3148,
+   "file": "pages/86062a73b359.txt",
+   "finalUrl": "https://foodbankcenc.org/locations/durham",
+   "listings": [
+    "d-food-bank-sort"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://foodbankcenc.org/locations/raleigh/": {
+   "excerptChars": 2227,
+   "file": "pages/ddd8354172de.txt",
+   "finalUrl": "https://foodbankcenc.org/locations/raleigh",
+   "listings": [
+    "r-food-bank-sort",
+    "r-food-bank-sort-2",
+    "r-food-bank-sort-3"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://foodbankcenc.org/volunteer": {
+   "excerptChars": 2175,
+   "file": "pages/6aba228056c0.txt",
+   "listings": [
+    "r-food-bank-sort-3"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://foodshuttle.org/volunteer/": {
+   "excerptChars": 5521,
+   "file": "pages/a02fd842c07b.txt",
+   "listings": [
+    "r-food-shuttle-farm"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://fpcraleigh.org/events/": {
+   "excerptChars": 3564,
+   "file": "pages/9763bcb3da6d.txt",
+   "listings": [
+    "r-fpc-pickleball"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://fullsteam.ag/event/trivia-with-arturo/2026-11-19": {
+   "excerptChars": 868,
+   "file": "pages/f83e85123701.txt",
+   "finalUrl": "https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19",
+   "listings": [
+    "d-trivia-fullsteam"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://gametheorystore.com/calendar/": {
+   "excerptChars": 421,
+   "file": "pages/d11249882519.txt",
+   "listings": [
+    "r-friday-night-magic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://keepdurhambeautiful.squarespace.com/events": {
+   "excerptChars": 8036,
+   "file": "pages/3d8294dd6b1d.txt",
+   "listings": [
+    "d-litter-cleanup",
+    "d-litter-cleanup-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://leela-nc.com/jams/": {
+   "excerptChars": 2448,
+   "file": "pages/cc1688774707.txt",
+   "listings": [
+    "r-improv-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://lgbtcenterofraleigh.com/calendar": {
+   "excerptChars": 561,
+   "file": "pages/23f5877736e2.txt",
+   "finalUrl": "https://www.lgbtcenterofraleigh.com/calendar",
+   "listings": [
+    "r-game-night-lgbt-center"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://meetup.com/game-nights-at-quest": {
+   "excerptChars": 2053,
+   "file": "pages/24804bbd1a9b.txt",
+   "finalUrl": "https://www.meetup.com/game-nights-at-quest/",
+   "listings": [
+    "r-friday-game-night-quest"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://meetup.com/the-breakfast-club-runners": {
+   "excerptChars": 2698,
+   "file": "pages/44a83f5a4f03.txt",
+   "finalUrl": "https://www.meetup.com/the-breakfast-club-runners/",
+   "listings": [
+    "r-breakfast-club-run"
+   ],
+   "status": 200,
+   "structuredEvents": 4
+  },
+  "https://meetup.com/wake-audubon-meetup": {
+   "excerptChars": 4884,
+   "file": "pages/461303eeec95.txt",
+   "finalUrl": "https://www.meetup.com/wake-audubon-meetup/",
+   "listings": [
+    "r-bird-walk"
+   ],
+   "status": 200,
+   "structuredEvents": 4
+  },
+  "https://naturalsciences.org/calendar/events/category/audience/adults/": {
+   "excerptChars": 1727,
+   "file": "pages/ad77969af439.txt",
+   "finalUrl": "https://www.naturalsciences.org/calendar/events/category/audience/adults/",
+   "listings": [
+    "r-science-cafe"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://ncartmuseum.org": {
+   "excerptChars": 3221,
+   "file": "pages/f6f02ede950b.txt",
+   "listings": [
+    "r-bird-walk"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://ncartmuseum.org/event/birding-with-wake-audubon-society-5/": {
+   "excerptChars": 1321,
+   "file": "pages/a67c14396823.txt",
+   "listings": [
+    "r-bird-walk"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://ncraleighweb.myvscloud.com/webtrac": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-international-folk-dancing"
+   ],
+   "status": 403
+  },
+  "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=516873199": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-feet-friendly-fridays"
+   ],
+   "status": 403
+  },
+  "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517607774": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-ornament-making-night"
+   ],
+   "status": 403
+  },
+  "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517706770": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-candle-making-night"
+   ],
+   "status": 403
+  },
+  "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-snowman-hat-workshop",
+    "r-drawing-discovery",
+    "r-screen-printing-with-waterco",
+    "r-chunky-knit-scarves",
+    "r-chunky-knit-scarves-2",
+    "r-introduction-to-japanese-shi",
+    "r-drawer-box-with-partitions"
+   ],
+   "status": 403
+  },
+  "https://newhopebirdalliance.org/": {
+   "excerptChars": 4214,
+   "file": "pages/cae372d2ce03.txt",
+   "listings": [
+    "d-bird-walk",
+    "d-bird-club-meeting",
+    "d-bird-walk-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://noteinthepocket.org/volunteer": {
+   "excerptChars": 7312,
+   "file": "pages/0b6e819631d3.txt",
+   "finalUrl": "https://noteinthepocket.org/volunteer/",
+   "listings": [
+    "r-clothing-prep-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://noteinthepocket.org/volunteer/": {
+   "excerptChars": 7312,
+   "file": "pages/5b5d861a0f76.txt",
+   "listings": [
+    "r-note-in-the-pocket-raleigh",
+    "d-note-in-the-pocket-durham"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://oakcitycares.org/volunteer/": {
+   "excerptChars": 1916,
+   "file": "pages/a249f1a7ae0b.txt",
+   "listings": [
+    "r-oak-city-cares-meals"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://oaksandspokes.org/events/": {
+   "excerptChars": 8026,
+   "file": "pages/b17d343d5d61.txt",
+   "listings": [
+    "r-coffee-outside-ride",
+    "r-critical-mass-ride"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://orangecountync.gov/388/Volunteers": {
+   "excerptChars": 3200,
+   "file": "pages/94218368c74b.txt",
+   "listings": [
+    "d-orange-county-animal-services-chapel-hil"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/": {
+   "excerptChars": 2145,
+   "file": "pages/215d9596a1c7.txt",
+   "listings": [
+    "r-beginner-bluegrass-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/": {
+   "excerptChars": 1962,
+   "file": "pages/f8f54e1b60c6.txt",
+   "listings": [
+    "r-old-time-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/": {
+   "excerptChars": 2497,
+   "file": "pages/732cef319d31.txt",
+   "listings": [
+    "r-open-bluegrass-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://quizfromhome.com/": {
+   "excerptChars": 1932,
+   "file": "pages/8c157d7d762b.txt",
+   "finalUrl": "https://www.quizfromhome.com/",
+   "listings": [
+    "d-trivia-bull-mccabe-s"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://raleighcityfarm.org/events/": {
+   "excerptChars": 7825,
+   "file": "pages/61738eb912d2.txt",
+   "listings": [
+    "r-raleigh-city-farm"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://raleighcityfarm.org/volunteer/": {
+   "excerptChars": 3934,
+   "file": "pages/fc069bd97e82.txt",
+   "listings": [
+    "r-raleigh-city-farm"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://raleighlittletheatre.org/get-involved/volunteers/": {
+   "excerptChars": 4166,
+   "file": "pages/2a74b75e7349.txt",
+   "listings": [
+    "r-set-building-rlt"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://raleighnc.gov/arts/take-class-pullen-arts-center": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-cross-stitch-workshop",
+    "r-screen-printing-workshop",
+    "r-pullen-registration-opens"
+   ],
+   "status": 403
+  },
+  "https://raleighnc.gov/parks-volunteer": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-holiday-express-volunteer"
+   ],
+   "status": 403
+  },
+  "https://raleighnc.gov/pickleball": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-pickleball-open-play"
+   ],
+   "status": 403
+  },
+  "https://sites.google.com/view/questcon/game-nights-quest": {
+   "excerptChars": 1093,
+   "file": "pages/7b9ebfa58bed.txt",
+   "listings": [
+    "r-friday-game-night-quest"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://slimsdivebar.com/": {
+   "excerptChars": 1807,
+   "file": "pages/f5baa6a0f5c8.txt",
+   "listings": [
+    "r-open-mic-slim-s"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://spcawake.org/get-involved/volunteer": {
+   "excerptChars": 3536,
+   "file": "pages/9fe753e95443.txt",
+   "finalUrl": "https://spcawake.org/get-involved/volunteer/",
+   "listings": [
+    "r-spca-volunteering"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://tableraleigh.org/volunteer/": {
+   "excerptChars": 3723,
+   "file": "pages/e26f7498d44e.txt",
+   "listings": [
+    "r-a-place-at-the-table"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://theatreraleigh.com/open-mic-night": {
+   "excerptChars": 1555,
+   "file": "pages/5eccaab17598.txt",
+   "finalUrl": "https://www.theatreraleigh.com/open-mic-night",
+   "listings": [
+    "r-open-mic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thebikelibrary.com/events": {
+   "excerptChars": 7798,
+   "file": "pages/a5455ad0ddff.txt",
+   "listings": [
+    "r-java-jog-sunday-run",
+    "r-bike-library-open-mic",
+    "r-spanish-night",
+    "r-espresso-express-ride",
+    "r-craft-night"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/Embroidery": {
+   "excerptChars": 0,
+   "file": "pages/b07c87000e71.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=98883759",
+   "listings": [
+    "d-intro-to-hand-embroidery-wor"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/IntroToCrochet": {
+   "excerptChars": 0,
+   "file": "pages/59e82e728e25.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=94292637",
+   "listings": [
+    "d-yay-you-re-gonna-crochet"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/KnittingIntro": {
+   "excerptChars": 0,
+   "file": "pages/69d2c1bd73fd.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=98799112",
+   "listings": [
+    "d-beginning-knitting-workshop"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/LongStitchJournal": {
+   "excerptChars": 0,
+   "file": "pages/20fd26cac483.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=99317366",
+   "listings": [
+    "d-faux-leather-long-stitch-jou"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/Papermaking": {
+   "excerptChars": 0,
+   "file": "pages/aa866cbc523f.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=100229881",
+   "listings": [
+    "d-scraps-to-sheets-handmade-p"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/Party": {
+   "excerptChars": 0,
+   "file": "pages/12f9fbc83a20.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=100369804",
+   "listings": [
+    "d-sips-and-scribbles-adult-jour"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/Reduction": {
+   "excerptChars": 0,
+   "file": "pages/4ab5f1f244b6.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=94194336",
+   "listings": [
+    "d-intro-to-reduction-printmaking"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/SewingMachineBasics": {
+   "excerptChars": 0,
+   "file": "pages/3a464d7ad6bf.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=98883105",
+   "listings": [
+    "d-sewing-machine-basics-workshop"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thescrapexchange.as.me/Stamp": {
+   "excerptChars": 0,
+   "file": "pages/f2d450e65454.txt",
+   "finalUrl": "https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=95093959",
+   "listings": [
+    "d-make-your-own-linocut-stamp"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thisismettlesome.com": {
+   "excerptChars": 8045,
+   "file": "pages/1aa82ecee2dd.txt",
+   "listings": [
+    "d-improv-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://thisismettlesome.com/live/2026/9/17/the-improv-jam": {
+   "excerptChars": 748,
+   "file": "pages/55322579afb7.txt",
+   "listings": [
+    "d-improv-jam"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://trianglefolkdancers.org/home/rifd": {
+   "excerptChars": 1377,
+   "file": "pages/500c97209f17.txt",
+   "finalUrl": "https://www.trianglefolkdancers.org/home/rifd",
+   "listings": [
+    "r-international-folk-dancing"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://triangleonthecheap.com/first-friday-raleigh": {
+   "error": "HTTP 403",
+   "listings": [
+    "r-first-friday-art-walk"
+   ],
+   "status": 403
+  },
+  "https://triangleswingdancesociety.squarespace.com/events": {
+   "excerptChars": 7882,
+   "file": "pages/f2d6e6de8742.txt",
+   "listings": [
+    "d-swing-dance"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://trisportsnc.leaguelab.com/leagues": {
+   "excerptChars": 6443,
+   "file": "pages/43983b081a11.txt",
+   "listings": [
+    "r-tri-sports-leagues"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://umdurham.org/volunteer/": {
+   "excerptChars": 3047,
+   "file": "pages/12f7f20b87ff.txt",
+   "listings": [
+    "d-urban-ministries-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://uufr.org": {
+   "excerptChars": 2799,
+   "file": "pages/38fdb058350a.txt",
+   "listings": [
+    "r-folky-friday-song-circle"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://uufr.org/connect/music-at-uufr/": {
+   "excerptChars": 3726,
+   "file": "pages/dab9d5aa4b49.txt",
+   "listings": [
+    "r-folky-friday-song-circle",
+    "r-coffee-house-open-mic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://uufr.org/connect/saturday-socials": {
+   "excerptChars": 2541,
+   "file": "pages/55ab6cdd0f00.txt",
+   "finalUrl": "https://uufr.org/connect/saturday-socials/",
+   "listings": [
+    "r-potluck-and-games"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://uufr.org/connect/saturday-socials/": {
+   "excerptChars": 2541,
+   "file": "pages/0b31df20dab2.txt",
+   "listings": [
+    "r-potluck-and-games"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://uufr.org/welcome/upcoming-events/": {
+   "excerptChars": 1176,
+   "file": "pages/2a205d06d555.txt",
+   "listings": [
+    "r-coffee-house-open-mic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.activategood.org": {
+   "excerptChars": 0,
+   "file": "pages/7fd06c7a155e.txt",
+   "listings": [
+    "r-note-in-the-pocket-raleigh",
+    "d-tree-planting-training",
+    "d-diaper-wrapping",
+    "d-east-durham-food-help",
+    "r-food-sorting-shift",
+    "r-clothing-prep-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.activategood.org/": {
+   "excerptChars": 0,
+   "file": "pages/e9ffdb2b2894.txt",
+   "listings": [
+    "d-tree-planting-training",
+    "d-diaper-wrapping",
+    "d-east-durham-food-help",
+    "r-food-sorting-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.activategood.org/opportunities/SP05is1u7q": {
+   "excerptChars": 0,
+   "file": "pages/bac1170364b3.txt",
+   "listings": [
+    "r-christmas-store-volunteer",
+    "r-christmas-store-volunteer-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.activategood.org/timeslots/MmelKFTo6h": {
+   "excerptChars": 0,
+   "file": "pages/c46a6c363af5.txt",
+   "listings": [
+    "r-cafe-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.activategood.org/timeslots/uHy4omHr2n": {
+   "excerptChars": 0,
+   "file": "pages/d893a5228639.txt",
+   "listings": [
+    "r-produce-giveaway"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.foodbankcenc.org/acts/webreg/eventdetail.php?event_id=21&org_id=0225": {
+   "excerptChars": 4847,
+   "file": "pages/fb0292817f9d.txt",
+   "listings": [
+    "r-food-bank-sort-3"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.noteinthepocket.org": {
+   "excerptChars": 818,
+   "file": "pages/2f9585c9565c.txt",
+   "listings": [
+    "r-note-in-the-pocket-raleigh"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://volunteer.noteinthepocket.org/need/detail/?need_id=637509": {
+   "excerptChars": 2141,
+   "file": "pages/654088b406fa.txt",
+   "listings": [
+    "r-clothing-prep-shift"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://wernickmethod.org/event/ld-sw-2026-12-raleigh": {
+   "excerptChars": 1099,
+   "file": "pages/4c2e395d535e.txt",
+   "listings": [
+    "r-bluegrass-jam-class"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.apsofdurham.org/volunteer": {
+   "excerptChars": 1693,
+   "file": "pages/1c378b7e9dd6.txt",
+   "finalUrl": "https://www.apsofdurham.org/how-you-can-help/volunteer/",
+   "listings": [
+    "d-aps-dog-walking"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.atomicempire.com/Events": {
+   "excerptChars": 4652,
+   "file": "pages/ffd4a60b7d2b.txt",
+   "finalUrl": "https://www.atomicempire.com/Store/Events",
+   "listings": [
+    "d-friday-night-magic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.atomicempire.com/Store/Event/2664": {
+   "excerptChars": 833,
+   "file": "pages/9e893912e0cb.txt",
+   "listings": [
+    "d-board-games-atomic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.atomicempire.com/Store/Event/313": {
+   "excerptChars": 1774,
+   "file": "pages/2253d5570610.txt",
+   "listings": [
+    "d-d-and-d-night"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.carolinadanceclub.com/": {
+   "excerptChars": 2933,
+   "file": "pages/5d74f28d9d8f.txt",
+   "listings": [
+    "r-swing-dance"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&org_id=0105": {
+   "excerptChars": 3450,
+   "file": "pages/449c1c2b2b86.txt",
+   "finalUrl": "https://www.cervistech.com/acts/webreg/eventwebreglist.php?org_id=0105&console_mode=&res_code=&redirect_message=closed",
+   "listings": [
+    "r-invasives-music"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3325&org_id=0105": {
+   "excerptChars": 2088,
+   "file": "pages/18134eb909ea.txt",
+   "listings": [
+    "r-trail-work"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105": {
+   "excerptChars": 3301,
+   "file": "pages/2939cc68e6fa.txt",
+   "listings": [
+    "r-holiday-express-volunteer",
+    "r-holiday-express-volunteer-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3355&org_id=0105": {
+   "excerptChars": 2012,
+   "file": "pages/91da4a174ed4.txt",
+   "listings": [
+    "r-sensory-friendly-holiday-express"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3373&org_id=0105": {
+   "excerptChars": 1779,
+   "file": "pages/2181170982a3.txt",
+   "listings": [
+    "r-holiday-party-volunteer"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3374&org_id=0105": {
+   "excerptChars": 1080,
+   "file": "pages/35b97b384f83.txt",
+   "listings": [
+    "r-invasive-plant-removal"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3380&org_id=0105": {
+   "excerptChars": 1627,
+   "file": "pages/39b69aeca85a.txt",
+   "listings": [
+    "r-mural-painting"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3395&org_id=0105": {
+   "excerptChars": 1768,
+   "file": "pages/65a5acece070.txt",
+   "listings": [
+    "r-holiday-open-house"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105": {
+   "excerptChars": 2310,
+   "file": "pages/b5b7297a5aa9.txt",
+   "listings": [
+    "r-winterfaire-volunteer",
+    "r-winterfaire-volunteer-2",
+    "r-winterfaire-volunteer-3"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.claymakers.org/classes": {
+   "excerptChars": 3374,
+   "file": "pages/c59a77194873.txt",
+   "listings": [
+    "d-intro-to-pottery-wheel"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.comedyworx.com/classes": {
+   "excerptChars": 612,
+   "file": "pages/559c15daec86.txt",
+   "listings": [
+    "r-comedyworx-intro-to-improv"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.discoverdurham.com/events/craft-draft/": {
+   "excerptChars": 1577,
+   "file": "pages/f2ace7cd155f.txt",
+   "listings": [
+    "d-craft-and-draft"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.discoverdurham.com/events/crunk-run-club/": {
+   "excerptChars": 1508,
+   "file": "pages/a158aac1ae71.txt",
+   "listings": [
+    "d-crunk-run-club"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.durhamband.org/": {
+   "excerptChars": 1707,
+   "file": "pages/b7a779a3a786.txt",
+   "finalUrl": "https://durhamband.org/",
+   "listings": [
+    "d-community-band"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.enoriver.org/events-on-the-eno/": {
+   "excerptChars": 4417,
+   "file": "pages/7e0bd03c37c3.txt",
+   "listings": [
+    "d-eno-river-workday",
+    "d-trail-crew"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.eruuf.org/calendar/calendar-view/print/16439-eno-river-singers-rehearsal.html": {
+   "excerptChars": 1684,
+   "file": "pages/e53367844b6a.txt",
+   "listings": [
+    "d-eno-river-singers"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19": {
+   "excerptChars": 868,
+   "file": "pages/af1c3b775dfb.txt",
+   "listings": [
+    "d-trivia-fullsteam"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.goathouserefuge.org/volunteer/": {
+   "excerptChars": 2713,
+   "file": "pages/0330a8c0dd64.txt",
+   "listings": [
+    "d-goathouse-refuge-pittsboro"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.lgbtcenterofraleigh.com/calendar": {
+   "excerptChars": 561,
+   "file": "pages/0d88550712c4.txt",
+   "listings": [
+    "r-game-night-lgbt-center"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.meetup.com/drawyall/events/316966625/": {
+   "excerptChars": 2402,
+   "file": "pages/682c6574ea17.txt",
+   "listings": [
+    "d-figure-drawing-draw-y-all"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.meetup.com/durham-community-improv-jam/": {
+   "excerptChars": 1388,
+   "file": "pages/124b1fd04573.txt",
+   "listings": [
+    "d-improv-games"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.meetup.com/durham-geeks": {
+   "excerptChars": 4576,
+   "file": "pages/1deaf897cc4b.txt",
+   "finalUrl": "https://www.meetup.com/durham-geeks/",
+   "listings": [
+    "d-board-game-night"
+   ],
+   "status": 200,
+   "structuredEvents": 4
+  },
+  "https://www.meetup.com/durham-spanish-conversation-cafe/": {
+   "excerptChars": 2354,
+   "file": "pages/222fb0475b3a.txt",
+   "listings": [
+    "d-spanish-conversation"
+   ],
+   "status": 200,
+   "structuredEvents": 2
+  },
+  "https://www.meetup.com/french-speed-language-exchange/": {
+   "excerptChars": 1284,
+   "file": "pages/88be111955f5.txt",
+   "listings": [
+    "r-french-language-exchange"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.meetup.com/game-nights-at-quest/": {
+   "excerptChars": 2053,
+   "file": "pages/3a32c83cfca0.txt",
+   "listings": [
+    "r-friday-game-night-quest"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/": {
+   "excerptChars": 3934,
+   "file": "pages/60c96fddc5f4.txt",
+   "listings": [
+    "r-run-walk-club",
+    "r-taco-tuesday-ride"
+   ],
+   "status": 200,
+   "structuredEvents": 4
+  },
+  "https://www.meetup.com/raleighrockclimbing/": {
+   "excerptChars": 5949,
+   "file": "pages/aa20072adc14.txt",
+   "listings": [
+    "r-climbing-meetup",
+    "d-climbing-meetup"
+   ],
+   "status": 200,
+   "structuredEvents": 4
+  },
+  "https://www.meetup.com/skip-the-small-talk-raleigh/": {
+   "excerptChars": 4450,
+   "file": "pages/cb6cdec947ea.txt",
+   "listings": [
+    "r-skip-the-small-talk"
+   ],
+   "status": 200,
+   "structuredEvents": 2
+  },
+  "https://www.moondogmeadery.com/events": {
+   "excerptChars": 116,
+   "file": "pages/874c5aad4ddf.txt",
+   "listings": [
+    "d-irish-jam",
+    "d-open-mic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.paws4ever.org/volunteer/": {
+   "excerptChars": 2323,
+   "file": "pages/9db509598f19.txt",
+   "finalUrl": "https://paws4ever.org/get-involved/volunteer/",
+   "listings": [
+    "d-paws4ever-mebane"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.piedmontwildlifecenter.org/volunteer": {
+   "excerptChars": 1676,
+   "file": "pages/2f54653158e6.txt",
+   "listings": [
+    "d-piedmont-wildlife-center"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.raleighbrewing.com/neil-street": {
+   "excerptChars": 679,
+   "file": "pages/888909192708.txt",
+   "listings": [
+    "r-trivia-raleigh-brewing"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.raleighrescue.org/volunteer": {
+   "excerptChars": 6241,
+   "file": "pages/47d40ab89f24.txt",
+   "finalUrl": "https://www.raleighrescue.org/ways-to-give/volunteer/",
+   "listings": [
+    "r-holiday-meal-packing"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.rebusworks.us/calendar": {
+   "excerptChars": 1346,
+   "file": "pages/949b4f3ae104.txt",
+   "listings": [
+    "r-open-mic-rebus-works"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.savinggracenc.org/volunteer": {
+   "excerptChars": 3988,
+   "file": "pages/2909079b9ecd.txt",
+   "finalUrl": "https://savinggracenc.org/volunteer/",
+   "listings": [
+    "r-saving-grace-wake-forest"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.scrapexchange.org/volunteer": {
+   "excerptChars": 1570,
+   "file": "pages/c340d398ad04.txt",
+   "listings": [
+    "d-scrap-exchange-shift",
+    "d-quiet-volunteer-night"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.scrapexchange.org/workshops": {
+   "excerptChars": 7986,
+   "file": "pages/92d596eebf93.txt",
+   "listings": [
+    "d-craft-night",
+    "d-fiber-arts-meetup",
+    "d-sewing-circle"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.secondchancenc.org/volunteer": {
+   "excerptChars": 2577,
+   "file": "pages/54ddcffb5f55.txt",
+   "finalUrl": "https://secondchancenc.org/volunteer-apply/",
+   "listings": [
+    "r-second-chance-pet-adoptions"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.tcdancers.org/new-events": {
+   "excerptChars": 7137,
+   "file": "pages/6e0561040db5.txt",
+   "finalUrl": "https://tcdancers.org/new-events",
+   "listings": [
+    "d-contra-dance",
+    "d-contra-carrboro",
+    "d-contra-carrboro-2"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.theatreraleigh.com/open-mic-night": {
+   "excerptChars": 1555,
+   "file": "pages/7e1a2f2b9057.txt",
+   "listings": [
+    "r-open-mic"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.thisismettlesome.com/lab": {
+   "excerptChars": 2071,
+   "file": "pages/c204fc769490.txt",
+   "finalUrl": "https://thisismettlesome.com/lab",
+   "listings": [
+    "d-mettlesome-improv-101"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.toastmasters.org/Find-a-Club/00009891-bull-city-club": {
+   "excerptChars": 885,
+   "file": "pages/426bc585646d.txt",
+   "listings": [
+    "d-bull-city-toastmasters"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.transfercofoodhall.com/upcoming-events": {
+   "excerptChars": 8057,
+   "file": "pages/96c28f1b099e.txt",
+   "listings": [
+    "r-line-dancing-transfer-co"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.trianglefolkdancers.org/home/rifd": {
+   "excerptChars": 1377,
+   "file": "pages/0b1240c50b08.txt",
+   "listings": [
+    "r-international-folk-dancing"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.trianglerestores.org/volunteer": {
+   "excerptChars": 1187,
+   "file": "pages/e68cc2072d1e.txt",
+   "listings": [
+    "r-habitat-restore"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/": {
+   "excerptChars": 1165,
+   "file": "pages/730b6d389341.txt",
+   "listings": [
+    "r-byo-craft-night"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/": {
+   "excerptChars": 903,
+   "file": "pages/b82968025a7e.txt",
+   "listings": [
+    "r-stonewall-run-club"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/": {
+   "excerptChars": 859,
+   "file": "pages/529138f7a507.txt",
+   "listings": [
+    "r-board-game-night"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/": {
+   "excerptChars": 589,
+   "file": "pages/2c2ccd88d9fa.txt",
+   "listings": [
+    "r-trivia-wolfe-and-porter"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-garden/106093/": {
+   "excerptChars": 1091,
+   "file": "pages/cbd6fe9ac437.txt",
+   "listings": [
+    "r-trivia-beer-garden"
+   ],
+   "status": 200,
+   "structuredEvents": 1
+  },
+  "https://www.wake.gov/departments-government/animal-services/how-help/volunteer-program": {
+   "excerptChars": 2636,
+   "file": "pages/fd154c69f50a.txt",
+   "listings": [
+    "r-animal-center-volunteering"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://www.wake.gov/events/silent-book-club-oberlin-regional-library-19": {
+   "excerptChars": 2127,
+   "file": "pages/ccb497608632.txt",
+   "finalUrl": "https://www.wake.gov/events/silent-book-club-6",
+   "listings": [
+    "r-silent-book-club"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  },
+  "https://x.gldn.io/e/Piedmont_Wildlife_Center": {
+   "excerptChars": 0,
+   "file": "pages/5f8022a46fc1.txt",
+   "finalUrl": "https://volunteer.activategood.org/organization/0ocHZMnOOf/Piedmont%20Wildlife%20Center?%24web_only=true&_branch_match_id=1650972396658458693&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXr9BLz0nJ08vM10%2FVD8hMTcnNzyuJD8%2FMScnJTEuNd07NK0ktsq8rSk1LLSrKzEuPTyrKLy9OLbINTkxLLMoEAFsNTWlGAAAA",
+   "listings": [
+    "d-piedmont-wildlife-center"
+   ],
+   "status": 200,
+   "structuredEvents": 0
+  }
+ }
+}

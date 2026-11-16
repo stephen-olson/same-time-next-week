@@ -1,0 +1,8 @@
+URL: https://thescrapexchange.as.me/Stamp
+Fetched: 2026-11-16T20:25:05Z (HTTP 200, ended at https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=95093959)
+For listings: d-make-your-own-linocut-stamp
+Page title: Schedule Appointment with The Scrap Exchange
+Description: Schedule your appointment online The Scrap Exchange
+
+Lines with dates, times, prices or the listing's name:
+(none found; the page may load its calendar with JavaScript)

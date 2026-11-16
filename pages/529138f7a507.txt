@@ -1,0 +1,52 @@
+URL: https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/
+Fetched: 2026-11-16T20:25:05Z (HTTP 200)
+For listings: r-board-game-night
+Page title: Triangle Taps and Tables | Raleigh, NC 27603
+Description: Triangle taps and tables is a weekly gathering for light board games and delicious beers. We will offer a new slate of board games each week, and whoever wins the most games will take home a free 4 pack. There will also be chances to win a beer for a buck! Come find out how!
+
+Events in the page's structured data (name | start | end | place | status):
+- Triangle Taps and Tables | 2026-05-19 | 2026-12-29 | Trophy Brewing Co. + Taproom | EventScheduled
+
+Lines with dates, times, prices or the listing's name:
+Holiday Shopping
+40 Free Things to Do
+…
+Holiday Shopping
+40 Free Things to Do
+…
+Accreditation
+Board Members
+Staff
+Staff Responsibilities
+Executive Bios
+…
+Accreditation
+Board Members
+Staff
+Staff Responsibilities
+Executive Bios
+…
+(1 / 1)
+Triangle Taps and Tables
+Dates:
+May 19, 2026 - December 29, 2026
+Recurrence:
+Recurring weekly on Tuesday
+Presenting Organization:
+Triangle taps and tables
+Venue:
+Trophy Brewing Co. + Taproom
+Location:
+Downtown Raleigh
+Address:
+…
+Times:
+Tues., 6:30-10pm
+Admission:
+Free
+…
+About
+Triangle taps and tables is a weekly gathering for light board games and delicious beers. We will offer a new slate of board games each week, and whoever wins the most games will take home a free 4 pack. There will also be chances to win a beer for a buck! Come find out how!
+Get our free Visitors Guide
+Request a copy
+Subscribe to our newsletter

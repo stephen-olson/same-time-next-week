@@ -1,0 +1,8 @@
+URL: https://thescrapexchange.as.me/Embroidery
+Fetched: 2026-11-16T20:25:05Z (HTTP 200, ended at https://thescrapexchange.as.me/schedule/45543d55/?appointmentTypeIds[]=98883759)
+For listings: d-intro-to-hand-embroidery-wor
+Page title: Schedule Appointment with The Scrap Exchange
+Description: Schedule your appointment online The Scrap Exchange
+
+Lines with dates, times, prices or the listing's name:
+(none found; the page may load its calendar with JavaScript)
