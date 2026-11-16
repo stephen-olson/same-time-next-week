@@ -5,7 +5,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Big+Shoulders+Display:wght@800;900&family=Kalam:wght@700&display=swap">
 <style>
-/* Layout: the page is a corkboard (a chalkboard in dark mode). The masthead scrolls away; the section tabs stay pinned to the top.
+/* Layout: the page is a corkboard (a chalkboard in dark mode). The masthead scrolls away; a slim bar with the city switch and section tabs stays pinned to the top.
+   On wide screens the week is a board of day columns. The board texture is a small tiled speckle (plain shapes, no SVG filters) that scrolls with the page.
    Listings are paper tickets: time on top, and the round + on the ticket stub is the pin that saves it to My plan.
    Event details open as a taped-up flyer: a centered dialog on desktop and a bottom sheet on phones.
    All tilts are static and only applied when the visitor has not asked for reduced motion. */
@@ -23,7 +24,10 @@
   --scrim: rgba(40, 24, 10, .5);
   --lift: 0 1px 1px rgba(70, 45, 20, .2), 0 3px 8px rgba(70, 45, 20, .12);
   --shadow: 0 2px 4px rgba(50, 30, 10, .18), 0 22px 60px rgba(50, 30, 10, .3);
-  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='c' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.011' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .26 0 0 0 0 .1 .34 0 0 0 -.13'/%3E%3C/filter%3E%3Cfilter id='a' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.5' numOctaves='2' seed='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .33 0 0 0 0 .2 0 0 0 0 .08 2.4 0 0 0 -1.36'/%3E%3C/filter%3E%3Cfilter id='b' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .96 0 0 0 0 .86 0 2.4 0 0 -1.34'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23c)'/%3E%3Crect width='300' height='300' filter='url(%23a)'/%3E%3Crect width='300' height='300' filter='url(%23b)'/%3E%3C/svg%3E");
+  --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M58.3 27.2h0M117.2 13.0h0M96.5 65.8h0M10.4 91.3h0M6.7 78.1h0M12.6 16.3h0M76.4 148.8h0M22.3 40.2h0M112.9 170.6h0M103.9 71.4h0M175.7 8.4h0M154.5 52.1h0M26.0 21.2h0M55.5 146.9h0M32.5 104.7h0M115.0 67.0h0M98.6 11.3h0M10.7 37.1h0M122.5 77.0h0M56.5 105.4h0M81.6 54.0h0M143.0 125.8h0M43.9 103.4h0M94.5 157.5h0M131.3 51.8h0M176.4 21.3h0M75.3 136.3h0M27.4 88.0h0M7.1 120.3h0M137.6 103.1h0M157.6 56.5h0M125.2 107.0h0M104.4 82.1h0M151.2 170.0h0M85.3 119.5h0M10.9 126.3h0M116.5 178.8h0M116.5 -1.2h0M147.9 51.2h0M69.4 120.4h0M4.1 83.1h0M30.2 21.1h0M10.6 138.3h0M23.3 44.6h0M70.4 156.9h0M14.5 80.9h0M98.9 159.0h0M147.5 155.5h0M50.1 74.8h0M64.6 159.2h0M172.4 27.2h0M31.7 41.8h0M42.0 87.3h0M106.0 47.3h0M0.7 75.4h0M180.7 75.4h0M66.5 101.9h0M171.6 124.3h0M92.8 111.2h0M121.7 9.7h0M161.9 140.4h0M157.4 143.6h0M70.6 71.8h0M18.6 114.2h0M11.2 12.1h0M37.6 29.2h0M61.2 9.5h0M0.0 27.2h0M180.0 27.2h0M18.3 65.4h0M4.6 157.4h0M110.5 26.7h0M45.4 62.5h0M65.5 22.1h0M152.8 178.8h0M152.8 -1.2h0M83.9 87.1h0M15.5 18.4h0M61.7 47.7h0M149.2 29.1h0M4.2 171.2h0M95.1 26.4h0M97.8 4.9h0M95.1 176.1h0M155.4 125.3h0M47.0 66.0h0M30.1 138.9h0M95.9 140.2h0M59.3 40.1h0M146.1 177.3h0M153.5 145.1h0M147.3 133.2h0M40.8 93.2h0M64.0 5.2h0M5.0 50.3h0M46.7 124.7h0M172.2 80.5h0M168.7 177.8h0M171.9 65.6h0M39.7 40.8h0M35.4 36.8h0M112.3 162.1h0M151.3 86.3h0M117.5 143.9h0M15.3 118.9h0M163.8 140.8h0M135.0 86.0h0M32.1 142.0h0M59.9 144.1h0M174.9 71.3h0M72.2 170.4h0M130.5 30.6h0M22.9 27.2h0M162.9 145.2h0M26.3 148.8h0M176.5 118.3h0M63.1 98.8h0M23.6 2.6h0M174.8 116.9h0M94.8 168.1h0M78.1 156.9h0M148.7 38.0h0M45.3 52.7h0M43.3 105.6h0M46.7 75.4h0M23.6 163.8h0M63.7 82.5h0M105.0 162.8h0M75.7 165.2h0M90.3 95.7h0M94.2 3.4h0M79.2 33.0h0M0.7 143.9h0M180.7 143.9h0M31.0 85.2h0M130.5 100.2h0M58.7 93.3h0M100.0 141.2h0M19.1 100.9h0M44.7 49.8h0M139.0 91.4h0M101.1 136.8h0M164.2 79.8h0M110.3 91.0h0M92.2 124.7h0M81.4 96.0h0M86.0 169.5h0M125.9 157.8h0M169.6 46.7h0M100.7 169.8h0M151.2 24.7h0M21.9 79.6h0M13.1 43.3h0M13.2 120.5h0M141.1 161.5h0%22 stroke=%22%235C3B17%22 stroke-opacity=%22.30%22 stroke-width=%221.3%22/%3E%3Cpath d=%22M27.8 128.9h0M118.8 25.7h0M158.9 174.2h0M39.5 171.5h0M71.7 87.7h0M178.2 149.8h0M-1.8 149.8h0M29.1 77.7h0M92.8 61.0h0M35.2 57.3h0M130.0 3.5h0M99.7 79.3h0M3.3 59.7h0M112.3 92.2h0M11.6 177.3h0M141.9 174.9h0M18.9 47.8h0M7.1 140.2h0M48.7 23.3h0M76.0 164.1h0M147.4 46.5h0M26.9 165.5h0M102.7 126.1h0M16.1 10.4h0M123.9 76.6h0M13.0 168.9h0M114.2 144.3h0M15.1 154.1h0M12.0 155.3h0M81.7 61.0h0M99.6 166.8h0M48.2 23.3h0M94.8 42.9h0M19.7 29.1h0M9.1 36.3h0M56.2 54.9h0M136.7 52.2h0M90.0 32.0h0M62.5 3.3h0M45.1 2.8h0M132.0 99.2h0M34.1 85.5h0M168.2 19.1h0M147.4 77.8h0M89.1 150.2h0M70.8 91.2h0M123.8 176.8h0M61.7 149.8h0M127.2 114.5h0M72.8 62.6h0M9.8 23.4h0M12.7 133.4h0M46.0 29.4h0M15.2 151.4h0M156.7 120.7h0M50.7 43.6h0M52.8 82.7h0M28.4 80.2h0M47.4 173.1h0M175.1 98.5h0M44.0 173.8h0%22 stroke=%22%237A5228%22 stroke-opacity=%22.16%22 stroke-width=%222.6%22/%3E%3Cpath d=%22M55.7 64.2h0M0.2 68.7h0M180.2 68.7h0M85.4 90.5h0M36.2 90.9h0M0.9 47.6h0M180.9 47.6h0M16.2 71.9h0M7.5 4.0h0M54.8 41.9h0M105.4 95.3h0M135.1 118.4h0M128.9 158.2h0M70.1 58.7h0M177.3 26.9h0M130.3 115.8h0M7.9 150.4h0M160.5 112.9h0M132.1 146.2h0M25.1 94.3h0M90.8 150.3h0M144.8 148.8h0M105.1 160.7h0M122.9 124.8h0M41.4 5.6h0M24.0 64.9h0M18.9 150.4h0M100.5 113.0h0M112.7 122.5h0M88.1 0.6h0M88.1 180.6h0M143.6 134.7h0M90.5 96.3h0M118.7 11.9h0M132.6 45.4h0M13.4 47.8h0M131.3 36.9h0M133.2 175.6h0M88.9 68.9h0M86.2 123.1h0M138.1 111.1h0M115.7 13.9h0M26.5 45.7h0M133.8 54.8h0M102.2 2.2h0M10.9 48.4h0M121.0 124.6h0M121.6 52.4h0M93.0 83.6h0M83.9 21.3h0M160.9 35.9h0M176.1 168.5h0M3.2 82.6h0M147.6 174.3h0M80.9 48.4h0M37.8 170.2h0M37.9 104.7h0M25.5 94.3h0M171.5 23.9h0M147.6 91.6h0M159.6 126.6h0M41.6 161.6h0M87.5 4.5h0M0.6 88.5h0M180.6 88.5h0M81.1 54.4h0M25.3 61.9h0M56.9 151.2h0M0.3 135.1h0M180.3 135.1h0M151.0 21.6h0M166.8 128.3h0M162.3 52.2h0M67.0 70.7h0M179.8 106.1h0M-0.2 106.1h0M64.9 77.0h0M49.5 8.7h0M18.3 150.2h0M51.4 168.4h0M44.9 47.8h0M92.0 34.2h0M67.2 172.1h0M159.2 146.2h0M113.6 164.4h0M169.3 98.9h0M129.5 8.9h0M131.8 81.2h0M135.5 116.0h0M51.5 8.8h0M166.8 22.9h0M85.0 61.9h0M53.6 133.0h0M175.7 46.8h0M118.1 54.2h0M100.3 71.0h0M30.1 29.1h0M37.4 163.1h0M89.5 39.6h0M163.1 179.4h0M163.1 -0.6h0M81.0 25.1h0M34.6 16.3h0M61.6 16.4h0M43.0 46.5h0M102.5 159.7h0M134.9 74.3h0M74.5 94.4h0M67.8 60.9h0M11.2 50.0h0M174.2 22.7h0M90.6 113.3h0M155.3 38.9h0M48.8 44.7h0M72.0 80.3h0M171.7 152.8h0M157.1 3.9h0M5.8 127.7h0M161.2 85.2h0M105.7 0.0h0M105.7 180.0h0M70.5 166.8h0M148.6 154.0h0M175.0 44.7h0M19.6 27.8h0M94.0 122.8h0M169.5 129.9h0M116.5 137.7h0%22 stroke=%22%23FFF4DE%22 stroke-opacity=%22.45%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M82.3 99.3h0M7.1 140.8h0M41.9 165.6h0M116.2 54.7h0M23.0 45.3h0M114.5 125.7h0M20.2 12.7h0M94.4 104.9h0M69.9 40.2h0M108.2 1.9h0M54.3 82.9h0M172.6 116.0h0M159.1 85.6h0M42.3 44.5h0M172.9 126.8h0M55.3 3.9h0M89.7 121.4h0M75.6 46.3h0M120.1 166.5h0M40.8 6.1h0M60.8 75.7h0M122.9 35.7h0M143.5 133.0h0M90.9 36.9h0M174.6 56.1h0M147.6 41.5h0M39.9 136.9h0M53.1 171.3h0M89.2 33.7h0M40.2 75.1h0M119.8 170.8h0M26.3 70.8h0M38.3 175.3h0M25.5 9.3h0M10.8 70.8h0M161.7 159.0h0M131.9 179.6h0M131.9 -0.4h0M167.7 59.3h0M33.4 168.5h0M134.3 5.7h0M119.6 68.2h0M67.3 59.7h0M30.5 0.5h0M30.5 180.5h0M50.4 63.3h0M172.0 22.3h0M173.6 37.3h0M64.2 147.9h0M148.0 77.8h0M8.9 85.2h0M67.1 165.5h0M34.7 65.6h0M161.5 5.5h0M73.9 146.1h0M138.0 7.3h0M6.3 11.3h0M165.6 46.3h0M134.5 161.7h0M61.0 49.0h0M172.4 111.1h0M47.2 129.0h0M57.0 49.6h0M0.7 136.0h0M180.7 136.0h0M165.0 114.1h0M169.8 4.4h0M42.1 85.5h0M172.2 171.7h0M69.6 45.2h0M77.4 88.8h0M167.1 32.9h0M144.5 132.9h0M148.1 139.1h0M109.3 59.0h0M57.5 65.1h0M140.8 14.2h0M35.5 135.5h0M44.5 11.7h0M6.1 99.5h0M58.6 176.4h0M159.0 177.8h0M47.7 15.1h0M17.4 89.7h0M127.8 80.5h0M42.2 75.0h0M111.7 121.3h0M134.6 152.5h0M119.6 21.8h0M151.4 52.9h0M102.0 67.1h0M132.9 35.9h0M44.5 44.2h0M27.6 159.2h0M104.1 58.7h0M71.3 178.6h0M91.3 41.6h0M145.5 117.6h0M178.4 18.4h0M85.5 147.4h0M151.3 164.6h0M7.3 52.9h0M21.5 34.1h0M175.1 105.0h0M167.4 67.0h0M155.9 80.8h0M46.8 140.0h0M170.2 19.0h0M107.3 111.6h0M39.2 66.4h0M25.4 36.7h0M45.9 107.9h0M117.3 36.6h0M2.0 58.9h0M122.1 33.3h0M56.2 36.6h0M143.2 98.6h0M11.4 18.2h0M71.2 99.0h0M115.1 16.4h0M29.5 125.2h0M73.8 51.0h0M55.4 171.6h0M56.2 102.0h0M64.3 75.0h0M155.6 179.4h0M155.6 -0.6h0M65.5 35.5h0M131.0 36.7h0M1.1 162.3h0M76.3 147.7h0M73.1 158.9h0M83.0 29.3h0M2.7 99.3h0M115.3 163.8h0M16.0 112.0h0M66.8 90.8h0M26.3 51.0h0M93.8 166.6h0M19.6 88.3h0M144.9 174.0h0M35.5 22.8h0M169.8 175.6h0M86.9 9.6h0%22 stroke=%22%233F2810%22 stroke-opacity=%22.35%22 stroke-width=%220.8%22/%3E%3C/svg%3E");
+  --bar: #FFFDF7; --seg: #F1E8D8; --seg-line: rgba(60, 40, 20, .16);
+  --bar-shadow: 0 1px 0 rgba(70, 45, 20, .16), 0 6px 14px -6px rgba(50, 30, 10, .3);
+  --lift-hover: 0 1px 1px rgba(70, 45, 20, .2), 0 7px 16px rgba(70, 45, 20, .2);
   --f-display: "Big Shoulders Display", "Avenir Next Condensed", "DIN Condensed", "Arial Narrow", sans-serif;
   --f-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
   --f-hand: "Kalam", "Bradley Hand", "Segoe Print", cursive;
@@ -43,7 +47,10 @@
     --scrim: rgba(0, 0, 0, .62);
     --lift: 0 1px 1px rgba(0, 0, 0, .35), 0 3px 10px rgba(0, 0, 0, .28);
     --shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 22px 60px rgba(0, 0, 0, .5);
-    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='c' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.009' numOctaves='3' seed='5' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .9 0 0 0 0 .93 0 0 0 0 .88 .2 0 0 0 -.055'/%3E%3C/filter%3E%3Cfilter id='a' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='1' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .93 0 0 0 0 .95 0 0 0 0 .9 1.3 0 0 0 -.8'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23c)'/%3E%3Crect width='300' height='300' filter='url(%23a)'/%3E%3C/svg%3E");
+    --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M112.1 133.5h0M143.1 169.6h0M133.2 166.0h0M5.2 83.8h0M169.8 116.8h0M162.2 20.4h0M84.4 44.4h0M97.9 103.3h0M2.4 39.0h0M50.3 164.9h0M137.8 28.7h0M143.5 25.0h0M111.1 22.8h0M0.3 156.9h0M180.3 156.9h0M37.7 38.8h0M176.8 157.0h0M52.1 173.1h0M97.1 122.0h0M36.9 169.4h0M124.3 174.0h0M160.9 53.8h0M65.0 29.9h0M26.2 11.7h0M54.2 108.6h0M0.6 122.0h0M180.6 122.0h0M60.8 55.8h0M147.3 86.5h0M56.8 86.6h0M126.8 10.3h0M175.5 4.1h0M135.0 152.1h0M3.3 141.8h0M65.9 104.1h0M1.6 8.4h0M32.6 171.9h0M35.4 136.0h0M167.3 169.6h0M62.0 63.9h0M94.4 139.6h0M19.4 134.7h0M143.5 154.7h0M6.6 170.2h0M16.4 61.3h0M109.9 165.3h0M61.2 166.4h0M98.1 56.2h0M57.0 31.9h0M14.1 26.8h0M124.1 179.4h0M124.1 -0.6h0M29.1 8.7h0M177.6 96.0h0M73.1 42.7h0M106.9 148.7h0M82.0 75.9h0M10.0 164.9h0M5.9 88.8h0M150.9 23.5h0M131.7 171.0h0M113.5 141.8h0M19.2 78.2h0M26.9 152.1h0M53.1 81.6h0M179.9 153.4h0M-0.1 153.4h0M175.7 81.6h0M87.9 131.3h0M86.2 52.4h0M72.7 26.4h0M67.9 177.9h0M172.8 112.9h0M89.9 60.9h0M16.0 49.0h0M140.8 156.1h0M65.0 141.5h0M139.5 125.0h0M119.5 136.7h0M65.4 126.8h0M50.6 87.4h0M138.6 124.4h0M52.9 170.2h0M116.9 104.5h0M2.1 98.5h0M45.1 120.9h0M83.3 147.0h0M116.5 143.6h0M62.6 115.9h0M132.8 149.1h0M63.0 151.7h0M156.6 123.9h0M175.7 172.2h0M93.3 95.3h0M29.9 150.6h0M168.7 85.9h0M124.5 129.5h0M131.5 30.9h0M140.5 104.6h0M119.8 75.7h0M112.3 139.4h0M114.6 129.7h0M5.0 28.8h0M79.4 117.0h0M39.4 123.5h0M113.6 7.5h0M84.9 40.7h0M9.7 24.0h0M57.1 32.7h0M34.8 6.4h0M83.8 68.5h0M110.1 106.2h0M42.8 162.6h0M0.1 73.0h0M180.1 73.0h0M50.1 73.8h0M20.7 149.6h0M67.3 6.5h0M110.4 17.1h0M98.1 61.1h0M104.6 172.5h0M147.3 75.4h0M146.3 115.6h0M66.5 25.6h0M107.3 101.5h0M172.3 174.2h0M109.5 63.2h0M160.8 0.2h0M160.8 180.2h0M19.4 101.8h0M110.7 25.3h0M113.3 160.4h0M67.7 77.7h0M40.7 52.5h0M175.0 68.4h0M173.0 164.5h0M107.2 46.8h0M176.6 89.3h0M74.8 57.4h0M177.2 88.5h0M51.6 85.8h0M21.9 111.9h0M79.8 52.8h0M140.7 148.8h0M2.4 95.9h0M49.3 168.3h0M140.7 44.2h0M48.2 27.9h0M178.0 52.8h0M109.4 85.4h0M116.1 108.7h0M133.8 21.3h0M136.9 54.1h0M96.0 60.5h0M53.4 95.4h0M83.6 65.0h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.07%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M134.1 106.3h0M6.6 45.4h0M82.0 165.0h0M159.8 98.2h0M2.6 140.1h0M77.0 103.6h0M127.5 113.8h0M86.7 164.1h0M69.4 70.5h0M153.3 35.4h0M53.4 149.4h0M11.9 150.5h0M125.0 77.9h0M51.5 140.5h0M163.9 25.7h0M86.1 98.8h0M89.6 59.5h0M27.6 105.5h0M146.1 12.3h0M41.4 147.5h0M142.5 119.4h0M4.6 130.1h0M176.2 179.7h0M176.2 -0.3h0M126.2 8.8h0M151.6 39.5h0M116.2 171.4h0M128.2 24.2h0M52.6 165.2h0M27.0 109.9h0M74.5 29.0h0M112.0 7.8h0M19.5 68.3h0M13.0 10.4h0M103.5 133.6h0M158.1 24.2h0M77.7 56.6h0M108.0 88.1h0M168.9 67.4h0M10.0 125.5h0M27.2 113.6h0M91.1 163.9h0M99.9 111.8h0M47.4 99.3h0M45.8 135.1h0M93.1 24.1h0M42.2 66.8h0M132.6 32.3h0M128.4 117.9h0M15.3 120.2h0M16.4 22.5h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.04%22 stroke-width=%222.4%22/%3E%3Cpath d=%22M106.9 42.9h0M157.8 86.5h0M58.2 143.4h0M5.3 130.5h0M9.7 27.1h0M171.4 122.6h0M40.2 20.9h0M175.1 119.7h0M147.7 25.2h0M112.5 63.8h0M42.3 60.0h0M110.5 62.8h0M69.4 24.6h0M149.6 116.6h0M144.8 78.0h0M153.3 93.1h0M106.7 103.2h0M133.2 71.2h0M17.5 6.0h0M36.4 7.1h0M160.1 86.6h0M136.9 0.1h0M136.9 180.1h0M84.6 160.2h0M111.5 77.2h0M83.8 18.0h0M27.8 28.6h0M67.4 69.4h0M158.5 27.4h0M45.7 49.9h0M29.1 51.7h0M42.3 86.8h0M5.8 166.4h0M66.4 168.8h0M123.8 121.3h0M84.9 170.2h0M21.2 120.3h0M52.4 121.4h0M131.3 29.4h0M36.2 4.5h0M41.5 14.1h0M72.2 175.2h0M65.6 56.1h0M84.2 51.0h0M131.8 129.2h0M29.4 43.3h0M121.0 169.3h0M116.3 77.5h0M175.6 1.1h0M175.6 181.1h0M11.0 140.3h0M73.8 8.1h0M98.7 178.1h0M93.4 63.0h0M16.9 12.8h0M161.8 88.4h0M168.4 9.7h0M43.8 9.1h0M71.5 10.8h0M46.0 73.3h0M55.1 9.2h0M6.8 174.9h0M32.3 91.6h0M72.4 95.6h0M15.2 56.5h0M19.4 97.5h0M165.8 107.7h0M154.2 38.6h0M3.1 97.1h0M87.6 102.9h0M67.8 112.5h0M130.6 164.3h0M55.4 80.8h0M148.8 40.3h0M20.8 56.1h0M15.8 139.0h0M147.5 56.3h0M23.4 14.8h0M44.1 15.2h0M77.2 103.9h0M44.2 11.1h0M126.1 8.6h0M36.0 51.5h0M67.3 17.7h0M75.7 56.5h0M135.4 100.1h0M161.3 117.7h0M136.7 103.5h0M79.6 147.0h0M118.0 171.9h0M131.0 126.2h0M48.2 146.2h0M68.8 23.4h0M11.9 30.5h0M47.3 121.7h0M51.4 11.4h0M137.5 100.3h0M4.9 9.1h0M23.4 64.3h0M154.8 170.9h0M110.2 41.6h0M77.2 65.2h0M59.5 2.2h0M105.2 148.8h0M130.8 17.2h0M95.5 30.8h0M127.7 80.3h0M168.9 143.1h0M21.3 57.1h0M164.7 83.0h0M78.1 79.5h0M138.2 168.5h0%22 stroke=%22%23000%22 stroke-opacity=%22.18%22 stroke-width=%221.4%22/%3E%3C/svg%3E");
+    --bar: #252F2A; --seg: #1B2421; --seg-line: rgba(236, 233, 223, .14);
+    --bar-shadow: 0 1px 0 rgba(0, 0, 0, .45), 0 6px 14px -6px rgba(0, 0, 0, .65);
+    --lift-hover: 0 1px 1px rgba(0, 0, 0, .35), 0 7px 18px rgba(0, 0, 0, .42);
     color-scheme: dark;
   }
 }
@@ -61,7 +68,10 @@
     --scrim: rgba(0, 0, 0, .62);
     --lift: 0 1px 1px rgba(0, 0, 0, .35), 0 3px 10px rgba(0, 0, 0, .28);
     --shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 22px 60px rgba(0, 0, 0, .5);
-    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='c' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.009' numOctaves='3' seed='5' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .9 0 0 0 0 .93 0 0 0 0 .88 .2 0 0 0 -.055'/%3E%3C/filter%3E%3Cfilter id='a' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='1' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .93 0 0 0 0 .95 0 0 0 0 .9 1.3 0 0 0 -.8'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23c)'/%3E%3Crect width='300' height='300' filter='url(%23a)'/%3E%3C/svg%3E");
+    --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M112.1 133.5h0M143.1 169.6h0M133.2 166.0h0M5.2 83.8h0M169.8 116.8h0M162.2 20.4h0M84.4 44.4h0M97.9 103.3h0M2.4 39.0h0M50.3 164.9h0M137.8 28.7h0M143.5 25.0h0M111.1 22.8h0M0.3 156.9h0M180.3 156.9h0M37.7 38.8h0M176.8 157.0h0M52.1 173.1h0M97.1 122.0h0M36.9 169.4h0M124.3 174.0h0M160.9 53.8h0M65.0 29.9h0M26.2 11.7h0M54.2 108.6h0M0.6 122.0h0M180.6 122.0h0M60.8 55.8h0M147.3 86.5h0M56.8 86.6h0M126.8 10.3h0M175.5 4.1h0M135.0 152.1h0M3.3 141.8h0M65.9 104.1h0M1.6 8.4h0M32.6 171.9h0M35.4 136.0h0M167.3 169.6h0M62.0 63.9h0M94.4 139.6h0M19.4 134.7h0M143.5 154.7h0M6.6 170.2h0M16.4 61.3h0M109.9 165.3h0M61.2 166.4h0M98.1 56.2h0M57.0 31.9h0M14.1 26.8h0M124.1 179.4h0M124.1 -0.6h0M29.1 8.7h0M177.6 96.0h0M73.1 42.7h0M106.9 148.7h0M82.0 75.9h0M10.0 164.9h0M5.9 88.8h0M150.9 23.5h0M131.7 171.0h0M113.5 141.8h0M19.2 78.2h0M26.9 152.1h0M53.1 81.6h0M179.9 153.4h0M-0.1 153.4h0M175.7 81.6h0M87.9 131.3h0M86.2 52.4h0M72.7 26.4h0M67.9 177.9h0M172.8 112.9h0M89.9 60.9h0M16.0 49.0h0M140.8 156.1h0M65.0 141.5h0M139.5 125.0h0M119.5 136.7h0M65.4 126.8h0M50.6 87.4h0M138.6 124.4h0M52.9 170.2h0M116.9 104.5h0M2.1 98.5h0M45.1 120.9h0M83.3 147.0h0M116.5 143.6h0M62.6 115.9h0M132.8 149.1h0M63.0 151.7h0M156.6 123.9h0M175.7 172.2h0M93.3 95.3h0M29.9 150.6h0M168.7 85.9h0M124.5 129.5h0M131.5 30.9h0M140.5 104.6h0M119.8 75.7h0M112.3 139.4h0M114.6 129.7h0M5.0 28.8h0M79.4 117.0h0M39.4 123.5h0M113.6 7.5h0M84.9 40.7h0M9.7 24.0h0M57.1 32.7h0M34.8 6.4h0M83.8 68.5h0M110.1 106.2h0M42.8 162.6h0M0.1 73.0h0M180.1 73.0h0M50.1 73.8h0M20.7 149.6h0M67.3 6.5h0M110.4 17.1h0M98.1 61.1h0M104.6 172.5h0M147.3 75.4h0M146.3 115.6h0M66.5 25.6h0M107.3 101.5h0M172.3 174.2h0M109.5 63.2h0M160.8 0.2h0M160.8 180.2h0M19.4 101.8h0M110.7 25.3h0M113.3 160.4h0M67.7 77.7h0M40.7 52.5h0M175.0 68.4h0M173.0 164.5h0M107.2 46.8h0M176.6 89.3h0M74.8 57.4h0M177.2 88.5h0M51.6 85.8h0M21.9 111.9h0M79.8 52.8h0M140.7 148.8h0M2.4 95.9h0M49.3 168.3h0M140.7 44.2h0M48.2 27.9h0M178.0 52.8h0M109.4 85.4h0M116.1 108.7h0M133.8 21.3h0M136.9 54.1h0M96.0 60.5h0M53.4 95.4h0M83.6 65.0h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.07%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M134.1 106.3h0M6.6 45.4h0M82.0 165.0h0M159.8 98.2h0M2.6 140.1h0M77.0 103.6h0M127.5 113.8h0M86.7 164.1h0M69.4 70.5h0M153.3 35.4h0M53.4 149.4h0M11.9 150.5h0M125.0 77.9h0M51.5 140.5h0M163.9 25.7h0M86.1 98.8h0M89.6 59.5h0M27.6 105.5h0M146.1 12.3h0M41.4 147.5h0M142.5 119.4h0M4.6 130.1h0M176.2 179.7h0M176.2 -0.3h0M126.2 8.8h0M151.6 39.5h0M116.2 171.4h0M128.2 24.2h0M52.6 165.2h0M27.0 109.9h0M74.5 29.0h0M112.0 7.8h0M19.5 68.3h0M13.0 10.4h0M103.5 133.6h0M158.1 24.2h0M77.7 56.6h0M108.0 88.1h0M168.9 67.4h0M10.0 125.5h0M27.2 113.6h0M91.1 163.9h0M99.9 111.8h0M47.4 99.3h0M45.8 135.1h0M93.1 24.1h0M42.2 66.8h0M132.6 32.3h0M128.4 117.9h0M15.3 120.2h0M16.4 22.5h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.04%22 stroke-width=%222.4%22/%3E%3Cpath d=%22M106.9 42.9h0M157.8 86.5h0M58.2 143.4h0M5.3 130.5h0M9.7 27.1h0M171.4 122.6h0M40.2 20.9h0M175.1 119.7h0M147.7 25.2h0M112.5 63.8h0M42.3 60.0h0M110.5 62.8h0M69.4 24.6h0M149.6 116.6h0M144.8 78.0h0M153.3 93.1h0M106.7 103.2h0M133.2 71.2h0M17.5 6.0h0M36.4 7.1h0M160.1 86.6h0M136.9 0.1h0M136.9 180.1h0M84.6 160.2h0M111.5 77.2h0M83.8 18.0h0M27.8 28.6h0M67.4 69.4h0M158.5 27.4h0M45.7 49.9h0M29.1 51.7h0M42.3 86.8h0M5.8 166.4h0M66.4 168.8h0M123.8 121.3h0M84.9 170.2h0M21.2 120.3h0M52.4 121.4h0M131.3 29.4h0M36.2 4.5h0M41.5 14.1h0M72.2 175.2h0M65.6 56.1h0M84.2 51.0h0M131.8 129.2h0M29.4 43.3h0M121.0 169.3h0M116.3 77.5h0M175.6 1.1h0M175.6 181.1h0M11.0 140.3h0M73.8 8.1h0M98.7 178.1h0M93.4 63.0h0M16.9 12.8h0M161.8 88.4h0M168.4 9.7h0M43.8 9.1h0M71.5 10.8h0M46.0 73.3h0M55.1 9.2h0M6.8 174.9h0M32.3 91.6h0M72.4 95.6h0M15.2 56.5h0M19.4 97.5h0M165.8 107.7h0M154.2 38.6h0M3.1 97.1h0M87.6 102.9h0M67.8 112.5h0M130.6 164.3h0M55.4 80.8h0M148.8 40.3h0M20.8 56.1h0M15.8 139.0h0M147.5 56.3h0M23.4 14.8h0M44.1 15.2h0M77.2 103.9h0M44.2 11.1h0M126.1 8.6h0M36.0 51.5h0M67.3 17.7h0M75.7 56.5h0M135.4 100.1h0M161.3 117.7h0M136.7 103.5h0M79.6 147.0h0M118.0 171.9h0M131.0 126.2h0M48.2 146.2h0M68.8 23.4h0M11.9 30.5h0M47.3 121.7h0M51.4 11.4h0M137.5 100.3h0M4.9 9.1h0M23.4 64.3h0M154.8 170.9h0M110.2 41.6h0M77.2 65.2h0M59.5 2.2h0M105.2 148.8h0M130.8 17.2h0M95.5 30.8h0M127.7 80.3h0M168.9 143.1h0M21.3 57.1h0M164.7 83.0h0M78.1 79.5h0M138.2 168.5h0%22 stroke=%22%23000%22 stroke-opacity=%22.18%22 stroke-width=%221.4%22/%3E%3C/svg%3E");
+    --bar: #252F2A; --seg: #1B2421; --seg-line: rgba(236, 233, 223, .14);
+    --bar-shadow: 0 1px 0 rgba(0, 0, 0, .45), 0 6px 14px -6px rgba(0, 0, 0, .65);
+    --lift-hover: 0 1px 1px rgba(0, 0, 0, .35), 0 7px 18px rgba(0, 0, 0, .42);
     color-scheme: dark;
 }
 
@@ -71,8 +81,9 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; color: var(--fg); font-family: var(--f-body); font-size: 15.5px; line-height: 1.5;
   background-color: var(--bg);
-  background-image: var(--grain), radial-gradient(130% 80% at 8% 0%, var(--board-hi), transparent 62%), radial-gradient(100% 70% at 100% 100%, var(--board-lo), transparent 70%);
-  background-attachment: scroll, fixed, fixed;
+  background-image: radial-gradient(90% 100% at 10% 0%, var(--board-hi), transparent 72%), var(--grain);
+  background-size: 100% 780px, 180px 180px;
+  background-repeat: no-repeat, repeat;
 }
 body.noscroll { overflow: hidden; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 40; background: var(--bg); }
@@ -87,52 +98,59 @@ a { color: var(--ink-fg); }
 }
 .lg-bg { fill: var(--brand); } .lg-dot { fill: var(--bg); } .lg-hi { fill: var(--pin); }
 
-/* Masthead (scrolls away) */
-.site { position: relative; }
-.bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px 0; }
-.brand { display: flex; align-items: center; gap: 12px; color: var(--brand); text-decoration: none; min-width: 0; }
-.brand svg { display: none; width: 44px; height: 44px; flex: none; }
-.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: 29px; line-height: .86; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
-.brand b span { display: block; }
-.motto { margin-block: 0; padding-top: 14px; }
+/* Masthead (scrolls away): poster wordmark and the taped-on line */
+.site { position: relative; padding-bottom: 16px; }
+.bar { display: flex; align-items: center; gap: 12px; padding-block: 18px 0; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; min-width: 0; }
+.brand svg { width: 34px; height: 34px; flex: none; }
+.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 8.2vw, 34px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.motto { margin-block: 0; padding-top: 12px; }
 .motto span {
-  display: inline-block; max-width: 100%; padding: 5px 16px 3px; background: var(--tape); color: var(--fg);
-  font-family: var(--f-hand); font-weight: 700; font-size: 17px; line-height: 1.35; text-wrap: balance;
+  display: inline-block; max-width: 100%; padding: 4px 14px 2px; background: var(--tape); color: var(--fg);
+  font-family: var(--f-hand); font-weight: 700; font-size: 16px; line-height: 1.35; text-wrap: balance;
   clip-path: polygon(0 0, 100% 0, calc(100% - 5px) 22%, 100% 46%, calc(100% - 4px) 74%, 100% 100%, 0 100%, 5px 78%, 0 52%, 4px 26%);
 }
-.cityswitch { display: inline-flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--paper); box-shadow: var(--lift); flex: none; }
-.cityswitch button { border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 7px 10px; border-radius: 999px; }
-.cityswitch button:hover { color: var(--fg); }
-.cityswitch button[aria-pressed="true"] { background: var(--fg); color: var(--on-ink); }
-@media (min-width: 560px) {
-  .brand svg { display: block; }
-  .brand b { font-size: 31px; }
-  .cityswitch button { font-size: 14px; padding: 7px 14px; }
-}
 @media (min-width: 860px) {
-  .brand b { font-size: 44px; line-height: .9; }
-  .brand b span { display: inline; }
-  .motto span { font-size: 18px; }
+  .site { padding-bottom: 20px; }
+  .bar { padding-top: 28px; }
+  .brand { gap: 14px; }
+  .brand svg { width: 46px; height: 46px; }
+  .brand b { font-size: 50px; }
+  .motto { padding-top: 14px; }
+  .motto span { font-size: 18px; padding: 5px 16px 3px; }
 }
 
-/* Section tabs, pinned to the top */
-.tabsbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; margin-top: 18px; background: var(--paper); box-shadow: 0 1px 0 var(--line), 0 4px 12px rgba(50, 30, 10, .14); }
-.tabs { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+/* Slim sticky bar: the city switch and the section tabs stay on screen */
+.tabsbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bar); box-shadow: var(--bar-shadow); }
+.navrow { display: flex; flex-direction: column; gap: 2px; padding-top: 8px; }
+.tabs { display: flex; overflow-x: auto; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
 .tabs a {
-  flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 12px 10px 9px;
-  color: var(--muted); text-decoration: none; font-weight: 700; font-size: 15px; border-bottom: 3px solid transparent;
+  flex: 1 1 auto; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 3px 8px 0;
+  color: var(--muted); text-decoration: none; font-weight: 700; font-size: 14.5px; white-space: nowrap; border-bottom: 3px solid transparent;
 }
 .tabs a:hover { color: var(--fg); }
 .tabs a[aria-current="page"] { color: var(--fg); border-bottom-color: var(--pin); }
+.tabs a:focus-visible { outline-offset: -3px; border-radius: 6px; }
+.cityswitch { order: -1; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--seg); box-shadow: inset 0 0 0 1px var(--seg-line); }
+.cityswitch button { flex: 1 1 0; min-height: 30px; border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 3px 12px; border-radius: 999px; white-space: nowrap; }
+.cityswitch button:hover { color: var(--fg); }
+.cityswitch button[aria-pressed="true"] { background: var(--fg); color: var(--on-ink); box-shadow: 0 1px 2px rgba(30, 20, 10, .25); }
 .pill { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--pin); color: var(--on-pin); font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; }
+@media (min-width: 700px) {
+  .navrow { flex-direction: row; align-items: center; justify-content: space-between; gap: 16px; padding-top: 0; }
+  .tabs { margin-left: -12px; }
+  .tabs a { flex: none; min-height: 50px; padding: 3px 12px 0; font-size: 15px; }
+  .cityswitch { order: 0; flex: none; }
+  .cityswitch button { flex: none; padding: 3px 14px; font-size: 14px; }
+}
 
 /* Intro */
-.intro { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding-block: 26px 0; }
+.intro { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding-block: 24px 0; }
 .intro > div:first-child { min-width: 0; }
 .intro h1 { font-family: var(--f-display); font-weight: 900; font-size: clamp(34px, 4vw, 44px); line-height: .95; letter-spacing: .012em; text-transform: uppercase; margin: 0 0 6px; text-wrap: balance; }
 .intro p { margin: 0; color: var(--board-muted); max-width: 62ch; font-weight: 500; }
-.intro.compact { padding-block: 22px 0; }
+.intro.compact { padding-block: 20px 0; }
 .intro.compact h1 { font-family: var(--f-body); font-weight: 700; font-size: 17px; line-height: 1.3; letter-spacing: 0; text-transform: none; margin: 0; }
 .cta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
 .quiet { border: 0; background: none; padding: 8px 2px; color: var(--ink-fg); font-weight: 700; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
@@ -153,14 +171,14 @@ a { color: var(--ink-fg); }
 .fine { margin: 14px 0 0; color: var(--muted); font-size: 13.5px; }
 
 /* Search and category stickers */
-.filters { display: flex; flex-wrap: wrap; gap: 8px 7px; padding-block: 14px 2px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px 6px; padding-block: 12px 2px; }
 .fbreak { flex-basis: 100%; height: 0; }
 .vhead { margin: 26px 0 12px; font-family: var(--f-display); font-size: 21px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--fg); }
 .rules { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
 .footlink { color: var(--ink-fg); text-decoration: underline; text-underline-offset: 3px; }
 .searchbar { padding-top: 10px; }
 .searchbar input {
-  width: 100%; max-width: 560px; height: 46px; padding: 0 14px 0 42px; border-radius: 10px;
+  width: 100%; max-width: 560px; height: 44px; padding: 0 14px 0 42px; border-radius: 10px;
   border: 1px solid var(--chip-line); color: var(--fg); font-size: 16px; box-shadow: var(--lift);
   background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='7' cy='7' r='4.6' fill='none' stroke='%238a7a68' stroke-width='1.6'/%3E%3Cpath d='m10.4 10.4 3.4 3.4' stroke='%238a7a68' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 14px center / 18px 18px;
 }
@@ -170,8 +188,8 @@ a { color: var(--ink-fg); }
 .thinhint { margin-top: 10px; border: 0; background: none; padding: 6px 0; color: var(--ink-fg); font-size: 14.5px; font-weight: 700; cursor: pointer; }
 .thinhint:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fchip {
-  flex: none; display: inline-flex; align-items: center; gap: 5px; font-size: 14px; font-weight: 700;
-  padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--chip-line); background: var(--chip);
+  flex: none; display: inline-flex; align-items: center; gap: 5px; font-size: 14px; font-weight: 700; min-height: 34px;
+  padding: 5px 12px; border-radius: 999px; border: 1.5px solid var(--chip-line); background: var(--chip);
   color: var(--fg); cursor: pointer; white-space: nowrap;
 }
 .fchip:hover { border-color: var(--fg); }
@@ -190,39 +208,45 @@ a { color: var(--ink-fg); }
 .fsep { flex: none; width: 1px; margin: 4px 3px; background: var(--chip-line); }
 .fclear { flex: none; border: 0; background: none; color: var(--ink-fg); font-weight: 700; font-size: 14px; cursor: pointer; padding: 7px 6px; }
 
-/* Day groups and tickets */
-.day { margin-top: 30px; }
+/* Day groups and tickets. Ticket rhythm: 12px top and bottom, 14px left, 4px between time, title and where/cost. */
+.day { margin-top: 28px; }
 .dayhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding-bottom: 10px; }
 .dayhead h2 { font-family: var(--f-display); font-weight: 900; font-size: 32px; line-height: .95; letter-spacing: .015em; text-transform: uppercase; margin: 0; }
-.dayhead .sub { color: var(--board-muted); font-size: 15px; font-weight: 700; }
+.dayhead .sub { color: var(--board-muted); font-size: 14.5px; font-weight: 700; }
 .dayhead .hol, .hol { color: var(--hol); font-weight: 700; font-size: 13.5px; }
 .none { color: var(--board-muted); padding: 4px 0; margin: 0; font-weight: 500; }
-.items { display: flex; flex-direction: column; gap: 9px; }
+.items { display: flex; flex-direction: column; gap: 10px; }
 .row {
+  --stub-w: 58px;
   position: relative; isolation: isolate; min-width: 0; cursor: pointer; color: var(--fg);
-  display: grid; grid-template-columns: minmax(0, 1fr) 60px; grid-template-areas: "time go" "main go"; align-items: start;
+  display: grid; grid-template-columns: minmax(0, 1fr) var(--stub-w); grid-template-areas: "time go" "main go"; align-items: start;
 }
 .row::before {
-  content: ""; position: absolute; inset: 0; z-index: -1; border-radius: 3px;
-  background-color: var(--paper); background-image: linear-gradient(to left, var(--stub) 60px, transparent 60px);
+  content: ""; position: absolute; inset: 0; z-index: -1; border-radius: 4px;
+  background-color: var(--paper); background-image: linear-gradient(to left, var(--stub) var(--stub-w), transparent var(--stub-w));
   box-shadow: var(--lift), inset 0 0 0 1px var(--paper-edge);
 }
-.row::after { content: ""; position: absolute; top: 9px; bottom: 9px; right: 59px; border-left: 2px dashed var(--perf); pointer-events: none; }
-.row:hover::before { background-color: var(--hover); }
+.row::after { content: ""; position: absolute; top: 8px; bottom: 8px; right: calc(var(--stub-w) - 1px); border-left: 2px dashed var(--perf); pointer-events: none; }
+.row:hover::before { background-color: var(--hover); box-shadow: var(--lift-hover), inset 0 0 0 1px var(--paper-edge); }
 .row .time {
   grid-area: time; padding: 12px 12px 0 14px; color: var(--ink-fg);
-  font-family: var(--f-display); font-weight: 800; font-size: 17px; line-height: 1.1; letter-spacing: .045em; text-transform: uppercase; font-variant-numeric: tabular-nums;
+  font-family: var(--f-display); font-weight: 800; font-size: 16px; line-height: 1.1; letter-spacing: .05em; text-transform: uppercase; font-variant-numeric: tabular-nums;
 }
 .row .time .d { display: inline; }
 .row .time .d::after { content: " · "; }
-.row .main { grid-area: main; display: block; width: 100%; min-width: 0; border: 0; background: none; padding: 3px 12px 13px 14px; text-align: left; cursor: pointer; color: inherit; }
+.row .main { grid-area: main; display: block; width: 100%; min-width: 0; border: 0; background: none; padding: 4px 12px 12px 14px; text-align: left; cursor: pointer; color: inherit; }
 .row .main:focus-visible { outline-offset: -2px; border-radius: 4px; }
-.row .title { display: block; font-weight: 700; font-size: 16.5px; line-height: 1.28; }
-.row .meta { display: block; color: var(--muted); font-size: 14px; line-height: 1.4; margin-top: 3px; }
+.row .title { display: block; font-weight: 700; font-size: 16px; line-height: 1.3; text-wrap: pretty; }
+.row .meta { display: block; color: var(--muted); font-size: 13.5px; line-height: 1.4; margin-top: 4px; }
 .row .gobtn { grid-area: go; align-self: center; justify-self: center; }
-.row.give::before { background-color: var(--give-paper); background-image: linear-gradient(to left, var(--give-stub) 60px, transparent 60px); }
+.row.give::before { background-color: var(--give-paper); background-image: linear-gradient(to left, var(--give-stub) var(--stub-w), transparent var(--stub-w)); }
 .row.give:hover::before { background-color: var(--give-hover); }
 .row.give .time { color: var(--give-fg); }
+/* Keyboard focus rings the whole ticket where :has() is supported; otherwise the button's own outline shows. */
+@supports selector(:has(a)) {
+  .row .main:focus-visible { outline: none; }
+  .row:has(> .main:focus-visible)::before { box-shadow: 0 0 0 3px var(--ink), var(--lift); }
+}
 .gobtn {
   width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; padding: 0; font-size: 17px;
   border: 1.5px solid var(--btn-line); background: var(--paper); color: var(--fg); cursor: pointer; box-shadow: 0 1px 2px rgba(60, 40, 20, .14);
@@ -235,12 +259,16 @@ a { color: var(--ink-fg); }
 }
 .gheart { color: var(--give); margin-right: 5px; font-size: 14px; }
 .flag { color: var(--fg); font-weight: 700; }
-.more-wrap { margin-top: 26px; }
+.more-wrap { margin-top: 28px; }
 .more-wrap .btn { box-shadow: var(--lift); }
-@media (min-width: 900px) {
-  #view .items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; }
-  #view .daypanel .items { display: flex; }
-  .dayhead h2 { font-size: 38px; }
+/* Wider screens: the week becomes a board of day columns; other ticket lists become a grid. */
+@media (min-width: 720px) {
+  #view .items { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 12px 18px; }
+  #view .day .items, #view .daypanel .items { display: flex; flex-direction: column; gap: 10px; }
+  #view:has(> .day) { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 0 28px; align-items: start; }
+  #view > .day { min-width: 0; margin: 0; padding-top: 26px; }
+  #view > .empty-state, #view > .more-wrap, #view > .suggest { grid-column: 1 / -1; }
+  .dayhead h2 { font-size: 34px; }
 }
 
 /* Stickers (category and status labels) */
@@ -295,7 +323,7 @@ a { color: var(--ink-fg); }
 .eyebrow { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--board-muted); }
 .horizon { color: var(--board-muted); font-size: 14px; margin: 16px 0 0; }
 .holnote { margin: 10px 0 0; font-size: 14px; padding: 8px 11px; border-radius: 3px; background: var(--note); color: var(--fg); }
-@media (max-width: 980px) { .callayout { grid-template-columns: minmax(0, 1fr); } #daypanel { scroll-margin-top: 64px; } }
+@media (max-width: 980px) { .callayout { grid-template-columns: minmax(0, 1fr); } #daypanel { scroll-margin-top: 100px; } }
 @media (max-width: 640px) {
   .monthnav h2 { font-size: 27px; min-width: 0; }
   .dow div { padding: 6px 0; text-align: center; font-size: 12px; letter-spacing: .04em; }
@@ -408,20 +436,20 @@ a { color: var(--ink-fg); }
 /* Static tilts: paper only, never the text. Off when reduced motion is requested. */
 @media (prefers-reduced-motion: no-preference) {
   .chip, .btn, .fchip, .gobtn, .bigbtn, .datechip, .cityswitch button { transition: background-color .12s ease, box-shadow .12s ease, border-color .12s ease; }
-  .row::before, .card::before { transition: background-color .12s ease; }
+  .row::before, .card::before { transition: background-color .12s ease, box-shadow .15s ease; }
   .motto span { transform: rotate(-1.2deg); }
-  .items > .row:nth-child(4n+1)::before { transform: rotate(-.4deg); }
-  .items > .row:nth-child(4n+2)::before { transform: rotate(.3deg); }
-  .items > .row:nth-child(4n+3)::before { transform: rotate(-.15deg); }
-  .items > .row:nth-child(4n)::before { transform: rotate(.45deg); }
+  .items > .row:nth-child(4n+1)::before { transform: rotate(-.3deg); }
+  .items > .row:nth-child(4n+2)::before { transform: rotate(.25deg); }
+  .items > .row:nth-child(4n+3)::before { transform: rotate(-.1deg); }
+  .items > .row:nth-child(4n)::before { transform: rotate(.3deg); }
   .cards > :nth-child(3n+1)::before { transform: rotate(-.5deg); }
   .cards > :nth-child(3n+2)::before { transform: rotate(.4deg); }
   .card::after, .empty-state::after, .suggest::after { transform: rotate(-2.5deg); }
   .cards > :nth-child(even)::after { transform: rotate(2deg); }
   .suggest::before { transform: rotate(.5deg); }
   .sheet::before { transform: rotate(-1.5deg); }
-  .fchip[aria-pressed="true"] { transform: rotate(-1.5deg); }
-  .fchip[aria-pressed="true"]:nth-child(even) { transform: rotate(1.5deg); }
+  .fchip[aria-pressed="true"] { transform: rotate(-1.2deg); }
+  .fchip[aria-pressed="true"]:nth-child(even) { transform: rotate(1.2deg); }
   .sheet .tags .tag:first-child { transform: rotate(-2deg); }
 }
 </style>
@@ -430,22 +458,26 @@ a { color: var(--ink-fg); }
   <div class="wrap bar">
     <a class="brand" href="#week" aria-label="Same Time Next Week home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect class="lg-bg" width="32" height="32" rx="8"/><circle class="lg-dot" cx="9" cy="9" r="2.6"/><circle class="lg-dot" cx="16" cy="9" r="2.6"/><circle class="lg-dot" cx="23" cy="9" r="2.6"/><circle class="lg-dot" cx="9" cy="16" r="2.6"/><circle class="lg-hi" cx="16" cy="16" r="2.6"/><circle class="lg-dot" cx="23" cy="16" r="2.6"/><circle class="lg-dot" cx="9" cy="23" r="2.6"/><circle class="lg-dot" cx="16" cy="23" r="2.6"/><circle class="lg-dot" cx="23" cy="23" r="2.6"/></svg>
-      <span class="bt"><b><span>Same Time</span> <span>Next Week</span></b></span>
+      <span class="bt"><b>Same Time Next Week</b></span>
     </a>
+  </div>
+  <p class="wrap motto"><span>Find community in Durham &amp; Raleigh</span></p>
+</header>
+<div class="tabsbar">
+  <div class="wrap navrow">
+    <nav class="tabs" aria-label="Sections">
+      <a href="#week" data-view="week">This week</a>
+      <a href="#calendar" data-view="calendar">Calendar</a>
+      <a href="#volunteer" data-view="volunteer">Volunteer</a>
+      <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
+    </nav>
     <div class="cityswitch" role="group" aria-label="Choose a city">
       <button type="button" data-city="durham" aria-pressed="true">Durham</button>
       <button type="button" data-city="raleigh" aria-pressed="false">Raleigh</button>
       <button type="button" data-city="both" aria-pressed="false">Both</button>
     </div>
   </div>
-  <p class="wrap motto"><span>Find community in Durham &amp; Raleigh</span></p>
-</header>
-<nav class="tabsbar" aria-label="Sections"><div class="wrap tabs">
-    <a href="#week" data-view="week">This week</a>
-    <a href="#calendar" data-view="calendar">Calendar</a>
-    <a href="#volunteer" data-view="volunteer">Volunteer</a>
-    <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
-  </div></nav>
+</div>
 <main class="wrap" id="main">
   <section class="intro" id="intro"></section>
   <div class="searchbar" id="searchbar"><input type="search" id="q" placeholder="Search: pottery, salsa, trivia, a venue…" aria-label="Search events" autocomplete="off" enterkeyhint="search"></div>
