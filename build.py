@@ -216,12 +216,14 @@ def ics_quote(s):
     return '"' + str(s).replace('"', "'") + '"'
 
 
-def travel_lines(e):
+def travel_lines(e, alerts=True):
     """Map pin, travel time and leave-now alerts.
 
     Apple Calendar reads X-APPLE-* and times the alerts from your travel time: 30 minutes before
     you need to leave, then when it's time to leave. Other calendars ignore those parts and use
     the plain offsets after the colon: 1 hour and 30 minutes before the start.
+    The whole-city subscription feeds get the map pin only (alerts=False): nobody wants two
+    alerts for every event in a city. Events people add one by one get the alerts (template.html).
     """
     lines = []
     loc = ", ".join(x for x in [e.get("venue"), e.get("address")] if x)
@@ -229,6 +231,8 @@ def travel_lines(e):
         lat, lon = e["geo"]
         lines.append(f"X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS={ics_quote(e['address'])};X-APPLE-RADIUS=70;"
                      f"X-TITLE={ics_quote(e.get('venue') or e['address'])}:geo:{lat},{lon}")
+    if not alerts:
+        return lines
     if loc and not e.get("noMap"):
         lines.append("X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC")
     if e.get("start"):
@@ -284,7 +288,7 @@ def vevent(e, day, stamp):
               f"DESCRIPTION:{ics_esc(desc)}"]
     if e.get("url"):
         lines.append(f"URL:{e['url']}")
-    lines += travel_lines(e)
+    lines += travel_lines(e, alerts=False)  # feeds: map pin only
     lines.append("END:VEVENT")
     return lines
 

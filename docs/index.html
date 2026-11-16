@@ -312,6 +312,7 @@ a { color: var(--ink-fg); }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .addcal { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
 .addcal .lbl { font-size: 13px; font-weight: 700; color: var(--muted); margin-right: 2px; }
+.addcal .calnote { flex-basis: 100%; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
 .note { margin-top: 16px; padding: 11px 13px; border-radius: 10px; background: var(--surface-2); font-size: 14px; }
 .upcoming { margin-top: 18px; }
 .upcoming h3, .wh { margin: 0 0 8px; font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
@@ -988,7 +989,8 @@ a { color: var(--ink-fg); }
       h += '<div class="addcal"><span class="lbl">Add to calendar</span>' +
         '<button type="button" class="btn sm" data-ics="' + e.id + '" data-date="' + k + '">Apple</button>' +
         '<a class="btn sm" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/google"' + tt + '>Google</a>' +
-        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a></div>';
+        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a>' +
+        '<span class="calnote">Apple adds two alerts: 30 minutes before you need to leave, and when it’s time to go. Google and Outlook don’t let sites set alerts, so they use your usual reminders.</span></div>';
     }
     if (e.verifyNote) h += '<div class="note"><b>Before you go:</b> ' + esc(e.verifyNote) + '</div>';
     if (k) {
