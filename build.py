@@ -19,6 +19,7 @@ Usage:
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
 import re
 import struct
@@ -423,16 +424,18 @@ def main():
         '<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icon.svg" type="image/svg+xml">\n'
         '<link rel="apple-touch-icon" href="icon-180.png">\n'
         '<meta name="theme-color" content="#D5B68B" media="(prefers-color-scheme: light)">\n'
-        '<meta name="theme-color" content="#1D2723" media="(prefers-color-scheme: dark)">\n'
+        '<meta name="theme-color" content="#D5B68B" media="(prefers-color-scheme: dark)">\n'
         '<meta name="apple-mobile-web-app-title" content="Same Time Next Week">\n'
         '<meta property="og:type" content="website">\n<meta property="og:site_name" content="Same Time Next Week">\n'
         '<meta property="og:title" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n'
         '<meta property="og:description" content="Jams, dances, run clubs, game nights and volunteer shifts that happen every week or month. Just show up, and keep coming back. Checked weekly.">\n'
         '<meta name="twitter:card" content="summary_large_image">\n'
     )
+    card = ROOT / "assets" / "og-card.png"
+    card_version = hashlib.sha1(card.read_bytes()).hexdigest()[:8] if card.exists() else "1"  # new image, new link, so shared previews refresh
     if site_url:
         extra_head += (f'<meta property="og:url" content="{site_url}">\n'
-                       f'<meta property="og:image" content="{site_url}og-card.png">\n'
+                       f'<meta property="og:image" content="{site_url}og-card.png?v={card_version}">\n'
                        '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
                        '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n')
     if counter:

@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Big+Shoulders+Display:wght@800;900&family=Kalam:wght@700&display=swap">
 <style>
-/* Layout: the page is a corkboard (a chalkboard in dark mode). The masthead scrolls away; a slim bar with the city switch and section tabs stays pinned to the top.
+/* Layout: the page is a light corkboard in every mode (no dark version). The masthead scrolls away; a slim bar with the city switch and section tabs stays pinned to the top.
    On wide screens the week is a board of day columns. The board texture is a small tiled speckle (plain shapes, no SVG filters) that scrolls with the page.
    Listings are paper tickets: time on top, and the round + on the ticket stub is the pin that saves it to My plan.
    Event details open as a taped-up flyer: a centered dialog on desktop and a bottom sheet on phones.
@@ -31,48 +31,7 @@
   --f-display: "Big Shoulders Display", "Avenir Next Condensed", "DIN Condensed", "Arial Narrow", sans-serif;
   --f-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
   --f-hand: "Kalam", "Bradley Hand", "Segoe Print", cursive;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #1D2723; --board-hi: rgba(255, 255, 255, .03); --board-lo: rgba(0, 0, 0, .28);
-    --board-muted: #AEB7B0; --board-line: rgba(236, 233, 223, .16); --brand: #EFEBDF;
-    --paper: #28322D; --stub: #2F3934; --surface: #28322D; --surface-2: #313B36; --hover: #2E3934; --paper-edge: rgba(236, 233, 223, .1);
-    --fg: #EDEAE1; --muted: #AAB3AC; --line: #3A4540; --perf: #5A6760; --btn-line: rgba(236, 233, 223, .32);
-    --chip: rgba(255, 255, 255, .04); --chip-line: rgba(236, 233, 223, .3);
-    --ink: #A3B9F6; --ink-tint: #27324D; --ink-fg: #C6D4FA; --on-ink: #151B18; --sticker-edge: #E6E2D6;
-    --give: #78D2A0; --give-tint: #1D3B2A; --give-paper: #24362C; --give-stub: #2A3F33; --give-hover: #293D32; --give-fg: #B3EACA;
-    --today: #FF7E6C; --today-fg: #1A1210; --hol: #FF9F90;
-    --pin: #FF6C5A; --pin-hi: #FFBDB3; --pin-lo: #B8372A; --on-pin: #1B0F0C;
-    --pick: #EBBB5C; --sun: #E8C653; --note: #3A3624; --tape: rgba(234, 224, 192, .2);
-    --scrim: rgba(0, 0, 0, .62);
-    --lift: 0 1px 1px rgba(0, 0, 0, .35), 0 3px 10px rgba(0, 0, 0, .28);
-    --shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 22px 60px rgba(0, 0, 0, .5);
-    --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M112.1 133.5h0M143.1 169.6h0M133.2 166.0h0M5.2 83.8h0M169.8 116.8h0M162.2 20.4h0M84.4 44.4h0M97.9 103.3h0M2.4 39.0h0M50.3 164.9h0M137.8 28.7h0M143.5 25.0h0M111.1 22.8h0M0.3 156.9h0M180.3 156.9h0M37.7 38.8h0M176.8 157.0h0M52.1 173.1h0M97.1 122.0h0M36.9 169.4h0M124.3 174.0h0M160.9 53.8h0M65.0 29.9h0M26.2 11.7h0M54.2 108.6h0M0.6 122.0h0M180.6 122.0h0M60.8 55.8h0M147.3 86.5h0M56.8 86.6h0M126.8 10.3h0M175.5 4.1h0M135.0 152.1h0M3.3 141.8h0M65.9 104.1h0M1.6 8.4h0M32.6 171.9h0M35.4 136.0h0M167.3 169.6h0M62.0 63.9h0M94.4 139.6h0M19.4 134.7h0M143.5 154.7h0M6.6 170.2h0M16.4 61.3h0M109.9 165.3h0M61.2 166.4h0M98.1 56.2h0M57.0 31.9h0M14.1 26.8h0M124.1 179.4h0M124.1 -0.6h0M29.1 8.7h0M177.6 96.0h0M73.1 42.7h0M106.9 148.7h0M82.0 75.9h0M10.0 164.9h0M5.9 88.8h0M150.9 23.5h0M131.7 171.0h0M113.5 141.8h0M19.2 78.2h0M26.9 152.1h0M53.1 81.6h0M179.9 153.4h0M-0.1 153.4h0M175.7 81.6h0M87.9 131.3h0M86.2 52.4h0M72.7 26.4h0M67.9 177.9h0M172.8 112.9h0M89.9 60.9h0M16.0 49.0h0M140.8 156.1h0M65.0 141.5h0M139.5 125.0h0M119.5 136.7h0M65.4 126.8h0M50.6 87.4h0M138.6 124.4h0M52.9 170.2h0M116.9 104.5h0M2.1 98.5h0M45.1 120.9h0M83.3 147.0h0M116.5 143.6h0M62.6 115.9h0M132.8 149.1h0M63.0 151.7h0M156.6 123.9h0M175.7 172.2h0M93.3 95.3h0M29.9 150.6h0M168.7 85.9h0M124.5 129.5h0M131.5 30.9h0M140.5 104.6h0M119.8 75.7h0M112.3 139.4h0M114.6 129.7h0M5.0 28.8h0M79.4 117.0h0M39.4 123.5h0M113.6 7.5h0M84.9 40.7h0M9.7 24.0h0M57.1 32.7h0M34.8 6.4h0M83.8 68.5h0M110.1 106.2h0M42.8 162.6h0M0.1 73.0h0M180.1 73.0h0M50.1 73.8h0M20.7 149.6h0M67.3 6.5h0M110.4 17.1h0M98.1 61.1h0M104.6 172.5h0M147.3 75.4h0M146.3 115.6h0M66.5 25.6h0M107.3 101.5h0M172.3 174.2h0M109.5 63.2h0M160.8 0.2h0M160.8 180.2h0M19.4 101.8h0M110.7 25.3h0M113.3 160.4h0M67.7 77.7h0M40.7 52.5h0M175.0 68.4h0M173.0 164.5h0M107.2 46.8h0M176.6 89.3h0M74.8 57.4h0M177.2 88.5h0M51.6 85.8h0M21.9 111.9h0M79.8 52.8h0M140.7 148.8h0M2.4 95.9h0M49.3 168.3h0M140.7 44.2h0M48.2 27.9h0M178.0 52.8h0M109.4 85.4h0M116.1 108.7h0M133.8 21.3h0M136.9 54.1h0M96.0 60.5h0M53.4 95.4h0M83.6 65.0h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.07%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M134.1 106.3h0M6.6 45.4h0M82.0 165.0h0M159.8 98.2h0M2.6 140.1h0M77.0 103.6h0M127.5 113.8h0M86.7 164.1h0M69.4 70.5h0M153.3 35.4h0M53.4 149.4h0M11.9 150.5h0M125.0 77.9h0M51.5 140.5h0M163.9 25.7h0M86.1 98.8h0M89.6 59.5h0M27.6 105.5h0M146.1 12.3h0M41.4 147.5h0M142.5 119.4h0M4.6 130.1h0M176.2 179.7h0M176.2 -0.3h0M126.2 8.8h0M151.6 39.5h0M116.2 171.4h0M128.2 24.2h0M52.6 165.2h0M27.0 109.9h0M74.5 29.0h0M112.0 7.8h0M19.5 68.3h0M13.0 10.4h0M103.5 133.6h0M158.1 24.2h0M77.7 56.6h0M108.0 88.1h0M168.9 67.4h0M10.0 125.5h0M27.2 113.6h0M91.1 163.9h0M99.9 111.8h0M47.4 99.3h0M45.8 135.1h0M93.1 24.1h0M42.2 66.8h0M132.6 32.3h0M128.4 117.9h0M15.3 120.2h0M16.4 22.5h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.04%22 stroke-width=%222.4%22/%3E%3Cpath d=%22M106.9 42.9h0M157.8 86.5h0M58.2 143.4h0M5.3 130.5h0M9.7 27.1h0M171.4 122.6h0M40.2 20.9h0M175.1 119.7h0M147.7 25.2h0M112.5 63.8h0M42.3 60.0h0M110.5 62.8h0M69.4 24.6h0M149.6 116.6h0M144.8 78.0h0M153.3 93.1h0M106.7 103.2h0M133.2 71.2h0M17.5 6.0h0M36.4 7.1h0M160.1 86.6h0M136.9 0.1h0M136.9 180.1h0M84.6 160.2h0M111.5 77.2h0M83.8 18.0h0M27.8 28.6h0M67.4 69.4h0M158.5 27.4h0M45.7 49.9h0M29.1 51.7h0M42.3 86.8h0M5.8 166.4h0M66.4 168.8h0M123.8 121.3h0M84.9 170.2h0M21.2 120.3h0M52.4 121.4h0M131.3 29.4h0M36.2 4.5h0M41.5 14.1h0M72.2 175.2h0M65.6 56.1h0M84.2 51.0h0M131.8 129.2h0M29.4 43.3h0M121.0 169.3h0M116.3 77.5h0M175.6 1.1h0M175.6 181.1h0M11.0 140.3h0M73.8 8.1h0M98.7 178.1h0M93.4 63.0h0M16.9 12.8h0M161.8 88.4h0M168.4 9.7h0M43.8 9.1h0M71.5 10.8h0M46.0 73.3h0M55.1 9.2h0M6.8 174.9h0M32.3 91.6h0M72.4 95.6h0M15.2 56.5h0M19.4 97.5h0M165.8 107.7h0M154.2 38.6h0M3.1 97.1h0M87.6 102.9h0M67.8 112.5h0M130.6 164.3h0M55.4 80.8h0M148.8 40.3h0M20.8 56.1h0M15.8 139.0h0M147.5 56.3h0M23.4 14.8h0M44.1 15.2h0M77.2 103.9h0M44.2 11.1h0M126.1 8.6h0M36.0 51.5h0M67.3 17.7h0M75.7 56.5h0M135.4 100.1h0M161.3 117.7h0M136.7 103.5h0M79.6 147.0h0M118.0 171.9h0M131.0 126.2h0M48.2 146.2h0M68.8 23.4h0M11.9 30.5h0M47.3 121.7h0M51.4 11.4h0M137.5 100.3h0M4.9 9.1h0M23.4 64.3h0M154.8 170.9h0M110.2 41.6h0M77.2 65.2h0M59.5 2.2h0M105.2 148.8h0M130.8 17.2h0M95.5 30.8h0M127.7 80.3h0M168.9 143.1h0M21.3 57.1h0M164.7 83.0h0M78.1 79.5h0M138.2 168.5h0%22 stroke=%22%23000%22 stroke-opacity=%22.18%22 stroke-width=%221.4%22/%3E%3C/svg%3E");
-    --bar: #252F2A; --seg: #1B2421; --seg-line: rgba(236, 233, 223, .14);
-    --bar-shadow: 0 1px 0 rgba(0, 0, 0, .45), 0 6px 14px -6px rgba(0, 0, 0, .65);
-    --lift-hover: 0 1px 1px rgba(0, 0, 0, .35), 0 7px 18px rgba(0, 0, 0, .42);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-    --bg: #1D2723; --board-hi: rgba(255, 255, 255, .03); --board-lo: rgba(0, 0, 0, .28);
-    --board-muted: #AEB7B0; --board-line: rgba(236, 233, 223, .16); --brand: #EFEBDF;
-    --paper: #28322D; --stub: #2F3934; --surface: #28322D; --surface-2: #313B36; --hover: #2E3934; --paper-edge: rgba(236, 233, 223, .1);
-    --fg: #EDEAE1; --muted: #AAB3AC; --line: #3A4540; --perf: #5A6760; --btn-line: rgba(236, 233, 223, .32);
-    --chip: rgba(255, 255, 255, .04); --chip-line: rgba(236, 233, 223, .3);
-    --ink: #A3B9F6; --ink-tint: #27324D; --ink-fg: #C6D4FA; --on-ink: #151B18; --sticker-edge: #E6E2D6;
-    --give: #78D2A0; --give-tint: #1D3B2A; --give-paper: #24362C; --give-stub: #2A3F33; --give-hover: #293D32; --give-fg: #B3EACA;
-    --today: #FF7E6C; --today-fg: #1A1210; --hol: #FF9F90;
-    --pin: #FF6C5A; --pin-hi: #FFBDB3; --pin-lo: #B8372A; --on-pin: #1B0F0C;
-    --pick: #EBBB5C; --sun: #E8C653; --note: #3A3624; --tape: rgba(234, 224, 192, .2);
-    --scrim: rgba(0, 0, 0, .62);
-    --lift: 0 1px 1px rgba(0, 0, 0, .35), 0 3px 10px rgba(0, 0, 0, .28);
-    --shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 22px 60px rgba(0, 0, 0, .5);
-    --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M112.1 133.5h0M143.1 169.6h0M133.2 166.0h0M5.2 83.8h0M169.8 116.8h0M162.2 20.4h0M84.4 44.4h0M97.9 103.3h0M2.4 39.0h0M50.3 164.9h0M137.8 28.7h0M143.5 25.0h0M111.1 22.8h0M0.3 156.9h0M180.3 156.9h0M37.7 38.8h0M176.8 157.0h0M52.1 173.1h0M97.1 122.0h0M36.9 169.4h0M124.3 174.0h0M160.9 53.8h0M65.0 29.9h0M26.2 11.7h0M54.2 108.6h0M0.6 122.0h0M180.6 122.0h0M60.8 55.8h0M147.3 86.5h0M56.8 86.6h0M126.8 10.3h0M175.5 4.1h0M135.0 152.1h0M3.3 141.8h0M65.9 104.1h0M1.6 8.4h0M32.6 171.9h0M35.4 136.0h0M167.3 169.6h0M62.0 63.9h0M94.4 139.6h0M19.4 134.7h0M143.5 154.7h0M6.6 170.2h0M16.4 61.3h0M109.9 165.3h0M61.2 166.4h0M98.1 56.2h0M57.0 31.9h0M14.1 26.8h0M124.1 179.4h0M124.1 -0.6h0M29.1 8.7h0M177.6 96.0h0M73.1 42.7h0M106.9 148.7h0M82.0 75.9h0M10.0 164.9h0M5.9 88.8h0M150.9 23.5h0M131.7 171.0h0M113.5 141.8h0M19.2 78.2h0M26.9 152.1h0M53.1 81.6h0M179.9 153.4h0M-0.1 153.4h0M175.7 81.6h0M87.9 131.3h0M86.2 52.4h0M72.7 26.4h0M67.9 177.9h0M172.8 112.9h0M89.9 60.9h0M16.0 49.0h0M140.8 156.1h0M65.0 141.5h0M139.5 125.0h0M119.5 136.7h0M65.4 126.8h0M50.6 87.4h0M138.6 124.4h0M52.9 170.2h0M116.9 104.5h0M2.1 98.5h0M45.1 120.9h0M83.3 147.0h0M116.5 143.6h0M62.6 115.9h0M132.8 149.1h0M63.0 151.7h0M156.6 123.9h0M175.7 172.2h0M93.3 95.3h0M29.9 150.6h0M168.7 85.9h0M124.5 129.5h0M131.5 30.9h0M140.5 104.6h0M119.8 75.7h0M112.3 139.4h0M114.6 129.7h0M5.0 28.8h0M79.4 117.0h0M39.4 123.5h0M113.6 7.5h0M84.9 40.7h0M9.7 24.0h0M57.1 32.7h0M34.8 6.4h0M83.8 68.5h0M110.1 106.2h0M42.8 162.6h0M0.1 73.0h0M180.1 73.0h0M50.1 73.8h0M20.7 149.6h0M67.3 6.5h0M110.4 17.1h0M98.1 61.1h0M104.6 172.5h0M147.3 75.4h0M146.3 115.6h0M66.5 25.6h0M107.3 101.5h0M172.3 174.2h0M109.5 63.2h0M160.8 0.2h0M160.8 180.2h0M19.4 101.8h0M110.7 25.3h0M113.3 160.4h0M67.7 77.7h0M40.7 52.5h0M175.0 68.4h0M173.0 164.5h0M107.2 46.8h0M176.6 89.3h0M74.8 57.4h0M177.2 88.5h0M51.6 85.8h0M21.9 111.9h0M79.8 52.8h0M140.7 148.8h0M2.4 95.9h0M49.3 168.3h0M140.7 44.2h0M48.2 27.9h0M178.0 52.8h0M109.4 85.4h0M116.1 108.7h0M133.8 21.3h0M136.9 54.1h0M96.0 60.5h0M53.4 95.4h0M83.6 65.0h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.07%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M134.1 106.3h0M6.6 45.4h0M82.0 165.0h0M159.8 98.2h0M2.6 140.1h0M77.0 103.6h0M127.5 113.8h0M86.7 164.1h0M69.4 70.5h0M153.3 35.4h0M53.4 149.4h0M11.9 150.5h0M125.0 77.9h0M51.5 140.5h0M163.9 25.7h0M86.1 98.8h0M89.6 59.5h0M27.6 105.5h0M146.1 12.3h0M41.4 147.5h0M142.5 119.4h0M4.6 130.1h0M176.2 179.7h0M176.2 -0.3h0M126.2 8.8h0M151.6 39.5h0M116.2 171.4h0M128.2 24.2h0M52.6 165.2h0M27.0 109.9h0M74.5 29.0h0M112.0 7.8h0M19.5 68.3h0M13.0 10.4h0M103.5 133.6h0M158.1 24.2h0M77.7 56.6h0M108.0 88.1h0M168.9 67.4h0M10.0 125.5h0M27.2 113.6h0M91.1 163.9h0M99.9 111.8h0M47.4 99.3h0M45.8 135.1h0M93.1 24.1h0M42.2 66.8h0M132.6 32.3h0M128.4 117.9h0M15.3 120.2h0M16.4 22.5h0%22 stroke=%22%23E9EFE7%22 stroke-opacity=%22.04%22 stroke-width=%222.4%22/%3E%3Cpath d=%22M106.9 42.9h0M157.8 86.5h0M58.2 143.4h0M5.3 130.5h0M9.7 27.1h0M171.4 122.6h0M40.2 20.9h0M175.1 119.7h0M147.7 25.2h0M112.5 63.8h0M42.3 60.0h0M110.5 62.8h0M69.4 24.6h0M149.6 116.6h0M144.8 78.0h0M153.3 93.1h0M106.7 103.2h0M133.2 71.2h0M17.5 6.0h0M36.4 7.1h0M160.1 86.6h0M136.9 0.1h0M136.9 180.1h0M84.6 160.2h0M111.5 77.2h0M83.8 18.0h0M27.8 28.6h0M67.4 69.4h0M158.5 27.4h0M45.7 49.9h0M29.1 51.7h0M42.3 86.8h0M5.8 166.4h0M66.4 168.8h0M123.8 121.3h0M84.9 170.2h0M21.2 120.3h0M52.4 121.4h0M131.3 29.4h0M36.2 4.5h0M41.5 14.1h0M72.2 175.2h0M65.6 56.1h0M84.2 51.0h0M131.8 129.2h0M29.4 43.3h0M121.0 169.3h0M116.3 77.5h0M175.6 1.1h0M175.6 181.1h0M11.0 140.3h0M73.8 8.1h0M98.7 178.1h0M93.4 63.0h0M16.9 12.8h0M161.8 88.4h0M168.4 9.7h0M43.8 9.1h0M71.5 10.8h0M46.0 73.3h0M55.1 9.2h0M6.8 174.9h0M32.3 91.6h0M72.4 95.6h0M15.2 56.5h0M19.4 97.5h0M165.8 107.7h0M154.2 38.6h0M3.1 97.1h0M87.6 102.9h0M67.8 112.5h0M130.6 164.3h0M55.4 80.8h0M148.8 40.3h0M20.8 56.1h0M15.8 139.0h0M147.5 56.3h0M23.4 14.8h0M44.1 15.2h0M77.2 103.9h0M44.2 11.1h0M126.1 8.6h0M36.0 51.5h0M67.3 17.7h0M75.7 56.5h0M135.4 100.1h0M161.3 117.7h0M136.7 103.5h0M79.6 147.0h0M118.0 171.9h0M131.0 126.2h0M48.2 146.2h0M68.8 23.4h0M11.9 30.5h0M47.3 121.7h0M51.4 11.4h0M137.5 100.3h0M4.9 9.1h0M23.4 64.3h0M154.8 170.9h0M110.2 41.6h0M77.2 65.2h0M59.5 2.2h0M105.2 148.8h0M130.8 17.2h0M95.5 30.8h0M127.7 80.3h0M168.9 143.1h0M21.3 57.1h0M164.7 83.0h0M78.1 79.5h0M138.2 168.5h0%22 stroke=%22%23000%22 stroke-opacity=%22.18%22 stroke-width=%221.4%22/%3E%3C/svg%3E");
-    --bar: #252F2A; --seg: #1B2421; --seg-line: rgba(236, 233, 223, .14);
-    --bar-shadow: 0 1px 0 rgba(0, 0, 0, .45), 0 6px 14px -6px rgba(0, 0, 0, .65);
-    --lift-hover: 0 1px 1px rgba(0, 0, 0, .35), 0 7px 18px rgba(0, 0, 0, .42);
-    color-scheme: dark;
+  color-scheme: light; /* one look: the light corkboard, even when the phone is in dark mode */
 }
 
 * { box-sizing: border-box; }
@@ -433,9 +392,61 @@ a { color: var(--ink-fg); }
 .foot { margin-top: 52px; padding-block: 22px calc(30px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--board-line); color: var(--board-muted); font-size: 14px; }
 .foot p { margin: 0 0 6px; max-width: 78ch; }
 
+/* Day pages: the next 7 days as tear-off calendar pages with a count of what's on. Tap one to see just that day.
+   The row scrolls sideways inside itself only when seven pages don't fit; its padding leaves room for the pin and focus ring. */
+.weektop { display: grid; padding-top: 10px; min-width: 0; }
+#view, #weektop { scroll-margin-top: calc(96px + env(safe-area-inset-top, 0px)); }
+@media (min-width: 700px) { #view, #weektop { scroll-margin-top: calc(62px + env(safe-area-inset-top, 0px)); } }
+.strip {
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(44px, 1fr); gap: 6px; min-width: 0;
+  overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+  margin: 0 -16px; padding: 10px 16px;
+}
+.strip::-webkit-scrollbar { display: none; }
+.sday {
+  position: relative; min-width: 0; display: flex; flex-direction: column; align-items: center; padding: 0 0 7px;
+  border: 0; border-radius: 3px; background: var(--paper); color: var(--fg); cursor: pointer;
+  box-shadow: var(--lift), inset 0 0 0 1px var(--paper-edge);
+}
+.sday .sd-w {
+  align-self: stretch; padding: 5px 0 3px; border-radius: 3px 3px 0 0; background: var(--stub); border-bottom: 1.5px dashed var(--perf);
+  font-family: var(--f-display); font-size: 12px; font-weight: 800; line-height: 1.1; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+}
+.sday .sd-n { font-family: var(--f-display); font-size: 25px; font-weight: 900; line-height: 1; margin-top: 6px; font-variant-numeric: tabular-nums; }
+.sday .sd-c {
+  min-width: 22px; height: 18px; padding: 0 6px; margin-top: 5px; border-radius: 999px; background: var(--ink-tint); color: var(--ink-fg);
+  font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums;
+}
+.sday.empty .sd-c { background: transparent; color: var(--muted); }
+.sday.istoday .sd-w { background: var(--today); color: var(--today-fg); border-bottom-color: transparent; }
+.sday:hover { background: var(--hover); }
+.sday:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.sday[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); box-shadow: 0 0 0 2.5px var(--sticker-edge), 0 4px 8px 1px rgba(30, 20, 10, .3); }
+.sday[aria-pressed="true"] .sd-w { background: rgba(0, 0, 0, .14); color: inherit; border-bottom-color: transparent; }
+.sday[aria-pressed="true"] .sd-c { background: var(--on-ink); color: var(--ink-fg); }
+.sday[aria-pressed="true"]::before {
+  content: ""; position: absolute; top: -7px; left: 50%; width: 13px; height: 13px; margin-left: -6.5px; border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, var(--pin-hi) 0, var(--pin) 45%, var(--pin-lo) 100%);
+  box-shadow: 0 2px 2px rgba(90, 20, 10, .35);
+}
+.dayhead .fclear[data-wkday] {
+  margin-left: auto; align-self: center; padding: 6px 13px; border: 0; border-radius: 999px; background: var(--paper); color: var(--ink-fg);
+  font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; box-shadow: var(--lift);
+}
+.dayhead .fclear[data-wkday]:hover { background: var(--hover); }
+@media (min-width: 900px) {
+  .weektop { padding-top: 14px; }
+  .strip { grid-auto-columns: minmax(44px, 116px); gap: 12px; justify-content: start; }
+  .sday { padding-bottom: 9px; }
+  .sday .sd-w { font-size: 13.5px; padding: 6px 0 4px; }
+  .sday .sd-n { font-size: 32px; margin-top: 7px; }
+}
+
 /* Static tilts: paper only, never the text. Off when reduced motion is requested. */
 @media (prefers-reduced-motion: no-preference) {
-  .chip, .btn, .fchip, .gobtn, .bigbtn, .datechip, .cityswitch button { transition: background-color .12s ease, box-shadow .12s ease, border-color .12s ease; }
+  .chip, .btn, .fchip, .gobtn, .bigbtn, .datechip, .cityswitch button, .sday { transition: background-color .12s ease, box-shadow .12s ease, border-color .12s ease; }
+  .sday[aria-pressed="true"] { transform: rotate(-2deg); }
+  .sday[aria-pressed="true"]:nth-child(even) { transform: rotate(2deg); }
   .row::before, .card::before { transition: background-color .12s ease, box-shadow .15s ease; }
   .motto span { transform: rotate(-1.2deg); }
   .items > .row:nth-child(4n+1)::before { transform: rotate(-.3deg); }
@@ -480,6 +491,7 @@ a { color: var(--ink-fg); }
 </div>
 <main class="wrap" id="main">
   <section class="intro" id="intro"></section>
+  <div class="weektop" id="weektop" hidden></div>
   <div class="searchbar" id="searchbar"><input type="search" id="q" placeholder="Search: pottery, salsa, trivia, a venue…" aria-label="Search events" autocomplete="off" enterkeyhint="search"></div>
   <div class="filters" id="filters" role="group" aria-label="Filters"></div>
   <div id="view"></div>
@@ -582,7 +594,7 @@ a { color: var(--ink-fg); }
 
   var VIEWS = ['week', 'calendar', 'volunteer', 'plan'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
-  var state = { city: sget('city', 'durham'), view: 'week', span: 7, f: blankFilters(), calSel: TODAY, calMonth: null };
+  var state = { city: sget('city', 'durham'), view: 'week', span: 7, wday: null, f: blankFilters(), calSel: TODAY, calMonth: null };
   if (!CITY[state.city]) state.city = 'durham';
 
   function inCity(e) { return state.city === 'both' || e.city === state.city; }
@@ -773,23 +785,43 @@ a { color: var(--ink-fg); }
     if (!n) return '';
     return '<button type="button" class="thinhint" data-city="both">+ ' + n + ' more in ' + CITY[other] + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show both cities</button>';
   }
+  /* ---------- this week: day pages ---------- */
+  function stripHtml() {
+    var h = '<div class="strip" role="group" aria-label="Pick a day">';
+    for (var i = 0; i < 7; i++) {
+      var k = addDays(TODAY, i), x = parse(k), n = on(k).length;
+      h += '<button type="button" class="sday' + (i === 0 ? ' istoday' : '') + (n ? '' : ' empty') + '" data-wkday="' + k + '" aria-pressed="' + (state.wday === k) + '" aria-label="' +
+        esc((i === 0 ? 'Today, ' : '') + longDate(k) + ': ' + (n ? n + (n > 1 ? ' things' : ' thing') : 'nothing listed')) + '">' +
+        '<span class="sd-w">' + (i === 0 ? 'Today' : DOW[x.getDay()]) + '</span><span class="sd-n">' + x.getDate() + '</span><span class="sd-c">' + n + '</span></button>';
+    }
+    return h + '</div>';
+  }
+  function renderWeekTop() {
+    var el = $('weektop'), show = state.view === 'week';
+    el.hidden = !show;
+    el.innerHTML = show ? stripHtml() : '';
+  }
+
   function renderWeek() {
-    if (state.q) return renderSearch();
-    var h = '', total = 0;
-    for (var i = 0; i < state.span; i++) {
-      var k = addDays(TODAY, i), list = on(k), x = parse(k);
+    if (state.q && !state.wday) return renderSearch();
+    var h = '', total = 0, days = [];
+    if (state.wday) days.push(state.wday);
+    else for (var d = 0; d < state.span; d++) days.push(addDays(TODAY, d));
+    days.forEach(function (k) {
+      var list = on(k), x = parse(k), i = Math.round((x - parse(TODAY)) / 864e5);
       total += list.length;
       var label = i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : DOW_LONG[x.getDay()];
       h += '<section class="day" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
         (i <= 1 ? DOW_LONG[x.getDay()] + ', ' : '') + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</span>' +
-        (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') + '</div>';
+        (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') +
+        (state.wday ? '<button type="button" class="fclear" data-wkday="">See the whole week</button>' : '') + '</div>';
       h += list.length ? '<div class="items">' + list.map(function (e) { return rowHtml(e, k); }).join('') + '</div>'
         : '<p class="none">' + (anyFilter() ? 'Nothing matches your filters.' : 'Nothing listed.') + '</p>';
       h += thinHint(k, list.length);
       h += '</section>';
-    }
-    if (!total && anyFilter()) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
-    h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
+    });
+    if (!total && anyFilter() && !state.wday) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
+    if (!state.wday) h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
       (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
     if (safeUrl(D.suggestUrl)) {
       h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham or Raleigh: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
@@ -934,6 +966,7 @@ a { color: var(--ink-fg); }
     return h;
   }
   function renderView() {
+    renderWeekTop();
     var v = $('view');
     if (state.view === 'calendar') v.innerHTML = renderCalendar();
     else if (state.view === 'plan') v.innerHTML = renderPlan();
@@ -1305,6 +1338,20 @@ a { color: var(--ink-fg); }
       var w = b.dataset.wcat;
       if (wiz.cats[w]) delete wiz.cats[w]; else wiz.cats[w] = true;
       b.setAttribute('aria-pressed', String(!!wiz.cats[w])); $('wizOut').innerHTML = wizOutHtml(); return;
+    }
+    if ((b = t.closest('[data-wkday]'))) {
+      // Tap a day page to see just that day; tap it again (or "See the whole week") to go back.
+      var wk = b.dataset.wkday, hadW = document.activeElement === b;
+      state.wday = wk && state.wday !== wk ? wk : null;
+      renderView();
+      var nw = document.querySelector('.sday[data-wkday="' + (wk || state.wday) + '"]');
+      if (hadW && nw) nw.focus({ preventScroll: true });
+      var vt = $('view').getBoundingClientRect().top;
+      if (!wk || (state.wday && (vt < 0 || vt > window.innerHeight - 140))) {
+        var reduceW = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        (wk ? $('view') : $('weektop')).scrollIntoView({ behavior: reduceW ? 'auto' : 'smooth', block: 'start' });
+      }
+      return;
     }
   });
   document.addEventListener('input', function (ev) {
