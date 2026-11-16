@@ -203,9 +203,43 @@ def validate(events):
                 assert re.fullmatch(r"([01]\d|2[0-3]):[0-5]\d", e[k]), f"bad {k}: {where}"
         if e.get("url"):
             assert re.match(r"https?://", e["url"]), f"bad url: {where}"
+        if e.get("geo") is not None:
+            g = e["geo"]
+            assert (isinstance(g, list) and len(g) == 2 and all(isinstance(x, (int, float)) for x in g)
+                    and 33 < g[0] < 37 and -85 < g[1] < -75), f"bad geo (want [lat, lon] in NC): {where}"
 
 
 # ---------- calendar feeds ----------
+
+def ics_quote(s):
+    """A double-quoted iCalendar parameter value (quotes aren't allowed inside)."""
+    return '"' + str(s).replace('"', "'") + '"'
+
+
+def travel_lines(e):
+    """Map pin, travel time and leave-now alerts.
+
+    Apple Calendar reads X-APPLE-* and times the alerts from your travel time: 30 minutes before
+    you need to leave, then when it's time to leave. Other calendars ignore those parts and use
+    the plain offsets after the colon: 1 hour and 30 minutes before the start.
+    """
+    lines = []
+    loc = ", ".join(x for x in [e.get("venue"), e.get("address")] if x)
+    if e.get("geo") and e.get("address"):
+        lat, lon = e["geo"]
+        lines.append(f"X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS={ics_quote(e['address'])};X-APPLE-RADIUS=70;"
+                     f"X-TITLE={ics_quote(e.get('venue') or e['address'])}:geo:{lat},{lon}")
+    if loc and not e.get("noMap"):
+        lines.append("X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC")
+    if e.get("start"):
+        name = e.get("short") or e["title"]
+        lines += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{ics_esc('Leave in 30 minutes: ' + name)}",
+                  "TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H", "END:VALARM",
+                  "BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{ics_esc('Time to leave: ' + name)}",
+                  "TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M", "END:VALARM"]
+    return lines
+
+
 
 def ics_esc(s):
     return str(s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
@@ -250,6 +284,7 @@ def vevent(e, day, stamp):
               f"DESCRIPTION:{ics_esc(desc)}"]
     if e.get("url"):
         lines.append(f"URL:{e['url']}")
+    lines += travel_lines(e)
     lines.append("END:VEVENT")
     return lines
 

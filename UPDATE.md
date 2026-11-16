@@ -33,6 +33,7 @@ Anything that needs joining first (memberships like Toastmasters, applications, 
 - `except`: dates that are cancelled or skipped.
 - `hold: true` (+ `holdReason`, `holdSince`): hides a listing without deleting it.
 - `lastChecked`: the date you last verified it.
+- `geo`: the map pin `[latitude, longitude]` for the address, used for calendar travel-time alerts. If you change an `address`, delete its `geo` (a wrong pin is worse than none).
 - Never change an `id`. People's saved plans and shared links depend on it.
 
 ## Steps

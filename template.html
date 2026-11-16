@@ -848,8 +848,21 @@ a { color: var(--ink-fg); }
     } else {
       L.push('DTSTART;VALUE=DATE:' + ds, 'DTEND;VALUE=DATE:' + compact(addDays(k, 1)));
     }
-    L.push('SUMMARY:' + icsEsc(e.title), 'LOCATION:' + icsEsc([e.venue, e.address].filter(Boolean).join(', ')), 'DESCRIPTION:' + icsEsc(descText(e)));
+    var loc = [e.venue, e.address].filter(Boolean).join(', ');
+    L.push('SUMMARY:' + icsEsc(e.title), 'LOCATION:' + icsEsc(loc), 'DESCRIPTION:' + icsEsc(descText(e)));
     if (safeUrl(e.url)) L.push('URL:' + e.url);
+    // Map pin and leave-now alerts. Apple Calendar times the alerts from your travel time (30 minutes
+    // before you need to leave, then when it's time to leave); other calendars use 1 hour and 30 minutes before.
+    var qv = function (s) { return '"' + String(s).replace(/"/g, "'") + '"'; };
+    if (e.geo && e.address) {
+      L.push('X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=' + qv(e.address) + ';X-APPLE-RADIUS=70;X-TITLE=' + qv(e.venue || e.address) + ':geo:' + e.geo[0] + ',' + e.geo[1]);
+    }
+    if (loc && !e.noMap) L.push('X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC');
+    if (e.start) {
+      var nm = e.short || e.title;
+      L.push('BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + icsEsc('Leave in 30 minutes: ' + nm), 'TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H', 'END:VALARM',
+        'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + icsEsc('Time to leave: ' + nm), 'TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M', 'END:VALARM');
+    }
     L.push('END:VEVENT');
     return L;
   }

@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261111@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261111T090000
 DTEND;TZID=America/New_York:20261111T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -43,10 +43,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261112@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261112T090000
 DTEND;TZID=America/New_York:20261112T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -61,10 +75,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261113@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261113T090000
 DTEND;TZID=America/New_York:20261113T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -79,10 +107,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261114@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -97,10 +139,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261118T090000
 DTEND;TZID=America/New_York:20261118T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -115,10 +171,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261119@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261119T090000
 DTEND;TZID=America/New_York:20261119T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -133,10 +203,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261120@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -151,10 +235,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261121@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -169,10 +267,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -187,10 +299,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261128@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -205,10 +331,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -223,10 +363,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261203@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -241,10 +395,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261204@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261204T090000
 DTEND;TZID=America/New_York:20261204T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -259,10 +427,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261205@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -277,10 +459,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261209T090000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -295,10 +491,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261210@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261210T090000
 DTEND;TZID=America/New_York:20261210T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -313,10 +523,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261211@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261211T090000
 DTEND;TZID=America/New_York:20261211T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -331,10 +555,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261212@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -349,10 +587,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261216T090000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -367,10 +619,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261217@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261217T090000
 DTEND;TZID=America/New_York:20261217T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -385,10 +651,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261218@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261218T090000
 DTEND;TZID=America/New_York:20261218T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -403,10 +683,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261219@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -421,10 +715,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -439,10 +747,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261226@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261226T090000
 DTEND;TZID=America/New_York:20261226T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -457,10 +779,24 @@ DESCRIPTION:Group sort/repack shifts at the Food Bank's new Durham branch\;
  e is closed.\n\nhttps://foodbankcenc.org/durham\n\nListed on Same Time Nex
  t Week.
 URL:https://foodbankcenc.org/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
+ , Durham, NC 27704";X-APPLE-RADIUS=70;X-TITLE="Food Bank of Central & East
+ ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Food Bank sort
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-eno-river-workday-20261121@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Invasive plant workday · Rocky Branch
@@ -474,10 +810,24 @@ DESCRIPTION:Pull invasive privet with an Eno River Association crew. Workda
  nhttps://www.enoriver.org/events-on-the-eno/\n\nListed on Same Time Next W
  eek.
 URL:https://www.enoriver.org/events-on-the-eno/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4708 Seterra Bend, Durham,
+  NC 27712";X-APPLE-RADIUS=70;X-TITLE="Rocky Branch Conservation Area":geo:
+ 36.080675,-78.883826
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Eno River workday
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Eno River workday
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-crew-20261205@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T140000
 SUMMARY:Trail crew · Eno River (Mountains-to-Sea Trail)
@@ -491,10 +841,24 @@ DESCRIPTION:Repair trail and clear invasives with the Friends of the Mounta
  re you go.\n\nhttps://www.enoriver.org/events-on-the-eno/\n\nListed on Sam
  e Time Next Week.
 URL:https://www.enoriver.org/events-on-the-eno/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 Omega Rd, Durham, NC";
+ X-APPLE-RADIUS=70;X-TITLE="Eno section of the Mountains-to-Sea Trail":geo:
+ 36.075543,-78.902535
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Trail crew
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Trail crew
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-20261122@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T110000
 SUMMARY:MLK Jr Parkway cleanup · Board of Elections lot
@@ -508,10 +872,24 @@ DESCRIPTION:A two-hour litter cleanup along MLK Jr Parkway with Keep Durham
  \n\nhttps://keepdurhambeautiful.squarespace.com/events\n\nListed on Same T
  ime Next Week.
 URL:https://keepdurhambeautiful.squarespace.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3825 S Roxboro St, Durham,
+  NC 27713";X-APPLE-RADIUS=70;X-TITLE="Durham Board of Elections lot":geo:3
+ 5.949704,-78.922717
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Litter cleanup
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Litter cleanup
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-2-20261213@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T110000
 SUMMARY:MLK Jr Parkway cleanup · Lowe's parking lot
@@ -523,10 +901,24 @@ DESCRIPTION:A two-hour litter cleanup along MLK Jr Parkway with Keep Durham
  y through Dec 13. January and February aren't posted yet.\n\nhttps://keepd
  urhambeautiful.squarespace.com/events\n\nListed on Same Time Next Week.
 URL:https://keepdurhambeautiful.squarespace.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4402 Fayetteville St, Durh
+ am, NC";X-APPLE-RADIUS=70;X-TITLE="Lowe's parking lot":geo:35.941682,-78.9
+ 06178
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Litter cleanup
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Litter cleanup
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-quiet-volunteer-night-20261125@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Low distraction volunteer night · The Scrap Exchange
@@ -537,10 +929,24 @@ DESCRIPTION:An evening volunteer shift sorting donated craft materials\, se
  e special shift. Sign-up is required.\n\nhttps://www.scrapexchange.org/vol
  unteer\n\nListed on Same Time Next Week.
 URL:https://www.scrapexchange.org/volunteer
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
+ m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
+ -78.927537
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Quiet volunteer night
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Quiet volunteer night
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-co-op-volunteering-20261114@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261114T090000
 DTEND;TZID=America/New_York:20261114T120000
 SUMMARY:Beginner volunteer session · Durham Bike Co-op
@@ -555,10 +961,24 @@ DESCRIPTION:A beginner-level volunteer shift at the community bike shop. Wo
  yet. No cost is shown.\n\nhttps://durhambikecoop.corsizio.com/\n\nListed o
  n Same Time Next Week.
 URL:https://durhambikecoop.corsizio.com/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1612 Acadia St, Durham, NC
+  27701";X-APPLE-RADIUS=70;X-TITLE="Durham Bike Co-op":geo:36.014692,-78.89
+ 4321
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Bike Co-op volunteering
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Bike Co-op volunteering
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bike-repair-clinic-20261121@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Pop-up bike repair clinic · Durham Farmers' Market
@@ -573,10 +993,21 @@ DESCRIPTION:A volunteer shift helping run a pop-up bike repair clinic at th
  t. It also doesn't say whether beginners can sign up.\n\nhttps://durhambik
  ecoop.corsizio.com/\n\nListed on Same Time Next Week.
 URL:https://durhambikecoop.corsizio.com/
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Bike repair clinic
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Bike repair clinic
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 SUMMARY:Tree planting training · Trees for the Triangle
@@ -589,10 +1020,20 @@ DESCRIPTION:A hands-on afternoon learning to plant trees with a Triangle tr
  Before you go: Confirm the meeting location after you sign up.\n\nhttps://
  volunteer.activategood.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Tree planting training
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Tree planting training
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-diaper-wrapping-20261116@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261116T093000
 DTEND;TZID=America/New_York:20261116T113000
 SUMMARY:Diaper wrapping · Diaper Bank of NC
@@ -606,10 +1047,20 @@ DESCRIPTION:Wrap and package diapers for families in need at the diaper ban
  me listing\; Mon\, Nov 16 is the next one.\n\nhttps://volunteer.activatego
  od.org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: Diaper wrapping
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: Diaper wrapping
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d-east-durham-food-help-20261119@same-time-next-week
-DTSTAMP:20261116T040317Z
+DTSTAMP:20261116T040652Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Food distribution · Communities in Partnership
@@ -624,5 +1075,15 @@ DESCRIPTION:Help hand out food to neighbors at a community food distributio
  and check-in details after you sign up.\n\nhttps://volunteer.activategood.
  org/\n\nListed on Same Time Next Week.
 URL:https://volunteer.activategood.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Leave in 30 minutes: East Durham food help
+TRIGGER;X-APPLE-RELATED-TRAVEL=-PT30M:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Time to leave: East Durham food help
+TRIGGER;X-APPLE-RELATED-TRAVEL=PT0S:-PT30M
+END:VALARM
 END:VEVENT
 END:VCALENDAR

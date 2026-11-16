@@ -30,7 +30,11 @@
    "firstTime": "Just show up, no sign-up needed. Bring an instrument, or come to listen. Players and listeners are both welcome.",
    "url": "https://www.moondogmeadery.com/events",
    "verifyNote": "Check around holidays, especially Jan 2.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.015476,
+    -78.919191
+   ]
   },
   {
    "id": "d-open-mic",
@@ -58,7 +62,11 @@
    "firstTime": "Come at 6:30 if you want to perform: that's when you register. If you'd rather just listen, arrive any time before the 7pm start and grab a seat.",
    "url": "https://www.moondogmeadery.com/events",
    "verifyNote": "Confirm holiday Sundays (Dec 27).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.015476,
+    -78.919191
+   ]
   },
   {
    "id": "d-community-band",
@@ -80,7 +88,11 @@
    "howToJoin": "Email info@durhamband.org with your name and instrument, then bring instrument + music stand to a Thursday rehearsal",
    "url": "https://www.durhamband.org/",
    "verifyNote": "No rehearsal is listed for Nov 26 (Thanksgiving); check before you go. You'll need a band instrument.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.95695,
+    -78.952693
+   ]
   },
   {
    "id": "d-contra-dance",
@@ -108,7 +120,11 @@
    "firstTime": "Come for the 7:30 lesson. You don't need a partner, and you'll dance with everyone in the room. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "January and February dates aren't posted yet. They'll show up here once Triangle Country Dancers posts them.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.002334,
+    -78.908478
+   ]
   },
   {
    "id": "d-contra-carrboro",
@@ -137,7 +153,11 @@
    "firstTime": "Come for the 7:30 beginner lesson. You don't need a partner or experience, and you pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "January and February dates aren't posted yet. The hall is about 12 miles from downtown Durham.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.91036,
+    -79.0722
+   ]
   },
   {
    "id": "d-contra-carrboro-2",
@@ -163,7 +183,11 @@
    "firstTime": "Come for the 7:00 lesson. You don't need a partner, and you pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://www.tcdancers.org/new-events",
    "verifyNote": "Only Dec 5 is posted so far.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.91036,
+    -79.0722
+   ]
   },
   {
    "id": "d-swing-dance",
@@ -189,7 +213,11 @@
    "firstTime": "Come for the 7pm beginner lesson, which is included. You don't need a partner. Buy a ticket ahead on the TSDS site or pay at the door. Comfortable shoes with smooth soles help.",
    "url": "https://triangleswingdancesociety.squarespace.com/events",
    "verifyNote": "Only Nov 21 is posted so far. Dances are roughly monthly, often on the 3rd Saturday, so check for December through February dates.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.91036,
+    -79.0722
+   ]
   },
   {
    "id": "d-modern-dance-class",
@@ -218,7 +246,11 @@
    "url": "https://americandancefestival.org/adult-classes/",
    "verifyNote": "Check for the Winter/Spring 2027 term (typically starts early January).",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    36.00879,
+    -78.919738
+   ]
   },
   {
    "id": "d-line-dancing-class",
@@ -247,7 +279,11 @@
    "url": "https://durhamcountylibrary.libcal.com/event/16884725",
    "verifyNote": "Only November and December dates are posted. About 4 miles from downtown.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.959388,
+    -78.954678
+   ]
   },
   {
    "id": "d-third-friday-art-walk",
@@ -311,7 +347,11 @@
    "firstTime": "Get your $10 ticket through the Draw Y'all Meetup first. Doors open at 6:30, and beginners are welcome. Bring your own supplies.",
    "url": "https://www.meetup.com/drawyall/events/316966625/",
    "verifyNote": "Meets the first Monday of the month. Dec 7, Jan 4 and Feb 1 aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.99099,
+    -78.896611
+   ]
   },
   {
    "id": "d-figure-drawing-dac",
@@ -342,7 +382,11 @@
    "firstTime": "Pre-register online first, since there are no drop-ins. Beginners and returning artists can join a steady group of regulars. Bring drawing supplies.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "DAC also offers free Sunday Studio Sessions (Jan 10, Jan 31, Feb 28, 1-4pm, registration required) and a Friday Long-Pose Figure Group ($40).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-pottery-class",
@@ -372,7 +416,11 @@
    "multi": true,
    "solo": true,
    "firstTime": "If you've never used a wheel, the class teaches you from the start. Wear clothes that can get muddy.",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-intro-to-pottery-wheel",
@@ -399,7 +447,11 @@
    "url": "https://www.claymakers.org/classes",
    "verifyNote": "Dec 5 had 4 spots and Dec 6 had 2 at last check; Nov 20 is sold out. Winter 2027 session dates aren't announced yet.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.980271,
+    -78.877919
+   ]
   },
   {
    "id": "d-craft-night",
@@ -432,7 +484,11 @@
    "firstTime": "Just show up, no registration needed. Bring your own project, or join the month's featured craft. The suggested donation is $5-10.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Dec 10 and Jan 14 are posted on the Scrap Exchange workshops page.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-craft-and-draft",
@@ -461,7 +517,11 @@
    "firstTime": "Just show up and bring a work in progress, like knitting or cross-stitch. It's a relaxed social night, so you can chat as much or as little as you like.",
    "url": "https://www.discoverdurham.com/events/craft-draft/",
    "verifyNote": "Meets every Tuesday (next Nov 17). Check holiday weeks.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.999817,
+    -78.904662
+   ]
   },
   {
    "id": "d-bull-city-run-club",
@@ -490,7 +550,11 @@
    "firstTime": "Arrive between 5:30 and 6:30 and check in at the store. It's for all paces, so join whichever pace feels right. Bring a water bottle, since it's cup-free.",
    "url": "https://bullcityrunning.com/events/runclub/",
    "verifyNote": "The club's attendance-tracking season runs March to November. Ask at check-in whether the winter runs keep the same time.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.002168,
+    -78.903493
+   ]
   },
   {
    "id": "d-saturday-group-run",
@@ -517,7 +581,11 @@
    "firstTime": "Just show up at 8am at the downtown shop. Bring water, and wear shoes you're comfortable running in.",
    "url": "https://bullcityrunning.com/events/runclub/",
    "verifyNote": "Bull City Running also hosts Trail Run Sundays at 8am on rotating local trails.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.002168,
+    -78.903493
+   ]
   },
   {
    "id": "d-crunk-run-club",
@@ -545,7 +613,11 @@
    "firstTime": "Just show up. Pick the 2-, 3- or 5-mile route, then head back to the brewery to hang out. Bring water.",
    "url": "https://www.discoverdurham.com/events/crunk-run-club/",
    "verifyNote": "Runs on Mondays, though some info says Tuesdays. Check the brewery before you go.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.999817,
+    -78.904662
+   ]
   },
   {
    "id": "d-pride-climbing-night",
@@ -575,7 +647,11 @@
    "firstTime": "Book a spot on the gym's schedule first. All climbing levels are welcome. Comfortable clothes you can move in are a good idea.",
    "url": "https://climber.hellocapitan.com/thebouldergarden/schedule/event-type-details/2722/",
    "verifyNote": "Dec 10 is posted. Jan 14 and Feb 11 are expected but not posted yet. The gym also runs an Intro to Bouldering Clinic (e.g., Mon Nov 16, 7:30-9pm, $20 non-members).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.999372,
+    -78.902262
+   ]
   },
   {
    "id": "d-trivia-fullsteam",
@@ -605,7 +681,11 @@
     ]
    },
    "evidence": "fullsteam.ag/event/trivia-with-arturo/2026-11-19: Fullsteam's own calendar lists Thu Nov 19, 2026, 7:30–9:30pm, says it 'occurs Weekly on Thursday, starting from Oct 8, 2026', and shows dated sessions Nov 5, 12, 19 and 26 and Dec 3, 2026 (checked Nov 13, 2026)",
-   "solo": false
+   "solo": false,
+   "geo": [
+    35.994402,
+    -78.903178
+   ]
   },
   {
    "id": "d-trivia-bull-mccabe-s",
@@ -633,7 +713,11 @@
    "firstTime": "Just show up and join a team or start one. There are three rounds, so it's an easy way to settle in. Arrive a little early to find a seat.",
    "url": "https://quizfromhome.com/",
    "verifyNote": "Meets Wednesdays. The 8pm start time hasn't been recently confirmed; check quizfromhome.com.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.997132,
+    -78.904534
+   ]
   },
   {
    "id": "d-board-game-night",
@@ -667,7 +751,11 @@
    "firstTime": "Just show up. Hosts seat newcomers into games, so you don't need to bring a group or know the rules.",
    "url": "https://www.meetup.com/durham-geeks",
    "verifyNote": "Skipped Thanksgiving (Nov 26); check other holidays. Same venue: Blood on the Clocktower social-deduction game 2nd Sundays 1-3pm.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.015476,
+    -78.919191
+   ]
   },
   {
    "id": "d-board-games-atomic",
@@ -696,7 +784,11 @@
    "firstTime": "Just show up. You can bring a game or borrow one from the demo shelf, so you don't need to bring anything.",
    "url": "https://www.atomicempire.com/Store/Event/2664",
    "verifyNote": "Space can be limited by other events; ~4 mi SW of downtown.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.966443,
+    -78.961103
+   ]
   },
   {
    "id": "d-chess-club",
@@ -724,7 +816,11 @@
    "firstTime": "Just show up. Boards are provided, and beginners get instruction. All ages and skill levels are welcome.",
    "url": "https://durhamcountylibrary.libcal.com/event/17022971",
    "verifyNote": "Jan-Feb dates aren't posted yet. It tends to meet on the 1st and 3rd Saturdays.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.994988,
+    -78.89725
+   ]
   },
   {
    "id": "d-food-bank-sort",
@@ -764,7 +860,11 @@
    "firstTime": "Register online first, and wait for your request to be approved. You'll work a group shift alongside other volunteers. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/durham",
    "verifyNote": "~4 mi north of downtown; old Angier Ave site is closed.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.055247,
+    -78.857999
+   ]
   },
   {
    "id": "d-scrap-exchange-shift",
@@ -788,7 +888,11 @@
    "url": "https://www.scrapexchange.org/volunteer",
    "verifyNote": "Check the sign-up portal for current shift slots.",
    "lastChecked": "2026-11-12",
-   "vtype": "other"
+   "vtype": "other",
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-habitat-orientation",
@@ -810,7 +914,11 @@
    "url": "https://durhamhabitat.org/volunteer/",
    "verifyNote": "Orientation time, location and build days are listed on VolunteerHub.",
    "lastChecked": "2026-11-12",
-   "vtype": "building"
+   "vtype": "building",
+   "geo": [
+    35.989527,
+    -78.924489
+   ]
   },
   {
    "id": "d-urban-ministries-shift",
@@ -832,7 +940,11 @@
    "url": "https://umdurham.org/volunteer/",
    "verifyNote": "Exact shift times are set after you apply and finish training.",
    "lastChecked": "2026-11-12",
-   "vtype": "food"
+   "vtype": "food",
+   "geo": [
+    35.993792,
+    -78.895816
+   ]
   },
   {
    "id": "d-book-harvest",
@@ -854,7 +966,11 @@
    "url": "https://book-harvest.vomo.org/org/book-harvest",
    "verifyNote": "Times and other session dates aren't posted here; check the sign-up page. The Dream Big drive is in RTP.",
    "lastChecked": "2026-11-12",
-   "vtype": "kids"
+   "vtype": "kids",
+   "geo": [
+    35.975059,
+    -78.923133
+   ]
   },
   {
    "id": "d-toastmasters",
@@ -876,7 +992,11 @@
    "howToJoin": "Visit as a guest (turn between Hot Dog House and Wendy's); contact via durhamtoastmasters.org",
    "url": "http://www.durhamtoastmasters.org/",
    "verifyNote": "Upcoming meetings: Nov 17, Dec 1, Dec 15; check Jan 5. Another option is Bull City Toastmasters: 2nd and 4th Thursdays at 6:30pm, 245 NC-54 Ste 101 (hybrid).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.021051,
+    -78.950463
+   ]
   },
   {
    "id": "d-improv-jam",
@@ -904,7 +1024,11 @@
    "dates": [
     "2026-11-19"
    ],
-   "evidence": "thisismettlesome.com: Mettlesome's own live calendar lists 'Free Improv Jam' on Thu Nov 19, 2026, 8:30–9:30pm, 'Free to attend and participate'. Earlier jams are posted on the same site for Sep 3 and Sep 17, 2026 (thisismettlesome.com/live/2026/9/17/the-improv-jam) (checked Nov 13, 2026)"
+   "evidence": "thisismettlesome.com: Mettlesome's own live calendar lists 'Free Improv Jam' on Thu Nov 19, 2026, 8:30–9:30pm, 'Free to attend and participate'. Earlier jams are posted on the same site for Sep 3 and Sep 17, 2026 (thisismettlesome.com/live/2026/9/17/the-improv-jam) (checked Nov 13, 2026)",
+   "geo": [
+    35.991895,
+    -78.889668
+   ]
   },
   {
    "id": "d-improv-games",
@@ -935,7 +1059,11 @@
    "firstTime": "Just show up, no sign-up needed. You can play or just watch, so start with whichever feels easier.",
    "url": "https://www.meetup.com/durham-community-improv-jam/",
    "verifyNote": "4th Saturdays fall on Nov 28 and Dec 26 (holiday weekends); check before you go.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.015476,
+    -78.919191
+   ]
   },
   {
    "id": "d-writing-group",
@@ -968,7 +1096,11 @@
    "firstTime": "Register on the library calendar first, since there are only 15 seats. Bring something to write with, or a laptop. You'll write together in focused sessions.",
    "url": "https://durhamcountylibrary.libcal.com/event/17789775",
    "verifyNote": "The event lists a room but also says 'online event'. Check whether it's in person or on Zoom.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.994988,
+    -78.89725
+   ]
   },
   {
    "id": "d-bird-walk",
@@ -995,7 +1127,11 @@
    "firstTime": "Just show up, no reservation needed. Check the Bird Alliance site a day or two ahead for the meeting spot. All skill levels are welcome. Bring water and comfortable walking shoes.",
    "url": "https://newhopebirdalliance.org/",
    "verifyNote": "December to February walks aren't posted yet (it's Christmas Bird Count season).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.897414,
+    -79.021992
+   ]
   },
   {
    "id": "d-spanish-conversation",
@@ -1024,7 +1160,11 @@
    "firstTime": "Drop in, and RSVP on Meetup if you like. Everyone from advanced beginner to native speakers comes, so go at your own level. Buy a drink or food while you're there.",
    "url": "https://www.meetup.com/durham-spanish-conversation-cafe/",
    "verifyNote": "Dates are posted only through Nov 26; check that it continues Dec-Feb. About 7 miles south of downtown.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.920427,
+    -78.929084
+   ]
   },
   {
    "id": "d-bike-co-op-repair-nights",
@@ -1046,7 +1186,11 @@
    "howToJoin": "Walk in; to volunteer, book a Saturday Beginner Session (9am-noon) at durhambikecoop.corsizio.com",
    "url": "https://durhambikecoop.corsizio.com/",
    "verifyNote": "Dec 3 and Dec 10 were full at last check. Feb dates aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.014692,
+    -78.894321
+   ]
   },
   {
    "id": "d-eno-river-workday",
@@ -1073,7 +1217,11 @@
    "firstTime": "Register on the Eno River Association's Eventbrite first. It's a morning of pulling privet with a crew. Closed-toe shoes and gloves are a good idea.",
    "url": "https://www.enoriver.org/events-on-the-eno/",
    "verifyNote": "January and February workdays aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.080675,
+    -78.883826
+   ]
   },
   {
    "id": "d-trail-crew",
@@ -1100,7 +1248,11 @@
    "firstTime": "Contact the crew leader listed on the events page to sign up first. It's a regular group, so you'll work alongside people who know the routine. Closed-toe shoes are a good idea. Bring water.",
    "url": "https://www.enoriver.org/events-on-the-eno/",
    "verifyNote": "Confirm the meeting spot with the crew leader before you go.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    36.075543,
+    -78.902535
+   ]
   },
   {
    "id": "d-litter-cleanup",
@@ -1127,7 +1279,11 @@
    "firstTime": "Sign up through the event page form first, then meet in the Board of Elections parking lot. It's two hours with other neighbors. Closed-toe shoes are a good idea.",
    "url": "https://keepdurhambeautiful.squarespace.com/events",
    "verifyNote": "Dates are posted only through Dec 13. January and February aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.949704,
+    -78.922717
+   ]
   },
   {
    "id": "d-litter-cleanup-2",
@@ -1154,7 +1310,11 @@
    "firstTime": "Sign up through the event page form first, then meet in the Lowe's parking lot. It's two hours with other neighbors. Closed-toe shoes are a good idea.",
    "url": "https://keepdurhambeautiful.squarespace.com/events",
    "verifyNote": "Dates are posted only through Dec 13. January and February aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.941682,
+    -78.906178
+   ]
   },
   {
    "id": "d-fiber-arts-meetup",
@@ -1183,7 +1343,11 @@
    "firstTime": "Just show up with a project, like knitting, crochet or embroidery. You'll work alongside other makers, so chatting is optional.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Check the December date before going.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-sewing-circle",
@@ -1213,7 +1377,11 @@
    "firstTime": "Just show up with your own sewing project. Everyone works on their own thing, so there's no pressure to chat.",
    "url": "https://www.scrapexchange.org/workshops",
    "verifyNote": "Check holiday weeks.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-intro-to-bouldering",
@@ -1238,7 +1406,11 @@
    "firstTime": "Book a spot on the gym's class schedule first. It's a beginner clinic, so you don't need any experience. Comfortable clothes you can move in are a good idea.",
    "verifyNote": "Only the Nov 16 clinic is posted so far. Check the gym's schedule for later dates.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.999372,
+    -78.902262
+   ]
   },
   {
    "id": "d-quiet-volunteer-night",
@@ -1264,7 +1436,11 @@
    "firstTime": "Sign up online first, since there are no walk-ins. The room is set up to be calmer and lower-distraction. Closed-toe shoes are a good idea.",
    "url": "https://www.scrapexchange.org/volunteer",
    "verifyNote": "One-time special shift. Sign-up is required.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-bird-club-meeting",
@@ -1293,7 +1469,11 @@
    "firstTime": "Just show up, no sign-up needed. The evening is built around a speaker, so you can listen first. It's also a chance to meet the people who lead the bird walks.",
    "url": "https://newhopebirdalliance.org/",
    "verifyNote": "Confirm the meeting is open to non-members and held in person.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.901169,
+    -79.032019
+   ]
   },
   {
    "id": "d-bird-walk-2",
@@ -1352,7 +1532,11 @@
    "firstTime": "Just show up with an instrument, or come to listen. This is an up-to-speed jam, and tunes are called by key, so listening first is a fine way to start.",
    "url": "https://pinecone.org/event/pinecone-old-time-jam-at-riparian-6/",
    "verifyNote": "Next dates are Dec 10, Jan 14 and Feb 11, though only Dec 10 is on PineCone's calendar so far. Parking at the plaza is very limited.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.76172,
+    -78.649355
+   ]
   },
   {
    "id": "r-beginner-bluegrass-jam",
@@ -1383,7 +1567,11 @@
    "firstTime": "Just show up with your instrument. The first hour is one big group that stops to talk through songs. Every month has first-timers there too.",
    "url": "https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/",
    "verifyNote": "The 3rd-Monday beginner jam is still at Harry's; the separate 4th-Monday open jam moved to Raleigh Brewing. Nov 16 and Dec 21 are posted. Jan 18 (MLK Day) and Feb 15 aren't posted yet.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.791946,
+    -78.703358
+   ]
   },
   {
    "id": "r-open-bluegrass-jam",
@@ -1412,7 +1600,11 @@
    "firstTime": "Just show up with your instrument, or come to listen. It's an open circle for musicians of all levels. Buy a drink while you're there.",
    "url": "https://pinecone.org/event/pinecone-open-bluegrass-jam-9/2026-11-23/",
    "verifyNote": "Posted dates: Nov 23, Dec 28, Jan 25, Feb 22.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.793005,
+    -78.686029
+   ]
   },
   {
    "id": "r-beer-and-banjos",
@@ -1440,7 +1632,11 @@
    "firstTime": "Just show up and find a spot. It's a concert, not a jam, so you can simply listen. Sit on the patio in good weather, or inside by the bar when it's cold.",
    "url": "https://pinecone.org/event/beer-and-banjos-emily-burdette/",
    "verifyNote": "Nov 17 and Nov 24 are listed. Check the holiday weeks (Dec 22 and 29).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.806482,
+    -78.62458
+   ]
   },
   {
    "id": "r-open-mic-slim-s",
@@ -1468,7 +1664,11 @@
    "firstTime": "Sign up at the bar when you arrive if you want to perform. Listening is fine too. It runs until midnight, so you can come and go.",
    "url": "https://slimsdivebar.com/",
    "verifyNote": "Hours are unclear: 9pm to midnight or 8 to 11pm. Check with the venue. No sign-up time is posted.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.777431,
+    -78.638183
+   ]
   },
   {
    "id": "r-open-mic-rebus-works",
@@ -1520,7 +1720,11 @@
    "url": "https://wernickmethod.org/event/ld-sw-2026-12-raleigh",
    "verifyNote": "This is the only Raleigh Wernick class posted for now.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.824621,
+    -78.698459
+   ]
   },
   {
    "id": "r-line-dancing-transfer-co",
@@ -1580,7 +1784,11 @@
    "firstTime": "Come for the free 6pm East Coast Swing lesson. You can then stay for the later lessons and open dancing. Comfortable shoes with smooth soles help.",
    "url": "https://www.carolinadanceclub.com/",
    "verifyNote": "North Raleigh, about 15 minutes from downtown. The holiday Sundays (Dec 20 and 27) and January-February aren't listed. Check the site.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.855949,
+    -78.671665
+   ]
   },
   {
    "id": "r-first-friday-art-walk",
@@ -1610,7 +1818,11 @@
    "firstTime": "Just show up any time between 6 and 9 and wander at your own pace. Pick a few galleries rather than trying to see them all. Comfortable walking shoes are a good idea.",
    "url": "https://triangleonthecheap.com/first-friday-raleigh",
    "verifyNote": "The January 2027 First Friday falls on New Year's Day. Confirm whether it runs.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.775557,
+    -78.63667
+   ]
   },
   {
    "id": "r-byo-craft-night",
@@ -1639,7 +1851,11 @@
    "firstTime": "Just show up with any project, like stitching, sketching or scrapbooking. You can work quietly or chat with other makers.",
    "url": "https://www.visitraleigh.com/event/bring-your-own-craft-night-at-raleigh-brewing/103060/",
    "verifyNote": "Dates are posted through Dec 30, 2026, and it may end around 8:30. Check that it continues in 2027.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.793005,
+    -78.686029
+   ]
   },
   {
    "id": "r-crank-arm-run-club",
@@ -1669,7 +1885,11 @@
    "firstTime": "Arrive about 15 minutes early. Pick a 2-, 3- or 5-mile route at your own pace, then hang out at the brewery afterward. Bring water.",
    "url": "https://downtownraleigh.org/do/crank-arm-run-club",
    "verifyNote": "Dates are posted from Nov 17 onward.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.775704,
+    -78.644275
+   ]
   },
   {
    "id": "r-stonewall-run-club",
@@ -1699,7 +1919,11 @@
    "firstTime": "Arrive 5-10 minutes early to sign a waiver on your phone, and ask for the directors, Aaron or Tyler. Routes are 1-5 miles, so pick what suits you. Bring water.",
    "url": "https://www.visitraleigh.com/event/stonewall-run-club-meet-up/104057/",
    "verifyNote": "Dates are posted through Dec 31, 2026. The club meets at Wolfe & Porter; some older coverage lists other bars.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.781125,
+    -78.655823
+   ]
   },
   {
    "id": "r-run-walk-club",
@@ -1727,7 +1951,11 @@
    "firstTime": "Just show up. You can run or walk the 3-4 mile greenway route, then join the group for a pint. Bring water.",
    "url": "https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/",
    "verifyNote": "The next one is listed on Meetup for Nov 18.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.793005,
+    -78.686029
+   ]
   },
   {
    "id": "r-taco-tuesday-ride",
@@ -1755,7 +1983,11 @@
    "firstTime": "Arrive by 6pm for check-in and rollout. Group C is beginner-friendly at about 12-13 mph. Bring a bike, a helmet and water.",
    "url": "https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/",
    "verifyNote": "The next ride is listed for Nov 17. Confirm it continues in winter darkness and whether lights are required.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.793005,
+    -78.686029
+   ]
   },
   {
    "id": "r-pony-run",
@@ -1808,7 +2040,11 @@
    "firstTime": "Just show up at the Fleet Feet Ridgewood store. It's a community run club, so you can meet people along the way. Bring water.",
    "url": "https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs",
    "verifyNote": "Confirm the route, pace and who it's open to with the group.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.801245,
+    -78.684716
+   ]
   },
   {
    "id": "r-breakfast-club-run",
@@ -1836,7 +2072,11 @@
    "firstTime": "RSVP on Meetup and show up at Jubala Coffee. Pace groups range from sub-7 to 10+ min per mile, so you can find your pace. Coffee or breakfast with the group follows.",
    "url": "https://meetup.com/the-breakfast-club-runners",
    "verifyNote": "Early start; check Meetup for holiday weekends.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.780473,
+    -78.643425
+   ]
   },
   {
    "id": "r-climbing-meetup",
@@ -1890,7 +2130,11 @@
    "firstTime": "Just show up and join a team or start one. It's free, so you can try it once and see. Arrive a little early to find a table.",
    "url": "https://www.visitraleigh.com/event/tuesday-night-trivia-at-wolfe-%26-porter/103071/",
    "verifyNote": "Dates are posted through Dec 29, 2026. Check that it continues in 2027.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.781125,
+    -78.655823
+   ]
   },
   {
    "id": "r-trivia-beer-garden",
@@ -1918,7 +2162,11 @@
    "firstTime": "Just show up and join a team or start one. It's free, with a mix of pop culture, history and sports rounds. Arrive a little early to find a table.",
    "url": "https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-garden/106093/",
    "verifyNote": "Dates are posted through Dec 30, 2026. Check that it continues in 2027.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.78751,
+    -78.647131
+   ]
   },
   {
    "id": "r-trivia-raleigh-brewing",
@@ -1945,7 +2193,11 @@
    "firstTime": "Just show up and join a team or start one. It's free, and the same brewery hosts several other regular groups. Arrive a little early to find a table.",
    "url": "https://www.raleighbrewing.com/neil-street",
    "verifyNote": "Check Thanksgiving (Nov 26) and Christmas Eve (Dec 24).",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.793005,
+    -78.686029
+   ]
   },
   {
    "id": "r-board-game-night",
@@ -1974,7 +2226,11 @@
    "firstTime": "Just show up. Each week has a new set of games, so you can jump in alongside everyone else. Questions go to Triangletapsandtables@gmail.com.",
    "url": "https://www.visitraleigh.com/event/triangle-taps-and-tables/107076/",
    "verifyNote": "Dates are posted through Dec 29, 2026. Check that it continues in 2027.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.761396,
+    -78.658003
+   ]
   },
   {
    "id": "r-food-bank-sort",
@@ -2005,7 +2261,11 @@
    "firstTime": "Register online first using the volunteer calendar on the Raleigh location page. You'll work alongside other volunteers boxing food. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/locations/raleigh/",
    "verifyNote": "Check the holiday weeks (Nov 25, Dec 23, Dec 30). Ages 12+, under 16 with an adult.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.803883,
+    -78.618074
+   ]
   },
   {
    "id": "r-food-bank-sort-2",
@@ -2035,7 +2295,11 @@
    "firstTime": "Register online first using the volunteer calendar on the Raleigh location page. You'll work beside the same crews, which makes it easy to talk. Closed-toe shoes are a good idea.",
    "url": "https://foodbankcenc.org/locations/raleigh/",
    "verifyNote": "Spots fill up; book ahead, especially in the holiday season.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.803883,
+    -78.618074
+   ]
   },
   {
    "id": "r-food-shuttle-farm",
@@ -2059,7 +2323,11 @@
    "url": "https://foodshuttle.org/volunteer/",
    "verifyNote": "Wednesday and Friday mornings are the most reliable days. Tuesday or Monday shifts may also be offered; check the portal.",
    "lastChecked": "2026-11-12",
-   "vtype": "food"
+   "vtype": "food",
+   "geo": [
+    35.748393,
+    -78.71567
+   ]
   },
   {
    "id": "r-holiday-meal-packing",
@@ -2091,7 +2359,11 @@
    "firstTime": "Sign up first on SignUpGenius and pick a shift time there. No training is required, and you'll work in a team. Closed-toe shoes are a good idea.",
    "url": "https://www.raleighrescue.org/volunteer",
    "verifyNote": "Regular onsite volunteering at the Mission (314 E Hargett St) requires orientation and is for ages 16+.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.797105,
+    -78.626713
+   ]
   },
   {
    "id": "r-habitat-restore",
@@ -2113,7 +2385,11 @@
    "url": "https://www.trianglerestores.org/volunteer",
    "verifyNote": "Exact shift slots are only visible in VolunteerHub. Ages 16+. Habitat Wake is now named Habitat for Humanity of Greater Raleigh.",
    "lastChecked": "2026-11-12",
-   "vtype": "building"
+   "vtype": "building",
+   "geo": [
+    35.811096,
+    -78.599681
+   ]
   },
   {
    "id": "r-set-building-rlt",
@@ -2138,7 +2414,11 @@
    "url": "https://raleighlittletheatre.org/get-involved/volunteers/",
    "verifyNote": "Confirm shop hours around holidays and between productions.",
    "lastChecked": "2026-11-12",
-   "vtype": "building"
+   "vtype": "building",
+   "geo": [
+    35.790977,
+    -78.668289
+   ]
   },
   {
    "id": "r-oak-city-cares-meals",
@@ -2160,7 +2440,11 @@
    "url": "https://oakcitycares.org/volunteer/",
    "verifyNote": "Exact shift times aren't posted publicly. Ages 18+, or 9-17 as host volunteers with an adult.",
    "lastChecked": "2026-11-12",
-   "vtype": "food"
+   "vtype": "food",
+   "geo": [
+    35.759034,
+    -78.640102
+   ]
   },
   {
    "id": "r-a-place-at-the-table",
@@ -2182,7 +2466,11 @@
    "url": "https://tableraleigh.org/volunteer/",
    "verifyNote": "Shift slot times are only visible in the portal.",
    "lastChecked": "2026-11-12",
-   "vtype": "food"
+   "vtype": "food",
+   "geo": [
+    35.778474,
+    -78.643532
+   ]
   },
   {
    "id": "r-toastmasters",
@@ -2203,7 +2491,11 @@
    "howToJoin": "Just show up as a guest",
    "url": "http://843.toastmastersclubs.org/",
    "verifyNote": "No meeting is listed for Nov 30. Check holiday weeks.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.815511,
+    -78.682412
+   ]
   },
   {
    "id": "r-science-cafe",
@@ -2232,7 +2524,11 @@
    "firstTime": "Just show up, no sign-up needed. It's a casual talk with conversation, so you can listen first. The cafe serves food from 5 to 8pm.",
    "url": "https://naturalsciences.org/calendar/events/category/audience/adults/",
    "verifyNote": "Topics for December through February aren't posted. Confirm the Dec 17 session runs.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.782493,
+    -78.639136
+   ]
   },
   {
    "id": "r-silent-book-club",
@@ -2290,7 +2586,11 @@
    "multi": true,
    "solo": true,
    "firstTime": "No experience needed. The same small group meets every week, which makes it easy to get comfortable.",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.794136,
+    -78.687845
+   ]
   },
   {
    "id": "r-skip-the-small-talk",
@@ -2316,7 +2616,11 @@
    "firstTime": "Buy a ticket in advance on the organizer's site, since a Meetup RSVP isn't enough. Check in around 6:45pm. It's designed for coming alone, with prompts to start conversations.",
    "url": "https://www.meetup.com/skip-the-small-talk-raleigh/",
    "verifyNote": "Only Dec 2 is posted for Raleigh; the group's other nights are in Durham. Watch for January and February dates.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.775704,
+    -78.644275
+   ]
   },
   {
    "id": "r-cross-stitch-workshop",
@@ -2342,7 +2646,11 @@
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-screen-printing-workshop",
@@ -2369,7 +2677,11 @@
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "verifyNote": "Winter 2027 multi-week classes aren't posted yet. Registration for last year's winter classes opened in late November.",
    "lastChecked": "2026-11-12",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-tri-sports-leagues",
@@ -2438,7 +2750,11 @@
    "howToJoin": "Visit as a guest, in person or online. Contact the club through its Toastmasters.org listing or http://www.bullcitytoastmasters.org/.",
    "url": "https://www.toastmasters.org/Find-a-Club/00009891-bull-city-club",
    "verifyNote": "End time and any guest fee or dues aren't listed. Check whether the Nov 26 and Dec 24 meetings happen.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.9101,
+    -78.932233
+   ]
   },
   {
    "id": "d-d-and-d-night",
@@ -2468,7 +2784,11 @@
    "firstTime": "Reserve a seat on the store's Warhorn portal first. No experience is needed, and your first session is free. Bring dice, a pencil and paper, and a miniature or marker.",
    "url": "https://www.atomicempire.com/Store/Event/313",
    "verifyNote": "Jan-Feb 2027 dates aren't posted yet. Check whether the Nov 26 (Thanksgiving) game runs; Dec 24 and Dec 31 aren't listed.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.966443,
+    -78.961103
+   ]
   },
   {
    "id": "d-friday-night-magic",
@@ -2497,7 +2817,11 @@
    "firstTime": "Register through the store's event listings, or call (919) 490-7900 to ask the start time and fee. There's a Commander Mixer format, and structured games make it easy to meet players.",
    "url": "https://www.atomicempire.com/Events",
    "verifyNote": "The start time and entry fee aren't posted. Jan-Feb 2027 dates aren't posted yet.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.966443,
+    -78.961103
+   ]
   },
   {
    "id": "d-bike-co-op-volunteering",
@@ -2524,7 +2848,11 @@
    "firstTime": "Sign up, or join the waitlist, at durhambikecoop.corsizio.com first. It's a beginner-level shift, so you don't need experience. Closed-toe shoes are a good idea.",
    "url": "https://durhambikecoop.corsizio.com/",
    "verifyNote": "The Nov 14 session is waitlisted. Watch corsizio for Dec-Feb dates, which aren't posted yet. No cost is shown.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    36.014692,
+    -78.894321
+   ]
   },
   {
    "id": "d-bike-repair-clinic",
@@ -2572,7 +2900,11 @@
    "howToJoin": "Contact Music Director Wendy Looker through ERUUF (office 919-489-2575) to confirm the spring start date and join.",
    "url": "https://www.eruuf.org/calendar/calendar-view/print/16439-eno-river-singers-rehearsal.html",
    "verifyNote": "Confirm the spring 2027 start date, whether rehearsals run in Dec-Jan, holiday breaks, and any fees or dues.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.952751,
+    -78.971415
+   ]
   },
   {
    "id": "d-aps-dog-walking",
@@ -2594,7 +2926,11 @@
    "url": "https://www.apsofdurham.org/volunteer",
    "verifyNote": "Volunteers work at least 8 hours a month and commit to at least six months. Shift length, dog-walking shift times and orientation dates aren't listed. The Nov 13 date is just a reminder to apply.",
    "lastChecked": "2026-11-13",
-   "vtype": "animals"
+   "vtype": "animals",
+   "geo": [
+    36.026073,
+    -78.857128
+   ]
   },
   {
    "id": "d-mettlesome-improv-101",
@@ -2614,7 +2950,11 @@
    "howToJoin": "Watch thisismettlesome.com/lab (Upcoming Classes) for Improv 101 and register there. Questions: ops@thisismettlesome.com.",
    "url": "https://www.thisismettlesome.com/lab",
    "verifyNote": "Improv 101's day, time, number of weeks, cost and exact start date aren't posted yet. The address shown is the theater's; check when you register that classes meet there.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.991895,
+    -78.889668
+   ]
   },
   {
    "id": "d-climbing-meetup",
@@ -2640,7 +2980,11 @@
    "firstTime": "RSVP on Meetup first. Check in at the front desk, then head to the roped area at the back. Your first visit is $15 with rental harness and shoes. Dinner afterward is optional.",
    "url": "https://www.meetup.com/raleighrockclimbing/",
    "verifyNote": "Only some of the group's events are posted, so check Meetup for later Durham Fridays. The four-gym rotation suggests roughly every fourth Friday, but that isn't confirmed.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.948871,
+    -78.92482
+   ]
   },
   {
    "id": "r-pickleball-open-play",
@@ -2661,7 +3005,11 @@
    "howToJoin": "Check the John Chavis 'Schedule' link on raleighnc.gov/pickleball, then show up. Buy a pass on site (exact change or credit card) and fill out the registration form and waiver, which you can do ahead of time. Other near-downtown centers with open play: Lions Park (516 Dennis Ave, 27604) and Tarboro Road (121 N Tarboro Rd, 27610).",
    "url": "https://raleighnc.gov/pickleball",
    "verifyNote": "Check the City's schedule for days and times. Fees are from the City's page as of 11/05/2026; older prices of $2/$10 may still show elsewhere.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.768126,
+    -78.630052
+   ]
   },
   {
    "id": "r-french-language-exchange",
@@ -2682,7 +3030,11 @@
    "howToJoin": "Join the Meetup group (1,200+ members) and RSVP when the next event posts. You should be able to hold a one-on-one conversation in French about everyday topics.",
    "url": "https://www.meetup.com/french-speed-language-exchange/",
    "verifyNote": "Frequency, cost and next date aren't posted yet. Check whether each event is at the Raleigh or the Durham venue.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.781125,
+    -78.655823
+   ]
   },
   {
    "id": "r-spca-volunteering",
@@ -2705,7 +3057,11 @@
    "url": "https://spcawake.org/get-involved/volunteer",
    "verifyNote": "Shift length and times aren't stated. The adoption center is being renovated, so follow signs to a temporary entrance. You may be asked to sign a waiver through DocuSign.",
    "lastChecked": "2026-11-13",
-   "vtype": "animals"
+   "vtype": "animals",
+   "geo": [
+    35.730226,
+    -78.66099
+   ]
   },
   {
    "id": "r-animal-center-volunteering",
@@ -2728,7 +3084,11 @@
    "url": "https://www.wake.gov/departments-government/animal-services/how-help/volunteer-program",
    "verifyNote": "No orientation dates are published; onboarding happens when the coordinator brings on new volunteers. Short-term or one-day volunteering isn't accepted.",
    "lastChecked": "2026-11-13",
-   "vtype": "animals"
+   "vtype": "animals",
+   "geo": [
+    35.791279,
+    -78.573059
+   ]
   },
   {
    "id": "d-clay-cozy-winter-critters",
@@ -2755,7 +3115,11 @@
    "url": "https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw",
    "verifyNote": "The page doesn't show the year, but the weekday matches 2026. Nearly sold out.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.980271,
+    -78.877919
+   ]
   },
   {
    "id": "d-clay-winter-candleholders",
@@ -2782,7 +3146,11 @@
    "url": "https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholders-saturday-november-21",
    "verifyNote": "The class list shows it open but gives no spot count, and the class page also has a waitlist form. Confirm availability.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.980271,
+    -78.877919
+   ]
   },
   {
    "id": "d-beginning-intermediate-wheel",
@@ -2810,7 +3178,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginning-intermediate-wheel-2",
@@ -2838,7 +3210,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginning-intermediate-wheel-3",
@@ -2866,7 +3242,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginning-intermediate-wheel-4",
@@ -2894,7 +3274,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The tool supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-hand-building-101",
@@ -2922,7 +3306,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-hand-building-101-2",
@@ -2950,7 +3338,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The supply list is only in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-sculptural-hand-building",
@@ -2978,7 +3370,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog doesn't give a skill level. Ask DAC if you're brand new to clay.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-wheel-throwing-crash-course",
@@ -3006,7 +3402,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog doesn't say separately that clay is included.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-ceramic-planters",
@@ -3033,7 +3433,11 @@
    "firstTime": "All supplies are included, so just come ready to get messy. Your piece is ready for pickup 2–4 weeks later.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-ceramic-face-mugs",
@@ -3060,7 +3464,11 @@
    "firstTime": "All supplies are included, so just come ready to get messy. Your mug is ready for pickup 2–4 weeks later.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-drawing-fundamentals",
@@ -3088,7 +3496,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-loose-watercolor-techniques",
@@ -3116,7 +3528,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginning-watercolor",
@@ -3144,7 +3560,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Supply cost isn't posted. With supplies, it may land near the $50/session limit.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-intro-to-acrylic-painting",
@@ -3172,7 +3592,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "I didn't confirm supplies. If they're extra, the total could pass $50/session.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-winter-watercolor-botanicals",
@@ -3198,7 +3622,11 @@
    "firstTime": "It's beginner-friendly, and the $6 fee covers everything you'll use.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-pet-portraits-in-acrylic",
@@ -3226,7 +3654,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "Check DAC's registration system for what reference photo to bring.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-linocut-i-intro-to-printmak",
@@ -3254,7 +3686,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog mentions possible additional materials. Check the supply list in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-tree-of-life-copper-wrapped",
@@ -3280,7 +3716,11 @@
    "firstTime": "All materials are covered by the $15 fee, so just bring that and yourself.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginner-garment-sewing-int",
@@ -3308,7 +3748,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "The catalog mentions something to prepare in advance. Check the class details in DAC's registration system.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginner-crochet",
@@ -3336,7 +3780,11 @@
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "verifyNote": "I didn't confirm whether supplies are included.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-macrame-wall-hanging",
@@ -3362,7 +3810,11 @@
    "firstTime": "All materials are provided, so there's nothing to buy beforehand.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-silk-scarf-batik",
@@ -3388,7 +3840,11 @@
    "firstTime": "Everything except the $15 scarf fee is included. Wear clothes you don't mind getting dye or wax on.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-sashiko-101",
@@ -3414,7 +3870,11 @@
    "firstTime": "It's an intro-level (101) workshop, and the supply fee covers materials.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-embroidery-basics",
@@ -3440,7 +3900,11 @@
    "firstTime": "It's made for beginners, and the $10 fee covers all materials.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-beginning-knitting-workshop",
@@ -3467,7 +3931,11 @@
    "url": "https://thescrapexchange.as.me/KnittingIntro",
    "verifyNote": "The workshops page doesn't show the street address, so confirm it. No refunds within 48 hours of the start.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-faux-leather-long-stitch-jou",
@@ -3494,7 +3962,11 @@
    "url": "https://thescrapexchange.as.me/LongStitchJournal",
    "verifyNote": "The workshops page doesn't show the street address, so confirm it. No refunds within 48 hours of the start.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-sewing-machine-basics-workshop",
@@ -3522,7 +3994,11 @@
    "url": "https://thescrapexchange.as.me/SewingMachineBasics",
    "verifyNote": "Materials aren't specified. The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-intro-to-reduction-printmaking",
@@ -3549,7 +4025,11 @@
    "url": "https://thescrapexchange.as.me/Reduction",
    "verifyNote": "Materials aren't specified on the listing. The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-intro-to-hand-embroidery-wor",
@@ -3576,7 +4056,11 @@
    "url": "https://thescrapexchange.as.me/Embroidery",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-scraps-to-sheets-handmade-p",
@@ -3603,7 +4087,11 @@
    "url": "https://thescrapexchange.as.me/Papermaking",
    "verifyNote": "Materials aren't specified on the listing. The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-yay-you-re-gonna-crochet",
@@ -3630,7 +4118,11 @@
    "url": "https://thescrapexchange.as.me/IntroToCrochet",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-make-your-own-linocut-stamp",
@@ -3657,7 +4149,11 @@
    "url": "https://thescrapexchange.as.me/Stamp",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "d-sips-and-scribbles-adult-jour",
@@ -3684,7 +4180,11 @@
    "url": "https://thescrapexchange.as.me/Party",
    "verifyNote": "The street address isn't on the workshops page, so confirm it.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.986733,
+    -78.927537
+   ]
   },
   {
    "id": "r-snowman-hat-workshop",
@@ -3711,7 +4211,11 @@
    "firstTime": "No experience is required, and it's planned with beginners in mind. Projects are ready for pickup about 2 weeks after the workshop.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-drawing-discovery",
@@ -3738,7 +4242,11 @@
    "firstTime": "It's open to all levels of drawing experience, and all supplies are included.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-screen-printing-with-waterco",
@@ -3765,7 +4273,11 @@
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Supply cost isn't posted. This is a different workshop from the Dec 6 screen printing class already on the site.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-chunky-knit-scarves",
@@ -3792,7 +4304,11 @@
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Yarn cost isn't posted.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-chunky-knit-scarves-2",
@@ -3819,7 +4335,11 @@
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "verifyNote": "Yarn cost isn't posted.",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-introduction-to-japanese-shi",
@@ -3845,7 +4365,11 @@
    "firstTime": "No prior experience is necessary. Remember the 2 yards of pre-washed white cotton.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "r-drawer-box-with-partitions",
@@ -3872,7 +4396,11 @@
    "firstTime": "Bring the $25 supply fee and, if you like, tiny objects (under 1/2 inch) to put inside.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No",
    "lastChecked": "2026-11-13",
-   "isClass": true
+   "isClass": true,
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "d-fiction-book-club",
@@ -3906,7 +4434,11 @@
    "url": "https://durhamcountylibrary.libcal.com/event/15961444",
    "verifyNote": "Check the event page for this month's book and whether you need to register.",
    "evidence": "durhamcountylibrary.libcal.com/event/15961444: the library's own calendar says the club meets 'on the third Tuesday of every month' and lists Tue Nov 17, 2026, 6:30–7:30pm as a scheduled session (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.903216,
+    -78.888852
+   ]
   },
   {
    "id": "d-morning-knitting",
@@ -3944,7 +4476,11 @@
    "url": "https://durhamcountylibrary.libcal.com/event/15792181",
    "verifyNote": "On holiday weeks, check the library calendar to confirm it's meeting.",
    "evidence": "durhamcountylibrary.libcal.com/event/15792181: the library's own calendar lists the weekly Monday 9:30–11:30am series with sessions Nov 16, 23 and 30 and Dec 7, 14 and 21, 2026 (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    36.089268,
+    -78.913685
+   ]
   },
   {
    "id": "d-library-taskmaster",
@@ -3971,7 +4507,11 @@
    "url": "https://durhamcountylibrary.libcal.com/event/17285805",
    "verifyNote": "Ages 21+. Registration is required but doesn't hold a seat, so arrive early.",
    "evidence": "durhamcountylibrary.libcal.com/event/17285805: library event page for Mon Nov 16, 2026, 6:00–7:30pm, registration open with 66 seats left (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.994988,
+    -78.89725
+   ]
   },
   {
    "id": "r-java-jog-sunday-run",
@@ -4163,7 +4703,11 @@
    "url": "https://fpcraleigh.org/events/",
    "verifyNote": "The listing doesn't say where in the building play happens or whether paddles are provided. Call (919) 821-5750 to confirm visitors are welcome and where to enter.",
    "evidence": "https://fpcraleigh.org/events/: the church's own events calendar lists Pickleball (1–3 PM, no experience required) on Mon Nov 16, Wed Nov 18, Mon Nov 23 and Wed Nov 25, 2026. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.779405,
+    -78.640189
+   ]
   },
   {
    "id": "d-dac-registration-opens",
@@ -4188,7 +4732,11 @@
    "firstTime": "Pick a first and second choice before 10am in case your favorite section fills.",
    "url": "https://durhamarts.org/2026/11/12/winter-2027-catalog/",
    "evidence": "durhamarts.org winter 2027 catalog post (Nov 12, 2026): class registration opens Fri Dec 4 at 10am",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "r-pullen-registration-opens",
@@ -4213,7 +4761,11 @@
    "firstTime": "Look through the class guide the night before so you can register right away.",
    "url": "https://raleighnc.gov/arts/take-class-pullen-arts-center",
    "evidence": "City of Raleigh Jan-Apr 2027 program guide: online registration starts Dec 1, 2026 at 5:30am",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.782677,
+    -78.665467
+   ]
   },
   {
    "id": "d-orange-county-animal-services-chapel-hil",
@@ -4235,7 +4787,11 @@
    "url": "https://orangecountync.gov/388/Volunteers",
    "verifyNote": "Depending on the season and species, you may wait a while for a training spot. Questions: volunteer@orangecountync.gov.",
    "evidence": "https://orangecountync.gov/388/Volunteers — live page: dog/cat applications with orientation videos, in-person training calendar, two mentored shifts, 2 shifts/month minimum, ~2-hr Mon–Sat shifts, age rules, roles, 1601 Eubanks Rd. No last-updated date on page. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.969686,
+    -79.075146
+   ]
   },
   {
    "id": "d-paws4ever-mebane",
@@ -4257,7 +4813,11 @@
    "url": "https://www.paws4ever.org/volunteer/",
    "verifyNote": "The ReSale Store (305-B Revere Road, Hillsborough) is a separate location from the adoption center. Van drivers must be 25+. Contact: volunteer@paws4ever.org or 919-241-8438 x105.",
    "evidence": "https://www.paws4ever.org/volunteer/ — live (©2026): interest form, per-role training lengths and shift windows, age rules, typical commitment, 6311 Nicks Rd. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.987175,
+    -79.252258
+   ]
   },
   {
    "id": "d-goathouse-refuge-pittsboro",
@@ -4279,7 +4839,11 @@
    "url": "https://www.goathouserefuge.org/volunteer/",
    "verifyNote": "The refuge doesn't need help with social media or its website. If you need school service hours, allow at least two weeks for your application to be processed.",
    "evidence": "https://www.goathouserefuge.org/volunteer/ — live (©2026): application form, orientation invite after applying, 16+ rule, monthly shift minimum, 'big need for weekend meet & greet volunteers', 405 Goathouse Rd. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.773576,
+    -79.247514
+   ]
   },
   {
    "id": "r-saving-grace-wake-forest",
@@ -4324,7 +4888,11 @@
    "url": "https://www.secondchancenc.org/volunteer",
    "verifyNote": "The minimum time commitment and shift schedule aren't posted. Confirm both when your welcome email arrives.",
    "evidence": "https://www.secondchancenc.org/volunteer — live (footer ©2026): individual and group applications, welcome email + orientation materials within a week, role training, youth age rules, Chapel Hill Rd address. No orientation dates or shift times posted. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.789177,
+    -78.725076
+   ]
   },
   {
    "id": "d-independent-animal-rescue",
@@ -4369,7 +4937,11 @@
    "url": "https://www.piedmontwildlifecenter.org/volunteer",
    "verifyNote": "Event dates aren't on the volunteer page. Check the registration link for the next service day or cleanup.",
    "evidence": "https://www.piedmontwildlifecenter.org/volunteer — live: service days + highway cleanups via registration link (x.gldn.io/e/Piedmont_Wildlife_Center), waiver, 18+, Leigh Farm Rd. No dates on page. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.91485,
+    -78.979983
+   ]
   },
   {
    "id": "r-note-in-the-pocket-raleigh",
@@ -4391,7 +4963,11 @@
    "url": "https://noteinthepocket.org/volunteer/",
    "verifyNote": "Court-ordered community service placements are currently paused.",
    "evidence": "https://noteinthepocket.org/volunteer/ — live (©2026): sign-up at volunteer.noteinthepocket.org, tour + training on first shift, age rules, Raleigh and Durham addresses. 'Prep Clothing Donations in Raleigh' shift posted for Mon Nov 16, 2026, 1–4 PM on volunteer.activategood.org. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.849673,
+    -78.590549
+   ]
   },
   {
    "id": "d-note-in-the-pocket-durham",
@@ -4413,7 +4989,11 @@
    "url": "https://noteinthepocket.org/volunteer/",
    "verifyNote": "Court-ordered community service placements are currently paused. Durham phone: 984-317-6683.",
    "evidence": "https://noteinthepocket.org/volunteer/ — live (©2026): sign-up platform, tour + training on first shift, age rules, Durham address 1010 MLK Jr Pkwy. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.948871,
+    -78.92482
+   ]
   },
   {
    "id": "d-reality-ministries",
@@ -4435,7 +5015,11 @@
    "url": "https://www.realityministriesinc.org/volunteer",
    "verifyNote": "Minimum age and time commitment aren't posted; ask at orientation. Questions: 919-688-7776.",
    "evidence": "https://www.realityministriesinc.org/volunteer — live (©2026): register → one-on-one orientation (in person/Zoom) → volunteer; weekly daytime/evening programs; Lamond Ave address. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    36.002334,
+    -78.908478
+   ]
   },
   {
    "id": "r-raleigh-city-farm",
@@ -4457,7 +5041,11 @@
    "url": "https://raleighcityfarm.org/volunteer/",
    "verifyNote": "No workdays are posted yet for late November–December. Check the events calendar or email volunteer@raleighcityfarm.org (replies can take up to 7 days).",
    "evidence": "https://raleighcityfarm.org/volunteer/ (©2026) + https://raleighcityfarm.org/events/ — Volunteer Workday Sat Nov 7, 2026, 9–11 AM; Wine+Weeds weekly Wed 6–7 PM listed through Oct 28, 2026; no volunteer workdays posted Nov 14–Dec 31. Checked 2026-11-13.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.790191,
+    -78.635801
+   ]
   },
   {
    "id": "d-tree-planting-training",
@@ -4607,7 +5195,11 @@
    "firstTime": "The draft is the easiest way in: you build a deck from packs opened at the table, so you only need to know the rules. For Standard or Modern, bring your own deck in that format.",
    "url": "https://gametheorystore.com/calendar/",
    "evidence": "gametheorystore.com/calendar/ (embedded GT_WebCalendar.html, Raleigh store view): 'FNM Draft: Star Trek' ($25), 'FNM Modern' ($10) and 'FNM Standard' ($10), 6:30-10:30pm, Game Theory Raleigh, 5910 Duraleigh Rd #125, on Fri Nov 13, Nov 20, Dec 4, Dec 11 and Dec 18, 2026; Nov 27 shows only 'BLACK FRIDAY SALE!' (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.85765,
+    -78.712641
+   ]
   },
   {
    "id": "r-game-night-lgbt-center",
@@ -4634,7 +5226,11 @@
    "firstTime": "Come any time during the three hours and join a table. Bring a KN95 or better mask, or use one of the Center's.",
    "url": "https://www.lgbtcenterofraleigh.com/calendar",
    "evidence": "lgbtcenterofraleigh.com/calendar (embedded Google Calendar 'Programs & Events'): 'Game Night' Fri Nov 13, 2026 6-9pm and Fri Dec 11, 2026 6-9pm at 128 E Cabarrus St; same event also on Aug 14 and Oct 9, 2026 (2nd Fridays); description: meet-up for queer and ally individuals to play tabletop board games; KN95-or-better masks required, provided on site (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.774135,
+    -78.637934
+   ]
   },
   {
    "id": "r-folky-friday-song-circle",
@@ -4664,7 +5260,11 @@
    "firstTime": "Bring an acoustic instrument or just your voice; listening is fine too. Songbooks are handed out, and you can lead your pick or ask a regular to lead it.",
    "url": "https://uufr.org/connect/music-at-uufr/",
    "evidence": "uufr.org/connect/music-at-uufr/: 'Folky Friday - Second Fridays from 7-9pm, Room 201 Peace Hall (upper parking lot)', 'Contact leaders... or just show up!'; uufr.org event pages list Folky Friday Nov 13, 2026 and Dec 11, 2026, 7-9pm (series also Jul 10, Aug 14, Sep 11, Oct 9, 2026) (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.801007,
+    -78.678515
+   ]
   },
   {
    "id": "r-coffee-house-open-mic",
@@ -4694,7 +5294,11 @@
    "firstTime": "Arrive around 7pm if you want a slot, since the list is limited. Microphones and instrument plug-ins are provided.",
    "url": "https://uufr.org/connect/music-at-uufr/",
    "evidence": "uufr.org/connect/music-at-uufr/: 'Coffee House - Third Fridays 7:30-9:30pm, Founders Hall under the Sanctuary', one 10-minute set each, arrive around 7pm to sign up; uufr.org/welcome/upcoming-events/ lists Coffee House Nov 20, 2026 and Dec 18, 2026, 7:30-9:30pm; event text: 'on the third Friday of every month' (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.801007,
+    -78.678515
+   ]
   },
   {
    "id": "r-improv-jam",
@@ -4724,7 +5328,11 @@
    "firstTime": "No experience needed. You can jump into scenes or watch and cheer until you're ready. Some months add an open mic or a potluck.",
    "url": "https://leela-nc.com/jams/",
    "evidence": "leela-nc.com/jams/: 'When: First Fridays, at 7:00 PM, on-going, monthly', 'No Experience Needed', 'FREE to Join: Register on Eventbrite', 'Dry Jam'; most recent: 'FREE First Friday Improv Jam, Open Mic, & Friendsgiving Potluck' Fri Nov 6, 2026, 7-9pm, 'Adults Only 18+'; December date not posted yet (next would be Dec 4) (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.784333,
+    -78.649091
+   ]
   },
   {
    "id": "r-coffee-outside-ride",
@@ -4754,7 +5362,11 @@
    "firstTime": "Bring a thermos or your own coffee gear, or grab a cup on the way. Regulars often bring gear to share if you bring your own beans and water.",
    "url": "https://oaksandspokes.org/events/",
    "evidence": "oaksandspokes.org/events/ (Rides + Events calendar): 'Coffee Outside - Every First Friday Morning', Fri Dec 4, 2026, 7:30-10am from Oak City Cycling, 707 N Person St: 'Every first Friday morning, we lead a coffee outside... Roll-out is at 7:30 AM. Ride vibe: Short and social. Coffee location: Dix Park'; November ride held Sat Nov 7, 2026 8-10:30am ('SATURDAY EDITION DUE TO RAIN') (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.789095,
+    -78.634416
+   ]
   },
   {
    "id": "r-critical-mass-ride",
@@ -4780,7 +5392,11 @@
    "firstTime": "Arrive a few minutes early with lights and a helmet; the group heads out together at 7pm.",
    "url": "https://oaksandspokes.org/events/",
    "evidence": "oaksandspokes.org/events/ (Rides + Events calendar, recurring entry): 'Raleigh Critical Mass' Fri Nov 27, 2026, 7-8:30pm, Memorial Belltower, 2011 Hillsborough St: 'Join us for Raleigh's BIGGEST group ride. All wheels are welcome... We roll at 7 pm from NCSU's Memorial Bell Tower'. The recurring entry also shows Fri Dec 25, 2026 (Christmas); left off pending confirmation (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.78609,
+    -78.662582
+   ]
   },
   {
    "id": "r-friday-game-night-quest",
@@ -4805,7 +5421,11 @@
    "firstTime": "Show up any time after 6pm and the hosts will find you a game and a table; game teachers will get you up to speed. Keep any games you bring family-friendly.",
    "url": "https://www.meetup.com/game-nights-at-quest/",
    "evidence": "meetup.com/game-nights-at-quest: 'Friday Game Night!' Fri Nov 20, 2026, 6:00-11:59pm at 5120 Raynor Rd, Garner, 24 RSVPs: 'Show up anytime after 6PM and we'll find a game and a table for you... plenty of games teachers'; group page: 50-80 guests usually attend, 200+ games, 1,925 members, 104 past events; recent Friday game nights Oct 30 (39 attendees), Oct 16 (36), Oct 2 (45), Sep 4 (32), Aug 21 (39), Aug 7 (32), Jul 17 (52), Jun 19 (33), May 15 (35); organizer site sites.google.com/view/questcon/game-nights-quest: twice a month on Friday nights, running since 2022 (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.6821,
+    -78.550639
+   ]
   },
   {
    "id": "r-international-folk-dancing",
@@ -4838,6 +5458,10 @@
    "except": [
     "2026-11-27",
     "2026-12-25"
+   ],
+   "geo": [
+    35.826793,
+    -78.684631
    ]
   },
   {
@@ -4866,7 +5490,11 @@
    "firstTime": "Closed-toe shoes are required, and staff give a short orientation when you arrive. Use the volunteer entrance at 2439 Crabtree Blvd. Ages 12+; under 16 with an adult.",
    "url": "https://foodbankcenc.org/locations/raleigh/",
    "evidence": "Calendar embedded on foodbankcenc.org/locations/raleigh/ (volunteer.foodbankcenc.org/acts/webreg/eventdetail.php?event_id=21&org_id=0225, 'Warehouse Project - Raleigh', meeting point 1924 Capital Blvd): Fri Nov 20 1:00–3:30 PM 'Spots Available: 9'; Fri Dec 11 1:00–3:30 PM 'Spots Available: 2'. Fri Dec 4 both slots waitlist; Fri Dec 18 both slots closed ('Potential Date'); Nov 27 and Dec 25 closed for holidays; every Friday 9–11:30am slot is waitlist. Raleigh page lists Friday new-volunteer hours 9–11:30am and 1–3:30pm and the Crabtree Blvd volunteer entrance. foodbankcenc.org/volunteer: register online, ages 12+, under 16 with an adult, onsite orientation the day you volunteer. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.803883,
+    -78.618074
+   ]
   },
   {
    "id": "r-clothing-prep-shift",
@@ -4894,7 +5522,11 @@
    "firstTime": "No experience needed: your first shift starts with a tour and training. Ages 16+ can come alone; ages 13–15 need a registered adult with them.",
    "url": "https://volunteer.noteinthepocket.org/need/detail/?need_id=637509",
    "evidence": "volunteer.noteinthepocket.org/need/detail/?need_id=637509 ('Prep Clothing Donations in Raleigh- PM', 4730 Hargrove Road): Fri Nov 20 1–4pm '29 of 30' open spots; Fri Dec 11 1–4pm '10 of 10'; Fri Dec 18 1–4pm '30 of 30' (no Dec 4 slot). Page: 16+ may volunteer unaccompanied, 13–15 with a registered adult, no court-ordered service. noteinthepocket.org/volunteer: create an account on the sign-up platform, tour and training during the first shift, Clothing Sorter is a beginning role. Same shift also posted on volunteer.activategood.org (Fri Nov 20, 9 spots). Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.849673,
+    -78.590549
+   ]
   },
   {
    "id": "r-holiday-express-volunteer",
@@ -4921,7 +5553,11 @@
    "firstTime": "You'll be outside and on your feet most of the night, so dress warmly and wear closed sneakers or boots. Snacks, drinks and a meal are provided, and holiday outfits are encouraged. Ages 15+.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105",
    "evidence": "Raleigh Parks CERVIS (embedded on raleighnc.gov/parks-volunteer), cervistech.com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105, '2026 Holiday Express Event Volunteers' at Pullen Park, 520 Ashe Ave: 'Fri, Dec 18, 2026 - 4:00 PM to 9:45 PM, Night 18, Spots Available: 24'. Nights 4, 5 and 11 (Fri Dec 4, Sat Dec 5, Fri Dec 11) show Full; Dec 19–21 are makeup dates only. Requirements: ages 15+, signed digital Terms and Conditions; snacks, drinks and a meal provided. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.779352,
+    -78.661965
+   ]
   },
   {
    "id": "r-winterfaire-volunteer",
@@ -4948,7 +5584,11 @@
    "firstTime": "Ages 18+. You'll be outdoors and on your feet, so dress for the weather, wear closed sneakers and bring a filled water bottle. Training and supplies are provided.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105",
    "evidence": "Raleigh Parks CERVIS, cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105, '2026 Moore Square Winterfaire Event Support' (festival open to the public Dec 11–13; meet at Moore Square, 226 E Martin St): Fri Dec 11 12:00–4:00 PM 'Event Setup Day 3' 8 spots; 3:30–7:00 PM 'Day 1, Setup & Activities' 8 spots; 6:30–10:30 PM 'Day 1, Activities & Breakdown' 8 spots. Requirements: ages 18+, signed digital Terms and Conditions. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.776735,
+    -78.635645
+   ]
   },
   {
    "id": "r-christmas-store-volunteer",
@@ -4976,7 +5616,11 @@
    "firstTime": "Experienced staff direct the volunteers, so no experience is needed. Ages 15+.",
    "url": "https://volunteer.activategood.org/opportunities/SP05is1u7q",
    "evidence": "volunteer.activategood.org/opportunities/SP05is1u7q ('Loaves & Fishes Ministry Pride For Parents Christmas Store 2026', posted by Loaves and Fishes Ministry, Inc., 1745 N New Hope Rd, ages 15+): Fri 12/11 2:45–5:00 PM '4 Available Spots' and 4:45–7:00 PM '10 Available Spots'; Fri 12/18 2:45–5:00 PM '7 Available Spots' and 4:45–7:00 PM '8 Available Spots'; Sat 12/12 8:45 AM–12:00 PM 9 spots. The ministry has no other public sign-up page that I could find; this listing is its sign-up page. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.805076,
+    -78.564755
+   ]
   },
   {
    "id": "r-feet-friendly-fridays",
@@ -5004,7 +5648,11 @@
    "firstTime": "Wear comfortable shoes you can move in and bring water. Ages 13+.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=516873199",
    "evidence": "Raleigh Parks RecLink, ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=516873199 ('Feet Friendly Fridays', JCCCFEETFRIDAYS-014): Fridays 9/4–12/4/2026, 6:30–8:30pm, John Chavis CC MP Room 2, ages 13+, beginner description (basic steps, following voice cues); search listing shows fee $5.00. Activity calendar view shows Fri Nov 20 and Fri Dec 4 '75 of 75 Available'. Nov 27 is also listed there, but the city's holiday closures page says community centers are closed that day, so it's left out. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.768126,
+    -78.630052
+   ]
   },
   {
    "id": "r-candle-making-night",
@@ -5030,7 +5678,11 @@
    "firstTime": "No experience needed, and all materials are provided. Ages 18+.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517706770",
    "evidence": "Raleigh Parks RecLink, ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517706770 ('Gals & Pals: Night Out - Candle Making', CCGALSPALS-001): Fri 12/04/2026, 6:30–8:00pm, Brier Creek Community Center, 10810 Globe Rd; ages 18–99; $12.00 resident/non-resident; 'We provide all needed materials'; series text describes mingling and making new friends with a project and mocktail; status Available, enrollment 7 of 15 (option=enrollmentcounts). Online registration closes 1 day before. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.900998,
+    -78.807901
+   ]
   },
   {
    "id": "r-ornament-making-night",
@@ -5056,7 +5708,11 @@
    "firstTime": "No experience needed, and all materials are provided. Ages 18+.",
    "url": "https://ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517607774",
    "evidence": "Raleigh Parks RecLink, ncraleighweb.myvscloud.com/webtrac/web/iteminfo.html?Module=AR&FMID=517607774 ('Gals & Pals: Night Out - Handmade Ornaments', CCGALSPALS-028): custom dates show only Fri 12/11/2026, 6:30–8:00pm, Kiwanis Community Center, 2525 Noble Rd; ages 18–99; $15.00 resident/non-resident; 'We provide all needed materials'; status Available, enrollment 0 of 10. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.814458,
+    -78.631553
+   ]
   },
   {
    "id": "r-wheel-throwing-class",
@@ -5083,7 +5739,11 @@
    "firstTime": "No experience needed. Trim your nails, wear clothes that can get a bit of clay on them, and plan to come back in about 3 weeks to pick up your glazed piece. Arriving more than 20 minutes late can mean being turned away.",
    "url": "https://app.getoccasion.com/p/n/5cjnvvSL",
    "evidence": "Klaystation's own booking page app.getoccasion.com/p/n/5cjnvvSL ('Beginners Wheel Throwing Class', studio at 3516 Spring Forest Rd, Raleigh 27616): 1.5-hour one-time class, no experience needed, clay pre-centered, cup and bowl; $65 includes firing and glazing one piece, $20 extra for the second; checkout shows $72.50 with tax and booking fee; ages 8+ (8–10 with a paying adult). Calendar (calendar?from=2026-12-01) shows 'Friday, December 11, 2026, 6:00 pm to 7:30 pm, 8 spots available'. The only other Friday, Nov 27 4pm, has 1 spot, so it's left out. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.855011,
+    -78.582555
+   ]
   },
   {
    "id": "r-bird-walk",
@@ -5113,7 +5773,11 @@
    "firstTime": "Expect an easy walk on the park trails with experienced birders who help you spot and name birds. Bring binoculars if you have them and dress for the weather. Wake Audubon sends meeting details after you sign up.",
    "url": "https://ncartmuseum.org/event/birding-with-wake-audubon-society-5/",
    "evidence": "ncartmuseum.org event page 'Birding with Wake Audubon Society': Sat Nov 14, 2026, 8-10 AM, Museum Park, 'General Admission Free', 'Preregistration is required' via meetup.com/wake-audubon-meetup; says it runs 'on the second Saturday morning of each month' (prior page shows Oct 10, 2026). Wake Audubon Meetup events list is JavaScript and did not render in WebFetch. (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.810012,
+    -78.705538
+   ]
   },
   {
    "id": "r-potluck-and-games",
@@ -5139,7 +5803,11 @@
    "firstTime": "Dinner is in Founders Hall. Afterward, games are in Peace Hall room 201 and the song swap is in the Music Room. Bring a favorite game, or a song, poem or story to share, if you like.",
    "url": "https://uufr.org/connect/saturday-socials/",
    "evidence": "uufr.org/connect/saturday-socials: monthly Saturday potluck at 5:30 pm in Founders Hall, activities 6:30-8:00 pm (games in 201 Peace Hall, song swap in Music Room), 'events for all ages'; lists dates 'Dec 5, Jan 9, Mar 13, Apr 10, May 8' (all Saturdays in 2026-27; page also lists a Hanukkah party, which begins Dec 4, 2026). (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.801007,
+    -78.678515
+   ]
   },
   {
    "id": "r-invasives-music",
@@ -5165,7 +5833,11 @@
    "firstTime": "It's physical work on uneven, wooded ground, and a restroom can be up to a mile away. Wear long pants, long sleeves and closed sneakers or boots, and bring a filled water bottle. Tools and training are provided. All ages; under 15 with a parent.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&org_id=0105",
    "evidence": "CERVIS event 3314 'Fuller Forests Greenway Invasive Removal' (eventdetail.php?event_id=3314&org_id=0105): Date/Time Sat, Nov 14, 2026 9:00 AM to 12:00 PM, Spots Available 3, 'Click here to sign up' button live. Meeting location Walnut Creek Wetland Park, 950 Peterson St., Raleigh, NC 27610. Ages 0+, under 15 with parent/guardian. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.760829,
+    -78.625107
+   ]
   },
   {
    "id": "r-wheel-throwing-class-2",
@@ -5194,7 +5866,11 @@
    "firstTime": "No experience needed. Trim your nails, wear clothes that can get a bit of clay on them, and plan to come back in about 3 weeks to pick up your glazed piece. Arriving more than 20 minutes late can mean being turned away.",
    "url": "https://app.getoccasion.com/p/n/5cjnvvSL",
    "evidence": "Klaystation booking page (app.getoccasion.com/p/n/5cjnvvSL): Sat Nov 28 10:30am–12pm '10 spots available'; Sat Dec 5 10:30am–12pm '10 spots available'; Sat Dec 12 4–5:30pm '10 spots available'. Sat Nov 14 and Sat Nov 21 are sold out. $65/person; total with tax and booking fee $72.50. Price includes firing and glazing one of two pieces. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.855011,
+    -78.582555
+   ]
   },
   {
    "id": "r-mural-painting",
@@ -5250,7 +5926,11 @@
    "firstTime": "Ages 15+. You'll be outdoors and on your feet among big crowds, loud music and bright lights. Wear closed sneakers and warm layers; holiday-themed clothes are encouraged. Snacks, drinks and a meal are provided.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3352&org_id=0105",
    "evidence": "CERVIS event 3352 '2026 Holiday Express Event Volunteers' (eventdetail.php?event_id=3352&org_id=0105), meeting location Pullen Park, 520 Ashe Ave., Raleigh, NC 27606, all shifts 4:00 PM to 9:45 PM: Sun Dec 6 'Night 6' Spots Available 5; Sat Dec 12 'Night 12' Spots Available 2; Sun Dec 13 'Night 13' Spots Available 15. Sat Dec 5 full. Sat Dec 19 and Sun Dec 20 are makeup dates only. Ages 15+; meal provided. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.779352,
+    -78.661965
+   ]
   },
   {
    "id": "r-sensory-friendly-holiday-express",
@@ -5277,7 +5957,11 @@
    "firstTime": "Ages 15+. You'll be outdoors, so wear closed sneakers and warm layers, and bring a filled water bottle. Holiday-themed clothes are encouraged.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3355&org_id=0105",
    "evidence": "CERVIS event 3355 '2026 Sensory-Friendly Holiday Express Event Volunteers' (eventdetail.php?event_id=3355&org_id=0105), meeting location Pullen Park, 520 Ashe Ave., Raleigh, NC 27606: Sun, Dec 6, 2026 12:30 PM to 4:30 PM 'Day 1' Spots Available 7; Sun, Dec 13, 2026 12:30 PM to 4:30 PM 'Day 2' Spots Available 13. Ages 15+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.779352,
+    -78.661965
+   ]
   },
   {
    "id": "r-invasive-plant-removal",
@@ -5303,7 +5987,11 @@
    "firstTime": "It's physical work on uneven, wooded ground with no restroom on site. Wear long pants, long sleeves and closed sneakers or boots, and bring a filled water bottle. Tools and training are provided. Ages 16+.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3374&org_id=0105",
    "evidence": "CERVIS event 3374 '2026 Fallon Park Invasive Removal' (eventdetail.php?event_id=3374&org_id=0105): Date/Time Sat, Dec 12, 2026 9:00 AM to 12:00 PM, Spots Available 27. Meeting location Fallon Park, 2601 Oxford Rd., Raleigh, NC 27608. Ages 16+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.817119,
+    -78.635825
+   ]
   },
   {
    "id": "r-holiday-open-house",
@@ -5330,7 +6018,11 @@
    "firstTime": "Much of the event is outdoors, so dress for the weather and wear closed sneakers. Bring a filled water bottle. Training and supplies are provided. Ages 16+.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3395&org_id=0105",
    "evidence": "CERVIS event 3395 'Holiday Open House' (eventdetail.php?event_id=3395&org_id=0105), meeting location Mordecai House, 1 Mimosa St., Raleigh, NC 27604: Sat, Dec 12, 2026 9:30 AM to 12:30 PM, Total Needed 10, Registered 4, Spots Available 6; Sat, Dec 12, 2026 12:30 PM to 2:30 PM, Total Needed 10, Registered 0, Spots Available 10. Ages 16+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.792578,
+    -78.634065
+   ]
   },
   {
    "id": "r-winterfaire-volunteer-2",
@@ -5357,7 +6049,11 @@
    "firstTime": "Ages 18+. You'll be outdoors and on your feet, so dress for the weather, wear closed sneakers and bring a filled water bottle. Training and supplies are provided.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105",
    "evidence": "CERVIS event 3397 '2026 Moore Square Winterfaire Event Support' (eventdetail.php?event_id=3397&org_id=0105), meeting location Moore Square, 226 E Martin St., Raleigh, NC 27601: Sat, Dec 12, 2026 10:30 AM to 2:25 PM 'Day 2, Setup & Activities' Spots Available 8; 2:00 PM to 6:00 PM 'Day 2, Activities' Spots Available 8; 5:30 PM to 9:30 PM 'Day 2, Activities & Breakdown' Spots Available 5 (3 of 8 registered). Ages 18+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.776735,
+    -78.635645
+   ]
   },
   {
    "id": "r-christmas-store-volunteer-2",
@@ -5383,7 +6079,11 @@
    "firstTime": "Experienced staff direct the volunteers, so no experience is needed. Ages 15+.",
    "url": "https://volunteer.activategood.org/opportunities/SP05is1u7q",
    "evidence": "Activate Good listing 'Loaves & Fishes Ministry Pride For Parents Christmas Store 2026' (volunteer.activategood.org/opportunities/SP05is1u7q), location 1745 N New Hope Rd, Raleigh, NC 27604, ages 15+: 'Sat, 12/12: 8:45AM - 12:00PM EST, 9 Available Spots'. It is the only weekend shift among 12 posted times. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.805076,
+    -78.564755
+   ]
   },
   {
    "id": "r-trail-work",
@@ -5409,7 +6109,11 @@
    "firstTime": "Wear weather-appropriate clothes and closed sneakers or boots, and bring a filled water bottle. Tools and training are provided. Ages 12+; under 15 with a parent.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3325&org_id=0105",
    "evidence": "CERVIS event 3325 'Wilkerson Trail Improvements' (eventdetail.php?event_id=3325&org_id=0105), meeting location Annie Louise Wilkerson Nature Preserve, 5229 Awls Haven Dr., Raleigh, NC 27614: Sat, Dec 12, 2026 1:30 PM to 3:00 PM, Total Needed 10, Registered 3, Spots Available 7. (Sat Nov 28 slot is waitlist.) Ages 12+, under 15 with parent/guardian. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.920299,
+    -78.599009
+   ]
   },
   {
    "id": "r-winterfaire-volunteer-3",
@@ -5436,7 +6140,11 @@
    "firstTime": "Ages 18+. You'll be outdoors and on your feet, so dress for the weather, wear closed sneakers and bring a filled water bottle. Training and supplies are provided.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3397&org_id=0105",
    "evidence": "CERVIS event 3397 '2026 Moore Square Winterfaire Event Support' (eventdetail.php?event_id=3397&org_id=0105): Sun, Dec 13, 2026 9:30 AM to 1:30 PM 'Day 3, Setup & Activities' Spots Available 8; 1:00 PM to 5:00 PM 'Day 3, Activities' Spots Available 8; 4:30 PM to 8:30 PM 'Day 3, Breakdown' Spots Available 8. Event open to the public Dec 11–13. Ages 18+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.776735,
+    -78.635645
+   ]
   },
   {
    "id": "r-nature-play-clean-up",
@@ -5462,7 +6170,11 @@
    "firstTime": "Families are welcome. Wear weather-appropriate clothes and closed sneakers or boots, and bring a filled water bottle. Tools are provided. Ages 7+; under 15 with a parent.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3396&org_id=0105",
    "evidence": "CERVIS event 3396 'Wilkerson Woodland Village Clean-up' (eventdetail.php?event_id=3396&org_id=0105): Date/Time Sat, Dec 19, 2026 1:30 PM to 3:00 PM, Spots Available 10. Meeting location Annie Louise Wilkerson Nature Preserve, 5229 Awls Haven Dr., Raleigh, NC 27614. Ages 7+, under 15 with parent/guardian. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.920299,
+    -78.599009
+   ]
   },
   {
    "id": "r-holiday-party-volunteer",
@@ -5488,7 +6200,11 @@
    "firstTime": "It's indoors in the gym. Wear comfortable clothes and closed sneakers, and bring a filled water bottle. Training and supplies are provided. Ages 15+.",
    "url": "https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3373&org_id=0105",
    "evidence": "CERVIS event 3373 'Worthdale Holiday Event' (eventdetail.php?event_id=3373&org_id=0105): Date/Time Sun, Dec 20, 2026 3:00 PM to 6:00 PM, Spots Available 5. Meeting location Worthdale Park, 1001 Cooper Road, Raleigh, NC 27610; indoor holiday party in the community center gym. Ages 15+. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.763679,
+    -78.58744
+   ]
   },
   {
    "id": "r-open-mic",
@@ -5515,7 +6231,11 @@
    "firstTime": "Spots are five minutes, first come first served, and first-time performers get priority. Live performance only, no backing tracks. You can also just come to listen.",
    "url": "https://www.theatreraleigh.com/open-mic-night",
    "evidence": "theatreraleigh.com/open-mic-night: monthly Open Mic Night at The Green Room, 3031 Barrow Drive, 'November 15 6:00 PM-8:30 PM', 'December - No event', 'January 17 6:00 PM-8:30 PM'; Green Room page also lists Nov 15 open mic; footer 2026 (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.866823,
+    -78.58759
+   ]
   },
   {
    "id": "r-produce-giveaway",
@@ -5575,7 +6295,11 @@
    "firstTime": "Tasks rotate among greeting at the door, running food and drinks, clearing tables and washing dishes; you can also share a meal with guests. Ages 15+.",
    "url": "https://volunteer.activategood.org/timeslots/MmelKFTo6h",
    "evidence": "Activate Good / Golden portal: 'Community and Good Food for All!' (A Place at the Table), 300 W Hargett St, Ages 15+: Sun Dec 6 11AM-2PM 2 spots (/timeslots/MmelKFTo6h); Sun Dec 13 11AM-2PM 2 spots (/timeslots/wuApjRpVO8) and 12-3PM 2 spots (/timeslots/Fj3zCJ7FdF); Sun Dec 20 8-11AM 2 spots (/timeslots/l92JJ3i9Bz), 11AM-2PM 2 spots (/timeslots/WKUg3WWkc1), 12-3PM 1 spot (/timeslots/F4rFnAJYc3) (checked Nov 13, 2026)",
-   "lastChecked": "2026-11-13"
+   "lastChecked": "2026-11-13",
+   "geo": [
+    35.778474,
+    -78.643532
+   ]
   }
  ]
 }
