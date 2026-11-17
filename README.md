@@ -14,6 +14,7 @@ Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run c
 | `docs/cal/*.ics` | Calendar feeds for Apple, Google and Outlook. |
 | `UPDATE.md` | The weekly listing check: rules and steps. |
 | `tools/snapshot.py` | Saves the date and time lines from each organizer page for the weekly check. |
+| `.github/workflows/daily-rebuild.yml` | Rebuilds the site every morning so dates roll forward on their own, even if the weekly check doesn't run. No Claude usage. |
 | `.github/workflows/page-snapshots.yml` | Runs `tools/snapshot.py` on Monday evening (with a backup run early Tuesday) and saves the results on the `snapshots` branch. |
 
 ## Build
@@ -25,6 +26,8 @@ python3 -I build.py
 The site address and form links come from `config.json`.
 
 ## How it stays up to date
+
+Every day at about 5am Eastern, a GitHub Action rebuilds the site from `data/events.json`, so the six-week window rolls forward and past dates drop off even if the weekly check can't run (for example, when Claude usage runs out).
 
 Every week:
 

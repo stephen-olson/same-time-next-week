@@ -1,0 +1,53 @@
+name: Daily rebuild
+
+# Keeps the site renewing on its own, with no Claude usage: every morning it rebuilds
+# docs/ from data/events.json so the six-week window rolls forward, past dates drop
+# off and the "Updated" date stays current. The weekly Claude check still verifies
+# the listings themselves. Actions are free for public repos.
+on:
+  schedule:
+    - cron: "23 9 * * *"   # every day 09:23 UTC (about 4-5am in Durham/Raleigh)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get the site
+        env:
+          TOKEN: ${{ github.token }}
+        run: git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+
+      - name: Rebuild for today
+        working-directory: site
+        run: |
+          TZ=America/New_York python3 -I build.py --today "$(TZ=America/New_York date +%F)"
+
+      - name: Publish if the page changed
+        working-directory: site
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- docs/index.html; then
+            echo "Already up to date for today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -q -m "Daily rebuild $(TZ=America/New_York date +%F)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+          # Make sure GitHub Pages picks up the new build (pushes from this token may not start one).
+          curl -s -o /dev/null -w "Pages build request: HTTP %{http_code}\n" -X POST \
+            -H "Authorization: Bearer ${TOKEN}" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
