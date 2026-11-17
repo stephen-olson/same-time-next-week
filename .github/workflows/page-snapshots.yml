@@ -1,12 +1,13 @@
 name: Page copies for the weekly check
 
 # The weekly listing check runs in a cloud session that can't open most websites.
-# Two hours before it starts, this job opens every organizer page linked from
+# The evening before it starts, this job opens every organizer page linked from
 # data/events.json and saves the lines with dates, times and prices on the
 # `snapshots` branch, where the check reads them. Actions are free for public repos.
 on:
   schedule:
-    - cron: "17 10 * * 1"   # Mondays 10:17 UTC; the weekly check starts about 12:03 UTC
+    - cron: "17 20 * * 1"   # Mondays 20:17 UTC (GitHub sometimes runs these hours late)
+    - cron: "17 5 * * 2"    # backup run Tuesdays 05:17 UTC; the weekly check starts about 15:00 UTC Tuesday
   workflow_dispatch:
 
 permissions:

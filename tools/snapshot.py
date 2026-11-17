@@ -2,8 +2,8 @@
 """Save the date and time lines from every organizer page the weekly check looks at.
 
 The weekly listing check runs in a cloud session that can't open most websites.
-A GitHub Action (.github/workflows/page-snapshots.yml) runs this script on Monday
-mornings and saves the results on the `snapshots` branch, where the check reads them.
+A GitHub Action (.github/workflows/page-snapshots.yml) runs this script on Monday evening (backup early Tuesday)
+and saves the results on the `snapshots` branch, where the check reads them.
 
 Only short excerpts are kept: lines that mention a date, time, price or the listing's
 name, plus any events the page lists in its structured data.
@@ -55,7 +55,7 @@ STOP = {
 
 README = """# Page copies for the weekly listing check
 
-Every Monday morning a GitHub Action (`.github/workflows/page-snapshots.yml` on `main`)
+Every Monday evening (with a backup early Tuesday) a GitHub Action (`.github/workflows/page-snapshots.yml` on `main`)
 opens each organizer page linked from `data/events.json` and saves the lines that mention
 dates, times, prices or the listing's name. The weekly check runs in a cloud session that
 can't open most websites, so it reads these instead.

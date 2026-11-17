@@ -14,7 +14,7 @@ Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run c
 | `docs/cal/*.ics` | Calendar feeds for Apple, Google and Outlook. |
 | `UPDATE.md` | The weekly listing check: rules and steps. |
 | `tools/snapshot.py` | Saves the date and time lines from each organizer page for the weekly check. |
-| `.github/workflows/page-snapshots.yml` | Runs `tools/snapshot.py` every Monday morning and saves the results on the `snapshots` branch. |
+| `.github/workflows/page-snapshots.yml` | Runs `tools/snapshot.py` on Monday evening (with a backup run early Tuesday) and saves the results on the `snapshots` branch. |
 
 ## Build
 
@@ -26,10 +26,10 @@ The site address and form links come from `config.json`.
 
 ## How it stays up to date
 
-Every Monday:
+Every week:
 
-1. At about 10:17 UTC, a GitHub Action saves the date and time lines from each organizer page on the `snapshots` branch.
-2. At about 12:00 UTC (7am Eastern), a scheduled Claude Code cloud session follows `UPDATE.md`. It checks every listing against those page copies and web search, puts anything it can't confirm on hold, rebuilds the site and publishes it.
+1. Monday evening (20:17 UTC, with a backup at 05:17 UTC Tuesday), a GitHub Action saves the date and time lines from each organizer page on the `snapshots` branch.
+2. Tuesday at about 15:00 UTC (10am Eastern), right after the owner's weekly Claude usage resets, a scheduled Claude Code cloud session follows `UPDATE.md`. It checks every listing against those page copies and web search, puts anything it can't confirm on hold, rebuilds the site and publishes it.
 
 ## How listings work
 

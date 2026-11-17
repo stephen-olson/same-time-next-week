@@ -298,13 +298,13 @@ a { color: var(--ink-fg); }
 .calkey i.give { background: var(--give); }
 .calkey i.hol { width: 15px; height: 15px; background: none; border: 1.5px dashed var(--hol); }
 .cell .hol { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-.chip { display: flex; align-items: center; gap: 4px; width: 100%; min-width: 0; text-align: left; cursor: pointer; border: 0; border-radius: 4px; padding: 3px 6px; font-size: 12px; font-weight: 500; line-height: 1.3; background: var(--ink-tint); color: var(--ink-fg); }
+.chip { display: flex; align-items: flex-start; gap: 4px; width: 100%; min-width: 0; text-align: left; cursor: pointer; border: 0; border-radius: 4px; padding: 3px 6px; font-size: 12px; font-weight: 500; line-height: 1.3; background: var(--ink-tint); color: var(--ink-fg); }
 .chip:hover { box-shadow: inset 0 0 0 1px var(--ink); }
 .chip.give { background: var(--give-tint); color: var(--give-fg); }
 .chip.give:hover { box-shadow: inset 0 0 0 1px var(--give); }
 .chip.going { box-shadow: inset 0 0 0 1.5px currentColor; }
 .chip .t { flex: none; font-weight: 700; font-variant-numeric: tabular-nums; }
-.chip .n { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.chip .n { min-width: 0; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow-wrap: break-word; } /* two lines instead of cutting names short */
 .chip .star, .tag .star { color: var(--pick); }
 .more { border: 0; background: none; padding: 1px 6px; text-align: left; cursor: pointer; font-size: 12px; font-weight: 700; color: var(--muted); }
 .dots { display: none; }
@@ -746,10 +746,11 @@ a { color: var(--ink-fg); }
   /* ---------- pieces ---------- */
   function costShort(e) { return e.costShort || ''; }
   function metaLine(e) {
-    var bits = [];
+    // Titles already name the place ("What · Where"), so the line under them skips the venue unless the title doesn't have one.
+    var bits = [], named = e.title.indexOf(' · ') >= 0;
     if (state.city === 'both' && !e.area) bits.push(CITY[e.city]);
-    if (e.area && (!e.venue || e.venue.indexOf(e.area) < 0)) bits.push(e.area);
-    if (e.venue) bits.push(e.venue);
+    if (e.area && (named ? e.title : (e.venue || '')).indexOf(e.area) < 0) bits.push(e.area);
+    if (e.venue && !named) bits.push(e.venue);
     if (costShort(e)) bits.push(costShort(e));
     return bits.join(' · ');
   }

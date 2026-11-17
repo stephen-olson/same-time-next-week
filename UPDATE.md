@@ -2,7 +2,7 @@
 
 This is the playbook for the automated weekly check. It keeps the site honest: only list things that are really happening.
 
-Run it once a week (Monday morning). It takes one pass over `data/events.json`, then rebuilds the site and publishes it.
+Run it once a week (Tuesday morning). It takes one pass over `data/events.json`, then rebuilds the site and publishes it.
 
 ## The rules every listing must meet
 
@@ -40,7 +40,7 @@ Anything that needs joining first (memberships like Toastmasters, applications, 
 ## Steps
 
 0. **Check how you'll read organizer pages.** Fetch two listing URLs from `data/events.json`. If both fail with a network error (for example `403`, `host_not_allowed`, `ENOTFOUND` or a timeout), this run can't open websites directly. Use the page copies instead:
-   - Every Monday morning a GitHub Action (`.github/workflows/page-snapshots.yml`) opens each organizer page and saves its lines with dates, times, prices and the listing's name on the `snapshots` branch. Run `git fetch -q origin snapshots`, then `git show origin/snapshots:index.json`. It lists each page, its HTTP status and its file. Read a file with `git show origin/snapshots:pages/<file>`.
+   - Every Monday evening (with a backup run early Tuesday) a GitHub Action (`.github/workflows/page-snapshots.yml`) opens each organizer page and saves its lines with dates, times, prices and the listing's name on the `snapshots` branch. Run `git fetch -q origin snapshots`, then `git show origin/snapshots:index.json`. It lists each page, its HTTP status and its file. Read a file with `git show origin/snapshots:pages/<file>`.
    - Use the copies only if `fetchedAt` is from the last 2 days. Combine them with web search, which works from the cloud.
    - If there are no recent copies, that's a setup problem, not a listing problem. Don't put anything on hold and don't change any `lastChecked`. Skip to step 7, rebuild and publish, and put "Couldn't open web pages this week" at the top of your summary.
    - A page that returned `403` or a network error, or a copy with no dates, tells you nothing about the listing: check it with web search before counting a miss. A `404` or `410` means the page is gone, so look for the organizer's new page.
