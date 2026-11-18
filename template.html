@@ -776,6 +776,12 @@ a { color: var(--ink-fg); }
     if (priceTag(e)) bits.push(priceTag(e));
     return bits.join(' · ');
   }
+  function metaHtml(e) {
+    // No leading dot when a listing has no price to show.
+    var m = esc(metaLine(e));
+    if (e.entry !== 'signup') return m;
+    return m + (m ? ' · ' : '') + '<span class="flag">Sign up first</span>';
+  }
   function tagHtml(e, inCards) {
     var h = e.philanthropy
       ? '<span class="tag give">' + I.heart + 'Volunteer</span>'
@@ -811,7 +817,7 @@ a { color: var(--ink-fg); }
       '<span class="time">' + (withDate ? '<span class="d">' + esc(shortDate(k)) + '</span>' : '') + esc(startText(e)) + '</span>' +
       '<button type="button" class="main" data-open="' + e.id + '" data-date="' + k + '">' +
       '<span class="title">' + (e.philanthropy ? '<span class="gheart" title="Volunteering">' + I.heart + '</span>' : '') + titleHtml(e.title) + '</span>' +
-      '<span class="meta">' + esc(metaLine(e)) + (e.entry === 'signup' ? ' · <span class="flag">Sign up first</span>' : '') + '</span></button>' +
+      '<span class="meta">' + metaHtml(e) + '</span></button>' +
       goBtn(e, k) + '</div>';
   }
 
