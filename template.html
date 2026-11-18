@@ -57,32 +57,26 @@ a { color: var(--ink-fg); }
 }
 .lg-bg { fill: var(--brand); } .lg-dot { fill: var(--bg); } .lg-hi { fill: var(--pin); }
 
-/* Masthead (scrolls away): the wordmark sits on rough cork so it reads as spray-painted, then the taped-on line.
-   Kept short so the listings start on the first screen. */
+/* Masthead (scrolls away): the wordmark and the tagline sit together as one lockup on rough cork, so it reads as spray-painted.
+   Both sizes follow the screen width so the tagline runs about as wide as the wordmark. Kept short so the listings start on the first screen. */
 .site { position: relative; isolation: isolate; padding-bottom: 12px; }
 .site::before {
   content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
   background-image: var(--grain-rough); background-size: 300px 300px;
   -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent);
 }
-.bar { display: flex; align-items: center; gap: 12px; padding-block: 14px 0; }
+.bar { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding-block: 12px 0; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; min-width: 0; }
 .brand svg { width: 34px; height: 34px; flex: none; }
-.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 8.4vw, 36px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
-.motto { margin-block: 0; padding-top: 8px; }
-.motto span {
-  display: inline-block; max-width: 100%; padding: 3px 12px 1px; background: var(--tape); color: var(--fg);
-  font-family: var(--f-hand); font-weight: 700; font-size: 14px; line-height: 1.3; text-wrap: balance;
-  clip-path: polygon(0 0, 100% 0, calc(100% - 5px) 22%, 100% 46%, calc(100% - 4px) 74%, 100% 100%, 0 100%, 5px 78%, 0 52%, 4px 26%);
-}
+.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 10.2vw, 48px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.motto { margin: 0; max-width: 100%; color: var(--brand); font-family: var(--f-hand); font-weight: 700; font-size: clamp(11px, 3.5vw, 16.5px); line-height: 1.2; text-wrap: balance; }
 @media (min-width: 860px) {
   .site { padding-bottom: 18px; }
-  .bar { padding-top: 24px; }
+  .bar { padding-top: 24px; gap: 4px; }
   .brand { gap: 14px; }
   .brand svg { width: 46px; height: 46px; }
   .brand b { font-size: 50px; }
-  .motto { padding-top: 12px; }
-  .motto span { font-size: 18px; padding: 5px 16px 3px; }
+  .motto { font-size: 17.2px; }
 }
 
 /* Slim sticky bar: the city switch and the section tabs stay on screen */
@@ -508,7 +502,6 @@ a { color: var(--ink-fg); }
   .sday[aria-pressed="true"] { transform: rotate(-2deg); }
   .sday[aria-pressed="true"]:nth-child(even) { transform: rotate(2deg); }
   .row::before, .card::before { transition: background-color .12s ease, box-shadow .15s ease; }
-  .motto span { transform: rotate(-1.2deg); }
   .items > .row:nth-child(4n+1)::before { transform: rotate(-.3deg); }
   .items > .row:nth-child(4n+2)::before { transform: rotate(.25deg); }
   .items > .row:nth-child(4n+3)::before { transform: rotate(-.1deg); }
@@ -530,8 +523,8 @@ a { color: var(--ink-fg); }
     <a class="brand" href="#week" aria-label="Same Time Next Week home">
       <span class="bt"><b><span>Same Time</span> <span>Next Week</span></b></span>
     </a>
+    <p class="motto">Community and events in Durham, Raleigh &amp; Chapel Hill</p>
   </div>
-  <p class="wrap motto"><span>Community and events in Durham, Raleigh &amp; Chapel Hill</span></p>
 </header>
 <div class="tabsbar" role="region" aria-label="Sections and area">
   <div class="wrap navrow">
