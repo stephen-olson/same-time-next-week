@@ -23,6 +23,7 @@
   --scrim: rgba(40, 24, 10, .5);
   --lift: 0 1px 1px rgba(70, 45, 20, .2), 0 3px 8px rgba(70, 45, 20, .12);
   --shadow: 0 2px 4px rgba(50, 30, 10, .18), 0 22px 60px rgba(50, 30, 10, .3);
+  --grain-rough: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='c' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.011' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .26 0 0 0 0 .1 .34 0 0 0 -.13'/%3E%3C/filter%3E%3Cfilter id='a' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.5' numOctaves='2' seed='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .33 0 0 0 0 .2 0 0 0 0 .08 2.4 0 0 0 -1.36'/%3E%3C/filter%3E%3Cfilter id='b' x='0' y='0' width='100%25' height='100%25' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .96 0 0 0 0 .86 0 2.4 0 0 -1.34'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23c)'/%3E%3Crect width='300' height='300' filter='url(%23a)'/%3E%3Crect width='300' height='300' filter='url(%23b)'/%3E%3C/svg%3E");
   --grain: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22 fill=%22none%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M58.3 27.2h0M117.2 13.0h0M96.5 65.8h0M10.4 91.3h0M6.7 78.1h0M12.6 16.3h0M76.4 148.8h0M22.3 40.2h0M112.9 170.6h0M103.9 71.4h0M175.7 8.4h0M154.5 52.1h0M26.0 21.2h0M55.5 146.9h0M32.5 104.7h0M115.0 67.0h0M98.6 11.3h0M10.7 37.1h0M122.5 77.0h0M56.5 105.4h0M81.6 54.0h0M143.0 125.8h0M43.9 103.4h0M94.5 157.5h0M131.3 51.8h0M176.4 21.3h0M75.3 136.3h0M27.4 88.0h0M7.1 120.3h0M137.6 103.1h0M157.6 56.5h0M125.2 107.0h0M104.4 82.1h0M151.2 170.0h0M85.3 119.5h0M10.9 126.3h0M116.5 178.8h0M116.5 -1.2h0M147.9 51.2h0M69.4 120.4h0M4.1 83.1h0M30.2 21.1h0M10.6 138.3h0M23.3 44.6h0M70.4 156.9h0M14.5 80.9h0M98.9 159.0h0M147.5 155.5h0M50.1 74.8h0M64.6 159.2h0M172.4 27.2h0M31.7 41.8h0M42.0 87.3h0M106.0 47.3h0M0.7 75.4h0M180.7 75.4h0M66.5 101.9h0M171.6 124.3h0M92.8 111.2h0M121.7 9.7h0M161.9 140.4h0M157.4 143.6h0M70.6 71.8h0M18.6 114.2h0M11.2 12.1h0M37.6 29.2h0M61.2 9.5h0M0.0 27.2h0M180.0 27.2h0M18.3 65.4h0M4.6 157.4h0M110.5 26.7h0M45.4 62.5h0M65.5 22.1h0M152.8 178.8h0M152.8 -1.2h0M83.9 87.1h0M15.5 18.4h0M61.7 47.7h0M149.2 29.1h0M4.2 171.2h0M95.1 26.4h0M97.8 4.9h0M95.1 176.1h0M155.4 125.3h0M47.0 66.0h0M30.1 138.9h0M95.9 140.2h0M59.3 40.1h0M146.1 177.3h0M153.5 145.1h0M147.3 133.2h0M40.8 93.2h0M64.0 5.2h0M5.0 50.3h0M46.7 124.7h0M172.2 80.5h0M168.7 177.8h0M171.9 65.6h0M39.7 40.8h0M35.4 36.8h0M112.3 162.1h0M151.3 86.3h0M117.5 143.9h0M15.3 118.9h0M163.8 140.8h0M135.0 86.0h0M32.1 142.0h0M59.9 144.1h0M174.9 71.3h0M72.2 170.4h0M130.5 30.6h0M22.9 27.2h0M162.9 145.2h0M26.3 148.8h0M176.5 118.3h0M63.1 98.8h0M23.6 2.6h0M174.8 116.9h0M94.8 168.1h0M78.1 156.9h0M148.7 38.0h0M45.3 52.7h0M43.3 105.6h0M46.7 75.4h0M23.6 163.8h0M63.7 82.5h0M105.0 162.8h0M75.7 165.2h0M90.3 95.7h0M94.2 3.4h0M79.2 33.0h0M0.7 143.9h0M180.7 143.9h0M31.0 85.2h0M130.5 100.2h0M58.7 93.3h0M100.0 141.2h0M19.1 100.9h0M44.7 49.8h0M139.0 91.4h0M101.1 136.8h0M164.2 79.8h0M110.3 91.0h0M92.2 124.7h0M81.4 96.0h0M86.0 169.5h0M125.9 157.8h0M169.6 46.7h0M100.7 169.8h0M151.2 24.7h0M21.9 79.6h0M13.1 43.3h0M13.2 120.5h0M141.1 161.5h0%22 stroke=%22%235C3B17%22 stroke-opacity=%22.30%22 stroke-width=%221.3%22/%3E%3Cpath d=%22M27.8 128.9h0M118.8 25.7h0M158.9 174.2h0M39.5 171.5h0M71.7 87.7h0M178.2 149.8h0M-1.8 149.8h0M29.1 77.7h0M92.8 61.0h0M35.2 57.3h0M130.0 3.5h0M99.7 79.3h0M3.3 59.7h0M112.3 92.2h0M11.6 177.3h0M141.9 174.9h0M18.9 47.8h0M7.1 140.2h0M48.7 23.3h0M76.0 164.1h0M147.4 46.5h0M26.9 165.5h0M102.7 126.1h0M16.1 10.4h0M123.9 76.6h0M13.0 168.9h0M114.2 144.3h0M15.1 154.1h0M12.0 155.3h0M81.7 61.0h0M99.6 166.8h0M48.2 23.3h0M94.8 42.9h0M19.7 29.1h0M9.1 36.3h0M56.2 54.9h0M136.7 52.2h0M90.0 32.0h0M62.5 3.3h0M45.1 2.8h0M132.0 99.2h0M34.1 85.5h0M168.2 19.1h0M147.4 77.8h0M89.1 150.2h0M70.8 91.2h0M123.8 176.8h0M61.7 149.8h0M127.2 114.5h0M72.8 62.6h0M9.8 23.4h0M12.7 133.4h0M46.0 29.4h0M15.2 151.4h0M156.7 120.7h0M50.7 43.6h0M52.8 82.7h0M28.4 80.2h0M47.4 173.1h0M175.1 98.5h0M44.0 173.8h0%22 stroke=%22%237A5228%22 stroke-opacity=%22.16%22 stroke-width=%222.6%22/%3E%3Cpath d=%22M55.7 64.2h0M0.2 68.7h0M180.2 68.7h0M85.4 90.5h0M36.2 90.9h0M0.9 47.6h0M180.9 47.6h0M16.2 71.9h0M7.5 4.0h0M54.8 41.9h0M105.4 95.3h0M135.1 118.4h0M128.9 158.2h0M70.1 58.7h0M177.3 26.9h0M130.3 115.8h0M7.9 150.4h0M160.5 112.9h0M132.1 146.2h0M25.1 94.3h0M90.8 150.3h0M144.8 148.8h0M105.1 160.7h0M122.9 124.8h0M41.4 5.6h0M24.0 64.9h0M18.9 150.4h0M100.5 113.0h0M112.7 122.5h0M88.1 0.6h0M88.1 180.6h0M143.6 134.7h0M90.5 96.3h0M118.7 11.9h0M132.6 45.4h0M13.4 47.8h0M131.3 36.9h0M133.2 175.6h0M88.9 68.9h0M86.2 123.1h0M138.1 111.1h0M115.7 13.9h0M26.5 45.7h0M133.8 54.8h0M102.2 2.2h0M10.9 48.4h0M121.0 124.6h0M121.6 52.4h0M93.0 83.6h0M83.9 21.3h0M160.9 35.9h0M176.1 168.5h0M3.2 82.6h0M147.6 174.3h0M80.9 48.4h0M37.8 170.2h0M37.9 104.7h0M25.5 94.3h0M171.5 23.9h0M147.6 91.6h0M159.6 126.6h0M41.6 161.6h0M87.5 4.5h0M0.6 88.5h0M180.6 88.5h0M81.1 54.4h0M25.3 61.9h0M56.9 151.2h0M0.3 135.1h0M180.3 135.1h0M151.0 21.6h0M166.8 128.3h0M162.3 52.2h0M67.0 70.7h0M179.8 106.1h0M-0.2 106.1h0M64.9 77.0h0M49.5 8.7h0M18.3 150.2h0M51.4 168.4h0M44.9 47.8h0M92.0 34.2h0M67.2 172.1h0M159.2 146.2h0M113.6 164.4h0M169.3 98.9h0M129.5 8.9h0M131.8 81.2h0M135.5 116.0h0M51.5 8.8h0M166.8 22.9h0M85.0 61.9h0M53.6 133.0h0M175.7 46.8h0M118.1 54.2h0M100.3 71.0h0M30.1 29.1h0M37.4 163.1h0M89.5 39.6h0M163.1 179.4h0M163.1 -0.6h0M81.0 25.1h0M34.6 16.3h0M61.6 16.4h0M43.0 46.5h0M102.5 159.7h0M134.9 74.3h0M74.5 94.4h0M67.8 60.9h0M11.2 50.0h0M174.2 22.7h0M90.6 113.3h0M155.3 38.9h0M48.8 44.7h0M72.0 80.3h0M171.7 152.8h0M157.1 3.9h0M5.8 127.7h0M161.2 85.2h0M105.7 0.0h0M105.7 180.0h0M70.5 166.8h0M148.6 154.0h0M175.0 44.7h0M19.6 27.8h0M94.0 122.8h0M169.5 129.9h0M116.5 137.7h0%22 stroke=%22%23FFF4DE%22 stroke-opacity=%22.45%22 stroke-width=%221.2%22/%3E%3Cpath d=%22M82.3 99.3h0M7.1 140.8h0M41.9 165.6h0M116.2 54.7h0M23.0 45.3h0M114.5 125.7h0M20.2 12.7h0M94.4 104.9h0M69.9 40.2h0M108.2 1.9h0M54.3 82.9h0M172.6 116.0h0M159.1 85.6h0M42.3 44.5h0M172.9 126.8h0M55.3 3.9h0M89.7 121.4h0M75.6 46.3h0M120.1 166.5h0M40.8 6.1h0M60.8 75.7h0M122.9 35.7h0M143.5 133.0h0M90.9 36.9h0M174.6 56.1h0M147.6 41.5h0M39.9 136.9h0M53.1 171.3h0M89.2 33.7h0M40.2 75.1h0M119.8 170.8h0M26.3 70.8h0M38.3 175.3h0M25.5 9.3h0M10.8 70.8h0M161.7 159.0h0M131.9 179.6h0M131.9 -0.4h0M167.7 59.3h0M33.4 168.5h0M134.3 5.7h0M119.6 68.2h0M67.3 59.7h0M30.5 0.5h0M30.5 180.5h0M50.4 63.3h0M172.0 22.3h0M173.6 37.3h0M64.2 147.9h0M148.0 77.8h0M8.9 85.2h0M67.1 165.5h0M34.7 65.6h0M161.5 5.5h0M73.9 146.1h0M138.0 7.3h0M6.3 11.3h0M165.6 46.3h0M134.5 161.7h0M61.0 49.0h0M172.4 111.1h0M47.2 129.0h0M57.0 49.6h0M0.7 136.0h0M180.7 136.0h0M165.0 114.1h0M169.8 4.4h0M42.1 85.5h0M172.2 171.7h0M69.6 45.2h0M77.4 88.8h0M167.1 32.9h0M144.5 132.9h0M148.1 139.1h0M109.3 59.0h0M57.5 65.1h0M140.8 14.2h0M35.5 135.5h0M44.5 11.7h0M6.1 99.5h0M58.6 176.4h0M159.0 177.8h0M47.7 15.1h0M17.4 89.7h0M127.8 80.5h0M42.2 75.0h0M111.7 121.3h0M134.6 152.5h0M119.6 21.8h0M151.4 52.9h0M102.0 67.1h0M132.9 35.9h0M44.5 44.2h0M27.6 159.2h0M104.1 58.7h0M71.3 178.6h0M91.3 41.6h0M145.5 117.6h0M178.4 18.4h0M85.5 147.4h0M151.3 164.6h0M7.3 52.9h0M21.5 34.1h0M175.1 105.0h0M167.4 67.0h0M155.9 80.8h0M46.8 140.0h0M170.2 19.0h0M107.3 111.6h0M39.2 66.4h0M25.4 36.7h0M45.9 107.9h0M117.3 36.6h0M2.0 58.9h0M122.1 33.3h0M56.2 36.6h0M143.2 98.6h0M11.4 18.2h0M71.2 99.0h0M115.1 16.4h0M29.5 125.2h0M73.8 51.0h0M55.4 171.6h0M56.2 102.0h0M64.3 75.0h0M155.6 179.4h0M155.6 -0.6h0M65.5 35.5h0M131.0 36.7h0M1.1 162.3h0M76.3 147.7h0M73.1 158.9h0M83.0 29.3h0M2.7 99.3h0M115.3 163.8h0M16.0 112.0h0M66.8 90.8h0M26.3 51.0h0M93.8 166.6h0M19.6 88.3h0M144.9 174.0h0M35.5 22.8h0M169.8 175.6h0M86.9 9.6h0%22 stroke=%22%233F2810%22 stroke-opacity=%22.35%22 stroke-width=%220.8%22/%3E%3C/svg%3E");
   --bar: #FFFDF7; --seg: #F1E8D8; --seg-line: rgba(60, 40, 20, .16);
   --bar-shadow: 0 1px 0 rgba(70, 45, 20, .16), 0 6px 14px -6px rgba(50, 30, 10, .3);
@@ -56,26 +57,31 @@ a { color: var(--ink-fg); }
 }
 .lg-bg { fill: var(--brand); } .lg-dot { fill: var(--bg); } .lg-hi { fill: var(--pin); }
 
-/* Masthead (scrolls away): poster wordmark and the taped-on line */
-.site { position: relative; padding-bottom: 16px; }
-.bar { display: flex; align-items: center; gap: 12px; padding-block: 18px 0; }
+/* Masthead (scrolls away): the wordmark sits on rough cork so it reads as spray-painted, then the taped-on line.
+   Kept short so the listings start on the first screen. */
+.site { position: relative; isolation: isolate; padding-bottom: 12px; }
+.site::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-image: var(--grain-rough); background-size: 300px 300px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent);
+}
+.bar { display: flex; align-items: center; gap: 12px; padding-block: 14px 0; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; min-width: 0; }
 .brand svg { width: 34px; height: 34px; flex: none; }
-.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(32px, 10vw, 40px); line-height: .86; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
-.brand b span { display: block; } /* stacked wordmark on phones, one line on wide screens */
-.motto { margin-block: 0; padding-top: 12px; }
+.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 8.4vw, 36px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.motto { margin-block: 0; padding-top: 8px; }
 .motto span {
-  display: inline-block; max-width: 100%; padding: 4px 14px 2px; background: var(--tape); color: var(--fg);
-  font-family: var(--f-hand); font-weight: 700; font-size: 16px; line-height: 1.35; text-wrap: balance;
+  display: inline-block; max-width: 100%; padding: 3px 12px 1px; background: var(--tape); color: var(--fg);
+  font-family: var(--f-hand); font-weight: 700; font-size: 14px; line-height: 1.3; text-wrap: balance;
   clip-path: polygon(0 0, 100% 0, calc(100% - 5px) 22%, 100% 46%, calc(100% - 4px) 74%, 100% 100%, 0 100%, 5px 78%, 0 52%, 4px 26%);
 }
 @media (min-width: 860px) {
-  .site { padding-bottom: 20px; }
-  .bar { padding-top: 28px; }
+  .site { padding-bottom: 18px; }
+  .bar { padding-top: 24px; }
   .brand { gap: 14px; }
   .brand svg { width: 46px; height: 46px; }
-  .brand b { font-size: 50px; } .brand b span { display: inline; }
-  .motto { padding-top: 14px; }
+  .brand b { font-size: 50px; }
+  .motto { padding-top: 12px; }
   .motto span { font-size: 18px; padding: 5px 16px 3px; }
 }
 
@@ -120,7 +126,8 @@ a { color: var(--ink-fg); }
 .intro > div:first-child { min-width: 0; }
 .intro h1 { font-family: var(--f-display); font-weight: 900; font-size: clamp(34px, 4vw, 44px); line-height: .95; letter-spacing: .012em; text-transform: uppercase; margin: 0 0 6px; text-wrap: balance; }
 .intro p { margin: 0; color: var(--board-muted); max-width: 62ch; font-weight: 500; }
-.intro.compact { padding-block: 20px 0; }
+/* This week and Calendar: the area switch already names the place, so the heading is for screen readers only. */
+.intro.compact { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .intro.compact h1 { font-family: var(--f-body); font-weight: 700; font-size: 17px; line-height: 1.3; letter-spacing: 0; text-transform: none; margin: 0; }
 .cta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
 .quiet { border: 0; background: none; padding: 8px 2px; color: var(--ink-fg); font-weight: 700; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
@@ -154,14 +161,6 @@ a { color: var(--ink-fg); }
 .vhead { margin: 26px 0 12px; font-family: var(--f-display); font-size: 21px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--fg); }
 .rules { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
 .footlink { color: var(--ink-fg); text-decoration: underline; text-underline-offset: 3px; }
-.searchbar { padding-top: 10px; }
-.searchbar input {
-  width: 100%; max-width: 560px; height: 44px; padding: 0 14px 0 42px; border-radius: 10px;
-  border: 1px solid var(--chip-line); color: var(--fg); font-size: 16px; box-shadow: var(--lift);
-  background: var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='7' cy='7' r='4.6' fill='none' stroke='%238a7a68' stroke-width='1.6'/%3E%3Cpath d='m10.4 10.4 3.4 3.4' stroke='%238a7a68' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 14px center / 18px 18px;
-}
-.searchbar input::placeholder { color: var(--muted); }
-.searchbar input:focus { outline: 3px solid var(--ink); outline-offset: 1px; }
 .searchhead { margin-top: 24px; align-items: center; }
 /* The count and the Clear search pill share the heading line; the "for ..." line sits under them. */
 .searchhead .sub { order: 1; flex-basis: 100%; margin-top: 4px; }
@@ -190,6 +189,7 @@ a { color: var(--ink-fg); }
 
 /* Day groups and tickets. Ticket rhythm: 12px top and bottom, 14px left, 4px between time, title and where/cost. */
 .day { margin-top: 28px; }
+#view > .day:first-child { margin-top: 14px; } /* the first day sits close to the stickers */
 .dayhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding-bottom: 10px; }
 .dayhead h2 { font-family: var(--f-display); font-weight: 900; font-size: 32px; line-height: .95; letter-spacing: .015em; text-transform: uppercase; margin: 0; }
 .dayhead .sub { color: var(--board-muted); font-size: 14.5px; font-weight: 700; }
@@ -440,30 +440,31 @@ a { color: var(--ink-fg); }
 .foot button.footlink { margin-block: -8px; }
 .noscript { margin: 24px 0 0; padding: 14px 16px; border-radius: 3px; background: var(--note); font-weight: 700; box-shadow: var(--lift); }
 
-/* Day pages: the next 7 days as tear-off calendar pages with a count of what's on. Tap one to see just that day.
+/* Day pages: the next 7 days as small tear-off pages with a count of what's on. Tap one to jump to that day.
    The row scrolls sideways inside itself only when seven pages don't fit; its padding leaves room for the pin and focus ring. */
-.weektop { display: grid; padding-top: 10px; min-width: 0; }
-#view, #weektop, #ongoing-roles { scroll-margin-top: calc(108px + env(safe-area-inset-top, 0px)); }
-@media (min-width: 700px) { #view, #weektop, #ongoing-roles { scroll-margin-top: calc(62px + env(safe-area-inset-top, 0px)); } }
+.weektop { display: grid; padding-top: 6px; min-width: 0; }
+#view, #weektop, #ongoing-roles, #view .day { scroll-margin-top: calc(112px + env(safe-area-inset-top, 0px)); }
+@media (min-width: 700px) { #view, #weektop, #ongoing-roles, #view .day { scroll-margin-top: calc(70px + env(safe-area-inset-top, 0px)); } }
 .strip {
-  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(44px, 1fr); gap: 6px; min-width: 0;
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(42px, 1fr); gap: 5px; min-width: 0;
   overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
-  margin: 0 -16px; padding: 10px 16px;
+  margin: 0 -16px; padding: 6px 16px 8px;
 }
 .strip::-webkit-scrollbar { display: none; }
 .sday {
-  position: relative; min-width: 0; display: flex; flex-direction: column; align-items: center; padding: 0 0 7px;
+  position: relative; min-width: 0; display: flex; flex-direction: column; align-items: center; padding: 0 0 5px;
   border: 0; border-radius: 3px; background: var(--paper); color: var(--fg); cursor: pointer;
   box-shadow: var(--lift), inset 0 0 0 1px var(--paper-edge);
 }
 .sday .sd-w {
-  align-self: stretch; padding: 5px 0 3px; border-radius: 3px 3px 0 0; background: var(--stub); border-bottom: 1.5px dashed var(--perf);
-  font-family: var(--f-display); font-size: 12px; font-weight: 800; line-height: 1.1; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
+  align-self: stretch; padding: 3px 0 2px; border-radius: 3px 3px 0 0; background: var(--stub); border-bottom: 1.5px dashed var(--perf);
+  font-family: var(--f-display); font-size: 10.5px; font-weight: 800; line-height: 1.1; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap;
 }
-.sday .sd-n { font-family: var(--f-display); font-size: 25px; font-weight: 900; line-height: 1; margin-top: 6px; font-variant-numeric: tabular-nums; }
+.sday .sd-b { display: flex; align-items: center; gap: 3px; margin-top: 4px; }
+.sday .sd-n { font-family: var(--f-display); font-size: 18px; font-weight: 900; line-height: 1; font-variant-numeric: tabular-nums; }
 .sday .sd-c {
-  min-width: 22px; height: 18px; padding: 0 6px; margin-top: 5px; border-radius: 999px; background: var(--ink-tint); color: var(--ink-fg);
-  font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums;
+  min-width: 16px; height: 15px; padding: 0 4px; border-radius: 999px; background: var(--ink-tint); color: var(--ink-fg);
+  font-size: 10px; font-weight: 800; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums;
 }
 .sday.empty .sd-c { background: transparent; color: var(--muted); }
 .sday.istoday .sd-w { background: var(--today); color: var(--today-fg); border-bottom-color: transparent; }
@@ -547,7 +548,6 @@ a { color: var(--ink-fg); }
   <noscript><p class="noscript">This site needs JavaScript to show listings.</p></noscript>
   <section class="intro" id="intro"></section>
   <div class="weektop" id="weektop" hidden></div>
-  <div class="searchbar" id="searchbar"><input type="search" id="q" placeholder="Search: pottery, salsa, trivia, a venue…" aria-label="Search events" autocomplete="off" enterkeyhint="search"></div>
   <div class="filters" id="filters" role="group" aria-label="Filters"></div>
   <div id="view"></div>
 </main>
@@ -814,7 +814,6 @@ a { color: var(--ink-fg); }
     var f = state.f, show = state.view === 'week' || state.view === 'calendar';
     var el = $('filters');
     el.hidden = !show;
-    $('searchbar').hidden = !show;
     if (!show) { el.innerHTML = ''; return; }
     var h = '<button type="button" class="fchip" data-cat="" aria-pressed="' + !catCount() + '">Everything</button>';
     GROUPS.forEach(function (g) {
@@ -867,12 +866,12 @@ a { color: var(--ink-fg); }
   }
   /* ---------- this week: day pages ---------- */
   function stripHtml() {
-    var h = '<div class="strip" role="group" aria-label="Pick a day">';
+    var h = '<div class="strip" role="group" aria-label="Jump to a day">';
     for (var i = 0; i < 7; i++) {
       var k = addDays(TODAY, i), x = parse(k), n = on(k).length;
-      h += '<button type="button" class="sday' + (i === 0 ? ' istoday' : '') + (n ? '' : ' empty') + '" data-wkday="' + k + '" aria-pressed="' + (state.wday === k) + '" aria-label="' +
-        esc((i === 0 ? 'Today, ' : '') + longDate(k) + ': ' + (n ? n + (n > 1 ? ' things' : ' thing') : 'nothing listed')) + '">' +
-        '<span class="sd-w">' + (i === 0 ? 'Today' : DOW[x.getDay()]) + '</span><span class="sd-n">' + x.getDate() + '</span><span class="sd-c">' + n + '</span></button>';
+      h += '<button type="button" class="sday' + (i === 0 ? ' istoday' : '') + (n ? '' : ' empty') + '" data-jumpday="' + k + '" aria-label="' +
+        esc('Jump to ' + (i === 0 ? 'today, ' : '') + longDate(k) + ': ' + (n ? n + (n > 1 ? ' things' : ' thing') : 'nothing listed')) + '">' +
+        '<span class="sd-w">' + (i === 0 ? 'Today' : DOW[x.getDay()]) + '</span><span class="sd-b"><span class="sd-n">' + x.getDate() + '</span><span class="sd-c">' + n + '</span></span></button>';
     }
     return h + '</div>';
   }
@@ -893,7 +892,7 @@ a { color: var(--ink-fg); }
       total += list.length;
       if (!list.length && anyFilter() && !state.wday) return; // with filters on, days with nothing are left out
       var label = i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : DOW_LONG[x.getDay()];
-      h += '<section class="day" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
+      h += '<section class="day" id="day-' + k + '" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
         (i <= 1 ? DOW_LONG[x.getDay()] + ', ' : '') + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</span>' +
         (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') +
         (state.wday ? '<button type="button" class="fclear" data-wkday="">See the whole week</button>' : '') + '</div>';
@@ -903,8 +902,7 @@ a { color: var(--ink-fg); }
       h += '</section>';
     });
     if (!total && anyFilter() && !state.wday) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
-    if (!state.wday) h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
-      (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
+    if (!state.wday && state.span === 7) h += '<div class="more-wrap"><button type="button" class="btn" data-span="14">Show next week</button></div>';
     if (safeUrl(D.suggestUrl)) {
       h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham, Raleigh, Chapel Hill or Carrboro: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
         '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something</a></div>';
@@ -1411,7 +1409,7 @@ a { color: var(--ink-fg); }
     if ((b = t.closest('[data-open]'))) { openEvent(b.dataset.open, b.dataset.date || null, true); return; }
     if ((b = t.closest('[data-city]'))) { setCity(b.dataset.city); return; }
     if ((b = t.closest('[data-rules]'))) { openRules(); return; }
-    if ((b = t.closest('[data-clearq]'))) { state.q = ''; $('q').value = ''; renderView(); $('q').focus(); return; }
+    if ((b = t.closest('[data-clearq]'))) { state.q = ''; renderView(); return; }
     if ((b = t.closest('[data-more]'))) { state.more = !state.more; renderFilters(); return; }
     if ((b = t.closest('[data-q]'))) { state.f[b.dataset.q] = !state.f[b.dataset.q]; renderFilters(); renderView(); return; }
     if ((b = t.closest('[data-cat]'))) {
@@ -1453,21 +1451,13 @@ a { color: var(--ink-fg); }
       if (wiz.cats[w]) delete wiz.cats[w]; else wiz.cats[w] = true;
       b.setAttribute('aria-pressed', String(!!wiz.cats[w])); $('wizOut').innerHTML = wizOutHtml(); return;
     }
-    if ((b = t.closest('[data-wkday]'))) {
-      // Tap a day page to see just that day; tap it again (or "See the whole week") to go back.
-      var wk = b.dataset.wkday, hadW = document.activeElement === b;
-      state.wday = wk && state.wday !== wk ? wk : null;
-      renderView();
-      var nw = document.querySelector('.sday[data-wkday="' + (wk || state.wday) + '"]');
-      if (hadW && nw) nw.focus({ preventScroll: true });
-      // Bring the day's list up when its top sits below about 40% of the screen (or has scrolled off the top).
-      var vt = $('view').getBoundingClientRect().top;
-      if (!wk || (state.wday && (vt < 0 || vt > window.innerHeight * 0.4))) {
-        var reduceW = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        (wk ? $('view') : $('weektop')).scrollIntoView({ behavior: reduceW ? 'auto' : 'smooth', block: 'start' });
-      }
+    if ((b = t.closest('[data-jumpday]'))) {
+      // Tap a day page to jump down to that day in the week's list (no separate one-day view).
+      var target = document.getElementById('day-' + b.dataset.jumpday);
+      if (target) target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
       return;
     }
+    if ((b = t.closest('[data-wkday]'))) { state.wday = null; renderView(); return; }
   });
   document.addEventListener('input', function (ev) {
     if (ev.target && ev.target.id === 'q') { state.q = ev.target.value.trim(); renderView(); }
