@@ -1,5 +1,5 @@
-<title>Same Time Next Week · Find community in Durham &amp; Raleigh, NC</title>
-<meta name="description" content="Jams, dances, classes, run clubs, game nights and volunteer shifts in Durham and Raleigh, NC. Every listing is re-checked weekly.">
+<title>Same Time Next Week · Find community in Durham, Raleigh &amp; Chapel Hill, NC</title>
+<meta name="description" content="Jams, dances, classes, run clubs, game nights and volunteer shifts in Durham, Raleigh, Chapel Hill and Carrboro, NC. Every listing is re-checked weekly.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700;800&family=Big+Shoulders+Display:wght@800;900&family=Kalam:wght@700&display=swap">
@@ -95,6 +95,11 @@ a { color: var(--ink-fg); }
 .cityswitch button { flex: 1 1 0; min-height: 40px; border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 3px 12px; border-radius: 999px; white-space: nowrap; }
 .cityswitch button:hover { color: var(--fg); }
 .cityswitch button[aria-pressed="true"] { background: var(--fg); color: var(--on-ink); box-shadow: 0 1px 2px rgba(30, 20, 10, .25); }
+/* Phones: four areas share one row, so "Chapel Hill & Carrboro" wraps onto two lines and "All" stays narrow. */
+.cityswitch button { padding: 3px 8px; }
+.cityswitch button.long { flex-grow: 1.6; white-space: normal; line-height: 1.1; }
+.cityswitch button.long span { white-space: nowrap; }
+.cityswitch button.all { flex-grow: .7; }
 .pill { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--pin); color: var(--on-pin); font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; }
 @media (min-width: 700px) {
   .navrow { flex-direction: row; align-items: center; justify-content: space-between; gap: 16px; padding-top: 0; }
@@ -102,6 +107,7 @@ a { color: var(--ink-fg); }
   .tabs a { flex: none; min-height: 50px; padding: 3px 12px 0; font-size: 15px; }
   .cityswitch { order: 0; flex: none; }
   .cityswitch button { flex: none; padding: 3px 14px; font-size: 14px; }
+  .cityswitch button.long { white-space: nowrap; }
 }
 /* Small phones: all four tabs (and the My plan count) fit without the row scrolling sideways. */
 @media (max-width: 399.98px) {
@@ -519,9 +525,9 @@ a { color: var(--ink-fg); }
       <span class="bt"><b><span>Same Time</span> <span>Next Week</span></b></span>
     </a>
   </div>
-  <p class="wrap motto"><span>Find community in Durham &amp; Raleigh</span></p>
+  <p class="wrap motto"><span>Find community in Durham, Raleigh &amp; Chapel Hill</span></p>
 </header>
-<div class="tabsbar" role="region" aria-label="Sections and city">
+<div class="tabsbar" role="region" aria-label="Sections and area">
   <div class="wrap navrow">
     <nav class="tabs" aria-label="Sections">
       <a href="#week" data-view="week">This week</a>
@@ -529,10 +535,11 @@ a { color: var(--ink-fg); }
       <a href="#volunteer" data-view="volunteer">Volunteer</a>
       <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
     </nav>
-    <div class="cityswitch" role="group" aria-label="Choose a city">
+    <div class="cityswitch" role="group" aria-label="Choose an area">
       <button type="button" data-city="durham" aria-pressed="true">Durham</button>
       <button type="button" data-city="raleigh" aria-pressed="false">Raleigh</button>
-      <button type="button" data-city="both" aria-pressed="false">Both</button>
+      <button type="button" data-city="chapelhill" aria-pressed="false" class="long"><span>Chapel Hill</span> <span>&amp; Carrboro</span></button>
+      <button type="button" data-city="all" aria-pressed="false" class="all">All</button>
     </div>
   </div>
 </div>
@@ -562,7 +569,10 @@ a { color: var(--ink-fg); }
   var DOW_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  var CITY = { durham: 'Durham', raleigh: 'Raleigh', both: 'Durham and Raleigh' };
+  var CITY = { durham: 'Durham', raleigh: 'Raleigh', chapelhill: 'Chapel Hill & Carrboro', all: 'Durham, Raleigh, Chapel Hill & Carrboro' };
+  var AREAS = ['durham', 'raleigh', 'chapelhill'];
+  // In the All view each listing names its area; Chapel Hill & Carrboro listings name their own town.
+  function cityTag(e) { return e.city === 'chapelhill' && e.area ? e.area : CITY[e.city]; }
   var GROUPS = [
     ['music', 'Music'], ['dance', 'Dance'], ['art', 'Art & making'], ['classes', 'Classes'], ['fitness', 'Active'],
     ['trivia', 'Trivia'], ['games', 'Games'], ['comedy', 'Comedy & improv'], ['books', 'Books & talks'], ['volunteer', 'Volunteer']
@@ -646,9 +656,10 @@ a { color: var(--ink-fg); }
   var VIEWS = ['week', 'calendar', 'volunteer', 'plan'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
   var state = { city: sget('city', 'durham'), view: 'week', span: 7, wday: null, f: blankFilters(), calSel: TODAY, calMonth: null };
+  if (state.city === 'both') state.city = 'all'; // saved before Chapel Hill & Carrboro was added
   if (!CITY[state.city]) state.city = 'durham';
 
-  function inCity(e) { return state.city === 'both' || e.city === state.city; }
+  function inCity(e) { return state.city === 'all' || e.city === state.city; }
   function catCount() { return Object.keys(state.f.cats).length; }
   function anyFilter() { var f = state.f; return catCount() || f.free || f.solo || f.show || f.weeknight || f.weekend || !!state.q; }
   function matchesQuery(e) {
@@ -748,7 +759,7 @@ a { color: var(--ink-fg); }
   function metaLine(e) {
     // Titles already name the place ("What · Where"), so the line under them skips the venue unless the title doesn't have one.
     var bits = [], named = e.title.indexOf(' · ') >= 0;
-    if (state.city === 'both' && !e.area) bits.push(CITY[e.city]);
+    if (state.city === 'all' && !e.area) bits.push(CITY[e.city]);
     if (e.area && (named ? e.title : (e.venue || '')).indexOf(e.area) < 0) bits.push(e.area);
     if (e.venue && !named) bits.push(e.venue);
     if (costShort(e)) bits.push(costShort(e));
@@ -831,7 +842,7 @@ a { color: var(--ink-fg); }
       // Nothing found: say so kindly and offer the next steps that might help.
       var tries = ['another word'], acts = [];
       if (catCount()) { tries.push('fewer filters'); acts.push('<button type="button" class="btn" data-clear="1">Clear filters</button>'); }
-      if (state.city !== 'both') { tries.push('both cities'); acts.unshift('<button type="button" class="btn" data-city="both">Show both cities</button>'); }
+      if (state.city !== 'all') { tries.push('all areas'); acts.unshift('<button type="button" class="btn" data-city="all">Show all areas</button>'); }
       if (safeUrl(D.suggestUrl)) acts.push('<a class="btn" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest it</a>');
       if (acts.length) acts[0] = acts[0].replace('class="btn"', 'class="btn primary"');
       var tryText = tries.length > 2 ? tries.slice(0, -1).join(', ') + ' or ' + tries[tries.length - 1] : tries.join(' or ');
@@ -844,11 +855,15 @@ a { color: var(--ink-fg); }
     return h;
   }
   function thinHint(k, shown) {
-    if (state.city === 'both' || shown > 2) return '';
-    var other = state.city === 'durham' ? 'raleigh' : 'durham';
-    var n = (BYDATE[k] || []).filter(function (e) { return e.city === other && passesFilters(e, k); }).length;
+    if (state.city === 'all' || shown > 2) return '';
+    var n = 0, where = [];
+    AREAS.forEach(function (c) {
+      if (c === state.city) return;
+      var m = (BYDATE[k] || []).filter(function (e) { return e.city === c && passesFilters(e, k); }).length;
+      if (m) { n += m; where.push(CITY[c]); }
+    });
     if (!n) return '';
-    return '<button type="button" class="thinhint" data-city="both">+ ' + n + ' more in ' + CITY[other] + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show both cities</button>';
+    return '<button type="button" class="thinhint" data-city="all">+ ' + n + ' more in ' + esc(where.join(' and ')) + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show all areas</button>';
   }
   /* ---------- this week: day pages ---------- */
   function stripHtml() {
@@ -891,7 +906,7 @@ a { color: var(--ink-fg); }
     if (!state.wday) h += '<div class="more-wrap"><button type="button" class="btn" data-span="' + (state.span === 7 ? 14 : 7) + '">' +
       (state.span === 7 ? 'Show the week after' : 'Show just this week') + '</button></div>';
     if (safeUrl(D.suggestUrl)) {
-      h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham or Raleigh: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
+      h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham, Raleigh, Chapel Hill or Carrboro: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
         '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something</a></div>';
     }
     return h;
@@ -947,7 +962,7 @@ a { color: var(--ink-fg); }
 
   function cardHtml(e) {
     var url = safeUrl(e.url);
-    return '<article class="card"><div class="tags">' + tagHtml(e, true) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>' +
+    return '<article class="card"><div class="tags">' + tagHtml(e, true) + (state.city === 'all' ? '<span class="tag city">' + esc(cityTag(e)) + '</span>' : '') + '</div>' +
       '<h3>' + titleHtml(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p><p class="cdesc">' + esc(e.description || '') + '</p>' +
       '<div class="cactions"><button type="button" class="btn sm primary" data-open="' + e.id + '">How to join</button>' +
       (url ? '<a class="btn sm" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') + '</div></article>';
@@ -1024,7 +1039,7 @@ a { color: var(--ink-fg); }
       (roles.length ? '<button type="button" class="jumplink" data-jump="ongoing-roles">Jump to ongoing roles ↓</button>' : '') + '</div>' +
       '<p class="jsub">Sign up for a single date. Most take a few minutes to register. Each shift is listed at its next date; open it to see the others.</p>';
     h += shifts.length ? '<div class="items">' + shifts.slice(0, 40).map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>'
-      : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'both' ? '' : ' here. Try Both cities') + '.</p>';
+      : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'all' ? '' : ' here. Try All areas') + '.</p>';
     h += '</section>';
     h += '<section class="plansec" id="ongoing-roles"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
     VTYPES.forEach(function (t) {
@@ -1177,7 +1192,7 @@ a { color: var(--ink-fg); }
   }
 
   function detailHtml(e, k) {
-    var url = safeUrl(e.url), h = '<div class="tags">' + tagHtml(e) + (state.city === 'both' ? '<span class="tag city">' + CITY[e.city] + '</span>' : '') + '</div>';
+    var url = safeUrl(e.url), h = '<div class="tags">' + tagHtml(e) + (state.city === 'all' ? '<span class="tag city">' + esc(cityTag(e)) + '</span>' : '') + '</div>';
     var tt = ' data-track-title="' + esc(e.short || e.title) + '"';
     var whenText = k ? longDate(k) + ' · ' + rangeText(e) : (e.rtext || 'Join any time');
     h += '<h2 tabindex="-1">' + titleHtml(e.title) + '</h2>';
@@ -1242,13 +1257,14 @@ a { color: var(--ink-fg); }
   }
 
   var subFeed = null;
-  var FEEDS = [['durham', 'Durham: everything'], ['raleigh', 'Raleigh: everything'], ['all', 'Durham and Raleigh: everything'], ['durham-volunteer', 'Durham: volunteering only'], ['raleigh-volunteer', 'Raleigh: volunteering only']];
+  var FEEDS = [['durham', 'Durham: everything'], ['raleigh', 'Raleigh: everything'], ['chapelhill', 'Chapel Hill & Carrboro: everything'], ['all', 'All areas: everything'],
+    ['durham-volunteer', 'Durham: volunteering only'], ['raleigh-volunteer', 'Raleigh: volunteering only'], ['chapelhill-volunteer', 'Chapel Hill & Carrboro: volunteering only']];
   function feedUrl(name) {
     var base = D.siteUrl || (!D.preview && /^https?:$/.test(location.protocol) ? location.href.split('#')[0] : '');
     return base ? new URL('cal/' + name + '.ics', base).href : null;
   }
   function subscribeHtml() {
-    if (!subFeed) subFeed = state.city === 'both' ? 'all' : state.city;
+    if (!subFeed) subFeed = state.city;
     var label = FEEDS.filter(function (f) { return f[0] === subFeed; })[0][1];
     var h = '<h2 tabindex="-1">Sync to your calendar</h2><p class="lede">This puts every listing into the calendar app on your phone or computer, and keeps it up to date. If an event changes or is cancelled, your calendar changes too. You can remove it any time.</p>' +
       '<div class="feedpick" role="radiogroup" aria-label="Which listings">' + FEEDS.map(function (f) {

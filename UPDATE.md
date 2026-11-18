@@ -15,6 +15,13 @@ A listing stays on the site only if all of these are true:
 5. **Volunteering means working alongside other volunteers.** List group shifts anyone can sign up for: sorting, packing, cleanups, trail work, helping run a public event. Leave out one-on-one support or coaching roles (for example, coaching people with disabilities), roles that need special skills or training, roles that take only one or two volunteers in total, short set-up jobs for an organization's private party, and events meant for families with kids.
    Ongoing roles on the Volunteer tab (programs, such as animal shelter volunteering) may need an application or orientation first; keep those when the work is hands-on alongside staff or other volunteers. Leave out one-on-one support roles and transport- or admin-only roles.
 
+**Where.** Each listing belongs to one area, set in `city`:
+- `"durham"`: Durham.
+- `"raleigh"`: Raleigh, plus Garner at the city edge.
+- `"chapelhill"`: Chapel Hill & Carrboro, plus the Paws4ever (Mebane) and Goathouse Refuge (Pittsboro) animal shelters.
+
+Leave out other towns (for example Hillsborough, Cary, Apex, Morrisville and Wake Forest).
+
 Calendar listings must be things you can **show up to on a date**:
 - `"entry": "show"`: just show up, no paperwork.
 - `"entry": "signup"`: a quick sign-up or ticket for that date (most volunteer shifts, one-day workshops).

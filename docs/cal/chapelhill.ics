@@ -1,0 +1,819 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Same Time Next Week//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Same Time Next Week: Chapel Hill & Carrboro
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Social events in Durham\, Raleigh\, Chapel Hill and Carrboro\,
+  NC. Every listing is re-checked weekly.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d-contra-carrboro-20261113@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261113T193000
+DTEND;TZID=America/New_York:20261113T230000
+SUMMARY:Contra dance · Carrboro Century Center
+LOCATION:Carrboro Century Center\, 100 N Greensboro St\, Carrboro\, NC 2751
+ 0
+DESCRIPTION:Triangle Country Dancers' flagship monthly contra with live mus
+ ic and a beginner lesson\; friendly\, all-ages crowd that welcomes newcome
+ rs.\n\nBeginner lesson at 7:30. The New Year's Eve dance (Contrazz!\, call
+ er Barbara Groh) runs 8pm to midnight\, $18–40.\n\nHow to join: Just sho
+ w up\; pay at the door\n\nBefore you go: January and February dates aren't
+  posted yet. The hall is about 12 miles from downtown Durham.\n\nhttps://w
+ ww.tcdancers.org/new-events\n\nListed on Same Time Next Week.
+URL:https://www.tcdancers.org/new-events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
+ oro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Carrboro Century Center":geo:35.
+ 91036,-79.0722
+END:VEVENT
+BEGIN:VEVENT
+UID:d-contra-carrboro-20261211@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261211T193000
+DTEND;TZID=America/New_York:20261211T230000
+SUMMARY:Contra dance · Carrboro Century Center
+LOCATION:Carrboro Century Center\, 100 N Greensboro St\, Carrboro\, NC 2751
+ 0
+DESCRIPTION:Triangle Country Dancers' flagship monthly contra with live mus
+ ic and a beginner lesson\; friendly\, all-ages crowd that welcomes newcome
+ rs.\n\nBeginner lesson at 7:30. The New Year's Eve dance (Contrazz!\, call
+ er Barbara Groh) runs 8pm to midnight\, $18–40.\n\nHow to join: Just sho
+ w up\; pay at the door\n\nBefore you go: January and February dates aren't
+  posted yet. The hall is about 12 miles from downtown Durham.\n\nhttps://w
+ ww.tcdancers.org/new-events\n\nListed on Same Time Next Week.
+URL:https://www.tcdancers.org/new-events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
+ oro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Carrboro Century Center":geo:35.
+ 91036,-79.0722
+END:VEVENT
+BEGIN:VEVENT
+UID:d-contra-carrboro-20261231@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261231T193000
+DTEND;TZID=America/New_York:20261231T230000
+SUMMARY:Contra dance · Carrboro Century Center
+LOCATION:Carrboro Century Center\, 100 N Greensboro St\, Carrboro\, NC 2751
+ 0
+DESCRIPTION:Triangle Country Dancers' flagship monthly contra with live mus
+ ic and a beginner lesson\; friendly\, all-ages crowd that welcomes newcome
+ rs.\n\nBeginner lesson at 7:30. The New Year's Eve dance (Contrazz!\, call
+ er Barbara Groh) runs 8pm to midnight\, $18–40.\n\nHow to join: Just sho
+ w up\; pay at the door\n\nBefore you go: January and February dates aren't
+  posted yet. The hall is about 12 miles from downtown Durham.\n\nhttps://w
+ ww.tcdancers.org/new-events\n\nListed on Same Time Next Week.
+URL:https://www.tcdancers.org/new-events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
+ oro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Carrboro Century Center":geo:35.
+ 91036,-79.0722
+END:VEVENT
+BEGIN:VEVENT
+UID:d-contra-carrboro-2-20261205@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261205T190000
+DTEND;TZID=America/New_York:20261205T223000
+SUMMARY:Contra dance\, Saturday · Carrboro Century Center
+LOCATION:Carrboro Century Center\, 100 N Greensboro St\, Carrboro\, NC 2751
+ 0
+DESCRIPTION:Monthly first-Saturday contra (occasionally a big-band 'Rushfes
+ t!')\, lesson included\; no partner needed.\n\nBeginner lesson at 7pm\n\nH
+ ow to join: Just show up\; pay at the door\n\nBefore you go: Only Dec 5 is
+  posted so far.\n\nhttps://www.tcdancers.org/new-events\n\nListed on Same 
+ Time Next Week.
+URL:https://www.tcdancers.org/new-events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
+ oro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Carrboro Century Center":geo:35.
+ 91036,-79.0722
+END:VEVENT
+BEGIN:VEVENT
+UID:d-swing-dance-20261121@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261121T190000
+DTEND;TZID=America/New_York:20261121T230000
+SUMMARY:Swing dance party · Carrboro Century Center
+LOCATION:Carrboro Century Center\, 100 N Greensboro St\, Carrboro\, NC 2751
+ 0
+DESCRIPTION:The Triangle Swing Dance Society's monthly live-band swing danc
+ e with a free beginner lesson\; no partner needed.\n\nBeginner lesson at 7
+ pm (included)\; live band 8–11pm. Optional $5 'Beyond the Basics' lesson
+  at 6:45pm at the Carrboro Civic Club.\n\nHow to join: Buy tickets on the 
+ Triangle Swing Dance Society website (on sale about 2 weeks before) or at 
+ the door\n\nBefore you go: Only Nov 21 is posted so far. Dances are roughl
+ y monthly\, often on the 3rd Saturday\, so check for December through Febr
+ uary dates.\n\nhttps://triangleswingdancesociety.squarespace.com/events\n\
+ nListed on Same Time Next Week.
+URL:https://triangleswingdancesociety.squarespace.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
+ oro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Carrboro Century Center":geo:35.
+ 91036,-79.0722
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bird-walk-20261114@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261114T080000
+DTEND;TZID=America/New_York:20261114T110000
+SUMMARY:Bird walk · Mason Farm Preserve
+LOCATION:Mason Farm Biological Preserve (most outings)\, 500 Finley Golf Co
+ urse Rd\, Chapel Hill\, NC 27517
+DESCRIPTION:Free guided bird walks (formerly New Hope Audubon)\; no reserva
+ tions\, all skill levels\, about twice a week in season.\n\nMost walks mee
+ t at Mason Farm Biological Preserve\; the Bird Alliance posts each walk's 
+ location a day or two ahead.\n\nHow to join: Just show up\; the Bird Allia
+ nce posts each walk's location on its website a day or two ahead\n\nBefore
+  you go: December to February walks aren't posted yet (it's Christmas Bird
+  Count season).\n\nhttps://newhopebirdalliance.org/\n\nListed on Same Time
+  Next Week.
+URL:https://newhopebirdalliance.org/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="500 Finley Golf Course Rd,
+  Chapel Hill, NC 27517";X-APPLE-RADIUS=70;X-TITLE="Mason Farm Biological P
+ reserve (most outings)":geo:35.897414,-79.021992
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bird-walk-20261125@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261125T080000
+DTEND;TZID=America/New_York:20261125T110000
+SUMMARY:Bird walk · Mason Farm Preserve
+LOCATION:Mason Farm Biological Preserve (most outings)\, 500 Finley Golf Co
+ urse Rd\, Chapel Hill\, NC 27517
+DESCRIPTION:Free guided bird walks (formerly New Hope Audubon)\; no reserva
+ tions\, all skill levels\, about twice a week in season.\n\nMost walks mee
+ t at Mason Farm Biological Preserve\; the Bird Alliance posts each walk's 
+ location a day or two ahead.\n\nHow to join: Just show up\; the Bird Allia
+ nce posts each walk's location on its website a day or two ahead\n\nBefore
+  you go: December to February walks aren't posted yet (it's Christmas Bird
+  Count season).\n\nhttps://newhopebirdalliance.org/\n\nListed on Same Time
+  Next Week.
+URL:https://newhopebirdalliance.org/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="500 Finley Golf Course Rd,
+  Chapel Hill, NC 27517";X-APPLE-RADIUS=70;X-TITLE="Mason Farm Biological P
+ reserve (most outings)":geo:35.897414,-79.021992
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bird-club-meeting-20261203@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261203T190000
+DTEND;TZID=America/New_York:20261203T210000
+SUMMARY:Bird club meeting · NC Botanical Garden
+LOCATION:NC Botanical Garden\, 100 Old Mason Farm Rd\, Chapel Hill\, NC 275
+ 17
+DESCRIPTION:Monthly chapter meeting with a speaker program. It's where you 
+ meet the people who lead the bird walks.\n\nHow to join: Just show up\n\nB
+ efore you go: Check the Bird Alliance website to confirm the meeting is in
+  person and open to visitors.\n\nhttps://newhopebirdalliance.org/\n\nListe
+ d on Same Time Next Week.
+URL:https://newhopebirdalliance.org/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 Old Mason Farm Rd, Cha
+ pel Hill, NC 27517";X-APPLE-RADIUS=70;X-TITLE="NC Botanical Garden":geo:35
+ .901169,-79.032019
+END:VEVENT
+BEGIN:VEVENT
+UID:d-bird-walk-2-20261118@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261118T080000
+DTEND;TZID=America/New_York:20261118T110000
+SUMMARY:Bird walk · Brumley Forest
+LOCATION:Brumley Forest Nature Preserve\, north\, 3620 Old State Hwy 10\, N
+ C
+DESCRIPTION:A free guided bird walk with the New Hope Bird Alliance (former
+ ly New Hope Audubon). All skill levels are welcome\, and the walk leaders 
+ are glad to help beginners.\n\nHow to join: Just show up\; no reservation 
+ needed\n\nBefore you go: The Bird Alliance posts each walk's location a da
+ y or two ahead\; check the morning of.\n\nhttps://newhopebirdalliance.org/
+ \n\nListed on Same Time Next Week.
+URL:https://newhopebirdalliance.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:d-tree-planting-training-20261115@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261115T140000
+DTEND;TZID=America/New_York:20261115T170000
+SUMMARY:Tree planting training · Trees for the Triangle
+LOCATION:Trees for the Triangle\, Carrboro\, NC (exact meeting spot on the 
+ sign-up listing)
+DESCRIPTION:A hands-on afternoon learning to plant trees with a Triangle tr
+ ee-planting group. It's outdoor group work with plenty of time to talk.\n\
+ nHow to join: Sign up for 'Tree Planting Training in Carrboro 11/15/26' on
+  volunteer.activategood.org (search for the title). Spots are limited.\n\n
+ Before you go: Confirm the meeting location after you sign up.\n\nhttps://
+ volunteer.activategood.org/\n\nListed on Same Time Next Week.
+URL:https://volunteer.activategood.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:c-waltz-sunday-20261213@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261213T151500
+DTEND;TZID=America/New_York:20261213T180000
+SUMMARY:Waltz Sunday · United Church of Chapel Hill
+LOCATION:United Church of Chapel Hill\, 1321 Martin Luther King Jr Blvd\, C
+ hapel Hill\, NC 27514
+DESCRIPTION:Monthly open waltz to live music with a lesson first. No partne
+ r needed.\n\n2nd Sundays\; lesson 3:15\, dancing 4 to 6\n\nHow to join: Ju
+ st show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.tcdance
+ rs.org/new-events\n\nListed on Same Time Next Week.
+URL:https://www.tcdancers.org/new-events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1321 Martin Luther King Jr
+  Blvd, Chapel Hill, NC 27514";X-APPLE-RADIUS=70;X-TITLE="United Church of 
+ Chapel Hill":geo:35.95341,-79.057756
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261116@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261116T180000
+DTEND;TZID=America/New_York:20261116T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261123@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261123T180000
+DTEND;TZID=America/New_York:20261123T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261130@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261130T180000
+DTEND;TZID=America/New_York:20261130T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261207@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261207T180000
+DTEND;TZID=America/New_York:20261207T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261214@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261214T180000
+DTEND;TZID=America/New_York:20261214T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261221@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261221T180000
+DTEND;TZID=America/New_York:20261221T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-open-mic-steel-string-20261228@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261228T180000
+DTEND;TZID=America/New_York:20261228T230000
+SUMMARY:Open mic · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly open mic at a Carrboro brewery taproom. Performers and l
+ isteners both welcome.\n\nEvery Monday at the taproom\n\nHow to join: Just
+  show up\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261111@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261118@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261118T190000
+DTEND;TZID=America/New_York:20261118T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261125@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261202@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261202T190000
+DTEND;TZID=America/New_York:20261202T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261209@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261209T190000
+DTEND;TZID=America/New_York:20261209T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261216@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261216T190000
+DTEND;TZID=America/New_York:20261216T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-craft-night-steel-string-20261223@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261223T190000
+DTEND;TZID=America/New_York:20261223T220000
+SUMMARY:Craft night · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly craft night at a Carrboro taproom. Bring knitting\, croc
+ het or any hand project and sit with other crafters.\n\nEvery Wednesday at
+  the taproom\n\nHow to join: Just show up with a project\n\nBefore you go:
+  Check holiday schedule\n\nhttps://steelstringbrewery.com/calendar/\n\nLis
+ ted on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-chime-in-open-mic-20261113@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261113T183000
+DTEND;TZID=America/New_York:20261113T210000
+SUMMARY:The Chime In poetry open mic · Lanza's Cafe
+LOCATION:Lanza's Cafe\, 601 W Main St\, Suite C\, Carrboro\, NC 27510
+DESCRIPTION:Twice-monthly open mic for poetry\, stories\, songs and spoken 
+ word at a Carrboro cafe. Readers and listeners both welcome.\n\n2nd and 4t
+ h Fridays\; sign-in at 6\n\nHow to join: Just show up\n\nBefore you go: Ch
+ eck holiday schedule\n\nhttps://lanzascafe.com/events\n\nListed on Same Ti
+ me Next Week.
+URL:https://lanzascafe.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
+ rrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Lanza's Cafe":geo:35.913567,-
+ 79.079677
+END:VEVENT
+BEGIN:VEVENT
+UID:c-chime-in-open-mic-20261127@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261127T183000
+DTEND;TZID=America/New_York:20261127T210000
+SUMMARY:The Chime In poetry open mic · Lanza's Cafe
+LOCATION:Lanza's Cafe\, 601 W Main St\, Suite C\, Carrboro\, NC 27510
+DESCRIPTION:Twice-monthly open mic for poetry\, stories\, songs and spoken 
+ word at a Carrboro cafe. Readers and listeners both welcome.\n\n2nd and 4t
+ h Fridays\; sign-in at 6\n\nHow to join: Just show up\n\nBefore you go: Ch
+ eck holiday schedule\n\nhttps://lanzascafe.com/events\n\nListed on Same Ti
+ me Next Week.
+URL:https://lanzascafe.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
+ rrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Lanza's Cafe":geo:35.913567,-
+ 79.079677
+END:VEVENT
+BEGIN:VEVENT
+UID:c-chime-in-open-mic-20261211@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T210000
+SUMMARY:The Chime In poetry open mic · Lanza's Cafe
+LOCATION:Lanza's Cafe\, 601 W Main St\, Suite C\, Carrboro\, NC 27510
+DESCRIPTION:Twice-monthly open mic for poetry\, stories\, songs and spoken 
+ word at a Carrboro cafe. Readers and listeners both welcome.\n\n2nd and 4t
+ h Fridays\; sign-in at 6\n\nHow to join: Just show up\n\nBefore you go: Ch
+ eck holiday schedule\n\nhttps://lanzascafe.com/events\n\nListed on Same Ti
+ me Next Week.
+URL:https://lanzascafe.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
+ rrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Lanza's Cafe":geo:35.913567,-
+ 79.079677
+END:VEVENT
+BEGIN:VEVENT
+UID:c-third-space-open-mic-20261120@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261120T190000
+DTEND;TZID=America/New_York:20261120T210000
+SUMMARY:Third Space open mic · Lanza's Cafe
+LOCATION:Lanza's Cafe\, 601 W Main St\, Suite C\, Carrboro\, NC 27510
+DESCRIPTION:Monthly open mic at a Carrboro cafe for musicians\, comedians a
+ nd other performers. Names are drawn from a hat so everyone gets a turn.\n
+ \n3rd Fridays\n\nHow to join: Just show up\; no ticket needed\n\nBefore yo
+ u go: Check holiday schedule\n\nhttps://lanzascafe.com/events\n\nListed on
+  Same Time Next Week.
+URL:https://lanzascafe.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
+ rrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Lanza's Cafe":geo:35.913567,-
+ 79.079677
+END:VEVENT
+BEGIN:VEVENT
+UID:c-third-space-open-mic-20261218@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261218T190000
+DTEND;TZID=America/New_York:20261218T210000
+SUMMARY:Third Space open mic · Lanza's Cafe
+LOCATION:Lanza's Cafe\, 601 W Main St\, Suite C\, Carrboro\, NC 27510
+DESCRIPTION:Monthly open mic at a Carrboro cafe for musicians\, comedians a
+ nd other performers. Names are drawn from a hat so everyone gets a turn.\n
+ \n3rd Fridays\n\nHow to join: Just show up\; no ticket needed\n\nBefore yo
+ u go: Check holiday schedule\n\nhttps://lanzascafe.com/events\n\nListed on
+  Same Time Next Week.
+URL:https://lanzascafe.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
+ rrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Lanza's Cafe":geo:35.913567,-
+ 79.079677
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261110@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261110T183300
+DTEND;TZID=America/New_York:20261110T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261117@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261117T183300
+DTEND;TZID=America/New_York:20261117T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261124@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261124T183300
+DTEND;TZID=America/New_York:20261124T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261201@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261201T183300
+DTEND;TZID=America/New_York:20261201T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261208@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261208T183300
+DTEND;TZID=America/New_York:20261208T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261215@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261215T183300
+DTEND;TZID=America/New_York:20261215T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261222@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261222T183300
+DTEND;TZID=America/New_York:20261222T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-carrboro-run-club-20261229@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261229T183300
+DTEND;TZID=America/New_York:20261229T193300
+SUMMARY:Carrboro Run Club · Dingo Dog Brewing
+LOCATION:Dingo Dog Brewing\, 410 N Greensboro St\, Suite 150\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly run or walk from a Carrboro taproom with route options f
+ rom 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to me
+ et people.\n\nEvery Tuesday\; 1.5\, 3\, 4 and 5 mile routes\n\nHow to join
+ : Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.din
+ godogbrewing.com/events\n\nListed on Same Time Next Week.
+URL:https://www.dingodogbrewing.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
+  150, Carrboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Dingo Dog Brewing":ge
+ o:35.913893,-79.072155
+END:VEVENT
+BEGIN:VEVENT
+UID:c-run-club-steel-string-20261112@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261112T183000
+DTEND;TZID=America/New_York:20261112T193000
+SUMMARY:Run club · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly pub run with Fleet Feet from a Carrboro brewery\, with 3
+  and 5 mile routes and a pint afterward.\n\nEvery Thursday\; 3 and 5 mile 
+ routes\n\nHow to join: Just show up (Fleet Feet also has a free registrati
+ on link)\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-run-club-steel-string-20261119@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261119T183000
+DTEND;TZID=America/New_York:20261119T193000
+SUMMARY:Run club · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly pub run with Fleet Feet from a Carrboro brewery\, with 3
+  and 5 mile routes and a pint afterward.\n\nEvery Thursday\; 3 and 5 mile 
+ routes\n\nHow to join: Just show up (Fleet Feet also has a free registrati
+ on link)\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-run-club-steel-string-20261203@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261203T183000
+DTEND;TZID=America/New_York:20261203T193000
+SUMMARY:Run club · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly pub run with Fleet Feet from a Carrboro brewery\, with 3
+  and 5 mile routes and a pint afterward.\n\nEvery Thursday\; 3 and 5 mile 
+ routes\n\nHow to join: Just show up (Fleet Feet also has a free registrati
+ on link)\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-run-club-steel-string-20261210@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261210T183000
+DTEND;TZID=America/New_York:20261210T193000
+SUMMARY:Run club · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly pub run with Fleet Feet from a Carrboro brewery\, with 3
+  and 5 mile routes and a pint afterward.\n\nEvery Thursday\; 3 and 5 mile 
+ routes\n\nHow to join: Just show up (Fleet Feet also has a free registrati
+ on link)\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-run-club-steel-string-20261217@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261217T183000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Run club · Steel String Brewery
+LOCATION:Steel String Brewery\, 106A S Greensboro St\, Carrboro\, NC 27510
+DESCRIPTION:Weekly pub run with Fleet Feet from a Carrboro brewery\, with 3
+  and 5 mile routes and a pint afterward.\n\nEvery Thursday\; 3 and 5 mile 
+ routes\n\nHow to join: Just show up (Fleet Feet also has a free registrati
+ on link)\n\nBefore you go: Check holiday schedule\n\nhttps://steelstringbr
+ ewery.com/calendar/\n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/calendar/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery":geo:35.91
+ 0212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-forest-ecology-hike-20261127@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261127T090000
+DTEND;TZID=America/New_York:20261127T113000
+SUMMARY:Fall forest ecology hike · Johnston Mill Preserve
+LOCATION:Johnston Mill Preserve\, secondary entrance\, 6001 Turkey Farm Rd\
+ , Chapel Hill\, NC 27514
+DESCRIPTION:Guided 3 mile hike with Triangle Land Conservancy looking at fa
+ ll forest habitats. A small group walk led by staff.\n\nFriday after Thank
+ sgiving\; 3 mile moderate hike\n\nHow to join: Register free on the event 
+ page\n\nhttps://triangleland.org/event/fall-forest-ecology-hike\n\nListed 
+ on Same Time Next Week.
+URL:https://triangleland.org/event/fall-forest-ecology-hike
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="6001 Turkey Farm Rd, Chape
+ l Hill, NC 27514";X-APPLE-RADIUS=70;X-TITLE="Johnston Mill Preserve, secon
+ dary entrance":geo:35.991298,-79.048079
+END:VEVENT
+BEGIN:VEVENT
+UID:c-speed-hike-20261128@same-time-next-week
+DTSTAMP:20261118T033639Z
+DTSTART;TZID=America/New_York:20261128T090000
+DTEND;TZID=America/New_York:20261128T110000
+SUMMARY:Speed hike · Johnston Mill Preserve
+LOCATION:Johnston Mill Preserve\, main entrance\, 2713 Mt Sinai Rd\, Chapel
+  Hill\, NC 27514
+DESCRIPTION:Guided brisk hike of about 3 miles led by a Triangle Land Conse
+ rvancy trail guide\, a social way to start Saturday.\n\nSaturday\; about 3
+  miles at a 20 minute per mile pace\n\nHow to join: Register free on the e
+ vent page\n\nhttps://triangleland.org/event/speed-hike-at-johnston-mill-7\
+ n\nListed on Same Time Next Week.
+URL:https://triangleland.org/event/speed-hike-at-johnston-mill-7
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2713 Mt Sinai Rd, Chapel H
+ ill, NC 27514";X-APPLE-RADIUS=70;X-TITLE="Johnston Mill Preserve, main ent
+ rance":geo:35.996076,-79.053874
+END:VEVENT
+END:VCALENDAR

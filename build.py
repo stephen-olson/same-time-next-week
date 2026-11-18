@@ -36,10 +36,14 @@ CATEGORIES = {"music", "dance", "art", "fitness", "trivia", "games", "comedy", "
 FEEDS = {
     "durham": ("Same Time Next Week: Durham", lambda e: e["city"] == "durham"),
     "raleigh": ("Same Time Next Week: Raleigh", lambda e: e["city"] == "raleigh"),
-    "all": ("Same Time Next Week: Durham and Raleigh", lambda e: True),
+    "chapelhill": ("Same Time Next Week: Chapel Hill & Carrboro", lambda e: e["city"] == "chapelhill"),
+    "all": ("Same Time Next Week: all areas", lambda e: True),
     "durham-volunteer": ("Same Time Next Week: Durham volunteering", lambda e: e["city"] == "durham" and e.get("philanthropy")),
     "raleigh-volunteer": ("Same Time Next Week: Raleigh volunteering", lambda e: e["city"] == "raleigh" and e.get("philanthropy")),
+    "chapelhill-volunteer": ("Same Time Next Week: Chapel Hill & Carrboro volunteering",
+                             lambda e: e["city"] == "chapelhill" and e.get("philanthropy")),
 }
+CITIES = ("durham", "raleigh", "chapelhill")  # chapelhill = Chapel Hill & Carrboro
 VTIMEZONE = [
     "BEGIN:VTIMEZONE", "TZID:America/New_York",
     "BEGIN:DAYLIGHT", "TZOFFSETFROM:-0500", "TZOFFSETTO:-0400", "TZNAME:EDT",
@@ -192,7 +196,7 @@ def validate(events):
         assert e.get("id") and e["id"] not in seen, f"duplicate or missing id: {where}"
         seen.add(e["id"])
         assert re.fullmatch(r"[a-z0-9-]+", e["id"]), f"bad id: {where}"
-        assert e.get("city") in ("durham", "raleigh"), f"bad city: {where}"
+        assert e.get("city") in CITIES, f"bad city: {where}"
         assert e.get("kind") in ("event", "program"), f"bad kind: {where}"
         assert e.get("category") in CATEGORIES, f"bad category: {where}"
         assert e.get("title"), f"missing title: {where}"
@@ -304,7 +308,7 @@ def write_feeds(events, out, today, stamp):
     for name, (title, keep) in FEEDS.items():
         lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Same Time Next Week//EN", "CALSCALE:GREGORIAN",
                  "METHOD:PUBLISH", f"X-WR-CALNAME:{ics_esc(title)}", "X-WR-TIMEZONE:America/New_York",
-                 "X-WR-CALDESC:Social events in Durham and Raleigh\\, NC. Every listing is re-checked weekly.",
+                 "X-WR-CALDESC:Social events in Durham\\, Raleigh\\, Chapel Hill and Carrboro\\, NC. Every listing is re-checked weekly.",
                  "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"] + VTIMEZONE
         for e in events:
             if e["kind"] != "event" or not keep(e):
@@ -438,7 +442,7 @@ def main():
         '<meta name="theme-color" content="#D5B68B" media="(prefers-color-scheme: dark)">\n'
         '<meta name="apple-mobile-web-app-title" content="Same Time Next Week">\n'
         '<meta property="og:type" content="website">\n<meta property="og:site_name" content="Same Time Next Week">\n'
-        '<meta property="og:title" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n'
+        '<meta property="og:title" content="Same Time Next Week: recurring things to do with people in Durham, Raleigh and Chapel Hill">\n'
         '<meta property="og:description" content="Jams, dances, run clubs, game nights and volunteer shifts that happen every week or month. Just show up, and keep coming back. Checked weekly.">\n'
         '<meta name="twitter:card" content="summary_large_image">\n'
     )
@@ -449,7 +453,7 @@ def main():
                        f'<meta property="og:url" content="{site_url}">\n'
                        f'<meta property="og:image" content="{site_url}og-card.png?v={card_version}">\n'
                        '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
-                       '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham and Raleigh">\n')
+                       '<meta property="og:image:alt" content="Same Time Next Week: recurring things to do with people in Durham, Raleigh and Chapel Hill">\n')
     if counter:
         extra_head += (f'<script data-goatcounter="https://{counter}.goatcounter.com/count" '
                        'async src="https://gc.zgo.at/count.js"></script>\n')

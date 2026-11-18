@@ -1,6 +1,6 @@
 # Same Time Next Week
 
-Things to do with people in Durham and Raleigh, NC: jams, dances, classes, run clubs, game nights and volunteer shifts that repeat, so you keep seeing the same faces.
+Things to do with people in Durham, Raleigh, and Chapel Hill & Carrboro, NC: jams, dances, classes, run clubs, game nights and volunteer shifts that repeat, so you keep seeing the same faces.
 
 ## What's here
 

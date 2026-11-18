@@ -128,7 +128,7 @@
   },
   {
    "id": "d-contra-carrboro",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
@@ -161,7 +161,7 @@
   },
   {
    "id": "d-contra-carrboro-2",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
@@ -191,7 +191,7 @@
   },
   {
    "id": "d-swing-dance",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
@@ -318,7 +318,11 @@
    "firstTime": "Just show up any time between 6 and 9 and wander at your own pace. Receptions are easy places to chat. Comfortable walking shoes are a good idea.",
    "url": "https://downtowndurham.com/thirdfriday/",
    "verifyNote": "Individual venue hours vary.",
-   "lastChecked": "2026-11-12"
+   "lastChecked": "2026-11-12",
+   "geo": [
+    35.997239,
+    -78.903792
+   ]
   },
   {
    "id": "d-figure-drawing-draw-y-all",
@@ -1108,7 +1112,7 @@
   },
   {
    "id": "d-bird-walk",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
@@ -1448,7 +1452,7 @@
   },
   {
    "id": "d-bird-club-meeting",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "regular",
@@ -1481,7 +1485,7 @@
   },
   {
    "id": "d-bird-walk-2",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "show",
    "tier": "confirmed",
@@ -4748,7 +4752,7 @@
   },
   {
    "id": "d-orange-county-animal-services-chapel-hil",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "program",
    "pgroup": "volunteer",
    "vtype": "animals",
@@ -4774,7 +4778,7 @@
   },
   {
    "id": "d-paws4ever-mebane",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "program",
    "pgroup": "volunteer",
    "vtype": "animals",
@@ -4800,7 +4804,7 @@
   },
   {
    "id": "d-goathouse-refuge-pittsboro",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "program",
    "pgroup": "volunteer",
    "vtype": "animals",
@@ -4979,7 +4983,7 @@
   },
   {
    "id": "d-tree-planting-training",
-   "city": "durham",
+   "city": "chapelhill",
    "kind": "event",
    "entry": "signup",
    "tier": "confirmed",
@@ -5004,35 +5008,6 @@
    "url": "https://volunteer.activategood.org/",
    "verifyNote": "Confirm the meeting location after you sign up.",
    "evidence": "volunteer.activategood.org listing seen 2026-11-13: 'Tree Planting Training in Carrboro 11/15/26 — Trees for the Triangle — Sun, Nov 15, 2026: 2:00PM - 5:00PM EST — Location: Carrboro, NC — 20 Spots Available'.",
-   "lastChecked": "2026-11-13"
-  },
-  {
-   "id": "d-diaper-wrapping",
-   "city": "durham",
-   "kind": "event",
-   "entry": "signup",
-   "tier": "confirmed",
-   "vtype": "other",
-   "title": "Diaper wrapping · Diaper Bank of NC",
-   "short": "Diaper wrapping",
-   "category": "volunteer",
-   "philanthropy": true,
-   "solo": true,
-   "dates": [
-    "2026-11-16"
-   ],
-   "start": "09:30",
-   "end": "11:30",
-   "venue": "Diaper Bank of North Carolina – Triangle Branch",
-   "address": "Hillsborough, NC (exact address given when you sign up)",
-   "noMap": true,
-   "cost": "Free",
-   "description": "Wrap and package diapers for families in need at the diaper bank's Triangle branch. It's a low-pressure, sociable shift with room for up to 24 volunteers.",
-   "howToJoin": "Sign up for 'Triangle Branch (Hillsborough) - Onsite Diaper Wrapping' on Activate Good's volunteer portal (search for the title).",
-   "firstTime": "Arrive a few minutes early so staff can show you the process.",
-   "url": "https://volunteer.activategood.org/",
-   "verifyNote": "More wrapping dates are posted on the same Activate Good sign-up.",
-   "evidence": "volunteer.activategood.org listing seen 2026-11-13: 'Triangle Branch (Hillsborough) - Onsite Diaper Wrapping — Diaper Bank of North Carolina — Mon, Nov 16, 2026: 9:30AM - 11:30AM EST (+ 120 more) — Hillsborough, NC — 24 Spots Available'.",
    "lastChecked": "2026-11-13"
   },
   {
@@ -6199,6 +6174,952 @@
    "geo": [
     35.778474,
     -78.643532
+   ]
+  },
+  {
+   "id": "d-sunday-salsa-social",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Sunday salsa social · TDS Space",
+   "short": "Sunday salsa social",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Sun"
+    ]
+   },
+   "start": "18:30",
+   "end": "21:30",
+   "timeNote": "Every Sunday; beginner lesson at 6:30, dancing 7:15 to 9:30",
+   "venue": "TDS Space (back studio)",
+   "address": "2603 S Miami Blvd, Durham, NC 27703",
+   "cost": "$7 to $10 at the door (cash)",
+   "description": "Long-running weekly salsa and bachata night that starts with a basic lesson. Rotating DJs and a mixed crowd make it easy to meet people.",
+   "howToJoin": "Just show up and pay at the door",
+   "firstTime": "Arrive by 6:30 for the beginner lesson. No partner needed; bring cash and wear comfortable shoes. There's no sign: it's next door to Research Triangle Dental, in the building at the back of the parking lot on the left.",
+   "url": "https://www.meetup.com/salsaforu/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "meetup.com/salsaforu (Salsa For U, event page says 'in its 15th year'): Sunday Salsa Social, lesson 6:30, dancing 7:15-9:30, upcoming Nov 22, Nov 29, Dec 6, Dec 13; past Nov 8 and Nov 15. dancegumbo.com (run by the same organizers): 'Every Sunday, Sunday Salsa Social'. Meetup RSVP counts are low because most people pay at the door (checked Nov 17, 2026); Meetup event pages give the venue as 'TDS Space, 2603 S Miami Blvd, Durham' (back studio, next to Research Triangle Dental)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.932361,
+    -78.842854
+   ]
+  },
+  {
+   "id": "c-waltz-sunday",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Waltz Sunday · United Church of Chapel Hill",
+   "short": "Waltz Sunday",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2
+    ],
+    "day": "Sun"
+   },
+   "start": "15:15",
+   "end": "18:00",
+   "timeNote": "2nd Sundays; lesson 3:15, dancing 4 to 6",
+   "venue": "United Church of Chapel Hill",
+   "address": "1321 Martin Luther King Jr Blvd, Chapel Hill, NC 27514",
+   "cost": "$15 to $20 suggested donation",
+   "description": "Monthly open waltz to live music with a lesson first. No partner needed.",
+   "howToJoin": "Just show up",
+   "firstTime": "Come for the 3:15 lesson and stay for the dancing. No partner is necessary and the lesson covers the basics.",
+   "url": "https://www.tcdancers.org/new-events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "tcdancers.org/new-events (Triangle Country Dancers): 'WALTZ SUNDAY, Sunday, December 13, 2026, 3:15 PM-6:00 PM, United Church of Chapel Hill, Open Waltz to Live Music, Lesson 3:15-4:00, Dancing 4:00-6:00, No partner necessary, Donation requests $15-$20'; same series on Aug 9, Sep 13, Oct 11 and Nov 8 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.95341,
+    -79.057756
+   ]
+  },
+  {
+   "id": "d-clocktower-game",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Blood on the Clocktower · Moon Dog Meadery",
+   "short": "Clocktower game",
+   "category": "games",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2
+    ],
+    "day": "Sun"
+   },
+   "start": "13:00",
+   "end": "16:00",
+   "timeNote": "2nd Sundays; starts at 1pm",
+   "venue": "Moon Dog Meadery & Bottle Shop",
+   "address": "1104 Broad St, Suite C, Durham, NC 27705",
+   "cost": "Free",
+   "description": "Monthly group game of the social deduction game Blood on the Clocktower, run by a storyteller. Big groups and new players are welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "New players are welcome and the storyteller explains the rules. Come alone or with friends; outside food is fine but not outside drinks.",
+   "url": "https://www.meetup.com/triangle-clocktower/",
+   "verifyNote": "End time is approximate; check holiday schedule",
+   "evidence": "meetup.com/triangle-clocktower (358 members, 45 past events): 'Moondog Meadery Clocktower 12/13, Sun Dec 13, 1:00 PM, 1104 Broad Street, ... New players are welcome ... We are a free event'; 29 attendees RSVP'd; past Nov 8 (21 attendees) and Oct 11 (17 attendees) (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.015476,
+    -78.919191
+   ]
+  },
+  {
+   "id": "d-morning-crochet",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Morning Crochet · North Regional Library",
+   "short": "Morning Crochet",
+   "category": "art",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "10:30",
+   "end": "12:00",
+   "timeNote": "Every Tuesday morning",
+   "venue": "North Regional Library",
+   "address": "221 Milton Rd, Durham, NC 27712",
+   "cost": "Free",
+   "description": "Drop-in crochet club at the library. Experienced crocheters and beginners share tips and projects.",
+   "howToJoin": "Just show up with a project",
+   "firstTime": "Bring your yarn, hook and any questions. Beginners can get tips from regulars.",
+   "url": "https://durhamcountylibrary.libcal.com/event/16557108",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "durhamcountylibrary.libcal.com/event/16557108: 'Bring your project and your questions and join us every Tuesday in the library', Tue 10:30am-12:00pm, North Meeting Room; dates listed Nov 17, Nov 24, Dec 1, 8, 15, 22, 29 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.089268,
+    -78.913685
+   ]
+  },
+  {
+   "id": "c-open-mic-steel-string",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Open mic · Steel String Brewery",
+   "short": "Open mic (Steel String)",
+   "category": "music",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "18:00",
+   "end": "23:00",
+   "timeNote": "Every Monday at the taproom",
+   "venue": "Steel String Brewery",
+   "address": "106A S Greensboro St, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly open mic at a Carrboro brewery taproom. Performers and listeners both welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "Come early to get on the list or just listen. Bring your instrument if you plan to play.",
+   "url": "https://steelstringbrewery.com/calendar/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "steelstringbrewery.com/calendar: 'Open Mic Night every Monday at the Taproom!' 6:00-11:00 pm; shown Nov 23, Nov 30, Dec 7, Dec 14 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.910212,
+    -79.072342
+   ]
+  },
+  {
+   "id": "c-craft-night-steel-string",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Craft night · Steel String Brewery",
+   "short": "Craft night (Steel String)",
+   "category": "art",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "start": "19:00",
+   "end": "22:00",
+   "timeNote": "Every Wednesday at the taproom",
+   "venue": "Steel String Brewery",
+   "address": "106A S Greensboro St, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly craft night at a Carrboro taproom. Bring knitting, crochet or any hand project and sit with other crafters.",
+   "howToJoin": "Just show up with a project",
+   "firstTime": "Bring a portable project and find a seat. Drinks are available to buy.",
+   "url": "https://steelstringbrewery.com/calendar/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "steelstringbrewery.com/events/stitch-n-bitch: 'weekly craft night on Wednesday at the Taproom!' 7:00 pm; calendar shows Nov 18, Nov 25, Dec 2, Dec 9, Dec 16 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.910212,
+    -79.072342
+   ]
+  },
+  {
+   "id": "d-english-country-dance",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "English country dance · Reality Center",
+   "short": "English country dance",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "start": "19:30",
+   "end": "21:30",
+   "timeNote": "Every Wednesday; live music on 2nd and 4th Wednesdays",
+   "venue": "The Reality Center",
+   "address": "916 Lamond Ave, Durham, NC 27701",
+   "cost": "$10 suggested donation",
+   "description": "Weekly English country dancing run by Sun Assembly. All dances are taught and rotating partners make it easy to meet people.",
+   "howToJoin": "Just show up",
+   "firstTime": "Beginners are welcome, every dance is taught and no partner is needed. Wear non-street shoes or dance in socks.",
+   "url": "https://sunassembly.org/",
+   "verifyNote": "Calendar lists dances through Dec 23; check holiday schedule",
+   "evidence": "sunassembly.org: 'Dances Every Wednesday from 7:30-9:30 p.m., The Reality Center, 916 Lamond Ave ... Beginners welcome; all dances taught; no partner necessary ... Suggested donation: $10'; sunassembly.org/calendar lists Wed Nov 18 (live music), Nov 25, Dec 2, Dec 9, Dec 16, Dec 23 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.002334,
+    -78.908478
+   ]
+  },
+  {
+   "id": "d-mahjong-north-regional",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Learn to play mahjong · North Regional Library",
+   "short": "Mahjong (North Regional)",
+   "category": "games",
+   "solo": true,
+   "dates": [
+    "2026-11-18",
+    "2026-11-25",
+    "2026-12-09",
+    "2026-12-16",
+    "2026-12-23",
+    "2026-12-30"
+   ],
+   "start": "12:00",
+   "end": "15:00",
+   "timeNote": "Wednesday afternoons",
+   "venue": "North Regional Library",
+   "address": "221 Milton Rd, Durham, NC 27712",
+   "cost": "Free",
+   "description": "Library mahjong session that teaches American mahjong. Beginners are welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "Beginners are welcome and the group will teach you the game. No equipment needed to start.",
+   "url": "https://durhamcountylibrary.libcal.com/event/15734606",
+   "evidence": "durhamcountylibrary.libcal.com/event/15734606: 'Learn to play American Mahjong ... Beginners are welcome', Wed 12:00-3:00pm; dates Nov 18, Nov 25, Dec 9, 16, 23, 30 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.089268,
+    -78.913685
+   ]
+  },
+  {
+   "id": "d-social-stitchers",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Social Stitchers · Southwest Regional Library",
+   "short": "Social Stitchers",
+   "category": "art",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Fri"
+    ]
+   },
+   "except": [
+    "2026-11-27",
+    "2026-12-25",
+    "2027-01-01"
+   ],
+   "start": "14:00",
+   "end": "15:30",
+   "timeNote": "Most Fridays; no session Nov 27, Dec 25 or Jan 1",
+   "venue": "Southwest Regional Library",
+   "address": "3605 Shannon Rd, Durham, NC 27707",
+   "cost": "Free",
+   "description": "Drop-in group for needlework and fiber crafters to work on projects and share tips. Open to all skill levels.",
+   "howToJoin": "Just drop in",
+   "firstTime": "Bring your own materials. Limited supplies are available for beginners to get started, and you can come for part of the session.",
+   "url": "https://durhamcountylibrary.libcal.com/event/17010290",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "durhamcountylibrary.libcal.com/event/17010290: 'Come join other needle & fiber art crafters ... Open to all skill & experience levels. Drop in for all or part of each session', Fri 2:00-3:30pm; dates Nov 20, Dec 4, 11, 18, Jan 8 onward (no Nov 27, Dec 25, Jan 1) (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.959388,
+    -78.954678
+   ]
+  },
+  {
+   "id": "c-chime-in-open-mic",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "The Chime In poetry open mic · Lanza's Cafe",
+   "short": "Chime In open mic",
+   "category": "books",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2,
+     4
+    ],
+    "day": "Fri"
+   },
+   "start": "18:30",
+   "end": "21:00",
+   "timeNote": "2nd and 4th Fridays; sign-in at 6",
+   "venue": "Lanza's Cafe",
+   "address": "601 W Main St, Suite C, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Twice-monthly open mic for poetry, stories, songs and spoken word at a Carrboro cafe. Readers and listeners both welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "Sign in from 6:00 and readings begin at 6:30. First-time readers are welcome, and you can also just listen.",
+   "url": "https://lanzascafe.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "lanzascafe.com/events: 'Chime In Poetry Nights Every 2nd and 4th Friday from 7-9'; Lanza's Eventbrite organizer page lists The Chime In Open Mic Night from Nov 27, 6:30 PM, 'Sign-ins & open arrival 6:00 PM ... readings kick off 6:30 PM and wrap up by 9:00PM' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.913567,
+    -79.079677
+   ]
+  },
+  {
+   "id": "c-third-space-open-mic",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Third Space open mic · Lanza's Cafe",
+   "short": "Third Space open mic",
+   "category": "music",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     3
+    ],
+    "day": "Fri"
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "3rd Fridays",
+   "venue": "Lanza's Cafe",
+   "address": "601 W Main St, Suite C, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Monthly open mic at a Carrboro cafe for musicians, comedians and other performers. Names are drawn from a hat so everyone gets a turn.",
+   "howToJoin": "Just show up; no ticket needed",
+   "firstTime": "Put your name in the hat when you arrive. A mic, speakers, keyboard and guitar are provided.",
+   "url": "https://lanzascafe.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "Lanza's Cafe Eventbrite organizer page (linked from lanzascafe.com/events): Third Space Open Mic Night, Friday 7:00 PM (Nov 20), 'every Third Friday ... All names are put into a hat and pulled randomly'; 'No tickets required' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.913567,
+    -79.079677
+   ]
+  },
+  {
+   "id": "d-spanish-conversation-2",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Spanish conversation · South Regional Library",
+   "short": "Spanish conversation",
+   "category": "books",
+   "solo": true,
+   "dates": [
+    "2026-11-21",
+    "2026-11-28",
+    "2026-12-05",
+    "2026-12-12",
+    "2026-12-19"
+   ],
+   "start": "11:00",
+   "end": "12:30",
+   "timeNote": "Saturday mornings",
+   "venue": "South Regional Library",
+   "address": "4505 S Alston Ave, Durham, NC 27713",
+   "cost": "Free",
+   "description": "Coffee and relaxed Spanish conversation at the library, with a mix of Spanish and English.",
+   "howToJoin": "Just show up",
+   "firstTime": "No pressure to speak perfectly. Come as you are and join a table.",
+   "url": "https://durhamcountylibrary.libcal.com/event/17296552",
+   "evidence": "durhamcountylibrary.libcal.com/event/17296552: 'Join us for coffee and Spanish conversation! No pressure to be perfect', Sat 11:00am-12:30pm; dates Nov 21, 28, Dec 5, 12, 19 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.903216,
+    -78.888852
+   ]
+  },
+  {
+   "id": "d-game-day-north-regional",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Game Day for Grown-Ups · North Regional Library",
+   "short": "Game day (North Regional)",
+   "category": "games",
+   "solo": true,
+   "dates": [
+    "2026-11-19",
+    "2026-12-03",
+    "2026-12-17"
+   ],
+   "start": "14:00",
+   "end": "16:00",
+   "timeNote": "Every other Thursday afternoon",
+   "venue": "North Regional Library",
+   "address": "221 Milton Rd, Durham, NC 27712",
+   "cost": "Free",
+   "description": "Relaxed board game afternoon for adults at the library. Play a library game or bring your own.",
+   "howToJoin": "Just show up",
+   "firstTime": "Join a table or ask to be taught a game. The group is non-competitive and happy to teach new players.",
+   "url": "https://durhamcountylibrary.libcal.com/event/17597108",
+   "evidence": "durhamcountylibrary.libcal.com/event/17597108: 'Members are welcome to play one of our board games or bring one from home ... non-competitive environment', Thu 2:00-4:00pm; calendar shows Nov 19, Dec 3, Dec 17 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.089268,
+    -78.913685
+   ]
+  },
+  {
+   "id": "d-run-club-trc",
+   "city": "durham",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "regular",
+   "title": "Run club · Triangle Rock Club Durham",
+   "short": "Run club (TRC)",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "18:30",
+   "end": "20:30",
+   "timeNote": "Every Monday, 3 or 5 mile routes; optional climbing after",
+   "venue": "Triangle Rock Club - Durham",
+   "address": "1010 Martin Luther King Jr Pkwy, Suite 400, Durham, NC 27713",
+   "cost": "Free to run; discounted climbing day pass after",
+   "description": "Weekly group run from a climbing gym out to the Third Fork Creek greenways, hosted by Fleet Feet. Runners of all paces, and a chance to stay and climb afterward.",
+   "howToJoin": "Register free on Fleet Feet's page, then show up",
+   "firstTime": "Register for free on the Fleet Feet link first. Meet at the gym at 6:30pm and pick the 3 or 5 mile route. Staying to climb costs a discounted day pass.",
+   "url": "https://www.fleetfeet.com/s/carrboro/happenings/the-pub-run",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "https://www.fleetfeet.com/s/carrboro/happenings/the-pub-run: 'Monday Nights - Year Round - Triangle Rock Club x Fleet Feet Run Club. Time: 6:30pm. Location: Triangle Rock Club - Durham, 1010 Martin Luther King Jr Parkway Suite 400... Routes: 3 or 5 miles... There is no cost for registering or attending'; page live with 11/17 events listed (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.948871,
+    -78.92482
+   ]
+  },
+  {
+   "id": "c-carrboro-run-club",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Carrboro Run Club · Dingo Dog Brewing",
+   "short": "Carrboro Run Club",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "18:33",
+   "end": "19:33",
+   "timeNote": "Every Tuesday; 1.5, 3, 4 and 5 mile routes",
+   "venue": "Dingo Dog Brewing",
+   "address": "410 N Greensboro St, Suite 150, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly run or walk from a Carrboro taproom with route options from 1.5 to 5 miles. A regular crowd and a post-run pint make it easy to meet people.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just show up at the taproom a few minutes before 6:33pm. Pick the distance that suits you, and walkers are fine. Most people stay for a drink afterward.",
+   "url": "https://www.dingodogbrewing.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "dingodogbrewing.com/events: 'Carrboro Run Club, Tuesdays, 6:33-7:33 PM' with dates Nov 17 and Nov 24 listed; fleetfeet.com/s/carrboro/happenings/the-pub-run: 'Tuesday Nights - Year Round - Carrboro Run Club, 6:33 pm, Dingo Dog Brewery - 410 N Greensboro St # 150' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.913893,
+    -79.072155
+   ]
+  },
+  {
+   "id": "d-glass-jog-run-club",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Glass Jog Run Club · Glass Jug Beer Lab",
+   "short": "Glass Jog Run Club",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "18:00",
+   "end": "20:00",
+   "timeNote": "Winter series, Tuesdays; meet at Parkwood Ballpark lot",
+   "venue": "The Glass Jug Beer Lab (RTP)",
+   "address": "5410 NC-55, Suite V, Durham, NC 27713",
+   "cost": "Free",
+   "description": "Weekly 2-mile walk or 5K jog that starts at a ballpark lot and ends in the brewery's beer garden. All paces, strollers and dogs welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "Meet at the Parkwood Ballpark parking lot by 6pm; the run starts promptly. Choose the walk or the jog, then head to the beer garden afterward.",
+   "url": "https://www.glass-jug.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "glass-jug.com/events: 'The Glass Jog Run Club Winter Series, Tuesday, November 17, 2026, 6:00 PM - 8:00 PM'; Tuesdays listed Nov 24, Dec 1, 8, 15, 22, 29; 'Meet at the the Parkwood Ballpark parking lot... 2-mile walk or a 5k jog/run, starting promptly at 6pm' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.890441,
+    -78.896264
+   ]
+  },
+  {
+   "id": "d-latinos-and-latinas-run",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Latinos & Latinas Run Club · Glass Jug Downtown",
+   "short": "Latinos & Latinas run",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "start": "18:30",
+   "end": "20:30",
+   "timeNote": "Every Thursday; downtown run then beers",
+   "venue": "The Glass Jug Downtown (Durham Central Park)",
+   "address": "545 Foster St, Suite 10, Durham, NC 27701",
+   "cost": "Free",
+   "description": "Weekly downtown run from the Glass Jug taproom at Durham Central Park, followed by drinks together.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just show up at the taproom around 6:30pm. Runners of any pace are welcome, and the group hangs out for beers afterward.",
+   "url": "https://www.glass-jug.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "glass-jug.com/events: 'Latinos & Latinas Run Club, Thursday, November 19, 2026, 6:30 PM - 8:30 PM, The Glass Jug Downtown... Go for a downtown run and stick around for beers'; also listed Nov 26 and Dec 3 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17"
+  },
+  {
+   "id": "c-run-club-steel-string",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Run club · Steel String Brewery",
+   "short": "Run club (Steel String)",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "start": "18:30",
+   "end": "19:30",
+   "timeNote": "Every Thursday; 3 and 5 mile routes",
+   "venue": "Steel String Brewery",
+   "address": "106A S Greensboro St, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly pub run with Fleet Feet from a Carrboro brewery, with 3 and 5 mile routes and a pint afterward.",
+   "howToJoin": "Just show up (Fleet Feet also has a free registration link)",
+   "firstTime": "Just show up at the brewery by 6:30pm and choose the 3 or 5 mile route. You can register free on the Fleet Feet page ahead of time.",
+   "url": "https://steelstringbrewery.com/calendar/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "steelstringbrewery.com/calendar: 'Run Club!' on Thursday Nov 19 and Nov 26; fleetfeet.com/s/carrboro/happenings/the-pub-run: 'Thursday Nights - Year Round - Steel String X Fleet Feet Pub Run, 6:30pm, Steel String Brewery, 106A S Greensboro St, Routes: 3 and 5 miles' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.910212,
+    -79.072342
+   ]
+  },
+  {
+   "id": "d-brunch-run",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "bRUNch run · Fleet Feet Durham 9th Street",
+   "short": "bRUNch run",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Sun"
+    ]
+   },
+   "start": "08:00",
+   "end": "09:30",
+   "timeNote": "Every Sunday; 3 to 5 miles",
+   "venue": "Fleet Feet Durham (9th Street)",
+   "address": "737 9th St, Durham, NC 27705",
+   "cost": "Free",
+   "description": "Sunday morning group run from the Fleet Feet store on 9th Street with 3 to 5 mile routes.",
+   "howToJoin": "Just show up (free registration link on Fleet Feet's page)",
+   "firstTime": "Meet at the store at 8am. Pick a 3 to 5 mile route and run with whoever is near your pace. Registering free on Fleet Feet's page ahead of time is encouraged.",
+   "url": "https://www.fleetfeet.com/s/carrboro/happenings/the-pub-run",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "https://www.fleetfeet.com/s/carrboro/happenings/the-pub-run: 'Sunday Mornings - bRUNch Run. Time: 8am. Location: Fleet Feet Durham 9th Street, 737 9th St, Durham, NC 27705. Routes: 3 to 5 Miles'; no cost to attend; page live with 11/17 events (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    36.009981,
+    -78.922105
+   ]
+  },
+  {
+   "id": "c-forest-ecology-hike",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Fall forest ecology hike · Johnston Mill Preserve",
+   "short": "Forest ecology hike",
+   "category": "fitness",
+   "solo": true,
+   "dates": [
+    "2026-11-27"
+   ],
+   "start": "09:00",
+   "end": "11:30",
+   "timeNote": "Friday after Thanksgiving; 3 mile moderate hike",
+   "venue": "Johnston Mill Preserve, secondary entrance",
+   "address": "6001 Turkey Farm Rd, Chapel Hill, NC 27514",
+   "cost": "Free",
+   "description": "Guided 3 mile hike with Triangle Land Conservancy looking at fall forest habitats. A small group walk led by staff.",
+   "howToJoin": "Register free on the event page",
+   "firstTime": "Pre-registration is required. Wear sturdy shoes; the route has some steep inclines. Trails may close if it rains and registrants are emailed.",
+   "url": "https://triangleland.org/event/fall-forest-ecology-hike",
+   "evidence": "triangleland.org/event/fall-forest-ecology-hike: 'November 27 @ 9:00 am - 11:30 am... 3 mile moderate hike... This is a free event, but pre-registration is required' at 6001 Turkey Farm Rd, Chapel Hill (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.991298,
+    -79.048079
+   ]
+  },
+  {
+   "id": "c-speed-hike",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Speed hike · Johnston Mill Preserve",
+   "short": "Speed hike",
+   "category": "fitness",
+   "solo": true,
+   "dates": [
+    "2026-11-28"
+   ],
+   "start": "09:00",
+   "end": "11:00",
+   "timeNote": "Saturday; about 3 miles at a 20 minute per mile pace",
+   "venue": "Johnston Mill Preserve, main entrance",
+   "address": "2713 Mt Sinai Rd, Chapel Hill, NC 27514",
+   "cost": "Free",
+   "description": "Guided brisk hike of about 3 miles led by a Triangle Land Conservancy trail guide, a social way to start Saturday.",
+   "howToJoin": "Register free on the event page",
+   "firstTime": "Pre-registration is required. Bring a full water bottle and wear shoes that handle rocks and roots.",
+   "url": "https://triangleland.org/event/speed-hike-at-johnston-mill-7",
+   "evidence": "triangleland.org/event/speed-hike-at-johnston-mill-7: 'November 28 @ 9:00 am - 11:00 am, FREE... goal pace of 20 minutes per mile for about 3 miles... preregistration is required'; Event Categories: Exercise, Health, Hike, Social (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.996076,
+    -79.053874
+   ]
+  },
+  {
+   "id": "d-invasive-plant-removal",
+   "city": "durham",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Invasive plant removal · Briggs Ave Preserve",
+   "short": "Invasive plant removal",
+   "category": "volunteer",
+   "philanthropy": true,
+   "solo": true,
+   "dates": [
+    "2026-11-27"
+   ],
+   "start": "10:00",
+   "end": "12:00",
+   "timeNote": "Friday after Thanksgiving; long pants and closed-toe shoes required",
+   "venue": "Briggs Ave Community Garden + Preserve",
+   "address": "1314 S Briggs Ave, Durham, NC 27707",
+   "cost": "Free",
+   "description": "Group workday removing invasive plants with Keep Durham Beautiful. Tools and gloves are provided.",
+   "howToJoin": "Register on the Keep Durham Beautiful event page",
+   "firstTime": "Register online; meeting spot and parking details are emailed 1-2 days before. Long pants and closed-toe shoes are required. Ages 13-15 need an adult.",
+   "url": "https://keepdurhambeautiful.squarespace.com/events/2026/briggs-ipr-nov",
+   "evidence": "keepdurhambeautiful.squarespace.com/events/2026/briggs-ipr-nov: 'Friday, November 27, 2026, 10:00 AM - 12:00 PM... remove harmful invasive plants from the Briggs Ave Community Garden & Preserve (1314 S Briggs Ave)... Tools and gloves will be provided... REGISTER TO ATTEND BELOW' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.968624,
+    -78.877829
+   ]
+  },
+  {
+   "id": "r-go-club",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Go club · Side Quest Game Lounge",
+   "short": "Go club",
+   "category": "games",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "18:00",
+   "end": "22:00",
+   "timeNote": "Every Monday; come any time between 6 and 10",
+   "venue": "Side Quest Game Lounge + Bar",
+   "address": "317 W Morgan St, Suite 113, Raleigh, NC 27601",
+   "cost": "Free (food and drinks optional)",
+   "description": "Weekly casual Go games at a downtown game bar, with players of all levels. Boards and stones are provided and the hosts are used to teaching beginners.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just show up any time during the evening. Boards and stones are provided, so bring nothing. Tell a host or another player you are new and someone will teach you the basics.",
+   "url": "https://www.trianglegoclub.org/games.htm",
+   "evidence": "trianglegoclub.org/games.htm: 'Mondays in Raleigh: Play Go at the Sidequest Game Lounge and Bar in Raleigh from 6 PM until 10 PM every Monday night... We welcome and encourage all levels of players, from beginners to high dans.' Meetup group Triangle Go Club (247 events): 'Every week on Monday' series with events on Nov 2, 9 and 16 (past) and Nov 23 through Mar 2027 (posted); event text 'RSVP not required - just stop by. Attendance is typically 10 or more.' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.779689,
+    -78.643706
+   ]
+  },
+  {
+   "id": "r-pullen-ballroom-dance",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Ballroom social dance · Pullen Park Community Center",
+   "short": "Pullen ballroom dance",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "except": [
+    "2026-11-25",
+    "2026-12-23",
+    "2026-12-30"
+   ],
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Wednesday. 1st and 3rd Wednesdays: DJ and lesson at 7:15. Other Wednesdays: live band, no lesson.",
+   "venue": "Pullen Park Community Center",
+   "address": "408 Ashe Ave, Raleigh, NC 27607",
+   "cost": "$2 (1st and 3rd Wed), $8 (live band nights); first visit free",
+   "description": "Long-running community ballroom dance on a hardwood floor. No partner needed, and all skill levels are welcome.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just show up. First-time visitors get in free, and no partner is needed. On DJ nights there is a short lesson at 7:15, and coffee and snacks are available.",
+   "url": "https://sites.google.com/view/pullendance/home",
+   "verifyNote": "Check holiday schedule; Dec 2 is a special $15 Triangle Jazz Orchestra night; check pullendance.org calendar",
+   "evidence": "sites.google.com/view/pullendance/home: 'Every Wednesday night from 7:00-9:00 p.m.... Pullen Park Community Center, 408 Ashe Ave... first and third Wednesday $2, DJ and dance lesson at 7:15... second, fourth... $8 live band... First time attendees are always free!' Organizer's public Google calendar (pullendanceinfo@gmail.com): weekly Wednesday series 'Yes we're dancing tonight' for 2026, plus posted cancellations Nov 25, Dec 23, Dec 30 and a Dec 2 Triangle Jazz Orchestra night ($15). Calendar last edited Sep 14, 2026, so there is no newer post; recent activity rests on the posted upcoming dates. (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.780171,
+    -78.660921
+   ]
+  },
+  {
+   "id": "r-poetry-open-mic",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Poetry open mic · Tap Yard",
+   "short": "Poetry open mic",
+   "category": "books",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     3
+    ],
+    "day": "Wed"
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "3rd Wednesday; sign-up at 6:30, readings 7 to 9",
+   "venue": "Tap Yard Raleigh",
+   "address": "1610 Automotive Way, Raleigh, NC",
+   "cost": "Free (donations welcome)",
+   "description": "Monthly poetry and spoken word open mic where you can read or just listen. A friendly mix of regulars and first-timers.",
+   "howToJoin": "Just show up; sign up to read at 6:30",
+   "firstTime": "Arrive around 6:30 to put your name on the list, or just listen. Readers get about 5 minutes or 3 poems. Bring your own work or a favorite poem by someone else.",
+   "url": "https://www.meetup.com/living-poetry/events/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "meetup.com/living-poetry (Living Poetry, 1,725 members, running since at least 2024): 'Freshly Brewed Poems Third Wednesday Open Mic' events posted for Nov 18, Dec 16 and Jan 20 at Tap Yard Raleigh; text: 'Poetry Open Mic Every Third Wednesday of the month at Tap Yard... Sign up starts at 6:30 pm, Reading at 7:00 pm until 9:00... we've been known to have as few as 5 and as many as 24... Free event, donations welcome.' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.800288,
+    -78.624011
+   ]
+  },
+  {
+   "id": "r-drop-in-improv",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "regular",
+   "title": "Drop-in improv class · Leela Improv Theatre",
+   "short": "Drop-in improv",
+   "category": "comedy",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "except": [
+    "2026-11-26"
+   ],
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Thursday; arrive by 6:55",
+   "venue": "Leela Improv Theatre",
+   "address": "309 N Boylan Ave, Raleigh, NC 27603",
+   "cost": "$20 per class",
+   "description": "Weekly drop-in improv class for adults with no experience needed. Games are played in a group, and the class often goes for a drink afterward.",
+   "howToJoin": "Book a spot online for that Thursday",
+   "firstTime": "Book a spot online ahead of time because classes often sell out. Arrive by 6:55 and wear comfortable clothes. No experience or partner is needed.",
+   "url": "https://leela-nc.com/drop-in/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "leela-nc.com/drop-in: 'Thursdays | 7:00-9:00pm | Just $20 | Adults Only (18+)... Come solo or bring a friend... whether it's your first time or your fiftieth'; Leela's Eventbrite series 'Drop-In Improv Class - Raleigh, NC (Thursdays)' runs from Jan 2024 with sessions listed through Dec 2027. No dated session for November was visible, so the next date should be confirmed when checking. (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.784333,
+    -78.649091
+   ]
+  },
+  {
+   "id": "r-yoga-in-the-park",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "confirmed",
+   "title": "Yoga in the Park · Dix Park",
+   "short": "Yoga in the Park",
+   "category": "fitness",
+   "solo": true,
+   "dates": [
+    "2026-11-23",
+    "2026-11-30"
+   ],
+   "start": "17:30",
+   "end": "18:30",
+   "timeNote": "Monday evening flow, all levels. Bring a mat.",
+   "venue": "Gipson Play Plaza, Dorothea Dix Park",
+   "address": "715 Biggs Dr, Raleigh, NC 27603",
+   "cost": "Free",
+   "description": "A weekly outdoor yoga flow on the Dix Park lawn, free thanks to park donors. A friendly way to start the week alongside other people from the neighborhood.",
+   "howToJoin": "Register on Eventbrite each week (recommended; it also sends weather cancellations)",
+   "firstTime": "Bring your own mat, water and clothes for the weather. Classes are canceled in bad weather, and registered people get an email.",
+   "url": "https://www.dixpark.org/event/yoga-park-0",
+   "verifyNote": "Check weather cancellation and whether the series continues in December",
+   "evidence": "dixpark.org/event/yoga-park-0: 'weekly Monday outdoor yoga flow... free to the public', Mondays 5:30-6:30 PM, series dates listed Sept 14 through Nov 30, location Gipson Play Plaza, 715 Biggs Drive; dixpark.org/events lists Yoga in the Park Mon Nov 23 and Mon Nov 30, 5:30-6:30 PM; no December Monday dates listed (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17"
+  },
+  {
+   "id": "r-track-night",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "confirmed",
+   "title": "Track night · Urban Run Club Raleigh",
+   "short": "Track night",
+   "category": "fitness",
+   "solo": true,
+   "dates": [
+    "2026-11-18",
+    "2026-11-25"
+   ],
+   "start": "18:00",
+   "end": "19:00",
+   "timeNote": "Wednesday evening at Chavis Park",
+   "venue": "Chavis Park",
+   "address": "505 MLK Jr Blvd, Raleigh, NC 27601",
+   "cost": "Free",
+   "description": "A midweek track session from the downtown nonprofit run club, open to runners and walkers of all levels. A relaxed way to meet regulars.",
+   "howToJoin": "Just show up; RSVP on Heylo",
+   "firstTime": "Go at your own pace; there are no pace requirements. RSVP on the club's Heylo page so organizers know to expect you.",
+   "url": "https://heylo.com/invite/HJ50UTSh",
+   "verifyNote": "Only Nov 18 and Nov 25 are posted; check Heylo for later Wednesdays",
+   "evidence": "heylo.com/invite/HJ50UTSh (Urban Run Club Raleigh): 'Track Night Wednesday @ Chavis Park' listed Wed Nov 18 and Wed Nov 25 (shown 11:00 PM, which is UTC = 6:00 PM local, matching the page's Trophy Trot 2:00 PM = 9:00 AM local); 'welcomes runners and walkers of all levels. No pace requirements or experience needed' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.768126,
+    -78.630052
    ]
   }
  ]
