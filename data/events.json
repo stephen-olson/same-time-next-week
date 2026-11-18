@@ -2113,7 +2113,10 @@
    "geo": [
     35.781125,
     -78.655823
-   ]
+   ],
+   "hold": true,
+   "holdReason": "No organizer page shows a weekly Tuesday trivia night: wolfeandporter.com only says they 'often host' trivia, and no trivia company lists it.",
+   "holdSince": "2026-11-17"
   },
   {
    "id": "r-trivia-beer-garden",
@@ -2139,13 +2142,14 @@
    "description": "Free team pub trivia (pop culture, history, sports, wildcard rounds) for house prizes in Glenwood South.",
    "howToJoin": "Just show up",
    "firstTime": "Just show up and join a team or start one. It's free, with a mix of pop culture, history and sports rounds. Arrive a little early to find a table.",
-   "url": "https://www.visitraleigh.com/event/weekly-trivia-night-at-raleigh-beer-garden/106093/",
+   "url": "https://www.theraleighbeergarden.com/events",
    "verifyNote": "Dates are posted through Dec 30, 2026. Check that it continues in 2027.",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-17",
    "geo": [
     35.78751,
     -78.647131
-   ]
+   ],
+   "evidence": "theraleighbeergarden.com/events: 'WEDNESDAY, TRIVIA NIGHT, 7:00 PM ... Test your knowledge with our weekly trivia. Prizes for the top teams!' (checked Nov 17, 2026)"
   },
   {
    "id": "r-trivia-raleigh-brewing",
@@ -7541,6 +7545,64 @@
     35.779847,
     -78.654724
    ]
+  },
+  {
+   "id": "r-trivia-ponysaurus",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia night · Ponysaurus Raleigh",
+   "short": "Trivia (Ponysaurus)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Monday, hosted by Geeks Who Drink",
+   "venue": "Ponysaurus Brewing Co. Raleigh (Raleigh Iron Works)",
+   "address": "2221 Iron Works Dr, Suite 100, Raleigh, NC 27604",
+   "cost": "Free",
+   "description": "Weekly live-hosted pub trivia at the brewery's Raleigh Iron Works taproom. Teams answer on their phones and winners get beer prizes.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://ponysaurusbrewing.com/raleigh",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "ponysaurusbrewing.com/raleigh: 'Trivia Night Mondays, Monday, November 23, 2026, 7:00 PM-9:00 PM, Ponysaurus Brewing Co. Raleigh ... weekly Trivia Night every Monday at 7pm ... our hosts, Geeks Who Drink'; Nov 30 also listed. geekswhodrink.com/venues (Raleigh search): 'SMALL BATCH, Mondays at 7:00 pm, Ponysaurus Brewing Co. - Raleigh'. (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18"
+  },
+  {
+   "id": "r-trivia-noco",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia night · NOCO Brews & Bites",
+   "short": "Trivia (NOCO)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Thursday, hosted by Geeks Who Drink",
+   "venue": "NOCO Brews & Bites (Salvage Yard)",
+   "address": "2320 Salvage Yard Dr, Raleigh, NC 27604",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a brewery and pour house in the Salvage Yard development. A relaxed way to meet a table of neighbors over a beer or coffee.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://www.nocobrewsandbites.com/community-events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "nocobrewsandbites.com/community-events: 'EVENT - Geeks Who Drink Trivia, NOV 19 and NOV 26, 7:00 PM-9:00 PM'. geekswhodrink.com/venues (Raleigh search): 'SMALL BATCH, Thursdays at 7:00 pm, NOCO Brews & Bites'. (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18"
   }
  ]
 }
