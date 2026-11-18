@@ -6,7 +6,7 @@
 <style>
 /* Layout: the page is a light corkboard in every mode (no dark version). The masthead scrolls away; a slim bar with the city switch and section tabs stays pinned to the top.
    On wide screens the week is a board of day columns. The board texture is a small tiled speckle (plain shapes, no SVG filters) that scrolls with the page.
-   Listings are paper tickets: time on top, and the round + on the ticket stub is the pin that saves it to My plan.
+   Listings are paper tickets: time on top, and the round calendar button on the ticket stub adds that date to your own calendar.
    Event details open as a taped-up flyer: a centered dialog on desktop and a bottom sheet on phones.
    All tilts are static and only applied when the visitor has not asked for reduced motion. */
 :root {
@@ -105,7 +105,7 @@ a { color: var(--ink-fg); }
 .cityswitch button { padding: 3px 8px; }
 .cityswitch button.long { flex-grow: 1.6; white-space: normal; line-height: 1.1; }
 .cityswitch button.long span { white-space: nowrap; }
-.cityswitch button.all { flex-grow: .7; }
+.cityswitch button.all { flex-grow: 1; }
 .pill { min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: var(--pin); color: var(--on-pin); font-size: 11.5px; font-weight: 800; display: inline-grid; place-items: center; }
 @media (min-width: 700px) {
   .navrow { flex-direction: row; align-items: center; justify-content: space-between; gap: 16px; padding-top: 0; }
@@ -115,7 +115,7 @@ a { color: var(--ink-fg); }
   .cityswitch button { flex: none; padding: 3px 14px; font-size: 14px; }
   .cityswitch button.long { white-space: nowrap; }
 }
-/* Small phones: all four tabs (and the My plan count) fit without the row scrolling sideways. */
+/* Small phones: the tabs fit without the row scrolling sideways. */
 @media (max-width: 399.98px) {
   .tabs a { gap: 4px; padding: 3px 4px 0; font-size: 13.5px; }
   .tabs .pill { min-width: 17px; height: 17px; padding: 0 4px; font-size: 10.5px; }
@@ -405,6 +405,11 @@ a { color: var(--ink-fg); }
 .addcal { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
 .addcal .lbl { font-size: 13.5px; font-weight: 700; color: var(--muted); margin-right: 2px; }
 .addcal .calnote { flex-basis: 100%; font-size: 13px; color: var(--muted); line-height: 1.4; }
+.addcal.top { margin-top: 14px; padding-top: 0; border-top: 0; }
+.addcal .lbl .ic { vertical-align: -2px; }
+.calpick { display: grid; gap: 10px; margin-top: 16px; }
+.calpick .btn { justify-content: center; }
+.gobtn.none { visibility: hidden; }
 .note { margin-top: 16px; padding: 11px 13px; border-radius: 3px; background: var(--surface-2); font-size: 14px; }
 .upcoming { margin-top: 18px; }
 .upcoming h3, .wh { margin: 0 0 8px; font-family: var(--f-display); font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -534,13 +539,12 @@ a { color: var(--ink-fg); }
       <a href="#week" data-view="week">This week</a>
       <a href="#calendar" data-view="calendar">Calendar</a>
       <a href="#volunteer" data-view="volunteer">Volunteer</a>
-      <a href="#plan" data-view="plan">My plan <span class="pill" id="planCount" hidden></span></a>
     </nav>
     <div class="cityswitch" role="group" aria-label="Choose an area">
       <button type="button" data-city="durham" aria-pressed="true">Durham</button>
       <button type="button" data-city="raleigh" aria-pressed="false">Raleigh</button>
       <button type="button" data-city="chapelhill" aria-pressed="false" class="long"><span>Chapel Hill</span> <span>&amp; Carrboro</span></button>
-      <button type="button" data-city="all" aria-pressed="false" class="all">All</button>
+      <button type="button" data-city="all" aria-pressed="false" class="all">Triangle</button>
     </div>
   </div>
 </div>
@@ -569,7 +573,7 @@ a { color: var(--ink-fg); }
   var DOW_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  var CITY = { durham: 'Durham', raleigh: 'Raleigh', chapelhill: 'Chapel Hill & Carrboro', all: 'Durham, Raleigh, Chapel Hill & Carrboro' };
+  var CITY = { durham: 'Durham', raleigh: 'Raleigh', chapelhill: 'Chapel Hill & Carrboro', all: 'the Triangle' };
   var AREAS = ['durham', 'raleigh', 'chapelhill'];
   // In the All view each listing names its area; Chapel Hill & Carrboro listings name their own town.
   function cityTag(e) { return e.city === 'chapelhill' && e.area ? e.area : CITY[e.city]; }
@@ -594,6 +598,7 @@ a { color: var(--ink-fg); }
     check: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m3 8.5 3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     plus: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     close: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 4 8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    calplus: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3M8 8.6v3.8M6.1 10.5h3.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
     cal: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
     spark: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 9.4 6.6 14.5 8 9.4 9.4 8 14.5 6.6 9.4 1.5 8l5.1-1.4z" fill="currentColor"/></svg>',
     ext: '<svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.5 3.5h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3M9.5 2.5h4v4M13.5 2.5 7.5 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
@@ -653,7 +658,7 @@ a { color: var(--ink-fg); }
   function sset(k, v) { try { localStorage.setItem('tsc.' + k, JSON.stringify(v)); } catch (err) { /* storage unavailable */ } }
   var marks = sget('marks', {}) || {};
 
-  var VIEWS = ['week', 'calendar', 'volunteer', 'plan'];
+  var VIEWS = ['week', 'calendar', 'volunteer'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
   var state = { city: sget('city', 'durham'), view: 'week', span: 7, wday: null, f: blankFilters(), calSel: TODAY, calMonth: null };
   if (state.city === 'both') state.city = 'all'; // saved before Chapel Hill & Carrboro was added
@@ -722,6 +727,7 @@ a { color: var(--ink-fg); }
   function updatePlanCount() {
     var n = planEntries().filter(function (x) { return x.d >= TODAY; }).length;
     var pill = $('planCount');
+    if (!pill) return;
     pill.textContent = n ? String(n) : '';
     pill.hidden = !n;
   }
@@ -777,9 +783,23 @@ a { color: var(--ink-fg); }
   }
   function goTitle(k, marked) { return k < TODAY ? (marked ? 'You went (tap to undo)' : 'I went') : (marked ? 'Saved to My plan (tap to remove)' : 'Save to My plan'); }
   function goBtn(e, k) {
-    var marked = isMarked(e.id, k);
-    return '<button type="button" class="gobtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '" title="' + esc(goTitle(k, marked)) +
-      '" aria-label="' + esc(goTitle(k, marked) + ': ' + e.title + ', ' + shortDate(k)) + '">' + (marked ? I.check : I.plus) + '</button>';
+    if (k < TODAY) return '<span class="gobtn none" aria-hidden="true"></span>';
+    return '<button type="button" class="gobtn" data-addcal="' + e.id + '" data-date="' + k + '" title="Add to your calendar" aria-label="' +
+      esc('Add to your calendar: ' + e.title + ', ' + shortDate(k)) + '">' + I.calplus + '</button>';
+  }
+  function calButtons(e, k, big) {
+    var tt = ' data-track-title="' + esc(e.short || e.title) + '"';
+    return '<button type="button" class="btn' + (big ? ' primary' : ' sm') + '" data-ics="' + e.id + '" data-date="' + k + '">' + (big ? 'Apple Calendar (iPhone, Mac)' : 'Apple') + '</button>' +
+      '<a class="btn' + (big ? '' : ' sm') + '" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/google"' + tt + '>' + (big ? 'Google Calendar' : 'Google') + '</a>' +
+      '<a class="btn' + (big ? '' : ' sm') + '" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a>';
+  }
+  var CALNOTE = 'Apple adds two alerts: 30 minutes before you need to leave, and when it\u2019s time to go. Google and Outlook don\u2019t let sites set alerts, so they use your usual reminders.';
+  function openAddCal(id, k) {
+    var e = EV[id];
+    if (!e) return;
+    openModal('<h2 tabindex="-1">Add to your calendar</h2><p class="lede"><b>' + titleHtml(e.title) + '</b><br>' + esc(longDate(k) + (e.start ? ' \u00b7 ' + rangeText(e) : '')) + '</p>' +
+      '<div class="calpick">' + calButtons(e, k, true) + '</div><p class="fine">' + esc(CALNOTE) + '</p>' +
+      '<p class="fine"><button type="button" class="linkish" data-open="' + e.id + '" data-date="' + k + '">See the details</button></p>', 'Add to your calendar');
   }
   function rowHtml(e, k, withDate) {
     return '<div class="row' + (e.philanthropy ? ' give' : '') + (withDate ? ' dated' : '') + '" data-open="' + e.id + '" data-date="' + k + '">' +
@@ -841,7 +861,7 @@ a { color: var(--ink-fg); }
       // Nothing found: say so kindly and offer the next steps that might help.
       var tries = ['another word'], acts = [];
       if (catCount()) { tries.push('fewer filters'); acts.push('<button type="button" class="btn" data-clear="1">Clear filters</button>'); }
-      if (state.city !== 'all') { tries.push('all areas'); acts.unshift('<button type="button" class="btn" data-city="all">Show all areas</button>'); }
+      if (state.city !== 'all') { tries.push('the whole Triangle'); acts.unshift('<button type="button" class="btn" data-city="all">Show the whole Triangle</button>'); }
       if (safeUrl(D.suggestUrl)) acts.push('<a class="btn" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest it</a>');
       if (acts.length) acts[0] = acts[0].replace('class="btn"', 'class="btn primary"');
       var tryText = tries.length > 2 ? tries.slice(0, -1).join(', ') + ' or ' + tries[tries.length - 1] : tries.join(' or ');
@@ -862,7 +882,7 @@ a { color: var(--ink-fg); }
       if (m) { n += m; where.push(CITY[c]); }
     });
     if (!n) return '';
-    return '<button type="button" class="thinhint" data-city="all">+ ' + n + ' more in ' + esc(where.join(' and ')) + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show all areas</button>';
+    return '<button type="button" class="thinhint" data-city="all">+ ' + n + ' more in ' + esc(where.join(' and ')) + (k === TODAY ? ' today' : ' that day') + ' \u00b7 show the whole Triangle</button>';
   }
   /* ---------- this week: day pages ---------- */
   function stripHtml() {
@@ -1037,7 +1057,7 @@ a { color: var(--ink-fg); }
       (roles.length ? '<button type="button" class="jumplink" data-jump="ongoing-roles">Jump to ongoing roles ↓</button>' : '') + '</div>' +
       '<p class="jsub">Sign up for a single date. Most take a few minutes to register. Each shift is listed at its next date; open it to see the others.</p>';
     h += shifts.length ? '<div class="items">' + shifts.slice(0, 40).map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>'
-      : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'all' ? '' : ' here. Try All areas') + '.</p>';
+      : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'all' ? '' : ' here. Try the whole Triangle') + '.</p>';
     h += '</section>';
     h += '<section class="plansec" id="ongoing-roles"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
     VTYPES.forEach(function (t) {
@@ -1201,10 +1221,8 @@ a { color: var(--ink-fg); }
       h += '<div class="joinrow"><a class="btn primary" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" data-track="sign-up"' + tt + '>' +
         (e.kind === 'program' ? 'How to join' : 'Sign up on their site') + I.ext + '</a></div>';
     }
-    if (k) {
-      var marked = isMarked(e.id, k);
-      h += '<div class="goingrow"><button type="button" class="bigbtn" data-mark="' + e.id + '" data-date="' + k + '" aria-pressed="' + marked + '">' +
-        (marked ? I.check : I.plus) + '<span>' + markLabel(k, marked, true) + '</span></button><span class="visits" data-for="' + e.id + '">' + esc(visitsText(e.id)) + '</span></div>';
+    if (k && k >= TODAY) {
+      h += '<div class="addcal top"><span class="lbl">' + I.cal + ' Add to calendar</span>' + calButtons(e, k, false) + '<span class="calnote">' + esc(CALNOTE) + '</span></div>';
     }
     if (e.description) h += '<p class="desc">' + esc(e.description) + '</p>';
     if (e.firstTime) h += '<div class="firsttime"><b>First time?</b> ' + esc(e.firstTime) + '</div>';
@@ -1224,13 +1242,6 @@ a { color: var(--ink-fg); }
       (!e.noMap && (e.address || e.venue) ? '<a class="btn" href="' + esc(mapsUrl(e)) + '" target="_blank" rel="noopener noreferrer" data-track="directions"' + tt + '>Directions</a>' : '') +
       (url ? '<a class="btn" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" data-track="organizer-website"' + tt + '>Website</a>' : '') +
       '<button type="button" class="btn" data-share="' + e.id + '" data-date="' + (k || '') + '">Share</button></div>';
-    if (k) {
-      h += '<div class="addcal"><span class="lbl">Add to calendar</span>' +
-        '<button type="button" class="btn sm" data-ics="' + e.id + '" data-date="' + k + '">Apple</button>' +
-        '<a class="btn sm" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/google"' + tt + '>Google</a>' +
-        '<a class="btn sm" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a>' +
-        '<span class="calnote">Apple adds two alerts: 30 minutes before you need to leave, and when it’s time to go. Google and Outlook don’t let sites set alerts, so they use your usual reminders.</span></div>';
-    }
     if (e.verifyNote) h += '<div class="note"><b>Before you go:</b> ' + esc(e.verifyNote) + '</div>';
     if (k) {
       var next = (e.occ || []).filter(function (x) { return x >= TODAY; }).slice(0, 8);
@@ -1255,7 +1266,7 @@ a { color: var(--ink-fg); }
   }
 
   var subFeed = null;
-  var FEEDS = [['durham', 'Durham: everything'], ['raleigh', 'Raleigh: everything'], ['chapelhill', 'Chapel Hill & Carrboro: everything'], ['all', 'All areas: everything'],
+  var FEEDS = [['durham', 'Durham: everything'], ['raleigh', 'Raleigh: everything'], ['chapelhill', 'Chapel Hill & Carrboro: everything'], ['all', 'Whole Triangle: everything'],
     ['durham-volunteer', 'Durham: volunteering only'], ['raleigh-volunteer', 'Raleigh: volunteering only'], ['chapelhill-volunteer', 'Chapel Hill & Carrboro: volunteering only']];
   function feedUrl(name) {
     var base = D.siteUrl || (!D.preview && /^https?:$/.test(location.protocol) ? location.href.split('#')[0] : '');
@@ -1384,6 +1395,7 @@ a { color: var(--ink-fg); }
     if (t === modal) { closeModal(); return; }
     if ((b = t.closest('a[data-track]'))) { track(b.dataset.track, b.dataset.trackTitle); return; }
     if ((b = t.closest('[data-close]'))) { closeModal(); return; }
+    if ((b = t.closest('[data-addcal]'))) { openAddCal(b.dataset.addcal, b.dataset.date); track('add-to-calendar/open', evName(b.dataset.addcal)); return; }
     if ((b = t.closest('[data-mark]'))) {
       toggleMark(b.dataset.mark, b.dataset.date); refreshMarks(b.dataset.mark, b.dataset.date);
       if (isMarked(b.dataset.mark, b.dataset.date)) track('im-going', evName(b.dataset.mark));

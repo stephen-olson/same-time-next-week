@@ -37,7 +37,7 @@ FEEDS = {
     "durham": ("Same Time Next Week: Durham", lambda e: e["city"] == "durham"),
     "raleigh": ("Same Time Next Week: Raleigh", lambda e: e["city"] == "raleigh"),
     "chapelhill": ("Same Time Next Week: Chapel Hill & Carrboro", lambda e: e["city"] == "chapelhill"),
-    "all": ("Same Time Next Week: all areas", lambda e: True),
+    "all": ("Same Time Next Week: the Triangle", lambda e: True),
     "durham-volunteer": ("Same Time Next Week: Durham volunteering", lambda e: e["city"] == "durham" and e.get("philanthropy")),
     "raleigh-volunteer": ("Same Time Next Week: Raleigh volunteering", lambda e: e["city"] == "raleigh" and e.get("philanthropy")),
     "chapelhill-volunteer": ("Same Time Next Week: Chapel Hill & Carrboro volunteering",
