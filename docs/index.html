@@ -79,22 +79,29 @@ a { color: var(--ink-fg); }
 }
 .lg-bg { fill: var(--brand); } .lg-dot { fill: var(--bg); } .lg-hi { fill: var(--pin); }
 
-/* Masthead (scrolls away): the wordmark and the tagline sit together as one lockup on rough cork, so it reads as spray-painted.
-   Both sizes follow the screen width so the tagline runs about as wide as the wordmark. Kept short so the listings start on the first screen. */
-.site { position: relative; isolation: isolate; padding-bottom: 12px; }
+/* Masthead (scrolls away): the wordmark on the left and the tagline beside it on the right, one lockup on rough cork, so it reads as spray-painted.
+   Below 700px the wordmark stacks on two lines so the tagline fits beside it. Kept short so the listings start on the first screen. */
+.site { position: relative; isolation: isolate; padding-bottom: 11px; }
 .site::before {
   content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
   background-image: var(--grain-rough); background-size: 300px 300px;
   -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent);
 }
-.bar { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding-block: 12px 0; }
-.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; min-width: 0; }
+.bar { display: flex; align-items: center; gap: clamp(10px, 3.4vw, 16px); padding-block: 11px 0; }
+.brand { flex: none; display: inline-flex; align-items: center; gap: 10px; color: var(--brand); text-decoration: none; }
 .brand svg { width: 34px; height: 34px; flex: none; }
-.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(25px, 10.2vw, 48px); line-height: .9; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
-.motto { margin: 0; max-width: 100%; color: var(--brand); font-family: var(--f-hand); font-weight: 700; font-size: clamp(11px, 3.5vw, 16.5px); line-height: 1.2; text-wrap: balance; }
+.brand b { display: block; font-family: var(--f-display); font-weight: 900; font-size: clamp(26px, 8.4vw, 42px); line-height: .88; letter-spacing: .012em; text-transform: uppercase; white-space: nowrap; }
+.brand b > span { display: block; }
+.motto { margin: 0; min-width: 0; color: var(--brand); font-family: var(--f-hand); font-weight: 700; font-size: clamp(12px, 3.75vw, 16.5px); line-height: 1.22; text-wrap: balance; }
+@media (min-width: 700px) {
+  .bar { gap: 20px; }
+  .brand b { font-size: 46px; line-height: .9; }
+  .brand b > span { display: inline; }
+  .motto { max-width: 16em; }
+}
 @media (min-width: 860px) {
   .site { padding-bottom: 18px; }
-  .bar { padding-top: 24px; gap: 4px; }
+  .bar { padding-top: 24px; gap: 24px; }
   .brand { gap: 14px; }
   .brand svg { width: 46px; height: 46px; }
   .brand b { font-size: 50px; }
@@ -163,16 +170,8 @@ a { color: var(--ink-fg); }
 .linkish:hover { text-decoration: underline; text-underline-offset: 3px; }
 .fine { margin: 14px 0 0; color: var(--muted); font-size: 13.5px; }
 
-/* Search and category stickers */
+/* Search and category stickers. They wrap onto as many rows as they need, so every topic shows without scrolling sideways. */
 .filters { display: flex; flex-wrap: wrap; gap: 8px 6px; padding-block: 12px 2px; }
-/* Phones: the stickers sit in one row that scrolls sideways inside itself, bleeding to the screen edges like the day strip. */
-@media (max-width: 699.98px) {
-  .filters {
-    flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
-    margin: 0 -16px; padding: 12px 16px 10px;
-  }
-  .filters::-webkit-scrollbar { display: none; }
-}
 .fbreak { flex-basis: 100%; height: 0; }
 .vhead { margin: 26px 0 12px; font-family: var(--f-display); font-size: 21px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--fg); }
 .rules { margin: 0; padding-left: 20px; display: grid; gap: 10px; }
@@ -202,6 +201,14 @@ a { color: var(--ink-fg); }
 .fchip.give[aria-pressed="true"] .ic { display: none; }
 .fsep { flex: none; width: 1px; margin: 4px 3px; background: var(--chip-line); }
 .fclear { flex: none; border: 0; background: none; color: var(--ink-fg); font-weight: 700; font-size: 14px; cursor: pointer; padding: 7px 6px; }
+/* Phones: smaller stickers that grow and shrink with the screen, so all the topics fit in three short rows on most phones.
+   A picked sticker is filled in with no check mark, so picking one never makes the rows rewrap. */
+@media (max-width: 699.98px) {
+  .filters { gap: 6px 5px; padding-block: 10px 4px; }
+  .fchip { padding: 4px clamp(8px, 2.6vw, 11px); font-size: clamp(12px, 3.35vw, 14px); }
+  .fchip[aria-pressed="true"]::before { content: none; }
+  .fchip.give[aria-pressed="true"] .ic { display: inline; color: inherit; }
+}
 
 /* Day groups and tickets. Ticket rhythm: 12px top and bottom, 14px left, 4px between time, title and where/cost. */
 .day { margin-top: 28px; }
@@ -593,9 +600,10 @@ a { color: var(--ink-fg); }
   var AREAS = ['durham', 'raleigh', 'chapelhill'];
   // In the All view each listing names its area; Chapel Hill & Carrboro listings name their own town.
   function cityTag(e) { return e.city === 'chapelhill' && e.area ? e.area : CITY[e.city]; }
+  // Topic order: a long label sits in the middle row so the stickers pack into three even rows on phones.
   var GROUPS = [
     ['music', 'Music'], ['dance', 'Dance'], ['art', 'Art & making'], ['classes', 'Classes'], ['fitness', 'Active'],
-    ['trivia', 'Trivia'], ['games', 'Games'], ['comedy', 'Comedy & improv'], ['books', 'Books & talks'], ['volunteer', 'Volunteer']
+    ['comedy', 'Comedy & improv'], ['trivia', 'Trivia'], ['games', 'Games'], ['books', 'Books & talks'], ['volunteer', 'Volunteer']
   ];
   var GL = {};
   GROUPS.forEach(function (g) { GL[g[0]] = g[1]; });
@@ -868,9 +876,7 @@ a { color: var(--ink-fg); }
       h += '<button type="button" class="fchip' + (g[0] === 'volunteer' ? ' give' : '') + '" data-cat="' + g[0] + '" aria-pressed="' + !!f.cats[g[0]] + '">' +
         (g[0] === 'volunteer' ? I.heart : '') + esc(g[1]) + '</button>';
     });
-    var sl = el.scrollLeft;
     el.innerHTML = h;
-    el.scrollLeft = sl; // phones: keep the sticker row where it was scrolled to
   }
 
   function renderSearch() {
