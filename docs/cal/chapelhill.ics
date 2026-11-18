@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261113@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261113T193000
 DTEND;TZID=America/New_York:20261113T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -48,7 +48,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261211@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261211T193000
 DTEND;TZID=America/New_York:20261211T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -68,7 +68,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-20261231@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261231T193000
 DTEND;TZID=America/New_York:20261231T230000
 SUMMARY:Contra dance · Carrboro Century Center
@@ -88,7 +88,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-carrboro-2-20261205@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261205T190000
 DTEND;TZID=America/New_York:20261205T223000
 SUMMARY:Contra dance\, Saturday · Carrboro Century Center
@@ -106,7 +106,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:d-swing-dance-20261121@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261121T190000
 DTEND;TZID=America/New_York:20261121T230000
 SUMMARY:Swing dance party · Carrboro Century Center
@@ -128,7 +128,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261114@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261114T080000
 DTEND;TZID=America/New_York:20261114T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -149,7 +149,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="500 Finley Golf Course Rd,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-20261125@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T110000
 SUMMARY:Bird walk · Mason Farm Preserve
@@ -170,7 +170,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="500 Finley Golf Course Rd,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-club-meeting-20261203@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Bird club meeting · NC Botanical Garden
@@ -188,7 +188,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 Old Mason Farm Rd, Cha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bird-walk-2-20261118@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261118T080000
 DTEND;TZID=America/New_York:20261118T110000
 SUMMARY:Bird walk · Brumley Forest
@@ -204,7 +204,7 @@ URL:https://newhopebirdalliance.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261115T140000
 DTEND;TZID=America/New_York:20261115T170000
 SUMMARY:Tree planting training · Trees for the Triangle
@@ -220,7 +220,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:c-waltz-sunday-20261213@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261213T151500
 DTEND;TZID=America/New_York:20261213T180000
 SUMMARY:Waltz Sunday · United Church of Chapel Hill
@@ -237,7 +237,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1321 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261116@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261116T180000
 DTEND;TZID=America/New_York:20261116T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -253,7 +253,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261123@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -269,7 +269,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261130@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -285,7 +285,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261207@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -301,7 +301,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261214@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -317,7 +317,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261221@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -333,7 +333,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-open-mic-steel-string-20261228@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261228T180000
 DTEND;TZID=America/New_York:20261228T230000
 SUMMARY:Open mic · Steel String Brewery
@@ -349,7 +349,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261111@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -366,7 +366,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261118@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -383,7 +383,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261125@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -400,7 +400,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261202@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -417,7 +417,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261209@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -434,7 +434,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261216@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -451,7 +451,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261223@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261223T190000
 DTEND;TZID=America/New_York:20261223T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -468,7 +468,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-craft-night-steel-string-20261230@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261230T190000
 DTEND;TZID=America/New_York:20261230T220000
 SUMMARY:Craft night · Steel String Brewery
@@ -485,7 +485,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-chime-in-open-mic-20261113@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261113T183000
 DTEND;TZID=America/New_York:20261113T210000
 SUMMARY:The Chime In poetry open mic · Lanza's Cafe
@@ -502,7 +502,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
 END:VEVENT
 BEGIN:VEVENT
 UID:c-chime-in-open-mic-20261127@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261127T183000
 DTEND;TZID=America/New_York:20261127T210000
 SUMMARY:The Chime In poetry open mic · Lanza's Cafe
@@ -519,7 +519,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
 END:VEVENT
 BEGIN:VEVENT
 UID:c-chime-in-open-mic-20261211@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T210000
 SUMMARY:The Chime In poetry open mic · Lanza's Cafe
@@ -536,7 +536,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
 END:VEVENT
 BEGIN:VEVENT
 UID:c-third-space-open-mic-20261120@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261120T190000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Third Space open mic · Lanza's Cafe
@@ -553,7 +553,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
 END:VEVENT
 BEGIN:VEVENT
 UID:c-third-space-open-mic-20261218@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261218T190000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Third Space open mic · Lanza's Cafe
@@ -570,7 +570,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Suite C, Ca
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261117@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261117T183300
 DTEND;TZID=America/New_York:20261117T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -588,7 +588,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261124@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261124T183300
 DTEND;TZID=America/New_York:20261124T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -606,7 +606,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261201@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261201T183300
 DTEND;TZID=America/New_York:20261201T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -624,7 +624,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261208@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261208T183300
 DTEND;TZID=America/New_York:20261208T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -642,7 +642,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261215@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261215T183300
 DTEND;TZID=America/New_York:20261215T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -660,7 +660,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261222@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261222T183300
 DTEND;TZID=America/New_York:20261222T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -678,7 +678,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-carrboro-run-club-20261229@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261229T183300
 DTEND;TZID=America/New_York:20261229T193300
 SUMMARY:Carrboro Run Club · Dingo Dog Brewing
@@ -696,7 +696,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="410 N Greensboro St, Suite
 END:VEVENT
 BEGIN:VEVENT
 UID:c-run-club-steel-string-20261112@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261112T183000
 DTEND;TZID=America/New_York:20261112T193000
 SUMMARY:Run club · Steel String Brewery
@@ -713,7 +713,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-run-club-steel-string-20261119@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T193000
 SUMMARY:Run club · Steel String Brewery
@@ -730,7 +730,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-run-club-steel-string-20261203@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T193000
 SUMMARY:Run club · Steel String Brewery
@@ -747,7 +747,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-run-club-steel-string-20261210@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T193000
 SUMMARY:Run club · Steel String Brewery
@@ -764,7 +764,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-run-club-steel-string-20261217@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Run club · Steel String Brewery
@@ -781,7 +781,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-forest-ecology-hike-20261127@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261127T090000
 DTEND;TZID=America/New_York:20261127T113000
 SUMMARY:Fall forest ecology hike · Johnston Mill Preserve
@@ -799,7 +799,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="6001 Turkey Farm Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-speed-hike-20261128@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T110000
 SUMMARY:Speed hike · Johnston Mill Preserve
@@ -817,7 +817,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2713 Mt Sinai Rd, Chapel H
 END:VEVENT
 BEGIN:VEVENT
 UID:c-stardusters-ballroom-20261114@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261114T190000
 DTEND;TZID=America/New_York:20261114T223000
 SUMMARY:Ballroom dance with lesson · Carrboro Century Center
@@ -835,7 +835,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:c-stardusters-ballroom-20261212@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261212T190000
 DTEND;TZID=America/New_York:20261212T223000
 SUMMARY:Ballroom dance with lesson · Carrboro Century Center
@@ -853,7 +853,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="100 N Greensboro St, Carrb
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261117@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261117T173000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -869,7 +869,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261124@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261124T173000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -885,7 +885,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261201@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261201T173000
 DTEND;TZID=America/New_York:20261201T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -901,7 +901,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261208@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261208T173000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -917,7 +917,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261215@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -933,7 +933,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261222@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -949,7 +949,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-go-night-lanza-s-20261229@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261229T173000
 DTEND;TZID=America/New_York:20261229T200000
 SUMMARY:Go games · Lanza's Cafe
@@ -965,7 +965,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="601 W Main St, Carrboro, N
 END:VEVENT
 BEGIN:VEVENT
 UID:c-speed-jigsaw-puzzling-20261217@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T203000
 SUMMARY:Speed jigsaw puzzling · Steel String Brewery Taproom
@@ -984,7 +984,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261111@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261111T190000
 DTEND;TZID=America/New_York:20261111T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1003,7 +1003,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261118@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1022,7 +1022,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261125@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1041,7 +1041,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261202@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1060,7 +1060,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261209@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1079,7 +1079,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261216@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1098,7 +1098,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261223@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261223T190000
 DTEND;TZID=America/New_York:20261223T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1117,7 +1117,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-wed-20261230@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261230T190000
 DTEND;TZID=America/New_York:20261230T213000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1136,7 +1136,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261116@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261116T190000
 DTEND;TZID=America/New_York:20261116T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1154,7 +1154,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261123@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1172,7 +1172,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261130@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261130T190000
 DTEND;TZID=America/New_York:20261130T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1190,7 +1190,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261207@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1208,7 +1208,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261214@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261214T190000
 DTEND;TZID=America/New_York:20261214T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1226,7 +1226,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261221@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1244,7 +1244,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-intl-folk-dance-mon-20261228@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261228T190000
 DTEND;TZID=America/New_York:20261228T210000
 SUMMARY:International folk dancing · Carol Woods Fitness Center
@@ -1262,7 +1262,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-beginner-folk-dance-20261112@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261112T190000
 DTEND;TZID=America/New_York:20261112T210000
 SUMMARY:Beginner folk dance class · Carol Woods Fitness Center
@@ -1280,7 +1280,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-beginner-folk-dance-20261119@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T210000
 SUMMARY:Beginner folk dance class · Carol Woods Fitness Center
@@ -1298,7 +1298,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-beginner-folk-dance-20261203@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Beginner folk dance class · Carol Woods Fitness Center
@@ -1316,7 +1316,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-beginner-folk-dance-20261210@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Beginner folk dance class · Carol Woods Fitness Center
@@ -1334,7 +1334,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-beginner-folk-dance-20261217@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Beginner folk dance class · Carol Woods Fitness Center
@@ -1352,7 +1352,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="750 Weaver Dairy Rd, Chape
 END:VEVENT
 BEGIN:VEVENT
 UID:c-folk-dance-seymour-20261113@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261113T110000
 DTEND;TZID=America/New_York:20261113T130000
 SUMMARY:Daytime folk dancing · Seymour Center
@@ -1368,7 +1368,7 @@ URL:https://sites.google.com/view/seymourfolkdance/home
 END:VEVENT
 BEGIN:VEVENT
 UID:c-folk-dance-seymour-20261204@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261204T110000
 DTEND;TZID=America/New_York:20261204T130000
 SUMMARY:Daytime folk dancing · Seymour Center
@@ -1384,7 +1384,7 @@ URL:https://sites.google.com/view/seymourfolkdance/home
 END:VEVENT
 BEGIN:VEVENT
 UID:c-folk-dance-seymour-20261211@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261211T110000
 DTEND;TZID=America/New_York:20261211T130000
 SUMMARY:Daytime folk dancing · Seymour Center
@@ -1400,7 +1400,7 @@ URL:https://sites.google.com/view/seymourfolkdance/home
 END:VEVENT
 BEGIN:VEVENT
 UID:c-folk-dance-seymour-20261218@same-time-next-week
-DTSTAMP:20261118T052535Z
+DTSTAMP:20261118T052720Z
 DTSTART;TZID=America/New_York:20261218T110000
 DTEND;TZID=America/New_York:20261218T130000
 SUMMARY:Daytime folk dancing · Seymour Center
@@ -1413,5 +1413,283 @@ DESCRIPTION:Weekly circle and line folk dancing to recorded music\, open to
  https://sites.google.com/view/seymourfolkdance/home\n\nListed on Same Time
   Next Week.
 URL:https://sites.google.com/view/seymourfolkdance/home
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261117@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261117T200000
+DTEND;TZID=America/New_York:20261117T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261124@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261124T200000
+DTEND;TZID=America/New_York:20261124T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261201@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261201T200000
+DTEND;TZID=America/New_York:20261201T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261208@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261208T200000
+DTEND;TZID=America/New_York:20261208T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261215@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261215T200000
+DTEND;TZID=America/New_York:20261215T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261222@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261222T200000
+DTEND;TZID=America/New_York:20261222T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-steel-string-20261229@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261229T200000
+DTEND;TZID=America/New_York:20261229T220000
+SUMMARY:Trivia · Steel String Brewery
+LOCATION:Steel String Brewery Taproom\, 106A S Greensboro St\, Carrboro\, N
+ C 27510
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro brewery taproom. Teams 
+ of up to six play for prizes\, including best team name.\n\nEvery Tuesday\
+ ; hosts alternate weeks\n\nHow to join: Just show up\n\nBefore you go: Che
+ ck holiday schedule\n\nhttps://steelstringbrewery.com/events/trivia-night\
+ n\nListed on Same Time Next Week.
+URL:https://steelstringbrewery.com/events/trivia-night
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="106A S Greensboro St, Carr
+ boro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Steel String Brewery Taproom":g
+ eo:35.910212,-79.072342
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261111@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261111T190000
+DTEND;TZID=America/New_York:20261111T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261118@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261118T190000
+DTEND;TZID=America/New_York:20261118T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261125@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261125T190000
+DTEND;TZID=America/New_York:20261125T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261202@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261202T190000
+DTEND;TZID=America/New_York:20261202T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261209@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261209T190000
+DTEND;TZID=America/New_York:20261209T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261216@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261216T190000
+DTEND;TZID=America/New_York:20261216T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261223@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261223T190000
+DTEND;TZID=America/New_York:20261223T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
+END:VEVENT
+BEGIN:VEVENT
+UID:c-trivia-haw-river-20261230@same-time-next-week
+DTSTAMP:20261118T052720Z
+DTSTART;TZID=America/New_York:20261230T190000
+DTEND;TZID=America/New_York:20261230T210000
+SUMMARY:Trivia · Haw River Tap & Table
+LOCATION:Haw River Tap & Table\, 300 E Main St\, Unit C\, Carrboro\, NC 275
+ 10
+DESCRIPTION:Weekly live-hosted trivia at a Carrboro taproom and kitchen. Fr
+ ee to play\, with prizes for winning teams.\n\nEvery Wednesday\; hosted by
+  Hammered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holi
+ day schedule. No dated trivia post seen yet\; confirm the weekly night is 
+ still running.\n\nhttps://haw-river-carrboro.squarespace.com/calendar\n\nL
+ isted on Same Time Next Week.
+URL:https://haw-river-carrboro.squarespace.com/calendar
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 E Main St, Unit C, Car
+ rboro, NC 27510";X-APPLE-RADIUS=70;X-TITLE="Haw River Tap & Table":geo:35.
+ 910643,-79.06902
 END:VEVENT
 END:VCALENDAR

@@ -7603,6 +7603,204 @@
    "verifyNote": "Check holiday schedule",
    "evidence": "nocobrewsandbites.com/community-events: 'EVENT - Geeks Who Drink Trivia, NOV 19 and NOV 26, 7:00 PM-9:00 PM'. geekswhodrink.com/venues (Raleigh search): 'SMALL BATCH, Thursdays at 7:00 pm, NOCO Brews & Bites'. (checked Nov 17, 2026)",
    "lastChecked": "2026-11-18"
+  },
+  {
+   "id": "d-trivia-ponysaurus",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · Ponysaurus Brewing",
+   "short": "Trivia (Ponysaurus)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "18:30",
+   "end": "20:30",
+   "timeNote": "Every Monday; hosted by Geeks Who Drink",
+   "venue": "Ponysaurus Brewing Co.",
+   "address": "219 Hood St, Durham, NC 27701",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a Durham pizzeria and beer garden. Teams answer on their phones and play for beer prizes.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://ponysaurusbrewing.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "ponysaurusbrewing.com/events: 'Trivia Night Mondays ... weekly Trivia Night every Monday at 6:30pm ... our hosts, Geeks Who Drink'; events posted for Mon Nov 23 and Nov 30, 6:30-8:30 PM (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    35.990123,
+    -78.893959
+   ]
+  },
+  {
+   "id": "d-trivia-dssolvr",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · DSSOLVR Durham",
+   "short": "Trivia (DSSOLVR)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Tuesday; hosted by Hammered Trivia",
+   "venue": "DSSOLVR Durham",
+   "address": "630 Rigsbee Ave, Durham, NC 27701",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a Durham taproom that is also dog friendly. Free to play.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://dssolvr.com/events",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "dssolvr.com/events calendar: 'Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) - DURHAM', 7:00-9:00 pm on Tuesdays Oct 27, Nov 3, Nov 10 and later dates; hammeredtrivia.com lists 'DSSOLVR @ 7:00 pm' under Durham Tuesdays (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    36.001266,
+    -78.899905
+   ]
+  },
+  {
+   "id": "d-trivia-gizmo-durham",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · Gizmo Brew Works Durham",
+   "short": "Trivia (Gizmo Durham)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Tuesday; hosted by Hammered Trivia",
+   "venue": "Gizmo Brew Works Durham Taproom",
+   "address": "3109 Shannon Rd, Ste 201, Durham, NC 27707",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at the Durham taproom of Gizmo Brew Works. Free to play, with beer and prizes.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://www.gizmobrewworks.com/durham",
+   "verifyNote": "Check holiday schedule. No dated trivia post seen yet; confirm the weekly night is still running.",
+   "evidence": "gizmobrewworks.com/durham: 'WEEKLY EVENTS ... TRIVIA TUESDAY 7 - 9 PM'; hammeredtrivia.com lists 'Gizmo Taproom @ 7:00 pm' under Durham Tuesdays. No dated post seen (calendar is a Google Calendar embed that did not load) (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    35.968048,
+    -78.955001
+   ]
+  },
+  {
+   "id": "d-trivia-hi-wire",
+   "city": "durham",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · Hi-Wire Brewing Durham",
+   "short": "Trivia (Hi-Wire)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Wednesday",
+   "venue": "Hi-Wire Brewing Durham",
+   "address": "800 Taylor St #9-150, Durham, NC 27701",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a Durham brewery taproom.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://www.hiwirebrewing.com/durham",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "hiwirebrewing.com/durham Durham Events: 'NOV 18 RECURRING EVENTS Weekly Trivia 7:00 PM - 9:00 PM' (checked Nov 17, 2026); hiwirebrewing.com/durham lists the taproom at '800 Taylor St. #9-150, Durham, NC 27701' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    35.991895,
+    -78.889668
+   ]
+  },
+  {
+   "id": "c-trivia-steel-string",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · Steel String Brewery",
+   "short": "Trivia (Steel String)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "20:00",
+   "end": "22:00",
+   "timeNote": "Every Tuesday; hosts alternate weeks",
+   "venue": "Steel String Brewery Taproom",
+   "address": "106A S Greensboro St, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a Carrboro brewery taproom. Teams of up to six play for prizes, including best team name.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://steelstringbrewery.com/events/trivia-night",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "steelstringbrewery.com/calendar (Nov 2026) shows 'Tuesday Night Trivia!' on Tue Nov 24; event page: 'Trivia Night every Tuesday at the Taproom', 8:00-10:00 pm, hosted alternate weeks by Kevin and Wesley (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    35.910212,
+    -79.072342
+   ]
+  },
+  {
+   "id": "c-trivia-haw-river",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Trivia · Haw River Tap & Table",
+   "short": "Trivia (Haw River)",
+   "category": "trivia",
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Wednesday; hosted by Hammered Trivia",
+   "venue": "Haw River Tap & Table",
+   "address": "300 E Main St, Unit C, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly live-hosted trivia at a Carrboro taproom and kitchen. Free to play, with prizes for winning teams.",
+   "howToJoin": "Just show up",
+   "firstTime": "Bring a friend or two, or ask the host whether a team has room. Arrive a little early to get a table.",
+   "url": "https://haw-river-carrboro.squarespace.com/calendar",
+   "verifyNote": "Check holiday schedule. No dated trivia post seen yet; confirm the weekly night is still running.",
+   "evidence": "Venue calendar page: 'Join us every Wednesday from 7-9pm ... Hammered Trivia ... free to play and there's prizes for the winning teams'; hammeredtrivia.com lists 'Haw River Table and Tap @ 7:00 pm' under Carrboro Wednesdays. No dated post seen (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-18",
+   "geo": [
+    35.910643,
+    -79.06902
+   ]
   }
  ]
 }
