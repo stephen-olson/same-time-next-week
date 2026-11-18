@@ -4577,7 +4577,8 @@
    "philanthropy": false,
    "solo": true,
    "dates": [
-    "2026-11-21"
+    "2026-11-21",
+    "2026-12-12"
    ],
    "start": "18:00",
    "end": "21:00",
@@ -4588,8 +4589,8 @@
    "howToJoin": "Just show up any time between 6 and 9pm.",
    "firstTime": "No Spanish is needed. It's fine to say you're a beginner and practice a few phrases. Sitting at a shared table is the easiest way into a conversation.",
    "url": "https://thebikelibrary.com/events",
-   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Spanish Night on Sat Nov 21, 2026, 6–9 PM. Its ma.to venue page shows a Spanish Language Cafe Night held Oct 30, 2026. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Spanish Night on Sat Nov 21, 2026, 6–9 PM. Its ma.to venue page shows a Spanish Language Cafe Night held Oct 30, 2026. Checked Nov 13, 2026. | thebikelibrary.com/events/spanish-night-1-n84pt: Spanish Night Sat Dec 12, 2026, 6-9 PM (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17"
   },
   {
    "id": "r-espresso-express-ride",
@@ -4637,7 +4638,8 @@
    "philanthropy": false,
    "solo": true,
    "dates": [
-    "2026-11-30"
+    "2026-11-30",
+    "2026-12-28"
    ],
    "start": "18:30",
    "end": "20:30",
@@ -4648,8 +4650,8 @@
    "howToJoin": "Just show up with whatever project you're working on.",
    "firstTime": "Bring something portable and low-mess. Asking someone what they're making is an easy opener. The cafe runs a slow bar that night, with no espresso or steamed-milk drinks.",
    "url": "https://thebikelibrary.com/events",
-   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Craft Night on Mon Nov 30, 2026, 6:30–8:30 PM. Checked Nov 13, 2026.",
-   "lastChecked": "2026-11-13"
+   "evidence": "https://thebikelibrary.com/events: the venue's own events page lists Craft Night on Mon Nov 30, 2026, 6:30–8:30 PM. Checked Nov 13, 2026. | thebikelibrary.com/events: Craft Night also posted for Mon Dec 28, 2026, 6:30-8:30 PM (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17"
   },
   {
    "id": "r-fpc-pickleball",
@@ -7154,6 +7156,390 @@
    "geo": [
     35.801227,
     -78.684492
+   ]
+  },
+  {
+   "id": "c-stardusters-ballroom",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "regular",
+   "title": "Ballroom dance with lesson · Carrboro Century Center",
+   "short": "StarDusters ballroom",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2
+    ],
+    "day": "Sat"
+   },
+   "start": "19:00",
+   "end": "22:30",
+   "timeNote": "2nd Saturdays; doors 7pm, one-hour lesson then dancing",
+   "venue": "Carrboro Century Center",
+   "address": "100 N Greensboro St, Carrboro, NC 27510",
+   "cost": "$20 ($15 with student ID)",
+   "description": "Monthly ballroom and social dance with a one-hour lesson from a pro instructor, then over two hours of dancing. No partner needed.",
+   "howToJoin": "Pay at the door or register online",
+   "firstTime": "Arrive when doors open at 7pm for the lesson. No partner or experience needed. Enter up the steps near the fountain on Weaver Street.",
+   "url": "https://trianglestardusters.org",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "trianglestardusters.org: 'Every Second Saturday of the Month, Doors Open: 7 PM, $20/person, $15 w/ student ID'; 'one-hour lesson by a professional instructor followed by more than two hours of ballroom dancing'; 'Our Next Dance Will Be On Saturday, December 12 ... Samba'; Carrboro Century Center, 100 N Greensboro St (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.91036,
+    -79.0722
+   ]
+  },
+  {
+   "id": "c-go-night-lanza-s",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Go games · Lanza's Cafe",
+   "short": "Go night (Lanza's)",
+   "category": "games",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Tue"
+    ]
+   },
+   "start": "17:30",
+   "end": "20:00",
+   "timeNote": "Every Tuesday; all levels, beginners welcome",
+   "venue": "Lanza's Cafe",
+   "address": "601 W Main St, Carrboro, NC 27510",
+   "cost": "Free",
+   "description": "Weekly casual Go games with the Triangle Go Group at a Carrboro cafe. All playing levels are welcome, so beginners can find a partner.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just show up and ask for the Go table. Tell people you are new and someone will usually teach you or play a handicap game.",
+   "url": "https://trianglegoclub.org/games.htm",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "trianglegoclub.org/games.htm: 'Tuesdays in Carrboro: We play from 5:30 PM until 8 PM at Lanza's Cafe in Carrboro ... all levels of players are welcome'; 'We welcome and encourage all levels of players, from beginners to high dans'; site home page 'Last update November 14, 2026' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.913567,
+    -79.079677
+   ]
+  },
+  {
+   "id": "c-speed-jigsaw-puzzling",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "signup",
+   "tier": "regular",
+   "title": "Speed jigsaw puzzling · Steel String Brewery Taproom",
+   "short": "Speed jigsaw puzzling",
+   "category": "games",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     3
+    ],
+    "day": "Thu"
+   },
+   "except": [
+    "2026-11-19"
+   ],
+   "start": "19:00",
+   "end": "20:30",
+   "timeNote": "3rd Thursdays; tickets are limited (Nov 19 is sold out)",
+   "venue": "Steel String Brewery Taproom",
+   "address": "106A S Greensboro St, Carrboro, NC 27510",
+   "cost": "Ticket required",
+   "description": "Teams of up to four race to finish a new puzzle each month. Solo players can buy a pairing ticket and get matched with an open team.",
+   "howToJoin": "Buy a team or solo puzzle pairing ticket on the event page",
+   "firstTime": "If you come alone, buy the Puzzle Pairing ticket and you will be connected with a team. Number of teams is limited, so book ahead.",
+   "url": "https://steelstringbrewery.com/events/speed-jigsaw-puzzling/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "steelstringbrewery.com/events/speed-jigsaw-puzzling/: 'Teams of up to four compete to finish a new puzzle every month'; 'Flying solo? Grab a Puzzle Pairing ticket and we'll connect you with an open team'; dates Nov 19 (sold out), Dec 17, Jan 21 2027, 7:00-8:30pm; also on the brewery calendar (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.910212,
+    -79.072342
+   ]
+  },
+  {
+   "id": "c-intl-folk-dance-wed",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "International folk dancing · Carol Woods Fitness Center",
+   "short": "Intl folk dance (Wed)",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Wed"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:30",
+   "timeNote": "Every Wednesday; easy dances first, new dance taught at 8",
+   "venue": "Carol Woods Fitness Center (Classroom 2)",
+   "address": "750 Weaver Dairy Rd, Chapel Hill, NC 27514",
+   "cost": "Free",
+   "description": "Weekly circle, line and set dancing from the Balkans, Greece, British Isles and more. No partner or experience needed, and the group has met since 1964.",
+   "howToJoin": "Just show up",
+   "firstTime": "Come at 7pm when the evening starts with easier dances; a dance is taught at 8. Wear soft-soled shoes. First-time visitors sign a liability waiver. Enter through the Fitness Center lobby and turn right toward the pool.",
+   "url": "https://www.trianglefolkdancers.org/home/dchifd",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "trianglefolkdancers.org/home/dchifd: 'Wednesday International Folk Dancing from 7:00-9:30 PM ... Evenings begin with easier dances. A dance is introduced or reviewed at 8PM'; 'All group sessions are free and open to the public. No dance experience required'; shared site events page notes an update dated 11/9/26 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.963842,
+    -79.040644
+   ]
+  },
+  {
+   "id": "c-intl-folk-dance-mon",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "International folk dancing · Carol Woods Fitness Center",
+   "short": "Intl folk dance (Mon)",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Monday; easy to intermediate dances",
+   "venue": "Carol Woods Fitness Center (Classroom 1 or 2)",
+   "address": "750 Weaver Dairy Rd, Chapel Hill, NC 27514",
+   "cost": "Free",
+   "description": "Weekly international folk dancing in circles and lines, with teaching as needed. No partner required.",
+   "howToJoin": "Just show up",
+   "firstTime": "Just arrive at 7pm and join the line at the back. Most dances are easy to join. First-time visitors sign a liability waiver. Enter through the Fitness Center lobby and turn right toward the pool.",
+   "url": "https://www.trianglefolkdancers.org/home/dchifd",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "trianglefolkdancers.org/home/dchifd: 'Monday International Folk Dancing from 7:00-9:00 PM. Easy to intermediate dances. Teaching as needed'; 'All group sessions are free and open to the public'; shared site events page notes an update dated 11/9/26 (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.963842,
+    -79.040644
+   ]
+  },
+  {
+   "id": "c-beginner-folk-dance",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Beginner folk dance class · Carol Woods Fitness Center",
+   "short": "Beginner folk dance",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Thu"
+    ]
+   },
+   "start": "19:00",
+   "end": "21:00",
+   "timeNote": "Every Thursday; all dances taught or reviewed",
+   "venue": "Carol Woods Fitness Center (Classroom 1)",
+   "address": "750 Weaver Dairy Rd, Chapel Hill, NC 27514",
+   "cost": "Free",
+   "description": "Weekly international folk dance session aimed at beginners, where every dance is taught or reviewed. No partner needed.",
+   "howToJoin": "Just show up",
+   "firstTime": "Arrive at 7pm. All dances are taught or reviewed, so no experience is needed. First-time visitors sign a liability waiver. Enter through the Fitness Center lobby and turn right toward the pool.",
+   "url": "https://www.trianglefolkdancers.org/home/dchifd",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "trianglefolkdancers.org/home/dchifd: 'Thursday International Folk Dance Class from 7:00-9:00 PM. A class for beginners/inexperienced dancers ... All dances are taught or reviewed'; 'All group sessions are free and open to the public' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.963842,
+    -79.040644
+   ]
+  },
+  {
+   "id": "c-folk-dance-seymour",
+   "city": "chapelhill",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Daytime folk dancing · Seymour Center",
+   "short": "Folk dance (Seymour)",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Fri"
+    ]
+   },
+   "except": [
+    "2026-11-20",
+    "2026-11-27",
+    "2026-12-25",
+    "2027-01-01"
+   ],
+   "start": "11:00",
+   "end": "13:00",
+   "timeNote": "Fridays; no session Nov 20, Nov 27, Dec 25, Jan 1",
+   "venue": "R. & P. Seymour Center, Great Hall 2",
+   "address": "2551 Homestead Rd, Chapel Hill, NC 27516",
+   "cost": "Free",
+   "description": "Weekly circle and line folk dancing to recorded music, open to all ages. You can follow along behind the line or just watch.",
+   "howToJoin": "Sign up at the front desk when you arrive",
+   "firstTime": "Sign in at the front desk and on the clipboard by the classroom door. Spot teaching is given as needed, so follow along at the back of the line.",
+   "url": "https://sites.google.com/view/seymourfolkdance/home",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "sites.google.com/view/seymourfolkdance/home: 'Weekly Fridays at Seymour Center, 11 AM- 1 PM'; 'Nov 20th the regulars will meet ... at home. The next public dance ... Great Hall Two, will be Dec 4th'; 'ALL AGES are welcome'; 'no fee' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17"
+  },
+  {
+   "id": "r-ballroom-social-elks",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Afternoon ballroom social · Raleigh Elks Lodge",
+   "short": "Ballroom social (Elks)",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     1
+    ],
+    "day": "Sun"
+   },
+   "start": "15:00",
+   "end": "18:00",
+   "timeNote": "1st Sundays; beginner lesson at 3, social dancing 4-6",
+   "venue": "Raleigh Elks Lodge",
+   "address": "5538 Lead Mine Rd, Raleigh, NC 27612",
+   "cost": "$15 ($12 club members, $10 students)",
+   "description": "Afternoon ballroom dancing at a long-running Raleigh dance club, with a beginner lesson first. No partner or experience needed, and people rotate partners.",
+   "howToJoin": "Just show up; register at the door (doors open 2:45)",
+   "firstTime": "Arrive a little before 3 to register and pay at the door. The beginner lesson comes first, then social dancing. No partner needed. The same admission covers the evening swing dance.",
+   "url": "https://www.carolinadanceclub.com/",
+   "verifyNote": "Check holiday schedule (Jan 3 date not yet posted)",
+   "evidence": "carolinadanceclub.com: '1st SUNDAYS - December 6th, AFTERNOON BALLROOM DANCING, 3 PM Beginner Hustle Lesson, 4 PM - 6 PM Social Dancing ... No partner or experience is required'; meetup.com/carolina-dance-club past events include 'Sunday Afternoon Ballroom & Evening Swing Dancing' Sun Nov 1, 3:00 PM at Raleigh Elks Lodge, 5538 Lead Mine Rd; '22 years of Sunday dancing', 'Over 100 dancers join us each Sunday' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.855949,
+    -78.671665
+   ]
+  },
+  {
+   "id": "r-country-dance-elks",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Afternoon country dance · Raleigh Elks Lodge",
+   "short": "Country dance (Elks)",
+   "category": "dance",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2
+    ],
+    "day": "Sun"
+   },
+   "start": "15:00",
+   "end": "18:00",
+   "timeNote": "2nd Sundays; beginner 2-step lesson at 3, social dancing 4-6",
+   "venue": "Raleigh Elks Lodge",
+   "address": "5538 Lead Mine Rd, Raleigh, NC 27612",
+   "cost": "$15 ($12 club members, $10 students)",
+   "description": "Afternoon country two-step and line dancing at a long-running Raleigh dance club, with a beginner lesson first. No partner needed.",
+   "howToJoin": "Just show up; register at the door (doors open 2:45)",
+   "firstTime": "Arrive a little before 3 to register and pay at the door. A beginner country 2-step lesson comes first, then social dancing. The lesson is sometimes skipped for scheduling, so social dancing at 4 is the sure start.",
+   "url": "https://www.carolinadanceclub.com/",
+   "verifyNote": "Check holiday schedule",
+   "evidence": "carolinadanceclub.com: '2nd SUNDAYS - December 13, AFTERNOON COUNTRY DANCING, 3 PM Beginner Country 2-Step, 4 PM - 6 PM Social Country Dancing'; meetup.com/carolina-dance-club past event Sun Nov 8 'Sunday Afternoon Country Dancing and Evening Swing Dance' at Raleigh Elks Lodge (no lessons that day, social dancing at 4) (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.855949,
+    -78.671665
+   ]
+  },
+  {
+   "id": "r-knit-and-crochet-garner",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Knitting & crochet club · Southeast Regional Library",
+   "short": "Knit & crochet (Garner)",
+   "category": "art",
+   "solo": true,
+   "recurrence": {
+    "type": "monthly",
+    "nth": [
+     2
+    ],
+    "day": "Sun"
+   },
+   "start": "13:30",
+   "end": "15:00",
+   "timeNote": "2nd Sundays; ages 18+",
+   "venue": "Southeast Regional Library",
+   "address": "908 7th Ave, Garner, NC 27529",
+   "cost": "Free",
+   "description": "Adults bring a needlework project and chat in a relaxed library meeting. Volunteers help if you want to learn or improve.",
+   "howToJoin": "Just show up, no registration",
+   "firstTime": "Bring your current project and supplies. Volunteer help is available for newer stitchers. No registration needed.",
+   "url": "https://www.wake.gov/events/garner-knitting-crochet-club-southeast-regional-library-9",
+   "verifyNote": "Check holiday schedule; the Oct 11 session was cancelled, so confirm each month",
+   "evidence": "wake.gov event pages: 'Meets every second Sunday of the month from 1:30 - 3:00pm. Ages 18+. Registration not required', Southeast Regional Library, 908 7th Ave, Garner. Nov 8, 2026 session listed (not cancelled); Dec 13, 2026 session listed; Oct 11 listing marked CANCELLED (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.705861,
+    -78.621844
+   ]
+  },
+  {
+   "id": "r-nog-monday-run",
+   "city": "raleigh",
+   "kind": "event",
+   "entry": "show",
+   "tier": "regular",
+   "title": "Monday run club · The Bend Bar (nOG)",
+   "short": "nOG Monday run",
+   "category": "fitness",
+   "solo": true,
+   "recurrence": {
+    "type": "weekly",
+    "days": [
+     "Mon"
+    ]
+   },
+   "start": "18:00",
+   "end": "19:30",
+   "timeNote": "Every Monday; 3, 4 or 5 mile routes; arrive 15 min early on your first night",
+   "venue": "The Bend Bar and State of Beer",
+   "address": "849 W Morgan St, Raleigh, NC 27603",
+   "cost": "Free",
+   "description": "Raleigh's long-running charity run club meets weekly, with walkers and runners of all abilities and beer, food and trivia afterward.",
+   "howToJoin": "Just show up; sign a waiver on arrival",
+   "firstTime": "Arrive 15 minutes early to sign the electronic waiver. Pick a 3, 4 or 5 mile route and go at your own pace, then stay for a drink or food afterward.",
+   "url": "https://nogrunclub.com/morgan-street-run-club/",
+   "verifyNote": "Check holiday schedule; recent-activity proof is thin (site page edited Nov 11, Instagram bio lists Monday 6PM)",
+   "evidence": "nogrunclub.com/morgan-street-run-club: 'Come Join Us Every Monday At The Bend Bar And State Of Beer ... Runners/walkers leave @ 6PM ... 3, 4, or 5 mile routes. After the run, stay and enjoy a beer, food and trivia'; 849 W Morgan St; est. 2008 501(c)3; site's Trophy Trot page (Nov 26 race) updated Nov 11, 2026; instagram.com/nogrunclub bio 'Morgan Street Run Club | Monday @ 6PM' (checked Nov 17, 2026)",
+   "lastChecked": "2026-11-17",
+   "geo": [
+    35.779847,
+    -78.654724
    ]
   }
  ]
