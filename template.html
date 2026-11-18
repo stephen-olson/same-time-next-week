@@ -537,7 +537,6 @@ a { color: var(--ink-fg); }
   <div class="wrap navrow">
     <nav class="tabs" aria-label="Sections">
       <a href="#week" data-view="week">This week</a>
-      <a href="#calendar" data-view="calendar">Calendar</a>
       <a href="#volunteer" data-view="volunteer">Volunteer</a>
     </nav>
     <div class="cityswitch" role="group" aria-label="Choose an area">
@@ -658,7 +657,7 @@ a { color: var(--ink-fg); }
   function sset(k, v) { try { localStorage.setItem('tsc.' + k, JSON.stringify(v)); } catch (err) { /* storage unavailable */ } }
   var marks = sget('marks', {}) || {};
 
-  var VIEWS = ['week', 'calendar', 'volunteer'];
+  var VIEWS = ['week', 'volunteer'];
   function blankFilters() { return { cats: {}, free: false, solo: false, show: false, weeknight: false, weekend: false }; }
   var state = { city: sget('city', 'durham'), view: 'week', span: 7, wday: null, f: blankFilters(), calSel: TODAY, calMonth: null };
   if (state.city === 'both') state.city = 'all'; // saved before Chapel Hill & Carrboro was added
@@ -762,13 +761,19 @@ a { color: var(--ink-fg); }
 
   /* ---------- pieces ---------- */
   function costShort(e) { return e.costShort || ''; }
+  // Just the price: "Free", "$10", "$7–10".
+  function priceTag(e) {
+    var c = costShort(e);
+    if (/^free\b/i.test(c)) return 'Free';
+    var m = c.match(/\$\s?\d+(?:\.\d\d)?(?:\s?(?:\u2013|-|to)\s?\$?\d+)?/);
+    return m ? m[0].replace(/\s?to\s?/, '\u2013').replace(/\s/g, '') : '';
+  }
   function metaLine(e) {
     // Titles already name the place ("What · Where"), so the line under them skips the venue unless the title doesn't have one.
     var bits = [], named = e.title.indexOf(' · ') >= 0;
-    if (state.city === 'all' && !e.area) bits.push(CITY[e.city]);
-    if (e.area && (named ? e.title : (e.venue || '')).indexOf(e.area) < 0) bits.push(e.area);
+    if (state.city === 'all') bits.push(e.area && (named ? e.title : (e.venue || '')).indexOf(e.area) < 0 ? e.area : CITY[e.city]);
     if (e.venue && !named) bits.push(e.venue);
-    if (costShort(e)) bits.push(costShort(e));
+    if (priceTag(e)) bits.push(priceTag(e));
     return bits.join(' · ');
   }
   function tagHtml(e, inCards) {
@@ -793,7 +798,7 @@ a { color: var(--ink-fg); }
       '<a class="btn' + (big ? '' : ' sm') + '" href="' + esc(gcalUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/google"' + tt + '>' + (big ? 'Google Calendar' : 'Google') + '</a>' +
       '<a class="btn' + (big ? '' : ' sm') + '" href="' + esc(outlookUrl(e, k)) + '" target="_blank" rel="noopener noreferrer" data-track="add-to-calendar/outlook"' + tt + '>Outlook</a>';
   }
-  var CALNOTE = 'Apple adds two alerts: 30 minutes before you need to leave, and when it\u2019s time to go. Google and Outlook don\u2019t let sites set alerts, so they use your usual reminders.';
+  var CALNOTE = 'Apple adds leave-now alerts. Google and Outlook use your usual reminders.';
   function openAddCal(id, k) {
     var e = EV[id];
     if (!e) return;
@@ -820,14 +825,14 @@ a { color: var(--ink-fg); }
 
   function renderIntro() {
     var city = CITY[state.city], t;
-    if (state.view === 'volunteer') t = ['Volunteer', 'Working side by side on a shared task is one of the easiest ways to meet people. Every listing is checked against the organization\u2019s own page.'];
+    if (state.view === 'volunteer') t = ['Volunteer', ''];
     else if (state.view === 'plan') t = ['My plan', 'What you\u2019ve saved, kept on this device.'];
     else t = ['Things to do in ' + city, 'Recurring things to do with people, checked every week.'];
     var cta = '';
     var compact = state.view === 'week' || state.view === 'calendar';
     $('intro').hidden = false;
     $('intro').classList.toggle('compact', compact);
-    $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1>' + (compact ? '' : '<p>' + esc(t[1]) + '</p>') + '</div>' + cta;
+    $('intro').innerHTML = '<div><h1>' + esc(t[0]) + '</h1>' + (compact || !t[1] ? '' : '<p>' + esc(t[1]) + '</p>') + '</div>' + cta;
   }
 
   function renderFilters() {
@@ -897,9 +902,9 @@ a { color: var(--ink-fg); }
   }
   function renderWeekTop() {
     // Hidden while search results show: the pages count only this week, but results run for months.
-    var el = $('weektop'), show = state.view === 'week' && !(state.q && !state.wday);
-    el.hidden = !show;
-    el.innerHTML = show ? stripHtml() : '';
+    var el = $('weektop');  // the row of day pages was dropped to keep the page simple
+    el.hidden = true;
+    el.innerHTML = '';
   }
 
   function renderWeek() {
@@ -913,20 +918,15 @@ a { color: var(--ink-fg); }
       if (!list.length && anyFilter() && !state.wday) return; // with filters on, days with nothing are left out
       var label = i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : DOW_LONG[x.getDay()];
       h += '<section class="day" id="day-' + k + '" aria-label="' + esc(longDate(k)) + '"><div class="dayhead"><h2>' + label + '</h2><span class="sub">' +
-        (i <= 1 ? DOW_LONG[x.getDay()] + ', ' : '') + MONTHS[x.getMonth()] + ' ' + x.getDate() + '</span>' +
+        (i <= 1 ? DOW[x.getDay()] + ', ' : '') + MON[x.getMonth()] + ' ' + x.getDate() + '</span>' +
         (HOL[k] ? '<span class="hol">' + esc(HOL[k]) + '</span>' : '') +
         (state.wday ? '<button type="button" class="fclear" data-wkday="">See the whole week</button>' : '') + '</div>';
       h += list.length ? '<div class="items">' + list.map(function (e) { return rowHtml(e, k); }).join('') + '</div>'
         : '<p class="none">' + (anyFilter() ? 'Nothing matches your filters.' : 'Nothing listed.') + '</p>';
-      h += thinHint(k, list.length);
       h += '</section>';
     });
     if (!total && anyFilter() && !state.wday) h = '<div class="empty-state"><h2>Nothing matches</h2><p>Try fewer filters.</p><button type="button" class="btn" data-clear="1">Clear filters</button></div>' + h;
     if (!state.wday && state.span === 7) h += '<div class="more-wrap"><button type="button" class="btn" data-span="14">Show next week</button></div>';
-    if (safeUrl(D.suggestUrl)) {
-      h += '<div class="suggest"><div><h2>Know something we’re missing?</h2><p>A regular, newcomer-friendly thing in Durham, Raleigh, Chapel Hill or Carrboro: a jam, a dance, a club, a volunteer crew. Every suggestion gets checked before it’s listed.</p></div>' +
-        '<a class="btn primary" href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something</a></div>';
-    }
     return h;
   }
 
@@ -980,8 +980,8 @@ a { color: var(--ink-fg); }
 
   function cardHtml(e) {
     var url = safeUrl(e.url);
-    return '<article class="card"><div class="tags">' + tagHtml(e, true) + (state.city === 'all' ? '<span class="tag city">' + esc(cityTag(e)) + '</span>' : '') + '</div>' +
-      '<h3>' + titleHtml(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p><p class="cdesc">' + esc(e.description || '') + '</p>' +
+    return '<article class="card">' + (state.city === 'all' ? '<div class="tags"><span class="tag city">' + esc(cityTag(e)) + '</span></div>' : '') +
+      '<h3>' + titleHtml(e.title) + '</h3><p class="sched">' + esc(e.rtext || '') + '</p>' +
       '<div class="cactions"><button type="button" class="btn sm primary" data-open="' + e.id + '">How to join</button>' +
       (url ? '<a class="btn sm" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Website</a>' : '') + '</div></article>';
   }
@@ -1055,18 +1055,18 @@ a { color: var(--ink-fg); }
     var roles = EVENTS.filter(function (e) { return e.kind === 'program' && e.pgroup === 'volunteer' && inCity(e); });
     var h = '<section class="plansec"><div class="secthead"><h2>Upcoming shifts</h2>' +
       (roles.length ? '<button type="button" class="jumplink" data-jump="ongoing-roles">Jump to ongoing roles ↓</button>' : '') + '</div>' +
-      '<p class="jsub">Sign up for a single date. Most take a few minutes to register. Each shift is listed at its next date; open it to see the others.</p>';
+      '';
     h += shifts.length ? '<div class="items">' + shifts.slice(0, 40).map(function (x) { return rowHtml(x.e, x.k, true); }).join('') + '</div>'
       : '<p class="none">No dated shifts in the next four weeks' + (state.city === 'all' ? '' : ' here. Try the whole Triangle') + '.</p>';
     h += '</section>';
-    h += '<section class="plansec" id="ongoing-roles"><div class="secthead"><h2>Ongoing roles</h2></div><p class="jsub">Apply or go to an orientation once, then pick shifts that fit your week. You keep working alongside the same crew.</p>';
+    h += '<section class="plansec" id="ongoing-roles"><div class="secthead"><h2>Ongoing roles</h2></div>';
     VTYPES.forEach(function (t) {
       var items = roles.filter(function (e) { return (e.vtype || 'other') === t[0]; });
       if (items.length) h += '<h3 class="vhead">' + esc(t[1]) + '</h3><div class="cards">' + items.map(cardHtml).join('') + '</div>';
     });
     h += '</section>';
     if (safeUrl(D.volunteerUrl)) {
-      h += '<div class="suggest"><div><h2>Run a volunteer program?</h2><p>Tell us about a role or shift newcomers can join. We check every submission against your organization\u2019s own website before it\u2019s listed.</p></div>' +
+      h += '<div class="suggest"><div><h2>Run a volunteer program?</h2></div>' +
         '<a class="btn primary" href="' + esc(D.volunteerUrl) + '" target="_blank" rel="noopener noreferrer" data-track="post-volunteer-opportunity">Post a volunteer opportunity</a></div>';
     }
     return h;
@@ -1081,11 +1081,10 @@ a { color: var(--ink-fg); }
     else v.innerHTML = renderWeek();
   }
   function renderFoot() {
-    $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
-      '<p>Plans can still change, so check the event\u2019s website before you head out.' +
-      (D.counter ? ' Visits are counted anonymously, without cookies.' : '') +
-      ' <button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>.' +
-      (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something we’re missing</a>.' : '') + '</p>';
+    $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is checked each week. ' +
+      '<button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>' +
+      (safeUrl(D.suggestUrl) ? ' \u00b7 <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something</a>' : '') +
+      (D.counter ? ' \u00b7 Visits are counted anonymously.' : '') + '</p>';
   }
   function openRules() {
     openModal('<h2 tabindex="-1">How we pick listings</h2><p class="lede">This isn\u2019t a site where anyone can post. It\u2019s a short, checked list of places where regulars already gather.</p>' +
