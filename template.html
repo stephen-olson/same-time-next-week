@@ -1082,7 +1082,7 @@ a { color: var(--ink-fg); }
   }
   function renderFoot() {
     $('foot').innerHTML = '<p>Updated ' + esc(fullDate(D.generated)) + '. Every listing is re-checked each week against the organizer\u2019s own page, and anything we can\u2019t confirm is left off. Weekly and monthly events are listed about six weeks ahead.</p>' +
-      '<p>Plans can still change, so check the event\u2019s website before you head out. Your saved plan stays on this device.' +
+      '<p>Plans can still change, so check the event\u2019s website before you head out.' +
       (D.counter ? ' Visits are counted anonymously, without cookies.' : '') +
       ' <button type="button" class="linkish footlink" data-rules="1">How we pick listings</button>.' +
       (safeUrl(D.suggestUrl) ? ' <a href="' + esc(D.suggestUrl) + '" target="_blank" rel="noopener noreferrer" data-track="suggest-listing">Suggest something we’re missing</a>.' : '') + '</p>';
