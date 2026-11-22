@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -50,7 +50,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -72,7 +72,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -94,7 +94,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -116,7 +116,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -138,7 +138,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -160,7 +160,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261230@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261230T180000
 DTEND;TZID=America/New_York:20261230T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -181,29 +181,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
  35.803883,-78.618074
 END:VEVENT
 BEGIN:VEVENT
-UID:r-food-bank-sort-2-20261114@same-time-next-week
-DTSTAMP:20261121T164929Z
-DTSTART;TZID=America/New_York:20261114T090000
-DTEND;TZID=America/New_York:20261114T113000
-SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
-LOCATION:Food Bank of Central & Eastern NC - Raleigh Branch\, 1924 Capital 
- Blvd\, Raleigh\, NC 27604 (volunteer entrance currently at 2439 Crabtree B
- lvd)
-DESCRIPTION:Weekend food-sorting shift at the main Raleigh warehouse. Worki
- ng beside the same crews is an easy way to talk to people.\n\nThere's also
-  a Saturday 1-3:30pm session\n\nHow to join: Online registration is requir
- ed: use the volunteer calendar on the Raleigh location page\n\nBefore you 
- go: Spots fill up\; book ahead\, especially in the holiday season.\n\nhttp
- s://foodbankcenc.org/locations/raleigh/\n\nListed on Same Time Next Week.
-URL:https://foodbankcenc.org/locations/raleigh/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
- , NC 27604 (volunteer entrance currently at 2439 Crabtree Blvd)";X-APPLE-R
- ADIUS=70;X-TITLE="Food Bank of Central & Eastern NC - Raleigh Branch":geo:
- 35.803883,-78.618074
-END:VEVENT
-BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -224,7 +203,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -245,7 +224,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -266,7 +245,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -287,7 +266,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -308,7 +287,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261226@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261226T090000
 DTEND;TZID=America/New_York:20261226T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -329,7 +308,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20270102@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -350,7 +329,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -372,7 +351,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -394,7 +373,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -416,7 +395,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -438,7 +417,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -460,7 +439,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -482,7 +461,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -504,7 +483,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -526,7 +505,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261122@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261122T131500
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -543,7 +522,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261129@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261129T131500
 DTEND;TZID=America/New_York:20261129T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -560,7 +539,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261206@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261206T131500
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -577,7 +556,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T131500
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -594,7 +573,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261220@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261220T131500
 DTEND;TZID=America/New_York:20261220T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -611,7 +590,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261120@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -634,7 +613,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261211@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -657,7 +636,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261120@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -676,7 +655,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261211@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -695,7 +674,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261218@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261218T130000
 DTEND;TZID=America/New_York:20261218T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -714,7 +693,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-20261218@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261218T160000
 DTEND;TZID=America/New_York:20261218T214500
 SUMMARY:Holiday Express volunteer · Pullen Park
@@ -734,7 +713,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-20261211@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261211T153000
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Winterfaire volunteer · Moore Square
@@ -756,7 +735,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261211@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261211T164500
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -775,7 +754,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261218@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261218T164500
 DTEND;TZID=America/New_York:20261218T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -793,28 +772,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
  05076,-78.564755
 END:VEVENT
 BEGIN:VEVENT
-UID:r-invasives-music-20261114@same-time-next-week
-DTSTAMP:20261121T164929Z
-DTSTART;TZID=America/New_York:20261114T090000
-DTEND;TZID=America/New_York:20261114T120000
-SUMMARY:Invasive plant removal with live music · Walnut Creek Trail
-LOCATION:Walnut Creek Wetland Park\, 950 Peterson St\, Raleigh\, NC 27610
-DESCRIPTION:Help park staff cut and haul invasive plants along the Walnut C
- reek Trail while small musical groups from Fuller Forests play along the g
- reenway. Everyone gathers at the end for a final performance.\n\nHow to jo
- in: Create a free account in Raleigh Parks' CERVIS volunteer system and si
- gn up for 'Fuller Forests Greenway Invasive Removal'. Spots are limited.\n
- \nhttps://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&org
- _id=0105\n\nListed on Same Time Next Week.
-URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3314&or
- g_id=0105
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="950 Peterson St, Raleigh, 
- NC 27610";X-APPLE-RADIUS=70;X-TITLE="Walnut Creek Wetland Park":geo:35.760
- 829,-78.625107
-END:VEVENT
-BEGIN:VEVENT
 UID:r-mural-painting-20261205@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Mural painting volunteer · Brentwood Park
@@ -831,7 +790,7 @@ URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3380&or
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261206@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261206T160000
 DTEND;TZID=America/New_York:20261206T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -850,7 +809,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T160000
 DTEND;TZID=America/New_York:20261212T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -869,7 +828,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T160000
 DTEND;TZID=America/New_York:20261213T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -888,7 +847,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261206@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261206T123000
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -907,7 +866,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T123000
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -926,7 +885,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-invasive-plant-removal-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Invasive plant removal · Fallon Park
@@ -944,7 +903,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2601 Oxford Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-open-house-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T093000
 DTEND;TZID=America/New_York:20261212T123000
 SUMMARY:Holiday Open House volunteer · Mordecai Historic Park
@@ -965,7 +924,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1 Mimosa St, Raleigh, NC 2
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T140000
 DTEND;TZID=America/New_York:20261212T180000
 SUMMARY:Winterfaire volunteer\, Saturday · Moore Square
@@ -986,7 +945,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T084500
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Christmas store\, Saturday · Loaves & Fishes Ministry
@@ -1004,7 +963,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trail-work-20261212@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261212T133000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Trail work · Annie Louise Wilkerson Nature Preserve
@@ -1024,7 +983,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5229 Awls Haven Dr, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-3-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T130000
 DTEND;TZID=America/New_York:20261213T170000
 SUMMARY:Winterfaire volunteer\, Sunday · Moore Square
@@ -1045,7 +1004,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-party-volunteer-20261220@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261220T150000
 DTEND;TZID=America/New_York:20261220T180000
 SUMMARY:Holiday party volunteer · Worthdale Community Center
@@ -1064,7 +1023,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1001 Cooper Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261122@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261122T163000
 DTEND;TZID=America/New_York:20261122T183000
 SUMMARY:Share It! produce giveaway · Moore Square
@@ -1080,7 +1039,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261129@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261129T163000
 DTEND;TZID=America/New_York:20261129T183000
 SUMMARY:Share It! produce giveaway · Moore Square
@@ -1096,7 +1055,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261206@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261206T163000
 DTEND;TZID=America/New_York:20261206T183000
 SUMMARY:Share It! produce giveaway · Moore Square
@@ -1112,7 +1071,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T163000
 DTEND;TZID=America/New_York:20261213T183000
 SUMMARY:Share It! produce giveaway · Moore Square
@@ -1128,7 +1087,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-produce-giveaway-20261220@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261220T163000
 DTEND;TZID=America/New_York:20261220T183000
 SUMMARY:Share It! produce giveaway · Moore Square
@@ -1144,7 +1103,7 @@ URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261206@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261206T110000
 DTEND;TZID=America/New_York:20261206T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
@@ -1163,7 +1122,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261213@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261213T110000
 DTEND;TZID=America/New_York:20261213T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
@@ -1182,7 +1141,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-cafe-shift-20261220@same-time-next-week
-DTSTAMP:20261121T164929Z
+DTSTAMP:20261122T171304Z
 DTSTART;TZID=America/New_York:20261220T110000
 DTEND;TZID=America/New_York:20261220T140000
 SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
