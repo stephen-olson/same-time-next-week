@@ -26,20 +26,4 @@ DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VEVENT
-UID:d-tree-planting-training-20261115@same-time-next-week
-DTSTAMP:20261122T171304Z
-DTSTART;TZID=America/New_York:20261115T140000
-DTEND;TZID=America/New_York:20261115T170000
-SUMMARY:Tree planting training · Trees for the Triangle
-LOCATION:Trees for the Triangle\, Carrboro\, NC (exact meeting spot on the 
- sign-up listing)
-DESCRIPTION:A hands-on afternoon learning to plant trees with a Triangle tr
- ee-planting group. It's outdoor group work with plenty of time to talk.\n\
- nHow to join: Sign up for 'Tree Planting Training in Carrboro 11/15/26' on
-  volunteer.activategood.org (search for the title). Spots are limited.\n\n
- Before you go: Confirm the meeting location after you sign up.\n\nhttps://
- volunteer.activategood.org/\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/
-END:VEVENT
 END:VCALENDAR
