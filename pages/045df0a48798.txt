@@ -1,0 +1,199 @@
+URL: https://dssolvr.com/events
+Fetched: 2026-11-24T15:56:39Z (HTTP 200, ended at https://dssolvr.com/events/)
+For listings: d-trivia-dssolvr
+Page title: Archives: Events | DSSOLVRClose IconInstagram IconFacebook Icon
+
+Events in the page's structured data (name | start | end | place | status):
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-10-27T19:00:00-04:00 | 2026-10-27T21:00:00-04:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-10-28T19:00:00-04:00 | 2026-10-28T21:00:00-04:00 | DSSOLVR Durham | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-10-29T22:00:00-04:00 | 2026-10-29T22:00:00-04:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-11-01T16:00:00-05:00 | 2026-11-01T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-11-03T19:00:00-05:00 | 2026-11-03T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-11-04T19:00:00-05:00 | 2026-11-04T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Silent Book Club Every 1st &amp; 3rd Thursday &#8211; DURHAM | 2026-11-05T18:00:00-05:00 | 2026-11-05T20:30:00-05:00 | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-11-05T22:00:00-05:00 | 2026-11-05T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Sustainable Clothing Swap @ DSSOLVR | 2026-11-08T14:00:00-05:00 | 2026-11-08T16:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-11-08T16:00:00-05:00 | 2026-11-08T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-11-10T19:00:00-05:00 | 2026-11-10T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-11-11T19:00:00-05:00 | 2026-11-11T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- PORN STAR KARAOKE &#8211; CLOWN EDITION | 2026-11-11T21:00:00-05:00 | 2026-11-11T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Monthly Mahjong (Beginner Lessons &amp; Guided Play Every 2nd Thursday) &#8211; DURHAM | 2026-11-12T18:30:00-05:00 | 2026-11-12T21:30:00-05:00 | DSSOLVR Durham | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-11-12T22:00:00-05:00 | 2026-11-12T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- FRIDAY THE 13TH VAMP CAMP | 2026-11-13T21:00:00-05:00 | 2026-11-13T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- RETROGRADE &#8211; EDM SHOW | 2026-11-14T21:00:00-05:00 | 2026-11-14T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-11-15T16:00:00-05:00 | 2026-11-15T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Do Not Disturb &#8211; BYO books, arts &amp; crafts! VOWLBAR | 2026-11-15T18:00:00-05:00 | 2026-11-15T21:00:00-05:00 | EventScheduled
+- Botanical Illustration Workshop! ASHEVILLE | 2026-11-16T18:00:00-05:00 | 2026-11-16T20:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-11-17T19:00:00-05:00 | 2026-11-17T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-11-18T19:00:00-05:00 | 2026-11-18T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Silent Book Club Every 1st &amp; 3rd Thursday &#8211; DURHAM | 2026-11-19T18:00:00-05:00 | 2026-11-19T20:30:00-05:00 | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-11-19T22:00:00-05:00 | 2026-11-19T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- ALL MY FRIENDS ARE DJ&#8217;S RAVE | 2026-11-20T21:00:00-05:00 | 2026-11-20T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- VARIETY SHOW CABARET BY SWEETIE | 2026-11-21T18:00:00-05:00 | 2026-11-21T20:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- DANCE RITUAL | 2026-11-21T22:00:00-05:00 | 2026-11-21T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-11-22T16:00:00-05:00 | 2026-11-22T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Do Not Disturb &#8211; BYO books, arts &amp; crafts! VOWLBAR | 2026-11-22T18:00:00-05:00 | 2026-11-22T21:00:00-05:00 | EventScheduled
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-11-24T19:00:00-05:00 | 2026-11-24T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-11-25T19:00:00-05:00 | 2026-11-25T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Monthly Mahjong (Free Play Every 4th Thursday) &#8211; DURHAM | 2026-11-26T18:30:00-05:00 | 2026-11-26T21:30:00-05:00 | DSSOLVR Durham | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-11-26T22:00:00-05:00 | 2026-11-26T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- BLACK CAT VINTAGE MARKET &#8211; BLACK FRIDAY | 2026-11-27T16:00:00-05:00 | 2026-11-27T20:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- NIGHTBLOOM | 2026-11-27T21:00:00-05:00 | 2026-11-27T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- ANTIDOTE drum &amp; bass show! | 2026-11-28T21:00:00-05:00 | 2026-11-28T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-11-29T16:00:00-05:00 | 2026-11-29T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Do Not Disturb &#8211; BYO books, arts &amp; crafts! VOWLBAR | 2026-11-29T18:00:00-05:00 | 2026-11-29T21:00:00-05:00 | EventScheduled
+- Trivia Night @ DSSOLVR (w/ Hammered Trivia &#8211; FREE &amp; Dog Friendly!) &#8211; DURHAM | 2026-12-01T19:00:00-05:00 | 2026-12-01T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Bingo Night &#8211; DURHAM | 2026-12-02T19:00:00-05:00 | 2026-12-02T21:00:00-05:00 | DSSOLVR Durham | EventScheduled
+- Silent Book Club Every 1st &amp; 3rd Thursday &#8211; DURHAM | 2026-12-03T18:00:00-05:00 | 2026-12-03T20:30:00-05:00 | EventScheduled
+- Hot Couch Karaoke w/ DJ BridalPartiBucardi &#8211; ASHEVILLE | 2026-12-03T22:00:00-05:00 | 2026-12-03T22:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- CYBERIA | 2026-12-04T21:00:00-05:00 | 2026-12-04T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- SUBTERRANEA | 2026-12-05T21:00:00-05:00 | 2026-12-05T21:00:00-05:00 | VOWL Bar at DSSOLVR Asheville | EventScheduled
+- Robert’s Totally Rad Trivia &#8211; ASHEVILLE | 2026-12-06T16:00:00-05:00 | 2026-12-06T19:00:00-05:00 | Asheville Brewery &amp; Taproom | EventScheduled
+- Do Not Disturb &#8211; BYO books, arts &amp; crafts! VOWLBAR | 2026-12-06T18:00:00-05:00 | 2026-12-06T21:00:00-05:00 | EventScheduled
+
+Lines with dates, times, prices or the listing's name:
+Dismiss this alert bar
+THE ASHEVILLE DSSOLVR KITCHEN IS FINALLY HERE - CLICK HERE TO CHECK OUT OUR MENU
+Toggle the navigation menu
+DSSOLVR
+Home
+Taprooms
+Asheville
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+October 27 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) Every Tuesday at DSSOLVR, starting @ 7 pm. Free to play, no team limits, prizes for top 3 teams. $6 IPAs & $1 Jell-o Shots. Dog friendly! Join us every Tuesday @ 7 pm for mind-melting trivia sessions hosted by Ansley w/ Hammered … Co…
+1 event
+28
+1 event,
+…
+7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+November 1 @ 4:00 pm - 7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+Robert’s Totally Rad Trivia TOTALLY RAD TRIVIA IS BACK! Join us every Sunday at 4:00 PM for Robert’s Totally Rad Trivia! Trivia is free to play, teams of up to six, and prizes to earn (top three teams, middle team, and last place).
+0 events
+2
+0 events,
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+November 3 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) Every Tuesday at DSSOLVR, starting @ 7 pm. Free to play, no team limits, prizes for top 3 teams. $6 IPAs & $1 Jell-o Shots. Dog friendly! Join us every Tuesday @ 7 pm for mind-melting trivia sessions hosted by Ansley w/ Hammered … Co…
+1 event
+4
+1 event,
+…
+Silent Book Club Every 1st & 3rd Thursday – DURHAM
+Silent Book Club Every 1st & 3rd Thursday - DURHAM The 1st & 3rd Thursday Monthly! BYO book :) - Meet & chat 6:30-7; Silent reading 7- 8; Chat 8 - ?; $8 cocktails all day long! Dog Friendly. Silent Book Club – Durham Join us for an evening of literary camaraderie at DSSOLVR’s Durham … Continued
+10:00 pm
+Hot Couch Karaoke w/ DJ BridalPartiBucardi – ASHEVILLE
+November 5 @ 10:00 pm
+…
+4:00 pm
+Sustainable Clothing Swap @ DSSOLVR
+November 8 @ 2:00 pm - 4:00 pm
+Sustainable Clothing Swap @ DSSOLVR
+Sustainable Clothing Swap @ DSSOLVR Hosted by Circular Triangle (non-profit) Join us from 2-4 pm on the 2nd Sunday of every month at DSSOLVR's Downtown Durham Taproom for an all-genders clothing swap! Plus: Enjoy $2 off Flights, Mimosas, & Bloody Marys all day every Sunday! 2026 Dates: March 8, May …
+4:00 pm
+-
+7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+November 8 @ 4:00 pm - 7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+Robert’s Totally Rad Trivia TOTALLY RAD TRIVIA IS BACK! Join us every Sunday at 4:00 PM for Robert’s Totally Rad Trivia! Trivia is free to play, teams of up to six, and prizes to earn (top three teams, middle team, and last place).
+0 events
+9
+0 events,
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+November 10 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) Every Tuesday at DSSOLVR, starting @ 7 pm. Free to play, no team limits, prizes for top 3 teams. $6 IPAs & $1 Jell-o Shots. Dog friendly! Join us every Tuesday @ 7 pm for mind-melting trivia sessions hosted by Ansley w/ Hammered … Co…
+2 events
+11
+2 events,
+…
+Monthly Mahjong (Beginner Lessons & Guided Play Every 2nd Thursday) – DURHAM
+Monthly Mahjong (Beginner Lessons & Guided Play Every 2nd Thursday) - DURHAM Want to try a fun, strategic game that's sure to challenge your brain? Join us for mahjong! Monthly Mahjong @ DSSOLVR! (6:30 - 9:30 pm) Hosted by Get Your Mahjong NC Every 2nd Thursday - Beginner & Intermediate - Lessons & …
+10:00 pm
+Hot Couch Karaoke w/ DJ BridalPartiBucardi – ASHEVILLE
+November 12 @ 10:00 pm
+…
+7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+November 15 @ 4:00 pm - 7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+Robert’s Totally Rad Trivia TOTALLY RAD TRIVIA IS BACK! Join us every Sunday at 4:00 PM for Robert’s Totally Rad Trivia! Trivia is free to play, teams of up to six, and prizes to earn (top three teams, middle team, and last place).
+6:00 pm
+-
+9:00 pm
+…
+Botanical Illustration Workshop! ASHEVILLE
+🦋The Next Flora Folk Garden Club event is here and we’re getting creative! Join us for a botanical illustration class November 16 at Dssolvr. Tap into your artistic flow state, mingle with fellow plant people and enjoy some tasty beverages! Register at the link in bio 🌻 ​Meet the Instructor | Michel…
+1 event
+17
+1 event,
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+November 17 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) Every Tuesday at DSSOLVR, starting @ 7 pm. Free to play, no team limits, prizes for top 3 teams. $6 IPAs & $1 Jell-o Shots. Dog friendly! Join us every Tuesday @ 7 pm for mind-melting trivia sessions hosted by Ansley w/ Hammered … Co…
+1 event
+18
+1 event,
+…
+Silent Book Club Every 1st & 3rd Thursday – DURHAM
+Silent Book Club Every 1st & 3rd Thursday - DURHAM The 1st & 3rd Thursday Monthly! BYO book :) - Meet & chat 6:30-7; Silent reading 7- 8; Chat 8 - ?; $8 cocktails all day long! Dog Friendly. Silent Book Club – Durham Join us for an evening of literary camaraderie at DSSOLVR’s Durham … Continued
+10:00 pm
+Hot Couch Karaoke w/ DJ BridalPartiBucardi – ASHEVILLE
+November 19 @ 10:00 pm
+…
+7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+November 22 @ 4:00 pm - 7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+Robert’s Totally Rad Trivia TOTALLY RAD TRIVIA IS BACK! Join us every Sunday at 4:00 PM for Robert’s Totally Rad Trivia! Trivia is free to play, teams of up to six, and prizes to earn (top three teams, middle team, and last place).
+6:00 pm
+-
+9:00 pm
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+November 24 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+Trivia Night @ DSSOLVR (w/ Hammered Trivia - FREE & Dog Friendly!) Every Tuesday at DSSOLVR, starting @ 7 pm. Free to play, no team limits, prizes for top 3 teams. $6 IPAs & $1 Jell-o Shots. Dog friendly! Join us every Tuesday @ 7 pm for mind-melting trivia sessions hosted by Ansley w/ Hammered … Co…
+1 event
+25
+1 event,
+…
+Monthly Mahjong (Free Play Every 4th Thursday) – DURHAM
+Monthly Mahjong (Free Play Every 4th Thursday) - DURHAM Want to mahj with some new faces? Just bring your 2026 card and competitive spirit for a night of tiles and smiles! Monthly Mahjong @ DSSOLVR! (6:30 - 9:30 pm) Hosted by Get Your Mahjong NC Every 2nd Thursday - Beginner & Intermediate - Lessons…
+10:00 pm
+Hot Couch Karaoke w/ DJ BridalPartiBucardi – ASHEVILLE
+November 26 @ 10:00 pm
+…
+BLACK CAT VINTAGE MARKET – BLACK FRIDAY
+We’re bringing together 4-5 vintage vendors featuring vintage clothing, streetwear, graphic tees, jackets, and rare finds! Plus food, drinks, and music while you shop. 🛍️ Black cat vintage market is making its dssolvr debut this upcoming black Friday. This traveling vintage market is making its firs…
+9:00 pm
+NIGHTBLOOM
+November 27 @ 9:00 pm
+…
+7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+November 29 @ 4:00 pm - 7:00 pm
+Robert’s Totally Rad Trivia – ASHEVILLE
+Robert’s Totally Rad Trivia TOTALLY RAD TRIVIA IS BACK! Join us every Sunday at 4:00 PM for Robert’s Totally Rad Trivia! Trivia is free to play, teams of up to six, and prizes to earn (top three teams, middle team, and last place).
+6:00 pm
+-
+9:00 pm
+…
+9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM
+December 1 @ 7:00 pm - 9:00 pm
+Trivia Night @ DSSOLVR (w/ Hammered Trivia – FREE & Dog Friendly!) – DURHAM

@@ -1,0 +1,40 @@
+URL: https://meetup.com/triangle-clocktower
+Fetched: 2026-11-24T15:56:39Z (HTTP 200, ended at https://www.meetup.com/triangle-clocktower/)
+For listings: d-clocktower-game
+Page title: Triangle Clocktower | MeetupBending Spoons
+Description: We are a group that meets about once a month at The Gathering Place in Chapel Hill and sometimes at Game Theory Duraleigh to play the social deduction game Blood on the Clocktower.
+
+Events in the page's structured data (name | start | end | place | status):
+- Moondog Meadery Clocktower 12/13 | 2026-12-13T18:00:00.000Z | 2026-12-13T22:00:00.000Z | Moondog Meadery | EventScheduled
+
+Lines with dates, times, prices or the listing's name:
+Homepage
+Triangle Clocktower
+5.0•165 ratings
+Raleigh, NC, US
+362 members
+…
+About us
+We are a group that meets about once a month at The Gathering Place in Chapel Hill and sometimes at Game Theory Duraleigh to play the social deduction game Blood on the Clocktower.
+Upcoming events
+1
+See all
+Moondog Meadery Clocktower 12/13
+Sun, Dec 13 · 1:00 PM EST
+Moondog Meadery, 1104 Broad Street,, Durham, NC, US
+Join Storyteller Parker and Sam for our reoccurring game at Moondog Meadery, playing the Social deduction game, Blood on the Clocktower!
+Scripts TBD, but probably custom scripts with an option for base three.
+New players are welcome and can DM us with any questions!
+We are a free event, outside food is welcome, please do not bring outside beverages.
+…
+See all
+Moondog Meadery Clocktower 11/8
+Sun, Nov 8 · 1:00 PM EST
+Moondog Meadery, 1104 Broad Street,, Durham, NC, US
+21 attendees
+Moondog Meadery Clocktower 10/11
+Sun, Oct 11 · 1:00 PM EDT
+Moondog Meadery, 1104 Broad Street,, Durham, NC, US
+17 attendees
+Group links
+Organizers

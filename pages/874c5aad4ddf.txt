@@ -1,0 +1,9 @@
+URL: https://www.moondogmeadery.com/events
+Fetched: 2026-11-24T15:56:39Z (HTTP 200)
+For listings: d-irish-jam, d-open-mic
+Page title: Events
+Description: Follow Our Event Schedule
+
+Lines with dates, times, prices or the listing's name:
+If times look odd please click the calendar link above.
+Monday Community Board Game Night should display 7pm to 12am

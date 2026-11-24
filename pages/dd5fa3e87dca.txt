@@ -1,0 +1,8 @@
+URL: https://theraleighbeergarden.com/events
+Fetched: 2026-11-24T15:56:39Z (HTTP 200)
+For listings: r-trivia-beer-garden
+Page title: Raleigh Beer Garden | 386+ Draft Beers | Guinness World Record Holder
+Description: 3x Guinness World Record holder with 386+ draft beers on tap. Restaurant, bar & event space featuring NC craft beers, international selections, and Hop Shots Mini Golf in Raleigh, NC.
+
+Lines with dates, times, prices or the listing's name:
+(none found; the page may load its calendar with JavaScript)

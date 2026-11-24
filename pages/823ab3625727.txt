@@ -1,0 +1,589 @@
+URL: https://glass-jug.com/events
+Fetched: 2026-11-24T15:56:39Z (HTTP 200, ended at https://www.glass-jug.com/events)
+For listings: d-glass-jog-run-club, d-latinos-and-latinas-run
+Page title: Taproom Events — The Glass Jug Beer Lab
+Description: Craft beer taproom events including trivia, music bingo, run club, food trucks, live music, comedy shows, and more.
+
+Lines with dates, times, prices or the listing's name:
+24
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, November 24, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+24
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, November 24, 2026
+7:00 PM
+9:00 PM
+…
+25
+4:00 PM16:00
+Durham, RTP, Weekly Specials
+Hemp Happy Hour
+Wednesday, November 25, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+Try our Distortion and other select hemp beverages on Wednesdays for half off!
+…
+25
+6:30 PM18:30
+…
+Mahjong Night
+Wednesday, November 25, 2026
+6:30 PM
+8:30 PM
+…
+25
+7:00 PM19:00
+…
+Trivia Night
+Wednesday, November 25, 2026
+7:00 PM
+8:30 PM
+…
+ICS
+Put your skills to the test at our weekly trivia night with Neon Fox!
+…
+26
+11:00 AM11:00
+Durham, RTP
+Mystery Beer Thursdays
+Thursday, November 26, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+It’s bartender’s choice for $5 every Thursday!
+…
+26
+6:30 PM18:30
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, November 26, 2026
+6:30 PM
+8:30 PM
+…
+27
+10:00 AM10:00
+Durham, RTP, Guest Brewery Tap Event
+Black Friday Barrel-Aged Stout Takeover
+Friday, November 27, 2026
+10:00 AM
+10:00 PM
+…
+ICS
+Black Friday wouldn’t be the same without a stout takeover - this time they’re Bourbon Barrel-Aged!
+…
+28
+1:00 PM13:00
+Arts & Crafts, Durham, Market, RTP
+Pop-Up Market: Small Business Saturday Edition
+Saturday, November 28, 2026
+1:00 PM
+5:00 PM
+…
+29
+11:00 AM11:00
+Downtown, Durham
+Phone Free Fun
+Sunday, November 29, 2026
+11:00 AM
+9:00 PM
+…
+30
+11:00 AM11:00
+Durham, RTP, Weekly Specials
+Monday Pint & Flight Special
+Monday, November 30, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+Hate Mondays? Here’s the solution - our weekly special on pints & flights!
+…
+30
+6:00 PM18:00
+…
+Silent Reading Club
+Monday, November 30, 2026
+6:00 PM
+8:00 PM
+…
+1
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, December 1, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+1
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, December 1, 2026
+7:00 PM
+9:00 PM
+…
+2
+4:00 PM16:00
+Durham, RTP, Weekly Specials
+Hemp Happy Hour
+Wednesday, December 2, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+Try our Distortion and other select hemp beverages on Wednesdays for half off!
+…
+2
+7:00 PM19:00
+…
+Trivia Night
+Wednesday, December 2, 2026
+7:00 PM
+8:30 PM
+…
+ICS
+Put your skills to the test at our weekly trivia night with Neon Fox!
+…
+3
+11:00 AM11:00
+Durham, RTP
+Mystery Beer Thursdays
+Thursday, December 3, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+It’s bartender’s choice for $5 every Thursday!
+…
+3
+6:30 PM18:30
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, December 3, 2026
+6:30 PM
+8:30 PM
+…
+4
+5:00 PM17:00
+Food Trucks, RTP, Durham
+Food Truck Friday - Tacos Los 2 Garcías
+Friday, December 4, 2026
+5:00 PM
+8:00 PM
+…
+5
+1:00 PM13:00
+…
+Holiday Pop-Up Market
+Saturday, December 5, 2026
+1:00 PM
+5:00 PM
+…
+6
+11:00 AM11:00
+Downtown, Durham
+Phone Free Fun
+Sunday, December 6, 2026
+11:00 AM
+9:00 PM
+…
+7
+11:00 AM11:00
+Durham, RTP, Weekly Specials
+Monday Pint & Flight Special
+Monday, December 7, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+Hate Mondays? Here’s the solution - our weekly special on pints & flights!
+…
+7
+6:00 PM18:00
+…
+Silent Reading Club
+Monday, December 7, 2026
+6:00 PM
+8:00 PM
+…
+8
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, December 8, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+8
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, December 8, 2026
+7:00 PM
+9:00 PM
+…
+9
+4:00 PM16:00
+…
+Hemp Happy Hour
+Wednesday, December 9, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+Try our Distortion and other select hemp beverages on Wednesdays for half off!
+…
+9
+6:30 PM18:30
+…
+Mahjong Night
+Wednesday, December 9, 2026
+6:30 PM
+8:30 PM
+…
+9
+7:00 PM19:00
+…
+Trivia Night
+Wednesday, December 9, 2026
+7:00 PM
+8:30 PM
+…
+ICS
+Put your skills to the test at our weekly trivia night with Neon Fox!
+…
+10
+11:00 AM11:00
+Durham, RTP
+Mystery Beer Thursdays
+Thursday, December 10, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+It’s bartender’s choice for $5 every Thursday!
+…
+10
+6:30 PM18:30
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, December 10, 2026
+6:30 PM
+8:30 PM
+…
+11
+5:00 PM17:00
+Food Trucks, RTP, Durham
+Food Truck Friday - Taqueria Ahualempan
+Friday, December 11, 2026
+5:00 PM
+8:00 PM
+…
+11
+6:00 PM18:00
+…
+Candle Making Workshop
+Friday, December 11, 2026
+6:00 PM
+8:00 PM
+…
+12
+3:00 PM15:00
+…
+Santa Claus Visits the Brewery
+Saturday, December 12, 2026
+3:00 PM
+7:00 PM
+…
+13
+11:00 AM11:00
+Downtown, Durham
+Phone Free Fun
+Sunday, December 13, 2026
+11:00 AM
+9:00 PM
+…
+13
+1:00 PM13:00
+…
+Carolina Gayniacs Hurricanes Hockey Watch Party
+Sunday, December 13, 2026
+1:00 PM
+3:00 PM
+…
+14
+11:00 AM11:00
+Durham, RTP, Weekly Specials
+Monday Pint & Flight Special
+Monday, December 14, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+Hate Mondays? Here’s the solution - our weekly special on pints & flights!
+…
+14
+6:00 PM18:00
+…
+Silent Reading Club
+Monday, December 14, 2026
+6:00 PM
+8:00 PM
+…
+15
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, December 15, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+15
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, December 15, 2026
+7:00 PM
+9:00 PM
+…
+16
+4:00 PM16:00
+Durham, RTP, Weekly Specials
+Hemp Happy Hour
+Wednesday, December 16, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+Try our Distortion and other select hemp beverages on Wednesdays for half off!
+…
+16
+6:30 PM18:30
+…
+Mahjong Night
+Wednesday, December 16, 2026
+6:30 PM
+8:30 PM
+…
+16
+7:00 PM19:00
+…
+Trivia Night
+Wednesday, December 16, 2026
+7:00 PM
+8:30 PM
+…
+ICS
+Put your skills to the test at our weekly trivia night with Neon Fox!
+…
+17
+11:00 AM11:00
+Durham, RTP
+Mystery Beer Thursdays
+Thursday, December 17, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+It’s bartender’s choice for $5 every Thursday!
+…
+17
+6:30 PM18:30
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, December 17, 2026
+6:30 PM
+8:30 PM
+…
+18
+5:00 PM17:00
+Food Trucks, RTP, Durham
+Food Truck Friday - The Tasty Turkeyque
+Friday, December 18, 2026
+5:00 PM
+8:00 PM
+…
+20
+11:00 AM11:00
+Downtown, Durham
+Phone Free Fun
+Sunday, December 20, 2026
+11:00 AM
+9:00 PM
+…
+20
+12:00 PM12:00
+…
+Dungeons & Drafts
+Sunday, December 20, 2026
+12:00 PM
+4:00 PM
+…
+21
+11:00 AM11:00
+Durham, RTP, Weekly Specials
+Monday Pint & Flight Special
+Monday, December 21, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+Hate Mondays? Here’s the solution - our weekly special on pints & flights!
+…
+21
+6:00 PM18:00
+…
+Silent Reading Club
+Monday, December 21, 2026
+6:00 PM
+8:00 PM
+…
+22
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, December 22, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+22
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, December 22, 2026
+7:00 PM
+9:00 PM
+…
+23
+4:00 PM16:00
+Durham, RTP, Weekly Specials
+Hemp Happy Hour
+Wednesday, December 23, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+Try our Distortion and other select hemp beverages on Wednesdays for half off!
+…
+23
+7:00 PM19:00
+…
+Trivia Night
+Wednesday, December 23, 2026
+7:00 PM
+8:30 PM
+…
+ICS
+Put your skills to the test at our weekly trivia night with Neon Fox!
+…
+24
+11:00 AM11:00
+Durham, RTP
+Mystery Beer Thursdays
+Thursday, December 24, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+It’s bartender’s choice for $5 every Thursday!
+…
+24
+2:00 PM14:00
+…
+Pints at the Playground
+Thursday, December 24, 2026
+2:00 PM
+6:00 PM
+…
+27
+11:00 AM11:00
+Downtown, Durham
+Phone Free Fun
+Sunday, December 27, 2026
+11:00 AM
+9:00 PM
+…
+28
+11:00 AM11:00
+Durham, RTP, Weekly Specials
+Monday Pint & Flight Special
+Monday, December 28, 2026
+11:00 AM
+10:00 PM
+…
+ICS
+Hate Mondays? Here’s the solution - our weekly special on pints & flights!
+…
+28
+6:00 PM18:00
+…
+Silent Reading Club
+Monday, December 28, 2026
+6:00 PM
+8:00 PM
+…
+29
+6:00 PM18:00
+…
+The Glass Jog Run Club Winter Series
+Tuesday, December 29, 2026
+6:00 PM
+8:00 PM
+…
+ICS
+Run, jog, or walk with The Glass Jog Run Club on Tuesdays this Winter!
+…
+29
+7:00 PM19:00
+…
+Trivia Night
+Tuesday, December 29, 2026
+7:00 PM
+9:00 PM
+…
+30
+4:00 PM16:00
+Durham, RTP, Weekly Specials
+Hemp Happy Hour
+Wednesday, December 30, 2026
+4:00 PM
+7:00 PM
+…
+ICS
+…
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, November 19, 2026
+6:30 PM
+8:30 PM
+…
+Downtown, Durham, Workout
+Latinos & Latinas Run Club
+Thursday, November 12, 2026
+6:30 PM
+8:30 PM
