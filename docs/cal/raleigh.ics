@@ -28,7 +28,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:r-old-time-jam-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:PineCone old-time jam · Riparian Provision Company
@@ -48,29 +48,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1408 S Saunders St, Raleig
  .76172,-78.649355
 END:VEVENT
 BEGIN:VEVENT
-UID:r-beginner-bluegrass-jam-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T190000
-DTEND;TZID=America/New_York:20261116T210000
-SUMMARY:PineCone beginner bluegrass jam · Harry's Guitar Shop
-LOCATION:Harry's Guitar Shop\, 556 Pylon Dr\, Raleigh\, NC 27606
-DESCRIPTION:Coached jam for people with little or no experience playing wit
- h others\, facilitated by Jef Walter. Each month has first-timers alongsid
- e people who have come for years.\n\nFirst hour is one big group that stop
- s to talk through songs\; second hour splits into two smaller groups\n\nHo
- w to join: Just show up with your instrument\n\nBefore you go: Meets on 3r
- d Mondays at Harry's (the separate 4th-Monday open jam is now at Raleigh B
- rewing). Jan 18 (MLK Day) and Feb 15 aren't posted yet.\n\nhttps://pinecon
- e.org/event/pinecone-beginners-bluegrass-jam-6/\n\nListed on Same Time Nex
- t Week.
-URL:https://pinecone.org/event/pinecone-beginners-bluegrass-jam-6/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="556 Pylon Dr, Raleigh, NC 
- 27606";X-APPLE-RADIUS=70;X-TITLE="Harry's Guitar Shop":geo:35.791946,-78.7
- 03358
-END:VEVENT
-BEGIN:VEVENT
 UID:r-beginner-bluegrass-jam-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
 SUMMARY:PineCone beginner bluegrass jam · Harry's Guitar Shop
@@ -91,7 +70,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="556 Pylon Dr, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-bluegrass-jam-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T210000
 SUMMARY:PineCone open bluegrass jam · Raleigh Brewing
@@ -108,7 +87,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-bluegrass-jam-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T190000
 DTEND;TZID=America/New_York:20261228T210000
 SUMMARY:PineCone open bluegrass jam · Raleigh Brewing
@@ -125,7 +104,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T210000
 DTEND;TZID=America/New_York:20261118T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -143,7 +122,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T210000
 DTEND;TZID=America/New_York:20261125T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -161,7 +140,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T210000
 DTEND;TZID=America/New_York:20261202T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -179,7 +158,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T210000
 DTEND;TZID=America/New_York:20261209T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -197,7 +176,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T210000
 DTEND;TZID=America/New_York:20261216T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -215,7 +194,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T210000
 DTEND;TZID=America/New_York:20261223T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -233,7 +212,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-slim-s-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T210000
 DTEND;TZID=America/New_York:20261230T000000
 SUMMARY:Open mic with live band · Slim's Downtown
@@ -250,8 +229,26 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
  ":geo:35.777431,-78.638183
 END:VEVENT
 BEGIN:VEVENT
+UID:r-open-mic-slim-s-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T210000
+DTEND;TZID=America/New_York:20270106T000000
+SUMMARY:Open mic with live band · Slim's Downtown
+LOCATION:Slim's Downtown (Slim's Dive Bar)\, 227 S Wilmington St\, Raleigh\
+ , NC 27601
+DESCRIPTION:Singers\, players\, poets and emcees take turns backed by a hou
+ se band. It's a long-running downtown open mic with a regular crowd.\n\nEn
+ ds at midnight\n\nHow to join: Sign up at the bar on the night\n\nBefore y
+ ou go: Check the start time with the venue before you go.\n\nhttps://slims
+ divebar.com/\n\nListed on Same Time Next Week.
+URL:https://slimsdivebar.com/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="227 S Wilmington St, Ralei
+ gh, NC 27601";X-APPLE-RADIUS=70;X-TITLE="Slim's Downtown (Slim's Dive Bar)
+ ":geo:35.777431,-78.638183
+END:VEVENT
+BEGIN:VEVENT
 UID:r-open-mic-rebus-works-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T200000
 SUMMARY:Open mic · Rebus Works
@@ -266,98 +263,8 @@ DESCRIPTION:First-Thursday open mic for music\, poetry and comedy in a smal
 URL:https://www.rebusworks.us/calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:r-bluegrass-jam-class-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T100000
-DTEND;TZID=America/New_York:20261205T160000
-SUMMARY:Holiday bluegrass jam class · St. Paul's Church
-LOCATION:St. Paul's Christian Church\, 3331 Blue Ridge Rd\, Raleigh\, NC 27
- 612
-DESCRIPTION:One-day bluegrass jamming class taught by Leslie Dare and Susan
-  West. No jam experience is needed if you can tune and change smoothly bet
- ween G\, C\, D and A. It's a good way into the PineCone jams.\n\nCheck the
-  class times before you go. Bring your own lunch\; there's an ugly sweater
-  contest.\n\nHow to join: Register online on the Wernick Method website (c
- reate an account)\; the songbook is sent after you register\n\nBefore you 
- go: Watch the Wernick Method website for future Raleigh classes.\n\nhttps:
- //wernickmethod.org/event/ld-sw-2026-12-raleigh\n\nListed on Same Time Nex
- t Week.
-URL:https://wernickmethod.org/event/ld-sw-2026-12-raleigh
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3331 Blue Ridge Rd, Raleig
- h, NC 27612";X-APPLE-RADIUS=70;X-TITLE="St. Paul's Christian Church":geo:3
- 5.824621,-78.698459
-END:VEVENT
-BEGIN:VEVENT
-UID:r-line-dancing-transfer-co-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261119T190000
-DTEND;TZID=America/New_York:20261119T220000
-SUMMARY:Line dancing · Transfer Co. Ballroom
-LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
- e St\, Ste 160\, Raleigh\, NC 27601
-DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
-  dancing\, for all ages and skill levels. Icebreakers and games make it ea
- sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
- join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
- Nov 26 is Thanksgiving\, and December through February dates aren't posted
-  yet. Check the $5 price before you go.\n\nhttps://www.transfercofoodhall.
- com/upcoming-events\n\nListed on Same Time Next Week.
-URL:https://www.transfercofoodhall.com/upcoming-events
-END:VEVENT
-BEGIN:VEVENT
-UID:r-line-dancing-transfer-co-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261203T190000
-DTEND;TZID=America/New_York:20261203T220000
-SUMMARY:Line dancing · Transfer Co. Ballroom
-LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
- e St\, Ste 160\, Raleigh\, NC 27601
-DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
-  dancing\, for all ages and skill levels. Icebreakers and games make it ea
- sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
- join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
- Nov 26 is Thanksgiving\, and December through February dates aren't posted
-  yet. Check the $5 price before you go.\n\nhttps://www.transfercofoodhall.
- com/upcoming-events\n\nListed on Same Time Next Week.
-URL:https://www.transfercofoodhall.com/upcoming-events
-END:VEVENT
-BEGIN:VEVENT
-UID:r-line-dancing-transfer-co-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261210T190000
-DTEND;TZID=America/New_York:20261210T220000
-SUMMARY:Line dancing · Transfer Co. Ballroom
-LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
- e St\, Ste 160\, Raleigh\, NC 27601
-DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
-  dancing\, for all ages and skill levels. Icebreakers and games make it ea
- sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
- join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
- Nov 26 is Thanksgiving\, and December through February dates aren't posted
-  yet. Check the $5 price before you go.\n\nhttps://www.transfercofoodhall.
- com/upcoming-events\n\nListed on Same Time Next Week.
-URL:https://www.transfercofoodhall.com/upcoming-events
-END:VEVENT
-BEGIN:VEVENT
-UID:r-line-dancing-transfer-co-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261217T190000
-DTEND;TZID=America/New_York:20261217T220000
-SUMMARY:Line dancing · Transfer Co. Ballroom
-LOCATION:Transfer Co. Ballroom (inside Transfer Co. Food Hall)\, 500 E Davi
- e St\, Ste 160\, Raleigh\, NC 27601
-DESCRIPTION:Weekly line dance class taught by Lexi Lloyd\, followed by open
-  dancing\, for all ages and skill levels. Icebreakers and games make it ea
- sy to meet people.\n\nBeginner lesson first\, then open dancing\n\nHow to 
- join: Just show up\n\nBefore you go: Thursdays are posted through Nov 19. 
- Nov 26 is Thanksgiving\, and December through February dates aren't posted
-  yet. Check the $5 price before you go.\n\nhttps://www.transfercofoodhall.
- com/upcoming-events\n\nListed on Same Time Next Week.
-URL:https://www.transfercofoodhall.com/upcoming-events
-END:VEVENT
-BEGIN:VEVENT
 UID:r-swing-dance-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T180000
 DTEND;TZID=America/New_York:20261122T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -377,7 +284,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T180000
 DTEND;TZID=America/New_York:20261129T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -397,7 +304,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T180000
 DTEND;TZID=America/New_York:20261206T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -417,7 +324,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T180000
 DTEND;TZID=America/New_York:20261213T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -437,7 +344,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T180000
 DTEND;TZID=America/New_York:20261220T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -457,7 +364,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261227T180000
 DTEND;TZID=America/New_York:20261227T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -477,7 +384,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-swing-dance-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T180000
 DTEND;TZID=America/New_York:20270103T220000
 SUMMARY:Sunday night swing · Raleigh Elks Lodge
@@ -497,7 +404,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-first-friday-art-walk-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T180000
 DTEND;TZID=America/New_York:20261204T210000
 SUMMARY:First Friday art walk · Downtown Raleigh
@@ -518,7 +425,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="201 E Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T183000
 DTEND;TZID=America/New_York:20261118T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -537,7 +444,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T183000
 DTEND;TZID=America/New_York:20261125T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -556,7 +463,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T183000
 DTEND;TZID=America/New_York:20261202T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -575,7 +482,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T183000
 DTEND;TZID=America/New_York:20261209T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -594,7 +501,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T183000
 DTEND;TZID=America/New_York:20261216T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -613,7 +520,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -632,7 +539,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-byo-craft-night-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T183000
 DTEND;TZID=America/New_York:20261230T213000
 SUMMARY:BYO craft night · Raleigh Brewing
@@ -651,7 +558,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -668,7 +575,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -685,7 +592,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -702,7 +609,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -719,7 +626,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -736,7 +643,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -753,7 +660,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-crank-arm-run-club-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T183000
 DTEND;TZID=America/New_York:20261229T203000
 SUMMARY:Crank Arm Run Club · Crank Arm Brewing
@@ -769,8 +676,25 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
  44275
 END:VEVENT
 BEGIN:VEVENT
+UID:r-crank-arm-run-club-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T183000
+DTEND;TZID=America/New_York:20270105T203000
+SUMMARY:Crank Arm Run Club · Crank Arm Brewing
+LOCATION:Crank Arm Brewing\, 319 W Davie St\, Raleigh\, NC 27601
+DESCRIPTION:Weekly all-paces downtown run with beers and socializing afterw
+ ard.\n\nArrive about 15 minutes early\; 2-\, 3- or 5-mile routes\, then ha
+ ng out at the brewery\n\nHow to join: Just show up\n\nBefore you go: Dates
+  are posted from Nov 17 onward.\n\nhttps://downtownraleigh.org/do/crank-ar
+ m-run-club\n\nListed on Same Time Next Week.
+URL:https://downtownraleigh.org/do/crank-arm-run-club
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
+ C 27601";X-APPLE-RADIUS=70;X-TITLE="Crank Arm Brewing":geo:35.775704,-78.6
+ 44275
+END:VEVENT
+BEGIN:VEVENT
 UID:r-stonewall-run-club-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -789,7 +713,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -808,7 +732,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -827,7 +751,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -846,7 +770,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -865,7 +789,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -884,7 +808,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -903,7 +827,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -922,7 +846,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -941,7 +865,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -960,7 +884,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-stonewall-run-club-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T183000
 DTEND;TZID=America/New_York:20261229T213000
 SUMMARY:Stonewall Run Club · Wolfe & Porter
@@ -979,7 +903,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="905 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T183000
 DTEND;TZID=America/New_York:20261118T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -998,7 +922,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T183000
 DTEND;TZID=America/New_York:20261125T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1017,7 +941,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T183000
 DTEND;TZID=America/New_York:20261202T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1036,7 +960,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T183000
 DTEND;TZID=America/New_York:20261209T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1055,7 +979,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T183000
 DTEND;TZID=America/New_York:20261216T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1074,7 +998,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1093,7 +1017,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-run-walk-club-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T183000
 DTEND;TZID=America/New_York:20261230T203000
 SUMMARY:Run/walk club · Raleigh Brewing
@@ -1112,7 +1036,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T180000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1131,7 +1055,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1150,7 +1074,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T180000
 DTEND;TZID=America/New_York:20261201T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1169,7 +1093,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1188,7 +1112,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1207,7 +1131,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T180000
 DTEND;TZID=America/New_York:20261222T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1226,7 +1150,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-taco-tuesday-ride-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T180000
 DTEND;TZID=America/New_York:20261229T200000
 SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
@@ -1244,8 +1168,27 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
  78.686029
 END:VEVENT
 BEGIN:VEVENT
+UID:r-taco-tuesday-ride-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T180000
+DTEND;TZID=America/New_York:20270105T200000
+SUMMARY:Taco Tuesday bike ride · Raleigh Brewing
+LOCATION:Raleigh Brewing Company\, 3709 Neil St\, Raleigh\, NC 27607
+DESCRIPTION:Weekly group road ride in three pace groups\, then tacos and be
+ er at the brewery.\n\nCheck-in and rollout at 6pm. Pace groups: A about 20
+  mph\, B social 13-15 mph\, C beginner-friendly 12-13 mph.\n\nHow to join:
+  Just show up\; RSVP on Meetup is optional\n\nBefore you go: Check that ri
+ des continue through the winter. It's dark at rollout\, so bring front and
+  rear lights.\n\nhttps://www.meetup.com/raleigh-brewing-walk-cycle-run-tri
+ via-fun/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/raleigh-brewing-walk-cycle-run-trivia-fun/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC 
+ 27607";X-APPLE-RADIUS=70;X-TITLE="Raleigh Brewing Company":geo:35.793005,-
+ 78.686029
+END:VEVENT
+BEGIN:VEVENT
 UID:r-pony-run-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T180000
 DTEND;TZID=America/New_York:20261119T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -1260,7 +1203,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T180000
 DTEND;TZID=America/New_York:20261203T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -1275,7 +1218,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T180000
 DTEND;TZID=America/New_York:20261210T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -1290,7 +1233,7 @@ URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pony-run-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Pony Run · Ponysaurus Brewing
@@ -1304,25 +1247,8 @@ DESCRIPTION:Weekly group run from the Ponysaurus taproom\, part of Fleet Fe
 URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
 END:VEVENT
 BEGIN:VEVENT
-UID:r-latinos-run-raleigh-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T183000
-DTEND;TZID=America/New_York:20261116T203000
-SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
-LOCATION:Fleet Feet Ridgewood\, 3524 Wade Ave\, Raleigh\, NC
-DESCRIPTION:Weekly community run club that starts from Fleet Feet's Ridgewo
- od store on Wade Ave. One of the few Monday options.\n\nHow to join: Just 
- show up\n\nBefore you go: Check with the group about routes and paces befo
- re your first run.\n\nhttps://fleetfeet.com/s/raleigh/events/pub-runs-run-
- clubs\n\nListed on Same Time Next Week.
-URL:https://fleetfeet.com/s/raleigh/events/pub-runs-run-clubs
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
- ";X-APPLE-RADIUS=70;X-TITLE="Fleet Feet Ridgewood":geo:35.801245,-78.68471
- 6
-END:VEVENT
-BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1339,7 +1265,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1356,7 +1282,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1373,7 +1299,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1390,7 +1316,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1407,7 +1333,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T183000
 DTEND;TZID=America/New_York:20261228T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1424,7 +1350,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-latinos-run-raleigh-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T203000
 SUMMARY:Latinos Run Raleigh · Fleet Feet Ridgewood
@@ -1440,141 +1366,26 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3524 Wade Ave, Raleigh, NC
  6
 END:VEVENT
 BEGIN:VEVENT
-UID:r-breakfast-club-run-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T063000
-DTEND;TZID=America/New_York:20261121T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261128T063000
-DTEND;TZID=America/New_York:20261128T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T063000
-DTEND;TZID=America/New_York:20261205T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261212T063000
-DTEND;TZID=America/New_York:20261212T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261219T063000
-DTEND;TZID=America/New_York:20261219T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20261226@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261226T063000
-DTEND;TZID=America/New_York:20261226T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
-END:VEVENT
-BEGIN:VEVENT
-UID:r-breakfast-club-run-20270102@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20270102T063000
-DTEND;TZID=America/New_York:20270102T083000
-SUMMARY:Breakfast Club long run · Jubala Coffee
-LOCATION:Jubala Coffee\, 301 Hillsborough St\, Ste 120\, Raleigh\, NC
-DESCRIPTION:Very active downtown running group whose Saturday long run ends
-  with a group breakfast.\n\n6-10+ miles with pace groups from sub-7 to 10+
-  min/mile\, then coffee or breakfast. The club also runs Tuesdays at 6am f
- rom Yellow Dog Bread Co. (219 E Franklin St).\n\nHow to join: RSVP on Meet
- up and show up\n\nBefore you go: Early start\; check Meetup for holiday we
- ekends.\n\nhttps://meetup.com/the-breakfast-club-runners\n\nListed on Same
-  Time Next Week.
-URL:https://meetup.com/the-breakfast-club-runners
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="301 Hillsborough St, Ste 1
- 20, Raleigh, NC";X-APPLE-RADIUS=70;X-TITLE="Jubala Coffee":geo:35.780473,-
- 78.643425
+UID:r-climbing-meetup-20261211@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T203000
+SUMMARY:Climbing meetup · Triangle Rock Club (Salvage Yard)
+LOCATION:Triangle Rock Club - Salvage Yard (location rotates)\, 2330 Salvag
+ e Yard Dr\, Raleigh\, NC 27604
+DESCRIPTION:Climbing group running since 2006. Beginners and people who can
+ 't belay yet are welcome\, and dinner afterward is part of the routine.\n\
+ nThe group rotates between Triangle Rock Club gyms each Friday: Dec 11 her
+ e at Salvage Yard (Nov 27 North Raleigh\, Dec 4 Morrisville). Optional gro
+ up dinner around 8:45pm.\n\nHow to join: RSVP on Meetup\n\nBefore you go: 
+ Later Raleigh Fridays aren't visible yet. Check the Meetup page each week.
+ \n\nhttps://www.meetup.com/raleighrockclimbing/\n\nListed on Same Time Nex
+ t Week.
+URL:https://www.meetup.com/raleighrockclimbing/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1592,7 +1403,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1610,7 +1421,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1628,7 +1439,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1646,7 +1457,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1664,7 +1475,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T190000
 DTEND;TZID=America/New_York:20261223T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1682,7 +1493,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-beer-garden-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T190000
 DTEND;TZID=America/New_York:20261230T210000
 SUMMARY:Trivia · Raleigh Beer Garden
@@ -1700,7 +1511,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="614 Glenwood Ave, Ste B, R
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -1717,7 +1528,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -1734,7 +1545,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -1751,7 +1562,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-raleigh-brewing-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Trivia · Raleigh Brewing
@@ -1768,7 +1579,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3709 Neil St, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1787,7 +1598,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1806,7 +1617,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1825,7 +1636,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1844,7 +1655,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1863,7 +1674,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1882,7 +1693,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-board-game-night-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T183000
 DTEND;TZID=America/New_York:20261229T220000
 SUMMARY:Taps and Tables board games · Trophy Brewing
@@ -1901,7 +1712,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="656 Maywood Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -1923,7 +1734,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -1945,7 +1756,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -1967,7 +1778,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -1989,7 +1800,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -2011,7 +1822,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -2033,7 +1844,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T180000
 DTEND;TZID=America/New_York:20261230T200000
 SUMMARY:Food Bank sort\, Wednesday evening · Raleigh branch
@@ -2055,7 +1866,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2076,7 +1887,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2097,7 +1908,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2118,7 +1929,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2139,7 +1950,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2160,7 +1971,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20261226@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261226T090000
 DTEND;TZID=America/New_York:20261226T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2181,7 +1992,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-2-20270102@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T113000
 SUMMARY:Food Bank sort\, Saturday morning · Raleigh branch
@@ -2202,7 +2013,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2224,7 +2035,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2246,7 +2057,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2268,7 +2079,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2290,7 +2101,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261126@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2312,7 +2123,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2334,7 +2145,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2356,7 +2167,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-meal-packing-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Holiday meal packing · Christ the King Presbyterian
@@ -2377,48 +2188,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1417 Clifton St, Raleigh,
  packing and distribution site)":geo:35.797105,-78.626713
 END:VEVENT
 BEGIN:VEVENT
-UID:r-science-cafe-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261119T190000
-DTEND;TZID=America/New_York:20261119T200000
-SUMMARY:Science Cafe · NC Museum of Natural Sciences
-LOCATION:NC Museum of Natural Sciences - Daily Planet Cafe\, 11 W Jones St\
- , Raleigh\, NC 27601
-DESCRIPTION:Monthly casual science talk and conversation with host Chris Sm
- ith and a guest expert\, held in the museum cafe after hours.\n\nThe Daily
-  Planet Cafe serves food 5–8pm.\n\nHow to join: Just show up\n\nBefore y
- ou go: Nov 19's topic is Sri Lanka's elephants. December to February topic
- s aren't posted yet\; check that the Dec 17 session is on.\n\nhttps://natu
- ralsciences.org/calendar/events/category/audience/adults/\n\nListed on Sam
- e Time Next Week.
-URL:https://naturalsciences.org/calendar/events/category/audience/adults/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="11 W Jones St, Raleigh, NC
-  27601";X-APPLE-RADIUS=70;X-TITLE="NC Museum of Natural Sciences - Daily P
- lanet Cafe":geo:35.782493,-78.639136
-END:VEVENT
-BEGIN:VEVENT
-UID:r-science-cafe-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261217T190000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Science Cafe · NC Museum of Natural Sciences
-LOCATION:NC Museum of Natural Sciences - Daily Planet Cafe\, 11 W Jones St\
- , Raleigh\, NC 27601
-DESCRIPTION:Monthly casual science talk and conversation with host Chris Sm
- ith and a guest expert\, held in the museum cafe after hours.\n\nThe Daily
-  Planet Cafe serves food 5–8pm.\n\nHow to join: Just show up\n\nBefore y
- ou go: Nov 19's topic is Sri Lanka's elephants. December to February topic
- s aren't posted yet\; check that the Dec 17 session is on.\n\nhttps://natu
- ralsciences.org/calendar/events/category/audience/adults/\n\nListed on Sam
- e Time Next Week.
-URL:https://naturalsciences.org/calendar/events/category/audience/adults/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="11 W Jones St, Raleigh, NC
-  27601";X-APPLE-RADIUS=70;X-TITLE="NC Museum of Natural Sciences - Daily P
- lanet Cafe":geo:35.782493,-78.639136
-END:VEVENT
-BEGIN:VEVENT
 UID:r-silent-book-club-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T200000
 SUMMARY:Silent Book Club · Oberlin Regional Library
@@ -2436,7 +2207,7 @@ URL:https://www.wake.gov/events/silent-book-club-oberlin-regional-library-1
 END:VEVENT
 BEGIN:VEVENT
 UID:r-comedyworx-intro-to-improv-20270109@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Intro to improv class · ComedyWorx
@@ -2455,7 +2226,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3801 Hillsborough St, Rale
 END:VEVENT
 BEGIN:VEVENT
 UID:r-comedyworx-intro-to-improv-20270111@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Intro to improv class · ComedyWorx
@@ -2474,7 +2245,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3801 Hillsborough St, Rale
 END:VEVENT
 BEGIN:VEVENT
 UID:r-skip-the-small-talk-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Skip the Small Talk · Crank Arm Brewing
@@ -2493,26 +2264,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="319 W Davie St, Raleigh, N
  44275
 END:VEVENT
 BEGIN:VEVENT
-UID:r-cross-stitch-workshop-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T130000
-DTEND;TZID=America/New_York:20261121T160000
-SUMMARY:Intro to cross stitch · Pullen Arts Center
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:A small one-afternoon workshop at the city's arts center where 
- you learn cross stitch alongside other beginners.\n\nHow to join: Register
-  through the City's WebTrac link on Pullen's Take a Class page\, or call 9
- 19-996-6126\n\nBefore you go: Registration for Pullen's winter 2027 classe
- s opens Dec 1.\n\nhttps://raleighnc.gov/arts/take-class-pullen-arts-center
- \n\nListed on Same Time Next Week.
-URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
 UID:r-screen-printing-workshop-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T100000
 DTEND;TZID=America/New_York:20261206T160000
 SUMMARY:Screen printing workshop · Pullen Arts Center
@@ -2530,166 +2283,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
  65467
 END:VEVENT
 BEGIN:VEVENT
-UID:r-snowman-hat-workshop-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T130000
-DTEND;TZID=America/New_York:20261205T160000
-SUMMARY:Snowman hat pottery · Pullen Arts Center (2 sessions)
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Make a whimsical clay tea light inspired by Frosty the Snowman'
- s hat\, building on day one and glazing on day two. Two sessions with the 
- same group give you a chance to reconnect.\n\nHow to join: Register online
-  in Raleigh RecLink (Pullen Arts Center\, activity # PUARPOTTERH57-001)\, 
- or call 919-996-6126.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/se
- arch.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&key
- wordoption=Match+One&display=Listing&search=yes&page=1&module=AR&showwitha
- vailable=No\n\nListed on Same Time Next Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-drawing-discovery-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261201T100000
-DTEND;TZID=America/New_York:20261201T113000
-SUMMARY:Drawing discovery · Pullen Arts Center (3 sessions)
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Try drawing tools from technical pencils to charcoal to ink\, w
- orking on oversized paper inspired by scrolls and visual storytelling. It'
- s a short morning series for all levels.\n\nHow to join: Register online i
- n Raleigh RecLink (Pullen Arts Center\, activity # PUARDRAW28-003)\, or ca
- ll 919-996-6126.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/search.
- html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordo
- ption=Match+One&display=Listing&search=yes&page=1&module=AR&showwithavaila
- ble=No\n\nListed on Same Time Next Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-screen-printing-with-waterco-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261129T100000
-DTEND;TZID=America/New_York:20261129T160000
-SUMMARY:Screen printing with watercolors · Pullen Arts Center
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Screen print hand-drawn designs on paper using Caran d'Ache cra
- yons and transparent inks\, including emulsion and registration techniques
- . You spend a full day in the print studio with fellow learners.\n\nSunday
-  10am–4pm\, one-day workshop. Ages 16+.\n\nHow to join: Register online 
- in Raleigh RecLink (Pullen Arts Center\, activity # PUARPRINT47-002)\, or 
- call 919-996-6126.\n\nBefore you go: Supply cost isn't posted. This is a d
- ifferent workshop from the Dec 6 screen printing workshop.\n\nhttps://ncra
- leighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&key
- word=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&
- search=yes&page=1&module=AR&showwithavailable=No\n\nListed on Same Time Ne
- xt Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-chunky-knit-scarves-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T130000
-DTEND;TZID=America/New_York:20261205T150000
-SUMMARY:Chunky knit scarves\, Saturday · Pullen Arts Center
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Hand-knit a cozy chunky scarf using just your hands and one bal
- l of chunky yarn. It's a quick\, social 2-hour session.\n\nSaturday 1–3p
- m\, one session. Ages 16+.\n\nHow to join: Register online in Raleigh RecL
- ink (Pullen Arts Center\, activity # PUARFIBER18-002)\, or call 919-996-61
- 26.\n\nBefore you go: Yarn cost isn't posted.\n\nhttps://ncraleighweb.myvs
- cloud.com/webtrac/web/search.html?Action=Start&SubAction=&keyword=&locatio
- n=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&search=yes&pa
- ge=1&module=AR&showwithavailable=No\n\nListed on Same Time Next Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-chunky-knit-scarves-2-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261215T180000
-DTEND;TZID=America/New_York:20261215T200000
-SUMMARY:Chunky knit scarves\, Tuesday · Pullen Arts Center
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Hand-knit a cozy chunky scarf using just your hands and one bal
- l of chunky yarn. It's an easy after-work way to meet other crafters.\n\nT
- uesday 6–8pm\, one session. Ages 16+.\n\nHow to join: Register online in
-  Raleigh RecLink (Pullen Arts Center\, activity # PUARFIBER18-003)\, or ca
- ll 919-996-6126.\n\nBefore you go: Yarn cost isn't posted.\n\nhttps://ncra
- leighweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&key
- word=&location=Pullen+Arts+Center&keywordoption=Match+One&display=Listing&
- search=yes&page=1&module=AR&showwithavailable=No\n\nListed on Same Time Ne
- xt Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-introduction-to-japanese-shi-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261203T130000
-DTEND;TZID=America/New_York:20261203T160000
-SUMMARY:Japanese shibori · Pullen Arts Center
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Fold and tie fabric to create deep indigo shibori patterns\, an
- d leave with your own dyed cloth. It's an afternoon workshop with a small 
- group.\n\nThursday 1–4pm\, one session. Ages 16+.\n\nHow to join: Regist
- er online in Raleigh RecLink (Pullen Arts Center\, activity # PUARFIBER25-
- 001)\, or call 919-996-6126.\n\nhttps://ncraleighweb.myvscloud.com/webtrac
- /web/search.html?Action=Start&SubAction=&keyword=&location=Pullen+Arts+Cen
- ter&keywordoption=Match+One&display=Listing&search=yes&page=1&module=AR&sh
- owwithavailable=No\n\nListed on Same Time Next Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
-UID:r-drawer-box-with-partitions-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261202T100000
-DTEND;TZID=America/New_York:20261202T130000
-SUMMARY:Drawer box · Pullen Arts Center (3 sessions)
-LOCATION:Pullen Arts Center\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Assemble a small drawer box with compartments and cover it in m
- arbled and patterned papers\, finished with a bead-and-button pull. It's a
-  relaxed daytime book-arts group.\n\nHow to join: Register online in Ralei
- gh RecLink (Pullen Arts Center\, activity # PUARBOOK41-001)\, or call 919-
- 996-6126.\n\nhttps://ncraleighweb.myvscloud.com/webtrac/web/search.html?Ac
- tion=Start&SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=M
- atch+One&display=Listing&search=yes&page=1&module=AR&showwithavailable=No\
- n\nListed on Same Time Next Week.
-URL:https://ncraleighweb.myvscloud.com/webtrac/web/search.html?Action=Start
- &SubAction=&keyword=&location=Pullen+Arts+Center&keywordoption=Match+One&d
- isplay=Listing&search=yes&page=1&module=AR&showwithavailable=No
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center":geo:35.782677,-78.6
- 65467
-END:VEVENT
-BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2706,7 +2301,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T090000
 DTEND;TZID=America/New_York:20261129T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2723,7 +2318,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T090000
 DTEND;TZID=America/New_York:20261206T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2740,7 +2335,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2757,7 +2352,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T090000
 DTEND;TZID=America/New_York:20261220T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2774,7 +2369,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261227T090000
 DTEND;TZID=America/New_York:20261227T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2791,7 +2386,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-java-jog-sunday-run-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T090000
 DTEND;TZID=America/New_York:20270103T100000
 SUMMARY:Java Jog Sunday run · The Bike Library
@@ -2808,7 +2403,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bike-library-open-mic-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T190000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Open mic · The Bike Library
@@ -2824,7 +2419,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bike-library-open-mic-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T190000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Open mic · The Bike Library
@@ -2840,7 +2435,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-spanish-night-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T180000
 DTEND;TZID=America/New_York:20261121T210000
 SUMMARY:Spanish night · The Bike Library
@@ -2853,7 +2448,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-spanish-night-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T180000
 DTEND;TZID=America/New_York:20261212T210000
 SUMMARY:Spanish night · The Bike Library
@@ -2866,7 +2461,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T070000
 DTEND;TZID=America/New_York:20261117T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2884,7 +2479,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T070000
 DTEND;TZID=America/New_York:20261124T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2902,7 +2497,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T070000
 DTEND;TZID=America/New_York:20261201T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2920,7 +2515,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T070000
 DTEND;TZID=America/New_York:20261208T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2938,7 +2533,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T070000
 DTEND;TZID=America/New_York:20261215T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2956,7 +2551,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T070000
 DTEND;TZID=America/New_York:20261222T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2974,7 +2569,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-espresso-express-ride-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T070000
 DTEND;TZID=America/New_York:20261229T083000
 SUMMARY:Espresso Express morning ride · The Bike Library
@@ -2991,8 +2586,26 @@ DESCRIPTION:A casual\, no-drop ride of 5–8 miles with a coffee stop\, hos
 URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
+UID:r-espresso-express-ride-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T070000
+DTEND;TZID=America/New_York:20270105T083000
+SUMMARY:Espresso Express morning ride · The Bike Library
+LOCATION:DuPont Circle\, Platform Raleigh Apartments (The Bike Library)\, 6
+ 00 W Cabarrus St\, Raleigh\, NC 27603
+DESCRIPTION:A casual\, no-drop ride of 5–8 miles with a coffee stop\, hos
+ ted by The Bike Library and billed as good for beginners. The coffee stop 
+ gives the group time to talk.\n\nHow to join: Bring a bike and a helmet an
+ d meet at DuPont Circle at Platform Raleigh Apartments by 7am.\n\nBefore y
+ ou go: The ride starts and ends at DuPont Circle in the Platform Raleigh a
+ partments\, where The Bike Library is. Check the events page if the weathe
+ r looks doubtful.\n\nhttps://thebikelibrary.com/events\n\nListed on Same T
+ ime Next Week.
+URL:https://thebikelibrary.com/events
+END:VEVENT
+BEGIN:VEVENT
 UID:r-craft-night-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Craft night · The Bike Library
@@ -3005,7 +2618,7 @@ URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-craft-night-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T183000
 DTEND;TZID=America/New_York:20261228T203000
 SUMMARY:Craft night · The Bike Library
@@ -3017,28 +2630,8 @@ DESCRIPTION:A bring-your-own-project craft night at a downtown bike shop an
 URL:https://thebikelibrary.com/events
 END:VEVENT
 BEGIN:VEVENT
-UID:r-fpc-pickleball-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T130000
-DTEND;TZID=America/New_York:20261116T150000
-SUMMARY:Pickleball · First Presbyterian Church
-LOCATION:First Presbyterian Church\, 112 S Salisbury St\, Raleigh\, NC 2760
- 1
-DESCRIPTION:Weekday-afternoon pickleball hosted by a downtown church\; no e
- xperience is required. It's a low-pressure way to meet people while learni
- ng the game.\n\nHow to join: Show up at 1pm on a Monday or Wednesday. To c
- onfirm where to go first\, call the church office at (919) 821-5750.\n\nBe
- fore you go: Call the church office at (919) 821-5750 to ask where to ente
- r and whether loaner paddles are available.\n\nhttps://fpcraleigh.org/even
- ts/\n\nListed on Same Time Next Week.
-URL:https://fpcraleigh.org/events/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
- h, NC 27601";X-APPLE-RADIUS=70;X-TITLE="First Presbyterian Church":geo:35.
- 779405,-78.640189
-END:VEVENT
-BEGIN:VEVENT
 UID:r-fpc-pickleball-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T130000
 DTEND;TZID=America/New_York:20261118T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3058,7 +2651,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T130000
 DTEND;TZID=America/New_York:20261123T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3078,7 +2671,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T130000
 DTEND;TZID=America/New_York:20261125T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3098,7 +2691,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T130000
 DTEND;TZID=America/New_York:20261130T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3118,7 +2711,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T130000
 DTEND;TZID=America/New_York:20261202T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3138,7 +2731,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T130000
 DTEND;TZID=America/New_York:20261207T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3158,7 +2751,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T130000
 DTEND;TZID=America/New_York:20261209T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3178,7 +2771,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T130000
 DTEND;TZID=America/New_York:20261214T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3198,7 +2791,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T130000
 DTEND;TZID=America/New_York:20261216T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3218,7 +2811,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T130000
 DTEND;TZID=America/New_York:20261221T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3238,7 +2831,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T130000
 DTEND;TZID=America/New_York:20261223T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3258,7 +2851,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T130000
 DTEND;TZID=America/New_York:20261228T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3278,7 +2871,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T130000
 DTEND;TZID=America/New_York:20261230T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3298,7 +2891,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-fpc-pickleball-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T130000
 DTEND;TZID=America/New_York:20270104T150000
 SUMMARY:Pickleball · First Presbyterian Church
@@ -3317,25 +2910,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="112 S Salisbury St, Raleig
  779405,-78.640189
 END:VEVENT
 BEGIN:VEVENT
-UID:r-pullen-registration-opens-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261201T053000
-DTEND;TZID=America/New_York:20261201T073000
-SUMMARY:Winter class registration opens · Pullen Arts Center
-LOCATION:Pullen Arts Center (online)\, 105 Pullen Rd\, Raleigh\, NC 27607
-DESCRIPTION:Online registration opens for Pullen Arts Center's January to A
- pril classes\, including pottery\, printmaking and jewelry. Popular classe
- s can fill quickly.\n\nHow to join: Register online through Raleigh RecLin
- k\, or call 919-996-6126 once the center opens.\n\nhttps://raleighnc.gov/a
- rts/take-class-pullen-arts-center\n\nListed on Same Time Next Week.
-URL:https://raleighnc.gov/arts/take-class-pullen-arts-center
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="105 Pullen Rd, Raleigh, NC
-  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Arts Center (online)":geo:35.782
- 677,-78.665467
-END:VEVENT
-BEGIN:VEVENT
 UID:r-food-sorting-shift-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T131500
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -3352,7 +2928,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T131500
 DTEND;TZID=America/New_York:20261129T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -3369,7 +2945,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T131500
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -3386,7 +2962,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T131500
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -3403,7 +2979,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-sorting-shift-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T131500
 DTEND;TZID=America/New_York:20261220T163000
 SUMMARY:Food sorting · Food 4 Thought
@@ -3420,7 +2996,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:r-friday-night-magic-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T223000
 SUMMARY:Friday Night Magic · Game Theory
@@ -3440,7 +3016,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5910 Duraleigh Rd #125, Ra
 END:VEVENT
 BEGIN:VEVENT
 UID:r-friday-night-magic-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T183000
 DTEND;TZID=America/New_York:20261204T223000
 SUMMARY:Friday Night Magic · Game Theory
@@ -3460,7 +3036,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5910 Duraleigh Rd #125, Ra
 END:VEVENT
 BEGIN:VEVENT
 UID:r-friday-night-magic-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T223000
 SUMMARY:Friday Night Magic · Game Theory
@@ -3480,7 +3056,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5910 Duraleigh Rd #125, Ra
 END:VEVENT
 BEGIN:VEVENT
 UID:r-friday-night-magic-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T183000
 DTEND;TZID=America/New_York:20261218T223000
 SUMMARY:Friday Night Magic · Game Theory
@@ -3500,7 +3076,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5910 Duraleigh Rd #125, Ra
 END:VEVENT
 BEGIN:VEVENT
 UID:r-game-night-lgbt-center-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T180000
 DTEND;TZID=America/New_York:20261211T210000
 SUMMARY:Game night · LGBT Center of Raleigh
@@ -3517,7 +3093,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="128 E Cabarrus St, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-folky-friday-song-circle-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T190000
 DTEND;TZID=America/New_York:20261211T210000
 SUMMARY:Folky Friday song circle · UU Fellowship of Raleigh
@@ -3535,7 +3111,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3313 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-coffee-house-open-mic-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T193000
 DTEND;TZID=America/New_York:20261120T213000
 SUMMARY:Coffee House open mic · UU Fellowship of Raleigh
@@ -3554,7 +3130,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3313 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-coffee-house-open-mic-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T193000
 DTEND;TZID=America/New_York:20261218T213000
 SUMMARY:Coffee House open mic · UU Fellowship of Raleigh
@@ -3573,7 +3149,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3313 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-improv-jam-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T190000
 DTEND;TZID=America/New_York:20261204T210000
 SUMMARY:Community improv jam · Leela Improv Theatre
@@ -3590,7 +3166,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="309 N Boylan Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-coffee-outside-ride-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T073000
 DTEND;TZID=America/New_York:20261204T100000
 SUMMARY:Coffee Outside ride · Oak City Cycling
@@ -3608,7 +3184,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="707 N Person St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-critical-mass-ride-20261127@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261127T190000
 DTEND;TZID=America/New_York:20261127T203000
 SUMMARY:Critical Mass group ride · NC State Memorial Belltower
@@ -3626,7 +3202,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2011 Hillsborough St, Rale
 END:VEVENT
 BEGIN:VEVENT
 UID:r-friday-game-night-quest-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T200000
 SUMMARY:Friday game night · Quest (Garner)
@@ -3634,10 +3210,27 @@ LOCATION:Quest Fellowship Church\, 5120 Raynor Rd\, Garner\, NC 27529
 DESCRIPTION:A big board game night\, usually 50 to 80 people\, with a libra
  ry of 200+ games and volunteers who teach them. Ages 16+\, or younger with
   a parent.\n\nDrop in any time after 6pm\; it runs until about midnight. I
- t meets about twice a month on Fridays\, and the next date after Nov 20 is
- n't posted yet.\n\nHow to join: Just show up (RSVP on Meetup if you like)\
- n\nhttps://www.meetup.com/game-nights-at-quest/\n\nListed on Same Time Nex
- t Week.
+ t meets about twice a month on Fridays\, and more dates are posted on Meet
+ up.\n\nHow to join: Just show up (RSVP on Meetup if you like)\n\nhttps://w
+ ww.meetup.com/game-nights-at-quest/\n\nListed on Same Time Next Week.
+URL:https://www.meetup.com/game-nights-at-quest/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5120 Raynor Rd, Garner, NC
+  27529";X-APPLE-RADIUS=70;X-TITLE="Quest Fellowship Church":geo:35.6821,-7
+ 8.550639
+END:VEVENT
+BEGIN:VEVENT
+UID:r-friday-game-night-quest-20261218@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
+SUMMARY:Friday game night · Quest (Garner)
+LOCATION:Quest Fellowship Church\, 5120 Raynor Rd\, Garner\, NC 27529
+DESCRIPTION:A big board game night\, usually 50 to 80 people\, with a libra
+ ry of 200+ games and volunteers who teach them. Ages 16+\, or younger with
+  a parent.\n\nDrop in any time after 6pm\; it runs until about midnight. I
+ t meets about twice a month on Fridays\, and more dates are posted on Meet
+ up.\n\nHow to join: Just show up (RSVP on Meetup if you like)\n\nhttps://w
+ ww.meetup.com/game-nights-at-quest/\n\nListed on Same Time Next Week.
 URL:https://www.meetup.com/game-nights-at-quest/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5120 Raynor Rd, Garner, NC
   27529";X-APPLE-RADIUS=70;X-TITLE="Quest Fellowship Church":geo:35.6821,-7
@@ -3645,7 +3238,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5120 Raynor Rd, Garner, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-international-folk-dancing-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T220000
 SUMMARY:International folk dancing · Glen Eden Pilot Park
@@ -3665,7 +3258,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1500 Glen Eden Dr, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-international-folk-dancing-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T183000
 DTEND;TZID=America/New_York:20261204T220000
 SUMMARY:International folk dancing · Glen Eden Pilot Park
@@ -3685,7 +3278,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1500 Glen Eden Dr, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-international-folk-dancing-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T220000
 SUMMARY:International folk dancing · Glen Eden Pilot Park
@@ -3705,7 +3298,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1500 Glen Eden Dr, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-international-folk-dancing-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T183000
 DTEND;TZID=America/New_York:20261218T220000
 SUMMARY:International folk dancing · Glen Eden Pilot Park
@@ -3725,7 +3318,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1500 Glen Eden Dr, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -3748,7 +3341,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-food-bank-sort-3-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T153000
 SUMMARY:Food Bank sort\, Friday afternoon · Raleigh branch
@@ -3771,7 +3364,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1924 Capital Blvd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T130000
 DTEND;TZID=America/New_York:20261120T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -3790,7 +3383,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T130000
 DTEND;TZID=America/New_York:20261211T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -3809,7 +3402,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-clothing-prep-shift-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T130000
 DTEND;TZID=America/New_York:20261218T160000
 SUMMARY:Clothing prep\, Friday afternoon · Note in the Pocket
@@ -3828,7 +3421,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4730 Hargrove Rd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T160000
 DTEND;TZID=America/New_York:20261218T214500
 SUMMARY:Holiday Express volunteer · Pullen Park
@@ -3848,7 +3441,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T153000
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Winterfaire volunteer · Moore Square
@@ -3870,7 +3463,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T164500
 DTEND;TZID=America/New_York:20261211T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -3889,7 +3482,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-christmas-store-volunteer-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T164500
 DTEND;TZID=America/New_York:20261218T190000
 SUMMARY:Christmas store volunteer · Loaves & Fishes Ministry
@@ -3908,7 +3501,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-feet-friendly-fridays-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:Beginner line dancing · John Chavis Community Center
@@ -3929,7 +3522,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="505 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:r-feet-friendly-fridays-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T183000
 DTEND;TZID=America/New_York:20261204T203000
 SUMMARY:Beginner line dancing · John Chavis Community Center
@@ -3950,7 +3543,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="505 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:r-candle-making-night-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T183000
 DTEND;TZID=America/New_York:20261204T200000
 SUMMARY:Candle making night · Brier Creek Community Center
@@ -3969,7 +3562,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="10810 Globe Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-ornament-making-night-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T183000
 DTEND;TZID=America/New_York:20261211T200000
 SUMMARY:Ornament making night · Kiwanis Community Center
@@ -3988,7 +3581,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2525 Noble Rd, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-wheel-throwing-class-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T180000
 DTEND;TZID=America/New_York:20261211T193000
 SUMMARY:Beginner wheel throwing · Klaystation
@@ -4006,7 +3599,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3516 Spring Forest Rd, Ral
 END:VEVENT
 BEGIN:VEVENT
 UID:r-bird-walk-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
 SUMMARY:Bird walk with Wake Audubon · NC Museum of Art park
@@ -4015,16 +3608,16 @@ LOCATION:North Carolina Museum of Art\, Museum Park\, 2110 Blue Ridge Rd\,
 DESCRIPTION:A guided morning bird walk through the museum's park\, led by W
  ake Audubon Society volunteers.\n\nSecond Saturday of each month.\n\nHow t
  o join: Free sign-up on the Wake Audubon Meetup page before the walk\n\nht
- tps://ncartmuseum.org/event/birding-with-wake-audubon-society-5/\n\nListed
-  on Same Time Next Week.
-URL:https://ncartmuseum.org/event/birding-with-wake-audubon-society-5/
+ tps://ncartmuseum.org/events/birding-with-wake-audubon-society/\n\nListed 
+ on Same Time Next Week.
+URL:https://ncartmuseum.org/events/birding-with-wake-audubon-society/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2110 Blue Ridge Rd, Raleig
  h, NC 27607";X-APPLE-RADIUS=70;X-TITLE="North Carolina Museum of Art, Muse
  um Park":geo:35.810012,-78.705538
 END:VEVENT
 BEGIN:VEVENT
 UID:r-potluck-and-games-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T173000
 DTEND;TZID=America/New_York:20261205T200000
 SUMMARY:Potluck\, games & song swap · UU Fellowship of Raleigh
@@ -4042,7 +3635,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3313 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-wheel-throwing-class-2-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T103000
 DTEND;TZID=America/New_York:20261128T120000
 SUMMARY:Beginner wheel throwing\, Saturday · Klaystation
@@ -4060,7 +3653,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3516 Spring Forest Rd, Ral
 END:VEVENT
 BEGIN:VEVENT
 UID:r-wheel-throwing-class-2-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T103000
 DTEND;TZID=America/New_York:20261205T120000
 SUMMARY:Beginner wheel throwing\, Saturday · Klaystation
@@ -4078,7 +3671,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3516 Spring Forest Rd, Ral
 END:VEVENT
 BEGIN:VEVENT
 UID:r-wheel-throwing-class-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T103000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Beginner wheel throwing\, Saturday · Klaystation
@@ -4096,7 +3689,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3516 Spring Forest Rd, Ral
 END:VEVENT
 BEGIN:VEVENT
 UID:r-mural-painting-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T100000
 DTEND;TZID=America/New_York:20261205T130000
 SUMMARY:Mural painting volunteer · Brentwood Park
@@ -4113,7 +3706,7 @@ URL:https://www.cervistech.com/acts/webreg/eventdetail.php?event_id=3380&or
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T160000
 DTEND;TZID=America/New_York:20261206T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -4132,7 +3725,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T160000
 DTEND;TZID=America/New_York:20261212T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -4151,7 +3744,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-express-volunteer-2-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T160000
 DTEND;TZID=America/New_York:20261213T214500
 SUMMARY:Holiday Express volunteer\, weekend · Pullen Park
@@ -4170,7 +3763,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T123000
 DTEND;TZID=America/New_York:20261206T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -4189,7 +3782,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-sensory-friendly-holiday-express-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T123000
 DTEND;TZID=America/New_York:20261213T163000
 SUMMARY:Sensory-friendly Holiday Express volunteer · Pullen Park
@@ -4208,7 +3801,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="520 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-invasive-plant-removal-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T120000
 SUMMARY:Invasive plant removal · Fallon Park
@@ -4226,7 +3819,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2601 Oxford Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-open-house-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T093000
 DTEND;TZID=America/New_York:20261212T123000
 SUMMARY:Holiday Open House volunteer · Mordecai Historic Park
@@ -4247,7 +3840,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1 Mimosa St, Raleigh, NC 2
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T140000
 DTEND;TZID=America/New_York:20261212T180000
 SUMMARY:Winterfaire volunteer\, Saturday · Moore Square
@@ -4267,26 +3860,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
  5
 END:VEVENT
 BEGIN:VEVENT
-UID:r-christmas-store-volunteer-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261212T084500
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Christmas store\, Saturday · Loaves & Fishes Ministry
-LOCATION:Loaves & Fishes Ministry\, 1745 N New Hope Rd\, Raleigh\, NC 27604
-DESCRIPTION:Help run the Pride for Parents Christmas Store\, a pop-up where
-  parents buy donated gifts for their kids at reduced prices. Volunteers gr
- eet shoppers\, restock\, help in the store and wrap gifts.\n\nHow to join:
-  Sign up for the Saturday\, Dec 12 shift on the store's Activate Good list
- ing (free account).\n\nhttps://volunteer.activategood.org/opportunities/SP
- 05is1u7q\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/opportunities/SP05is1u7q
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1745 N New Hope Rd, Raleig
- h, NC 27604";X-APPLE-RADIUS=70;X-TITLE="Loaves & Fishes Ministry":geo:35.8
- 05076,-78.564755
-END:VEVENT
-BEGIN:VEVENT
 UID:r-trail-work-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T133000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Trail work · Annie Louise Wilkerson Nature Preserve
@@ -4306,7 +3881,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5229 Awls Haven Dr, Raleig
 END:VEVENT
 BEGIN:VEVENT
 UID:r-winterfaire-volunteer-3-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T130000
 DTEND;TZID=America/New_York:20261213T170000
 SUMMARY:Winterfaire volunteer\, Sunday · Moore Square
@@ -4327,7 +3902,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="226 E Martin St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-holiday-party-volunteer-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T150000
 DTEND;TZID=America/New_York:20261220T180000
 SUMMARY:Holiday party volunteer · Worthdale Community Center
@@ -4346,7 +3921,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1001 Cooper Rd, Raleigh, N
 END:VEVENT
 BEGIN:VEVENT
 UID:r-open-mic-20270117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270117T180000
 DTEND;TZID=America/New_York:20270117T203000
 SUMMARY:Open mic · The Green Room (Theatre Raleigh)
@@ -4363,163 +3938,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3031 Barrow Dr, Raleigh, N
  5.866823,-78.58759
 END:VEVENT
 BEGIN:VEVENT
-UID:r-produce-giveaway-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261122T163000
-DTEND;TZID=America/New_York:20261122T183000
-SUMMARY:Share It! produce giveaway · Moore Square
-LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
-DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
- ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
- ck up what's left.\n\nEvening distribution shift that follows Food 4 Thoug
- ht's afternoon 'Sort it!' shift\; ages 18+.\n\nHow to join: Pick a Sunday 
- and sign up on Food 4 Thought's 'Share it!' timeslot through Activate Good
- 's volunteer portal (free account).\n\nhttps://volunteer.activategood.org/
- timeslots/uHy4omHr2n\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
-END:VEVENT
-BEGIN:VEVENT
-UID:r-produce-giveaway-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261129T163000
-DTEND;TZID=America/New_York:20261129T183000
-SUMMARY:Share It! produce giveaway · Moore Square
-LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
-DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
- ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
- ck up what's left.\n\nEvening distribution shift that follows Food 4 Thoug
- ht's afternoon 'Sort it!' shift\; ages 18+.\n\nHow to join: Pick a Sunday 
- and sign up on Food 4 Thought's 'Share it!' timeslot through Activate Good
- 's volunteer portal (free account).\n\nhttps://volunteer.activategood.org/
- timeslots/uHy4omHr2n\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
-END:VEVENT
-BEGIN:VEVENT
-UID:r-produce-giveaway-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261206T163000
-DTEND;TZID=America/New_York:20261206T183000
-SUMMARY:Share It! produce giveaway · Moore Square
-LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
-DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
- ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
- ck up what's left.\n\nEvening distribution shift that follows Food 4 Thoug
- ht's afternoon 'Sort it!' shift\; ages 18+.\n\nHow to join: Pick a Sunday 
- and sign up on Food 4 Thought's 'Share it!' timeslot through Activate Good
- 's volunteer portal (free account).\n\nhttps://volunteer.activategood.org/
- timeslots/uHy4omHr2n\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
-END:VEVENT
-BEGIN:VEVENT
-UID:r-produce-giveaway-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261213T163000
-DTEND;TZID=America/New_York:20261213T183000
-SUMMARY:Share It! produce giveaway · Moore Square
-LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
-DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
- ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
- ck up what's left.\n\nEvening distribution shift that follows Food 4 Thoug
- ht's afternoon 'Sort it!' shift\; ages 18+.\n\nHow to join: Pick a Sunday 
- and sign up on Food 4 Thought's 'Share it!' timeslot through Activate Good
- 's volunteer portal (free account).\n\nhttps://volunteer.activategood.org/
- timeslots/uHy4omHr2n\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
-END:VEVENT
-BEGIN:VEVENT
-UID:r-produce-giveaway-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261220T163000
-DTEND;TZID=America/New_York:20261220T183000
-SUMMARY:Share It! produce giveaway · Moore Square
-LOCATION:Moore Square\, Moore Square\, Raleigh\, NC 27601
-DESCRIPTION:Help Food 4 Thought load sorted produce\, set up the produce li
- ne in Moore Square and hand out fresh food to downtown neighbors\, then pa
- ck up what's left.\n\nEvening distribution shift that follows Food 4 Thoug
- ht's afternoon 'Sort it!' shift\; ages 18+.\n\nHow to join: Pick a Sunday 
- and sign up on Food 4 Thought's 'Share it!' timeslot through Activate Good
- 's volunteer portal (free account).\n\nhttps://volunteer.activategood.org/
- timeslots/uHy4omHr2n\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/uHy4omHr2n
-END:VEVENT
-BEGIN:VEVENT
-UID:r-cafe-shift-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261206T110000
-DTEND;TZID=America/New_York:20261206T140000
-SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
-LOCATION:A Place at the Table\, 300 W Hargett St\, Raleigh\, NC 27601
-DESCRIPTION:Help run downtown Raleigh's pay-what-you-can cafe: greet guests
- \, run food and drinks\, bus tables and wash dishes alongside regulars and
-  other volunteers.\n\n11am-2pm shift each date\; Dec 13 and Dec 20 also ha
- ve a 12-3pm shift\, and Dec 20 an 8-11am shift. Ages 15+.\n\nHow to join: 
- Sign up for a Sunday timeslot ('Community and Good Food for All!') on Acti
- vate Good's volunteer portal (free account).\n\nhttps://volunteer.activate
- good.org/timeslots/MmelKFTo6h\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/MmelKFTo6h
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
-  NC 27601";X-APPLE-RADIUS=70;X-TITLE="A Place at the Table":geo:35.778474,
- -78.643532
-END:VEVENT
-BEGIN:VEVENT
-UID:r-cafe-shift-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261213T110000
-DTEND;TZID=America/New_York:20261213T140000
-SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
-LOCATION:A Place at the Table\, 300 W Hargett St\, Raleigh\, NC 27601
-DESCRIPTION:Help run downtown Raleigh's pay-what-you-can cafe: greet guests
- \, run food and drinks\, bus tables and wash dishes alongside regulars and
-  other volunteers.\n\n11am-2pm shift each date\; Dec 13 and Dec 20 also ha
- ve a 12-3pm shift\, and Dec 20 an 8-11am shift. Ages 15+.\n\nHow to join: 
- Sign up for a Sunday timeslot ('Community and Good Food for All!') on Acti
- vate Good's volunteer portal (free account).\n\nhttps://volunteer.activate
- good.org/timeslots/MmelKFTo6h\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/MmelKFTo6h
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
-  NC 27601";X-APPLE-RADIUS=70;X-TITLE="A Place at the Table":geo:35.778474,
- -78.643532
-END:VEVENT
-BEGIN:VEVENT
-UID:r-cafe-shift-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261220T110000
-DTEND;TZID=America/New_York:20261220T140000
-SUMMARY:Pay-what-you-can cafe shift · A Place at the Table
-LOCATION:A Place at the Table\, 300 W Hargett St\, Raleigh\, NC 27601
-DESCRIPTION:Help run downtown Raleigh's pay-what-you-can cafe: greet guests
- \, run food and drinks\, bus tables and wash dishes alongside regulars and
-  other volunteers.\n\n11am-2pm shift each date\; Dec 13 and Dec 20 also ha
- ve a 12-3pm shift\, and Dec 20 an 8-11am shift. Ages 15+.\n\nHow to join: 
- Sign up for a Sunday timeslot ('Community and Good Food for All!') on Acti
- vate Good's volunteer portal (free account).\n\nhttps://volunteer.activate
- good.org/timeslots/MmelKFTo6h\n\nListed on Same Time Next Week.
-URL:https://volunteer.activategood.org/timeslots/MmelKFTo6h
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 W Hargett St, Raleigh,
-  NC 27601";X-APPLE-RADIUS=70;X-TITLE="A Place at the Table":geo:35.778474,
- -78.643532
-END:VEVENT
-BEGIN:VEVENT
-UID:r-go-club-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T180000
-DTEND;TZID=America/New_York:20261116T220000
-SUMMARY:Go club · Side Quest Game Lounge
-LOCATION:Side Quest Game Lounge + Bar\, 317 W Morgan St\, Suite 113\, Ralei
- gh\, NC 27601
-DESCRIPTION:Weekly casual Go games at a downtown game bar\, with players of
-  all levels. Boards and stones are provided and the hosts are used to teac
- hing beginners.\n\nEvery Monday\; come any time between 6 and 10\n\nHow to
-  join: Just show up\n\nhttps://www.trianglegoclub.org/games.htm\n\nListed 
- on Same Time Next Week.
-URL:https://www.trianglegoclub.org/games.htm
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
- , Raleigh, NC 27601";X-APPLE-RADIUS=70;X-TITLE="Side Quest Game Lounge + B
- ar":geo:35.779689,-78.643706
-END:VEVENT
-BEGIN:VEVENT
 UID:r-go-club-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4537,7 +3957,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4555,7 +3975,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4573,7 +3993,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4591,7 +4011,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4609,7 +4029,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T180000
 DTEND;TZID=America/New_York:20261228T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4627,7 +4047,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-go-club-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T180000
 DTEND;TZID=America/New_York:20270104T220000
 SUMMARY:Go club · Side Quest Game Lounge
@@ -4645,18 +4065,19 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 W Morgan St, Suite 113
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pullen-ballroom-dance-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T210000
 SUMMARY:Ballroom social dance · Pullen Park Community Center
 LOCATION:Pullen Park Community Center\, 408 Ashe Ave\, Raleigh\, NC 27607
 DESCRIPTION:Long-running community ballroom dance on a hardwood floor. No p
- artner needed\, and all skill levels are welcome.\n\nEvery Wednesday. 1st 
- and 3rd Wednesdays: DJ and lesson at 7:15. Other Wednesdays: live band\, n
- o lesson.\n\nHow to join: Just show up\n\nBefore you go: Check holiday sch
- edule\; Dec 2 is a special $15 Triangle Jazz Orchestra night\; check pulle
- ndance.org calendar\n\nhttps://sites.google.com/view/pullendance/home\n\nL
- isted on Same Time Next Week.
+ artner needed\, and all skill levels are welcome.\n\nEvery Wednesday\, rec
+ orded music\, 7 to 9pm. No lessons\, but newcomers are welcome and regular
+ s will show you a few steps. Dec 2: live Triangle Jazz Orchestra.\n\nHow t
+ o join: Just show up\n\nBefore you go: Check holiday schedule\; Dec 2 is a
+  special $15 Triangle Jazz Orchestra night\; check pullendance.org calenda
+ r\n\nhttps://sites.google.com/view/pullendance/home\n\nListed on Same Time
+  Next Week.
 URL:https://sites.google.com/view/pullendance/home
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC 
  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Park Community Center":geo:35.780
@@ -4664,18 +4085,19 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pullen-ballroom-dance-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Ballroom social dance · Pullen Park Community Center
 LOCATION:Pullen Park Community Center\, 408 Ashe Ave\, Raleigh\, NC 27607
 DESCRIPTION:Long-running community ballroom dance on a hardwood floor. No p
- artner needed\, and all skill levels are welcome.\n\nEvery Wednesday. 1st 
- and 3rd Wednesdays: DJ and lesson at 7:15. Other Wednesdays: live band\, n
- o lesson.\n\nHow to join: Just show up\n\nBefore you go: Check holiday sch
- edule\; Dec 2 is a special $15 Triangle Jazz Orchestra night\; check pulle
- ndance.org calendar\n\nhttps://sites.google.com/view/pullendance/home\n\nL
- isted on Same Time Next Week.
+ artner needed\, and all skill levels are welcome.\n\nEvery Wednesday\, rec
+ orded music\, 7 to 9pm. No lessons\, but newcomers are welcome and regular
+ s will show you a few steps. Dec 2: live Triangle Jazz Orchestra.\n\nHow t
+ o join: Just show up\n\nBefore you go: Check holiday schedule\; Dec 2 is a
+  special $15 Triangle Jazz Orchestra night\; check pullendance.org calenda
+ r\n\nhttps://sites.google.com/view/pullendance/home\n\nListed on Same Time
+  Next Week.
 URL:https://sites.google.com/view/pullendance/home
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC 
  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Park Community Center":geo:35.780
@@ -4683,18 +4105,19 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pullen-ballroom-dance-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T210000
 SUMMARY:Ballroom social dance · Pullen Park Community Center
 LOCATION:Pullen Park Community Center\, 408 Ashe Ave\, Raleigh\, NC 27607
 DESCRIPTION:Long-running community ballroom dance on a hardwood floor. No p
- artner needed\, and all skill levels are welcome.\n\nEvery Wednesday. 1st 
- and 3rd Wednesdays: DJ and lesson at 7:15. Other Wednesdays: live band\, n
- o lesson.\n\nHow to join: Just show up\n\nBefore you go: Check holiday sch
- edule\; Dec 2 is a special $15 Triangle Jazz Orchestra night\; check pulle
- ndance.org calendar\n\nhttps://sites.google.com/view/pullendance/home\n\nL
- isted on Same Time Next Week.
+ artner needed\, and all skill levels are welcome.\n\nEvery Wednesday\, rec
+ orded music\, 7 to 9pm. No lessons\, but newcomers are welcome and regular
+ s will show you a few steps. Dec 2: live Triangle Jazz Orchestra.\n\nHow t
+ o join: Just show up\n\nBefore you go: Check holiday schedule\; Dec 2 is a
+  special $15 Triangle Jazz Orchestra night\; check pullendance.org calenda
+ r\n\nhttps://sites.google.com/view/pullendance/home\n\nListed on Same Time
+  Next Week.
 URL:https://sites.google.com/view/pullendance/home
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC 
  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Park Community Center":geo:35.780
@@ -4702,18 +4125,19 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-pullen-ballroom-dance-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Ballroom social dance · Pullen Park Community Center
 LOCATION:Pullen Park Community Center\, 408 Ashe Ave\, Raleigh\, NC 27607
 DESCRIPTION:Long-running community ballroom dance on a hardwood floor. No p
- artner needed\, and all skill levels are welcome.\n\nEvery Wednesday. 1st 
- and 3rd Wednesdays: DJ and lesson at 7:15. Other Wednesdays: live band\, n
- o lesson.\n\nHow to join: Just show up\n\nBefore you go: Check holiday sch
- edule\; Dec 2 is a special $15 Triangle Jazz Orchestra night\; check pulle
- ndance.org calendar\n\nhttps://sites.google.com/view/pullendance/home\n\nL
- isted on Same Time Next Week.
+ artner needed\, and all skill levels are welcome.\n\nEvery Wednesday\, rec
+ orded music\, 7 to 9pm. No lessons\, but newcomers are welcome and regular
+ s will show you a few steps. Dec 2: live Triangle Jazz Orchestra.\n\nHow t
+ o join: Just show up\n\nBefore you go: Check holiday schedule\; Dec 2 is a
+  special $15 Triangle Jazz Orchestra night\; check pullendance.org calenda
+ r\n\nhttps://sites.google.com/view/pullendance/home\n\nListed on Same Time
+  Next Week.
 URL:https://sites.google.com/view/pullendance/home
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC 
  27607";X-APPLE-RADIUS=70;X-TITLE="Pullen Park Community Center":geo:35.780
@@ -4721,7 +4145,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="408 Ashe Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-poetry-open-mic-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T210000
 SUMMARY:Poetry open mic · Tap Yard
@@ -4738,7 +4162,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1610 Automotive Way, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-poetry-open-mic-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Poetry open mic · Tap Yard
@@ -4755,7 +4179,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1610 Automotive Way, Ralei
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drop-in-improv-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T210000
 SUMMARY:Drop-in improv class · Leela Improv Theatre
@@ -4772,7 +4196,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="309 N Boylan Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drop-in-improv-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Drop-in improv class · Leela Improv Theatre
@@ -4789,7 +4213,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="309 N Boylan Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drop-in-improv-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Drop-in improv class · Leela Improv Theatre
@@ -4806,7 +4230,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="309 N Boylan Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-drop-in-improv-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Drop-in improv class · Leela Improv Theatre
@@ -4823,7 +4247,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="309 N Boylan Ave, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-yoga-in-the-park-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T173000
 DTEND;TZID=America/New_York:20261123T183000
 SUMMARY:Yoga in the Park · Dix Park
@@ -4840,7 +4264,7 @@ URL:https://www.dixpark.org/event/yoga-park-0
 END:VEVENT
 BEGIN:VEVENT
 UID:r-yoga-in-the-park-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T173000
 DTEND;TZID=America/New_York:20261130T183000
 SUMMARY:Yoga in the Park · Dix Park
@@ -4857,7 +4281,7 @@ URL:https://www.dixpark.org/event/yoga-park-0
 END:VEVENT
 BEGIN:VEVENT
 UID:r-track-night-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Track night · Urban Run Club Raleigh
@@ -4873,10 +4297,10 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="505 MLK Jr Blvd, Raleigh,
  NC 27601";X-APPLE-RADIUS=70;X-TITLE="Chavis Park":geo:35.768126,-78.630052
 END:VEVENT
 BEGIN:VEVENT
-UID:r-track-night-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261125T180000
-DTEND;TZID=America/New_York:20261125T190000
+UID:r-track-night-20261202@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20261202T180000
+DTEND;TZID=America/New_York:20261202T190000
 SUMMARY:Track night · Urban Run Club Raleigh
 LOCATION:Chavis Park\, 505 MLK Jr Blvd\, Raleigh\, NC 27601
 DESCRIPTION:A midweek track session from the downtown nonprofit run club\, 
@@ -4891,7 +4315,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="505 MLK Jr Blvd, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T183000
 DTEND;TZID=America/New_York:20261118T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -4910,7 +4334,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T183000
 DTEND;TZID=America/New_York:20261125T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -4929,7 +4353,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T183000
 DTEND;TZID=America/New_York:20261202T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -4948,7 +4372,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T183000
 DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -4967,7 +4391,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T183000
 DTEND;TZID=America/New_York:20261216T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -4986,7 +4410,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -5005,7 +4429,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nacho-average-run-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T183000
 DTEND;TZID=America/New_York:20261230T193000
 SUMMARY:Nacho Average Run Club · Taco Bamba
@@ -5024,7 +4448,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3518 Wade Ave, Raleigh, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:r-ballroom-social-elks-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T150000
 DTEND;TZID=America/New_York:20261206T180000
 SUMMARY:Afternoon ballroom social · Raleigh Elks Lodge
@@ -5042,7 +4466,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-ballroom-social-elks-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T150000
 DTEND;TZID=America/New_York:20270103T180000
 SUMMARY:Afternoon ballroom social · Raleigh Elks Lodge
@@ -5060,7 +4484,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-country-dance-elks-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T150000
 DTEND;TZID=America/New_York:20261213T180000
 SUMMARY:Afternoon country dance · Raleigh Elks Lodge
@@ -5078,7 +4502,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5538 Lead Mine Rd, Raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-knit-and-crochet-garner-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T133000
 DTEND;TZID=America/New_York:20261213T150000
 SUMMARY:Knitting & crochet club · Southeast Regional Library
@@ -5096,28 +4520,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="908 7th Ave, Garner, NC 27
  -78.621844
 END:VEVENT
 BEGIN:VEVENT
-UID:r-nog-monday-run-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T180000
-DTEND;TZID=America/New_York:20261116T193000
-SUMMARY:Monday run club · The Bend Bar (nOG)
-LOCATION:The Bend Bar and State of Beer\, 849 W Morgan St\, Raleigh\, NC 27
- 603
-DESCRIPTION:Raleigh's long-running charity run club meets weekly\, with wal
- kers and runners of all abilities and beer\, food and trivia afterward.\n\
- nEvery Monday\; 3\, 4 or 5 mile routes\; arrive 15 min early on your first
-  night\n\nHow to join: Just show up\; sign a waiver on arrival\n\nBefore y
- ou go: Check holiday schedule\; recent-activity proof is thin (site page e
- dited Nov 11\, Instagram bio lists Monday 6PM)\n\nhttps://nogrunclub.com/m
- organ-street-run-club/\n\nListed on Same Time Next Week.
-URL:https://nogrunclub.com/morgan-street-run-club/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh, 
- NC 27603";X-APPLE-RADIUS=70;X-TITLE="The Bend Bar and State of Beer":geo:3
- 5.779847,-78.654724
-END:VEVENT
-BEGIN:VEVENT
 UID:r-nog-monday-run-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5137,7 +4541,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5157,7 +4561,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5177,7 +4581,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5197,7 +4601,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5217,7 +4621,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T180000
 DTEND;TZID=America/New_York:20261228T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5237,7 +4641,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
 END:VEVENT
 BEGIN:VEVENT
 UID:r-nog-monday-run-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T180000
 DTEND;TZID=America/New_York:20270104T193000
 SUMMARY:Monday run club · The Bend Bar (nOG)
@@ -5256,23 +4660,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="849 W Morgan St, Raleigh,
  5.779847,-78.654724
 END:VEVENT
 BEGIN:VEVENT
-UID:r-trivia-ponysaurus-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T190000
-DTEND;TZID=America/New_York:20261116T210000
-SUMMARY:Trivia night · Ponysaurus Raleigh
-LOCATION:Ponysaurus Brewing Co. Raleigh (Raleigh Iron Works)\, 2221 Iron Wo
- rks Dr\, Suite 100\, Raleigh\, NC 27604
-DESCRIPTION:Weekly live-hosted pub trivia at the brewery's Raleigh Iron Wor
- ks taproom. Teams answer on their phones and winners get beer prizes.\n\nE
- very Monday\, hosted by Geeks Who Drink\n\nHow to join: Just show up\n\nBe
- fore you go: Check holiday schedule\n\nhttps://ponysaurusbrewing.com/ralei
- gh\n\nListed on Same Time Next Week.
-URL:https://ponysaurusbrewing.com/raleigh
-END:VEVENT
-BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5287,7 +4676,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T190000
 DTEND;TZID=America/New_York:20261130T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5302,7 +4691,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5317,7 +4706,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T190000
 DTEND;TZID=America/New_York:20261214T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5332,7 +4721,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5347,7 +4736,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T190000
 DTEND;TZID=America/New_York:20261228T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5362,7 +4751,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-ponysaurus-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T190000
 DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Trivia night · Ponysaurus Raleigh
@@ -5377,7 +4766,7 @@ URL:https://ponysaurusbrewing.com/raleigh
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-noco-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T210000
 SUMMARY:Trivia night · NOCO Brews & Bites
@@ -5392,7 +4781,7 @@ URL:https://www.nocobrewsandbites.com/community-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-noco-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T210000
 SUMMARY:Trivia night · NOCO Brews & Bites
@@ -5407,7 +4796,7 @@ URL:https://www.nocobrewsandbites.com/community-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-noco-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Trivia night · NOCO Brews & Bites
@@ -5422,7 +4811,7 @@ URL:https://www.nocobrewsandbites.com/community-events
 END:VEVENT
 BEGIN:VEVENT
 UID:r-trivia-noco-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:Trivia night · NOCO Brews & Bites

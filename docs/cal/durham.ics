@@ -27,217 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:d-irish-jam-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T150000
-DTEND;TZID=America/New_York:20261121T170000
-SUMMARY:Irish music jam · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop (basement under Joe Van Gogh)\, 110
- 4 Broad St\, Suite C\, Durham\, NC 27705
-DESCRIPTION:Open Irish/Celtic tune jam twice a month at a community-minded 
- meadery\; players and listeners welcome. Twice-monthly rhythm means you se
- e the same musicians quickly.\n\n1st and 3rd Saturdays\n\nHow to join: Jus
- t show up with an instrument (or to listen)\n\nBefore you go: Check around
-  holidays\, especially Jan 2.\n\nhttps://www.moondogmeadery.com/events\n\n
- Listed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop 
- (basement under Joe Van Gogh)":geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-irish-jam-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T150000
-DTEND;TZID=America/New_York:20261205T170000
-SUMMARY:Irish music jam · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop (basement under Joe Van Gogh)\, 110
- 4 Broad St\, Suite C\, Durham\, NC 27705
-DESCRIPTION:Open Irish/Celtic tune jam twice a month at a community-minded 
- meadery\; players and listeners welcome. Twice-monthly rhythm means you se
- e the same musicians quickly.\n\n1st and 3rd Saturdays\n\nHow to join: Jus
- t show up with an instrument (or to listen)\n\nBefore you go: Check around
-  holidays\, especially Jan 2.\n\nhttps://www.moondogmeadery.com/events\n\n
- Listed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop 
- (basement under Joe Van Gogh)":geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-irish-jam-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261219T150000
-DTEND;TZID=America/New_York:20261219T170000
-SUMMARY:Irish music jam · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop (basement under Joe Van Gogh)\, 110
- 4 Broad St\, Suite C\, Durham\, NC 27705
-DESCRIPTION:Open Irish/Celtic tune jam twice a month at a community-minded 
- meadery\; players and listeners welcome. Twice-monthly rhythm means you se
- e the same musicians quickly.\n\n1st and 3rd Saturdays\n\nHow to join: Jus
- t show up with an instrument (or to listen)\n\nBefore you go: Check around
-  holidays\, especially Jan 2.\n\nhttps://www.moondogmeadery.com/events\n\n
- Listed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop 
- (basement under Joe Van Gogh)":geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-irish-jam-20270102@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20270102T150000
-DTEND;TZID=America/New_York:20270102T170000
-SUMMARY:Irish music jam · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop (basement under Joe Van Gogh)\, 110
- 4 Broad St\, Suite C\, Durham\, NC 27705
-DESCRIPTION:Open Irish/Celtic tune jam twice a month at a community-minded 
- meadery\; players and listeners welcome. Twice-monthly rhythm means you se
- e the same musicians quickly.\n\n1st and 3rd Saturdays\n\nHow to join: Jus
- t show up with an instrument (or to listen)\n\nBefore you go: Check around
-  holidays\, especially Jan 2.\n\nhttps://www.moondogmeadery.com/events\n\n
- Listed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop 
- (basement under Joe Van Gogh)":geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261122T183000
-DTEND;TZID=America/New_York:20261122T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261129T183000
-DTEND;TZID=America/New_York:20261129T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261206T183000
-DTEND;TZID=America/New_York:20261206T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261213T183000
-DTEND;TZID=America/New_York:20261213T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261220T183000
-DTEND;TZID=America/New_York:20261220T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261227T183000
-DTEND;TZID=America/New_York:20261227T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
-UID:d-open-mic-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20270103T183000
-DTEND;TZID=America/New_York:20270103T210000
-SUMMARY:Open mic · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Weekly open mic hosted by Deb Aronin: music\, comedy\, poetry\,
-  anything goes in a judgment-free\, dog-friendly room. Perform or just com
- e listen\; lots of repeat regulars.\n\nSign-up 6:30pm\, performances start
-  7pm\n\nHow to join: Just show up\; register at 6:30pm to perform\n\nBefor
- e you go: Confirm holiday Sundays (Dec 27).\n\nhttps://www.moondogmeadery.
- com/events\n\nListed on Same Time Next Week.
-URL:https://www.moondogmeadery.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
 UID:d-contra-dance-20261127@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261127T193000
 DTEND;TZID=America/New_York:20261127T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -259,7 +50,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-contra-dance-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T193000
 DTEND;TZID=America/New_York:20261218T230000
 SUMMARY:Contra dance · Reality Ministries
@@ -281,7 +72,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -301,7 +92,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="721 Broad St, Durham, NC 2
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -321,7 +112,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="721 Broad St, Durham, NC 2
 END:VEVENT
 BEGIN:VEVENT
 UID:d-modern-dance-class-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Modern dance\, back to basics · ADF Studios
@@ -340,65 +131,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="721 Broad St, Durham, NC 2
  ps Studios (2nd floor)":geo:36.00879,-78.919738
 END:VEVENT
 BEGIN:VEVENT
-UID:d-line-dancing-class-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T180000
-DTEND;TZID=America/New_York:20261116T193000
-SUMMARY:Line dancing class · Southwest Regional Library
-LOCATION:Southwest Regional Library (Durham County Library)\, 3605 Shannon 
- Rd\, Durham\, NC 27707
-DESCRIPTION:Free beginner line-dancing class teaching basic steps and chore
- ography\; fun\, low-pressure group setting.\n\nBeginner-friendly\; no regi
- stration\n\nHow to join: Just show up\; questions 919-560-8593\n\nBefore y
- ou go: Only November and December dates are posted. About 4 miles from dow
- ntown.\n\nhttps://durhamcountylibrary.libcal.com/event/16884725\n\nListed 
- on Same Time Next Week.
-URL:https://durhamcountylibrary.libcal.com/event/16884725
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
- C 27707";X-APPLE-RADIUS=70;X-TITLE="Southwest Regional Library (Durham Cou
- nty Library)":geo:35.959388,-78.954678
-END:VEVENT
-BEGIN:VEVENT
-UID:d-line-dancing-class-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261207T180000
-DTEND;TZID=America/New_York:20261207T193000
-SUMMARY:Line dancing class · Southwest Regional Library
-LOCATION:Southwest Regional Library (Durham County Library)\, 3605 Shannon 
- Rd\, Durham\, NC 27707
-DESCRIPTION:Free beginner line-dancing class teaching basic steps and chore
- ography\; fun\, low-pressure group setting.\n\nBeginner-friendly\; no regi
- stration\n\nHow to join: Just show up\; questions 919-560-8593\n\nBefore y
- ou go: Only November and December dates are posted. About 4 miles from dow
- ntown.\n\nhttps://durhamcountylibrary.libcal.com/event/16884725\n\nListed 
- on Same Time Next Week.
-URL:https://durhamcountylibrary.libcal.com/event/16884725
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
- C 27707";X-APPLE-RADIUS=70;X-TITLE="Southwest Regional Library (Durham Cou
- nty Library)":geo:35.959388,-78.954678
-END:VEVENT
-BEGIN:VEVENT
-UID:d-line-dancing-class-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261221T180000
-DTEND;TZID=America/New_York:20261221T193000
-SUMMARY:Line dancing class · Southwest Regional Library
-LOCATION:Southwest Regional Library (Durham County Library)\, 3605 Shannon 
- Rd\, Durham\, NC 27707
-DESCRIPTION:Free beginner line-dancing class teaching basic steps and chore
- ography\; fun\, low-pressure group setting.\n\nBeginner-friendly\; no regi
- stration\n\nHow to join: Just show up\; questions 919-560-8593\n\nBefore y
- ou go: Only November and December dates are posted. About 4 miles from dow
- ntown.\n\nhttps://durhamcountylibrary.libcal.com/event/16884725\n\nListed 
- on Same Time Next Week.
-URL:https://durhamcountylibrary.libcal.com/event/16884725
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
- C 27707";X-APPLE-RADIUS=70;X-TITLE="Southwest Regional Library (Durham Cou
- nty Library)":geo:35.959388,-78.954678
-END:VEVENT
-BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T180000
 DTEND;TZID=America/New_York:20261120T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -418,7 +152,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T180000
 DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -438,7 +172,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270115@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270115T180000
 DTEND;TZID=America/New_York:20270115T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -458,7 +192,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-third-friday-art-walk-20270219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T210000
 SUMMARY:Third Friday art walk · Downtown Durham
@@ -478,7 +212,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-draw-y-all-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T210000
 SUMMARY:Figure drawing (Draw Y'all) · The Fruit
@@ -496,7 +230,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="305 S Dillard St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-draw-y-all-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T190000
 DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Figure drawing (Draw Y'all) · The Fruit
@@ -514,7 +248,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="305 S Dillard St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270110@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270110T131500
 DTEND;TZID=America/New_York:20270110T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -533,7 +267,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270117T131500
 DTEND;TZID=America/New_York:20270117T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -552,7 +286,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270124T131500
 DTEND;TZID=America/New_York:20270124T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -571,7 +305,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270131@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270131T131500
 DTEND;TZID=America/New_York:20270131T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -590,7 +324,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270207T131500
 DTEND;TZID=America/New_York:20270207T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -609,7 +343,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270214T131500
 DTEND;TZID=America/New_York:20270214T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -628,7 +362,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-figure-drawing-dac-20270228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270228T131500
 DTEND;TZID=America/New_York:20270228T151500
 SUMMARY:Open figure drawing · Durham Arts Council
@@ -647,7 +381,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pottery-class-20270106@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Wheel\, Wednesday · Durham Arts Council (10 weeks)
@@ -668,43 +402,43 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Intro to wheel\, one day · Claymakers
 LOCATION:Claymakers\, 470 Salem St\, Durham\, NC 27703
 DESCRIPTION:One-day wheel sampler at Durham's long-running community clay s
  tudio\; its roughly 7-week classes include open-studio access.\n\nClass ti
- mes aren't listed yet.\n\nHow to join: Register on the Claymakers website\
- ; join their newsletter to hear when the next session opens\n\nBefore you 
- go: Spots are limited\, so register early. Winter 2027 dates aren't announ
- ced yet.\n\nhttps://www.claymakers.org/classes\n\nListed on Same Time Next
-  Week.
+ mes aren't listed yet.\n\nHow to join: Sold out. Join the waitlist on the 
+ Claymakers class page\, or join their newsletter for the next session\n\nB
+ efore you go: Spots are limited\, so register early. Winter 2027 dates are
+ n't announced yet.\n\nhttps://www.claymakers.org/classes\n\nListed on Same
+  Time Next Week.
 URL:https://www.claymakers.org/classes
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="470 Salem St, Durham, NC 2
  7703";X-APPLE-RADIUS=70;X-TITLE="Claymakers":geo:35.980271,-78.877919
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-pottery-wheel-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Intro to wheel\, one day · Claymakers
 LOCATION:Claymakers\, 470 Salem St\, Durham\, NC 27703
 DESCRIPTION:One-day wheel sampler at Durham's long-running community clay s
  tudio\; its roughly 7-week classes include open-studio access.\n\nClass ti
- mes aren't listed yet.\n\nHow to join: Register on the Claymakers website\
- ; join their newsletter to hear when the next session opens\n\nBefore you 
- go: Spots are limited\, so register early. Winter 2027 dates aren't announ
- ced yet.\n\nhttps://www.claymakers.org/classes\n\nListed on Same Time Next
-  Week.
+ mes aren't listed yet.\n\nHow to join: Sold out. Join the waitlist on the 
+ Claymakers class page\, or join their newsletter for the next session\n\nB
+ efore you go: Spots are limited\, so register early. Winter 2027 dates are
+ n't announced yet.\n\nhttps://www.claymakers.org/classes\n\nListed on Same
+  Time Next Week.
 URL:https://www.claymakers.org/classes
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="470 Salem St, Durham, NC 2
  7703";X-APPLE-RADIUS=70;X-TITLE="Claymakers":geo:35.980271,-78.877919
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T170000
 DTEND;TZID=America/New_York:20261210T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -721,7 +455,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-night-20270114@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270114T170000
 DTEND;TZID=America/New_York:20270114T190000
 SUMMARY:Community craft night · The Scrap Exchange
@@ -738,7 +472,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -756,7 +490,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T183000
 DTEND;TZID=America/New_York:20261124T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -774,7 +508,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T183000
 DTEND;TZID=America/New_York:20261201T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -792,7 +526,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T183000
 DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -810,7 +544,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -828,7 +562,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T183000
 DTEND;TZID=America/New_York:20261222T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -846,7 +580,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-craft-and-draft-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T183000
 DTEND;TZID=America/New_York:20261229T203000
 SUMMARY:Craft & Draft · Crank Arm Brewing
@@ -863,8 +597,26 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
  lding)":geo:35.999817,-78.904662
 END:VEVENT
 BEGIN:VEVENT
+UID:d-craft-and-draft-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T183000
+DTEND;TZID=America/New_York:20270105T203000
+SUMMARY:Craft & Draft · Crank Arm Brewing
+LOCATION:Crank Arm Brewing - Durham (Beckon Building)\, 620 Fernway Ave\, D
+ urham\, NC 27701
+DESCRIPTION:Weekly social crafting night for knitters\, crocheters\, cross-
+ stitchers and paper crafters at a downtown brewery.\n\nBring a work in pro
+ gress\n\nHow to join: Just show up\n\nBefore you go: Meets every Tuesday (
+ next Nov 17). Check holiday weeks.\n\nhttps://www.discoverdurham.com/event
+ s/craft-draft/\n\nListed on Same Time Next Week.
+URL:https://www.discoverdurham.com/events/craft-draft/
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
+ C 27701";X-APPLE-RADIUS=70;X-TITLE="Crank Arm Brewing - Durham (Beckon Bui
+ lding)":geo:35.999817,-78.904662
+END:VEVENT
+BEGIN:VEVENT
 UID:d-bull-city-run-club-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T180000
 DTEND;TZID=America/New_York:20261118T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -884,7 +636,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -904,7 +656,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T180000
 DTEND;TZID=America/New_York:20261202T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -924,7 +676,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T180000
 DTEND;TZID=America/New_York:20261209T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -944,7 +696,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -964,7 +716,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -984,7 +736,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-bull-city-run-club-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T180000
 DTEND;TZID=America/New_York:20261230T200000
 SUMMARY:Bull City Run Club · Bull City Running Co.
@@ -1004,7 +756,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T080000
 DTEND;TZID=America/New_York:20261121T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1022,7 +774,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T080000
 DTEND;TZID=America/New_York:20261128T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1040,7 +792,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T080000
 DTEND;TZID=America/New_York:20261205T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1058,7 +810,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T080000
 DTEND;TZID=America/New_York:20261212T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1076,7 +828,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261219T080000
 DTEND;TZID=America/New_York:20261219T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1094,7 +846,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20261226@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261226T080000
 DTEND;TZID=America/New_York:20261226T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1112,7 +864,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-saturday-group-run-20270102@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270102T080000
 DTEND;TZID=America/New_York:20270102T100000
 SUMMARY:Saturday morning run club · Bull City Running Co.
@@ -1129,26 +881,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="501 Washington St, Suite D
  ntown":geo:36.002168,-78.903493
 END:VEVENT
 BEGIN:VEVENT
-UID:d-crunk-run-club-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T183000
-DTEND;TZID=America/New_York:20261116T203000
-SUMMARY:cRUNk Run Club · Crank Arm Brewing
-LOCATION:Crank Arm Brewing - Durham\, 620 Fernway Ave\, Durham\, NC 27701
-DESCRIPTION:Free weekly downtown group run for all paces that ends back at 
- the brewery for social time.\n\n2-\, 3- or 5-mile routes\, then beer/socia
- l at the brewery\n\nHow to join: Just show up\n\nBefore you go: Check the 
- day with the brewery before you go: it's usually listed on Mondays\, but s
- ome listings say Tuesdays.\n\nhttps://www.discoverdurham.com/events/crunk-
- run-club/\n\nListed on Same Time Next Week.
-URL:https://www.discoverdurham.com/events/crunk-run-club/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
- C 27701";X-APPLE-RADIUS=70;X-TITLE="Crank Arm Brewing - Durham":geo:35.999
- 817,-78.904662
-END:VEVENT
-BEGIN:VEVENT
 UID:d-crunk-run-club-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1166,7 +900,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1184,7 +918,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1202,7 +936,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1220,7 +954,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1238,7 +972,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T183000
 DTEND;TZID=America/New_York:20261228T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1256,7 +990,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-crunk-run-club-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T203000
 SUMMARY:cRUNk Run Club · Crank Arm Brewing
@@ -1274,7 +1008,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="620 Fernway Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pride-climbing-night-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T210000
 SUMMARY:Pride climbing night · The Boulder Garden
@@ -1293,92 +1027,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="328 Roney St, Durham, NC 2
  262
 END:VEVENT
 BEGIN:VEVENT
-UID:d-trivia-fullsteam-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261119T193000
-DTEND;TZID=America/New_York:20261119T213000
-SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
-LOCATION:Fullsteam Public House\, American Tobacco Campus\, 320 Blackwell S
- t\, Suite 100\, Durham\, NC 27701
-DESCRIPTION:Pub trivia every Thursday\, hosted by Arturo\, in the Public Ho
- use at Fullsteam's American Tobacco Campus location downtown. New and retu
- rning players are both welcome\, and a quiz gives a table plenty to talk a
- bout.\n\nFour rounds\n\nHow to join: Show up before 7:30pm and get a table
-  in the Public House. Extra seating opens when there's room.\n\nBefore you
-  go: Nov 26 is Thanksgiving. Check Fullsteam's calendar to confirm that we
- ek's trivia.\n\nhttps://www.fullsteam.ag/event/trivia-with-arturo/2026-11-
- 19\n\nListed on Same Time Next Week.
-URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="320 Blackwell St, Suite 10
- 0, Durham, NC 27701";X-APPLE-RADIUS=70;X-TITLE="Fullsteam Public House, Am
- erican Tobacco Campus":geo:35.994402,-78.903178
-END:VEVENT
-BEGIN:VEVENT
-UID:d-trivia-fullsteam-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261203T193000
-DTEND;TZID=America/New_York:20261203T213000
-SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
-LOCATION:Fullsteam Public House\, American Tobacco Campus\, 320 Blackwell S
- t\, Suite 100\, Durham\, NC 27701
-DESCRIPTION:Pub trivia every Thursday\, hosted by Arturo\, in the Public Ho
- use at Fullsteam's American Tobacco Campus location downtown. New and retu
- rning players are both welcome\, and a quiz gives a table plenty to talk a
- bout.\n\nFour rounds\n\nHow to join: Show up before 7:30pm and get a table
-  in the Public House. Extra seating opens when there's room.\n\nBefore you
-  go: Nov 26 is Thanksgiving. Check Fullsteam's calendar to confirm that we
- ek's trivia.\n\nhttps://www.fullsteam.ag/event/trivia-with-arturo/2026-11-
- 19\n\nListed on Same Time Next Week.
-URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="320 Blackwell St, Suite 10
- 0, Durham, NC 27701";X-APPLE-RADIUS=70;X-TITLE="Fullsteam Public House, Am
- erican Tobacco Campus":geo:35.994402,-78.903178
-END:VEVENT
-BEGIN:VEVENT
-UID:d-trivia-fullsteam-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261210T193000
-DTEND;TZID=America/New_York:20261210T213000
-SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
-LOCATION:Fullsteam Public House\, American Tobacco Campus\, 320 Blackwell S
- t\, Suite 100\, Durham\, NC 27701
-DESCRIPTION:Pub trivia every Thursday\, hosted by Arturo\, in the Public Ho
- use at Fullsteam's American Tobacco Campus location downtown. New and retu
- rning players are both welcome\, and a quiz gives a table plenty to talk a
- bout.\n\nFour rounds\n\nHow to join: Show up before 7:30pm and get a table
-  in the Public House. Extra seating opens when there's room.\n\nBefore you
-  go: Nov 26 is Thanksgiving. Check Fullsteam's calendar to confirm that we
- ek's trivia.\n\nhttps://www.fullsteam.ag/event/trivia-with-arturo/2026-11-
- 19\n\nListed on Same Time Next Week.
-URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="320 Blackwell St, Suite 10
- 0, Durham, NC 27701";X-APPLE-RADIUS=70;X-TITLE="Fullsteam Public House, Am
- erican Tobacco Campus":geo:35.994402,-78.903178
-END:VEVENT
-BEGIN:VEVENT
-UID:d-trivia-fullsteam-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261217T193000
-DTEND;TZID=America/New_York:20261217T213000
-SUMMARY:Trivia · Fullsteam (American Tobacco Campus)
-LOCATION:Fullsteam Public House\, American Tobacco Campus\, 320 Blackwell S
- t\, Suite 100\, Durham\, NC 27701
-DESCRIPTION:Pub trivia every Thursday\, hosted by Arturo\, in the Public Ho
- use at Fullsteam's American Tobacco Campus location downtown. New and retu
- rning players are both welcome\, and a quiz gives a table plenty to talk a
- bout.\n\nFour rounds\n\nHow to join: Show up before 7:30pm and get a table
-  in the Public House. Extra seating opens when there's room.\n\nBefore you
-  go: Nov 26 is Thanksgiving. Check Fullsteam's calendar to confirm that we
- ek's trivia.\n\nhttps://www.fullsteam.ag/event/trivia-with-arturo/2026-11-
- 19\n\nListed on Same Time Next Week.
-URL:https://www.fullsteam.ag/event/trivia-with-arturo/2026-11-19
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="320 Blackwell St, Suite 10
- 0, Durham, NC 27701";X-APPLE-RADIUS=70;X-TITLE="Fullsteam Public House, Am
- erican Tobacco Campus":geo:35.994402,-78.903178
-END:VEVENT
-BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T200000
 DTEND;TZID=America/New_York:20261118T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1395,7 +1045,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T200000
 DTEND;TZID=America/New_York:20261125T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1412,7 +1062,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T200000
 DTEND;TZID=America/New_York:20261202T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1429,7 +1079,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T200000
 DTEND;TZID=America/New_York:20261209T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1446,7 +1096,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T200000
 DTEND;TZID=America/New_York:20261216T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1463,7 +1113,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T200000
 DTEND;TZID=America/New_York:20261223T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1480,7 +1130,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-bull-mccabe-s-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T200000
 DTEND;TZID=America/New_York:20261230T220000
 SUMMARY:Trivia · Bull McCabe's
@@ -1496,27 +1146,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="427 W Main St, Durham, NC
  78.904534
 END:VEVENT
 BEGIN:VEVENT
-UID:d-board-game-night-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T190000
-DTEND;TZID=America/New_York:20261116T230000
-SUMMARY:Board game night · Moon Dog Meadery
-LOCATION:Moon Dog Meadery & Bottle Shop\, 1104 Broad St\, Suite C\, Durham\
- , NC 27705
-DESCRIPTION:Twice-weekly open board game night with 350+ games\; hosts seat
-  newcomers into games\, so it's built for meeting people.\n\nHosted by the
-  Durham Geeks Meetup\n\nHow to join: Just show up\; Durham Geeks Meetup / 
- Facebook group / Discord\n\nBefore you go: Skips Thanksgiving (Nov 26). Ch
- eck the store's calendar around other holidays.\n\nhttps://www.meetup.com/
- durham-geeks\n\nListed on Same Time Next Week.
-URL:https://www.meetup.com/durham-geeks
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
- rham, NC 27705";X-APPLE-RADIUS=70;X-TITLE="Moon Dog Meadery & Bottle Shop"
- :geo:36.015476,-78.919191
-END:VEVENT
-BEGIN:VEVENT
 UID:d-board-game-night-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T190000
 DTEND;TZID=America/New_York:20261119T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1535,7 +1166,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T190000
 DTEND;TZID=America/New_York:20261123T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1554,7 +1185,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T190000
 DTEND;TZID=America/New_York:20261130T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1573,7 +1204,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T190000
 DTEND;TZID=America/New_York:20261203T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1592,7 +1223,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T190000
 DTEND;TZID=America/New_York:20261207T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1611,7 +1242,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T190000
 DTEND;TZID=America/New_York:20261210T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1630,7 +1261,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T190000
 DTEND;TZID=America/New_York:20261214T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1649,7 +1280,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T190000
 DTEND;TZID=America/New_York:20261217T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1668,7 +1299,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T190000
 DTEND;TZID=America/New_York:20261221T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1687,7 +1318,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T190000
 DTEND;TZID=America/New_York:20261228T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1706,7 +1337,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-game-night-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T190000
 DTEND;TZID=America/New_York:20270104T230000
 SUMMARY:Board game night · Moon Dog Meadery
@@ -1724,26 +1355,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
  :geo:36.015476,-78.919191
 END:VEVENT
 BEGIN:VEVENT
-UID:d-board-games-atomic-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T180000
-DTEND;TZID=America/New_York:20261116T223000
-SUMMARY:Board game night · Atomic Empire
-LOCATION:Atomic Empire\, 3400 Westgate Dr #14B\, Durham\, NC 27707
-DESCRIPTION:Weekly open board gaming at Durham's big game store.\n\nBring a
-  game or borrow from the demo shelf\n\nHow to join: Just show up\; check t
- he store Discord #weekly-events-digest\n\nBefore you go: Space can be limi
- ted when other events are on. About 4 miles southwest of downtown.\n\nhttp
- s://www.atomicempire.com/Store/Event/2664\n\nListed on Same Time Next Week
- .
-URL:https://www.atomicempire.com/Store/Event/2664
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
- ham, NC 27707";X-APPLE-RADIUS=70;X-TITLE="Atomic Empire":geo:35.966443,-78
- .961103
-END:VEVENT
-BEGIN:VEVENT
 UID:d-board-games-atomic-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T180000
 DTEND;TZID=America/New_York:20261123T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1761,7 +1374,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T180000
 DTEND;TZID=America/New_York:20261130T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1779,7 +1392,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T180000
 DTEND;TZID=America/New_York:20261207T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1797,7 +1410,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T180000
 DTEND;TZID=America/New_York:20261214T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1815,7 +1428,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T180000
 DTEND;TZID=America/New_York:20261221T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1833,7 +1446,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T180000
 DTEND;TZID=America/New_York:20261228T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1851,7 +1464,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-board-games-atomic-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T180000
 DTEND;TZID=America/New_York:20270104T223000
 SUMMARY:Board game night · Atomic Empire
@@ -1869,7 +1482,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr #14B, Dur
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T133000
 DTEND;TZID=America/New_York:20261121T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1888,7 +1501,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T133000
 DTEND;TZID=America/New_York:20261205T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1907,7 +1520,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-chess-club-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261219T133000
 DTEND;TZID=America/New_York:20261219T173000
 SUMMARY:Chess club · Durham Main Library
@@ -1926,7 +1539,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T090000
 DTEND;TZID=America/New_York:20261118T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1947,7 +1560,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T090000
 DTEND;TZID=America/New_York:20261119T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1968,7 +1581,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -1989,7 +1602,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T090000
 DTEND;TZID=America/New_York:20261121T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2010,7 +1623,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T090000
 DTEND;TZID=America/New_York:20261125T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2031,7 +1644,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T090000
 DTEND;TZID=America/New_York:20261128T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2052,7 +1665,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T090000
 DTEND;TZID=America/New_York:20261202T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2073,7 +1686,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T090000
 DTEND;TZID=America/New_York:20261203T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2094,7 +1707,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T090000
 DTEND;TZID=America/New_York:20261204T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2115,7 +1728,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2136,7 +1749,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T090000
 DTEND;TZID=America/New_York:20261209T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2157,7 +1770,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T090000
 DTEND;TZID=America/New_York:20261210T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2178,7 +1791,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T090000
 DTEND;TZID=America/New_York:20261211T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2199,7 +1812,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2220,7 +1833,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T090000
 DTEND;TZID=America/New_York:20261216T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2241,7 +1854,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T090000
 DTEND;TZID=America/New_York:20261217T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2262,7 +1875,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T090000
 DTEND;TZID=America/New_York:20261218T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2283,7 +1896,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2304,7 +1917,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T090000
 DTEND;TZID=America/New_York:20261223T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2325,7 +1938,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261226@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261226T090000
 DTEND;TZID=America/New_York:20261226T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2346,7 +1959,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T090000
 DTEND;TZID=America/New_York:20261230T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2367,7 +1980,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
 END:VEVENT
 BEGIN:VEVENT
 UID:d-food-bank-sort-20270102@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T113000
 SUMMARY:Food Bank sort · Durham branch
@@ -2387,28 +2000,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1607 Hamlin Rd, Building F
  ern NC - Durham Branch (new facility)":geo:36.055247,-78.857999
 END:VEVENT
 BEGIN:VEVENT
-UID:d-improv-jam-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261119T203000
-DTEND;TZID=America/New_York:20261119T213000
-SUMMARY:Free improv jam · Mettlesome
-LOCATION:Mettlesome (Golden Belt)\, 800 Taylor St\, Suite 9-156\, Durham\, 
- NC 27701
-DESCRIPTION:Free weekly improv jam: names go in a bucket and everyone gets 
- on stage\; beginner-friendly on-ramp to Mettlesome's community.\n\nHarold 
- Night show ($8) at 7:30pm\, just before the jam\n\nHow to join: Just show 
- up. Mettlesome's Improv 101 classes start in early January 2027 (registrat
- ion opens in early December).\n\nBefore you go: Only Nov 19 is posted righ
- t now. Later dates show up on Mettlesome's calendar as they're announced.\
- n\nhttps://thisismettlesome.com\n\nListed on Same Time Next Week.
-URL:https://thisismettlesome.com
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St, Suite 9-156
- , Durham, NC 27701";X-APPLE-RADIUS=70;X-TITLE="Mettlesome (Golden Belt)":g
- eo:35.991895,-78.889668
-END:VEVENT
-BEGIN:VEVENT
 UID:d-improv-games-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T130000
 DTEND;TZID=America/New_York:20261128T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2426,7 +2019,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T130000
 DTEND;TZID=America/New_York:20261212T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2444,7 +2037,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-improv-games-20261226@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261226T130000
 DTEND;TZID=America/New_York:20261226T150000
 SUMMARY:Improv jam · Moon Dog Meadery
@@ -2462,7 +2055,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270106@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2481,7 +2074,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270113@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270113T173000
 DTEND;TZID=America/New_York:20270113T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2500,7 +2093,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270120T173000
 DTEND;TZID=America/New_York:20270120T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2519,7 +2112,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270127@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270127T173000
 DTEND;TZID=America/New_York:20270127T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2538,7 +2131,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270203T173000
 DTEND;TZID=America/New_York:20270203T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2557,7 +2150,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270210T173000
 DTEND;TZID=America/New_York:20270210T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2576,7 +2169,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270217T173000
 DTEND;TZID=America/New_York:20270217T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2595,7 +2188,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-writing-group-20270224@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270224T173000
 DTEND;TZID=America/New_York:20270224T193000
 SUMMARY:Shut Up and Write! · Durham Main Library
@@ -2613,8 +2206,160 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham,
  oom #4347":geo:35.994988,-78.89725
 END:VEVENT
 BEGIN:VEVENT
+UID:d-writing-group-20270303@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270303T173000
+DTEND;TZID=America/New_York:20270303T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270310@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270310T173000
+DTEND;TZID=America/New_York:20270310T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270317@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270317T173000
+DTEND;TZID=America/New_York:20270317T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270324@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270324T173000
+DTEND;TZID=America/New_York:20270324T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270331@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270331T173000
+DTEND;TZID=America/New_York:20270331T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270407@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270407T173000
+DTEND;TZID=America/New_York:20270407T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270414@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270414T173000
+DTEND;TZID=America/New_York:20270414T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
+UID:d-writing-group-20270421@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270421T173000
+DTEND;TZID=America/New_York:20270421T193000
+SUMMARY:Shut Up and Write! · Durham Main Library
+LOCATION:Durham County Main Library\, Meeting Room #4347\, 300 N Roxboro St
+ \, Durham\, NC 27701
+DESCRIPTION:Weekly writing meetup: write together in focused sessions with 
+ the same group of writers.\n\nWeekly Jan 6-Apr 21\, 2027\n\nHow to join: R
+ egister on the library calendar (15 seats)\n\nBefore you go: Check the lib
+ rary calendar to see whether each session is in person or online.\n\nhttps
+ ://durhamcountylibrary.libcal.com/event/17789775\n\nListed on Same Time Ne
+ xt Week.
+URL:https://durhamcountylibrary.libcal.com/event/17789775
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
+ NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Main Library, Meeting R
+ oom #4347":geo:35.994988,-78.89725
+END:VEVENT
+BEGIN:VEVENT
 UID:d-spanish-conversation-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T173000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2632,7 +2377,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5826 Fayetteville Rd, Ste
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T173000
 DTEND;TZID=America/New_York:20261203T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2650,7 +2395,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5826 Fayetteville Rd, Ste
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T173000
 DTEND;TZID=America/New_York:20261210T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2668,7 +2413,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5826 Fayetteville Rd, Ste
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T173000
 DTEND;TZID=America/New_York:20261217T183000
 SUMMARY:Spanish conversation · Dulce Cafe
@@ -2685,28 +2430,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5826 Fayetteville Rd, Ste
  7,-78.929084
 END:VEVENT
 BEGIN:VEVENT
-UID:d-eno-river-workday-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T090000
-DTEND;TZID=America/New_York:20261121T120000
-SUMMARY:Invasive plant workday · Rocky Branch
-LOCATION:Rocky Branch Conservation Area\, 4708 Seterra Bend\, Durham\, NC 2
- 7712
-DESCRIPTION:Pull invasive privet with an Eno River Association crew. Workda
- ys come around about monthly\, so the same volunteers keep showing up.\n\n
- Privet removal at Rocky Branch\n\nHow to join: Register on the Eno River A
- ssociation's Eventbrite\, and join their volunteer email list for future d
- ates\n\nBefore you go: January and February workdays aren't posted yet.\n\
- nhttps://www.enoriver.org/events-on-the-eno/\n\nListed on Same Time Next W
- eek.
-URL:https://www.enoriver.org/events-on-the-eno/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4708 Seterra Bend, Durham,
-  NC 27712";X-APPLE-RADIUS=70;X-TITLE="Rocky Branch Conservation Area":geo:
- 36.080675,-78.883826
-END:VEVENT
-BEGIN:VEVENT
 UID:d-trail-crew-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T090000
 DTEND;TZID=America/New_York:20261205T140000
 SUMMARY:Trail crew · Eno River (Mountains-to-Sea Trail)
@@ -2726,7 +2451,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="317 Omega Rd, Durham, NC";
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T090000
 DTEND;TZID=America/New_York:20261122T110000
 SUMMARY:MLK Jr Parkway cleanup · Board of Elections lot
@@ -2746,7 +2471,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3825 S Roxboro St, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-litter-cleanup-2-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T090000
 DTEND;TZID=America/New_York:20261213T110000
 SUMMARY:MLK Jr Parkway cleanup · Lowe's parking lot
@@ -2763,25 +2488,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4402 Fayetteville St, Durh
  06178
 END:VEVENT
 BEGIN:VEVENT
-UID:d-fiber-arts-meetup-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261209T180000
-DTEND;TZID=America/New_York:20261209T200000
-SUMMARY:Stitch N Bitch · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Free monthly meetup for knitters\, crocheters and embroiderers 
- at the nonprofit creative reuse center. Bring a project and work alongside
-  other makers.\n\nHow to join: Just show up\n\nBefore you go: Check the De
- cember date before going.\n\nhttps://www.scrapexchange.org/workshops\n\nLi
- sted on Same Time Next Week.
-URL:https://www.scrapexchange.org/workshops
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
 UID:d-sewing-circle-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T170000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2797,7 +2505,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T170000
 DTEND;TZID=America/New_York:20261202T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2813,7 +2521,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-circle-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T170000
 DTEND;TZID=America/New_York:20261216T190000
 SUMMARY:Sewing circle · The Scrap Exchange
@@ -2828,24 +2536,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
  -78.927537
 END:VEVENT
 BEGIN:VEVENT
-UID:d-intro-to-bouldering-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T193000
-DTEND;TZID=America/New_York:20261116T210000
-SUMMARY:Intro to bouldering clinic · The Boulder Garden
-LOCATION:The Boulder Garden\, 328 Roney St\, Durham\, NC 27701
-DESCRIPTION:A beginner clinic at the downtown bouldering gym. A good first 
- step before going to climbing nights on your own.\n\nHow to join: Book on 
- The Boulder Garden's online class schedule\n\nBefore you go: Only the Nov 
- 16 clinic is posted so far. Check the gym's schedule for later dates.\n\nL
- isted on Same Time Next Week.
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="328 Roney St, Durham, NC 2
- 7701";X-APPLE-RADIUS=70;X-TITLE="The Boulder Garden":geo:35.999372,-78.902
- 262
-END:VEVENT
-BEGIN:VEVENT
 UID:d-quiet-volunteer-night-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T180000
 DTEND;TZID=America/New_York:20261125T200000
 SUMMARY:Low-distraction volunteer night · The Scrap Exchange
@@ -2862,7 +2554,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T080000
 DTEND;TZID=America/New_York:20261122T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2878,7 +2570,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T080000
 DTEND;TZID=America/New_York:20261129T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2894,7 +2586,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T080000
 DTEND;TZID=America/New_York:20261206T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2910,7 +2602,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T080000
 DTEND;TZID=America/New_York:20261213T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2926,7 +2618,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T080000
 DTEND;TZID=America/New_York:20261220T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2942,7 +2634,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261227T080000
 DTEND;TZID=America/New_York:20261227T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2958,7 +2650,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trail-run-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T080000
 DTEND;TZID=America/New_York:20270103T100000
 SUMMARY:Trail run · Bull City Running Co.
@@ -2974,7 +2666,7 @@ URL:https://bullcityrunning.com/events/runclub/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -2996,7 +2688,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261126@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261126T183000
 DTEND;TZID=America/New_York:20261126T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -3018,7 +2710,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -3040,7 +2732,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -3062,7 +2754,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-d-and-d-night-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T223000
 SUMMARY:D&D Adventurers League · Atomic Empire
@@ -3084,7 +2776,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3105,7 +2797,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261127@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3126,7 +2818,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3147,7 +2839,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3168,7 +2860,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-friday-night-magic-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Friday Night Magic · Atomic Empire
@@ -3188,26 +2880,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3400 Westgate Dr, Durham,
  03
 END:VEVENT
 BEGIN:VEVENT
-UID:d-bike-repair-clinic-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T090000
-DTEND;TZID=America/New_York:20261121T120000
-SUMMARY:Pop-up bike repair clinic · Durham Farmers' Market
-LOCATION:Durham Farmers' Market\, Durham Central Park\, 501 Foster St\, Dur
- ham\, NC 27701
-DESCRIPTION:A volunteer shift helping run a pop-up bike repair clinic at th
- e farmers' market. Working as a team in public is a natural way to meet pe
- ople.\n\nSat Nov 21\, 9am-12pm\, limited spots. A second clinic the same d
- ay at Crank Arm Durham (12-4pm) is full.\n\nHow to join: Sign up on the Bi
- ke Co-op's sign-up page\; spots are limited.\n\nBefore you go: Look for th
- e Durham Bike Co-op's tent at the market. If you're new to bike repair\, a
- sk the co-op whether beginners can help.\n\nhttps://durhambikecoop.corsizi
- o.com/\n\nListed on Same Time Next Week.
-URL:https://durhambikecoop.corsizio.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:d-climbing-meetup-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T183000
 DTEND;TZID=America/New_York:20261120T203000
 SUMMARY:Climbing meetup · Triangle Rock Club Durham
@@ -3215,66 +2889,23 @@ LOCATION:Triangle Rock Club - Durham\, 1010 Martin Luther King Jr Pkwy\, Su
  ite 400\, Durham\, NC
 DESCRIPTION:An all-levels climbing group\, running since 2006\, that meets 
  in the gym's roped area\, with optional dinner afterward. Roped climbing p
- airs you with a partner\, which makes meeting people easy.\n\nFri Nov 20 a
- t 6:30pm. The group climbs on Fridays and rotates among TRC gyms: Nov 13 S
- alvage Yard (Raleigh)\, Nov 20 Durham\, Nov 27 North Raleigh\, Dec 4 Morri
- sville. Later dates go up on Meetup each week.\n\nHow to join: RSVP on Mee
- tup. Check in at the TRC front desk\, then go to the roped area at the bac
- k of the gym. Dinner afterward is optional (venue TBD).\n\nBefore you go: 
- Only some of the group's events are posted\, so check Meetup for later Dur
- ham Fridays. The four-gym rotation suggests roughly every fourth Friday\, 
- but that isn't confirmed.\n\nhttps://www.meetup.com/raleighrockclimbing/\n
- \nListed on Same Time Next Week.
+ airs you with a partner\, which makes meeting people easy.\n\nThe group cl
+ imbs on Fridays and rotates among Triangle Rock Club gyms. The next Durham
+  date isn't posted yet.\n\nHow to join: RSVP on Meetup. Check in at the TR
+ C front desk\, then go to the roped area at the back of the gym. Dinner af
+ terward is optional (venue TBD).\n\nBefore you go: Only some of the group'
+ s events are posted\, so check Meetup for later Durham Fridays. The four-g
+ ym rotation suggests roughly every fourth Friday\, but that isn't confirme
+ d.\n\nhttps://www.meetup.com/raleighrockclimbing/\n\nListed on Same Time N
+ ext Week.
 URL:https://www.meetup.com/raleighrockclimbing/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
   Pkwy, Suite 400, Durham, NC";X-APPLE-RADIUS=70;X-TITLE="Triangle Rock Clu
  b - Durham":geo:35.948871,-78.92482
 END:VEVENT
 BEGIN:VEVENT
-UID:d-clay-cozy-winter-critters-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261120T183000
-DTEND;TZID=America/New_York:20261120T203000
-SUMMARY:One-day clay: cozy winter critters · Claymakers
-LOCATION:Claymakers (Sculpture & Handbuilding Studio)\, 470 Salem St\, Durh
- am\, NC 27703
-DESCRIPTION:Hand-sculpt a small winter animal\, such as a penguin\, bear or
-  fox. It's a relaxed evening at Durham's community clay studio\, working s
- ide by side with other beginners.\n\nFriday 6:30–8:30pm\, one 2-hour cla
- ss. Ages 18+.\n\nHow to join: Register on the Claymakers class page. Quest
- ions: (919) 530-8355.\n\nBefore you go: Nearly sold out\, so register soon
- .\n\nhttps://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw\n\nLi
- sted on Same Time Next Week.
-URL:https://claymakers.org/classes/p/pb39f54orcti6u70ktsh7fogkq9txw
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="470 Salem St, Durham, NC 2
- 7703";X-APPLE-RADIUS=70;X-TITLE="Claymakers (Sculpture & Handbuilding Stud
- io)":geo:35.980271,-78.877919
-END:VEVENT
-BEGIN:VEVENT
-UID:d-clay-winter-candleholders-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261121T183000
-DTEND;TZID=America/New_York:20261121T203000
-SUMMARY:One-day clay: winter candleholders · Claymakers
-LOCATION:Claymakers (Sculpture & Handbuilding Studio)\, 470 Salem St\, Durh
- am\, NC 27703
-DESCRIPTION:Start with a pinch pot and turn it into a winter-scene votive h
- older with textures\, seasonal decorations and small critters. It's a begi
- nner-friendly group class\, good for a solo night out or with a friend.\n\
- nSaturday 6:30–8:30pm\, one 2-hour class. Ages 18+.\n\nHow to join: Regi
- ster on the Claymakers class page. Questions: (919) 530-8355.\n\nBefore yo
- u go: Check availability on the class page\; there's a waitlist form if it
- 's full.\n\nhttps://claymakers.org/classes/p/one-day-clay-winter-scene-can
- dleholders-saturday-november-21\n\nListed on Same Time Next Week.
-URL:https://claymakers.org/classes/p/one-day-clay-winter-scene-candleholder
- s-saturday-november-21
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="470 Salem St, Durham, NC 2
- 7703";X-APPLE-RADIUS=70;X-TITLE="Claymakers (Sculpture & Handbuilding Stud
- io)":geo:35.980271,-78.877919
-END:VEVENT
-BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:Wheel\, Monday · Durham Arts Council (9 weeks)
@@ -3295,7 +2926,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-2-20270105@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Wheel\, Tuesday · Durham Arts Council (10 weeks)
@@ -3316,7 +2947,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-3-20270107@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270107T100000
 DTEND;TZID=America/New_York:20270107T123000
 SUMMARY:Wheel\, Thursday AM · Durham Arts Council (10 weeks)
@@ -3336,7 +2967,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-intermediate-wheel-4-20270107@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T210000
 SUMMARY:Wheel\, Thursday PM · Durham Arts Council (10 weeks)
@@ -3357,7 +2988,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-20270105@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270105T100000
 DTEND;TZID=America/New_York:20270105T123000
 SUMMARY:Hand-building\, Tue AM · Durham Arts Council (10 weeks)
@@ -3377,7 +3008,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-hand-building-101-2-20270106@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T210000
 SUMMARY:Hand-building\, Wed PM · Durham Arts Council (10 weeks)
@@ -3397,7 +3028,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sculptural-hand-building-20270105@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270105T183000
 DTEND;TZID=America/New_York:20270105T210000
 SUMMARY:Sculptural clay · Durham Arts Council (10 weeks)
@@ -3418,7 +3049,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -3440,7 +3071,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-wheel-throwing-crash-course-20270212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Wheel throwing crash course · Durham Arts Council
@@ -3462,7 +3093,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270115@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270115T183000
 DTEND;TZID=America/New_York:20270115T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -3482,7 +3113,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-planters-20270129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Ceramic planters · Durham Arts Council
@@ -3502,7 +3133,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270205T183000
 DTEND;TZID=America/New_York:20270205T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -3523,7 +3154,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-ceramic-face-mugs-20270219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270219T183000
 DTEND;TZID=America/New_York:20270219T203000
 SUMMARY:Ceramic face mugs · Durham Arts Council
@@ -3544,7 +3175,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-drawing-fundamentals-20270107@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Drawing fundamentals · Durham Arts Council (10 weeks)
@@ -3562,7 +3193,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-loose-watercolor-techniques-20270107@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270107T183000
 DTEND;TZID=America/New_York:20270107T203000
 SUMMARY:Loose watercolor · Durham Arts Council (6 weeks)
@@ -3581,7 +3212,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginning-watercolor-20270105@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270105T090000
 DTEND;TZID=America/New_York:20270105T120000
 SUMMARY:Beginning watercolor · Durham Arts Council (6 weeks)
@@ -3599,7 +3230,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-acrylic-painting-20270217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270217T180000
 DTEND;TZID=America/New_York:20270217T210000
 SUMMARY:Intro to acrylics · Durham Arts Council (4 weeks)
@@ -3618,7 +3249,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-winter-watercolor-botanicals-20270129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270129T183000
 DTEND;TZID=America/New_York:20270129T203000
 SUMMARY:Winter watercolor botanicals · Durham Arts Council
@@ -3637,7 +3268,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -3657,7 +3288,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-pet-portraits-in-acrylic-20270212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270212T180000
 DTEND;TZID=America/New_York:20270212T210000
 SUMMARY:Pet portraits in acrylic · Durham Arts Council
@@ -3677,7 +3308,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-linocut-i-intro-to-printmak-20270106@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T203000
 SUMMARY:Linocut I printmaking · Durham Arts Council (6 weeks)
@@ -3696,7 +3327,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-tree-of-life-copper-wrapped-20270122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270122T180000
 DTEND;TZID=America/New_York:20270122T210000
 SUMMARY:Tree of life copper pendant · Durham Arts Council
@@ -3715,7 +3346,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-garment-sewing-int-20270113@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
 SUMMARY:Beginner garment sewing · Durham Arts Council (6 weeks)
@@ -3734,7 +3365,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-beginner-crochet-20270107@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Beginner crochet · Durham Arts Council (8 weeks)
@@ -3752,7 +3383,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-macrame-wall-hanging-20270129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270129T180000
 DTEND;TZID=America/New_York:20270129T210000
 SUMMARY:Macrame wall hanging · Durham Arts Council
@@ -3770,7 +3401,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-silk-scarf-batik-20270108@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270108T180000
 DTEND;TZID=America/New_York:20270108T210000
 SUMMARY:Silk scarf batik · Durham Arts Council
@@ -3788,7 +3419,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sashiko-101-20270205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270205T180000
 DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Sashiko 101 · Durham Arts Council
@@ -3806,7 +3437,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-embroidery-basics-20270219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270219T180000
 DTEND;TZID=America/New_York:20270219T200000
 SUMMARY:Embroidery basics · Durham Arts Council
@@ -3824,44 +3455,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
  03792
 END:VEVENT
 BEGIN:VEVENT
-UID:d-beginning-knitting-workshop-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261117T180000
-DTEND;TZID=America/New_York:20261117T200000
-SUMMARY:Beginning knitting · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Learn to knit at Durham's creative reuse center. It's a small e
- vening workshop\, good for meeting fellow crafters.\n\nTuesday 6–8pm\, o
- ne-night workshop. Ages 16+ unless noted.\n\nHow to join: Book online on T
- he Scrap Exchange's booking page.\n\nBefore you go: No refunds within 48 h
- ours of the start.\n\nhttps://thescrapexchange.as.me/KnittingIntro\n\nList
- ed on Same Time Next Week.
-URL:https://thescrapexchange.as.me/KnittingIntro
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
-UID:d-faux-leather-long-stitch-jou-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261120T180000
-DTEND;TZID=America/New_York:20261120T200000
-SUMMARY:Faux leather journal workshop · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Hand-bind your own long-stitch journal with a faux leather cove
- r. It's a sociable Friday night bookbinding session.\n\nFriday 6–8pm\, o
- ne-night workshop. Ages 16+.\n\nHow to join: Book online on The Scrap Exch
- ange's booking page.\n\nBefore you go: No refunds within 48 hours of the s
- tart.\n\nhttps://thescrapexchange.as.me/LongStitchJournal\n\nListed on Sam
- e Time Next Week.
-URL:https://thescrapexchange.as.me/LongStitchJournal
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T110000
 DTEND;TZID=America/New_York:20261121T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -3880,7 +3475,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sewing-machine-basics-workshop-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T130000
 SUMMARY:Sewing machine basics · The Scrap Exchange
@@ -3899,7 +3494,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-reduction-printmaking-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T140000
 DTEND;TZID=America/New_York:20261122T170000
 SUMMARY:Intro to reduction printmaking · The Scrap Exchange
@@ -3917,7 +3512,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-intro-to-hand-embroidery-wor-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Intro to hand embroidery · The Scrap Exchange
@@ -3933,76 +3528,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
  -78.927537
 END:VEVENT
 BEGIN:VEVENT
-UID:d-scraps-to-sheets-handmade-p-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261205T110000
-DTEND;TZID=America/New_York:20261205T130000
-SUMMARY:Handmade papermaking · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Turn scrap materials into sheets of handmade paper. It's a hand
- s-on Saturday morning workshop with other makers.\n\nSaturday 11am–1pm\,
-  one-time workshop. Ages 16+.\n\nHow to join: Book online on The Scrap Exc
- hange's booking page.\n\nBefore you go: Materials aren't specified\, so ch
- eck the booking page.\n\nhttps://thescrapexchange.as.me/Papermaking\n\nLis
- ted on Same Time Next Week.
-URL:https://thescrapexchange.as.me/Papermaking
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
-UID:d-yay-you-re-gonna-crochet-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261208T180000
-DTEND;TZID=America/New_York:20261208T200000
-SUMMARY:Intro to crochet · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Learn your first crochet stitches with yarn and hooks provided.
-  It's a friendly small-group evening for new crafters.\n\nTuesday 6–8pm\
- , one-night workshop.\n\nHow to join: Book online on The Scrap Exchange's 
- booking page.\n\nhttps://thescrapexchange.as.me/IntroToCrochet\n\nListed o
- n Same Time Next Week.
-URL:https://thescrapexchange.as.me/IntroToCrochet
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
-UID:d-make-your-own-linocut-stamp-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261219T110000
-DTEND;TZID=America/New_York:20261219T130000
-SUMMARY:Linocut stamp making · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:Carve your own linocut stamp and print it on an upcycled item. 
- It's a beginner-friendly taste of printmaking.\n\nSaturday 11am–1pm\, on
- e-time workshop. Ages 16+.\n\nHow to join: Book online on The Scrap Exchan
- ge's booking page.\n\nhttps://thescrapexchange.as.me/Stamp\n\nListed on Sa
- me Time Next Week.
-URL:https://thescrapexchange.as.me/Stamp
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
-UID:d-sips-and-scribbles-adult-jour-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261219T140000
-DTEND;TZID=America/New_York:20261219T160000
-SUMMARY:Adult journaling party · The Scrap Exchange
-LOCATION:The Scrap Exchange\, 2050 Chapel Hill Rd\, Durham\, NC 27707
-DESCRIPTION:A social art-journaling party for adults. The party format make
- s it easy to talk with others at the table.\n\nSaturday 2–4pm. Ages 18+.
- \n\nHow to join: Book online on The Scrap Exchange's booking page.\n\nhttp
- s://thescrapexchange.as.me/Party\n\nListed on Same Time Next Week.
-URL:https://thescrapexchange.as.me/Party
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2050 Chapel Hill Rd, Durha
- m, NC 27707";X-APPLE-RADIUS=70;X-TITLE="The Scrap Exchange":geo:35.986733,
- -78.927537
-END:VEVENT
-BEGIN:VEVENT
 UID:d-fiction-book-club-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T183000
 DTEND;TZID=America/New_York:20261117T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -4022,7 +3549,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-fiction-book-club-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T183000
 DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Fiction book club · South Regional Library
@@ -4041,27 +3568,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
  onal Library (Adult Programming Room)":geo:35.903216,-78.888852
 END:VEVENT
 BEGIN:VEVENT
-UID:d-morning-knitting-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T093000
-DTEND;TZID=America/New_York:20261116T113000
-SUMMARY:Morning knitting · North Regional Library
-LOCATION:Durham County Library – North Regional Library (North Meeting Ro
- om)\, 221 Milton Rd\, Durham\, NC 27712
-DESCRIPTION:A Monday-morning social group for knitters\, crocheters and any
- one doing other handwork. Bring a project and chat while you work\; beginn
- ers can get tips from experienced crafters.\n\nHow to join: Drop in with w
- hatever project you're working on.\n\nBefore you go: On holiday weeks\, ch
- eck the library calendar to confirm it's meeting.\n\nhttps://durhamcountyl
- ibrary.libcal.com/event/15792181\n\nListed on Same Time Next Week.
-URL:https://durhamcountylibrary.libcal.com/event/15792181
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC 
- 27712";X-APPLE-RADIUS=70;X-TITLE="Durham County Library – North Regional
-  Library (North Meeting Room)":geo:36.089268,-78.913685
-END:VEVENT
-BEGIN:VEVENT
 UID:d-morning-knitting-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T093000
 DTEND;TZID=America/New_York:20261123T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4080,7 +3588,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T093000
 DTEND;TZID=America/New_York:20261130T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4099,7 +3607,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T093000
 DTEND;TZID=America/New_York:20261207T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4118,7 +3626,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T093000
 DTEND;TZID=America/New_York:20261214T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4137,7 +3645,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T093000
 DTEND;TZID=America/New_York:20261221T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4156,7 +3664,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T093000
 DTEND;TZID=America/New_York:20261228T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4175,7 +3683,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-knitting-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T093000
 DTEND;TZID=America/New_York:20270104T113000
 SUMMARY:Morning knitting · North Regional Library
@@ -4193,29 +3701,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
   Library (North Meeting Room)":geo:36.089268,-78.913685
 END:VEVENT
 BEGIN:VEVENT
-UID:d-library-taskmaster-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T180000
-DTEND;TZID=America/New_York:20261116T193000
-SUMMARY:Library Taskmaster (21+) · Durham Main Library
-LOCATION:Durham County Library – Main Library (Main Auditorium)\, 300 N R
- oxboro St\, Durham\, NC 27701
-DESCRIPTION:An adults-only library take on the comedy show Taskmaster: numb
- ers are drawn to pick contestants for five silly games of wit and creativi
- ty\, and the winners meet in a live final. Because players are drawn at ra
- ndom\, people who've never met end up playing together.\n\nHow to join: Re
- gister on the library's event page\, then arrive early. Seats are first co
- me\, first served.\n\nBefore you go: Ages 21+. Registration is required bu
- t doesn't hold a seat\, so arrive early.\n\nhttps://durhamcountylibrary.li
- bcal.com/event/17285805\n\nListed on Same Time Next Week.
-URL:https://durhamcountylibrary.libcal.com/event/17285805
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="300 N Roxboro St, Durham, 
- NC 27701";X-APPLE-RADIUS=70;X-TITLE="Durham County Library – Main Librar
- y (Main Auditorium)":geo:35.994988,-78.89725
-END:VEVENT
-BEGIN:VEVENT
 UID:d-dac-registration-opens-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T100000
 DTEND;TZID=America/New_York:20261204T120000
 SUMMARY:Winter class registration opens · Durham Arts Council
@@ -4232,7 +3719,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="120 Morris St, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-east-durham-food-help-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T183000
 SUMMARY:Food distribution · Communities in Partnership
@@ -4250,7 +3737,7 @@ URL:https://volunteer.activategood.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T183000
 DTEND;TZID=America/New_York:20261122T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4268,7 +3755,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T183000
 DTEND;TZID=America/New_York:20261129T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4286,7 +3773,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T183000
 DTEND;TZID=America/New_York:20261206T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4304,7 +3791,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T183000
 DTEND;TZID=America/New_York:20261213T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4322,7 +3809,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T183000
 DTEND;TZID=America/New_York:20261220T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4340,7 +3827,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261227T183000
 DTEND;TZID=America/New_York:20261227T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4358,7 +3845,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-sunday-salsa-social-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T183000
 DTEND;TZID=America/New_York:20270103T213000
 SUMMARY:Sunday salsa social · TDS Space
@@ -4376,7 +3863,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="2603 S Miami Blvd, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-clocktower-game-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T130000
 DTEND;TZID=America/New_York:20261213T160000
 SUMMARY:Blood on the Clocktower · Moon Dog Meadery
@@ -4394,7 +3881,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1104 Broad St, Suite C, Du
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T103000
 DTEND;TZID=America/New_York:20261117T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4411,7 +3898,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T103000
 DTEND;TZID=America/New_York:20261124T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4428,7 +3915,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T103000
 DTEND;TZID=America/New_York:20261201T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4445,7 +3932,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T103000
 DTEND;TZID=America/New_York:20261208T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4462,7 +3949,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T103000
 DTEND;TZID=America/New_York:20261215T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4479,7 +3966,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T103000
 DTEND;TZID=America/New_York:20261222T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4496,7 +3983,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-morning-crochet-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T103000
 DTEND;TZID=America/New_York:20261229T120000
 SUMMARY:Morning Crochet · North Regional Library
@@ -4512,8 +3999,25 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
  8.913685
 END:VEVENT
 BEGIN:VEVENT
+UID:d-morning-crochet-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T103000
+DTEND;TZID=America/New_York:20270105T120000
+SUMMARY:Morning Crochet · North Regional Library
+LOCATION:North Regional Library\, 221 Milton Rd\, Durham\, NC 27712
+DESCRIPTION:Drop-in crochet club at the library. Experienced crocheters and
+  beginners share tips and projects.\n\nEvery Tuesday morning\n\nHow to joi
+ n: Just show up with a project\n\nBefore you go: Check holiday schedule\n\
+ nhttps://durhamcountylibrary.libcal.com/event/16557108\n\nListed on Same T
+ ime Next Week.
+URL:https://durhamcountylibrary.libcal.com/event/16557108
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC 
+ 27712";X-APPLE-RADIUS=70;X-TITLE="North Regional Library":geo:36.089268,-7
+ 8.913685
+END:VEVENT
+BEGIN:VEVENT
 UID:d-english-country-dance-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T193000
 DTEND;TZID=America/New_York:20261118T213000
 SUMMARY:English country dance · Reality Center
@@ -4530,7 +4034,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T193000
 DTEND;TZID=America/New_York:20261125T213000
 SUMMARY:English country dance · Reality Center
@@ -4547,7 +4051,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T193000
 DTEND;TZID=America/New_York:20261202T213000
 SUMMARY:English country dance · Reality Center
@@ -4564,7 +4068,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T193000
 DTEND;TZID=America/New_York:20261209T213000
 SUMMARY:English country dance · Reality Center
@@ -4581,7 +4085,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T193000
 DTEND;TZID=America/New_York:20261216T213000
 SUMMARY:English country dance · Reality Center
@@ -4598,7 +4102,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T193000
 DTEND;TZID=America/New_York:20261223T213000
 SUMMARY:English country dance · Reality Center
@@ -4615,7 +4119,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-english-country-dance-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T193000
 DTEND;TZID=America/New_York:20261230T213000
 SUMMARY:English country dance · Reality Center
@@ -4632,7 +4136,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="916 Lamond Ave, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T120000
 DTEND;TZID=America/New_York:20261118T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4648,7 +4152,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T120000
 DTEND;TZID=America/New_York:20261125T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4664,7 +4168,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T120000
 DTEND;TZID=America/New_York:20261209T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4680,7 +4184,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T120000
 DTEND;TZID=America/New_York:20261216T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4696,7 +4200,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T120000
 DTEND;TZID=America/New_York:20261223T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4712,7 +4216,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-mahjong-north-regional-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T120000
 DTEND;TZID=America/New_York:20261230T150000
 SUMMARY:Learn to play mahjong · North Regional Library
@@ -4728,7 +4232,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-social-stitchers-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T140000
 DTEND;TZID=America/New_York:20261120T153000
 SUMMARY:Social Stitchers · Southwest Regional Library
@@ -4745,7 +4249,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-social-stitchers-20261204@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261204T140000
 DTEND;TZID=America/New_York:20261204T153000
 SUMMARY:Social Stitchers · Southwest Regional Library
@@ -4762,7 +4266,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-social-stitchers-20261211@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261211T140000
 DTEND;TZID=America/New_York:20261211T153000
 SUMMARY:Social Stitchers · Southwest Regional Library
@@ -4779,7 +4283,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-social-stitchers-20261218@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261218T140000
 DTEND;TZID=America/New_York:20261218T153000
 SUMMARY:Social Stitchers · Southwest Regional Library
@@ -4796,7 +4300,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3605 Shannon Rd, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-2-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T110000
 DTEND;TZID=America/New_York:20261121T123000
 SUMMARY:Spanish conversation · South Regional Library
@@ -4812,7 +4316,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-2-20261128@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261128T110000
 DTEND;TZID=America/New_York:20261128T123000
 SUMMARY:Spanish conversation · South Regional Library
@@ -4828,7 +4332,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-2-20261205@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261205T110000
 DTEND;TZID=America/New_York:20261205T123000
 SUMMARY:Spanish conversation · South Regional Library
@@ -4844,7 +4348,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-2-20261212@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261212T110000
 DTEND;TZID=America/New_York:20261212T123000
 SUMMARY:Spanish conversation · South Regional Library
@@ -4860,7 +4364,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-spanish-conversation-2-20261219@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261219T110000
 DTEND;TZID=America/New_York:20261219T123000
 SUMMARY:Spanish conversation · South Regional Library
@@ -4876,7 +4380,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4505 S Alston Ave, Durham,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-game-day-north-regional-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T140000
 DTEND;TZID=America/New_York:20261119T160000
 SUMMARY:Game Day for Grown-Ups · North Regional Library
@@ -4892,7 +4396,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-game-day-north-regional-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T140000
 DTEND;TZID=America/New_York:20261203T160000
 SUMMARY:Game Day for Grown-Ups · North Regional Library
@@ -4908,7 +4412,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
 END:VEVENT
 BEGIN:VEVENT
 UID:d-game-day-north-regional-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T140000
 DTEND;TZID=America/New_York:20261217T160000
 SUMMARY:Game Day for Grown-Ups · North Regional Library
@@ -4923,27 +4427,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="221 Milton Rd, Durham, NC
  8.913685
 END:VEVENT
 BEGIN:VEVENT
-UID:d-run-club-trc-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T183000
-DTEND;TZID=America/New_York:20261116T203000
-SUMMARY:Run club · Triangle Rock Club Durham
-LOCATION:Triangle Rock Club - Durham\, 1010 Martin Luther King Jr Pkwy\, Su
- ite 400\, Durham\, NC 27713
-DESCRIPTION:Weekly group run from a climbing gym out to the Third Fork Cree
- k greenways\, hosted by Fleet Feet. Runners of all paces\, and a chance to
-  stay and climb afterward.\n\nEvery Monday\, 3 or 5 mile routes\; optional
-  climbing after\n\nHow to join: Register free on Fleet Feet's page\, then 
- show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.fleetfeet.
- com/s/carrboro/happenings/the-pub-run\n\nListed on Same Time Next Week.
-URL:https://www.fleetfeet.com/s/carrboro/happenings/the-pub-run
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
-  Pkwy, Suite 400, Durham, NC 27713";X-APPLE-RADIUS=70;X-TITLE="Triangle Ro
- ck Club - Durham":geo:35.948871,-78.92482
-END:VEVENT
-BEGIN:VEVENT
 UID:d-run-club-trc-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -4962,7 +4447,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -4981,7 +4466,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -5000,7 +4485,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -5019,7 +4504,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -5038,7 +4523,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T183000
 DTEND;TZID=America/New_York:20261228T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -5057,7 +4542,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-run-club-trc-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T203000
 SUMMARY:Run club · Triangle Rock Club Durham
@@ -5076,7 +4561,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1010 Martin Luther King Jr
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T180000
 DTEND;TZID=America/New_York:20261117T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5094,7 +4579,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T180000
 DTEND;TZID=America/New_York:20261124T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5112,7 +4597,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T180000
 DTEND;TZID=America/New_York:20261201T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5130,7 +4615,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T180000
 DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5148,7 +4633,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5166,7 +4651,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T180000
 DTEND;TZID=America/New_York:20261222T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5184,7 +4669,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
 END:VEVENT
 BEGIN:VEVENT
 UID:d-glass-jog-run-club-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T180000
 DTEND;TZID=America/New_York:20261229T200000
 SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
@@ -5201,8 +4686,26 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
  35.890441,-78.896264
 END:VEVENT
 BEGIN:VEVENT
+UID:d-glass-jog-run-club-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T180000
+DTEND;TZID=America/New_York:20270105T200000
+SUMMARY:Glass Jog Run Club · Glass Jug Beer Lab
+LOCATION:The Glass Jug Beer Lab (RTP)\, 5410 NC-55\, Suite V\, Durham\, NC 
+ 27713
+DESCRIPTION:Weekly 2-mile walk or 5K jog that starts at a ballpark lot and 
+ ends in the brewery's beer garden. All paces\, strollers and dogs welcome.
+ \n\nWinter series\, Tuesdays\; meet at Parkwood Ballpark lot\n\nHow to joi
+ n: Just show up\n\nBefore you go: Check holiday schedule\n\nhttps://www.gl
+ ass-jug.com/events\n\nListed on Same Time Next Week.
+URL:https://www.glass-jug.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="5410 NC-55, Suite V, Durha
+ m, NC 27713";X-APPLE-RADIUS=70;X-TITLE="The Glass Jug Beer Lab (RTP)":geo:
+ 35.890441,-78.896264
+END:VEVENT
+BEGIN:VEVENT
 UID:d-latinos-and-latinas-run-20261119@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261119T183000
 DTEND;TZID=America/New_York:20261119T203000
 SUMMARY:Latinos & Latinas Run Club · Glass Jug Downtown
@@ -5216,7 +4719,7 @@ URL:https://www.glass-jug.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-latinos-and-latinas-run-20261203@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261203T183000
 DTEND;TZID=America/New_York:20261203T203000
 SUMMARY:Latinos & Latinas Run Club · Glass Jug Downtown
@@ -5230,7 +4733,7 @@ URL:https://www.glass-jug.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-latinos-and-latinas-run-20261210@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261210T183000
 DTEND;TZID=America/New_York:20261210T203000
 SUMMARY:Latinos & Latinas Run Club · Glass Jug Downtown
@@ -5244,7 +4747,7 @@ URL:https://www.glass-jug.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-latinos-and-latinas-run-20261217@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261217T183000
 DTEND;TZID=America/New_York:20261217T203000
 SUMMARY:Latinos & Latinas Run Club · Glass Jug Downtown
@@ -5258,7 +4761,7 @@ URL:https://www.glass-jug.com/events
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T080000
 DTEND;TZID=America/New_York:20261122T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5275,7 +4778,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261129@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261129T080000
 DTEND;TZID=America/New_York:20261129T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5292,7 +4795,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261206@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261206T080000
 DTEND;TZID=America/New_York:20261206T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5309,7 +4812,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261213@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261213T080000
 DTEND;TZID=America/New_York:20261213T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5326,7 +4829,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261220@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261220T080000
 DTEND;TZID=America/New_York:20261220T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5343,7 +4846,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20261227@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261227T080000
 DTEND;TZID=America/New_York:20261227T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5360,7 +4863,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-brunch-run-20270103@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270103T080000
 DTEND;TZID=America/New_York:20270103T093000
 SUMMARY:bRUNch run · Fleet Feet Durham 9th Street
@@ -5377,7 +4880,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="737 9th St, Durham, NC 277
 END:VEVENT
 BEGIN:VEVENT
 UID:d-invasive-plant-removal-20261127@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261127T100000
 DTEND;TZID=America/New_York:20261127T120000
 SUMMARY:Invasive plant removal · Briggs Ave Preserve
@@ -5394,25 +4897,8 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="1314 S Briggs Ave, Durham,
  ve":geo:35.968624,-78.877829
 END:VEVENT
 BEGIN:VEVENT
-UID:d-trivia-ponysaurus-20261116@same-time-next-week
-DTSTAMP:20261123T212939Z
-DTSTART;TZID=America/New_York:20261116T183000
-DTEND;TZID=America/New_York:20261116T203000
-SUMMARY:Trivia · Ponysaurus Brewing
-LOCATION:Ponysaurus Brewing Co.\, 219 Hood St\, Durham\, NC 27701
-DESCRIPTION:Weekly live-hosted trivia at a Durham pizzeria and beer garden.
-  Teams answer on their phones and play for beer prizes.\n\nEvery Monday\; 
- hosted by Geeks Who Drink\n\nHow to join: Just show up\n\nBefore you go: C
- heck holiday schedule\n\nhttps://ponysaurusbrewing.com/events\n\nListed on
-  Same Time Next Week.
-URL:https://ponysaurusbrewing.com/events
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
- 701";X-APPLE-RADIUS=70;X-TITLE="Ponysaurus Brewing Co.":geo:35.990123,-78.
- 893959
-END:VEVENT
-BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261123@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261123T183000
 DTEND;TZID=America/New_York:20261123T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5429,7 +4915,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261130@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261130T183000
 DTEND;TZID=America/New_York:20261130T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5446,7 +4932,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261207@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261207T183000
 DTEND;TZID=America/New_York:20261207T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5463,7 +4949,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261214@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261214T183000
 DTEND;TZID=America/New_York:20261214T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5480,7 +4966,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261221@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261221T183000
 DTEND;TZID=America/New_York:20261221T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5497,7 +4983,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20261228@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261228T183000
 DTEND;TZID=America/New_York:20261228T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5514,7 +5000,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-ponysaurus-20270104@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20270104T183000
 DTEND;TZID=America/New_York:20270104T203000
 SUMMARY:Trivia · Ponysaurus Brewing
@@ -5531,7 +5017,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="219 Hood St, Durham, NC 27
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T190000
 DTEND;TZID=America/New_York:20261117T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5547,7 +5033,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T190000
 DTEND;TZID=America/New_York:20261124T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5563,7 +5049,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T190000
 DTEND;TZID=America/New_York:20261201T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5579,7 +5065,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T190000
 DTEND;TZID=America/New_York:20261208T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5595,7 +5081,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5611,7 +5097,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5627,7 +5113,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-dssolvr-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T190000
 DTEND;TZID=America/New_York:20261229T210000
 SUMMARY:Trivia · DSSOLVR Durham
@@ -5642,8 +5128,24 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
  05
 END:VEVENT
 BEGIN:VEVENT
+UID:d-trivia-dssolvr-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:Trivia · DSSOLVR Durham
+LOCATION:DSSOLVR Durham\, 630 Rigsbee Ave\, Durham\, NC 27701
+DESCRIPTION:Weekly live-hosted trivia at a Durham taproom that is also dog 
+ friendly. Free to play.\n\nEvery Tuesday\; hosted by Hammered Trivia\n\nHo
+ w to join: Just show up\n\nBefore you go: Check holiday schedule\n\nhttps:
+ //dssolvr.com/events\n\nListed on Same Time Next Week.
+URL:https://dssolvr.com/events
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="630 Rigsbee Ave, Durham, N
+ C 27701";X-APPLE-RADIUS=70;X-TITLE="DSSOLVR Durham":geo:36.001266,-78.8999
+ 05
+END:VEVENT
+BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261117@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261117T190000
 DTEND;TZID=America/New_York:20261117T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5662,7 +5164,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261124@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261124T190000
 DTEND;TZID=America/New_York:20261124T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5681,7 +5183,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261201@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261201T190000
 DTEND;TZID=America/New_York:20261201T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5700,7 +5202,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261208@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261208T190000
 DTEND;TZID=America/New_York:20261208T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5719,7 +5221,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261215@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261215T190000
 DTEND;TZID=America/New_York:20261215T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5738,7 +5240,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261222@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261222T190000
 DTEND;TZID=America/New_York:20261222T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5757,7 +5259,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-gizmo-durham-20261229@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261229T190000
 DTEND;TZID=America/New_York:20261229T210000
 SUMMARY:Trivia · Gizmo Brew Works Durham
@@ -5775,8 +5277,27 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201,
  om":geo:35.968048,-78.955001
 END:VEVENT
 BEGIN:VEVENT
+UID:d-trivia-gizmo-durham-20270105@same-time-next-week
+DTSTAMP:20261124T151204Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:Trivia · Gizmo Brew Works Durham
+LOCATION:Gizmo Brew Works Durham Taproom\, 3109 Shannon Rd\, Ste 201\, Durh
+ am\, NC 27707
+DESCRIPTION:Weekly live-hosted trivia at the Durham taproom of Gizmo Brew W
+ orks. Free to play\, with beer and prizes.\n\nEvery Tuesday\; hosted by Ha
+ mmered Trivia\n\nHow to join: Just show up\n\nBefore you go: Check holiday
+  schedule. No dated trivia post seen yet\; confirm the weekly night is sti
+ ll running.\n\nhttps://www.gizmobrewworks.com/durham\n\nListed on Same Tim
+ e Next Week.
+URL:https://www.gizmobrewworks.com/durham
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="3109 Shannon Rd, Ste 201, 
+ Durham, NC 27707";X-APPLE-RADIUS=70;X-TITLE="Gizmo Brew Works Durham Tapro
+ om":geo:35.968048,-78.955001
+END:VEVENT
+BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261118@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261118T190000
 DTEND;TZID=America/New_York:20261118T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5792,7 +5313,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261125@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261125T190000
 DTEND;TZID=America/New_York:20261125T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5808,7 +5329,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261202@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261202T190000
 DTEND;TZID=America/New_York:20261202T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5824,7 +5345,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261209@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261209T190000
 DTEND;TZID=America/New_York:20261209T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5840,7 +5361,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261216@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261216T190000
 DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5856,7 +5377,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261223@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261223T190000
 DTEND;TZID=America/New_York:20261223T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5872,7 +5393,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-trivia-hi-wire-20261230@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261230T190000
 DTEND;TZID=America/New_York:20261230T210000
 SUMMARY:Trivia · Hi-Wire Brewing Durham
@@ -5888,7 +5409,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="800 Taylor St #9-150, Durh
 END:VEVENT
 BEGIN:VEVENT
 UID:d-invasive-removal-fri-20261120@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261120T150000
 DTEND;TZID=America/New_York:20261120T170000
 SUMMARY:Invasive plant removal · Old Chapel Hill Rd Park
@@ -5908,7 +5429,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4652 Old Chapel Hill Rd, D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-invasive-removal-sat-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T100000
 DTEND;TZID=America/New_York:20261121T120000
 SUMMARY:Invasive plant removal\, Saturday · Old Chapel Hill Rd Park
@@ -5928,7 +5449,7 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="4652 Old Chapel Hill Rd, D
 END:VEVENT
 BEGIN:VEVENT
 UID:d-boardwalk-workday-20261121@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261121T100000
 DTEND;TZID=America/New_York:20261121T130000
 SUMMARY:Boardwalk restoration · Sandy Creek Park
@@ -5944,7 +5465,7 @@ URL:https://keepdurhambeautiful.squarespace.com/events/2026/sandy-creek-par
 END:VEVENT
 BEGIN:VEVENT
 UID:d-invasive-removal-sun-20261122@same-time-next-week
-DTSTAMP:20261123T212939Z
+DTSTAMP:20261124T151204Z
 DTSTART;TZID=America/New_York:20261122T140000
 DTEND;TZID=America/New_York:20261122T163000
 SUMMARY:Invasive plant removal · Jewish for Good Community Center
